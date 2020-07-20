@@ -56,15 +56,15 @@ process_zip <- function(county, dates){
 }
 
 
-city_dates %>%
-  unlist() %>%
-  map_df(~ wrangle_zip(date = .x, county = 510)) %>%
-  rename(
-    cases = confirmed,
-    case_rate = confirmed_rate
-  ) %>%
-  mutate(zip = as.character(zip)) %>% 
-  mutate(
-    cases = ifelse(is.na(cases) == TRUE, NaN, cases),
-    case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate)
-  ) -> stl_city_covid
+# city_dates %>%
+#  unlist() %>%
+#  map_df(~ wrangle_zip(date = .x, county = 510)) %>%
+#  rename(
+#    cases = confirmed,
+#    case_rate = confirmed_rate
+#  ) %>%
+#  mutate(zip = as.character(zip)) %>% 
+#  mutate(
+#    cases = ifelse(is.na(cases) == TRUE, NaN, cases),
+#    case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate)
+#  ) -> stl_city_covid
