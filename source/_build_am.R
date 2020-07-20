@@ -22,14 +22,5 @@ source("source/workflow/02_create_state_msa.R")
 source("source/workflow/03_add_rates.R")
 source("source/workflow/04_create_spatial.R")
 
-# update README
-# rmarkdown::render(input = "README.Rmd",
-#                  params = list(
-#                    date_val = as.character(date)
-#                  ))
-
-# delete README.html
-# fs::file_delete("README.html")
-
 # clean-up
 rm(date)
