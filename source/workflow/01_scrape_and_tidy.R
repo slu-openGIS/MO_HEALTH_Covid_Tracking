@@ -85,10 +85,10 @@ county_data %>%
   mutate(
     case_avg = rollmean(new_cases, k = 7, align = "right", fill = NA),
     deaths_avg = rollmean(new_deaths, k = 7, align = "right", fill = NA)) %>%
-  select(report_date, geoid, county, state, 
+  select(report_date, geoid, county, state,
          cases, new_cases, case_avg,
          deaths, new_deaths, deaths_avg) -> county_data
 
 # clean-up
-rm(counties, times_dates, get_hopkins, get_times, 
+rm(counties, times_dates, get_hopkins, get_times,
    historic_expand, times_raw, times_data) # hopkins_data, hopkins_dates
