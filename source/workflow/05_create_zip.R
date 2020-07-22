@@ -12,18 +12,7 @@ city_dates_b <- seq(as.Date("2020-05-20"), date, by="days")
 city_dates <- c(city_dates_a, city_dates_b)
 
 # load zip data
-city_dates %>%
-  unlist() %>%
-  map_df(~ wrangle_zip(date = .x, county = 510)) %>%
-  rename(
-    cases = confirmed,
-    case_rate = confirmed_rate
-  ) %>%
-  mutate(zip = as.character(zip)) %>% 
-  mutate(
-    cases = ifelse(is.na(cases) == TRUE, NaN, cases),
-    case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate)
-  ) -> stl_city_zip
+stl_city_zip <- process_zip(county = 510, dates = city_dates)
 
 # subset detailed data
 stl_city_zip_sub <- filter(stl_city_zip, report_date == date)
@@ -49,18 +38,7 @@ county_dates_b <- seq(as.Date("2020-05-20"), date, by="days")
 county_dates <- c(county_dates_a, county_dates_b)
 
 # load zip data
-county_dates %>%
-  unlist() %>%
-  map_df(~ wrangle_zip(date = .x, county = 189)) %>%
-  rename(
-    cases = confirmed,
-    case_rate = confirmed_rate
-  ) %>%
-  mutate(zip = as.character(zip)) %>% 
-  mutate(
-    cases = ifelse(is.na(cases) == TRUE, NaN, cases),
-    case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate)
-  ) -> stl_county_zip
+stl_county_zip <- process_zip(county = 189, dates = county_dates)
 
 # subset detailed data
 stl_county_zip_sub <- filter(stl_county_zip, report_date == date)
