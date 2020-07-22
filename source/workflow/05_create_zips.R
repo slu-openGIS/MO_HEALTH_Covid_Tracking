@@ -18,19 +18,12 @@ region <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZC
 ## Build County Level Data ####
 ### Define Dates
 city_dates <- c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days"))
+county_dates <- c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days"))
+st_charles_dates <- seq(as.Date("2020-07-14"), date, by="days")
+jeffco_dates <- seq(as.Date("2020-07-13"), date, by="days")
 
-### Load ZIP Data
-city_dates %>%
-  unlist() %>%
-  map_df(~ wrangle_zip(date = .x, county = 510)) %>%
-  rename(
-    cases = confirmed,
-    case_rate = confirmed_rate
-  ) %>%
-  mutate(zip = as.character(zip)) %>% 
-  mutate(
-    cases = ifelse(is.na(cases) == TRUE, NaN, cases),
-    case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate)
-  ) -> stl_city_covid
-
-# need to expand code in wrangle_zip to accommodate Jefferson and St. Charles counties
+### Process City
+city_data <- process_zip(county = 510, dates = city_dates)
+county_data <- process_zip(county = 189, dates = county_dates)
+st_charles_data <- process_zip(county = 183, dates = st_charles_dates)
+jeffco_data <- process_zip(county = 99, dates = jeffco_dates)

@@ -1,4 +1,33 @@
 
+process_zip <- function(county, dates){
+  
+  # load zip data
+  out <- purrr::map_df(unlist(dates), ~ wrangle_zip(date = .x, county = county))
+  
+  # read population
+  if (county == 510){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_City_Total_Pop.csv") 
+  } else if (county == 189){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_County_Total_Pop.csv") 
+  } else if (county == 183){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Charles_County_Total_Pop.csv") 
+  } else if (county == 99){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Total_Pop.csv") 
+  }
+  
+  # prep population
+  pop <- dplyr::mutate(pop, GEOID_ZCTA = as.character(GEOID_ZCTA))
+  
+  # calculate rate
+  out <- dplyr::left_join(out, pop, by = c("zip" = "GEOID_ZCTA"))
+  out <- dplyr::mutate(out, case_rate = cases/total_pop*1000)
+  out <- dplyr::mutate(out, case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate))
+  out <- dplyr::select(out, -total_pop)
+  
+  # return output
+  return(out)
+  
+}
 
 wrangle_zip <- function(date, county){
   
@@ -7,6 +36,10 @@ wrangle_zip <- function(date, county){
     county_name <- "St. Louis City" 
   } else if (county == 189){
     county_name <- "St. Louis"
+  } else if (county == 183){
+    county_name <- "St. Charles"
+  } else if (county == 99){
+    county_name <- "Jefferson"
   }
   
   # construct file path
@@ -14,57 +47,27 @@ wrangle_zip <- function(date, county){
     file <- paste0("data/source/stl_daily_zips/stl_city_", date, ".csv")
   } else if (county == 189){
     file <- paste0("data/source/stl_daily_zips/stl_county_", date, ".csv")
+  } else if (county == 183){
+    file <- paste0("data/source/stl_daily_zips/st_charles_", date, ".csv")
+  } else if (county == 99){
+    file <- paste0("data/source/stl_daily_zips/jeff_county_", date, ".csv")
   }
   
   # read data
   df <- readr::read_csv(file)
   
-  # read population
-  if (county == 510){
-    pop <- readr::read_csv("data/source/stl_zips/stl_city_zip/stl_city_zip.csv") 
-  } else if (county == 189){
-    pop <- readr::read_csv("data/source/stl_zips/stl_county_zip/stl_county_zip.csv") 
-  }
-  
   # add new columns, modify existing
   df <- dplyr::mutate(df,
                       report_date = date,
-                      geoid = paste0("29", county),
+                      zip = as.character(zip),
+                      geoid = ifelse(county == 99, paste0("290", county), paste0("29", county)),
                       county = county_name,
-                      state = "Missouri")
+                      state = "Missouri",
+                      count = ifelse(is.na(count) == TRUE, NaN, count))
   df <- dplyr::select(df, report_date, zip, geoid, county, state, count)
-  df <- dplyr::rename(df, confirmed = count)
-  
-  # calculate rate
-  df <- dplyr::left_join(df, pop, by = "zip")
-  df <- dplyr::mutate(df, confirmed_rate = confirmed/total_pop*1000)
-  df <- dplyr::select(df, -total_pop)
+  df <- dplyr::rename(df, cases = count)
   
   # return output
   return(df)
   
 }
-
-process_zip <- function(county, dates){
-  
-  # load zip data
-  out <- purrr::map_df(unlist(dates), ~ wrangle_zip(date = .x, county = county))
-
-  # return output
-  return(out)
-  
-}
-
-
-# city_dates %>%
-#  unlist() %>%
-#  map_df(~ wrangle_zip(date = .x, county = 510)) %>%
-#  rename(
-#    cases = confirmed,
-#    case_rate = confirmed_rate
-#  ) %>%
-#  mutate(zip = as.character(zip)) %>% 
-#  mutate(
-#    cases = ifelse(is.na(cases) == TRUE, NaN, cases),
-#    case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate)
-#  ) -> stl_city_covid
