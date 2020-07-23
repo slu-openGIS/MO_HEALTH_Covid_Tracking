@@ -6,13 +6,29 @@ process_zip <- function(county, dates){
   
   # read population
   if (county == 510){
-    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_City_Total_Pop.csv") 
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_City_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           )) 
   } else if (county == 189){
-    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_County_Total_Pop.csv") 
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_County_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           )) 
   } else if (county == 183){
-    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Charles_County_Total_Pop.csv") 
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Charles_County_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           )) 
   } else if (county == 99){
-    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Total_Pop.csv") 
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           )) 
   }
   
   # prep population
@@ -54,7 +70,10 @@ wrangle_zip <- function(date, county){
   }
   
   # read data
-  df <- readr::read_csv(file)
+  df <- readr::read_csv(file, col_types = cols(
+    zip = col_double(),
+    count = col_double()
+  ))
   
   # add new columns, modify existing
   df <- dplyr::mutate(df,
