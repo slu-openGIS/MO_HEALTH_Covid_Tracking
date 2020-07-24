@@ -90,3 +90,96 @@ wrangle_zip <- function(date, county){
   return(df)
   
 }
+
+build_pop_zip <- function(county){
+  
+  # read population
+  if (county == 510){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_City_Race.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_character(),
+                             wht_pct = col_double(),
+                             blk_pct = col_double()
+                           )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_City_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+    
+  } else if (county == 189){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_County_Race.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_character(),
+                             wht_pct = col_double(),
+                             blk_pct = col_double()
+                           )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Louis_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  } else if (county == 183){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Charles_County_Race.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_character(),
+                             wht_pct = col_double(),
+                             blk_pct = col_double()
+                           )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_St_Charles_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  } else if (county == 99){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Race.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_character(),
+                             wht_pct = col_double(),
+                             blk_pct = col_double()
+                           )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  } else if (county == "city-county"){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_City_County_Race.csv",
+                            col_types = cols(
+                              GEOID_ZCTA = col_character(),
+                              wht_pct = col_double(),
+                              blk_pct = col_double()
+                            )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_City_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  } else if (county == "regional"){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Regional_Race.csv",
+                            col_types = cols(
+                              GEOID_ZCTA = col_character(),
+                              wht_pct = col_double(),
+                              blk_pct = col_double()
+                            )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Regional_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  }
+  
+  # join
+  out <- dplyr::left_join(race, poverty, by = "GEOID_ZCTA")
+  
+  # return output
+  return(out)
+  
+}
+

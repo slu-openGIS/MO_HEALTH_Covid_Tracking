@@ -57,6 +57,12 @@ st_write(stl_county, "data/zip/daily_snapshot_stl_county.geojson", delete_dsn = 
 st_write(st_charles, "data/zip/daily_snapshot_st_charles_county.geojson", delete_dsn = TRUE)
 st_write(jeffco, "data/zip/daily_snapshot_jefferson_county.geojson", delete_dsn = TRUE)
 
+## Add Race and Poverty Data ####
+stl_city <- left_join(stl_city, build_pop_zip(county = 510), by = "GEOID_ZCTA")
+stl_county <- left_join(stl_county, build_pop_zip(county = 189), by = "GEOID_ZCTA")
+st_charles <- left_join(st_charles, build_pop_zip(county = 183), by = "GEOID_ZCTA")
+jeffco <- left_join(jeffco, build_pop_zip(county = 99), by = "GEOID_ZCTA")
+
 ## Build City-County Level Data ####
 ### Load Data
 pop <- read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_City_County_Total_Pop.csv",
@@ -73,7 +79,7 @@ city_county_na <- unique(city_county_na$GEOID_ZCTA)
 
 ### Subset Zips that are Partially Missing
 city_county_partials <- rbind(stl_city, stl_county) %>%
-  select(GEOID_ZCTA, cases, case_rate) %>%
+  select(GEOID_ZCTA, cases, case_rate, wht_pct, blk_pct, pvty_pct) %>%
   filter(GEOID_ZCTA %in% city_county_na == TRUE)
 
 ### Subset and Process Zips that are Complete
@@ -92,6 +98,9 @@ city_county <- filter(city_county, GEOID_ZCTA %in% unique(city_county_full$GEOID
   left_join(., pop, by = "GEOID_ZCTA") %>%
   mutate(case_rate = cases/total_pop*1000) %>%
   select(-total_pop)
+
+city_county <- left_join(city_county, build_pop_zip(county = "city-county"), by = "GEOID_ZCTA")
+
 
 ### Combine Geometries
 city_county <- rbind(city_county, city_county_partials)
@@ -118,7 +127,7 @@ regional_na <- unique(regional_na$GEOID_ZCTA)
 
 ### Subset Zips that are Partially Missing
 regional_partials <- rbind(stl_city, stl_county, st_charles, jeffco) %>%
-  select(GEOID_ZCTA, cases, case_rate) %>%
+  select(GEOID_ZCTA, cases, case_rate, wht_pct, blk_pct, pvty_pct) %>%
   filter(GEOID_ZCTA %in% regional_na == TRUE)
 
 ### Subset and Process Zips that are Complete
@@ -138,6 +147,8 @@ region <- filter(region, GEOID_ZCTA %in% unique(regional_full$GEOID_ZCTA)) %>%
   mutate(case_rate = cases/total_pop*1000) %>%
   select(-total_pop)
 
+region <- left_join(region, build_pop_zip(county = "regional"), by = "GEOID_ZCTA")
+
 ### Combine Geometries
 region <- rbind(region, regional_partials)
 
@@ -147,4 +158,5 @@ st_write(region, "data/zip/daily_snapshot_regional.geojson", delete_dsn = TRUE)
 ### Clean-up
 rm(region, regional_full, regional_partials, regional_na, pop)
 rm(jeffco, st_charles, stl_city, stl_county)
-rm(process_zip, wrangle_zip)
+rm(process_zip, wrangle_zip, build_pop_zip)
+
