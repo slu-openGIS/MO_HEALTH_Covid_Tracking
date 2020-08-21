@@ -38,7 +38,7 @@ test_subset %>%
 ## out of state data
 c("ar", "ks", "il", "ok") %>%
   unlist() %>%
-  map_df(~read_csv(paste0("https://covidtracking.com/api/v1/states/", .x, "/daily.csv"), 
+  map_df(~read_csv(paste0("https://api.covidtracking.com/api/v1/states/", .x, "/daily.csv"), 
                    col_types = cols(fips = col_character()))) %>%
   mutate(
     report_date = ymd(as.character(date)),
