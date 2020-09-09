@@ -23,3 +23,7 @@ source("source/workflow/08_create_kc_counties.R")
 
 # clean-up
 rm(date)
+
+# print zip code unit test results
+print(zip_test)
+

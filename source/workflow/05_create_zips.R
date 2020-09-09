@@ -37,6 +37,48 @@ write_csv(county_data, "data/zip/zip_stl_county.csv")
 write_csv(st_charles_data, "data/zip/zip_st_charles_county.csv")
 write_csv(jeffco_data, "data/zip/zip_jefferson_county.csv")
 
+## Unit Test ####
+### St. Louis City
+stl_city_test <- filter(city_data, report_date %in% c(date, date-1)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
+
+stl_city_test <- all(stl_city_test$current == stl_city_test$prior, na.rm = TRUE)
+
+### St. Louis County
+stl_county_test <- filter(county_data, report_date %in% c(date, date-1)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
+
+stl_county_test <- all(stl_county_test$current == stl_county_test$prior, na.rm = TRUE)
+
+### St. Charles County
+stl_charles_test <- filter(st_charles_data, report_date %in% c(date, date-1)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
+
+stl_charles_test <- all(stl_charles_test$current == stl_charles_test$prior, na.rm = TRUE)
+
+### St. Charles County
+jeffco_test <- filter(jeffco_data, report_date %in% c(date, date-1)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
+
+jeffco_test <- all(jeffco_test$current == jeffco_test$prior, na.rm = TRUE)
+
+### Combine
+zip_test <- tibble(
+  source = c("St. Louis City", "St. Louis County", "St. Charles County", "Jefferson County"),
+  result = c(stl_city_test, stl_county_test, stl_charles_test, jeffco_test)
+)
+
+### Clean-up
+rm(stl_city_test, stl_county_test, stl_charles_test, jeffco_test)
+
 ## Subset to Report Date ####
 ### Subset and Project
 stl_city <- filter(city_data, report_date == date) %>%
