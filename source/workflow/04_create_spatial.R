@@ -51,5 +51,5 @@ st_write(kc_sf, "data/metro/daily_snapshot_kc.geojson", delete_dsn = TRUE)
 # write_csv(kc_detail, "data/metro/county_kc.csv")
 
 # clean-up
-rm(mo_sf, mo_xl_sf, stl_sf, kc_sf, mo_detail, stl_detail, kc_detail, state_data,
-   metro_counties, county_data)
+rm(mo_sf, mo_xl_sf, stl_sf, kc_sf, mo_detail, stl_detail, kc_detail)
+# state_data, metro_counties, county_data

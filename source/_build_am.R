@@ -21,6 +21,7 @@ source("source/workflow/01_scrape_and_tidy.R")
 source("source/workflow/02_create_state_msa.R")
 source("source/workflow/03_add_rates.R")
 source("source/workflow/04_create_spatial.R")
+source("source/workflow/05_create_regions.R")
 
 # clean-up
 rm(date)
