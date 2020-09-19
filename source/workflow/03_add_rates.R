@@ -41,7 +41,7 @@ left_join(state_data, state_pop, by = c("state" = "NAME")) %>%
 left_join(county_data, county_pop, by = c("geoid" = "GEOID")) %>%
   mutate(
     case_rate = cases/total_pop*1000,
-    case_avg_rate = case_avg/total_pop*1000,
+    case_avg_rate = case_avg/total_pop*100000,
     mortality_rate = deaths/total_pop*1000,
     case_fatality_rate = deaths/cases*100
   ) %>% 
@@ -53,7 +53,7 @@ left_join(county_data, county_pop, by = c("geoid" = "GEOID")) %>%
 left_join(metro_data, msa_pop, by = c("geoid" = "GEOID")) %>%
   mutate(
     case_rate = cases/total_pop*1000,
-    case_avg_rate = case_avg/total_pop*1000,
+    case_avg_rate = case_avg/total_pop*100000,
     mortality_rate = deaths/total_pop*1000,
     case_fatality_rate = deaths/cases*100
   ) %>% 
