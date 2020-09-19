@@ -23,38 +23,42 @@ rm(mo_county_pop)
 msa_pop <- read_csv("data/source/msa_pop.csv") %>%
   mutate(GEOID = as.character(GEOID)) %>%
   rename(full_name = NAME)
+
 # cases, case_rate, new_cases, case_avg
 # calculate state rates
 left_join(state_data, state_pop, by = c("state" = "NAME")) %>%
   mutate(
     case_rate = cases/total_pop*100000,
+    case_avg_rate = case_avg/total_pop*100000,
     mortality_rate = deaths/total_pop*100000,
     case_fatality_rate = deaths/cases*100
   ) %>% 
   select(-total_pop) %>%
-  select(report_date, state, cases, case_rate, new_cases, case_avg,
+  select(report_date, state, cases, case_rate, new_cases, case_avg, case_avg_rate,
          deaths, mortality_rate, new_deaths, deaths_avg, case_fatality_rate) -> state_data
 
 # calculate county rates
 left_join(county_data, county_pop, by = c("geoid" = "GEOID")) %>%
   mutate(
     case_rate = cases/total_pop*1000,
+    case_avg_rate = case_avg/total_pop*1000,
     mortality_rate = deaths/total_pop*1000,
     case_fatality_rate = deaths/cases*100
   ) %>% 
   select(-total_pop) %>%
-  select(report_date, geoid, county, state, cases, case_rate, new_cases, case_avg,
+  select(report_date, geoid, county, state, cases, case_rate, new_cases, case_avg, case_avg_rate,
          deaths, mortality_rate, new_deaths, deaths_avg, case_fatality_rate) -> county_data
 
 # calculate msa rate
 left_join(metro_data, msa_pop, by = c("geoid" = "GEOID")) %>%
   mutate(
     case_rate = cases/total_pop*1000,
+    case_avg_rate = case_avg/total_pop*1000,
     mortality_rate = deaths/total_pop*1000,
     case_fatality_rate = deaths/cases*100
   ) %>% 
   select(-total_pop) %>%
-  select(report_date, geoid, short_name, full_name, cases, case_rate, new_cases, case_avg,
+  select(report_date, geoid, short_name, full_name, cases, case_rate, new_cases, case_avg, case_avg_rate,
          deaths, mortality_rate, new_deaths, deaths_avg, case_fatality_rate) -> metro_data
 
 # export
