@@ -122,9 +122,6 @@ st_charles <- filter(st_charles_data, report_date == date) %>%
 jeffco <- filter(jeffco_data, report_date == date) %>%
   left_join(jeffco, ., by = c("GEOID_ZCTA" = "zip"))
 
-### Clean-up
-rm(city_data, county_data, st_charles_data, jeffco_data)
-
 ### Save Individual Jurisdictions
 st_write(stl_city, "data/zip/daily_snapshot_stl_city.geojson", delete_dsn = TRUE)
 st_write(stl_county, "data/zip/daily_snapshot_stl_county.geojson", delete_dsn = TRUE)
@@ -215,22 +212,80 @@ regional_full %>%
   group_by(GEOID_ZCTA) %>%
   summarise(cases = sum(cases)) -> regional_full
 
+### process longitudinal data
+#### group and summarise
+regional_data <- bind_rows(city_data, county_data, jeffco_data, st_charles_data) %>%
+  select(report_date, zip, new_cases) %>%
+  filter(zip %in% unique(regional_full$GEOID_ZCTA)) %>%
+  group_by(report_date, zip) %>%
+  summarise(new_cases = sum(new_cases, na.rm = TRUE))
+
+regional_data <- arrange(regional_data, report_date, zip)
+
+#### calculate rolling average
+regional_data %>%
+  group_by(zip) %>%
+  mutate(case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA)) %>%
+  filter(report_date == date) -> regional_data
+
+### create regional data
 region <- filter(region, GEOID_ZCTA %in% unique(regional_full$GEOID_ZCTA)) %>%
   left_join(., regional_full, by = "GEOID_ZCTA") %>%
+  left_join(., regional_data, by = c("GEOID_ZCTA" = "zip")) %>%
   left_join(., pop, by = "GEOID_ZCTA") %>%
   mutate(case_rate = cases/total_pop*1000) %>%
+  mutate(case_avg_rate = case_avg/total_pop*1000) %>%
   select(-total_pop)
 
 region <- left_join(region, build_pop_zip(county = "regional"), by = "GEOID_ZCTA")
 
+### process longitudinal data for partial zips
+#### split up regional_partials
+regional_partials_valid <- filter(regional_partials, is.na(cases) == FALSE)
+regional_partials_invalid <- filter(regional_partials, is.na(cases) == TRUE)
+
+#### group and summarise
+regional_data <- bind_rows(city_data, county_data, jeffco_data, st_charles_data) %>%
+  select(report_date, zip, new_cases) %>%
+  filter(zip %in% unique(regional_partials_valid$GEOID_ZCTA)) %>%
+  group_by(report_date, zip) %>%
+  summarise(new_cases = sum(new_cases, na.rm = TRUE))
+
+regional_data <- arrange(regional_data, report_date, zip)
+
+#### calculate rolling average
+regional_data %>%
+  group_by(zip) %>%
+  mutate(case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA)) %>%
+  filter(report_date == date) -> regional_data
+
+regional_data %>%
+  left_join(., pop, by = c("zip" = "GEOID_ZCTA")) %>%
+  mutate(case_avg_rate = case_avg/total_pop*1000)  %>%
+  select(-total_pop) -> regional_data
+
+#### combine
+regional_partials_invalid <- mutate(regional_partials_invalid,
+                                    report_date = date,
+                                    new_cases = NA,
+                                    case_avg = NA, 
+                                    case_avg_rate = NA)
+
+regional_partials_valid <- left_join(regional_partials_valid, regional_data, by = c("GEOID_ZCTA" = "zip"))
+regional_partials <- rbind(regional_partials_valid, regional_partials_invalid)
+
 ### Combine Geometries
 region <- rbind(region, regional_partials)
+region <- select(region, GEOID_ZCTA, report_date, cases, case_rate, 
+                 new_cases, case_avg, case_avg_rate,
+                 wht_pct, blk_pct, pvty_pct)
 
 ### Write Data
 st_write(region, "data/zip/daily_snapshot_regional.geojson", delete_dsn = TRUE)
 
 ### Clean-up
-rm(region, regional_full, regional_partials, regional_na, pop)
+rm(region, regional_full, regional_partials, regional_na, regional_data,
+   regional_partials_invalid, regional_partials_valid, pop)
 rm(jeffco, st_charles, stl_city, stl_county)
+rm(city_data, county_data, st_charles_data, jeffco_data)
 rm(process_zip, wrangle_zip, build_pop_zip)
-
