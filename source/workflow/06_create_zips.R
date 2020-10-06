@@ -234,7 +234,7 @@ region <- filter(region, GEOID_ZCTA %in% unique(regional_full$GEOID_ZCTA)) %>%
   left_join(., regional_data, by = c("GEOID_ZCTA" = "zip")) %>%
   left_join(., pop, by = "GEOID_ZCTA") %>%
   mutate(case_rate = cases/total_pop*1000) %>%
-  mutate(case_avg_rate = case_avg/total_pop*1000) %>%
+  mutate(case_avg_rate = case_avg/total_pop*10000) %>%
   select(-total_pop)
 
 region <- left_join(region, build_pop_zip(county = "regional"), by = "GEOID_ZCTA")
@@ -261,7 +261,7 @@ regional_data %>%
 
 regional_data %>%
   left_join(., pop, by = c("zip" = "GEOID_ZCTA")) %>%
-  mutate(case_avg_rate = case_avg/total_pop*1000)  %>%
+  mutate(case_avg_rate = case_avg/total_pop*10000)  %>%
   select(-total_pop) -> regional_data
 
 #### combine
