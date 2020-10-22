@@ -1,0 +1,643 @@
+p_id,p_name,p_address,p_city,p_state,p_zip,p_county,p_geoid,p_own_type,p_own_subtype,p_beds,p_avg_residents
+146002,Aperion Care Cairo,2001 Cedar Street,Cairo,IL,62914,Alexander,17003,For profit,Corporation,83,64.8
+145909,Greenville Nursing & Rehab,400 East Hillview Avenue,Greenville,IL,62246,Bond,17005,For profit,Corporation,90,56.4
+145910,Calhoun Nursing & Rehab Center,1 Myrtle Lane,Hardin,IL,62047,Calhoun,17013,For profit,Limited Liability company,80,68.4
+145410,Breese Nursing Home,1155 North First Street,Breese,IL,62230,Clinton,17027,For profit,Corporation,112,52.6
+145601,Aviston Countryside Manor,450 West 1st Street,Aviston,IL,62216,Clinton,17027,For profit,Individual,97,60.9
+145729,Carlyle Healthcare Center,501 Clinton Street,Carlyle,IL,62231,Clinton,17027,For profit,Corporation,109,91.6
+146025,Clinton Manor Living Center,111 East Illinois Street,New Baden,IL,62265,Clinton,17027,For profit,Corporation,37,29.9
+145465,Jerseyville Nsg & Rehab Center,1001 South State Street,Jerseyville,IL,62052,Jersey,17083,For profit,Corporation,111,70.2
+145733,Jerseyville Manor,1251 North State Street,Jerseyville,IL,62052,Jersey,17083,Non profit,Other,160,142.8
+146040,Willow Rose Rehab & Health,410 Fletcher,Jerseyville,IL,62052,Jersey,17083,For profit,Corporation,98,41.3
+145286,Heritage Health-Staunton,215 West Pennsylvania Avenue,Staunton,IL,62088,Macoupin,17117,For profit,Corporation,90,61.7
+145367,Heritage Health-Gillespie,7588 Staunton Road,Gillespie,IL,62033,Macoupin,17117,For profit,Corporation,100,52.5
+145454,Carlinville Rehab & Hcc,751 North Oak Street,Carlinville,IL,62626,Macoupin,17117,For profit,Corporation,98,73.2
+145456,Heritage Health-Carlinville,1200 University Avenue,Carlinville,IL,62626,Macoupin,17117,For profit,Corporation,95,81.4
+145769,Hallmark Hc Of Carlinville,826 North High,Carlinville,IL,62626,Macoupin,17117,For profit,Corporation,49,29.9
+145783,Sunrise Skilled Nur & Rehab,333 South Wrightsman Street,Virden,IL,62690,Macoupin,17117,For profit,Corporation,99,71.7
+146011,Robings Manor Rhc,502 North Main,Brighton,IL,62012,Macoupin,17117,For profit,Corporation,75,49.4
+145121,Alton Memorial Rehab & Therapy,1251 College Avenue,Alton,IL,62002,Madison,17119,Non profit,Corporation,64,63.9
+145384,Eden Village Care Center,400 South Station Road,Glen Carbon,IL,62034,Madison,17119,Non profit,Corporation,128,81.9
+145427,Integrity Hc Of Alton,3523 Wickenhauser,Alton,IL,62002,Madison,17119,For profit,Individual,181,75.8
+145438,Collinsville Rehab & Health Cc,614 North Summit,Collinsville,IL,62234,Madison,17119,For profit,Corporation,94,60.4
+145508,Highland Health Care Center,1450 26th Street,Highland,IL,62249,Madison,17119,For profit,Individual,128,76.1
+145555,Edwardsville Nsg & Rehab Ctr,401 St Mary Drive,Edwardsville,IL,62025,Madison,17119,For profit,Limited Liability company,120,91.5
+145651,Riverside Rehab & Healthcare,3490 Humbert Road,Alton,IL,62002,Madison,17119,For profit,Corporation,180,136.1
+145655,Integrity Hc Of Wood River,393 Edwardsville Road,Wood River,IL,62095,Madison,17119,For profit,Corporation,106,77
+145656,Integrity Hc Of Godfrey,1623 29 West Delmar,Godfrey,IL,62035,Madison,17119,For profit,Limited Liability company,68,49.3
+145728,Manor Court Of Maryville,6955 State Route 162,Maryville,IL,62062,Madison,17119,Non profit,Other,132,118.7
+145846,Care Center At Center Grove,6277 Center Grove Road,Edwardsville,IL,62025,Madison,17119,For profit,Corporation,116,113.1
+145847,Stearns Nursing & Rehab Center,3900 Stearns Avenue,Granite City,IL,62040,Madison,17119,For profit,Corporation,109,101.7
+145858,Elmwood Nursing & Rehab Center,152 Wilma Drive,Maryville,IL,62062,Madison,17119,For profit,Limited Liability company,104,77.5
+145921,Hitz Memorial Home,201 Belle Street,Alhambra,IL,62001,Madison,17119,Non profit,Church related,59,44.1
+145985,University Nsg & Rehab Center,1095 University Drive,Edwardsville,IL,62025,Madison,17119,For profit,Limited Liability company,118,89.2
+146052,Alhambra Care Center,417 East Main Street,Alhambra,IL,62001,Madison,17119,For profit,Corporation,84,38
+146060,Faith Care Center,100 Faith Drive,Highland,IL,62249,Madison,17119,Non profit,Corporation,76,61.3
+146075,Granite Nursing & Rehabilitation,3500 Century Drive,Granite City,IL,62040,Madison,17119,For profit,Individual,86,77.5
+146142,Meridian Village Care Center,27 Auerbach Place,Glen Carbon,IL,62034,Madison,17119,Non profit,Church related,70,61.7
+145445,Oak Hill,623 Hamacher Street,Waterloo,IL,62298,Monroe,17133,Government,County,144,135.9
+145717,Integrity Hc Of Columbia,253 Bradington Drive,Columbia,IL,62236,Monroe,17133,For profit,Individual,119,75.1
+145102,Memorial Care Center,4315 Memorial Drive,Belleville,IL,62226,St. Clair,17163,For profit,Corporation,82,71.4
+145241,Helia Southbelt Healthcare,101 South Belt West,Belleville,IL,62220,St. Clair,17163,For profit,Individual,156,115.7
+145289,Helia Healthcare Of Belleville,40 North 64th Street,Belleville,IL,62223,St. Clair,17163,For profit,Corporation,120,56.8
+145290,Integrity Hc Of Belleville,727 North 17th Street,Belleville,IL,62226,St. Clair,17163,For profit,Limited Liability company,180,125.4
+145515,Freeburg Care Center,746 Urbanna Drive,Freeburg,IL,62243,St. Clair,17163,For profit,Corporation,118,95.3
+145518,Mar Ka Nursing Home,201 South 10th Street,Mascoutah,IL,62258,St. Clair,17163,For profit,Individual,76,36.7
+145571,Cedar Ridge Health & Rehab Ctr,1 Perryman Street,Lebanon,IL,62254,St. Clair,17163,For profit,Individual,116,107.5
+145581,Autumn Meadows Of Cahokia,2 Annable Court,Cahokia,IL,62206,St. Clair,17163,For profit,Corporation,150,85.1
+145585,Caseyville Nursing & Rehab Ctr,601 West Lincoln Avenue,Caseyville,IL,62232,St. Clair,17163,For profit,Partnership,150,107.9
+145613,Bria Of Cahokia,3354 Jerome Lane,Cahokia,IL,62206,St. Clair,17163,For profit,Individual,133,123.6
+145620,Mercy Rehab And Care Center,100 Rosewood Village Drive,Swansea,IL,62220,St. Clair,17163,For profit,Individual,120,97.4
+145668,Bria Of Belleville,150 North 27th Street,Belleville,IL,62226,St. Clair,17163,For profit,Corporation,140,112.6
+145785,Aperion Care Mascoutah,901 North Tenth Street,Mascoutah,IL,62258,St. Clair,17163,For profit,Corporation,55,26.3
+145897,Lebanon Care Center,1201 North Alton,Lebanon,IL,62254,St. Clair,17163,For profit,Corporation,90,62.4
+145981,Swansea Rehab Health Care,1405 North Second Street,Swansea,IL,62226,St. Clair,17163,For profit,Corporation,94,56.3
+146115,New Athens Home For The Aged,203 South Johnson Street,New Athens,IL,62264,St. Clair,17163,Non profit,Church related,53,46.3
+146122,St Paul's Senior Community,1021 West E Street,Belleville,IL,62220,St. Clair,17163,Non profit,Church related,108,101.9
+146188,Integrity Hc Of Smithton,107 South Lincoln,Smithton,IL,62285,St. Clair,17163,For profit,Individual,101,59
+175216,Wathena Healthcare & Rehabilitation Center,2112 Highway 36,Wathena,KS,66090,Doniphan,20043,For profit,Individual,60,30.5
+175412,Highland Healthcare & Rehabilitation Center,402 S Avenue,Highland,KS,66035,Doniphan,20043,For profit,Corporation,44,30.7
+175115,Villa St Francis Catholic Care Center Inc,16600 W. 126th St,Olathe,KS,66062,Johnson,20091,Non profit,Corporation,170,161.4
+175122,Delmar Gardens Of Lenexa,9701 Monrovia Street,Lenexa,KS,66215,Johnson,20091,For profit,Corporation,222,183
+175123,Merriam Gardens Healthcare & Rehabilitation,9700 W 62nd Street,Merriam,KS,66203,Johnson,20091,For profit,Corporation,120,79.2
+175130,Meadowbrook Rehabilitation Hospital,427 W Main Street,Gardner,KS,66030,Johnson,20091,For profit,Corporation,42,34.7
+175158,Garden Terrace At Overland Park,7541 Switzer Road,Overland Park,KS,66214,Johnson,20091,For profit,Corporation,163,152.6
+175176,Infinity Park Post-Acute And Rehabilitation Center,6515 W 103rd Street,Overland Park,KS,66212,Johnson,20091,For profit,Corporation,120,85
+175180,Overland Park Center For Rehabilitation And Health,5211 W 103rd Street,Overland Park,KS,66207,Johnson,20091,For profit,Corporation,165,77.1
+175182,Delmar Gardens Of Overland Park,12100 W 109th Street,Overland Park,KS,66210,Johnson,20091,For profit,Corporation,120,98.1
+175183,Villa St Joseph,11901 Rosewood,Overland Park,KS,66209,Johnson,20091,Non profit,Corporation,102,92.2
+175187,Overland Park Nursing And Rehab Center,6501 W 75th Street,Overland Park,KS,66204,Johnson,20091,Non profit,Church related,102,75.8
+175189,The Forum At Overland Park,3501 W 95th St,Overland Park,KS,66206,Johnson,20091,For profit,Corporation,60,40.1
+175213,Pinnacle Ridge Hcrc Olathe Llc,400 S Rogers Road,Olathe,KS,66062,Johnson,20091,For profit,Corporation,94,87.8
+175240,Kpc Promise Skilled Nursing Facility Of Overland,6505 W 103rd Street,Overland Park,KS,66212,Johnson,20091,For profit,Corporation,44,30.6
+175242,Lakeview Village,13840 W 91st Terrace,Lenexa,KS,66215,Johnson,20091,Non profit,Corporation,158,143.9
+175243,Medicalodges Gardner,223 Bedford Street,Gardner,KS,66030,Johnson,20091,For profit,Corporation,82,62.8
+175257,Sharon Lane Health And Rehabilitation,10315 Johnson Drive,Shawnee,KS,66203,Johnson,20091,For profit,Corporation,78,65.8
+175263,Good Samaritan Society - Olathe,20705 W 151st Street,Olathe,KS,66061,Johnson,20091,Non profit,Corporation,140,131.8
+175267,Shawnee Gardens Healthcare & Rehab Center,6416 Long Street,Shawnee,KS,66216,Johnson,20091,For profit,Corporation,130,120.2
+175343,Claridge Court,8101 Mission Road,Prairie Village,KS,66208,Johnson,20091,Non profit,Corporation,45,41.6
+175355,Evergreen Community Of Johnson County,11875 S Sunset Drive,Olathe,KS,66061,Johnson,20091,Non profit,Other,112,103.9
+175425,Spring Hill Operator  Llc,251 E Wilson Avenue,Spring Hill,KS,66083,Johnson,20091,For profit,Corporation,45,41.4
+175441,Village Shalom Inc,5500 West 123rd St,Overland Park,KS,66209,Johnson,20091,For profit,Individual,76,48.1
+175448,Aberdeen Village,17500 W 119th Street,Olathe,KS,66061,Johnson,20091,Non profit,Corporation,60,56.4
+175472,Hillside Village Of De Soto,33600 West 85th Street,De Soto,KS,66018,Johnson,20091,For profit,Limited Liability company,49,41.2
+175478,Brookdale Rosehill,12802 Johnson Drive,Shawnee,KS,66216,Johnson,20091,For profit,Corporation,92,77.7
+175491,Hoeger House,20911 West 153rd Street,Olathe,KS,66061,Johnson,20091,Non profit,Corporation,34,15.8
+175499,Brighton Gardens Of Prairie Village,7105 Mission Road,Prairie Village,KS,66208,Johnson,20091,For profit,Corporation,45,32.1
+175503,The Plaza Health Services At Santa Marta,13875 W 115th Terrace,Olathe,KS,66062,Johnson,20091,Non profit,Corporation,50,43.3
+175517,Brookdale Overland Park,12000 Lamar,Overland Park,KS,66209,Johnson,20091,For profit,Corporation,94,65.7
+175536,Westchester Village Of Lenexa,8505 Pflumm Road,Lenexa,KS,66215,Johnson,20091,For profit,Partnership,34,31
+175540,Nottingham Health And Rehabilitation,14200 W 134th Place,Olathe,KS,66062,Johnson,20091,For profit,Individual,40,36.8
+175541,"Tallgrass Creek, Inc",13760 Metcalf Avenue,Overland Park,KS,66223,Johnson,20091,Non profit,Corporation,44,41.9
+175542,Advanced Health Care Of Overland Park,4700 Indian Creek Parkway,Overland Park,KS,66207,Johnson,20091,For profit,Corporation,38,36.9
+175549,Stratford Commons Rehab & Health Care Center,12340 Quivira Road,Overland Park,KS,66213,Johnson,20091,For profit,Corporation,45,40.4
+175550,"Maple Hills Healthcare, Inc, Dba Shawnee Post Acut",7600 Antioch Road,Overland Park,KS,66204,Johnson,20091,For profit,Corporation,101,76.2
+175551,The Healthcare Resort Of Olathe,21250 West 151st Street,Olathe,KS,66061,Johnson,20091,For profit,Corporation,70,62.2
+175557,Azria Health Olathe,201 E Flaming Road,Olathe,KS,66061,Johnson,20091,For profit,Corporation,100,79.8
+175558,The Healthcare Resort Of Leawood - Iron Horse Hlth,5401 W 143rd Street,Leawood,KS,66224,Johnson,20091,For profit,Corporation,70,60.5
+175560,Colonial Village,12500 W 137th St,Overland Park,KS,66221,Johnson,20091,For profit,Corporation,40,21.8
+175162,Medicalodges Leavenworth,1503 Ohio Street,Leavenworth,KS,66048,Leavenworth,20103,For profit,Corporation,45,43
+175215,Legend Healthcare,1010 East Street,Tonganoxie,KS,66086,Leavenworth,20103,For profit,Corporation,90,67.7
+175228,Lansing Operator Llc,210 Plaza Drive,Lansing,KS,66043,Leavenworth,20103,For profit,Corporation,58,53.2
+175411,"Country Care, Inc",515 Dawson,Easton,KS,66020,Leavenworth,20103,For profit,Individual,45,37.6
+175533,Twin Oaks Health And Rehab,757 W Eisenhower Rd,Lansing,KS,66043,Leavenworth,20103,For profit,Partnership,80,53.8
+175077,Life Care Center Of Osawatomie,1615 Parker Avenue,Osawatomie,KS,66064,Miami,20121,For profit,Corporation,110,47.4
+175238,Louisburg Healthcare & Rehab Center,1200 S Broadway,Louisburg,KS,66053,Miami,20121,For profit,Corporation,60,37.9
+175276,North Point Skilled Nursing Center,908 N Pearl Street,Paola,KS,66071,Miami,20121,For profit,Corporation,55,41.8
+175413,Medicalodges Paola,501 Assembly Lane,Paola,KS,66071,Miami,20121,For profit,Corporation,93,71.3
+175135,Medicalodges Post Acute Care Center,6500 Greeley Avenue,Kansas City,KS,66104,Wyandotte,20209,For profit,Corporation,75,61
+175159,Providence Place Ltcu,8909 Parallel Pky,Kansas City,KS,66112,Wyandotte,20209,For profit,Corporation,45,39.7
+175219,"Kaw River Operator, Llc",750 Blake Street,Edwardsville,KS,66111,Wyandotte,20209,For profit,Corporation,45,39.6
+175229,Parkway Operator Llc,749 Blake Street,Edwardsville,KS,66111,Wyandotte,20209,For profit,Corporation,45,42.1
+175245,Edwardsville Operator Llc,751 Blake Street,Edwardsville,KS,66111,Wyandotte,20209,For profit,Corporation,102,91.2
+175281,Life Care Center Of Kansas City,3231 N 61st Street,Kansas City,KS,66104,Wyandotte,20209,For profit,Corporation,82,61.8
+175298,Riverbend Post Acute Rehabilitation,7850 Freeman Avenue,Kansas City,KS,66112,Wyandotte,20209,For profit,Corporation,140,117.9
+175401,Bonner Springs Nursing & Rehab Center,520 E Morse Street,Bonner Springs,KS,66012,Wyandotte,20209,For profit,Corporation,45,41.1
+175544,Ignite Medical Resort A Ptr Of The Univ Of Kansas,3910 Rainbow Blvd,Kansas City,KS,66103,Wyandotte,20209,For profit,Corporation,96,73.9
+175548,The Healthcare Resort Of Kansas City,8900 Parallel Parkway,Kansas City,KS,66112,Wyandotte,20209,For profit,Corporation,70,52.8
+265198,Twin Pines Adult Care Center,1900 S Jamison,Kirksville,MO,63501,Adair,29001,Government,County,132,71
+265247,Kirksville Manor Care Center,1705 East Laharpe,Kirksville,MO,63501,Adair,29001,For profit,Corporation,119,70.1
+265787,Laverna Senior Living,904 Hall Avenue,Savannah,MO,64485,Andrew,29003,For profit,Corporation,120,91.3
+265846,Shady Lawn Living Center,13277 State Route D,Savannah,MO,64485,Andrew,29003,For profit,Corporation,88,41.2
+265537,Tarkio Rehabilitation & Health Care,300 Cedar Street,Tarkio,MO,64491,Atchison,29005,For profit,Corporation,95,34.2
+265744,Pleasant View,470 Rainbow Drive,Rock Port,MO,64482,Atchison,29005,For profit,Corporation,60,38.6
+265481,Pin Oaks Living Center,1525 West Monroe,Mexico,MO,65265,Audrain,29007,For profit,Corporation,124,72.3
+265638,Tri-County Care Center,601 North Galloway Road,Vandalia,MO,63382,Audrain,29007,Government,County,90,82.6
+265410,Bentonview Park Health & Rehabilitation,410 West Benton Street,Monett,MO,65708,Barry,29009,For profit,Corporation,112,73.2
+265460,Cassville Health Center For Rehab And Healthcare,1300 County Farm Road,Cassville,MO,65625,Barry,29009,For profit,Limited Liability company,60,47.2
+265538,Roaring River Health And Rehabilitation,812 Old Exeter Road,Cassville,MO,65625,Barry,29009,For profit,Partnership,90,69.1
+265634,Lacoba Homes Inc,850 Highway 60,Monett,MO,65708,Barry,29009,Non profit,Church related,79,59.1
+265253,Truman Healthcare & Rehabilitation Center,206 West First Street,Lamar,MO,64759,Barton,29011,For profit,Individual,109,90.8
+265275,Butler Center For Rehabilitation And Healthcare,416 S High Street,Butler,MO,64730,Bates,29013,For profit,Corporation,98,52
+265564,Medicalodges Butler,103 East Nursery,Butler,MO,64730,Bates,29013,For profit,Corporation,110,67.5
+265780,Adrian Manor Health & Rehabilitation Center,402 West First Street,Adrian,MO,64720,Bates,29013,Government,City,60,44.9
+265566,Warsaw Health And Rehabilitation Center,1609 Sunchase Drive,Warsaw,MO,65355,Benton,29015,For profit,Corporation,90,82.6
+265761,Lincoln Community Care Center,205 Timberline Drive,Lincoln,MO,65338,Benton,29015,Non profit,Corporation,66,62.6
+265770,Good Samaritan Care Center,403 West Main,Cole Camp,MO,65325,Benton,29015,Non profit,Corporation,72,52.1
+265553,Woodland Hills-A Stonebridge Community,702 Highway 34 West,Marble Hill,MO,63764,Bollinger,29017,For profit,Corporation,98,73.9
+265251,"Villa At Blue Ridge, The",701 Blue Ridge Road,Columbia,MO,65201,Boone,29019,For profit,Corporation,97,58.3
+265302,Parkside Manor,1201 Hunt Avenue,Columbia,MO,65202,Boone,29019,For profit,Corporation,120,82.5
+265385,Heritage Hall Nursing Center,750 E Highway 22,Centralia,MO,65240,Boone,29019,For profit,Corporation,60,44.1
+265498,"Bluffs, The",3105 Bluff Creek Drive,Columbia,MO,65201,Boone,29019,Non profit,Corporation,132,101.9
+265618,South Hampton Place,4700 Brandon Woods,Columbia,MO,65203,Boone,29019,For profit,Individual,100,75.6
+265639,Lenoir Health Care Center,3850 Cartwright Lane,Columbia,MO,65201,Boone,29019,Non profit,Corporation,46,38.2
+265707,Ashland Healthcare,300 South Henry Clay Blvd,Ashland,MO,65010,Boone,29019,For profit,Individual,60,36.1
+265778,Columbia Manor Care Center,2012 Nifong Boulevard,Columbia,MO,65201,Boone,29019,For profit,Corporation,52,37.8
+265840,Neighborhoods Rehab & Skilled Nursing By Tigerplac,3003 Falling Leaf Court,Columbia,MO,65201,Boone,29019,For profit,Corporation,120,77.6
+265868,Columbia Post Acute,3535 Berrywood Drive,Columbia,MO,65201,Boone,29019,For profit,Corporation,70,43.5
+265336,Carriage Square Living & Rehab Center,4009 Gene Field Road,Saint Joseph,MO,64506,Buchanan,29021,For profit,Corporation,130,79.6
+265657,Abbey Woods Center For Rehabilitation And Healing,5026 Faraon St,Saint Joseph,MO,64506,Buchanan,29021,For profit,Corporation,100,84.1
+265754,Diversicare Of St Joseph,3002 North 18th St,Saint Joseph,MO,64505,Buchanan,29021,For profit,Corporation,180,96.1
+265762,St Joseph Senior Living,1317 North 36th Street,Saint Joseph,MO,64506,Buchanan,29021,For profit,Corporation,110,60.2
+265784,Living Community Of St Joseph,1202 Heartland Road,Saint Joseph,MO,64506,Buchanan,29021,Non profit,Corporation,96,85
+265827,Riverside Place,1616 Weisenborn Road,Saint Joseph,MO,64507,Buchanan,29021,For profit,Corporation,90,73.5
+265852,St Joseph Chateau,811 North 9th Street,Saint Joseph,MO,64501,Buchanan,29021,For profit,Corporation,69,61.9
+265193,Westwood Hills Health & Rehabilitation Center,3100 Warrior Lane,Poplar Bluff,MO,63901,Butler,29023,For profit,Individual,132,79.7
+265205,Cedargate Healthcare,2350 Kanell Blvd,Poplar Bluff,MO,63901,Butler,29023,For profit,Limited Liability company,108,54.6
+265442,"Manor, The",2071 Barron Rd,Poplar Bluff,MO,63901,Butler,29023,For profit,Corporation,90,66.6
+265450,Mark Twain Caring Center,3001 May Street,Poplar Bluff,MO,63901,Butler,29023,For profit,Corporation,120,67.6
+265556,Oakdale Care Center,2702 Debbie Lane,Poplar Bluff,MO,63901,Butler,29023,For profit,Corporation,70,64
+265665,Hill Crest Manor,801 South Colby,Hamilton,MO,64644,Caldwell,29025,For profit,Individual,90,55.6
+265718,Golden Age Nursing Home,12498 Se Highway 116,Braymer,MO,64624,Caldwell,29025,Government,County,83,35.7
+265434,Riverview Nursing Center,10303 State Road C,Mokane,MO,65059,Callaway,29027,For profit,Individual,60,38.2
+265581,Fulton Presbyterian Manor,811 Center Street,Fulton,MO,65251,Callaway,29027,Non profit,Corporation,36,23.5
+265663,Fulton Nursing & Rehab,1510 Bluff Street,Fulton,MO,65251,Callaway,29027,For profit,Individual,100,50.8
+265760,Fulton Manor Care Center,520 Manor Drive,Fulton,MO,65251,Callaway,29027,For profit,Individual,52,37.2
+265091,Camdenton Windsor Estates,2042 N Business Route 5,Camdenton,MO,65020,Camden,29029,For profit,Individual,82,54.3
+265171,Osage Beach Rehabilitation And Health Care Center,844 Passover Road,Osage Beach,MO,65065,Camden,29029,For profit,Corporation,94,64.6
+265178,Ozark Rehabilitation & Health Care Center,1083 Ozark Care Drive,Osage Beach,MO,65065,Camden,29029,For profit,Corporation,60,47.1
+265429,Lake Regional Health Systems,54 Hospital Drive,Osage Beach,MO,65065,Camden,29029,Non profit,Corporation,16,9.1
+265876,Arrowhead Senior Living Community,6100 Arrowhead Drive,Osage Beach,MO,65065,Camden,29029,For profit,Limited Liability company,80,24.6
+265142,Chateau Girardeau,3120 Independence Street,Cape Girardeau,MO,63703,Cape Girardeau,29031,Non profit,Corporation,75,63.8
+265185,Life Care Center Of Cape Girardeau,365 South Broadview Street,Cape Girardeau,MO,63703,Cape Girardeau,29031,For profit,Corporation,120,97.3
+265359,"Lutheran Home, The",2825 Bloomfield Road,Cape Girardeau,MO,63703,Cape Girardeau,29031,Non profit,Corporation,274,185.2
+265383,Fountainbleau Lodge,2001 North Kingshighway,Cape Girardeau,MO,63701,Cape Girardeau,29031,For profit,Corporation,33,30.1
+265438,Jackson Manor Nursing Home,710 Broadridge,Jackson,MO,63755,Cape Girardeau,29031,For profit,Corporation,90,59.8
+265492,Chaffee Nursing Center,12273 State Highway 77,Chaffee,MO,63740,Cape Girardeau,29031,For profit,Limited Liability company,71,56.3
+265503,Heartland Care And Rehabilitation Center,2525 Boutin Drive,Cape Girardeau,MO,63701,Cape Girardeau,29031,For profit,Corporation,102,71.1
+265716,Monticello House,1115 K Land Drive,Jackson,MO,63755,Cape Girardeau,29031,For profit,Corporation,105,59.8
+265747,Ratliff Care Center,717 North Sprigg,Cape Girardeau,MO,63701,Cape Girardeau,29031,For profit,Individual,46,41.7
+265294,Life Care Center Of Carrollton,300 Life Care Lane,Carrollton,MO,64633,Carroll,29033,For profit,Partnership,120,51
+265706,Carroll House,307 Grand,Carrollton,MO,64633,Carroll,29033,For profit,Corporation,54,38.7
+265363,Riverways Manor,403 Watercress Road,Van Buren,MO,63965,Carter,29035,For profit,Corporation,60,34.9
+265349,Golden Years Center For Rehab And Healthcare,2001 Jefferson Parkway,Harrisonville,MO,64701,Cass,29037,For profit,Corporation,132,81.3
+265362,Meadow View Of Harrisonville Health & Rehab,2203 East Mechanic Street,Harrisonville,MO,64701,Cass,29037,For profit,Limited Liability company,120,81.5
+265476,Redwood Of Raymore,600 E Sunrise Drive,Raymore,MO,64083,Cass,29037,For profit,Limited Liability company,152,81.5
+265513,Abc Health Care,307 East South Street,Harrisonville,MO,64701,Cass,29037,For profit,Corporation,60,55.5
+265565,Pleasant Hill Health And Rehabilitation Center,1300 Broadway,Pleasant Hill,MO,64080,Cass,29037,For profit,Corporation,90,77
+265647,Crown Care Center,3001 East Elm,Harrisonville,MO,64701,Cass,29037,For profit,Corporation,118,97.3
+265782,Beautiful Savior Home,1003 South Cedar Street,Belton,MO,64012,Cass,29037,Non profit,Church related,126,88.8
+265803,Foxwood Springs Living Center,1500 West Foxwood Drive,Raymore,MO,64083,Cass,29037,For profit,Corporation,108,93.8
+265861,Carnegie Village Rehabilitation & Health Care Cent,105 Bernard Drive,Belton,MO,64012,Cass,29037,For profit,Corporation,78,63.4
+265446,Community Springs Healthcare Facility,400 East Hospital Road,El Dorado Springs,MO,64744,Cedar,29039,Non profit,Corporation,120,61.6
+265466,Lake Stockton Healthcare Facility,1523 3rd Road,Stockton,MO,65785,Cedar,29039,Non profit,Corporation,90,75.3
+265526,Chariton Park Health Care Center,902 Manor Drive,Salisbury,MO,65281,Chariton,29041,For profit,Partnership,120,114.9
+265598,Brunswick Nursing & Rehab,721 West Harrison St,Brunswick,MO,65236,Chariton,29041,For profit,Corporation,60,41.9
+265322,Nixa Nursing & Rehab,1104 North Main Street,Nixa,MO,65714,Christian,29043,For profit,Corporation,82,49.6
+265464,Ozark Riverview Manor,1200 West Hall,Ozark,MO,65721,Christian,29043,Non profit,Corporation,90,86.3
+265753,Ozark Nursing And Care Center,1486 North Riverside Rd,Ozark,MO,65721,Christian,29043,For profit,Corporation,120,60.5
+265485,Clark County Nursing Home,1260 North Johnson Street,Kahoka,MO,63445,Clark,29045,Government,County,99,61.8
+265356,Valley Manor And Rehabilitation Center,1410 Hospital Drive,Excelsior Springs,MO,64024,Clay,29047,For profit,Individual,120,64.1
+265437,Ashton Court Care And Rehabilitation Centre,1200 West College Street,Liberty,MO,64068,Clay,29047,For profit,Corporation,140,110.5
+265454,Smithville Living Center,106 Hospital Drive,Smithville,MO,64089,Clay,29047,For profit,Corporation,100,51.8
+265679,Pleasant Valley Manor Care Center,6814 Sobbie Road,Liberty,MO,64068,Clay,29047,For profit,Corporation,102,90
+265821,Excelsior Springs Nursing & Rehab,1003 Meadowlark Lane,Excelsior Springs,MO,64024,Clay,29047,For profit,Corporation,108,73.1
+265855,Linden Woods Village,2901 Ne 72nd Street,Gladstone,MO,64119,Clay,29047,For profit,Corporation,40,36.3
+265857,Liberty Health & Wellness,2201 Glenn Hendren Dr,Liberty,MO,64068,Clay,29047,For profit,Corporation,143,69.7
+265867,Norterre,2555 Norterre Circle,Liberty,MO,64068,Clay,29047,For profit,Corporation,60,35.7
+265633,Redwood Of Cameron,801 Euclid,Cameron,MO,64429,Clinton,29049,For profit,Individual,120,66.5
+265698,"Nick's Health Care Center, Llc",253 East Highway 116,Plattsburg,MO,64477,Clinton,29049,For profit,Individual,70,72.3
+265742,Oakridge Of Plattsburg,205 E Clay Ave,Plattsburg,MO,64477,Clinton,29049,Non profit,Corporation,60,56.7
+265800,"Gower Convalescent Center, Inc",323 South Highway 169,Gower,MO,64454,Clinton,29049,Non profit,Corporation,82,69
+265208,Villa Marie-A Stonebridge Community,1030 Edmonds Street,Jefferson City,MO,65109,Cole,29051,For profit,Corporation,120,72.4
+265285,Jefferson City Manor Care Center,1720 Vieth Dr,Jefferson City,MO,65109,Cole,29051,For profit,Corporation,102,71.2
+265482,River City Living Community,3038 West Truman Blvd,Jefferson City,MO,65109,Cole,29051,For profit,Corporation,87,37.9
+265530,"Jefferson City Nursing And Rehabilitation Ctr, Llc",1221 Southgate Lane,Jefferson City,MO,65110,Cole,29051,For profit,Partnership,120,74.8
+265794,Heisinger Lutheran Home,1002 West Main Street,Jefferson City,MO,65109,Cole,29051,Non profit,Church related,29,25.3
+265810,Adams Street -A Stonebridge Community,1024 Adams Street,Jefferson City,MO,65101,Cole,29051,For profit,Partnership,120,51.7
+265819,Oak Tree Villas-A Stonebridge Community,3108 West Truman Boulevard,Jefferson City,MO,65109,Cole,29051,For profit,Corporation,42,28.7
+265837,St Joseph's Bluffs,1306 West Main Street,Jefferson City,MO,65109,Cole,29051,Non profit,Other,48,35.8
+265361,Riverdell Care Center,1121 11th Street,Boonville,MO,65233,Cooper,29053,For profit,Individual,60,46.3
+265522,Lakeview Health Care & Rehabilitation Center,1450 Ashley Road,Boonville,MO,65233,Cooper,29053,For profit,Individual,59,54.3
+265737,Laurie Care Center,610 Highway O,Laurie,MO,65038,Cooper,29053,Non profit,Other,108,83.1
+265738,Ashley Manor Care Center,1630 Radio Hill Road,Boonville,MO,65233,Cooper,29053,For profit,Individual,52,36.2
+265801,Katy Manor,205 Prospect,Pilot Grove,MO,65276,Cooper,29053,Government,County,60,54.6
+265554,Meramec Nursing Center,940 Mattox Drive,Sullivan,MO,63080,Crawford,29055,For profit,Individual,60,45.2
+265582,Stonecrest Healthcare,2 Highway  Y,Viburnum,MO,65566,Crawford,29055,For profit,Limited Liability company,60,53.9
+265652,Cuba Manor Inc,210 Eldon Drive,Cuba,MO,65453,Crawford,29055,For profit,Individual,90,67.8
+265866,Steelville Senior Living,311 N Spring Street,Steelville,MO,65565,Crawford,29055,For profit,Corporation,72,45.7
+265572,Dade County Nursing Home District,400 Broad Street,Greenfield,MO,65661,Dade,29057,Government,County,114,56.9
+265705,Good Shepherd Community Care And Rehabilitation,200 West 12th Street,Lockwood,MO,65682,Dade,29057,Non profit,Other,69,59.1
+265245,Colonial Springs Healthcare Center,750 West Cooper,Buffalo,MO,65622,Dallas,29059,Non profit,Corporation,134,103.7
+265471,Buffalo Prairie Center For Rehab And Healthcare,631 West Main Street,Buffalo,MO,65622,Dallas,29059,For profit,Corporation,60,46.5
+265729,Daviess County Nursing And Rehabilitation,1337 West Grand,Gallatin,MO,64640,Daviess,29061,Government,County,97,44.6
+265353,Quail Run Health Care Center,1405 West Grand Avenue,Cameron,MO,64429,DeKalb,29063,For profit,Individual,84,37.4
+265745,Sunset Home,1201 S. Polk,Maysville,MO,64469,DeKalb,29063,For profit,Corporation,60,53.3
+265521,Seville Care Center,35625 Highway 72,Salem,MO,65560,Dent,29065,For profit,Corporation,90,47.7
+26A206,Salem Care Center,1203 N Jackson,Salem,MO,65560,Dent,29065,For profit,Corporation,60,45.8
+26A381,Salem Memorial District Hospital,35629 Highway 72,Salem,MO,65560,Dent,29065,Government,Hospital district,18,16.8
+265254,Heart Of The Ozarks Healthcare Center,2004 Crestview Street,Ava,MO,65608,Douglas,29067,For profit,Individual,120,93.2
+265168,"Nhc Healthcare, Kennett",1120 Falcon,Kennett,MO,63857,Dunklin,29069,For profit,Corporation,170,102.4
+265384,Ridgeview Living Community,500 Barrett Drive,Malden,MO,63863,Dunklin,29069,For profit,Corporation,96,43.3
+265531,Heritage Nursing Center-Skilled Nurs By Americare,1802 St Francis,Kennett,MO,63857,Dunklin,29069,For profit,Corporation,72,49.1
+265609,Malden Nursing & Rehab,1209 Stokelan,Malden,MO,63863,Dunklin,29069,For profit,Corporation,70,41.5
+265677,General Baptist Nursing Home,17108 Us Highway 62,Campbell,MO,63933,Dunklin,29069,Non profit,Corporation,90,72.7
+265678,Bertrand Nursing And Rehab Center,603 Highway 62 West,Bertrand,MO,63823,Dunklin,29069,For profit,Corporation,60,47.6
+265832,Senath South Health Care Center,300 East Hornbeck Street,Senath,MO,63876,Dunklin,29069,For profit,Limited Liability company,150,28
+265202,Cedarcrest Manor,324 West 5th Street,Washington,MO,63090,Franklin,29071,For profit,Individual,177,98.1
+265337,Pacific Care Center,105 South Sixth Street,Pacific,MO,63069,Franklin,29071,For profit,Corporation,118,84.5
+265340,Life Care Center Of Sullivan,875 Dunsford Drive,Sullivan,MO,63080,Franklin,29071,For profit,Corporation,120,70.8
+265374,Grandview Healthcare Center,201 Grand Ave,Washington,MO,63090,Franklin,29071,For profit,Corporation,102,61.4
+265390,Sunset Health Care Center,400 West Park Avenue,Union,MO,63084,Franklin,29071,For profit,Partnership,120,106.9
+265415,New Haven Care Center,9503 Highway 100,New Haven,MO,63068,Franklin,29071,Non profit,Corporation,90,74.6
+265440,Gerald Nursing And Rehab,533 Canaan Road,Gerald,MO,63037,Franklin,29071,For profit,Corporation,60,21.6
+265495,St Clair Nursing Center,1035 Plaza Court North,Saint Clair,MO,63077,Franklin,29071,For profit,Corporation,79,58.8
+265873,Union Care Center,1080 Marie Lane,Union,MO,63084,Franklin,29071,For profit,Corporation,60,49.9
+265546,Gasconade Manor Nursing Home,1910 Nursing Home Road,Owensville,MO,65066,Gasconade,29073,Non profit,Other,79,57.9
+265651,Stonebridge Hermann,1800 Wein Street,Hermann,MO,65041,Gasconade,29073,For profit,Corporation,118,64
+265506,Pine View Manor Inc,307 N Pineview Street,Stanberry,MO,64489,Gentry,29075,Non profit,Corporation,70,61.4
+265157,Springfield Rehabilitation & Health Care Center,2800 South Fort Avenue,Springfield,MO,65807,Greene,29077,For profit,Corporation,146,113.2
+265161,Wilson's Creek Nursing & Rehab,3403 West Mt Vernon,Springfield,MO,65802,Greene,29077,For profit,Limited Liability company,172,126.1
+265188,Spring Valley Health & Rehabilitation Center,2915 South Fremont Ave,Springfield,MO,65804,Greene,29077,For profit,Limited Liability company,194,121.7
+265289,Cox Medical Centers Meyer Orthopedic And Rehab,3535 S National Ave,Springfield,MO,65807,Greene,29077,Non profit,Corporation,28,17.3
+265326,Republic Nursing & Rehab,901 East Hwy 174,Republic,MO,65738,Greene,29077,For profit,Corporation,127,97.8
+265394,Jordan Creek Nursing & Rehab,910 South West Ave,Springfield,MO,65802,Greene,29077,For profit,Limited Liability company,120,83.8
+265455,Willard Care Center,400 West Walnut Lane,Willard,MO,65781,Greene,29077,For profit,Individual,66,54.5
+265473,Glendale Gardens Nursing & Rehab,3535 East Cherokee,Springfield,MO,65809,Greene,29077,For profit,Limited Liability company,120,96.9
+265475,"Maranatha Village, Inc",233 East  Norton Road,Springfield,MO,65803,Greene,29077,Non profit,Corporation,120,97.9
+265477,Springfield Skilled Care Center,2401 West Grand,Springfield,MO,65802,Greene,29077,For profit,Corporation,120,108.8
+265559,"Maples Health And Rehabilitation, The",610 West Sunset Street,Springfield,MO,65807,Greene,29077,For profit,Individual,120,84.5
+265571,Ash Grove Healthcare Facility,401 North Medical Drive,Ash Grove,MO,65604,Greene,29077,Non profit,Other,82,76.2
+265656,Strafford Care Center,505 West Evergreen,Strafford,MO,65757,Greene,29077,For profit,Corporation,78,71.9
+265664,James River Nursing And Rehabilitation,3550 East Battlefield,Springfield,MO,65809,Greene,29077,For profit,Corporation,120,110.7
+265731,Magnolia Square Nursing And Rehab,1502 West Edgewood,Springfield,MO,65807,Greene,29077,For profit,Corporation,120,90.5
+265749,Woodland Manor,1347 East Valley Watermill Road,Springfield,MO,65803,Greene,29077,For profit,Corporation,180,87
+265799,"Neighborhoods At Quail Creek, The",1514 West Lark,Springfield,MO,65810,Greene,29077,For profit,Corporation,120,86.2
+265804,"Manor At Elfindale, The",1707 West Elfindale Street,Springfield,MO,65807,Greene,29077,Non profit,Corporation,100,91.7
+265814,Springfield Villa,1100 East Montclair,Springfield,MO,65807,Greene,29077,For profit,Corporation,146,88.2
+265835,Brookhaven Nursing & Rehab,3405 West Mt Vernon,Springfield,MO,65802,Greene,29077,For profit,Corporation,90,75.1
+265847,Sonshine Manor,300 South Cottonwood Avenue,Republic,MO,65738,Greene,29077,For profit,Limited Liability company,69,48.2
+265865,Birch Pointe Health And Rehabilitation,3705 S Jefferson Ave,Springfield,MO,65807,Greene,29077,For profit,Corporation,120,104.4
+265871,Sunterra Springs Springfield,4935 S National Ave,Springfield,MO,65810,Greene,29077,For profit,Corporation,38,28.4
+265878,Copper Rock Healthcare,712 Copper Rock Drive,Rogersville,MO,65742,Greene,29077,Non profit,Corporation,90,24.2
+265715,Sunnyview Nursing Home & Apartments,1311 E 28th Street,Trenton,MO,64683,Grundy,29079,Non profit,Other,154,81.6
+265730,Eastview Manor Care Center,1622 East 28th Street,Trenton,MO,64683,Grundy,29079,For profit,Limited Liability company,90,84.3
+265807,Crestview Home,1313 South 25th St,Bethany,MO,64424,Harrison,29081,For profit,Corporation,92,76.9
+265255,Clinton Healthcare And Rehabilitation Center,1009 East Ohio,Clinton,MO,64735,Henry,29083,For profit,Corporation,120,80.7
+265347,Westwood Living Center,1801 North Gaines Drive,Clinton,MO,64735,Henry,29083,For profit,Individual,120,46.2
+265683,Windsor Healthcare & Rehab Center,809 West Benton,Windsor,MO,65360,Henry,29083,For profit,Corporation,60,35.2
+265239,Hermitage Nursing & Rehab,18599 First Street,Hermitage,MO,65668,Hickory,29085,For profit,Limited Liability company,120,86.3
+265629,Oregon Care Center,501 Monroe,Oregon,MO,64473,Holt,29087,For profit,Corporation,60,39.2
+265746,Tiffany Heights,1531 Nebraska Street,Mound City,MO,64470,Holt,29087,For profit,Corporation,60,40.9
+265517,Fayette Caring Center,501 South Park,Fayette,MO,65248,Howard,29089,For profit,Corporation,60,31
+265535,Glasgow Gardens,100 Audsley Drive,Glasgow,MO,65254,Howard,29089,For profit,Corporation,59,36.1
+265155,"Nhc Healthcare, West Plains",211 Davis Drive,West Plains,MO,65775,Howell,29091,For profit,Corporation,118,75.7
+265164,West Vue Nursing And Rehabilitation Center,210 Davis Drive,West Plains,MO,65775,Howell,29091,Non profit,Church related,130,115.2
+265335,Willow Care Nursing Home,2646 State Route 76,Willow Springs,MO,65793,Howell,29091,Non profit,Corporation,105,84.4
+265400,Brooke Haven Healthcare,1410 North Kentucky Avenue,West Plains,MO,65775,Howell,29091,Non profit,Corporation,120,99.7
+265412,Mountain View Healthcare,1211 North Ash Street,Mountain View,MO,65548,Howell,29091,Non profit,Corporation,105,83.7
+265258,Belleview Valley Nursing Home,23144 Highway 32,Belleview,MO,63623,Iron,29093,For profit,Corporation,109,104.8
+265095,John Knox Village Care Center,600 Nw Pryor Road,Lees Summit,MO,64081,Jackson,29095,Non profit,Corporation,375,200.6
+265339,Autumn Terrace Health & Rehabilitation,6124 Raytown Road,Raytown,MO,64133,Jackson,29095,For profit,Limited Liability company,154,108.4
+265355,Life Care Center Of Grandview,6301 East 125th St,Grandview,MO,64030,Jackson,29095,For profit,Corporation,172,120.2
+265377,Jefferson Health Care,615 Sw Oldham Parkway,Lees Summit,MO,64081,Jackson,29095,For profit,Corporation,118,55.7
+265404,Maywood Terrace Living Center,10300 East Truman Rd,Independence,MO,64052,Jackson,29095,For profit,Individual,89,43.1
+265425,Edgewood Manor Health Care Center,11900 Jessica Lane,Raytown,MO,64138,Jackson,29095,For profit,Limited Liability company,66,47.6
+265456,Truman Gardens,17451 Medical Center Parkway,Independence,MO,64057,Jackson,29095,For profit,Corporation,118,44.8
+265510,Hidden Lake Care Center,11400 Hidden Lake Drive,Raytown,MO,64133,Jackson,29095,For profit,Corporation,112,95.1
+265512,Lee's Summit Pointe Health & Rehabilitation,1501 Sw 3rd Street,Lees Summit,MO,64081,Jackson,29095,For profit,Limited Liability company,60,46.5
+265579,Monterey Park Rehabilitation & Health Care Center,4600 Little Blue Parkway,Independence,MO,64057,Jackson,29095,For profit,Individual,122,89.6
+265595,Shangri-La Rehab & Living Center,930 Ne Duncan Road,Blue Springs,MO,64014,Jackson,29095,For profit,Corporation,120,81.4
+265682,Independence Manor Care Center,1600 South Kingshighway,Independence,MO,64055,Jackson,29095,For profit,Corporation,99,65
+265693,Redwood Of Independence,1800 S Swope Drive,Independence,MO,64057,Jackson,29095,For profit,Individual,130,105.3
+265700,Wilshire At Lakewood,600 N E Meadowview Drive,Lees Summit,MO,64064,Jackson,29095,For profit,Corporation,170,142.7
+265710,Oak Grove Nursing & Rehab,2108 South Mitchell,Oak Grove,MO,64075,Jackson,29095,For profit,Corporation,90,81.7
+265727,Redwood Of Carmel Hills,810 East Walnut,Independence,MO,64050,Jackson,29095,For profit,Corporation,194,152.8
+265759,St Marys Manor,111 Mock Avenue,Blue Springs,MO,64014,Jackson,29095,Non profit,Corporation,130,86.9
+265786,Rosewood Health And Rehab Center,1415 West White Oak,Independence,MO,64050,Jackson,29095,For profit,Limited Liability company,300,277.3
+265820,"Villages Of Jackson Creek, The",3980 South Jackson Drive,Independence,MO,64057,Jackson,29095,For profit,Corporation,120,114.5
+265864,Sunterra Springs Independence,19200 E 37th Terrace S,Independence,MO,64057,Jackson,29095,For profit,Corporation,38,38.7
+26A292,Jeanne Jugan Center,8745 James A Reed Rd,Kansas City,MO,64138,Jackson,29095,Non profit,Corporation,52,49
+265307,Webb City Health And Rehabilitation Center,2077 Stadium Drive,Webb City,MO,64870,Jasper,29097,For profit,Corporation,120,103
+265320,Carthage Health And Rehabilitation Center,1901 Buena Vista Avenue,Carthage,MO,64836,Jasper,29097,For profit,Corporation,120,87.7
+265649,Sarcoxie Nursing Center,1505 Miner,Sarcoxie,MO,64862,Jasper,29097,For profit,Corporation,40,32.2
+265661,St Luke's Nursing Center Inc,1220 East Fairview,Carthage,MO,64836,Jasper,29097,Non profit,Corporation,95,71.2
+265216,"Scenic Nursing And Rehabilitation Center, Llc",1333 Scenic Drive,Herculaneum,MO,63048,Jefferson,29099,For profit,Limited Liability company,189,168.8
+265324,Woodland Manor Nursing Center,100 Woodland Court,Arnold,MO,63010,Jefferson,29099,For profit,Partnership,178,166
+265369,Crystal Oaks,1500 Calvary Church Road,Festus,MO,63028,Jefferson,29099,Non profit,Corporation,131,115
+265395,Cori Manor Healthcare & Rehabilitation Center,560 Corisande Hills Road,Fenton,MO,63026,Jefferson,29099,For profit,Individual,144,113.4
+265401,Festus Manor,627 Westwood Drive South,Festus,MO,63028,Jefferson,29099,For profit,Corporation,150,146.1
+265430,Big River Nursing & Rehab,6400 The Cedars Court,Cedar Hill,MO,63016,Jefferson,29099,For profit,Corporation,150,96.9
+265509,South County Nursing Home Inc,1101 West Outer 21 Road,Arnold,MO,63010,Jefferson,29099,For profit,Corporation,153,78.4
+265620,Hillcrest Care Center Inc,1108 Clarke Street,De Soto,MO,63020,Jefferson,29099,For profit,Corporation,120,105.8
+265654,Fountainbleau Nursing Center,1349 Highway 61,Festus,MO,63028,Jefferson,29099,For profit,Corporation,106,85
+265711,Delmar Gardens Of Meramec Valley,1 Arbor Terrace,Fenton,MO,63026,Jefferson,29099,For profit,Corporation,153,141.2
+265714,Baisch Nursing Center,3260 Baisch Drive,De Soto,MO,63020,Jefferson,29099,For profit,Corporation,61,41.8
+265772,"Villas-A Stonebridge Community, The",1550 Villas Drive,De Soto,MO,63020,Jefferson,29099,For profit,Corporation,56,50.1
+265645,Country Club Care Center Of Warrensburg,503 Regent Drive,Warrensburg,MO,64093,Johnson,29101,For profit,Corporation,73,58.7
+265669,Warrensburg Manor Care Center,400 Care Center Drive,Warrensburg,MO,64093,Johnson,29101,For profit,Corporation,88,48
+265739,Holden Manor Care Center,2005 South Lexington,Holden,MO,64040,Johnson,29101,For profit,Corporation,52,30.1
+265797,Ridge Crest Nursing Center,706 South Mitchell,Warrensburg,MO,64093,Johnson,29101,For profit,Corporation,120,43.5
+26E256,Johnson County Care Center,122 East Market Street,Warrensburg,MO,64093,Johnson,29101,For profit,Corporation,87,66.2
+265763,Knox County Nursing Home District,55774 State Highway 6,Edina,MO,63537,Knox,29103,Government,County,60,37.7
+265123,Lebanon North Nursing & Rehab,596 Morton Road,Lebanon,MO,65536,Laclede,29105,For profit,Limited Liability company,180,91.6
+265428,Lebanon South Nursing & Rehab,514 West Fremont Road,Lebanon,MO,65536,Laclede,29105,For profit,Corporation,116,80.6
+265420,Apple Ridge Care Center,100 West Thomas Avenue,Waverly,MO,64096,Lafayette,29107,For profit,Individual,60,45.8
+265501,New Haven Living Center,609 Golf Street,Odessa,MO,64076,Lafayette,29107,For profit,Limited Liability company,60,28.7
+265667,Meyer Care Center,1201 West 19th Street,Higginsville,MO,64037,Lafayette,29107,Non profit,Corporation,56,51.9
+265765,Lutheran Nursing Home,202 South West Street,Concordia,MO,64020,Lafayette,29107,Non profit,Corporation,113,74.8
+265182,Aurora Nursing Center,1700 South Hudson Avenue,Aurora,MO,65605,Lawrence,29109,For profit,Corporation,125,53.9
+265452,"Mt Vernon Place Care Center, Inc",1425  South Landrum,Mount Vernon,MO,65712,Lawrence,29109,For profit,Corporation,60,39.2
+265594,"Ozarks Methodist Manor, The",205 South College,Marionville,MO,65705,Lawrence,29109,Non profit,Corporation,78,61.2
+265752,Lawrence County Manor,915 Carl Allen Street,Mount Vernon,MO,65712,Lawrence,29109,Government,County,90,47
+265360,Lewis County Nursing Home District,17528 State Highway 81,Canton,MO,63435,Lewis,29111,Government,County,118,57.5
+265474,Country Aire Retirement Center,18540 State Highway 16,Lewistown,MO,63452,Lewis,29111,For profit,Corporation,60,36.3
+265646,La Belle Manor Care Center,1002 Central,La Belle,MO,63447,Lewis,29111,For profit,Corporation,94,52.8
+265433,Lincoln County Nursing & Rehab,1145 East Cherry Street,Troy,MO,63379,Lincoln,29113,For profit,Corporation,90,76.1
+265611,Silex Community Care,111 Duncan Mansion Road,Silex,MO,63377,Lincoln,29113,For profit,Corporation,60,55.7
+265702,Troy Manor,200 Thompson Drive,Troy,MO,63379,Lincoln,29113,For profit,Corporation,130,105.3
+265825,Elsberry Missouri Health Care Center,1827 Hwy B,Elsberry,MO,63343,Lincoln,29113,Non profit,Corporation,56,53.3
+265169,Pioneer Skilled Nursing Center,1500 South Kansas Avenue,Marceline,MO,64658,Linn,29115,For profit,Corporation,96,43.1
+265405,Life Care Center Of Brookfield,315 Hunt Street,Brookfield,MO,64628,Linn,29115,For profit,Corporation,120,102.1
+265644,Mclarney Manor,215 East Pratt,Brookfield,MO,64628,Linn,29115,For profit,Corporation,60,41.1
+265480,Grand River Health Care,118 Trenton Road,Chillicothe,MO,64601,Livingston,29117,For profit,Corporation,60,43.9
+265621,Livingston Manor Care Center,939 East Birch,Chillicothe,MO,64601,Livingston,29117,For profit,Corporation,94,47.8
+265785,Indian Hills-A Stonebridge Community,2601 Fair Street,Chillicothe,MO,64601,Livingston,29117,For profit,Individual,75,62.4
+265813,Morningside Center,1700 Morningside Drive,Chillicothe,MO,64601,Livingston,29117,Government,County,60,54.8
+265447,Mcdonald County Living Center,1000 Patterson Street,Anderson,MO,64831,McDonald,29119,For profit,Corporation,96,70.7
+265163,Macon Health Care Center,29612 Kellogg Avenue,Macon,MO,63552,Macon,29121,For profit,Corporation,84,45.5
+265200,Loch Haven,701 Sunset Hills Dr,Macon,MO,63552,Macon,29121,Government,County,160,92.3
+265793,La Plata Nursing Home,100 Old Stagecoach Road,La Plata,MO,63549,Macon,29121,Government,County,52,44.6
+265514,Claru Deville Nursing Center,105 Spruce Street,Fredericktown,MO,63645,Madison,29123,For profit,Corporation,90,69.1
+265561,Madison Medical Center,611 West Main Street,Fredericktown,MO,63645,Madison,29123,Government,City/county,119,70.9
+265249,Maries Manor,174 Ballpark Road,Vienna,MO,65582,Maries,29125,For profit,Individual,98,71.3
+265108,Beth Haven Nursing Home,2500 Pleasant Street,Hannibal,MO,63401,Marion,29127,Non profit,Corporation,105,96.5
+265237,Maple Lawn Nursing Home,1410 West Line Street,Palmyra,MO,63461,Marion,29127,Government,County,110,67.1
+265462,Willow Care Rehabilitation & Health Care Center,328 Munger Lane,Hannibal,MO,63401,Marion,29127,For profit,Corporation,111,54.2
+265469,Levering Regional Health Care Center,1734 Market Street,Hannibal,MO,63401,Marion,29127,For profit,Corporation,179,170.9
+265574,Monroe City Manor Care Center,1010 Highway 24 & 36 East,Monroe City,MO,63456,Marion,29127,For profit,Corporation,60,54.6
+265690,Luther Manor Retirement & Nursing Center,3170 Highway 61 North,Hannibal,MO,63401,Marion,29127,Non profit,Corporation,64,56.4
+265796,Pearl's Ii Eden For Elders,611 North College,Princeton,MO,64673,Mercer,29129,For profit,Corporation,60,51.6
+265555,Eldon Nursing & Rehab,1001 East North Street,Eldon,MO,65026,Miller,29131,For profit,Corporation,90,66.4
+265676,St Elizabeth Care Center,649 South Walnut,Saint Elizabeth,MO,65075,Miller,29131,For profit,Individual,63,58.5
+265779,Lakeside Meadows-A Stonebridge Community,872 College Boulevard,Osage Beach,MO,65065,Miller,29131,For profit,Corporation,66,48.7
+265165,Charleston Manor,1220 East Marshall,Charleston,MO,63834,Mississippi,29133,For profit,Individual,120,41.6
+265551,East Prairie Nursing Center,186 Millar Road,East Prairie,MO,63845,Mississippi,29133,For profit,Corporation,70,26.2
+265396,California Care Center,1106 South Oak,California,MO,65018,Moniteau,29135,For profit,Individual,60,32.4
+265648,Moniteau Care Center,200 South Gerhart,California,MO,65018,Moniteau,29135,For profit,Corporation,60,25.5
+265748,Tipton Oak Manor,601 West Morgan Street,Tipton,MO,65081,Moniteau,29135,For profit,Corporation,66,60.1
+265590,Monroe Manor,200 South St,Paris,MO,65275,Monroe,29137,Government,County,119,79
+265333,Jonesburg Nursing & Rehab,308 Cedar Avenue,Jonesburg,MO,63351,Montgomery,29139,For profit,Corporation,90,70.5
+265398,Gamma Road Lodge,250 E Locust,Wellsville,MO,63384,Montgomery,29139,For profit,Limited Liability company,112,50.5
+265625,St Andrew's At New Florence,515 Picnic Street,New Florence,MO,63363,Montgomery,29139,Non profit,Corporation,87,70.6
+265528,Good Shepherd Care Center,1101 West Clay Road,Versailles,MO,65084,Morgan,29141,Non profit,Other,117,71.5
+265655,Golden Age Living Center,404 E Third Street,Stover,MO,65078,Morgan,29141,Government,County,61,49.6
+265209,New Madrid Living Center,1050 Dawson Road,New Madrid,MO,63869,New Madrid,29143,For profit,Corporation,112,79.3
+265409,Gideon Care Center,300 Lunbeck,Gideon,MO,63848,New Madrid,29143,For profit,Corporation,72,56.9
+265557,"Westfield Nursing Center, Inc",3144 State Highway Ff,Sikeston,MO,63801,New Madrid,29143,For profit,Corporation,98,63.7
+265859,Cotton Point Living Center,609 South Railroad Street,Matthews,MO,63867,New Madrid,29143,For profit,Individual,98,47.3
+265266,Medicalodges Neosho,400 Lyon Drive,Neosho,MO,64850,Newton,29145,For profit,Corporation,114,76.3
+265468,Granby House,301 South Main,Granby,MO,64844,Newton,29145,For profit,Corporation,60,41.6
+265491,Seneca House,914 Chickesaw Street,Seneca,MO,64865,Newton,29145,For profit,Corporation,80,47.6
+265354,Maryville Living Center,524 North Laura,Maryville,MO,64468,Nodaway,29147,For profit,Corporation,105,62.6
+265591,Parkdale Manor Care Center,814 West South Avenue,Maryville,MO,64468,Nodaway,29147,For profit,Corporation,92,37.3
+265643,Village Care Center Inc,810 East Edwards Street,Maryville,MO,64468,Nodaway,29147,For profit,Corporation,46,35.2
+265836,Nodaway Nursing Home,22371 State Highway 46,Maryville,MO,64468,Nodaway,29147,For profit,Corporation,60,36.1
+265246,Shady Oaks Healthcare Center,335 Business Route 63,Thayer,MO,65791,Oregon,29149,For profit,Individual,120,64.8
+265364,Linn Oak Rehabilitation Center,196 Highway Cc,Linn,MO,65051,Osage,29151,For profit,Corporation,132,45.5
+265670,Frene Valley Of Owensville-A Stonebridge Community,1016 W Highway 28,Owensville,MO,65066,Osage,29151,For profit,Corporation,131,79.7
+265713,Miller County Care And Rehabilitation Center,1157 Highway 17,Tuscumbia,MO,65082,Osage,29151,Government,County,86,63.7
+265777,Westphalia Hills-A Stonebridge Community,1899 Highway 63,Westphalia,MO,65085,Osage,29151,For profit,Corporation,64,51.3
+265312,Gainesville Health Care Center,77 Medical Drive,Gainesville,MO,65655,Ozark,29153,For profit,Corporation,99,50.5
+265210,River Oaks Care Center,1001 North Walnut,Steele,MO,63877,Pemiscot,29155,For profit,Individual,90,57.6
+265549,Portageville Health Care Center,290 West State Hwy 162,Portageville,MO,63873,Pemiscot,29155,Non profit,Other,60,52.7
+265771,Southgate Living Center,500 Truman Boulevard,Caruthersville,MO,63830,Pemiscot,29155,For profit,Individual,94,69.7
+26A469,Pemiscot County Memorial Hospital,946 E Reed Street,Hayti,MO,63851,Pemiscot,29155,Government,County,66,20.9
+265704,"Estates Of Perryville, Llc, The",430 North West Street,Perryville,MO,63775,Perry,29157,For profit,Limited Liability company,156,90.3
+265829,Independence Care Center Of Perry County,800 South Kingshighway,Perryville,MO,63775,Perry,29157,Non profit,Corporation,133,110.3
+265149,Four Seasons Living Center,2800 Highway Tt,Sedalia,MO,65301,Pettis,29159,For profit,Corporation,239,224.4
+265854,Rest Haven Convalescent And Retirement Home,1800 South Ingram,Sedalia,MO,65301,Pettis,29159,For profit,Corporation,86,46.9
+265856,Fair View Nursing Home,1714 W 16th Street,Sedalia,MO,65301,Pettis,29159,For profit,Individual,75,64.2
+265858,E W Thompson Health & Rehabilitation Center,975 Mitchell Road,Sedalia,MO,65301,Pettis,29159,Non profit,Corporation,60,57.6
+26A378,"Sylvia G Thompson Residence Center, Inc",3333 W Tenth Street,Sedalia,MO,65301,Pettis,29159,Non profit,Corporation,120,119.5
+265225,St James Living Center,415 Sidney Street,Saint James,MO,65559,Phelps,29161,For profit,Corporation,90,68.4
+265279,Cedar Pointe,1800 White Columns Drive,Rolla,MO,65401,Phelps,29161,For profit,Corporation,102,64.2
+265327,Phelps Health,1000 W Tenth St,Rolla,MO,65401,Phelps,29161,Non profit,Other,20,7.6
+265580,Rolla Presbyterian Manor,1200 Homelife Plaza,Rolla,MO,65401,Phelps,29161,Non profit,Corporation,30,23.8
+265844,Rolla Health & Rehabilitation Suites,1200 Mccutchen Road,Rolla,MO,65401,Phelps,29161,For profit,Corporation,116,69.6
+265851,Silverstone Place,2735 Eagleson Dr,Rolla,MO,65401,Phelps,29161,For profit,Corporation,110,96.3
+265419,"Country View Nursing Facility, Inc",2106 West Main,Bowling Green,MO,63334,Pike,29163,For profit,Corporation,60,40.9
+265740,Maple Grove Lodge,2407 Kentucky Street,Louisiana,MO,63353,Pike,29163,For profit,Corporation,90,51.6
+265379,"Riverside Nursing & Rehabilitation Center, Llc",4700 Nw Cliffview Drive,Riverside,MO,64150,Platte,29165,For profit,Corporation,180,122.3
+265696,Hillview Nursing & Rehab,220 O'rourke Drive,Platte City,MO,64079,Platte,29165,For profit,Corporation,120,63.6
+265381,Northwood Hills Care Center,800 N Arthur St,Humansville,MO,65674,Polk,29167,For profit,Corporation,120,96.5
+265519,Parkview Health Care Facility,119 West Forest,Bolivar,MO,65613,Polk,29167,Non profit,Corporation,78,70.7
+265545,Citizens Memorial Healthcare Facility,1218 West Locust,Bolivar,MO,65613,Polk,29167,Non profit,Corporation,111,94.4
+265573,Big Spring Care Center For Rehab And Healthcare,202 East Mill Street,Humansville,MO,65674,Polk,29167,For profit,Corporation,60,42.2
+265373,Life Care Center Of Waynesville,700 Birch Lane,Waynesville,MO,65583,Pulaski,29169,For profit,Corporation,120,79.8
+265418,Dixon Nursing & Rehab,403 East 10th Street,Dixon,MO,65459,Pulaski,29169,For profit,Limited Liability company,60,38.6
+265755,Richland Care Center Inc,400 Tri-County Lane,Richland,MO,65556,Pulaski,29169,Non profit,Corporation,86,39.6
+265826,Putnam County Care Center,1814 Oak Street,Unionville,MO,63565,Putnam,29171,Government,County,60,54.3
+265423,Westview Nursing Home,301 West Dunlop Street,Center,MO,63436,Ralls,29173,For profit,Limited Liability company,60,57.4
+265330,North Village Park,2041 Silva Lane,Moberly,MO,65270,Randolph,29175,For profit,Limited Liability company,183,169.1
+265407,Moberly Nursing & Rehab,700 East Urbandale Drive,Moberly,MO,65270,Randolph,29175,For profit,Individual,101,50.5
+265536,Valley View Health & Rehabilitation,1600 East Rollins St,Moberly,MO,65270,Randolph,29175,For profit,Corporation,96,66.7
+265358,Riverbend Heights Health & Rehabilitation,1221 Highway 13 South,Lexington,MO,64067,Ray,29177,For profit,Corporation,154,67.5
+265666,Lawson Manor & Rehab,210 West 8th Terrace,Lawson,MO,64062,Ray,29177,For profit,Corporation,60,43
+265708,Shirkey Nursing And Rehabilitation Center,804 Wollard Blvd,Richmond,MO,64085,Ray,29177,Non profit,Other,197,131.6
+265472,Brent B Tinnin Manor,220 Euel Polk Drive,Ellington,MO,63638,Reynolds,29179,For profit,Corporation,60,29.2
+265504,"Current River Nursing Center, Inc",1015  North Grand Avenue,Doniphan,MO,63935,Ripley,29181,For profit,Individual,120,54.6
+265118,Frontier Health & Rehabilitation,2840 West Clay St,Saint Charles,MO,63301,St. Charles,29183,For profit,Corporation,180,121.9
+265160,Lewis & Clark Gardens,1221 Boones Lick Road,Saint Charles,MO,63301,St. Charles,29183,For profit,Corporation,142,107
+265166,"Nhc Healthcare, St Charles",35 Sugar Maple Lane,Saint Charles,MO,63303,St. Charles,29183,For profit,Corporation,120,99.2
+265319,Parklane Care And Rehabilitation Center,401 Mar-Le Drive,Wentzville,MO,63385,St. Charles,29183,For profit,Individual,240,106.3
+265321,Garden View Care Center,700 Garden Path,O Fallon,MO,63366,St. Charles,29183,For profit,Corporation,36,22.7
+265518,"Windsor Estates Of St Charles Snal, Llc",2150 West Randolph Street,Saint Charles,MO,63301,St. Charles,29183,For profit,Limited Liability company,66,58.1
+265589,St Peters Manor Care Center,230 Spencer Road,Saint Peters,MO,63376,St. Charles,29183,For profit,Corporation,96,91.2
+265767,Lutheran Senior Services At Breeze Park,600 Breeze Park Drive,Saint Charles,MO,63304,St. Charles,29183,Non profit,Church related,81,77.5
+265783,"Mount Carmel Senior Living - St Charles, Llc",723 First Capitol Drive,Saint Charles,MO,63301,St. Charles,29183,For profit,Corporation,84,76.6
+265792,Delmar Gardens Of O'fallon,7068 South Outer 364,O Fallon,MO,63368,St. Charles,29183,For profit,Corporation,164,131.9
+265824,"Villages Of St Peters, The",5400 Executive Centre Parkway,Saint Peters,MO,63376,St. Charles,29183,For profit,Corporation,130,118.6
+265839,Abbey Senior Health,206 North Main Street,O Fallon,MO,63366,St. Charles,29183,For profit,Corporation,55,49.6
+265860,Cottages Of Lake St Louis,2885 Technology Drive,Lake Saint Louis,MO,63367,St. Charles,29183,For profit,Corporation,60,56.9
+265875,Mcclay Senior Care,3801 Mcclay Road,Saint Peters,MO,63376,St. Charles,29183,For profit,Corporation,60,58.1
+265431,Truman Lake Manor Inc,600 East 7th St,Lowry City,MO,64763,St. Clair,29185,For profit,Corporation,120,45.7
+265843,Appleton City Manor,600 North Ohio,Appleton City,MO,64724,St. Clair,29185,For profit,Partnership,60,28.7
+265489,St Genevieve Care Center Inc,1010 Ste Genevieve Drive,Sainte Genevieve,MO,63670,Ste. Genevieve,29186,For profit,Corporation,90,49.4
+265743,Riverview At The Park Care And Rehabilitation Ctr,1100 Progress Parkway,Sainte Genevieve,MO,63670,Ste. Genevieve,29186,For profit,Corporation,120,96.2
+265158,"Nhc Healthcare, Desloge",801 Brim Street,Desloge,MO,63601,St. Francois,29187,For profit,Corporation,120,72.2
+265348,Camelot Nursing And Rehabilitation Center,705 Grand Canyon Drive,Farmington,MO,63640,St. Francois,29187,For profit,Corporation,97,71
+265389,Southbrook-Skilled Nursing By Americare,1108 West Liberty,Farmington,MO,63640,St. Francois,29187,For profit,Corporation,94,69.5
+265583,Farmington Presbyterian Manor,500 Cayce Street,Farmington,MO,63640,St. Francois,29187,Non profit,Corporation,90,84
+265674,St Francois Manor,1180 Old Jackson Road,Farmington,MO,63640,St. Francois,29187,For profit,Individual,118,87.7
+265701,St Joe Manor,10 Lake Drive,Bonne Terre,MO,63628,St. Francois,29187,For profit,Individual,120,75.6
+265734,Country Meadows,1301 N St Joe Drive,Park Hills,MO,63601,St. Francois,29187,For profit,Corporation,72,65.9
+265798,Community Manor,783 Weber Road,Farmington,MO,63640,St. Francois,29187,For profit,Corporation,99,76.9
+265001,"Nhc Healthcare, Town & Country",13995 Clayton Road,Town And Country,MO,63017,St. Louis,29189,For profit,Corporation,282,117.1
+265071,Mason Pointe Care Center,13190 South Outer 40 Road,Chesterfield,MO,63017,St. Louis,29189,Non profit,Corporation,206,130.8
+265105,Delmar Gardens West,13550 South Outer 40 Road,Town And Country,MO,63017,St. Louis,29189,For profit,Corporation,321,244.5
+265112,Florissant Valley Health & Rehabilitation Center,1200 Graham Road,Florissant,MO,63031,St. Louis,29189,For profit,Corporation,98,73.6
+265120,St Sophia Health & Rehabilitation Center,936 Charbonier Road,Florissant,MO,63031,St. Louis,29189,For profit,Limited Liability company,240,154.6
+265121,Friendship Village Chesterfield,15201 Olive Boulevard,Chesterfield,MO,63017,St. Louis,29189,Non profit,Corporation,99,81.4
+265130,Big Bend Woods Healthcare Center,110 Highland Avenue,Valley Park,MO,63088,St. Louis,29189,For profit,Corporation,135,92.1
+265136,Friendship Village Sunset Hills,12509 Village Circle Drive,Saint Louis,MO,63127,St. Louis,29189,Non profit,Corporation,94,86.3
+265140,Marymount Manor,313 Augustine Rd,Eureka,MO,63025,St. Louis,29189,For profit,Corporation,174,89.5
+265156,Delmar Gardens On The Green,15197 Clayton Road,Chesterfield,MO,63017,St. Louis,29189,For profit,Limited Liability company,163,125.4
+265159,"Mary, Queen And Mother Center",7601 Watson Road,Shrewsbury,MO,63119,St. Louis,29189,Non profit,Church related,230,154.2
+265170,Delmar Gardens Of Chesterfield,14855 North Outer 40 Road,Chesterfield,MO,63017,St. Louis,29189,For profit,Corporation,204,172.3
+265174,Christian Extended Care & Rehabilitation,11160 Village North Drive,Saint Louis,MO,63136,St. Louis,29189,Non profit,Corporation,60,49.4
+265195,St Andrew's At Francis Place,300 Forby Road,Eureka,MO,63025,St. Louis,29189,Non profit,Church related,106,86.3
+265236,Mark Twain Manor,11988 Mark Twain Lane,Bridgeton,MO,63044,St. Louis,29189,For profit,Corporation,120,84.9
+265310,Delmar Gardens South,5300 Butler Hill Road,Saint Louis,MO,63128,St. Louis,29189,For profit,Corporation,149,129.8
+265318,"Nhc Healthcare, Maryland Heights",2920 Fee Fee Road,Maryland Heights,MO,63043,St. Louis,29189,For profit,Corporation,220,196.5
+265325,Delmar Gardens North,4401 Parker Road,Black Jack,MO,63033,St. Louis,29189,For profit,Limited Liability company,199,184.4
+265331,Chestnut Rehab And Nursing,10954 Kennerly Road,Saint Louis,MO,63128,St. Louis,29189,For profit,Corporation,166,75.2
+265338,"Westchester House, The",550 White Road,Chesterfield,MO,63017,St. Louis,29189,For profit,Corporation,159,95.7
+265341,"Pillars Of North County Health & Rehab Center, The",13700 Old Halls Ferry Road,Florissant,MO,63033,St. Louis,29189,For profit,Limited Liability company,120,84.9
+265343,Delmar Gardens Of Creve Coeur,850 Country Manor Lane,Creve Coeur,MO,63141,St. Louis,29189,For profit,Limited Liability company,124,106.7
+265345,Life Care Center Of Bridgeton,12145 Bridgeton Square Dr,Bridgeton,MO,63044,St. Louis,29189,For profit,Corporation,91,81.1
+265352,West County Care Center,312 Solley Drive,Ballwin,MO,63021,St. Louis,29189,For profit,Corporation,137,53.7
+265365,Stonebrige Florissant,6768 North Highway 67,Florissant,MO,63034,St. Louis,29189,For profit,Corporation,120,91
+265402,Rancho Manor Healthcare And Rehabilitation Center,615 Rancho Lane,Florissant,MO,63031,St. Louis,29189,For profit,Corporation,120,78.1
+265414,Surrey Place St Lukes Hosp Skilled Nursing,14701 Olive Blvd,Chesterfield,MO,63017,St. Louis,29189,Non profit,Corporation,80,62.3
+265417,Alexian Brothers Sherbrooke Village,4005 Ripa Avenue,Saint Louis,MO,63125,St. Louis,29189,Non profit,Church related,167,111.9
+265439,Barnes-Jewish Extended Care,401 Corporate Park Drive,Saint Louis,MO,63105,St. Louis,29189,Non profit,Corporation,92,80.1
+265457,Crest View Rehabilitation And Healthcare Center,11278 Schuetz Road,Saint Louis,MO,63146,St. Louis,29189,For profit,Limited Liability company,120,70.7
+265486,Stonebridge Maryland Heights,2963 Doddridge Avenue,Maryland Heights,MO,63043,St. Louis,29189,For profit,Corporation,223,185.6
+265523,Parkwood Skilled Nursing And Rehabilitation Center,3201 Parkwood Lane,Maryland Heights,MO,63043,St. Louis,29189,For profit,Corporation,130,93.2
+265534,Heritage Care Center,4401 North Hanley Road,Saint Louis,MO,63134,St. Louis,29189,For profit,Limited Liability company,120,110.9
+265539,Ballwin Ridge Health & Rehabilitation,1441 Charic Drive,Wildwood,MO,63021,St. Louis,29189,For profit,Corporation,66,54.2
+265578,Normandy Nursing Center,7301 St Charles Rock Rd,Saint Louis,MO,63133,St. Louis,29189,For profit,Limited Liability company,116,NA
+265586,St Louis Place Health & Rehabilitation,2600 Redman Road,Saint Louis,MO,63136,St. Louis,29189,For profit,Corporation,120,61
+265600,Lutheran Convalescent Home,723 South Laclede Station Rd,Webster Groves,MO,63119,St. Louis,29189,Non profit,Church related,138,123.4
+265607,Crystal Creek Health And Rehabilitation Center,250 New Florissant Road South,Florissant,MO,63031,St. Louis,29189,For profit,Corporation,158,125.2
+265627,Garden View Care Center Of Chesterfield,1025 Chesterfield Pointe Parkway,Chesterfield,MO,63017,St. Louis,29189,For profit,Corporation,36,29.7
+265636,Nazareth Living Center,2 Nazareth Lane,Saint Louis,MO,63129,St. Louis,29189,Non profit,Corporation,121,114
+265680,Oak Knoll Skilled Nursing & Rehabilitation Center,37 North Clark Avenue,Ferguson,MO,63135,St. Louis,29189,For profit,Corporation,72,62.2
+265703,Green Park Senior Living Community,9350 Green Park Road,Saint Louis,MO,63123,St. Louis,29189,For profit,Corporation,188,157
+265709,Bellefontaine Gardens Nursing & Rehab,9500 Bellefontaine Road,Saint Louis,MO,63137,St. Louis,29189,For profit,Corporation,96,69.5
+265712,"Estates Of St Louis, Llc, The",2115 Kappel Drive,Saint Louis,MO,63136,St. Louis,29189,For profit,Limited Liability company,94,74
+265719,Oakwood Estates Nursing & Rehab,5303 Bermuda Drive,Normandy,MO,63121,St. Louis,29189,For profit,Corporation,115,98
+265720,Creve Coeur Manor,1127 Timber Run Drive,Saint Louis,MO,63146,St. Louis,29189,For profit,Corporation,149,92.7
+265732,Bentleys Extended Care,3060 Ashby Road,Overland,MO,63114,St. Louis,29189,For profit,Corporation,72,55.7
+265733,St Johns Place,3333 Brown Road,Saint Louis,MO,63114,St. Louis,29189,For profit,Corporation,94,62.4
+265735,"Estates Of Hidden Lake, The",11728 Hidden Lake Drive,Saint Louis,MO,63138,St. Louis,29189,For profit,Corporation,67,61.6
+265736,U-City Forest Manor,1301 Partridge Avenue,Saint Louis,MO,63130,St. Louis,29189,For profit,Corporation,120,108.4
+265756,Bethesda Southgate,5943 Telegraph Road,Saint Louis,MO,63129,St. Louis,29189,Non profit,Corporation,130,95.5
+265757,Bentwood Nursing & Rehab,1501 Charbonier Road,Florissant,MO,63031,St. Louis,29189,For profit,Corporation,116,62.9
+265764,Bethesda Dilworth,9645 Big Bend Blvd,Saint Louis,MO,63122,St. Louis,29189,Non profit,Corporation,280,173.4
+265766,Bethesda Meadow,322  Old State Road,Ellisville,MO,63021,St. Louis,29189,Non profit,Corporation,210,109.7
+265775,Community Care Center Of Lemay Inc,9353 South  Broadway,Saint Louis,MO,63125,St. Louis,29189,For profit,Corporation,60,52.3
+265776,"Estates Of Spanish Lake, The",610 Prigge Road,Saint Louis,MO,63138,St. Louis,29189,For profit,Corporation,150,70.5
+265791,Brooking Park,307 South Woods Mill Road,Chesterfield,MO,63017,St. Louis,29189,Non profit,Corporation,37,28.1
+265805,Lutheran Senior Services At Meramec Bluffs,50 Meramec Trails Drive,Ballwin,MO,63021,St. Louis,29189,Non profit,Corporation,58,52.6
+265808,Garden View Care Center At Dougherty Ferry,13612 Big Bend Road,Valley Park,MO,63088,St. Louis,29189,For profit,Corporation,28,18.5
+265823,"Crestwood Health Care Center, Llc",11400 Mehl Avenue,Florissant,MO,63033,St. Louis,29189,For profit,Limited Liability company,150,139.6
+265831,Ackert Park Skilled Nursing & Rehabilitation Cente,894 Leland Avenue,University City,MO,63130,St. Louis,29189,For profit,Corporation,130,65.2
+265833,"Manor Grove, Incorporated",711 South Kirkwood Road,Kirkwood,MO,63122,St. Louis,29189,Non profit,Corporation,56,49.2
+265834,"Quarters At Des Peres, The",13230 Manchester Road,Des Peres,MO,63131,St. Louis,29189,For profit,Corporation,147,101.8
+265838,Life Care Center Of Florissant,1201 Garden Plaza Drive,Florissant,MO,63033,St. Louis,29189,For profit,Limited Liability company,90,76.8
+265841,Aberdeen Heights,505 Couch Avenue,Kirkwood,MO,63122,St. Louis,29189,Non profit,Church related,38,35.2
+265842,Ssm Health Depaul Hospital - Anna House,12284 Depaul Drive,Bridgeton,MO,63044,St. Louis,29189,Non profit,Church related,52,47.4
+265849,Mcknight Place Extended Care,2 Mcknight Place,Saint Louis,MO,63124,St. Louis,29189,For profit,Corporation,70,57.7
+26A490,Fieser Nursing Center,404 Main Street,Fenton,MO,63026,St. Louis,29189,For profit,Individual,60,38.3
+265508,Legendary Nursing & Rehabilitation Llc,809 East Gordon St,Marshall,MO,65340,Saline,29195,For profit,Limited Liability company,92,24.8
+265606,Sweet Springs Villa,518 E Marshall,Sweet Springs,MO,65351,Saline,29195,For profit,Individual,120,44
+265688,"Living Center, The",2506 Linden Tree Parkway,Marshall,MO,65340,Saline,29195,Non profit,Corporation,99,65.8
+265816,Schuyler County Nursing Home,1306 Us Highway 63,Queen City,MO,63561,Schuyler,29197,Government,County,60,36.7
+265788,Scotland County Care Center,434 E Sigler Avenue,Memphis,MO,63555,Scotland,29199,Government,City/county,96,36.6
+265387,Hunter Acres Caring Center,628 North West Street,Sikeston,MO,63801,Scott,29201,For profit,Corporation,120,81.1
+265479,Sikeston Convalescent Center,103 Kennedy Drive,Sikeston,MO,63801,Scott,29201,For profit,Individual,120,74.7
+265548,Miner Nursing Center,410 H Road,Sikeston,MO,63801,Scott,29201,For profit,Individual,70,32
+265614,Clearview Nursing Center,430 Salcedo Road,Sikeston,MO,63801,Scott,29201,For profit,Corporation,90,36.8
+265862,Delta South Nursing & Rehabilitation,640 Colonel George E Day Parkway,Sikeston,MO,63801,Scott,29201,For profit,Limited Liability company,60,47.6
+265368,Birch View Nursing Center,8477 North Street,Birch Tree,MO,65438,Shannon,29203,For profit,Corporation,90,43
+265599,Clarence Care Center,111 East Street,Clarence,MO,63437,Shelby,29205,Government,County,60,30.9
+265694,Salt River Community Care,142 Shelby Plaza Road,Shelbina,MO,63468,Shelby,29205,Government,County,120,66.9
+265367,Cypress Point-Skilled Nursing By Americare,801 Baliff Drive,Dexter,MO,63841,Stoddard,29207,For profit,Corporation,79,62.2
+265382,Dexter Living Center,415 S Catalpa Street,Dexter,MO,63841,Stoddard,29207,For profit,Individual,73,27
+265451,Bloomfield Living Center,606 West Missouri Street,Bloomfield,MO,63825,Stoddard,29207,For profit,Individual,60,26.3
+265496,Puxico Nursing And Rehabilitation Center,540 North Highway 51,Puxico,MO,63960,Stoddard,29207,For profit,Individual,60,35.5
+265550,Advance Nursing Center,315 South Tilley Street,Advance,MO,63730,Stoddard,29207,For profit,Corporation,70,23.8
+265552,Crowley Ridge Care Center,1204 North Outer Road,Dexter,MO,63841,Stoddard,29207,For profit,Individual,90,60.5
+265874,"Winchester Nursing Center, Inc",400 Winchester Dr,Bernie,MO,63822,Stoddard,29207,For profit,Corporation,40,35.9
+265230,Ozark Mountain Regional Healthcare Center,509 Meadowlark Avenue,Crane,MO,65633,Stone,29209,For profit,Corporation,100,66.8
+265288,Tablerock Healthcare,276 Fountain Lane,Kimberling City,MO,65686,Stone,29209,For profit,Corporation,120,72.9
+265238,Milan Health Care Center,52435 Infirmary Road,Milan,MO,63556,Sullivan,29211,For profit,Corporation,100,92.3
+265393,Shepherd Of The Hills Living Center,996 State Highway 248,Branson,MO,65616,Taney,29213,For profit,Corporation,100,82
+265411,Point Lookout Nursing & Rehab,11103 Historic Hwy 165,Hollister,MO,65672,Taney,29213,For profit,Corporation,130,103.6
+265605,Forsyth Care Center,477 Coy Blvd,Forsyth,MO,65653,Taney,29213,For profit,Individual,120,92.1
+265055,Kabul Nursing Homes Inc,1000 Main Street,Cabool,MO,65689,Texas,29215,Non profit,Corporation,99,52.9
+265470,Houston House,1000 North  Industrial Drive,Houston,MO,65483,Texas,29215,For profit,Corporation,96,67.7
+265632,Hickory Manor,209 Hickory Street,Licking,MO,65542,Texas,29215,For profit,Limited Liability company,60,33.2
+265110,Moore-Few Care Center,901 South  Adams,Nevada,MO,64772,Vernon,29217,Government,City,108,78.2
+265493,Medicalodges Nevada,1210 West Ashland,Nevada,MO,64772,Vernon,29217,For profit,Corporation,100,50.5
+265558,Nathan Richard Health Care Center,700 East Highland Avenue,Nevada,MO,64772,Vernon,29217,For profit,Corporation,68,38.2
+26A269,Paul L & Martha Barone Care Center,2101 North Ash Street,Nevada,MO,64772,Vernon,29217,Government,City,40,39.9
+265181,Warrenton Manor,65 State Hwy Aa,Wright City,MO,63390,Warren,29219,For profit,Corporation,120,84.1
+265516,Georgian Gardens Center For Rehab And Healthcare,1 Georgian Gardens Drive,Potosi,MO,63664,Washington,29221,For profit,Corporation,120,66.6
+265681,"Potosi Manor, Inc",307 South Highway 21,Potosi,MO,63664,Washington,29221,For profit,Corporation,90,55.3
+265416,Clark's Mountain Nursing Center,2100 Barnes,Piedmont,MO,63957,Wayne,29223,For profit,Corporation,91,65.5
+265547,Greenville Health Care Center,117 Sycamore Street,Greenville,MO,63944,Wayne,29223,For profit,Corporation,60,49.7
+265520,Webco Manor,1687 West Washington,Marshfield,MO,65706,Webster,29225,Government,County,120,66.7
+265577,Marshfield Care Center For Rehab And Healthcare,800 South White Oak,Marshfield,MO,65706,Webster,29225,For profit,Corporation,74,53.2
+265608,Glenwood Healthcare,851 Thoroughfare,Seymour,MO,65746,Webster,29225,For profit,Corporation,60,40.5
+265773,Worth County Convalescent Center,503 East Fourth,Grant City,MO,64456,Worth,29227,Government,County,50,29.8
+265406,Autumn Oaks Caring Center,1310 Hovis Street,Mountain Grove,MO,65711,Wright,29229,For profit,Individual,120,50.9
+265494,Rocky Ridge Manor,3111 Highway A,Mansfield,MO,65704,Wright,29229,For profit,Individual,65,40.5
+265593,Hartville Care Center,649 West Rolla Street,Hartville,MO,65667,Wright,29229,For profit,Corporation,58,27.6
+265351,Alexian Brothers Lansdowne Village,4624 Lansdowne Avenue,Saint Louis,MO,63116,St. Louis City,29510,Non profit,Corporation,145,110.8
+265378,Royal Oak Nursing & Rehab,4960 Laclede Avenue,Saint Louis,MO,63108,St. Louis City,29510,For profit,Corporation,168,89.9
+265392,Delhaven Manor,5460 Delmar Blvd,Saint Louis,MO,63112,St. Louis City,29510,For profit,Individual,156,57.2
+265427,Oak Park Care Center,6637 Berthold Avenue,Saint Louis,MO,63139,St. Louis City,29510,For profit,Limited Liability company,120,87.3
+265500,Bernard Care Center,4335 West Pine Blvd,Saint Louis,MO,63108,St. Louis City,29510,For profit,Individual,141,135.7
+265524,Northview Village,2415 North Kingshighway,Saint Louis,MO,63113,St. Louis City,29510,For profit,Corporation,320,268.5
+265585,Hillside Manor Healthcare And Rehab Center,1265 Mclaran Avenue,Saint Louis,MO,63147,St. Louis City,29510,For profit,Corporation,208,145.2
+265610,Life Care Center Of St Louis,3520 Chouteau Ave,Saint Louis,MO,63103,St. Louis City,29510,For profit,Corporation,100,76.6
+265668,Carrie Elligson Gietner Home,5000 South Broadway,Saint Louis,MO,63111,St. Louis City,29510,For profit,Corporation,130,72.4
+265672,Dutchtown Care Center,3421 Gasconade,Saint Louis,MO,63118,St. Louis City,29510,For profit,Individual,120,73.3
+265699,Beauvais Manor Healthcare & Rehab Center,3625 Magnolia Avenue,Saint Louis,MO,63110,St. Louis City,29510,For profit,Limited Liability company,184,145
+265717,Grand Manor Nursing & Rehabilitation Center,3645 Cook Ave,Saint Louis,MO,63113,St. Louis City,29510,For profit,Limited Liability company,120,106.8
+265751,"Riverview, The",5500 South Broadway,Saint Louis,MO,63111,St. Louis City,29510,For profit,Individual,130,87.7
+265817,Blue Circle Rehab And Nursing,2939 Magazine Street,Saint Louis,MO,63106,St. Louis City,29510,For profit,Limited Liability company,90,78.2
+265828,Avalon Garden,4359 Taft Avenue,Saint Louis,MO,63116,St. Louis City,29510,For profit,Corporation,77,67.3
+265879,Sisters Mission,3225 N Florissant Ave,Saint Louis,MO,63107,St. Louis City,29510,For profit,Corporation,47,NA
+26A484,St Louis Altenheim,5408 South Broadway,Saint Louis,MO,63111,St. Louis City,29510,Non profit,Corporation,14,9.8
+265145,Swope Ridge Geriatric Center,5900 Swope Parkway,Kansas City,MO,64130,Kansas City,29511,Non profit,Corporation,240,84.6
+265167,Highland Rehabilitation & Health Care Center,904 East 68th Street,Kansas City,MO,64131,Kansas City,29511,For profit,Corporation,162,104.7
+265199,Grand Pavilion At The Plaza,4330 Washington,Kansas City,MO,64111,Kansas City,29511,For profit,Individual,154,74.4
+265303,Carondelet Manor,621 Carondelet Drive,Kansas City,MO,64114,Kansas City,29511,Non profit,Other,162,107
+265308,New Mark Care Center,11221 North Nashua Drive,Kansas City,MO,64155,Kansas City,29511,For profit,Individual,199,167.3
+265463,Parkview Healthcare,128 North Hardesty,Kansas City,MO,64123,Kansas City,29511,For profit,Corporation,120,74.9
+265532,Parkway Health Care Center,2323 Swope Parkway,Kansas City,MO,64130,Kansas City,29511,For profit,Partnership,97,91.5
+265597,Redwood Of Blue River,10425 Chestnut Dr,Kansas City,MO,64137,Kansas City,29511,For profit,Corporation,160,132.6
+265637,Timberlake Care Center,12110 Holmes Road,Kansas City,MO,64145,Kansas City,29511,For profit,Limited Liability company,122,74.1
+265697,Garden Valley Healthcare Center,8575 North Granby Ave,Kansas City,MO,64154,Kansas City,29511,For profit,Limited Liability company,156,135.8
+265721,Gregory Ridge Health Care Center,7001 Cleveland Avenue,Kansas City,MO,64132,Kansas City,29511,For profit,Limited Liability company,116,111.4
+265758,Redwood Of Kansas City South,8033 Holmes,Kansas City,MO,64131,Kansas City,29511,For profit,Individual,100,85.2
+265768,"Bishop Spencer Place, Inc, The",4301 Madison Avenue,Kansas City,MO,64111,Kansas City,29511,Non profit,Church related,57,47.2
+265769,"Summit, The",3660 Summit,Kansas City,MO,64111,Kansas City,29511,For profit,Corporation,64,51.6
+265795,Kingswood,10000 Wornall Road,Kansas City,MO,64114,Kansas City,29511,Non profit,Corporation,86,57.8
+265802,Armour Oaks Senior Living Community,8100 Wornall Road,Kansas City,MO,64114,Kansas City,29511,Non profit,Corporation,38,36.4
+265822,Bridgewood Health Care Center,11515 Troost,Kansas City,MO,64131,Kansas City,29511,For profit,Individual,166,161.6
+265830,Kansas City Center For Rehabilitation And Healthca,12942 Wornall Road,Kansas City,MO,64145,Kansas City,29511,For profit,Limited Liability company,180,104.1
+265845,Truman Medical Center Lakewood Care Center,7900 Lee's Summit Road,Kansas City,MO,64139,Kansas City,29511,Non profit,Other,188,178.2
+265850,Seasons Care Center,15600 Woods Chapel Road,Kansas City,MO,64139,Kansas City,29511,For profit,Limited Liability company,78,71
+265863,Tiffany Springs Rehabilitation & Health Care Cente,9191 N Ambassador Drive,Kansas City,MO,64154,Kansas City,29511,For profit,Corporation,120,103.2
+265869,Mccrite Plaza At Briarcliff Skilled Facility,1301 Tullison Rd,Kansas City,MO,64116,Kansas City,29511,For profit,Corporation,80,44.1
+265870,Northland Rehabilitation & Health Care Center,4301 Ne Parvin Road,Kansas City,MO,64117,Kansas City,29511,For profit,Corporation,120,73
+265872,"Ignite Medical Resort Kansas City, Llc",2100 N W Barry Road,Kansas City,MO,64154,Kansas City,29511,For profit,Limited Liability company,90,82.7
+26A293,Clara Manor Nursing Home,3621 Warwick Boulevard,Kansas City,MO,64111,Kansas City,29511,For profit,Individual,90,71.8
+26A443,Hope Care Center,115 East 83rd Street,Kansas City,MO,64114,Kansas City,29511,Non profit,Corporation,16,14.9
+26E084,Myers Nursing & Convalescent Center,2315 Walrond Avenue,Kansas City,MO,64127,Kansas City,29511,For profit,Corporation,84,63.3
+265175,"Nhc Healthcare, Joplin",2700 East 34th Street,Joplin,MO,64803,Joplin,29512,For profit,Corporation,126,78.7
+265309,Joplin Health And Rehabilitation Center,2218 W 32nd Street,Joplin,MO,64804,Joplin,29512,For profit,Individual,120,104.9
+265617,Spring River Christian Village Inc,201 South Northpark Lane,Joplin,MO,64801,Joplin,29512,Non profit,Church related,120,100.1
+265848,Communities Of Wildwood Ranch,3222 South John Duffy Drive,Joplin,MO,64804,Joplin,29512,For profit,Individual,120,98.9
+265853,Joplin Gardens,2810 South Jackson Avenue,Joplin,MO,64804,Joplin,29512,For profit,Limited Liability company,92,78.7
+265877,Westgate,3130 John Duffy Dr,Joplin,MO,64804,Joplin,29512,For profit,Limited Liability company,120,52.5
+375335,Windridge Nursing And Rehabilitation Center,2530 North Elm Street,Miami,OK,74354,Ottawa,40115,For profit,Individual,100,53
+375388,"Miami Nursing Center, Llc",1100 East Street Northeast,Miami,OK,74354,Ottawa,40115,For profit,Individual,82,66.8
+375515,Family Care Center Of Fairland,12 East Conner,Fairland,OK,74343,Ottawa,40115,For profit,Individual,29,23.5
+375529,Eastwood Manor,6th And Highway 69,Commerce,OK,74339,Ottawa,40115,For profit,Individual,80,59.7
+37E261,Higher Call Nursing Center,407 Whitebird Avenue,Quapaw,OK,74363,Ottawa,40115,Non profit,Church related,86,36.8
