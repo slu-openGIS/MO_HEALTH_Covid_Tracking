@@ -288,4 +288,6 @@ rm(region, regional_full, regional_partials, regional_na, regional_data,
    regional_partials_invalid, regional_partials_valid, pop)
 rm(jeffco, st_charles, stl_city, stl_county)
 rm(city_data, county_data, st_charles_data, jeffco_data)
+
+
 rm(process_zip, wrangle_zip, build_pop_zip)
