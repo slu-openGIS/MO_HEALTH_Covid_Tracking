@@ -17,9 +17,9 @@ source("source/functions/wrangle_zip.R")
 
 # workflow
 source("source/workflow/06_create_zips.R")
-# source("source/workflow/07_create_testing.R")
-source("source/workflow/08_create_stl_hospital.R")
-source("source/workflow/09_create_kc_counties.R")
+# source("source/workflow/08_create_testing.R")
+source("source/workflow/09_create_stl_hospital.R")
+source("source/workflow/10_create_kc_counties.R")
 
 # clean-up
 rm(date)
