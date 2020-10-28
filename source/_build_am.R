@@ -46,7 +46,7 @@ source("source/workflow/05_create_regions.R")
 
 ## weekly workflow elements
 if ((update == last_update$current_date) == FALSE){
-  source("source/workflow/10_create_ltc.R") 
+  source("source/workflow/11_create_ltc.R") 
 }
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
