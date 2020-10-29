@@ -183,7 +183,9 @@ left_join(county, county_covid, by = "geoid") %>%
   mutate(cases_ltc_pct = cases_ltc_all/cases*100,
          deaths_ltc_pct = deaths_ltc_all/deaths*100) %>%
   mutate(cases_ltc_pct = ifelse(is.nan(cases_ltc_pct) == TRUE, NA, cases_ltc_pct),
-         deaths_ltc_pct = ifelse(is.nan(deaths_ltc_pct) == TRUE, NA, deaths_ltc_pct)) -> county_covid
+         deaths_ltc_pct = ifelse(is.nan(deaths_ltc_pct) == TRUE, NA, deaths_ltc_pct)) %>%
+  mutate(cases_ltc_pct = ifelse(is.infinite(cases_ltc_pct) == TRUE, 100, cases_ltc_pct),
+         deaths_ltc_pct = ifelse(is.infinite(deaths_ltc_pct) == TRUE, 100, deaths_ltc_pct)) -> county_covid
 
 ## add county geometry
 mo_xl <- select(mo_xl, GEOID)
