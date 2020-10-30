@@ -9,7 +9,7 @@ library(tidycensus)
 library(tigris)
 
 # download zips
-zip <- zctas(year = 2018, class = "sf") %>%
+zip <- zctas(year = 2010, class = "sf") %>%
   st_transform(crs = 26915)
 
 # geoprocess St. Louis County Zips

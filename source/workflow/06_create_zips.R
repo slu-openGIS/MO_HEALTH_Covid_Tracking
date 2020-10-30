@@ -11,6 +11,8 @@ st_charles <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDAR
                       crs = 4326, stringsAsFactors = FALSE)
 jeffco <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Jefferson_County.geojson", 
                       crs = 4326, stringsAsFactors = FALSE)
+# warren <- st_read("data/source/stl_zips/warren_county_zip.geojson", crs = 4326, stringsAsFactors = FALSE)
+# lincoln <- st_read("data/source/stl_zips/lincoln_county_zip.geojson", crs = 4326, stringsAsFactors = FALSE)
 
 city_county <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_City_County.geojson", 
                        crs = 4326, stringsAsFactors = FALSE)
