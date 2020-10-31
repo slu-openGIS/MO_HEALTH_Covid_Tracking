@@ -29,6 +29,18 @@ process_zip <- function(county, dates){
                              GEOID_ZCTA = col_double(),
                              total_pop = col_double()
                            )) 
+  } else if (county == 113){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Lincoln_County_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           )) 
+  } else if (county == 219){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Warren_County_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           )) 
   }
   
   # prep population
@@ -40,13 +52,21 @@ process_zip <- function(county, dates){
   # calculate 
   out <- dplyr::group_by(out, zip)
   out <- dplyr::mutate(out, new_cases = cases - lag(cases))
-  out <- dplyr::mutate(out, case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA))
+  
+  if (county %in% c(113, 219) == FALSE){
+    out <- dplyr::mutate(out, case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA))
+  }
+  
   out <- dplyr::ungroup(out)
   
   # calculate rates
   out <- dplyr::mutate(out, case_rate = cases/total_pop*1000)
-  out <- dplyr::mutate(out, case_avg_rate = case_avg/total_pop*10000)
-  out <- dplyr::mutate(out, case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate))
+  # out <- dplyr::mutate(out, case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate))
+  
+  if (county %in% c(113, 219) == FALSE){
+    out <- dplyr::mutate(out, case_avg_rate = case_avg/total_pop*10000)
+  }
+  
   out <- dplyr::select(out, -total_pop)
   
   # return output
@@ -65,6 +85,10 @@ wrangle_zip <- function(date, county){
     county_name <- "St. Charles"
   } else if (county == 99){
     county_name <- "Jefferson"
+  } else if (county == 113){
+    county_name <- "Lincoln"
+  } else if (county == 219){
+    county_name <- "Warren"
   }
   
   # construct file path
@@ -76,6 +100,10 @@ wrangle_zip <- function(date, county){
     file <- paste0("data/source/stl_daily_zips/st_charles_", date, ".csv")
   } else if (county == 99){
     file <- paste0("data/source/stl_daily_zips/jeff_county_", date, ".csv")
+  } else if (county == 113){
+    file <- paste0("data/source/stl_daily_zips/lincoln_", date, ".csv")
+  } else if (county == 219){
+    file <- paste0("data/source/stl_daily_zips/warren_", date, ".csv")
   }
   
   # read data
@@ -84,14 +112,22 @@ wrangle_zip <- function(date, county){
     count = col_double()
   ))
   
+  # fix warren county 63380
+  ## this zip does not have a 2018 ZCTA, but is surrounded by 63383
+  if (county == 219){
+    df <- dplyr::mutate(df, zip = ifelse(zip == 63380, 63383, zip))
+    df <- dplyr::group_by(df, zip) 
+    df <- dplyr::summarise(df, count = sum(count, na.rm = TRUE))
+  }
+  
   # add new columns, modify existing
   df <- dplyr::mutate(df,
                       report_date = date,
                       zip = as.character(zip),
                       geoid = ifelse(county == 99, paste0("290", county), paste0("29", county)),
                       county = county_name,
-                      state = "Missouri",
-                      count = ifelse(is.na(count) == TRUE, NaN, count))
+                      state = "Missouri") # ,
+                      # count = ifelse(is.na(count) == TRUE, NaN, count))
   df <- dplyr::select(df, report_date, zip, geoid, county, state, count)
   df <- dplyr::rename(df, cases = count)
   
@@ -152,6 +188,32 @@ build_pop_zip <- function(county){
                            )) 
     
     poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  } else if (county == 113){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Lincoln_County_Race.csv",
+                            col_types = cols(
+                              GEOID_ZCTA = col_character(),
+                              wht_pct = col_double(),
+                              blk_pct = col_double()
+                            )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Lincoln_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
+  } else if (county == 219){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Warren_County_Race.csv",
+                            col_types = cols(
+                              GEOID_ZCTA = col_character(),
+                              wht_pct = col_double(),
+                              blk_pct = col_double()
+                            )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Warren_County_Poverty.csv",
                                col_types = cols(
                                  GEOID_ZCTA = col_character(),
                                  pvty_pct = col_double()
