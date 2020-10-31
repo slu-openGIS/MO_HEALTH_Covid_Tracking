@@ -9,7 +9,7 @@ library(tidycensus)
 library(tigris)
 
 # download zips
-zip <- zctas(year = 2010, class = "sf") %>%
+zip <- zctas(year = 2018, class = "sf") %>%
   st_transform(crs = 26915)
 
 # geoprocess St. Louis County Zips
@@ -22,14 +22,16 @@ county <- st_intersection(zip, counties) %>%
   select(zip) %>%
   group_by(zip) %>%
   summarise() %>%
-  st_collection_extract(., "POLYGON")
+  st_collection_extract(., "POLYGON") %>%
+  mutate(primary = TRUE, .after = "zip")
 
 ## make mini objects
 county_63383a <- filter(county, zip == "63383") %>%
   filter(row_number() == 1)
 
 county_63383b <- filter(county, zip == "63383") %>%
-  filter(row_number() == 2)
+  filter(row_number() == 2) %>%
+  mutate(primary = FALSE)
 
 county <- filter(county, zip %in% "63383" == FALSE)
 county <- rbind(county, county_63383a)
@@ -57,13 +59,13 @@ county %>%
   aw_interpolate(tid = "zip", source = county_demo, sid = "GEOID", weight = "total", output = "sf", 
                  extensive = "total_pop") %>%
   mutate(total_pop = round(total_pop)) %>%
-  select(zip, total_pop) -> county_result
+  select(zip, total_pop, primary) -> county_result
 
 county_63383b %>%
   aw_interpolate(tid = "zip", source = county_demo, sid = "GEOID", weight = "total", output = "sf", 
                  extensive = "total_pop") %>%
   mutate(total_pop = round(total_pop)) %>%
-  select(zip, total_pop) -> county_63383b_result
+  select(zip, total_pop, primary) -> county_63383b_result
 
 county_result <- rbind(county_result, county_63383b_result)
 

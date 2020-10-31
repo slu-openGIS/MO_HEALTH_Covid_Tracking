@@ -22,20 +22,23 @@ county <- st_intersection(zip, counties) %>%
   select(zip) %>%
   group_by(zip) %>%
   summarise() %>%
-  st_collection_extract(., "POLYGON")
+  st_collection_extract(., "POLYGON") %>%
+  mutate(primary = TRUE, .after = "zip")
 
 ## make mini objects
 county_63348a <- filter(county, zip == "63348") %>%
   filter(row_number() == 1)
 
 county_63348b <- filter(county, zip == "63348") %>%
-  filter(row_number() == 2)
+  filter(row_number() == 2) %>%
+  mutate(primary = FALSE)
 
 county_63351a <- filter(county, zip == "63351") %>%
   filter(row_number() == 1)
 
 county_63351b <- filter(county, zip == "63351") %>%
-  filter(row_number() == 2)
+  filter(row_number() == 2) %>%
+  mutate(primary = FALSE)
 
 county <- filter(county, zip %in% c("63348", "63351") == FALSE)
 county <- rbind(county, county_63348a, county_63351a)
@@ -63,19 +66,19 @@ county %>%
   aw_interpolate(tid = "zip", source = county_demo, sid = "GEOID", weight = "total", output = "sf", 
                  extensive = "total_pop") %>%
   mutate(total_pop = round(total_pop)) %>%
-  select(zip, total_pop) -> county_result
+  select(zip, total_pop, primary) -> county_result
 
 county_63348b %>%
   aw_interpolate(tid = "zip", source = county_demo, sid = "GEOID", weight = "total", output = "sf", 
                  extensive = "total_pop") %>%
   mutate(total_pop = round(total_pop)) %>%
-  select(zip, total_pop) -> county_63348b_result
+  select(zip, total_pop, primary) -> county_63348b_result
 
 county_63351b %>%
   aw_interpolate(tid = "zip", source = county_demo, sid = "GEOID", weight = "total", output = "sf", 
                  extensive = "total_pop") %>%
   mutate(total_pop = round(total_pop)) %>%
-  select(zip, total_pop) -> county_63351b_result
+  select(zip, total_pop, primary) -> county_63351b_result
 
 county_result <- rbind(county_result, county_63348b_result, county_63351b_result)
 
