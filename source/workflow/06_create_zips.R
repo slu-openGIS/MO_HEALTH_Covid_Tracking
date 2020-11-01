@@ -2,7 +2,7 @@
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# load MO ZIP data ####
+# load ZIP data ####
 stl_city <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_St_Louis_City.geojson", 
                            crs = 4326, stringsAsFactors = FALSE)
 stl_county <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_St_Louis_County.geojson", 
@@ -20,6 +20,8 @@ city_county <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDA
                        crs = 4326, stringsAsFactors = FALSE)
 region <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Regional.geojson", 
                        crs = 4326, stringsAsFactors = FALSE)
+metro_east <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Metro_East.geojson", 
+                  crs = 4326, stringsAsFactors = FALSE)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -31,6 +33,7 @@ st_charles_dates <- seq(as.Date("2020-07-14"), date, by="days")
 jeffco_dates <- seq(as.Date("2020-07-23"), date, by="days")
 lincoln_dates <- seq(as.Date("2020-10-28"), date, by="days")
 warren_dates <- seq(as.Date("2020-10-28"), date, by="days")
+metro_east_dates <- seq(as.Date("2020-10-27"), date, by="days")
 
 ## Process Individual Jurisdictions
 city_data <- process_zip(county = 510, dates = city_dates)
@@ -39,9 +42,11 @@ st_charles_data <- process_zip(county = 183, dates = st_charles_dates)
 jeffco_data <- process_zip(county = 99, dates = jeffco_dates)
 lincoln_data <- process_zip(county = 113, dates = lincoln_dates)
 warren_data <- process_zip(county = 219, dates = warren_dates)
+metro_east_data <- process_zip(county = 17, dates = metro_east_dates)
 
 ## Clean-up
-rm(city_dates, county_dates, st_charles_dates, jeffco_dates, lincoln_dates, warren_dates)
+rm(city_dates, county_dates, st_charles_dates, jeffco_dates, lincoln_dates, 
+   warren_dates, metro_east_dates)
 
 ## Save Individual Jurisdictions
 write_csv(city_data, "data/zip/zip_stl_city.csv")
@@ -50,6 +55,13 @@ write_csv(st_charles_data, "data/zip/zip_st_charles_county.csv")
 write_csv(jeffco_data, "data/zip/zip_jefferson_county.csv")
 write_csv(lincoln_data, "data/zip/zip_lincoln_county.csv")
 write_csv(warren_data, "data/zip/zip_warren_county.csv")
+
+metro_east_data %>%
+  select(report_date, zip, cases) %>%
+  write_csv(., "data/zip/zip_illinois.csv")
+
+metro_east_data <- filter(metro_east_data, zip %in% metro_east$GEOID_ZCTA)
+write_csv(metro_east_data, "data/zip/zip_metro_east.csv")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -144,22 +156,40 @@ warren_test2 <- filter(warren_data, report_date %in% c(date, date-2)) %>%
 
 warren_test2 <- all(warren_test2$current == warren_test2$prior, na.rm = TRUE)
 
+## Metro East
+metro_east_test <- filter(metro_east_data, report_date %in% c(date, date-1)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
+
+metro_east_test <- all(metro_east_test$current == metro_east_test$prior, na.rm = TRUE)
+
+metro_east_test2 <- filter(metro_east_data, report_date %in% c(date, date-2)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
+
+metro_east_test2 <- all(metro_east_test2$current == metro_east_test2$prior, na.rm = TRUE)
+
 ## Combine
 zip_test <- tibble(
   source = c("St. Louis City", "St. Louis City", "St. Louis County", "St. Louis County", 
              "St. Charles County", "St. Charles County", "Jefferson County", "Jefferson County",
-             "Lincoln County", "Lincoln County", "Warren County", "Warren County"),
+             "Lincoln County", "Lincoln County", "Warren County", "Warren County",
+             "Metro East", "Metro East"),
   period = c("1 day", "2 days", "1 day", "2 days", "1 day", "2 days", "1 day", "2 days", 
-             "1 day", "2 days", "1 day", "2 days"),
+             "1 day", "2 days", "1 day", "2 days", "1 day", "2 days"),
   result = c(stl_city_test, stl_city_test2, stl_county_test, stl_county_test2, 
              stl_charles_test, stl_charles_test2, jeffco_test, jeffco_test2,
-             lincoln_test, lincoln_test2, warren_test, warren_test2)
+             lincoln_test, lincoln_test2, warren_test, warren_test2,
+             metro_east_test, metro_east_test2)
 )
 
 ## Clean-up
 rm(stl_city_test, stl_city_test2, stl_county_test, stl_county_test2, 
    stl_charles_test, stl_charles_test2, jeffco_test, jeffco_test2,
-   lincoln_test, lincoln_test2, warren_test, warren_test2)
+   lincoln_test, lincoln_test2, warren_test, warren_test2,
+   metro_east_test, metro_east_test2)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -177,6 +207,9 @@ lincoln <- filter(lincoln_data, report_date == date) %>%
   left_join(lincoln, ., by = c("GEOID_ZCTA" = "zip"))
 warren <- filter(warren_data, report_date == date) %>%
   left_join(warren, ., by = c("GEOID_ZCTA" = "zip"))
+metro_east <- filter(metro_east_data, report_date == date) %>%
+  left_join(metro_east, ., by = c("GEOID_ZCTA" = "zip")) %>%
+  select(-state)
 
 ## fix issues with lincoln county
 lincoln <- mutate(lincoln,
@@ -192,6 +225,7 @@ st_write(st_charles, "data/zip/daily_snapshot_st_charles_county.geojson", delete
 st_write(jeffco, "data/zip/daily_snapshot_jefferson_county.geojson", delete_dsn = TRUE)
 st_write(lincoln, "data/zip/daily_snapshot_lincoln_county.geojson", delete_dsn = TRUE)
 st_write(warren, "data/zip/daily_snapshot_warren_county.geojson", delete_dsn = TRUE)
+st_write(metro_east, "data/zip/daily_snapshot_metro_east.geojson", delete_dsn = TRUE)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -358,8 +392,18 @@ st_write(region, "data/zip/daily_snapshot_regional.geojson", delete_dsn = TRUE)
 # clean-up MO ZIP objects ####
 rm(regional_full, regional_partials, regional_na, regional_data,
    regional_partials_invalid, regional_partials_valid, pop)
-rm(jeffco, st_charles, stl_city, stl_county)
-rm(city_data, county_data, st_charles_data, jeffco_data, warren_data, lincoln_data)
+rm(jeffco, st_charles, stl_city, stl_county, lincoln, warren)
+rm(city_data, county_data, st_charles_data, jeffco_data, warren_data, 
+   lincoln_data, metro_east_data)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+## combine to create metro data
+region <- select(region, GEOID_ZCTA, report_date, cases, case_rate, new_cases) # case_avg, case_avg_rate
+metro <- rbind(region, metro_east)
+
+## Write Data
+st_write(metro, "data/zip/daily_snapshot_metro.geojson", delete_dsn = TRUE)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

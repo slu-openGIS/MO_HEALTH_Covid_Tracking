@@ -41,6 +41,12 @@ process_zip <- function(county, dates){
                              GEOID_ZCTA = col_double(),
                              total_pop = col_double()
                            )) 
+  } else if (county == 17){
+    pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Metro_East_Total_Pop.csv",
+                           col_types = cols(
+                             GEOID_ZCTA = col_double(),
+                             total_pop = col_double()
+                           ))     
   }
   
   # prep population
@@ -53,7 +59,7 @@ process_zip <- function(county, dates){
   out <- dplyr::group_by(out, zip)
   out <- dplyr::mutate(out, new_cases = cases - lag(cases))
   
-  if (county %in% c(113, 219) == FALSE){
+  if (county %in% c(17, 113, 219) == FALSE){
     out <- dplyr::mutate(out, case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA))
   }
   
@@ -63,7 +69,7 @@ process_zip <- function(county, dates){
   out <- dplyr::mutate(out, case_rate = cases/total_pop*1000)
   # out <- dplyr::mutate(out, case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate))
   
-  if (county %in% c(113, 219) == FALSE){
+  if (county %in% c(17, 113, 219) == FALSE){
     out <- dplyr::mutate(out, case_avg_rate = case_avg/total_pop*10000)
   }
   
@@ -104,6 +110,8 @@ wrangle_zip <- function(date, county){
     file <- paste0("data/source/stl_daily_zips/lincoln_", date, ".csv")
   } else if (county == 219){
     file <- paste0("data/source/stl_daily_zips/warren_", date, ".csv")
+  } else if (county == 17){
+    file <- paste0("data/source/il_daily_zips/il_zips_", date, ".csv")
   }
   
   # read data
@@ -121,15 +129,29 @@ wrangle_zip <- function(date, county){
   }
   
   # add new columns, modify existing
-  df <- dplyr::mutate(df,
-                      report_date = date,
-                      zip = as.character(zip),
-                      geoid = ifelse(county == 99, paste0("290", county), paste0("29", county)),
-                      county = county_name,
-                      state = "Missouri") # ,
-                      # count = ifelse(is.na(count) == TRUE, NaN, count))
-  df <- dplyr::select(df, report_date, zip, geoid, county, state, count)
-  df <- dplyr::rename(df, cases = count)
+  if (county == 17){
+    
+    df <- dplyr::mutate(df,
+                        report_date = date,
+                        zip = as.character(zip),
+                        state = "Illinois") # ,
+    # count = ifelse(is.na(count) == TRUE, NaN, count))
+    df <- dplyr::select(df, report_date, zip, state, count)
+    df <- dplyr::rename(df, cases = count) 
+    
+  } else {
+    
+    df <- dplyr::mutate(df,
+                        report_date = date,
+                        zip = as.character(zip),
+                        geoid = ifelse(county == 99, paste0("290", county), paste0("29", county)),
+                        county = county_name,
+                        state = "Missouri") # ,
+    # count = ifelse(is.na(count) == TRUE, NaN, count))
+    df <- dplyr::select(df, report_date, zip, geoid, county, state, count)
+    df <- dplyr::rename(df, cases = count) 
+    
+  }
   
   # return output
   return(df)
