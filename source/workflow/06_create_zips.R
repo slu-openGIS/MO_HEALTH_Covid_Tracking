@@ -432,7 +432,7 @@ regional_data <- arrange(regional_data, report_date, zip)
 regional_data %>%
   group_by(zip) %>%
   mutate(case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA)) %>%
-  filter(report_date == date) -> regional_data
+  filter(row_number() == n()) -> regional_data
 
 ## create regional data
 region <- filter(region, GEOID_ZCTA %in% unique(regional_full$GEOID_ZCTA)) %>%
@@ -463,7 +463,7 @@ regional_data <- arrange(regional_data, report_date, zip)
 regional_data %>%
   group_by(zip) %>%
   mutate(case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA)) %>%
-  filter(report_date == date) -> regional_data
+  filter(row_number() == n()) -> regional_data
 
 regional_data %>%
   left_join(., pop, by = c("zip" = "GEOID_ZCTA")) %>%
