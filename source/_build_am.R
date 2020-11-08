@@ -9,7 +9,7 @@
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
-# evaluate last update to New York Times data ####
+# qa prompts ####
 
 ## load function
 source("source/functions/get_last_update.R")
@@ -28,23 +28,23 @@ if (q == FALSE){
 
 ## packages
 ### tidyverse
-library(dplyr)
-library(lubridate)
-library(purrr)
-library(readr)
+library(dplyr)          # data wrangling
+library(lubridate)      # dates and times
+library(purrr)          # functional programming
+library(readr)          # csv file tools
 
 ### spatial
-library(sf)
-library(tigris)
+library(sf)             # mapping tools
+# library(tigris)
 
 ### other
-library(janitor)    # data wrangling
-library(rjson)      # parse json
-library(zoo)        # moving averages
+library(janitor)        # data wrangling
+library(rjson)          # parse json
+library(zoo)            # rolling means
 
 ## functions
-source("source/functions/get_data.R")
-source("source/functions/historic_expand.R")
+source("source/functions/get_data.R")         # call NYTimes API
+source("source/functions/historic_expand.R")  # create empty data for zips by date
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 

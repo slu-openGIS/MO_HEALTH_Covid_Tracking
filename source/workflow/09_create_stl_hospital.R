@@ -2,15 +2,6 @@
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# confirm manual data ####
-q <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
-
-if (q == FALSE){
-  stop("Please update the data manually before proceeding!")
-}
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
 ## read data
 hosp_data <- read_csv("data/source/stl_hospital/historic_data.csv") %>%
   mutate(date = mdy(date)) %>%

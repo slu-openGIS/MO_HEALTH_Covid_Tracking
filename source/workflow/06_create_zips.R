@@ -2,15 +2,6 @@
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# confirm Franklin County data ####
-q <- usethis::ui_yeah("Have you updated the filename for the latest Franklin County ZIP code data?")
-
-if (q == FALSE){
-  stop("Please update the filename before proceeding!")
-}
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
 
 # load ZIP data ####
 stl_city <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_St_Louis_City.geojson", 
