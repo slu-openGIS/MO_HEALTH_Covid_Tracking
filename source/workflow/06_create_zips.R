@@ -232,15 +232,15 @@ warren_test2 <- filter(warren_data, report_date %in% c(date, date-2)) %>%
 warren_test2 <- all(warren_test2$current == warren_test2$prior, na.rm = TRUE)
 
 ## Warren County
-franklin_test <- filter(franklin_data, report_date %in% c(date, date-1)) %>%
-  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+franklin_test <- filter(franklin_data, report_date %in% c(date-1, date-2)) %>%
+  mutate(period = ifelse(report_date == date-1, "current", "prior")) %>%
   select(period, zip, cases) %>%
   pivot_wider(names_from = period, values_from = cases)
 
 franklin_test <- all(franklin_test$current == franklin_test$prior, na.rm = TRUE)
 
-franklin_test2 <- filter(franklin_data, report_date %in% c(date, date-2)) %>%
-  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+franklin_test2 <- filter(franklin_data, report_date %in% c(date-2, date-3)) %>%
+  mutate(period = ifelse(report_date == date-2, "current", "prior")) %>%
   select(period, zip, cases) %>%
   pivot_wider(names_from = period, values_from = cases)
 
