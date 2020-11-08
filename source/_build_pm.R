@@ -4,8 +4,11 @@
 
 # these data include:
 #   - ZIP code data for St. Louis
+#   - Testing data for Missouri and adjacent states (currently paused because
+#     of dashboard changes at the state level)
 #   - Hospitalization data for St. Louis
-#   - Kansas City county breakdowns
+#   - Kansas City county breakdowns (currently paused because legacy dashboard 
+#     has not been updated)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -65,7 +68,7 @@ source("source/functions/wrangle_zip.R")      # process zip code data
 source("source/workflow/06_create_zips.R")
 # source("source/workflow/08_create_testing.R")
 source("source/workflow/09_create_stl_hospital.R")
-source("source/workflow/10_create_kc_counties.R")
+# source("source/workflow/10_create_kc_counties.R")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
