@@ -201,6 +201,19 @@ build_pop_zip <- function(county){
                                  GEOID_ZCTA = col_character(),
                                  pvty_pct = col_double()
                                )) 
+  } else if (county == 71){
+    race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Franklin_County_Race.csv",
+                            col_types = cols(
+                              GEOID_ZCTA = col_character(),
+                              wht_pct = col_double(),
+                              blk_pct = col_double()
+                            )) 
+    
+    poverty <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Franklin_County_Poverty.csv",
+                               col_types = cols(
+                                 GEOID_ZCTA = col_character(),
+                                 pvty_pct = col_double()
+                               )) 
   } else if (county == 99){
     race <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Jefferson_County_Race.csv",
                            col_types = cols(
