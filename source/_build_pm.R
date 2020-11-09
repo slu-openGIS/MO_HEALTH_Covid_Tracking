@@ -15,7 +15,7 @@
 # values ####
 
 ## store current Franklin County file name
-franklin_path <- "11 07 2020 Table.xlsx"
+franklin_path <- "11 08 2020 Table.xlsx"
 
 ## store date value
 date <- Sys.Date()
@@ -58,6 +58,7 @@ library(sf)             # mapping tools
 library(zoo)            # rolling means
 
 ## functions
+source("source/functions/get_state.R")        # scrape state level data
 source("source/functions/historic_expand.R")  # create empty data for zips by date
 source("source/functions/wrangle_zip.R")      # process zip code data
 
@@ -73,7 +74,7 @@ source("source/workflow/09_create_stl_hospital.R")
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # clean-up ####
-rm(date, q)
+rm(date, q, get_state)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
