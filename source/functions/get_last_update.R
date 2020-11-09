@@ -7,7 +7,7 @@ get_last_update <- function(){
   z <- lubridate::dmy_hms(y)
   z <- as.POSIXlt(z, tz = "EST")
   current_time <- Sys.time()
-  delta <- as.numeric(current_time-z)
+  delta <- as.numeric(difftime(current_time, z, units = "hours"))
   
   q <- usethis::ui_yeah(paste0("The New York Times data were last updated ", round(delta, digits = 2), " hours ago. Proceed?"))
   
