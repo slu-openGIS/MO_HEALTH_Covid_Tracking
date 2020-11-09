@@ -3,10 +3,10 @@ deaths_actual <- get_state(state = 29, metric = "deaths, actual")
 
 deaths_reported <- read_csv("data/state/state_full.csv") %>%
   filter(state == "Missouri") %>%
-  select(report_date, deaths) %>%
+  select(report_date, new_deaths) %>%
   rename(
     date = report_date,
-    count = deaths
+    count = new_deaths
   ) %>%
   mutate(value = "Deaths, Reported") %>%
   mutate(avg = rollmean(count, k = 7, align = "right", fill = NA)) %>%
