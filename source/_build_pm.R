@@ -15,7 +15,7 @@
 # values ####
 
 ## store current Franklin County file name
-franklin_path <- "11 08 2020 Table.xlsx"
+franklin_path <- "11 09 2020 Table.xlsx"
 
 ## store date value
 date <- Sys.Date()
