@@ -1,6 +1,10 @@
 
 deaths_actual <- get_state(state = 29, metric = "deaths, actual")
 
+deaths_actual %>%
+  mutate(report_date = Sys.Date(), .before = "date") %>%
+  write_csv(., paste0("data/source/mo_mortality/mo_mortality_", date, ".csv"))
+
 deaths_reported <- read_csv("data/state/state_full.csv") %>%
   filter(state == "Missouri") %>%
   select(report_date, new_deaths) %>%
