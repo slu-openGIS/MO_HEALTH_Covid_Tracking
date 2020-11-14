@@ -382,11 +382,6 @@ pop <- read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA
                   total_pop = col_double()
                 )) 
 
-## temporarily fix warren county
-warren %>% 
-  mutate(case_avg = NA, .after = "new_cases") %>%
-  mutate(case_avg_rate = NA, .after = "case_rate") -> warren
-
 ## Identify Zips with Missing Data
 regional_na <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin) %>%
   select(GEOID_ZCTA, cases) %>%
@@ -492,7 +487,7 @@ rm(city_data, county_data, st_charles_data, jeffco_data, warren_data,
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 ## combine to create metro data
-region <- select(region, GEOID_ZCTA, report_date, cases, case_rate, new_cases) # case_avg, case_avg_rate
+region <- select(region, GEOID_ZCTA, report_date, cases, case_rate, new_cases, case_avg, case_avg_rate)
 metro <- rbind(region, metro_east)
 
 ## Write Data
