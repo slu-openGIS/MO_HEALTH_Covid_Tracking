@@ -237,8 +237,8 @@ date,value,count,avg
 2020-11-09,"Deaths, Actual",13,11
 2020-11-10,"Deaths, Actual",7,10.285714285714286
 2020-11-11,"Deaths, Actual",2,8.285714285714286
-2020-11-12,"Deaths, Actual",5,8.285714285714286
-2020-11-13,"Deaths, Actual",3,7
+2020-11-12,"Deaths, Actual",6,8.428571428571429
+2020-11-13,"Deaths, Actual",3,7.142857142857143
 2020-03-18,"Deaths, Reported",1,0.14285714285714285
 2020-03-19,"Deaths, Reported",0,0.14285714285714285
 2020-03-20,"Deaths, Reported",2,0.42857142857142855
@@ -480,3 +480,4 @@ date,value,count,avg
 2020-11-11,"Deaths, Reported",36,35
 2020-11-12,"Deaths, Reported",30,34.857142857142854
 2020-11-13,"Deaths, Reported",11,33.57142857142857
+2020-11-14,"Deaths, Reported",11,32.57142857142857
