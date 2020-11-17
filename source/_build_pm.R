@@ -26,7 +26,7 @@ date <- Sys.Date()
 # qa promts ####
 
 ## confirm Franklin County data
-q <- usethis::ui_yeah("Have you updated the filename for the latest Franklin County ZIP code data?")
+q <- usethis::ui_yeah("Have you added the latest Franklin County ZIP code data to Downloads?")
 
 if (q == FALSE){
   stop("Please update the filename before proceeding!")
