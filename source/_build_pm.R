@@ -15,7 +15,7 @@
 # values ####
 
 ## store current Franklin County file name
-franklin_path <- paste0("11 ", lubridate::day(Sys.Date()), " 2020 Table.xlsx")
+franklin_path <- paste0(lubridate::month(Sys.Date()), " ", stringr::str_pad(lubridate::day(Sys.Date()), 2, pad = "0"), " 2020 Table.xlsx")
 # franklin_path <- "11 15 2020 Table.xlsx"
 
 ## store date value
