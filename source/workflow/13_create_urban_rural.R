@@ -54,15 +54,17 @@ county %>%
     new_deaths = sum(new_deaths),
     total_pop = sum(total_pop)
   )  %>%
-  group_by(report_date, type) %>%
+  group_by(type) %>%
+  arrange(report_date) %>%
   mutate(
     case_avg = rollmean(new_cases, k = 7, align = "right", fill = NA),
     deaths_avg = rollmean(new_deaths, k = 7, align = "right", fill = NA)
-  )  -> class
+  ) -> class
 
 ## create rates
 class %>%
   mutate(case_rate = cases/total_pop*100000, .after = cases) %>%
-  mutate(death_rate = deaths/total_pop*100000, .after = deaths) -> x
-  
+  mutate(death_rate = deaths/total_pop*100000, .after = deaths) %>%
+  mutate(case_avg_rate = case_avg/total_pop*100000, .after = case_avg) %>%
+  mutate(deaths_avg_rate = deaths_avg/total_pop*100000, .after = deaths_avg) -> class
   
