@@ -59,15 +59,19 @@ library(sf)             # mapping tools
 library(zoo)            # rolling means
 
 ## functions
+source("source/functions/get_esri.R")         # scrape ESRI dashboards
 source("source/functions/get_state.R")        # scrape state level data
+source("source/functions/get_zip.R")          # scrape zip code data
 source("source/functions/historic_expand.R")  # create empty data for zips by date
+source("source/functions/rsel.R")             # open and close RSelenium
 source("source/functions/wrangle_zip.R")      # process zip code data
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # workflow ####
 
-source("source/workflow/06_create_zips.R")
+# source("source/workflow/06_scrape_zips.R")
+source("source/workflow/07_create_zips.R")
 # source("source/workflow/08_create_testing.R")
 source("source/workflow/09_create_stl_hospital.R")
 # source("source/workflow/10_create_kc_counties.R")
