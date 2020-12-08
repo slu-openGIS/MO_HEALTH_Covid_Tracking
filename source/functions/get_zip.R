@@ -22,7 +22,7 @@ get_zip <- function(state, county) {
   } else if (state == "KS"){
     
     if (county == "Johnson"){
-      
+      out <- get_zip_johnson()
     } else if (county == "Wyandotte"){
       out <- get_zip_wyandotte(path = paths$wyandotte)
     }
@@ -117,10 +117,7 @@ get_zip_jackson <- function(path){
   
   ## tidy
   out <- dplyr::select(out, ZIP, COVID_cases)   
-  out <- dplyr::rename(out,
-                       zip = ZIP, 
-                       count = COVID_cases
-  )
+  out <- dplyr::rename(out, zip = ZIP, count = COVID_cases)
   out <- dplyr::arrange(out, zip)
   
   ## return output
@@ -134,6 +131,18 @@ get_zip_johnson <- function(){
   out <- get_tableau(host = "https://public.tableau.com", 
                      views = "/views/covid19_joco_public/dbCumulative", 
                      n = 1)
+  
+  ## tidy
+  out <- janitor::clean_names(out)
+  out <- dplyr::select(out, zip_alias, attr_positive_count_alias)
+  out <- dplyr::rename(out, zip = zip_alias, count = attr_positive_count_alias)
+  out <- dplyr::mutate(out, count = ifelse(count %in% c("<6", "0"), NA, count))
+  out <- dplyr::mutate(out, count = as.numeric(count))
+  out <- dplyr::filter(out, is.na(count) == FALSE)
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
   
 }
 
@@ -189,10 +198,7 @@ get_zip_platte <- function(){
   
   out <- dplyr::bind_cols(zip_code, cases)
   
-  out <- dplyr::rename(out,
-                       zip = zip_code,
-                       count = cases
-  )
+  out <- dplyr::rename(out, zip = zip_code, count = cases)
   out <- dplyr::arrange(out, zip)
   
   ## return output

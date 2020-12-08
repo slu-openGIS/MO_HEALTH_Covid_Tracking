@@ -8,7 +8,7 @@ open_rsel <- function(){
     port = 4444L,
     version = 'latest',
     browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-    chromever = '85.0.4183.87',
+    chromever = '87.0.4280.88',
     phantomver = "2.1.1",
     verbose = F,
     extraCapabilities = list(

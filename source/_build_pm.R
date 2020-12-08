@@ -61,6 +61,7 @@ library(zoo)            # rolling means
 ## functions
 source("source/functions/get_esri.R")         # scrape ESRI dashboards
 source("source/functions/get_state.R")        # scrape state level data
+source("source/functions/get_tableau.R")      # scrape Tableau dashboards
 source("source/functions/get_zip.R")          # scrape zip code data
 source("source/functions/historic_expand.R")  # create empty data for zips by date
 source("source/functions/rsel.R")             # open and close RSelenium

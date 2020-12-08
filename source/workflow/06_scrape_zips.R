@@ -61,8 +61,8 @@ rm(il_zips, get_zip_il)
 # Kansas ZIPs ####
 
 ## Johnson County
-# johnson_zips <- get_zip(state = "KS", county = "Johnson")
-# write_csv(johnson_zips, paste0("data/source/kc_daily_zips/johnson_", date, ".csv"))
+johnson_zips <- get_zip(state = "KS", county = "Johnson")
+write_csv(johnson_zips, paste0("data/source/kc_daily_zips/johnson_", date, ".csv"))
 
 ## Wyandotte County
 wyandotte_zips <- get_zip(state = "KS", county = "Wyandotte")
@@ -85,4 +85,4 @@ rm(rD, remDr, open_rsel, close_rsel)
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # final clean-up ####
-rm(get_zip)
+rm(get_esri, get_tableau, get_zip)
