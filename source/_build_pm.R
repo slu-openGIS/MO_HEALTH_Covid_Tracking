@@ -70,7 +70,7 @@ source("source/functions/wrangle_zip.R")      # process zip code data
 
 # workflow ####
 
-# source("source/workflow/06_scrape_zips.R")
+source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
 # source("source/workflow/08_create_testing.R")
 source("source/workflow/09_create_stl_hospital.R")

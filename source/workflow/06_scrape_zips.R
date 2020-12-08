@@ -62,11 +62,11 @@ rm(il_zips, get_zip_il)
 
 ## Johnson County
 # johnson_zips <- get_zip(state = "KS", county = "Johnson")
-# write_csv(johnson_zips, paste0("data/source/ks_daily_zips/johnson_", date, ".csv"))
+# write_csv(johnson_zips, paste0("data/source/kc_daily_zips/johnson_", date, ".csv"))
 
 ## Wyandotte County
 wyandotte_zips <- get_zip(state = "KS", county = "Wyandotte")
-write_csv(wyandotte_zips, paste0("data/source/ks_daily_zips/wyandotte_", date, ".csv"))
+write_csv(wyandotte_zips, paste0("data/source/kc_daily_zips/wyandotte_", date, ".csv"))
 
 ## clean-up
 rm(johnson_zips, wyandotte_zips)
