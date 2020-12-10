@@ -1,4 +1,4 @@
-get_zip <- function(state, county) {
+get_zip <- function(state, county, method) {
   
   load("data/source/paths.rda")
   
@@ -12,7 +12,7 @@ get_zip <- function(state, county) {
     } else if (county == "Kansas City"){
       out <- get_zip_kc()
     } else if (county == "Platte"){
-      out <- get_zip_platte()
+      out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
       out <- get_zip_st_charles(cut = FALSE) 
     }
@@ -174,32 +174,61 @@ get_zip_kc <- function(){
   
 }
 
-get_zip_platte <- function(){
+get_zip_platte <- function(method){
   
-  remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
-  Sys.sleep(3)
-  
-  zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
-  zipcode_data_table <- selectr::querySelectorAll(zipcode_data_table, "svg.svgScrollable")
-  
-  zip_data <- selectr::querySelectorAll(zipcode_data_table[[4]], "g.columnChartUnclippedGraphicsContext svg g rect")
-  zip_data <- rvest::html_attr(zip_data, "aria-label")
-  zip_data <- unlist(strsplit(zip_data, "\\."))
-  
-  zip_code <- unlist(as.data.frame(t(stringr::str_match_all(zip_data, "[0-9]+"))))[c(TRUE, FALSE)]
-  zip_code <- dplyr::as_tibble(zip_code)
-  zip_code <- dplyr::rename(zip_code, zip_code = value)
-  zip_code <- transform(zip_code, zip_code = as.numeric(zip_code))
-  
-  cases <- unlist(as.data.frame(t(stringr::str_match_all(zip_data, "[0-9]+"))))[c(FALSE, TRUE)]
-  cases <- dplyr::as_tibble(cases)
-  cases <- dplyr::rename(cases, cases = value)
-  cases <- dplyr::mutate(cases, cases = as.numeric(cases))
-  
-  out <- dplyr::bind_cols(zip_code, cases)
-  
-  out <- dplyr::rename(out, zip = zip_code, count = cases)
-  out <- dplyr::arrange(out, zip)
+  if (method == "power bi"){
+    
+    remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
+    Sys.sleep(15)
+    
+    zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
+    zipcode_data_table <- selectr::querySelectorAll(zipcode_data_table, "svg.svgScrollable")
+    
+    zip_data <- selectr::querySelectorAll(zipcode_data_table[[4]], "g.columnChartUnclippedGraphicsContext svg g rect")
+    zip_data <- rvest::html_attr(zip_data, "aria-label")
+    zip_data <- unlist(strsplit(zip_data, "\\."))
+    
+    zip_code <- unlist(as.data.frame(t(stringr::str_match_all(zip_data, "[0-9]+"))))[c(TRUE, FALSE)]
+    zip_code <- dplyr::as_tibble(zip_code)
+    zip_code <- dplyr::rename(zip_code, zip_code = value)
+    zip_code <- transform(zip_code, zip_code = as.numeric(zip_code))
+    
+    cases <- unlist(as.data.frame(t(stringr::str_match_all(zip_data, "[0-9]+"))))[c(FALSE, TRUE)]
+    cases <- dplyr::as_tibble(cases)
+    cases <- dplyr::rename(cases, cases = value)
+    cases <- dplyr::mutate(cases, cases = as.numeric(cases))
+    
+    out <- dplyr::bind_cols(zip_code, cases)
+    
+    out <- dplyr::rename(out, zip = zip_code, count = cases)
+    out <- dplyr::arrange(out, zip)
+    
+  } else if (method == "html"){
+    
+    # scrape
+    webpage <- xml2::read_html("https://www.plattecountyhealthdept.com/emergency.aspx")
+    
+    # extract tables
+    out <- rvest::html_nodes(webpage, "table")
+    out <- out[[2]]
+    out <- rvest::html_table(out, fill = TRUE)
+    
+    # tidy table
+    out <- dplyr::select(out, X1, X4)
+    out <- dplyr::rename(out, zip = X1, count = X4)
+    
+    n <- as.numeric(nrow(out))
+    n <- n-1
+    
+    out <- dplyr::slice(out, 2:n)
+    
+    testthat::expect_equal(nrow(out), 19)
+    
+    out <- dplyr::mutate(out, count = ifelse(count == "Suppressed", NA, count))
+    out <- dplyr::mutate(out, count = as.numeric(count))
+    out <- dplyr::filter(out, is.na(count) == FALSE)
+    
+  }
   
   ## return output
   return(out)
