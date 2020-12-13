@@ -149,13 +149,12 @@ get_zip_johnson <- function(){
 get_zip_kc <- function(){
   
   ## api call
-  out <- readr::read_csv("https://data.kcmo.org/resource/98fz-2jyt.csv",
+  out <- readr::read_csv("https://data.kcmo.org/resource/374j-h7xt.csv",
                          col_types = readr::cols(
                            zipcode = readr::col_double(),
                            cases = readr::col_character(),
                            crude_rate_per_100_000 = readr::col_character(),
-                           total_residents_tested = readr::col_double(),
-                           positivity_rate = readr::col_double()
+                           total_residents_tested = readr::col_double()
                          ))
   
   ## tidy
@@ -226,6 +225,7 @@ get_zip_platte <- function(method){
     
     out <- dplyr::mutate(out, count = ifelse(count == "Suppressed", NA, count))
     out <- dplyr::mutate(out, count = as.numeric(count))
+    out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
     out <- dplyr::filter(out, is.na(count) == FALSE)
     
   }

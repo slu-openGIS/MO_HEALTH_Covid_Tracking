@@ -17,7 +17,7 @@ hosp_data %>%
          vent, vent_avg, discharge, new_discharge) -> hosp_data
 
 # write data
-write_csv(hosp_data, path = "data/metro/stl_hospital.csv")
+write_csv(hosp_data, file = "data/metro/stl_hospital.csv")
 
 # clean-up
 rm(hosp_data)
