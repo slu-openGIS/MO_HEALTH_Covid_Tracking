@@ -179,30 +179,35 @@ get_zip_platte <- function(method){
   
   if (method == "power bi"){
     
+    # navigate to dashboard URL
     remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
-    Sys.sleep(15)
+    Sys.sleep(2)
     
+    # obtaining HTML page source
     zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
-    zipcode_data_table <- selectr::querySelectorAll(zipcode_data_table, "svg.svgScrollable")
     
-    zip_data <- selectr::querySelectorAll(zipcode_data_table[[4]], "g.columnChartUnclippedGraphicsContext svg g rect")
-    zip_data <- rvest::html_attr(zip_data, "aria-label")
-    zip_data <- unlist(strsplit(zip_data, "\\."))
+    # looping through ZCTA and cases from bar graph
+    zcta_list <- list()
+    zip_list <- list()
+    for(i in 1:10){
+      
+      # getting ZCTA
+      zcta_path <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.y.axis.hideLinesOnAxis.setFocusRing > g:nth-child(',i+1,') > text > title')
+      zcta <- selectr::querySelectorAll(zipcode_data_table, zcta_path)
+      zcta <- purrr::map_chr(zcta, xml2::xml_text)
+      zcta_list[[i]] <- zcta
+      
+      # getting cases
+      bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i,')')
+      bar <- remDr$findElement(bar_element, using = "css selector")
+      remDr$mouseMoveToLocation(webElement = bar)
+      Sys.sleep(0.5)
+      zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
+      zip_list[[i]] <- zip_data
+    }
     
-    zip_code <- unlist(as.data.frame(t(stringr::str_match_all(zip_data, "[0-9]+"))))[c(TRUE, FALSE)]
-    zip_code <- dplyr::as_tibble(zip_code)
-    zip_code <- dplyr::rename(zip_code, zip_code = value)
-    zip_code <- transform(zip_code, zip_code = as.numeric(zip_code))
-    
-    cases <- unlist(as.data.frame(t(stringr::str_match_all(zip_data, "[0-9]+"))))[c(FALSE, TRUE)]
-    cases <- dplyr::as_tibble(cases)
-    cases <- dplyr::rename(cases, cases = value)
-    cases <- dplyr::mutate(cases, cases = as.numeric(cases))
-    
-    out <- dplyr::bind_cols(zip_code, cases)
-    
-    out <- dplyr::rename(out, zip = zip_code, count = cases)
-    out <- dplyr::arrange(out, zip)
+    # output
+    out <- do.call(rbind, Map(data.frame, zip_code=zcta_list, cases=zip_list))
     
   } else if (method == "html"){
     
