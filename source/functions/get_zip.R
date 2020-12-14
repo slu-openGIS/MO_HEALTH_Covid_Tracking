@@ -15,6 +15,8 @@ get_zip <- function(state, county, method) {
       out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
       out <- get_zip_st_charles(cut = FALSE) 
+    } else if (county == "Warren"){
+      out <- get_zip_warren()
     }
     
   } else if (state == "IL"){
@@ -301,6 +303,33 @@ get_zip_st_charles <- function(cut = FALSE){
     count = cases
   )
   out <- dplyr::filter(out, is.na(zip) == FALSE)
+  out <- dplyr::arrange(out, zip)
+  
+  # return output
+  return(out)
+  
+}
+
+get_zip_warren <- function(){
+  
+  # scrape website
+  webpage <- xml2::read_html("https://www.warrencountyhealth.com/")
+  data <- rvest::html_nodes(webpage, "p")
+  
+  # tidy scraped data
+  data <- data[10]
+  data <- suppressWarnings(stringr::str_split(string = data, pattern = "[[:space:]]", simplify = TRUE))
+  data <- suppressWarnings(readr::parse_number(data))
+  data <- data[is.na(data) == FALSE]
+  
+  # construct output
+  out <- data.frame(
+    zip = data[seq(1,length(data),2)],
+    count = data[seq(2,length(data),2)]
+  )
+  
+  out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
+  out <- dplyr::filter(out, is.na(count) == FALSE)
   out <- dplyr::arrange(out, zip)
   
   # return output
