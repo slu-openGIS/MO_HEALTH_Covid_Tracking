@@ -31,13 +31,12 @@ close_rsel <- function(){
   if(exists("remDr")|exists("rD")){
     remDr$close()
     rD$server$stop()
-  } else{
-    #cleanup
-    objs <- ls(pos = ".GlobalEnv")
-    rm(list = objs[grep("rD|remDr", objs)], pos = ".GlobalEnv")
-    invisible(gc())
   }
-
+    
+  # cleanup
+  objs <- ls(pos = ".GlobalEnv")
+  rm(list = objs[grep("rD|remDr", objs)], pos = ".GlobalEnv")
+  invisible(gc())
   
   # For Windows machines:
   if(.Platform$OS.type == "windows"){
