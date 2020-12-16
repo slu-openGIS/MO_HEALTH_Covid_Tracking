@@ -355,7 +355,7 @@ get_zip_warren <- function(){
   webpage <- rvest::html_nodes(webpage, "p")
   
   # tidy scraped data
-  data <- webpage[9]
+  data <- webpage[11]
   data <- suppressWarnings(stringr::str_split(string = data, pattern = "[[:space:]]", simplify = TRUE))
   data <- suppressWarnings(readr::parse_number(data))
   data <- data[is.na(data) == FALSE]

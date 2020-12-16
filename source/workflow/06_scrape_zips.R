@@ -84,7 +84,7 @@ rm(get_zip_johnson, get_zip_wyandotte)
 close_rsel()
 
 ## clean-up
-rm(rD, remDr, open_rsel, close_rsel)
+rm(open_rsel, close_rsel)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
