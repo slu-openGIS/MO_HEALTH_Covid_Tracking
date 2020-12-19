@@ -112,7 +112,7 @@ wrangle_zip <- function(date, county){
     file <- paste0("data/source/stl_daily_zips/warren_", date, ".csv")
   } else if (county == 17){
     file <- paste0("data/source/il_daily_zips/il_zips_", date, ".csv")
-  }
+  } 
   
   # read data
   df <- readr::read_csv(file, col_types = cols(

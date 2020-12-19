@@ -30,23 +30,26 @@ metro_east <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDAR
 
 # build county-level ZIP data for MO ####
 ## Define Dates
-city_dates <- c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days"))
-county_dates <- c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days"))
-st_charles_dates <- seq(as.Date("2020-07-14"), date, by="days")
-jeffco_dates <- seq(as.Date("2020-07-23"), date, by="days")
-lincoln_dates <- seq(as.Date("2020-10-28"), date, by="days")
-warren_dates <- seq(as.Date("2020-10-28"), date, by="days")
-franklin_dates <- seq(as.Date("2020-03-23"), date-1, by="days")
-metro_east_dates <- seq(as.Date("2020-10-27"), date, by="days")
+dates <- list(
+  city_dates = c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
+  county_dates = c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
+  franklin_dates = seq(as.Date("2020-03-23"), date-1, by="days"),
+  jeffco_dates = seq(as.Date("2020-07-23"), date, by="days"),
+  kc_dates = seq(as.Date("2020-12-14"), date, by="days"),
+  lincoln_dates = seq(as.Date("2020-10-28"), date, by="days"),
+  metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
+  st_charles_dates = seq(as.Date("2020-07-14"), date, by="days"),
+  warren_dates = seq(as.Date("2020-10-28"), date, by="days")
+)
 
 ## Process Individual Jurisdictions
-city_data <- process_zip(county = 510, dates = city_dates)
-county_data <- process_zip(county = 189, dates = county_dates)
-st_charles_data <- process_zip(county = 183, dates = st_charles_dates)
-jeffco_data <- process_zip(county = 99, dates = jeffco_dates)
-# lincoln_data <- process_zip(county = 113, dates = lincoln_dates)
-warren_data <- process_zip(county = 219, dates = warren_dates)
-metro_east_data <- process_zip(county = 17, dates = metro_east_dates)
+city_data <- process_zip(county = 510, dates = dates$city_dates)
+county_data <- process_zip(county = 189, dates = dates$county_dates)
+st_charles_data <- process_zip(county = 183, dates = dates$st_charles_dates)
+jeffco_data <- process_zip(county = 99, dates = dates$jeffco_dates)
+# lincoln_data <- process_zip(county = 113, dates = dates$lincoln_dates)
+warren_data <- process_zip(county = 219, dates = dates$warren_dates)
+metro_east_data <- process_zip(county = 17, dates = dates$metro_east_dates)
 
 ### Process Franklin County
 franklin_tbl <- franklin
