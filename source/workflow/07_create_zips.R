@@ -55,7 +55,7 @@ metro_east_data <- process_zip(county = 17, dates = dates$metro_east_dates)
 franklin_tbl <- franklin
 st_geometry(franklin_tbl) <- NULL
 
-franklin_dates %>%
+dates$franklin_dates %>%
   unlist() %>%
   map_df(~historic_expand(ref = franklin_tbl, date = .x)) -> franklin_dates
 
@@ -112,8 +112,7 @@ franklin_data %>%
   select(-total_pop) -> franklin_data
 
 ## Clean-up
-rm(city_dates, county_dates, st_charles_dates, jeffco_dates, lincoln_dates, 
-   warren_dates, metro_east_dates, franklin_dates, franklin_pop, franklin_tbl,
+rm(dates, franklin_pop, franklin_tbl,
    franklin_path, first_date)
 
 ## Save Individual Jurisdictions
