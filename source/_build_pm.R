@@ -39,6 +39,9 @@ if (q == FALSE){
   stop("Please update the hospitalization data manually before proceeding!")
 }
 
+## clean-up
+rm(q)
+
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # dependencies ####
@@ -66,6 +69,7 @@ source("source/functions/get_zip.R")          # scrape zip code data
 source("source/functions/historic_expand.R")  # create empty data for zips by date
 source("source/functions/rsel.R")             # open and close RSelenium
 source("source/functions/wrangle_zip.R")      # process zip code data
+source("source/functions/wrangle_kc_zip.R")      # process zip code data
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

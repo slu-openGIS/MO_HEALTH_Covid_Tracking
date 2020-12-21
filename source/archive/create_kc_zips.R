@@ -41,31 +41,32 @@ kc_zips_clipped <- kc_zips_clipped %>%
 
 kc_zips <- filter(kc_zips, GEOID10 %in% kc_zips_clipped$GEOID10)
 
-#
-zip_data <- process_kc_zip(dates = dates) %>%
-  filter(report_date == "2020-12-19")
-
-x <- kc_zips_clipped
-st_geometry(x) <- NULL
-x <- full_join(x, zip_data, by = c("GEOID10" = "zip"))
-y <- filter(kc_zips, GEOID10 %in% c("64028", "66160"))
-
-# both of these need to be folded into encompassing zips
-# 66103 <- 66160
-# 64079 <- 64028
 
 # load population data ####
 kc_pop <- get_acs(geography = "zcta", year = 2018, variable = "B01003_001") %>%
   filter(GEOID %in% kc_zips$GEOID10) %>%
-  select(GEOID, estimate) %>%
+  select(GEOID, estimate, moe) %>%
   rename(
     GEOID10 = GEOID,
     total_pop = estimate
-  )
+  ) %>%
+  mutate(total_pop = ifelse(total_pop == 0, moe, total_pop)) %>%
+  select(-moe)
 
 # combine geoids and population ####
 kc_zips <- left_join(kc_zips, kc_pop, by = "GEOID10") %>%
   select(GEOID10, total_pop)
 
+kc_zips_clipped <- select(kc_zips_clipped, -sq_km)
 
+out <- aw_interpolate(kc_zips_clipped, tid = "GEOID10", source = kc_zips, sid = "GEOID10", weight = "total",
+                             output = "sf", extensive = "total_pop") %>%
+  rename(GEOID_ZCTA = GEOID10)
+
+st_transform(out, crs = 4326) %>%
+  st_write(., "data/source/kc_zips/kc_metro_zip.geojson")
+
+st_geometry(out) <- NULL
+
+write_csv(out, "data/source/kc_zips/kc_metro_zip.csv")
 

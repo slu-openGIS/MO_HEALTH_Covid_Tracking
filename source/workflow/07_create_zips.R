@@ -112,8 +112,8 @@ franklin_data %>%
   select(-total_pop) -> franklin_data
 
 ## Clean-up
-rm(dates, franklin_pop, franklin_tbl,
-   franklin_path, first_date)
+rm(franklin_pop, franklin_tbl,
+   franklin_path, first_date, franklin_dates)
 
 ## Save Individual Jurisdictions
 write_csv(city_data, "data/zip/zip_stl_city.csv")
@@ -497,4 +497,29 @@ st_write(metro, "data/zip/daily_snapshot_metro.geojson", delete_dsn = TRUE)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# rm(process_zip, wrangle_zip, build_pop_zip)
+kc <- read_csv("data/source/kc_zips/kc_metro_zip.csv", 
+               col_types = cols(GEOID10 = col_character()))
+kc_sf <- st_read("data/source/kc_zips/kc_metro_zip.geojson") 
+
+kc_metro <- process_kc_zip(dates = dates)
+
+kc_metro <- left_join(kc_metro, kc, by = c("zip" = "GEOID10")) %>%
+  mutate(case_rate = cases/total_pop*1000) %>%
+  mutate(case_rate = ifelse(zip == "64102", NA, case_rate)) %>%
+  select(-total_pop)
+
+kc_snapshot <- filter(kc_metro, report_date == date)
+
+kc_snapshot <- left_join(kc_sf, kc_snapshot, by = c("GEOID10" = "zip")) %>%
+  rename(zip = GEOID10)
+
+write_csv(kc_metro, "data/zip/zip_kansas_city.csv")
+
+st_write(kc_snapshot,  "data/zip/daily_snapshot_kansas_city.geojson", delete_dsn = TRUE)
+
+rm(kc, kc_metro, kc_sf, kc_snapshot, metro, metro_east, region)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+rm(process_zip, wrangle_zip, build_pop_zip, process_kc_zip, wrangle_kc_zip, dates,
+   historic_expand)

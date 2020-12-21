@@ -15,6 +15,10 @@ process_kc_zip <- function(dates, reduce = TRUE){
    
     # reduce
     out <- purrr::reduce(out, .f = dplyr::bind_rows)
+    
+    out <- dplyr::mutate(out, zip = ifelse(zip == "64028", "64079", zip))
+    out <- dplyr::mutate(out, zip = ifelse(zip == "66160", "66103", zip))
+    
     out <- dplyr::arrange(out, zip, report_date) 
     out <- dplyr::group_by(out, zip, report_date)
     out <- dplyr::summarise(out,

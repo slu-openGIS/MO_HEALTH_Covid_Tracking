@@ -31,7 +31,7 @@ write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv")
 
 ## clean-up
 rm(clay_zips, jackson_zips, kc_zips, platte_zips)
-rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte)
+rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte, get_zip_platte_bi, get_zip_platte_html)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
