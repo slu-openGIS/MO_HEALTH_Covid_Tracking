@@ -1,4 +1,4 @@
-get_zip <- function(state, county, method) {
+get_zip <- function(state, county, method, cut = FALSE, val) {
   
   load("data/source/paths.rda")
   
@@ -14,7 +14,7 @@ get_zip <- function(state, county, method) {
     } else if (county == "Platte"){
       out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
-      out <- get_zip_st_charles(cut = FALSE) 
+      out <- get_zip_st_charles(cut = cut, val = val) 
     } else if (county == "Warren"){
       out <- get_zip_warren()
     }
@@ -179,61 +179,24 @@ get_zip_platte <- function(method){
   
   if (method == "power bi"){
     
-    # navigate to dashboard URL
-    remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
-    Sys.sleep(2)
-    
-    # obtaining HTML page source
-    zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
-    
-    # looping through ZCTA and cases from bar graph
-    zcta_list <- list()
-    zip_list <- list()
-    for(i in 1:10){
-      
-      # getting ZCTA
-      zcta_path <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.y.axis.hideLinesOnAxis.setFocusRing > g:nth-child(',i+1,') > text > title')
-      zcta <- selectr::querySelectorAll(zipcode_data_table, zcta_path)
-      zcta <- purrr::map_chr(zcta, xml2::xml_text)
-      zcta_list[[i]] <- zcta
-      
-      # getting cases
-      bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i,')')
-      bar <- remDr$findElement(bar_element, using = "css selector")
-      remDr$mouseMoveToLocation(webElement = bar)
-      Sys.sleep(0.5)
-      zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
-      zip_list[[i]] <- zip_data
-    }
-    
-    # output
-    out <- do.call(rbind, Map(data.frame, zip_code=zcta_list, cases=zip_list))
+    out <- get_zip_platte_bi()
     
   } else if (method == "html"){
     
-    # scrape
-    webpage <- xml2::read_html("https://www.plattecountyhealthdept.com/emergency.aspx")
+    out <- get_zip_platte_html()
     
-    # extract tables
-    out <- rvest::html_nodes(webpage, "table")
-    out <- out[[2]]
-    out <- rvest::html_table(out, fill = TRUE)
+  } else if (method == "mixed"){
     
-    # tidy table
-    out <- dplyr::select(out, X1, X4)
-    out <- dplyr::rename(out, zip = X1, count = X4)
+    # initial scraping
+    bi <- get_zip_platte_bi()
+    html <- get_zip_platte_html()
     
-    n <- as.numeric(nrow(out))
-    n <- n-1
+    # subset html
+    html <- dplyr::filter(html, zip %in% bi$zip == FALSE)
     
-    out <- dplyr::slice(out, 2:n)
-    
-    testthat::expect_equal(nrow(out), 19)
-    
-    out <- dplyr::mutate(out, count = ifelse(count == "Suppressed", NA, count))
-    out <- dplyr::mutate(out, count = as.numeric(count))
-    out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
-    out <- dplyr::filter(out, is.na(count) == FALSE)
+    # combine
+    out <- dplyr::bind_rows(bi, html)
+    out <- dplyr::arrange(out, zip)
     
   }
   
@@ -242,7 +205,77 @@ get_zip_platte <- function(method){
   
 }
 
-get_zip_st_charles <- function(cut = FALSE){
+get_zip_platte_bi <- function(){
+  
+  # navigate to dashboard URL
+  remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
+  Sys.sleep(2)
+  
+  # obtaining HTML page source
+  zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
+  
+  # looping through ZCTA and cases from bar graph
+  zcta_list <- list()
+  zip_list <- list()
+  for(i in 1:10){
+    
+    # getting ZCTA
+    zcta_path <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.y.axis.hideLinesOnAxis.setFocusRing > g:nth-child(',i+1,') > text > title')
+    zcta <- selectr::querySelectorAll(zipcode_data_table, zcta_path)
+    zcta <- purrr::map_chr(zcta, xml2::xml_text)
+    zcta_list[[i]] <- zcta
+    
+    # getting cases
+    bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i,')')
+    bar <- remDr$findElement(bar_element, using = "css selector")
+    remDr$mouseMoveToLocation(webElement = bar)
+    Sys.sleep(0.5)
+    zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
+    zip_list[[i]] <- zip_data
+  }
+  
+  # output
+  out <- do.call(rbind, Map(data.frame, zip=zcta_list, count=zip_list))
+  out <- dplyr::mutate(out, count = as.numeric(count))
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
+  
+}
+  
+get_zip_platte_html <- function(){
+  
+  # scrape
+  webpage <- xml2::read_html("https://www.plattecountyhealthdept.com/emergency.aspx")
+  
+  # extract tables
+  out <- rvest::html_nodes(webpage, "table")
+  out <- out[[2]]
+  out <- rvest::html_table(out, fill = TRUE)
+  
+  # tidy table
+  out <- dplyr::select(out, X1, X4)
+  out <- dplyr::rename(out, zip = X1, count = X4)
+  
+  n <- as.numeric(nrow(out))
+  n <- n-1
+  
+  out <- dplyr::slice(out, 2:n)
+  
+  testthat::expect_equal(nrow(out), 19)
+  
+  out <- dplyr::mutate(out, count = ifelse(count == "Suppressed", NA, count))
+  out <- dplyr::mutate(out, count = as.numeric(count))
+  out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
+  out <- dplyr::filter(out, is.na(count) == FALSE)
+  
+  ## return output
+  return(out)
+  
+}
+
+get_zip_st_charles <- function(cut = FALSE, val){
   
   # navigate to the site you wish to analyze
   remDr$navigate("https://app.powerbigov.us/view?r=eyJrIjoiZDFmN2ViMGEtNzQzMC00ZDU3LTkwZjUtOWU1N2RiZmJlOTYyIiwidCI6IjNiMTg1MTYzLTZjYTMtNDA2NS04NDAwLWNhNzJiM2Y3OWU2ZCJ9&pageName=ReportSectionb438b98829599a9276e2&pageName=ReportSectionb438b98829599a9276e2")
@@ -293,8 +326,7 @@ get_zip_st_charles <- function(cut = FALSE){
   
   # fix display issues
   if (cut == TRUE){
-    zipcode_data <- dplyr::slice(zipcode_data, 1:15)
-    zipcodes <- dplyr::slice(zipcodes, 1:15)
+    zipcode_data <- filter(zipcode_data, cases != val)
   }
   
   # combine data
@@ -319,10 +351,10 @@ get_zip_warren <- function(){
   
   # scrape website
   webpage <- xml2::read_html("https://www.warrencountyhealth.com/")
-  data <- rvest::html_nodes(webpage, "p")
+  webpage <- rvest::html_nodes(webpage, "p")
   
   # tidy scraped data
-  data <- data[10]
+  data <- webpage[11]
   data <- suppressWarnings(stringr::str_split(string = data, pattern = "[[:space:]]", simplify = TRUE))
   data <- suppressWarnings(readr::parse_number(data))
   data <- data[is.na(data) == FALSE]
@@ -333,6 +365,7 @@ get_zip_warren <- function(){
     count = data[seq(2,length(data),2)]
   )
   
+  out <- dplyr::mutate(out, count = abs(count))
   out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
   out <- dplyr::filter(out, is.na(count) == FALSE)
   out <- dplyr::arrange(out, zip)

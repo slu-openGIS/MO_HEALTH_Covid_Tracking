@@ -26,19 +26,19 @@ kc_zips <- get_zip(state = "MO", county = "Kansas City")
 write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
 
 ## Platte County
-platte_zips <- get_zip(state = "MO", county = "Platte", method = "html")
+platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
 write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
 
 ## clean-up
 rm(clay_zips, jackson_zips, kc_zips, platte_zips)
-rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte)
+rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte, get_zip_platte_bi, get_zip_platte_html)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # Missouri ZIPs, St. Louis Area ####
 
 ## St. Charles County
-st_charles_zips <- get_zip(state = "MO", county = "St. Charles")
+st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = TRUE, val = 2)
 write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
 
 ## Warren County
@@ -84,7 +84,7 @@ rm(get_zip_johnson, get_zip_wyandotte)
 close_rsel()
 
 ## clean-up
-rm(rD, remDr, open_rsel, close_rsel)
+rm(open_rsel, close_rsel)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

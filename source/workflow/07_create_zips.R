@@ -30,29 +30,32 @@ metro_east <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDAR
 
 # build county-level ZIP data for MO ####
 ## Define Dates
-city_dates <- c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days"))
-county_dates <- c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days"))
-st_charles_dates <- seq(as.Date("2020-07-14"), date, by="days")
-jeffco_dates <- seq(as.Date("2020-07-23"), date, by="days")
-lincoln_dates <- seq(as.Date("2020-10-28"), date, by="days")
-warren_dates <- seq(as.Date("2020-10-28"), date, by="days")
-franklin_dates <- seq(as.Date("2020-03-23"), date-1, by="days")
-metro_east_dates <- seq(as.Date("2020-10-27"), date, by="days")
+dates <- list(
+  city_dates = c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
+  county_dates = c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
+  franklin_dates = seq(as.Date("2020-03-23"), date-1, by="days"),
+  jeffco_dates = seq(as.Date("2020-07-23"), date, by="days"),
+  kc_dates = seq(as.Date("2020-12-14"), date, by="days"),
+  lincoln_dates = seq(as.Date("2020-10-28"), date, by="days"),
+  metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
+  st_charles_dates = seq(as.Date("2020-07-14"), date, by="days"),
+  warren_dates = seq(as.Date("2020-10-28"), date, by="days")
+)
 
 ## Process Individual Jurisdictions
-city_data <- process_zip(county = 510, dates = city_dates)
-county_data <- process_zip(county = 189, dates = county_dates)
-st_charles_data <- process_zip(county = 183, dates = st_charles_dates)
-jeffco_data <- process_zip(county = 99, dates = jeffco_dates)
-# lincoln_data <- process_zip(county = 113, dates = lincoln_dates)
-warren_data <- process_zip(county = 219, dates = warren_dates)
-metro_east_data <- process_zip(county = 17, dates = metro_east_dates)
+city_data <- process_zip(county = 510, dates = dates$city_dates)
+county_data <- process_zip(county = 189, dates = dates$county_dates)
+st_charles_data <- process_zip(county = 183, dates = dates$st_charles_dates)
+jeffco_data <- process_zip(county = 99, dates = dates$jeffco_dates)
+# lincoln_data <- process_zip(county = 113, dates = dates$lincoln_dates)
+warren_data <- process_zip(county = 219, dates = dates$warren_dates)
+metro_east_data <- process_zip(county = 17, dates = dates$metro_east_dates)
 
 ### Process Franklin County
 franklin_tbl <- franklin
 st_geometry(franklin_tbl) <- NULL
 
-franklin_dates %>%
+dates$franklin_dates %>%
   unlist() %>%
   map_df(~historic_expand(ref = franklin_tbl, date = .x)) -> franklin_dates
 
@@ -109,9 +112,8 @@ franklin_data %>%
   select(-total_pop) -> franklin_data
 
 ## Clean-up
-rm(city_dates, county_dates, st_charles_dates, jeffco_dates, lincoln_dates, 
-   warren_dates, metro_east_dates, franklin_dates, franklin_pop, franklin_tbl,
-   franklin_path, first_date)
+rm(franklin_pop, franklin_tbl,
+   franklin_path, first_date, franklin_dates)
 
 ## Save Individual Jurisdictions
 write_csv(city_data, "data/zip/zip_stl_city.csv")
@@ -495,4 +497,29 @@ st_write(metro, "data/zip/daily_snapshot_metro.geojson", delete_dsn = TRUE)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# rm(process_zip, wrangle_zip, build_pop_zip)
+kc <- read_csv("data/source/kc_zips/kc_metro_zip.csv", 
+               col_types = cols(GEOID10 = col_character()))
+kc_sf <- st_read("data/source/kc_zips/kc_metro_zip.geojson") 
+
+kc_metro <- process_kc_zip(dates = dates)
+
+kc_metro <- left_join(kc_metro, kc, by = c("zip" = "GEOID10")) %>%
+  mutate(case_rate = cases/total_pop*1000) %>%
+  mutate(case_rate = ifelse(zip == "64102", NA, case_rate)) %>%
+  select(-total_pop)
+
+kc_snapshot <- filter(kc_metro, report_date == date)
+
+kc_snapshot <- left_join(kc_sf, kc_snapshot, by = c("GEOID10" = "zip")) %>%
+  rename(zip = GEOID10)
+
+write_csv(kc_metro, "data/zip/zip_kansas_city.csv")
+
+st_write(kc_snapshot,  "data/zip/daily_snapshot_kansas_city.geojson", delete_dsn = TRUE)
+
+rm(kc, kc_metro, kc_sf, kc_snapshot, metro, metro_east, region)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+rm(process_zip, wrangle_zip, build_pop_zip, process_kc_zip, wrangle_kc_zip, dates,
+   historic_expand)
