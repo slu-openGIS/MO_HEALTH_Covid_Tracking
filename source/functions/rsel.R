@@ -2,27 +2,37 @@
 #' This function is used to open and close the RSelenium driver
 #' 
 
-open_rsel <- function(){
+open_rsel <- function(headless){
   
-  rD <<- RSelenium::rsDriver(
-    port = 4444L,
-    version = 'latest',
-    browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-    chromever = '87.0.4280.88',
-    phantomver = "2.1.1",
-    verbose = F,
-    extraCapabilities = list(
-      chromeOptions = list(
-        args = c('--headless','--disable-gpu', '--window-size=1280,800'),
-        prefs = list(
-          "profile.default_content_settings.popups" = 0L,
-          "download.prompt_for_download" = FALSE,
-          "download.default_directory" = getwd()
-        )
-      )
+  if (headless == T){
+    rD <<- RSelenium::rsDriver(
+      port = 4445L,
+      version = 'latest',
+      browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
+      chromever = '87.0.4280.87',
+      phantomver = "2.1.1",
+      verbose = F,
+      extraCapabilities = list(
+        chromeOptions = list(
+          args = c('--headless','--disable-gpu', '--window-size=1280,800'),
+          prefs = list(
+            "profile.default_content_settings.popups" = 0L,
+            "download.prompt_for_download" = FALSE,
+            "download.default_directory" = getwd())))
     )
-  )
+  } else {
+    rD <<- RSelenium::rsDriver(
+      port = 4445L,
+      version = 'latest',
+      browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
+      chromever = '87.0.4280.87',
+      phantomver = "2.1.1",
+      verbose = F
+    )
+  }
+  
   remDr <<- rD$client
+  
 }
 
 close_rsel <- function(){
