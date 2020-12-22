@@ -1,4 +1,4 @@
-get_zip <- function(state, county, method) {
+get_zip <- function(state, county, method, cut = FALSE, val) {
   
   load("data/source/paths.rda")
   
@@ -14,7 +14,7 @@ get_zip <- function(state, county, method) {
     } else if (county == "Platte"){
       out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
-      out <- get_zip_st_charles(cut = FALSE) 
+      out <- get_zip_st_charles(cut = cut, val = val) 
     } else if (county == "Warren"){
       out <- get_zip_warren()
     }
@@ -275,7 +275,7 @@ get_zip_platte_html <- function(){
   
 }
 
-get_zip_st_charles <- function(cut = FALSE){
+get_zip_st_charles <- function(cut = FALSE, val){
   
   # navigate to the site you wish to analyze
   remDr$navigate("https://app.powerbigov.us/view?r=eyJrIjoiZDFmN2ViMGEtNzQzMC00ZDU3LTkwZjUtOWU1N2RiZmJlOTYyIiwidCI6IjNiMTg1MTYzLTZjYTMtNDA2NS04NDAwLWNhNzJiM2Y3OWU2ZCJ9&pageName=ReportSectionb438b98829599a9276e2&pageName=ReportSectionb438b98829599a9276e2")
@@ -326,8 +326,7 @@ get_zip_st_charles <- function(cut = FALSE){
   
   # fix display issues
   if (cut == TRUE){
-    zipcode_data <- dplyr::slice(zipcode_data, 1:15)
-    zipcodes <- dplyr::slice(zipcodes, 1:15)
+    zipcode_data <- filter(zipcode_data, cases != val)
   }
   
   # combine data
