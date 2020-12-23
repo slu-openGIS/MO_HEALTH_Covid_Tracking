@@ -38,7 +38,7 @@ rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte, get_zip_platte_bi,
 # Missouri ZIPs, St. Louis Area ####
 
 ## St. Charles County
-st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = TRUE, val = 2)
+st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = FALSE)
 write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
 
 ## Warren County
