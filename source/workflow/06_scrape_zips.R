@@ -37,6 +37,10 @@ rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte, get_zip_platte_bi,
 
 # Missouri ZIPs, St. Louis Area ####
 
+## Lincoln County
+lincoln_zips <- get_zip(state = "MO", county = "Lincoln")
+write_csv(lincoln_zips, paste0("data/source/stl_daily_zips/lincoln_", date, ".csv"))
+
 ## St. Charles County
 st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = FALSE)
 write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
@@ -46,8 +50,8 @@ warren_zips <- get_zip(state = "MO", county = "Warren")
 write_csv(warren_zips, paste0("data/source/stl_daily_zips/warren_", date, ".csv"))
 
 ## clean-up
-rm(st_charles_zips, warren_zips)
-rm(get_zip_st_charles, get_zip_warren)
+rm(st_charles_zips, warren_zips, lincoln_zips)
+rm(get_zip_st_charles, get_zip_warren, get_zip_lincoln)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

@@ -12,8 +12,8 @@ st_charles <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDAR
                       crs = 4326, stringsAsFactors = FALSE)
 jeffco <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Jefferson_County.geojson", 
                       crs = 4326, stringsAsFactors = FALSE)
-# lincoln <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Lincoln_County.geojson", 
-#                  crs = 4326, stringsAsFactors = FALSE)
+lincoln <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Lincoln_County.geojson", 
+                  crs = 4326, stringsAsFactors = FALSE)
 warren <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Warren_County.geojson", 
                   crs = 4326, stringsAsFactors = FALSE)
 franklin <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Franklin_County.geojson", 
@@ -36,7 +36,7 @@ dates <- list(
   franklin_dates = seq(as.Date("2020-03-23"), date-1, by="days"),
   jeffco_dates = seq(as.Date("2020-07-23"), date, by="days"),
   kc_dates = seq(as.Date("2020-12-14"), date, by="days"),
-  lincoln_dates = seq(as.Date("2020-10-28"), date, by="days"),
+  lincoln_dates = seq(as.Date("2020-12-23"), date, by="days"),
   metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
   st_charles_dates = seq(as.Date("2020-07-14"), date, by="days"),
   warren_dates = seq(as.Date("2020-10-28"), date, by="days")
@@ -47,7 +47,7 @@ city_data <- process_zip(county = 510, dates = dates$city_dates)
 county_data <- process_zip(county = 189, dates = dates$county_dates)
 st_charles_data <- process_zip(county = 183, dates = dates$st_charles_dates)
 jeffco_data <- process_zip(county = 99, dates = dates$jeffco_dates)
-# lincoln_data <- process_zip(county = 113, dates = dates$lincoln_dates)
+lincoln_data <- process_zip(county = 113, dates = dates$lincoln_dates)
 warren_data <- process_zip(county = 219, dates = dates$warren_dates)
 metro_east_data <- process_zip(county = 17, dates = dates$metro_east_dates)
 
@@ -93,7 +93,7 @@ franklin_data %>%
   select(report_date, GEOID_ZCTA, cases, new_cases) %>%
   rename(zip = GEOID_ZCTA) %>%
   mutate(geoid = "29071", .after = "zip") %>%
-  mutate(county = "Lincoln", .after = "geoid") %>%
+  mutate(county = "Franklin", .after = "geoid") %>%
   mutate(state = "Missouri", .after = "county") -> franklin_data
 
 franklin_pop <- readr::read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/demographics/STL_ZCTA_Franklin_County_Total_Pop.csv",
@@ -120,7 +120,7 @@ write_csv(city_data, "data/zip/zip_stl_city.csv")
 write_csv(county_data, "data/zip/zip_stl_county.csv")
 write_csv(st_charles_data, "data/zip/zip_st_charles_county.csv")
 write_csv(jeffco_data, "data/zip/zip_jefferson_county.csv")
-# write_csv(lincoln_data, "data/zip/zip_lincoln_county.csv")
+write_csv(lincoln_data, "data/zip/zip_lincoln_county.csv")
 write_csv(warren_data, "data/zip/zip_warren_county.csv")
 write_csv(franklin_data, "data/zip/zip_franklin_county.csv")
 
@@ -288,8 +288,8 @@ st_charles <- filter(st_charles_data, report_date == date) %>%
   left_join(st_charles, ., by = c("GEOID_ZCTA" = "zip"))
 jeffco <- filter(jeffco_data, report_date == date) %>%
   left_join(jeffco, ., by = c("GEOID_ZCTA" = "zip"))
-# lincoln <- filter(lincoln_data, report_date == date) %>%
-#  left_join(lincoln, ., by = c("GEOID_ZCTA" = "zip"))
+lincoln <- filter(lincoln_data, report_date == date) %>%
+  left_join(lincoln, ., by = c("GEOID_ZCTA" = "zip"))
 warren <- filter(warren_data, report_date == date) %>%
   left_join(warren, ., by = c("GEOID_ZCTA" = "zip"))
 franklin <- filter(franklin_data, report_date == date-1) %>%
@@ -298,19 +298,12 @@ metro_east <- filter(metro_east_data, report_date == date) %>%
   left_join(metro_east, ., by = c("GEOID_ZCTA" = "zip")) %>%
   select(-state)
 
-## fix issues with lincoln county
-# lincoln <- mutate(lincoln,
-#                  report_date = date,
-#                  geoid = "29113",
-#                  county = "Lincoln",
-#                  state = "Missouri")
-
 ## Save Individual Jurisdictions
 st_write(stl_city, "data/zip/daily_snapshot_stl_city.geojson", delete_dsn = TRUE)
 st_write(stl_county, "data/zip/daily_snapshot_stl_county.geojson", delete_dsn = TRUE)
 st_write(st_charles, "data/zip/daily_snapshot_st_charles_county.geojson", delete_dsn = TRUE)
 st_write(jeffco, "data/zip/daily_snapshot_jefferson_county.geojson", delete_dsn = TRUE)
-# st_write(lincoln, "data/zip/daily_snapshot_lincoln_county.geojson", delete_dsn = TRUE)
+st_write(lincoln, "data/zip/daily_snapshot_lincoln_county.geojson", delete_dsn = TRUE)
 st_write(warren, "data/zip/daily_snapshot_warren_county.geojson", delete_dsn = TRUE)
 st_write(franklin, "data/zip/daily_snapshot_franklin_county.geojson", delete_dsn = TRUE)
 st_write(metro_east, "data/zip/daily_snapshot_metro_east.geojson", delete_dsn = TRUE)
@@ -322,6 +315,7 @@ stl_city <- left_join(stl_city, build_pop_zip(county = 510), by = "GEOID_ZCTA")
 stl_county <- left_join(stl_county, build_pop_zip(county = 189), by = "GEOID_ZCTA")
 st_charles <- left_join(st_charles, build_pop_zip(county = 183), by = "GEOID_ZCTA")
 jeffco <- left_join(jeffco, build_pop_zip(county = 99), by = "GEOID_ZCTA")
+lincoln <- left_join(lincoln, build_pop_zip(county = 113), by = "GEOID_ZCTA")
 warren <- left_join(warren, build_pop_zip(county = 219), by = "GEOID_ZCTA")
 franklin <- left_join(franklin, build_pop_zip(county = 71), by = "GEOID_ZCTA")
 
@@ -385,18 +379,18 @@ pop <- read_csv("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA
                 )) 
 
 ## Identify Zips with Missing Data
-regional_na <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin) %>%
+regional_na <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin, lincoln) %>%
   select(GEOID_ZCTA, cases) %>%
   filter(is.na(cases) == TRUE)
 regional_na <- unique(regional_na$GEOID_ZCTA)
 
 ## Subset Zips that are Partially Missing
-regional_partials <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin) %>%
+regional_partials <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin, lincoln) %>%
   select(GEOID_ZCTA, cases, case_rate, wht_pct, blk_pct, pvty_pct) %>%
   filter(GEOID_ZCTA %in% regional_na == TRUE)
 
 ## Subset and Process Zips that are Complete
-regional_full <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin) %>%
+regional_full <- rbind(stl_city, stl_county, st_charles, jeffco, warren, franklin, lincoln) %>%
   select(GEOID_ZCTA, cases) %>%
   filter(GEOID_ZCTA %in% regional_na == FALSE)
 
@@ -408,7 +402,8 @@ regional_full %>%
 
 ## process longitudinal data
 ### group and summarise
-regional_data <- bind_rows(city_data, county_data, jeffco_data, st_charles_data, warren_data, franklin_data) %>%
+regional_data <- bind_rows(city_data, county_data, jeffco_data, st_charles_data, warren_data, 
+                           franklin_data, lincoln_data) %>%
   select(report_date, zip, new_cases) %>%
   filter(zip %in% unique(regional_full$GEOID_ZCTA)) %>%
   group_by(report_date, zip) %>%
@@ -439,7 +434,8 @@ regional_partials_valid <- filter(regional_partials, is.na(cases) == FALSE)
 regional_partials_invalid <- filter(regional_partials, is.na(cases) == TRUE)
 
 ### group and summarise
-regional_data <- bind_rows(city_data, county_data, jeffco_data, st_charles_data, warren_data, franklin_data) %>%
+regional_data <- bind_rows(city_data, county_data, jeffco_data, st_charles_data, warren_data, 
+                           franklin_data, lincoln_data) %>%
   select(report_date, zip, new_cases) %>%
   filter(zip %in% unique(regional_partials_valid$GEOID_ZCTA)) %>%
   group_by(report_date, zip) %>%

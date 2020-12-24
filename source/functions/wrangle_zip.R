@@ -58,20 +58,14 @@ process_zip <- function(county, dates){
   # calculate 
   out <- dplyr::group_by(out, zip)
   out <- dplyr::mutate(out, new_cases = cases - lag(cases))
-  
-  if (county %in% c(113) == FALSE){
-    out <- dplyr::mutate(out, case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA))
-  }
+  out <- dplyr::mutate(out, case_avg = rollmean(new_cases, k = 14, align = "right", fill = NA))
   
   out <- dplyr::ungroup(out)
   
   # calculate rates
   out <- dplyr::mutate(out, case_rate = cases/total_pop*1000)
   # out <- dplyr::mutate(out, case_rate = ifelse(is.na(case_rate) == TRUE, NaN, case_rate))
-  
-  if (county %in% c(113) == FALSE){
-    out <- dplyr::mutate(out, case_avg_rate = case_avg/total_pop*10000)
-  }
+  out <- dplyr::mutate(out, case_avg_rate = case_avg/total_pop*10000)
   
   out <- dplyr::select(out, -total_pop)
   

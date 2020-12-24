@@ -11,6 +11,8 @@ get_zip <- function(state, county, method, cut = FALSE, val) {
       out <- get_zip_jackson(path = paths$jackson)
     } else if (county == "Kansas City"){
       out <- get_zip_kc()
+    } else if (county == "Lincoln"){
+      out <- get_zip_lincoln(path = paths$lincoln)
     } else if (county == "Platte"){
       out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
@@ -167,6 +169,26 @@ get_zip_kc <- function(){
   )
   out <- dplyr::mutate(out, count = ifelse(count == "SUPP*", NA, count))
   out <- dplyr::mutate(out, count = as.numeric(count))
+  out <- dplyr::filter(out, is.na(count) == FALSE)
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
+  
+}
+
+get_zip_lincoln <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  ## tidy
+  out <- dplyr::select(out, ZIP_CODE, COVID_Exce)
+  out <- dplyr::rename(out,
+                       zip = ZIP_CODE,
+                       count = COVID_Exce
+  )
+  out <- dplyr::mutate(out, count = ifelse(count < 10, NA, count))
   out <- dplyr::filter(out, is.na(count) == FALSE)
   out <- dplyr::arrange(out, zip)
   
