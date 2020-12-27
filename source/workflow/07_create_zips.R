@@ -195,19 +195,19 @@ jeffco_test2 <- filter(jeffco_data, report_date %in% c(date, date-2)) %>%
 jeffco_test2 <- all(jeffco_test2$current == jeffco_test2$prior, na.rm = TRUE)
 
 ## Lincoln County
-# lincoln_test <- filter(lincoln_data, report_date %in% c(date, date-1)) %>%
-#  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
-#  select(period, zip, cases) %>%
-#  pivot_wider(names_from = period, values_from = cases)
+lincoln_test <- filter(lincoln_data, report_date %in% c(date, date-1)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
 
-# lincoln_test <- all(lincoln_test$current == lincoln_test$prior, na.rm = TRUE)
+lincoln_test <- all(lincoln_test$current == lincoln_test$prior, na.rm = TRUE)
 
-# lincoln_test2 <- filter(lincoln_data, report_date %in% c(date, date-2)) %>%
-#  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
-#  select(period, zip, cases) %>%
-#  pivot_wider(names_from = period, values_from = cases)
+lincoln_test2 <- filter(lincoln_data, report_date %in% c(date, date-2)) %>%
+  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+  select(period, zip, cases) %>%
+  pivot_wider(names_from = period, values_from = cases)
 
-# lincoln_test2 <- all(lincoln_test2$current == lincoln_test2$prior, na.rm = TRUE)
+lincoln_test2 <- all(lincoln_test2$current == lincoln_test2$prior, na.rm = TRUE)
 
 ## Warren County
 warren_test <- filter(warren_data, report_date %in% c(date, date-1)) %>%
@@ -259,21 +259,21 @@ zip_test <- tibble(
   source = c("St. Louis City", "St. Louis City", "St. Louis County", "St. Louis County", 
              "St. Charles County", "St. Charles County", "Jefferson County", "Jefferson County",
              "Warren County", "Warren County", "Franklin County", "Franklin County",
-             # "Lincoln County", "Lincoln County",
+             "Lincoln County", "Lincoln County",
              "Metro East", "Metro East"),
   period = c("1 day", "2 days", "1 day", "2 days", "1 day", "2 days", "1 day", "2 days", 
-             "1 day", "2 days", "1 day", "2 days", "1 day", "2 days"), # , "1 day", "2 days"
+             "1 day", "2 days", "1 day", "2 days", "1 day", "2 days", "1 day", "2 days"),
   result = c(stl_city_test, stl_city_test2, stl_county_test, stl_county_test2, 
              stl_charles_test, stl_charles_test2, jeffco_test, jeffco_test2,
              warren_test, warren_test2, franklin_test, franklin_test2,
-             # lincoln_test, lincoln_test2,
+             lincoln_test, lincoln_test2,
              metro_east_test, metro_east_test2)
 )
 
 ## Clean-up
 rm(stl_city_test, stl_city_test2, stl_county_test, stl_county_test2, 
    stl_charles_test, stl_charles_test2, jeffco_test, jeffco_test2,
-   warren_test, warren_test2, # lincoln_test, lincoln_test2, 
+   warren_test, warren_test2, lincoln_test, lincoln_test2, 
    metro_east_test, metro_east_test2, franklin_test, franklin_test2)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
