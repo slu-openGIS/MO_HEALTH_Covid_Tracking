@@ -18,7 +18,6 @@ warren <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZC
                   crs = 4326, stringsAsFactors = FALSE)
 franklin <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Franklin_County.geojson", 
                   crs = 4326, stringsAsFactors = FALSE)
-
 city_county <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_City_County.geojson", 
                        crs = 4326, stringsAsFactors = FALSE)
 region <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Metro_West.geojson", 

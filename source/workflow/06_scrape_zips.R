@@ -37,6 +37,8 @@ rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte, get_zip_platte_bi,
 
 # Missouri ZIPs, St. Louis Area ####
 
+## Franklin County
+
 ## Jefferson County
 jefferson_zips <- get_zip(state = "MO", county = "Jefferson")
 write_csv(jefferson_zips, paste0("data/source/stl_daily_zips/jefferson_", date, ".csv"))

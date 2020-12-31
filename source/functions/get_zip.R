@@ -1,4 +1,4 @@
-get_zip <- function(state, county, method, cut = FALSE, val) {
+get_zip <- function(state, county, method, cut = FALSE, val, file) {
   
   load("data/source/paths.rda")
   
@@ -7,6 +7,8 @@ get_zip <- function(state, county, method, cut = FALSE, val) {
     
     if (county == "Clay"){
       out <- get_zip_clay(path = paths$clay)
+    } else if (county == "Franklin"){
+      out <- get_zip_franklin(file = file)
     } else if (county == "Jackson"){
       out <- get_zip_jackson(path = paths$jackson)
     } else if (county == "Jefferson"){
@@ -28,7 +30,9 @@ get_zip <- function(state, county, method, cut = FALSE, val) {
     }
     
   } else if (state == "IL"){
+    
     out <- get_zip_il()
+    
   } else if (state == "KS"){
     
     if (county == "Johnson"){
@@ -60,6 +64,15 @@ get_zip_clay <- function(path){
   
   ## return output
   return(out)
+  
+}
+
+get_zip_franklin <- function(file){
+  
+  ## load reference data
+  tbl <- sf::st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Franklin_County.geojson", 
+                      crs = 4326, stringsAsFactors = FALSE)
+  sf::st_geometry(tbl) <- NULL
   
 }
 
