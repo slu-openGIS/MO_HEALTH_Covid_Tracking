@@ -9,6 +9,8 @@ get_zip <- function(state, county, method, cut = FALSE, val) {
       out <- get_zip_clay(path = paths$clay)
     } else if (county == "Jackson"){
       out <- get_zip_jackson(path = paths$jackson)
+    } else if (county == "Jefferson"){
+      out <- get_zip_jefferson(path = paths$jefferson)
     } else if (county == "Kansas City"){
       out <- get_zip_kc()
     } else if (county == "Lincoln"){
@@ -17,6 +19,10 @@ get_zip <- function(state, county, method, cut = FALSE, val) {
       out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
       out <- get_zip_st_charles(cut = cut, val = val) 
+    } else if (county == "St. Louis City"){
+      out <- get_zip_st_louis_city(path = paths$st_louis_city)
+    } else if (county == "St. Louis County"){
+      out <- get_zip_st_louis_county(path = paths$st_louis_county_zip)
     } else if (county == "Warren"){
       out <- get_zip_warren()
     }
@@ -122,6 +128,24 @@ get_zip_jackson <- function(path){
   ## tidy
   out <- dplyr::select(out, ZIP, COVID_cases)   
   out <- dplyr::rename(out, zip = ZIP, count = COVID_cases)
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
+  
+}
+
+get_zip_jefferson <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  # tidy
+  out <- dplyr::select(out, ZIP, Active_Cas)
+  out <- dplyr::rename(out, 
+                       zip = ZIP,
+                       count = Active_Cas)
+  out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
   out <- dplyr::arrange(out, zip)
   
   ## return output
@@ -365,6 +389,40 @@ get_zip_st_charles <- function(cut = FALSE, val){
   out <- dplyr::arrange(out, zip)
   
   # return output
+  return(out)
+  
+}
+
+get_zip_st_louis_city <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  ## tidy
+  out <- dplyr::select(out, GEOID10, Cases)
+  out <- dplyr::rename(out,
+                zip = GEOID10,
+                count = Cases)
+  out <- dplyr::mutate(out, zip = as.numeric(zip))
+  
+  ## return output
+  return(out)
+  
+}
+
+get_zip_st_louis_county <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  ## tidy
+  out <- dplyr::select(out, zip_5, cases_total)
+  out <- dplyr::rename(out,
+                       zip = zip_5,
+                       count = cases_total)
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
   return(out)
   
 }

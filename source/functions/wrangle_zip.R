@@ -99,7 +99,7 @@ wrangle_zip <- function(date, county){
   } else if (county == 183){
     file <- paste0("data/source/stl_daily_zips/st_charles_", date, ".csv")
   } else if (county == 99){
-    file <- paste0("data/source/stl_daily_zips/jeff_county_", date, ".csv")
+    file <- paste0("data/source/stl_daily_zips/jefferson_", date, ".csv")
   } else if (county == 113){
     file <- paste0("data/source/stl_daily_zips/lincoln_", date, ".csv")
   } else if (county == 219){
