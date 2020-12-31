@@ -525,3 +525,4 @@ report_date,zip,geoid,county,state,cases,new_cases,case_avg,case_rate,case_avg_r
 2020-12-28,63390,29219,Warren,Missouri,517,6,2.857142857142857,54.11346033075152,2.990520051436945
 2020-12-28,65041,29219,Warren,Missouri,8,0,0,12.066365007541478,0
 2020-12-29,156,29219,Warren,Missouri,104,NA,NA,NA,NA
+2020-12-30,156,29219,Warren,Missouri,104,0,NA,NA,NA
