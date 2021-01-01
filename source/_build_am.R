@@ -15,7 +15,7 @@
 source("source/functions/get_last_update.R")
 
 ## check last update
-q <- get_last_update()
+q <- get_last_update(source = "New York Times")
 
 ## evaluate last update
 if (q == FALSE){
@@ -66,14 +66,22 @@ source("source/workflow/05_create_regions.R")
 # execute weekly workflow ####
 
 ## check ltc metadata for update
-update <- fromJSON(file = "https://data.cms.gov/api/views/metadata/v1/s2uc-8wxp")
-update <- as.Date(update$dataUpdatedAt)
+update <- get_last_update(source = "CMS")
 load("data/source/ltc/last_update.rda")
 
 ## rebuild ltc data if there has been an update
 if ((update == last_update$current_date) == FALSE){
   source("source/workflow/11_create_ltc.R") 
 }
+
+## check hospitalization metadata for update
+update <- get_last_update(source = "HHS")
+# load("data/source/hhs/last_update.rda")
+
+## rebuild hhs data if there has been an update
+# if ((update == last_update$current_date) == FALSE){
+#  source("source/workflow/14_create_hhs.R") 
+# }
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
