@@ -5,7 +5,8 @@
 # these data include:
 #   - the New York Times county data, which is used to build county, metro,
 #     regional, and state data sets for MO and adjacent areas
-#   - CMS nursing home data, but only if it has been updated
+#   - CMS nursing home data, but only if they have been updated
+#   - HHS hospitalization data, but only if they have been updated (in progress)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
@@ -75,7 +76,7 @@ if ((update == last_update$current_date) == FALSE){
 }
 
 ## check hospitalization metadata for update
-update <- get_last_update(source = "HHS")
+# update <- get_last_update(source = "HHS")
 # load("data/source/hhs/last_update.rda")
 
 ## rebuild hhs data if there has been an update
