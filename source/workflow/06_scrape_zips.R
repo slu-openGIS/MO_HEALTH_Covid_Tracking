@@ -109,4 +109,4 @@ rm(open_rsel, close_rsel)
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # final clean-up ####
-rm(get_esri, get_tableau, get_zip)
+rm(get_tableau, get_zip)
