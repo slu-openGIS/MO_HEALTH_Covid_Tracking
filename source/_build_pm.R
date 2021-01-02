@@ -62,15 +62,15 @@ library(sf)             # mapping tools
 library(zoo)            # rolling means
 
 ## functions
-source("source/functions/get_demographics.R") # scrape demographic data
-source("source/functions/get_esri.R")         # scrape ESRI dashboards
-source("source/functions/get_state.R")        # scrape state level data
-source("source/functions/get_tableau.R")      # scrape Tableau dashboards
-source("source/functions/get_zip.R")          # scrape zip code data
+source("source/functions/get_cases.R")        # scrape case/death data (MO)
+source("source/functions/get_demographics.R") # scrape demographic data (MO)
+source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
+source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
+source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date
 source("source/functions/rsel.R")             # open and close RSelenium
-source("source/functions/wrangle_zip.R")      # process zip code data
-source("source/functions/wrangle_kc_zip.R")   # process zip code data
+source("source/functions/wrangle_zip.R")      # process zip code data (STL)
+source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

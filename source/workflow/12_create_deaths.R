@@ -1,5 +1,5 @@
 
-deaths_actual <- get_state(state = 29, metric = "deaths, actual")
+deaths_actual <- get_cases(state = "MO", metric = "deaths, actual")
 
 deaths_actual %>%
   mutate(report_date = Sys.Date(), .before = "date") %>%
