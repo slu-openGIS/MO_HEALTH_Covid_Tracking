@@ -63,7 +63,7 @@ race <- read_csv("data/source/mo_race.csv") %>%
   mutate(geoid = as.character(geoid))
 
 ## enter most recent values
-# mo_totals <- get_state(state = 29, metric = "totals")
+mo_totals <- get_cases(state = "MO", metric = "totals")
 
 ## scrape
 state_race <- get_demographics(state = "MO", county = NULL, metric = "race")

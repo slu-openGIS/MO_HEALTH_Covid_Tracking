@@ -82,7 +82,7 @@ source("source/workflow/07_create_zips.R")
 source("source/workflow/09_create_stl_hospital.R")
 # source("source/workflow/10_create_kc_counties.R")
 source("source/workflow/12_create_deaths.R")
-# source("source/workflow/15_create_demographics.R")
+source("source/workflow/15_create_demographics.R")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
