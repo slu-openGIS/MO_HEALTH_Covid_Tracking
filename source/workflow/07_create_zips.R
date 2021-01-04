@@ -58,7 +58,13 @@ dates$franklin_dates %>%
   unlist() %>%
   map_df(~historic_expand(ref = franklin_tbl, date = .x)) -> franklin_dates
 
-franklin_data <- read_excel(paste0("/Users/chris/Downloads/", franklin_path)) %>%
+if (user == "Chris"){
+  franklin_path <- paste0("/Users/chris/Downloads/", franklin_path)
+} else if (user == "Carter"){
+  franklin_path <- paste0("/Users/carterhanford/Downloads/", franklin_path)
+}
+
+franklin_data <- read_excel(franklin_path) %>%
   filter(Delete %in% "x" == FALSE) %>%
   select(Date, Zip) %>%
   filter(is.na(Date) == FALSE & is.na(Zip) == FALSE) %>%
