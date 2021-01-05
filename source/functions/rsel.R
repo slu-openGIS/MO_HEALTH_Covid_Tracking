@@ -7,7 +7,8 @@ open_rsel <- function(){
   rD <<- RSelenium::rsDriver(
     port = 4444L,
     version = 'latest',
-    browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
+    browser = "chrome",
+    # browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
     chromever = '87.0.4280.88',
     phantomver = "2.1.1",
     verbose = F,
