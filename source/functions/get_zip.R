@@ -443,11 +443,11 @@ get_zip_st_louis_county <- function(path){
 get_zip_warren <- function(){
   
   # scrape website
-  webpage <- xml2::read_html("https://www.warrencountyhealth.com/")
+  webpage <- xml2::read_html("https://www.warrencountyhealth.com/covid-19-dashboard/")
   webpage <- rvest::html_nodes(webpage, "p")
   
   # tidy scraped data
-  data <- webpage[11]
+  data <- webpage[7]
   data <- suppressWarnings(stringr::str_split(string = data, pattern = "[[:space:]]", simplify = TRUE))
   data <- suppressWarnings(readr::parse_number(data))
   data <- data[is.na(data) == FALSE]
