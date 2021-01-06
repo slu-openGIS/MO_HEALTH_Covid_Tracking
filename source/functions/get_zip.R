@@ -472,6 +472,7 @@ get_zip_wyandotte <- function(path){
   
   ## scrape
   out <- get_esri(path = path)
+  # out <- get_esri(path = paths$wyandotte)
   
   ## tidy
   out <- dplyr::select(out, zip, confirmed_count)
