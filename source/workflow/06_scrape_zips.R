@@ -7,7 +7,7 @@
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # open RSelenium ####
-open_rsel()
+#open_rsel()
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -26,7 +26,7 @@ kc_zips <- get_zip(state = "MO", county = "Kansas City")
 write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
 
 ## Platte County
-platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
+platte_zips <- get_zip(state = "MO", county = "Platte", method = "html")
 write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
 
 ## clean-up
@@ -48,8 +48,8 @@ lincoln_zips <- get_zip(state = "MO", county = "Lincoln")
 write_csv(lincoln_zips, paste0("data/source/stl_daily_zips/lincoln_", date, ".csv"))
 
 ## St. Charles County
-st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = FALSE)
-write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
+#st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = FALSE)
+#write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
 
 ## St. Louis City
 stl_city_zips <- get_zip(state = "MO", county = "St. Louis City")
@@ -74,8 +74,8 @@ rm(get_zip_st_charles, get_zip_warren, get_zip_lincoln, get_zip_jefferson,
 # Illinois ZIPs ####
 
 ## Statewide ZIPs
-il_zips <- get_zip(state = "IL")
-write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
+#il_zips <- get_zip(state = "IL")
+#write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
 
 ## clean-up
 rm(il_zips, get_zip_il)
@@ -101,7 +101,7 @@ rm(get_zip_johnson, get_zip_wyandotte)
 # close RSelenium ####
 
 ## shut down
-close_rsel()
+#close_rsel()
 
 ## clean-up
 rm(open_rsel, close_rsel)
