@@ -5,23 +5,23 @@
 open_rsel <- function(){
   
   rD <<- RSelenium::rsDriver(
-    port = 4444L,
+    port = 4445L,
     version = 'latest',
-    browser = "chrome",
+    browser = "firefox",
     # browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-    chromever = '87.0.4280.88',
+    # chromever = '87.0.4280.88',
     phantomver = "2.1.1",
     verbose = F,
-    extraCapabilities = list(
-      chromeOptions = list(
-        args = c('--headless','--disable-gpu', '--window-size=1280,800'),
-        prefs = list(
-          "profile.default_content_settings.popups" = 0L,
-          "download.prompt_for_download" = FALSE,
-          "download.default_directory" = getwd()
-        )
-      )
-    )
+    # extraCapabilities = list(
+    #  chromeOptions = list(
+    #    args = c('--headless','--disable-gpu', '--window-size=1280,800'),
+    #    prefs = list(
+    #      "profile.default_content_settings.popups" = 0L,
+    #      "download.prompt_for_download" = FALSE,
+    #      "download.default_directory" = getwd()
+    #    )
+    #  )
+    # )
   )
   remDr <<- rD$client
 }
