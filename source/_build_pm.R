@@ -41,6 +41,13 @@ if (q == FALSE){
   stop("Please update the hospitalization data manually before proceeding!")
 }
 
+## confirm Docker is up and running
+q <- usethis::ui_yeah("Have you started Docker?")
+
+if (q == FALSE){
+  stop("Please start Docker before proceeding!")
+}
+
 ## clean-up
 rm(q)
 
