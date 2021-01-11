@@ -25,6 +25,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64014,Kansas City Metro,Missouri,1742,69.26992206139654
 2021-01-07,64014,Kansas City Metro,Missouri,1756,69.82662637187848
 2021-01-08,64014,Kansas City Metro,Missouri,1756,69.82662637187848
+2021-01-09,64014,Kansas City Metro,Missouri,1756,69.82662637187848
 2020-12-14,64015,Kansas City Metro,Missouri,1559,49.93753803773343
 2020-12-15,64015,Kansas City Metro,Missouri,1571,50.32191934398924
 2020-12-16,64015,Kansas City Metro,Missouri,1582,50.67426887472372
@@ -51,6 +52,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64015,Kansas City Metro,Missouri,1903,60.95646881706653
 2021-01-07,64015,Kansas City Metro,Missouri,1922,61.56507255197156
 2021-01-08,64015,Kansas City Metro,Missouri,1922,61.56507255197156
+2021-01-09,64015,Kansas City Metro,Missouri,1922,61.56507255197156
 2020-12-14,64016,Kansas City Metro,Missouri,146,30.416666666666668
 2020-12-15,64016,Kansas City Metro,Missouri,153,31.875
 2020-12-16,64016,Kansas City Metro,Missouri,155,32.29166666666667
@@ -77,6 +79,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64016,Kansas City Metro,Missouri,211,43.958333333333336
 2021-01-07,64016,Kansas City Metro,Missouri,211,43.958333333333336
 2021-01-08,64016,Kansas City Metro,Missouri,211,43.958333333333336
+2021-01-09,64016,Kansas City Metro,Missouri,211,43.958333333333336
 2020-12-14,64018,Kansas City Metro,Missouri,32,34.97267759562842
 2020-12-15,64018,Kansas City Metro,Missouri,32,34.97267759562842
 2020-12-16,64018,Kansas City Metro,Missouri,32,34.97267759562842
@@ -103,6 +106,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64018,Kansas City Metro,Missouri,35,38.25136612021858
 2021-01-07,64018,Kansas City Metro,Missouri,38,41.53005464480874
 2021-01-08,64018,Kansas City Metro,Missouri,38,41.53005464480874
+2021-01-09,64018,Kansas City Metro,Missouri,38,41.53005464480874
 2020-12-14,64024,Kansas City Metro,Missouri,694,63.9724922288962
 2020-12-15,64024,Kansas City Metro,Missouri,708,65.26300359950794
 2020-12-16,64024,Kansas City Metro,Missouri,738,68.02838510796167
@@ -129,6 +133,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64024,Kansas City Metro,Missouri,881,81.21003696492443
 2021-01-07,64024,Kansas City Metro,Missouri,891,82.13183080107567
 2021-01-08,64024,Kansas City Metro,Missouri,891,82.13183080107567
+2021-01-09,64024,Kansas City Metro,Missouri,891,82.13183080107567
 2020-12-14,64029,Kansas City Metro,Missouri,914,51.4378974618718
 2020-12-15,64029,Kansas City Metro,Missouri,925,52.0569531206033
 2020-12-16,64029,Kansas City Metro,Missouri,933,52.50717541786257
@@ -155,6 +160,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64029,Kansas City Metro,Missouri,1125,63.31251055208509
 2021-01-07,64029,Kansas City Metro,Missouri,1140,64.15667735944623
 2021-01-08,64029,Kansas City Metro,Missouri,1140,64.15667735944623
+2021-01-09,64029,Kansas City Metro,Missouri,1140,64.15667735944623
 2020-12-14,64030,Kansas City Metro,Missouri,1387,55.14910536779324
 2020-12-15,64030,Kansas City Metro,Missouri,1393,55.38767395626243
 2020-12-16,64030,Kansas City Metro,Missouri,1408,55.98409542743539
@@ -181,6 +187,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64030,Kansas City Metro,Missouri,1621,64.45328031809146
 2021-01-07,64030,Kansas City Metro,Missouri,1640,65.20874751491054
 2021-01-08,64030,Kansas City Metro,Missouri,1640,65.20874751491054
+2021-01-09,64030,Kansas City Metro,Missouri,1640,65.20874751491054
 2020-12-14,64034,Kansas City Metro,Missouri,326,43.77113947540619
 2020-12-15,64034,Kansas City Metro,Missouri,329,44.17394137241912
 2020-12-16,64034,Kansas City Metro,Missouri,332,44.57674326943207
@@ -207,6 +214,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64034,Kansas City Metro,Missouri,399,53.57265230272107
 2021-01-07,64034,Kansas City Metro,Missouri,399,53.57265230272107
 2021-01-08,64034,Kansas City Metro,Missouri,399,53.57265230272107
+2021-01-09,64034,Kansas City Metro,Missouri,399,53.57265230272107
 2020-12-14,64048,Kansas City Metro,Missouri,122,45.71864124582917
 2020-12-15,64048,Kansas City Metro,Missouri,122,45.71864124582917
 2020-12-16,64048,Kansas City Metro,Missouri,125,46.84287012892332
@@ -233,6 +241,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64048,Kansas City Metro,Missouri,167,62.58207449224157
 2021-01-07,64048,Kansas City Metro,Missouri,170,63.70630337533573
 2021-01-08,64048,Kansas City Metro,Missouri,170,63.70630337533573
+2021-01-09,64048,Kansas City Metro,Missouri,170,63.70630337533573
 2020-12-14,64050,Kansas City Metro,Missouri,1067,46.93617208463467
 2020-12-15,64050,Kansas City Metro,Missouri,1073,47.200105573395504
 2020-12-16,64050,Kansas City Metro,Missouri,1088,47.85993929529758
@@ -259,6 +268,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64050,Kansas City Metro,Missouri,1263,55.55799938415519
 2021-01-07,64050,Kansas City Metro,Missouri,1271,55.90991070250297
 2021-01-08,64050,Kansas City Metro,Missouri,1271,55.90991070250297
+2021-01-09,64050,Kansas City Metro,Missouri,1271,55.90991070250297
 2020-12-14,64052,Kansas City Metro,Missouri,1001,49.31763314775583
 2020-12-15,64052,Kansas City Metro,Missouri,1012,49.85958516036853
 2020-12-16,64052,Kansas City Metro,Missouri,1023,50.40153717298123
@@ -285,6 +295,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64052,Kansas City Metro,Missouri,1225,60.353746859141744
 2021-01-07,64052,Kansas City Metro,Missouri,1242,61.191309060452284
 2021-01-08,64052,Kansas City Metro,Missouri,1242,61.191309060452284
+2021-01-09,64052,Kansas City Metro,Missouri,1242,61.191309060452284
 2020-12-14,64053,Kansas City Metro,Missouri,264,48.342794360007325
 2020-12-15,64053,Kansas City Metro,Missouri,268,49.075260941219554
 2020-12-16,64053,Kansas City Metro,Missouri,268,49.075260941219554
@@ -311,6 +322,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64053,Kansas City Metro,Missouri,293,53.65317707379601
 2021-01-07,64053,Kansas City Metro,Missouri,295,54.01941036440213
 2021-01-08,64053,Kansas City Metro,Missouri,295,54.01941036440213
+2021-01-09,64053,Kansas City Metro,Missouri,295,54.01941036440213
 2020-12-14,64054,Kansas City Metro,Missouri,155,44.758879584175574
 2020-12-15,64054,Kansas City Metro,Missouri,155,44.758879584175574
 2020-12-16,64054,Kansas City Metro,Missouri,155,44.758879584175574
@@ -337,6 +349,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64054,Kansas City Metro,Missouri,192,55.44325729136587
 2021-01-07,64054,Kansas City Metro,Missouri,193,55.73202425642506
 2021-01-08,64054,Kansas City Metro,Missouri,193,55.73202425642506
+2021-01-09,64054,Kansas City Metro,Missouri,193,55.73202425642506
 2020-12-14,64055,Kansas City Metro,Missouri,1690,50.24826807005025
 2020-12-15,64055,Kansas City Metro,Missouri,1695,50.396931585050396
 2020-12-16,64055,Kansas City Metro,Missouri,1713,50.93212023905093
@@ -363,6 +376,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64055,Kansas City Metro,Missouri,2032,60.416852496060415
 2021-01-07,64055,Kansas City Metro,Missouri,2043,60.74391222906075
 2021-01-08,64055,Kansas City Metro,Missouri,2043,60.74391222906075
+2021-01-09,64055,Kansas City Metro,Missouri,2043,60.74391222906075
 2020-12-14,64056,Kansas City Metro,Missouri,797,47.22683100260725
 2020-12-15,64056,Kansas City Metro,Missouri,803,47.58236548945248
 2020-12-16,64056,Kansas City Metro,Missouri,812,48.115667219720315
@@ -389,6 +403,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64056,Kansas City Metro,Missouri,952,56.41147191277554
 2021-01-07,64056,Kansas City Metro,Missouri,960,56.88551789523584
 2021-01-08,64056,Kansas City Metro,Missouri,960,56.88551789523584
+2021-01-09,64056,Kansas City Metro,Missouri,960,56.88551789523584
 2020-12-14,64057,Kansas City Metro,Missouri,888,61.512884455527846
 2020-12-15,64057,Kansas City Metro,Missouri,892,61.789969520642835
 2020-12-16,64057,Kansas City Metro,Missouri,899,62.27486838459407
@@ -415,6 +430,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64057,Kansas City Metro,Missouri,1048,72.59628706012745
 2021-01-07,64057,Kansas City Metro,Missouri,1058,73.28899972291492
 2021-01-08,64057,Kansas City Metro,Missouri,1058,73.28899972291492
+2021-01-09,64057,Kansas City Metro,Missouri,1058,73.28899972291492
 2020-12-14,64058,Kansas City Metro,Missouri,343,48.02576328365926
 2020-12-15,64058,Kansas City Metro,Missouri,346,48.445813691388054
 2020-12-16,64058,Kansas City Metro,Missouri,350,49.00588090169312
@@ -441,6 +457,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64058,Kansas City Metro,Missouri,439,61.467376330980805
 2021-01-07,64058,Kansas City Metro,Missouri,442,61.88742673870959
 2021-01-08,64058,Kansas City Metro,Missouri,442,61.88742673870959
+2021-01-09,64058,Kansas City Metro,Missouri,442,61.88742673870959
 2020-12-14,64060,Kansas City Metro,Missouri,920,64.08023969436313
 2020-12-15,64060,Kansas City Metro,Missouri,929,64.70711160441668
 2020-12-16,64060,Kansas City Metro,Missouri,970,67.56286141688287
@@ -467,6 +484,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64060,Kansas City Metro,Missouri,1182,82.32917752036654
 2021-01-07,64060,Kansas City Metro,Missouri,1195,83.23465916822167
 2021-01-08,64060,Kansas City Metro,Missouri,1195,83.23465916822167
+2021-01-09,64060,Kansas City Metro,Missouri,1195,83.23465916822167
 2020-12-14,64062,Kansas City Metro,Missouri,25,30.05527123622234
 2020-12-15,64062,Kansas City Metro,Missouri,26,31.25748208567123
 2020-12-16,64062,Kansas City Metro,Missouri,30,36.066325483466805
@@ -493,6 +511,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64062,Kansas City Metro,Missouri,52,62.51496417134246
 2021-01-07,64062,Kansas City Metro,Missouri,52,62.51496417134246
 2021-01-08,64062,Kansas City Metro,Missouri,52,62.51496417134246
+2021-01-09,64062,Kansas City Metro,Missouri,52,62.51496417134246
 2020-12-14,64063,Kansas City Metro,Missouri,882,42.62928951184147
 2020-12-15,64063,Kansas City Metro,Missouri,886,42.82261962300628
 2020-12-16,64063,Kansas City Metro,Missouri,892,43.11261478975351
@@ -519,6 +538,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64063,Kansas City Metro,Missouri,1059,51.18414693088449
 2021-01-07,64063,Kansas City Metro,Missouri,1067,51.57080715321411
 2021-01-08,64063,Kansas City Metro,Missouri,1067,51.57080715321411
+2021-01-09,64063,Kansas City Metro,Missouri,1067,51.57080715321411
 2020-12-14,64064,Kansas City Metro,Missouri,1068,60.06411337944997
 2020-12-15,64064,Kansas City Metro,Missouri,1084,60.96395028401103
 2020-12-16,64064,Kansas City Metro,Missouri,1090,61.30138912322142
@@ -545,6 +565,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64064,Kansas City Metro,Missouri,1245,70.01855913615657
 2021-01-07,64064,Kansas City Metro,Missouri,1250,70.2997581688319
 2021-01-08,64064,Kansas City Metro,Missouri,1250,70.2997581688319
+2021-01-09,64064,Kansas City Metro,Missouri,1250,70.2997581688319
 2020-12-14,64065,Kansas City Metro,Missouri,NA,NA
 2020-12-15,64065,Kansas City Metro,Missouri,NA,NA
 2020-12-16,64065,Kansas City Metro,Missouri,NA,NA
@@ -571,6 +592,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64065,Kansas City Metro,Missouri,NA,NA
 2021-01-07,64065,Kansas City Metro,Missouri,NA,NA
 2021-01-08,64065,Kansas City Metro,Missouri,NA,NA
+2021-01-09,64065,Kansas City Metro,Missouri,NA,NA
 2020-12-14,64066,Kansas City Metro,Missouri,8,210.5263157894766
 2020-12-15,64066,Kansas City Metro,Missouri,8,210.5263157894766
 2020-12-16,64066,Kansas City Metro,Missouri,8,210.5263157894766
@@ -597,6 +619,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64066,Kansas City Metro,Missouri,8,210.5263157894766
 2021-01-07,64066,Kansas City Metro,Missouri,8,210.5263157894766
 2021-01-08,64066,Kansas City Metro,Missouri,8,210.5263157894766
+2021-01-09,64066,Kansas City Metro,Missouri,8,210.5263157894766
 2020-12-14,64068,Kansas City Metro,Missouri,2083,54.18975519654518
 2020-12-15,64068,Kansas City Metro,Missouri,2094,54.47592289081402
 2020-12-16,64068,Kansas City Metro,Missouri,2143,55.750669892557035
@@ -623,6 +646,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64068,Kansas City Metro,Missouri,2627,68.34204844038607
 2021-01-07,64068,Kansas City Metro,Missouri,2645,68.81032284918963
 2021-01-08,64068,Kansas City Metro,Missouri,2645,68.81032284918963
+2021-01-09,64068,Kansas City Metro,Missouri,2645,68.81032284918963
 2020-12-14,64070,Kansas City Metro,Missouri,145,51.404154899773154
 2020-12-15,64070,Kansas City Metro,Missouri,146,51.758666312875036
 2020-12-16,64070,Kansas City Metro,Missouri,147,52.11317772597692
@@ -649,6 +673,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64070,Kansas City Metro,Missouri,165,58.49438316181082
 2021-01-07,64070,Kansas City Metro,Missouri,166,58.84889457491271
 2021-01-08,64070,Kansas City Metro,Missouri,166,58.84889457491271
+2021-01-09,64070,Kansas City Metro,Missouri,166,58.84889457491271
 2020-12-14,64075,Kansas City Metro,Missouri,507,44.935863868507546
 2020-12-15,64075,Kansas City Metro,Missouri,512,45.379018344528326
 2020-12-16,64075,Kansas City Metro,Missouri,512,45.379018344528326
@@ -675,6 +700,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64075,Kansas City Metro,Missouri,632,56.01472576902716
 2021-01-07,64075,Kansas City Metro,Missouri,643,56.98966561627288
 2021-01-08,64075,Kansas City Metro,Missouri,643,56.98966561627288
+2021-01-09,64075,Kansas City Metro,Missouri,643,56.98966561627288
 2020-12-14,64079,Kansas City Metro,Missouri,620,42.80289959563846
 2020-12-15,64079,Kansas City Metro,Missouri,629,43.424232009123536
 2020-12-16,64079,Kansas City Metro,Missouri,638,44.045564422608614
@@ -701,6 +727,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64079,Kansas City Metro,Missouri,741,51.15636871027113
 2021-01-07,64079,Kansas City Metro,Missouri,803,55.436658669834976
 2021-01-08,64079,Kansas City Metro,Missouri,803,55.436658669834976
+2021-01-09,64079,Kansas City Metro,Missouri,803,55.436658669834976
 2020-12-14,64081,Kansas City Metro,Missouri,1256,52.14214546662239
 2020-12-15,64081,Kansas City Metro,Missouri,1258,52.225174360677514
 2020-12-16,64081,Kansas City Metro,Missouri,1262,52.39123214878778
@@ -727,6 +754,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64081,Kansas City Metro,Missouri,1458,60.528063766190634
 2021-01-07,64081,Kansas City Metro,Missouri,1465,60.8186648953836
 2021-01-08,64081,Kansas City Metro,Missouri,1465,60.8186648953836
+2021-01-09,64081,Kansas City Metro,Missouri,1465,60.8186648953836
 2020-12-14,64082,Kansas City Metro,Missouri,769,52.77076184940573
 2020-12-15,64082,Kansas City Metro,Missouri,771,52.908007003760495
 2020-12-16,64082,Kansas City Metro,Missouri,775,53.18249731247002
@@ -753,6 +781,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64082,Kansas City Metro,Missouri,924,63.40726131189974
 2021-01-07,64082,Kansas City Metro,Missouri,939,64.43659996956045
 2021-01-08,64082,Kansas City Metro,Missouri,939,64.43659996956045
+2021-01-09,64082,Kansas City Metro,Missouri,939,64.43659996956045
 2020-12-14,64086,Kansas City Metro,Missouri,1160,50.049618155930446
 2020-12-15,64086,Kansas City Metro,Missouri,1174,50.65366527160547
 2020-12-16,64086,Kansas City Metro,Missouri,1182,50.99883505199119
@@ -779,6 +808,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64086,Kansas City Metro,Missouri,1389,59.93010311947189
 2021-01-07,64086,Kansas City Metro,Missouri,1396,60.2321266773094
 2021-01-08,64086,Kansas City Metro,Missouri,1396,60.2321266773094
+2021-01-09,64086,Kansas City Metro,Missouri,1396,60.2321266773094
 2020-12-14,64088,Kansas City Metro,Missouri,36,28.662420666833754
 2020-12-15,64088,Kansas City Metro,Missouri,36,28.662420666833754
 2020-12-16,64088,Kansas City Metro,Missouri,37,29.458599018690247
@@ -805,6 +835,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64088,Kansas City Metro,Missouri,47,37.42038253725518
 2021-01-07,64088,Kansas City Metro,Missouri,49,39.012739240968166
 2021-01-08,64088,Kansas City Metro,Missouri,49,39.012739240968166
+2021-01-09,64088,Kansas City Metro,Missouri,49,39.012739240968166
 2020-12-14,64089,Kansas City Metro,Missouri,739,57.242447940603874
 2020-12-15,64089,Kansas City Metro,Missouri,743,57.552285277224186
 2020-12-16,64089,Kansas City Metro,Missouri,752,58.249419284619904
@@ -831,6 +862,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64089,Kansas City Metro,Missouri,895,69.3261040687963
 2021-01-07,64089,Kansas City Metro,Missouri,909,70.41053474696741
 2021-01-08,64089,Kansas City Metro,Missouri,909,70.41053474696741
+2021-01-09,64089,Kansas City Metro,Missouri,909,70.41053474696741
 2020-12-14,64098,Kansas City Metro,Missouri,142,45.52741269743444
 2020-12-15,64098,Kansas City Metro,Missouri,142,45.52741269743444
 2020-12-16,64098,Kansas City Metro,Missouri,144,46.16864386218704
@@ -857,9 +889,11 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64098,Kansas City Metro,Missouri,164,52.580955509713014
 2021-01-07,64098,Kansas City Metro,Missouri,171,54.82526458634711
 2021-01-08,64098,Kansas City Metro,Missouri,171,54.82526458634711
+2021-01-09,64098,Kansas City Metro,Missouri,171,54.82526458634711
 2021-01-06,64101,Kansas City Metro,Missouri,7,25.179856115107913
 2021-01-07,64101,Kansas City Metro,Missouri,7,25.179856115107913
 2021-01-08,64101,Kansas City Metro,Missouri,7,25.179856115107913
+2021-01-09,64101,Kansas City Metro,Missouri,7,25.179856115107913
 2020-12-14,64102,Kansas City Metro,Missouri,24,NA
 2020-12-15,64102,Kansas City Metro,Missouri,24,NA
 2020-12-16,64102,Kansas City Metro,Missouri,24,NA
@@ -886,6 +920,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64102,Kansas City Metro,Missouri,26,NA
 2021-01-07,64102,Kansas City Metro,Missouri,26,NA
 2021-01-08,64102,Kansas City Metro,Missouri,26,NA
+2021-01-09,64102,Kansas City Metro,Missouri,26,NA
 2020-12-14,64105,Kansas City Metro,Missouri,394,84.20602692883095
 2020-12-15,64105,Kansas City Metro,Missouri,394,84.20602692883095
 2020-12-16,64105,Kansas City Metro,Missouri,418,89.33532806155162
@@ -912,6 +947,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64105,Kansas City Metro,Missouri,455,97.24300064116265
 2021-01-07,64105,Kansas City Metro,Missouri,455,97.24300064116265
 2021-01-08,64105,Kansas City Metro,Missouri,455,97.24300064116265
+2021-01-09,64105,Kansas City Metro,Missouri,455,97.24300064116265
 2020-12-14,64106,Kansas City Metro,Missouri,536,57.4737293587819
 2020-12-15,64106,Kansas City Metro,Missouri,536,57.4737293587819
 2020-12-16,64106,Kansas City Metro,Missouri,573,61.441132318250055
@@ -938,6 +974,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64106,Kansas City Metro,Missouri,614,65.83744370576882
 2021-01-07,64106,Kansas City Metro,Missouri,614,65.83744370576882
 2021-01-08,64106,Kansas City Metro,Missouri,614,65.83744370576882
+2021-01-09,64106,Kansas City Metro,Missouri,614,65.83744370576882
 2020-12-14,64108,Kansas City Metro,Missouri,641,82.1900243620977
 2020-12-15,64108,Kansas City Metro,Missouri,641,82.1900243620977
 2020-12-16,64108,Kansas City Metro,Missouri,677,86.8060007693294
@@ -964,6 +1001,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64108,Kansas City Metro,Missouri,736,94.37107321451468
 2021-01-07,64108,Kansas City Metro,Missouri,736,94.37107321451468
 2021-01-08,64108,Kansas City Metro,Missouri,736,94.37107321451468
+2021-01-09,64108,Kansas City Metro,Missouri,736,94.37107321451468
 2020-12-14,64109,Kansas City Metro,Missouri,446,46.23198921944646
 2020-12-15,64109,Kansas City Metro,Missouri,446,46.23198921944646
 2020-12-16,64109,Kansas City Metro,Missouri,477,49.44542344770395
@@ -990,6 +1028,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64109,Kansas City Metro,Missouri,527,54.62838188037732
 2021-01-07,64109,Kansas City Metro,Missouri,527,54.62838188037732
 2021-01-08,64109,Kansas City Metro,Missouri,527,54.62838188037732
+2021-01-09,64109,Kansas City Metro,Missouri,527,54.62838188037732
 2020-12-14,64110,Kansas City Metro,Missouri,667,38.83325570563577
 2020-12-15,64110,Kansas City Metro,Missouri,667,38.83325570563577
 2020-12-16,64110,Kansas City Metro,Missouri,723,42.093619003260365
@@ -1016,6 +1055,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64110,Kansas City Metro,Missouri,882,51.35072193758733
 2021-01-07,64110,Kansas City Metro,Missouri,882,51.35072193758733
 2021-01-08,64110,Kansas City Metro,Missouri,882,51.35072193758733
+2021-01-09,64110,Kansas City Metro,Missouri,882,51.35072193758733
 2020-12-14,64111,Kansas City Metro,Missouri,955,53.64867142295376
 2020-12-15,64111,Kansas City Metro,Missouri,955,53.64867142295376
 2020-12-16,64111,Kansas City Metro,Missouri,1012,56.850738722543674
@@ -1042,6 +1082,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64111,Kansas City Metro,Missouri,1144,64.26605246896241
 2021-01-07,64111,Kansas City Metro,Missouri,1144,64.26605246896241
 2021-01-08,64111,Kansas City Metro,Missouri,1144,64.26605246896241
+2021-01-09,64111,Kansas City Metro,Missouri,1144,64.26605246896241
 2020-12-14,64112,Kansas City Metro,Missouri,439,52.56226053639847
 2020-12-15,64112,Kansas City Metro,Missouri,439,52.56226053639847
 2020-12-16,64112,Kansas City Metro,Missouri,473,56.633141762452105
@@ -1068,6 +1109,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64112,Kansas City Metro,Missouri,549,65.73275862068965
 2021-01-07,64112,Kansas City Metro,Missouri,549,65.73275862068965
 2021-01-08,64112,Kansas City Metro,Missouri,549,65.73275862068965
+2021-01-09,64112,Kansas City Metro,Missouri,549,65.73275862068965
 2020-12-14,64113,Kansas City Metro,Missouri,410,34.20086753420087
 2020-12-15,64113,Kansas City Metro,Missouri,410,34.20086753420087
 2020-12-16,64113,Kansas City Metro,Missouri,448,37.3707040373707
@@ -1094,6 +1136,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64113,Kansas City Metro,Missouri,523,43.626960293626965
 2021-01-07,64113,Kansas City Metro,Missouri,523,43.626960293626965
 2021-01-08,64113,Kansas City Metro,Missouri,523,43.626960293626965
+2021-01-09,64113,Kansas City Metro,Missouri,523,43.626960293626965
 2020-12-14,64114,Kansas City Metro,Missouri,968,39.6640032780168
 2020-12-15,64114,Kansas City Metro,Missouri,968,39.6640032780168
 2020-12-16,64114,Kansas City Metro,Missouri,1055,43.22884654783856
@@ -1120,6 +1163,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64114,Kansas City Metro,Missouri,1256,51.46486375742676
 2021-01-07,64114,Kansas City Metro,Missouri,1256,51.46486375742676
 2021-01-08,64114,Kansas City Metro,Missouri,1256,51.46486375742676
+2021-01-09,64114,Kansas City Metro,Missouri,1256,51.46486375742676
 2020-12-14,64116,Kansas City Metro,Missouri,848,54.442732408834104
 2020-12-15,64116,Kansas City Metro,Missouri,851,54.63533641499743
 2020-12-16,64116,Kansas City Metro,Missouri,905,58.102208525937336
@@ -1146,6 +1190,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64116,Kansas City Metro,Missouri,1096,70.36466358500257
 2021-01-07,64116,Kansas City Metro,Missouri,1096,70.36466358500257
 2021-01-08,64116,Kansas City Metro,Missouri,1096,70.36466358500257
+2021-01-09,64116,Kansas City Metro,Missouri,1096,70.36466358500257
 2020-12-14,64117,Kansas City Metro,Missouri,681,46.411776732774484
 2020-12-15,64117,Kansas City Metro,Missouri,681,46.411776732774484
 2020-12-16,64117,Kansas City Metro,Missouri,728,49.61493900361208
@@ -1172,6 +1217,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64117,Kansas City Metro,Missouri,887,60.451168813466914
 2021-01-07,64117,Kansas City Metro,Missouri,887,60.451168813466914
 2021-01-08,64117,Kansas City Metro,Missouri,887,60.451168813466914
+2021-01-09,64117,Kansas City Metro,Missouri,887,60.451168813466914
 2020-12-14,64118,Kansas City Metro,Missouri,1980,46.36350864047206
 2020-12-15,64118,Kansas City Metro,Missouri,1987,46.52742003465555
 2020-12-16,64118,Kansas City Metro,Missouri,2061,48.26019763030956
@@ -1198,6 +1244,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64118,Kansas City Metro,Missouri,2504,58.63344729077882
 2021-01-07,64118,Kansas City Metro,Missouri,2508,58.727110944597946
 2021-01-08,64118,Kansas City Metro,Missouri,2508,58.727110944597946
+2021-01-09,64118,Kansas City Metro,Missouri,2508,58.727110944597946
 2020-12-14,64119,Kansas City Metro,Missouri,1384,49.698362539500145
 2020-12-15,64119,Kansas City Metro,Missouri,1389,49.87790864694053
 2020-12-16,64119,Kansas City Metro,Missouri,1490,53.50474001723643
@@ -1224,6 +1271,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64119,Kansas City Metro,Missouri,1794,64.42114334961218
 2021-01-07,64119,Kansas City Metro,Missouri,1795,64.45705257110026
 2021-01-08,64119,Kansas City Metro,Missouri,1795,64.45705257110026
+2021-01-09,64119,Kansas City Metro,Missouri,1795,64.45705257110026
 2020-12-14,64120,Kansas City Metro,Missouri,49,127.93733681462142
 2020-12-15,64120,Kansas City Metro,Missouri,49,127.93733681462142
 2020-12-16,64120,Kansas City Metro,Missouri,50,130.54830287206266
@@ -1250,6 +1298,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64120,Kansas City Metro,Missouri,55,143.60313315926894
 2021-01-07,64120,Kansas City Metro,Missouri,55,143.60313315926894
 2021-01-08,64120,Kansas City Metro,Missouri,55,143.60313315926894
+2021-01-09,64120,Kansas City Metro,Missouri,55,143.60313315926894
 2020-12-14,64123,Kansas City Metro,Missouri,766,79.95824634655533
 2020-12-15,64123,Kansas City Metro,Missouri,766,79.95824634655533
 2020-12-16,64123,Kansas City Metro,Missouri,807,84.23799582463467
@@ -1276,6 +1325,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64123,Kansas City Metro,Missouri,884,92.27557411273486
 2021-01-07,64123,Kansas City Metro,Missouri,884,92.27557411273486
 2021-01-08,64123,Kansas City Metro,Missouri,884,92.27557411273486
+2021-01-09,64123,Kansas City Metro,Missouri,884,92.27557411273486
 2020-12-14,64124,Kansas City Metro,Missouri,858,80.74534161490683
 2020-12-15,64124,Kansas City Metro,Missouri,858,80.74534161490683
 2020-12-16,64124,Kansas City Metro,Missouri,908,85.450781102955
@@ -1302,6 +1352,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64124,Kansas City Metro,Missouri,984,92.60304912478826
 2021-01-07,64124,Kansas City Metro,Missouri,984,92.60304912478826
 2021-01-08,64124,Kansas City Metro,Missouri,984,92.60304912478826
+2021-01-09,64124,Kansas City Metro,Missouri,984,92.60304912478826
 2020-12-14,64125,Kansas City Metro,Missouri,150,107.9913606911447
 2020-12-15,64125,Kansas City Metro,Missouri,150,107.9913606911447
 2020-12-16,64125,Kansas City Metro,Missouri,155,111.59107271418287
@@ -1328,6 +1379,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64125,Kansas City Metro,Missouri,173,124.55003599712023
 2021-01-07,64125,Kansas City Metro,Missouri,173,124.55003599712023
 2021-01-08,64125,Kansas City Metro,Missouri,173,124.55003599712023
+2021-01-09,64125,Kansas City Metro,Missouri,173,124.55003599712023
 2020-12-14,64126,Kansas City Metro,Missouri,389,63.2726089785296
 2020-12-15,64126,Kansas City Metro,Missouri,389,63.2726089785296
 2020-12-16,64126,Kansas City Metro,Missouri,423,68.8028627195836
@@ -1354,6 +1406,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64126,Kansas City Metro,Missouri,484,78.72478854912167
 2021-01-07,64126,Kansas City Metro,Missouri,484,78.72478854912167
 2021-01-08,64126,Kansas City Metro,Missouri,484,78.72478854912167
+2021-01-09,64126,Kansas City Metro,Missouri,484,78.72478854912167
 2020-12-14,64127,Kansas City Metro,Missouri,954,61.719609238532705
 2020-12-15,64127,Kansas City Metro,Missouri,954,61.719609238532705
 2020-12-16,64127,Kansas City Metro,Missouri,1010,65.34256323995601
@@ -1380,6 +1433,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64127,Kansas City Metro,Missouri,1110,71.81212395678334
 2021-01-07,64127,Kansas City Metro,Missouri,1110,71.81212395678334
 2021-01-08,64127,Kansas City Metro,Missouri,1110,71.81212395678334
+2021-01-09,64127,Kansas City Metro,Missouri,1110,71.81212395678334
 2020-12-14,64128,Kansas City Metro,Missouri,547,48.071007997187806
 2020-12-15,64128,Kansas City Metro,Missouri,547,48.071007997187806
 2020-12-16,64128,Kansas City Metro,Missouri,573,50.35591879778539
@@ -1406,6 +1460,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64128,Kansas City Metro,Missouri,630,55.36514632217242
 2021-01-07,64128,Kansas City Metro,Missouri,630,55.36514632217242
 2021-01-08,64128,Kansas City Metro,Missouri,630,55.36514632217242
+2021-01-09,64128,Kansas City Metro,Missouri,630,55.36514632217242
 2020-12-14,64129,Kansas City Metro,Missouri,354,39.860376083774355
 2020-12-15,64129,Kansas City Metro,Missouri,354,39.860376083774355
 2020-12-16,64129,Kansas City Metro,Missouri,388,43.68877378673572
@@ -1432,6 +1487,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64129,Kansas City Metro,Missouri,442,49.76917013849791
 2021-01-07,64129,Kansas City Metro,Missouri,442,49.76917013849791
 2021-01-08,64129,Kansas City Metro,Missouri,442,49.76917013849791
+2021-01-09,64129,Kansas City Metro,Missouri,442,49.76917013849791
 2020-12-14,64130,Kansas City Metro,Missouri,977,48.85977195439087
 2020-12-15,64130,Kansas City Metro,Missouri,977,48.85977195439087
 2020-12-16,64130,Kansas City Metro,Missouri,1033,51.66033206641328
@@ -1458,6 +1514,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64130,Kansas City Metro,Missouri,1166,58.31166233246649
 2021-01-07,64130,Kansas City Metro,Missouri,1166,58.31166233246649
 2021-01-08,64130,Kansas City Metro,Missouri,1166,58.31166233246649
+2021-01-09,64130,Kansas City Metro,Missouri,1166,58.31166233246649
 2020-12-14,64131,Kansas City Metro,Missouri,1002,43.69440083725798
 2020-12-15,64131,Kansas City Metro,Missouri,1002,43.69440083725798
 2020-12-16,64131,Kansas City Metro,Missouri,1065,46.441653584510725
@@ -1484,6 +1541,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64131,Kansas City Metro,Missouri,1229,53.59323216466073
 2021-01-07,64131,Kansas City Metro,Missouri,1229,53.59323216466073
 2021-01-08,64131,Kansas City Metro,Missouri,1229,53.59323216466073
+2021-01-09,64131,Kansas City Metro,Missouri,1229,53.59323216466073
 2020-12-14,64132,Kansas City Metro,Missouri,616,41.57386785449147
 2020-12-15,64132,Kansas City Metro,Missouri,616,41.57386785449147
 2020-12-16,64132,Kansas City Metro,Missouri,675,45.55578052237295
@@ -1510,6 +1568,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64132,Kansas City Metro,Missouri,764,51.56239454680435
 2021-01-07,64132,Kansas City Metro,Missouri,764,51.56239454680435
 2021-01-08,64132,Kansas City Metro,Missouri,764,51.56239454680435
+2021-01-09,64132,Kansas City Metro,Missouri,764,51.56239454680435
 2020-12-14,64133,Kansas City Metro,Missouri,1762,50.10949008901402
 2020-12-15,64133,Kansas City Metro,Missouri,1776,50.507635867246826
 2020-12-16,64133,Kansas City Metro,Missouri,1838,52.27085288513494
@@ -1536,6 +1595,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64133,Kansas City Metro,Missouri,2155,61.28601086369195
 2021-01-07,64133,Kansas City Metro,Missouri,2159,61.39976680032989
 2021-01-08,64133,Kansas City Metro,Missouri,2159,61.39976680032989
+2021-01-09,64133,Kansas City Metro,Missouri,2159,61.39976680032989
 2020-12-14,64134,Kansas City Metro,Missouri,996,41.719024880623266
 2020-12-15,64134,Kansas City Metro,Missouri,996,41.719024880623266
 2020-12-16,64134,Kansas City Metro,Missouri,1081,45.27938342967245
@@ -1562,6 +1622,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64134,Kansas City Metro,Missouri,1220,51.101616821646985
 2021-01-07,64134,Kansas City Metro,Missouri,1220,51.101616821646985
 2021-01-08,64134,Kansas City Metro,Missouri,1220,51.101616821646985
+2021-01-09,64134,Kansas City Metro,Missouri,1220,51.101616821646985
 2020-12-14,64136,Kansas City Metro,Missouri,117,52.70270270270271
 2020-12-15,64136,Kansas City Metro,Missouri,117,52.70270270270271
 2020-12-16,64136,Kansas City Metro,Missouri,119,53.6036036036036
@@ -1588,6 +1649,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64136,Kansas City Metro,Missouri,132,59.45945945945946
 2021-01-07,64136,Kansas City Metro,Missouri,132,59.45945945945946
 2021-01-08,64136,Kansas City Metro,Missouri,132,59.45945945945946
+2021-01-09,64136,Kansas City Metro,Missouri,132,59.45945945945946
 2020-12-14,64137,Kansas City Metro,Missouri,586,55.04414803682134
 2020-12-15,64137,Kansas City Metro,Missouri,586,55.04414803682134
 2020-12-16,64137,Kansas City Metro,Missouri,613,57.58031185421755
@@ -1614,6 +1676,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64137,Kansas City Metro,Missouri,678,63.685891414615824
 2021-01-07,64137,Kansas City Metro,Missouri,678,63.685891414615824
 2021-01-08,64137,Kansas City Metro,Missouri,678,63.685891414615824
+2021-01-09,64137,Kansas City Metro,Missouri,678,63.685891414615824
 2020-12-14,64138,Kansas City Metro,Missouri,1100,42.255685310387214
 2020-12-15,64138,Kansas City Metro,Missouri,1107,42.52458512599877
 2020-12-16,64138,Kansas City Metro,Missouri,1147,44.06115550092194
@@ -1640,6 +1703,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64138,Kansas City Metro,Missouri,1380,53.011677934849416
 2021-01-07,64138,Kansas City Metro,Missouri,1386,53.242163491087894
 2021-01-08,64138,Kansas City Metro,Missouri,1386,53.242163491087894
+2021-01-09,64138,Kansas City Metro,Missouri,1386,53.242163491087894
 2020-12-14,64139,Kansas City Metro,Missouri,159,76.47907647907648
 2020-12-15,64139,Kansas City Metro,Missouri,159,76.47907647907648
 2020-12-16,64139,Kansas City Metro,Missouri,180,86.58008658008657
@@ -1666,6 +1730,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64139,Kansas City Metro,Missouri,212,101.97210197210198
 2021-01-07,64139,Kansas City Metro,Missouri,212,101.97210197210198
 2021-01-08,64139,Kansas City Metro,Missouri,212,101.97210197210198
+2021-01-09,64139,Kansas City Metro,Missouri,212,101.97210197210198
 2020-12-14,64145,Kansas City Metro,Missouri,231,44.0083914571079
 2020-12-15,64145,Kansas City Metro,Missouri,231,44.0083914571079
 2020-12-16,64145,Kansas City Metro,Missouri,248,47.24710424832364
@@ -1692,6 +1757,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64145,Kansas City Metro,Missouri,319,60.773492964577585
 2021-01-07,64145,Kansas City Metro,Missouri,319,60.773492964577585
 2021-01-08,64145,Kansas City Metro,Missouri,319,60.773492964577585
+2021-01-09,64145,Kansas City Metro,Missouri,319,60.773492964577585
 2020-12-14,64146,Kansas City Metro,Missouri,51,33.86454183266932
 2020-12-15,64146,Kansas City Metro,Missouri,51,33.86454183266932
 2020-12-16,64146,Kansas City Metro,Missouri,60,39.8406374501992
@@ -1718,6 +1784,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64146,Kansas City Metro,Missouri,71,47.144754316069054
 2021-01-07,64146,Kansas City Metro,Missouri,71,47.144754316069054
 2021-01-08,64146,Kansas City Metro,Missouri,71,47.144754316069054
+2021-01-09,64146,Kansas City Metro,Missouri,71,47.144754316069054
 2020-12-14,64147,Kansas City Metro,Missouri,13,22.37521514629948
 2020-12-15,64147,Kansas City Metro,Missouri,13,22.37521514629948
 2020-12-16,64147,Kansas City Metro,Missouri,14,24.096385542168676
@@ -1744,6 +1811,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64147,Kansas City Metro,Missouri,20,34.42340791738382
 2021-01-07,64147,Kansas City Metro,Missouri,20,34.42340791738382
 2021-01-08,64147,Kansas City Metro,Missouri,20,34.42340791738382
+2021-01-09,64147,Kansas City Metro,Missouri,20,34.42340791738382
 2020-12-14,64149,Kansas City Metro,Missouri,10,28.169014084507044
 2020-12-15,64149,Kansas City Metro,Missouri,10,28.169014084507044
 2020-12-16,64149,Kansas City Metro,Missouri,11,30.985915492957748
@@ -1770,6 +1838,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64149,Kansas City Metro,Missouri,18,50.70422535211268
 2021-01-07,64149,Kansas City Metro,Missouri,18,50.70422535211268
 2021-01-08,64149,Kansas City Metro,Missouri,18,50.70422535211268
+2021-01-09,64149,Kansas City Metro,Missouri,18,50.70422535211268
 2020-12-14,64150,Kansas City Metro,Missouri,245,73.95110172049502
 2020-12-15,64150,Kansas City Metro,Missouri,247,74.55478418351946
 2020-12-16,64150,Kansas City Metro,Missouri,251,75.76214910956837
@@ -1796,6 +1865,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64150,Kansas City Metro,Missouri,283,85.42106851795955
 2021-01-07,64150,Kansas City Metro,Missouri,303,91.45789314820405
 2021-01-08,64150,Kansas City Metro,Missouri,303,91.45789314820405
+2021-01-09,64150,Kansas City Metro,Missouri,303,91.45789314820405
 2020-12-14,64151,Kansas City Metro,Missouri,1045,39.026029801695486
 2020-12-15,64151,Kansas City Metro,Missouri,1047,39.10072076782313
 2020-12-16,64151,Kansas City Metro,Missouri,1122,41.90163199760989
@@ -1822,6 +1892,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64151,Kansas City Metro,Missouri,1390,51.91022145871457
 2021-01-07,64151,Kansas City Metro,Missouri,1392,51.98491242484222
 2021-01-08,64151,Kansas City Metro,Missouri,1392,51.98491242484222
+2021-01-09,64151,Kansas City Metro,Missouri,1392,51.98491242484222
 2020-12-14,64152,Kansas City Metro,Missouri,1229,42.044404912592796
 2020-12-15,64152,Kansas City Metro,Missouri,1234,42.21545619376689
 2020-12-16,64152,Kansas City Metro,Missouri,1264,43.24176388081147
@@ -1848,6 +1919,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64152,Kansas City Metro,Missouri,1427,48.818035647087
 2021-01-07,64152,Kansas City Metro,Missouri,1510,51.65748691457699
 2021-01-08,64152,Kansas City Metro,Missouri,1510,51.65748691457699
+2021-01-09,64152,Kansas City Metro,Missouri,NA,NA
 2020-12-14,64153,Kansas City Metro,Missouri,281,53.687428353076044
 2020-12-15,64153,Kansas City Metro,Missouri,281,53.687428353076044
 2020-12-16,64153,Kansas City Metro,Missouri,312,59.6102407336645
@@ -1874,6 +1946,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64153,Kansas City Metro,Missouri,387,73.93962552541078
 2021-01-07,64153,Kansas City Metro,Missouri,392,74.89491784486053
 2021-01-08,64153,Kansas City Metro,Missouri,392,74.89491784486053
+2021-01-09,64153,Kansas City Metro,Missouri,392,74.89491784486053
 2020-12-14,64154,Kansas City Metro,Missouri,759,69.66498393758604
 2020-12-15,64154,Kansas City Metro,Missouri,759,69.66498393758604
 2020-12-16,64154,Kansas City Metro,Missouri,795,72.96925195043598
@@ -1900,6 +1973,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64154,Kansas City Metro,Missouri,914,83.89169343735658
 2021-01-07,64154,Kansas City Metro,Missouri,914,83.89169343735658
 2021-01-08,64154,Kansas City Metro,Missouri,914,83.89169343735658
+2021-01-09,64154,Kansas City Metro,Missouri,914,83.89169343735658
 2020-12-14,64155,Kansas City Metro,Missouri,1379,60.17367020116071
 2020-12-15,64155,Kansas City Metro,Missouri,1379,60.17367020116071
 2020-12-16,64155,Kansas City Metro,Missouri,1476,64.40633590784134
@@ -1926,6 +2000,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64155,Kansas City Metro,Missouri,1740,75.92616834664223
 2021-01-07,64155,Kansas City Metro,Missouri,1740,75.92616834664223
 2021-01-08,64155,Kansas City Metro,Missouri,1740,75.92616834664223
+2021-01-09,64155,Kansas City Metro,Missouri,1740,75.92616834664223
 2020-12-14,64156,Kansas City Metro,Missouri,370,46.62885948330183
 2020-12-15,64156,Kansas City Metro,Missouri,370,46.62885948330183
 2020-12-16,64156,Kansas City Metro,Missouri,394,49.65343415248898
@@ -1952,6 +2027,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64156,Kansas City Metro,Missouri,466,58.727158160050415
 2021-01-07,64156,Kansas City Metro,Missouri,466,58.727158160050415
 2021-01-08,64156,Kansas City Metro,Missouri,466,58.727158160050415
+2021-01-09,64156,Kansas City Metro,Missouri,466,58.727158160050415
 2020-12-14,64157,Kansas City Metro,Missouri,1109,55.678280951902806
 2020-12-15,64157,Kansas City Metro,Missouri,1109,55.678280951902806
 2020-12-16,64157,Kansas City Metro,Missouri,1200,60.24701275228437
@@ -1978,6 +2054,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64157,Kansas City Metro,Missouri,1440,72.29641530274124
 2021-01-07,64157,Kansas City Metro,Missouri,1440,72.29641530274124
 2021-01-08,64157,Kansas City Metro,Missouri,1440,72.29641530274124
+2021-01-09,64157,Kansas City Metro,Missouri,1440,72.29641530274124
 2020-12-14,64158,Kansas City Metro,Missouri,324,64.27296171394565
 2020-12-15,64158,Kansas City Metro,Missouri,324,64.27296171394565
 2020-12-16,64158,Kansas City Metro,Missouri,348,69.03392184090458
@@ -2004,6 +2081,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64158,Kansas City Metro,Missouri,422,83.71354889902797
 2021-01-07,64158,Kansas City Metro,Missouri,422,83.71354889902797
 2021-01-08,64158,Kansas City Metro,Missouri,422,83.71354889902797
+2021-01-09,64158,Kansas City Metro,Missouri,422,83.71354889902797
 2020-12-14,64161,Kansas City Metro,Missouri,32,106.66666666666667
 2020-12-15,64161,Kansas City Metro,Missouri,32,106.66666666666667
 2020-12-16,64161,Kansas City Metro,Missouri,33,110
@@ -2030,6 +2108,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64161,Kansas City Metro,Missouri,33,110
 2021-01-07,64161,Kansas City Metro,Missouri,33,110
 2021-01-08,64161,Kansas City Metro,Missouri,33,110
+2021-01-09,64161,Kansas City Metro,Missouri,33,110
 2020-12-14,64163,Kansas City Metro,Missouri,37,49.46524064171123
 2020-12-15,64163,Kansas City Metro,Missouri,39,52.13903743315508
 2020-12-16,64163,Kansas City Metro,Missouri,42,56.14973262032086
@@ -2056,6 +2135,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64163,Kansas City Metro,Missouri,47,62.83422459893048
 2021-01-07,64163,Kansas City Metro,Missouri,47,62.83422459893048
 2021-01-08,64163,Kansas City Metro,Missouri,47,62.83422459893048
+2021-01-09,64163,Kansas City Metro,Missouri,47,62.83422459893048
 2020-12-14,64164,Kansas City Metro,Missouri,5,23.474178403755868
 2020-12-15,64164,Kansas City Metro,Missouri,5,23.474178403755868
 2020-12-16,64164,Kansas City Metro,Missouri,5,23.474178403755868
@@ -2082,6 +2162,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64164,Kansas City Metro,Missouri,5,23.474178403755868
 2021-01-07,64164,Kansas City Metro,Missouri,5,23.474178403755868
 2021-01-08,64164,Kansas City Metro,Missouri,5,23.474178403755868
+2021-01-09,64164,Kansas City Metro,Missouri,5,23.474178403755868
 2020-12-14,64165,Kansas City Metro,Missouri,6,27.906976744186046
 2020-12-15,64165,Kansas City Metro,Missouri,6,27.906976744186046
 2020-12-16,64165,Kansas City Metro,Missouri,6,27.906976744186046
@@ -2108,6 +2189,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64165,Kansas City Metro,Missouri,14,65.11627906976744
 2021-01-07,64165,Kansas City Metro,Missouri,8,37.2093023255814
 2021-01-08,64165,Kansas City Metro,Missouri,8,37.2093023255814
+2021-01-09,64165,Kansas City Metro,Missouri,8,37.2093023255814
 2020-12-14,64166,Kansas City Metro,Missouri,13,45.6140350877193
 2020-12-15,64166,Kansas City Metro,Missouri,13,45.6140350877193
 2020-12-16,64166,Kansas City Metro,Missouri,12,42.10526315789473
@@ -2134,6 +2216,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64166,Kansas City Metro,Missouri,12,42.10526315789473
 2021-01-07,64166,Kansas City Metro,Missouri,12,42.10526315789473
 2021-01-08,64166,Kansas City Metro,Missouri,12,42.10526315789473
+2021-01-09,64166,Kansas City Metro,Missouri,12,42.10526315789473
 2020-12-14,64167,Kansas City Metro,Missouri,22,49.327354260089685
 2020-12-15,64167,Kansas City Metro,Missouri,22,49.327354260089685
 2020-12-16,64167,Kansas City Metro,Missouri,22,49.327354260089685
@@ -2160,6 +2243,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64167,Kansas City Metro,Missouri,22,49.327354260089685
 2021-01-07,64167,Kansas City Metro,Missouri,22,49.327354260089685
 2021-01-08,64167,Kansas City Metro,Missouri,22,49.327354260089685
+2021-01-09,64167,Kansas City Metro,Missouri,22,49.327354260089685
 2020-12-14,64439,Kansas City Metro,Missouri,54,48.80041592872342
 2020-12-15,64439,Kansas City Metro,Missouri,55,49.70412733481089
 2020-12-16,64439,Kansas City Metro,Missouri,55,49.70412733481089
@@ -2186,6 +2270,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64439,Kansas City Metro,Missouri,64,57.837529989598124
 2021-01-07,64439,Kansas City Metro,Missouri,68,61.452375613948014
 2021-01-08,64439,Kansas City Metro,Missouri,68,61.452375613948014
+2021-01-09,64439,Kansas City Metro,Missouri,68,61.452375613948014
 2020-12-14,64444,Kansas City Metro,Missouri,34,32.85831862703924
 2020-12-15,64444,Kansas City Metro,Missouri,34,32.85831862703924
 2020-12-16,64444,Kansas City Metro,Missouri,36,34.79116089921801
@@ -2212,6 +2297,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64444,Kansas City Metro,Missouri,44,42.52252998793313
 2021-01-07,64444,Kansas City Metro,Missouri,49,47.35463566838008
 2021-01-08,64444,Kansas City Metro,Missouri,49,47.35463566838008
+2021-01-09,64444,Kansas City Metro,Missouri,49,47.35463566838008
 2020-12-14,64492,Kansas City Metro,Missouri,14,35.45986020793096
 2020-12-15,64492,Kansas City Metro,Missouri,14,35.45986020793096
 2020-12-16,64492,Kansas City Metro,Missouri,15,37.992707365640314
@@ -2238,6 +2324,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,64492,Kansas City Metro,Missouri,18,45.59124883876838
 2021-01-07,64492,Kansas City Metro,Missouri,18,45.59124883876838
 2021-01-08,64492,Kansas City Metro,Missouri,18,45.59124883876838
+2021-01-09,64492,Kansas City Metro,Missouri,18,45.59124883876838
 2020-12-14,66012,Kansas City Metro,Kansas,340,77.807878621767955
 2020-12-15,66012,Kansas City Metro,Kansas,340,77.807878621767955
 2020-12-16,66012,Kansas City Metro,Kansas,340,77.807878621767955
@@ -2264,6 +2351,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66012,Kansas City Metro,Kansas,340,77.807878621767955
 2021-01-07,66012,Kansas City Metro,Kansas,340,77.807878621767955
 2021-01-08,66012,Kansas City Metro,Kansas,340,77.807878621767955
+2021-01-09,66012,Kansas City Metro,Kansas,340,77.807878621767955
 2020-12-14,66013,Kansas City Metro,Kansas,50,61.28299854922615
 2020-12-15,66013,Kansas City Metro,Kansas,50,61.28299854922615
 2020-12-16,66013,Kansas City Metro,Kansas,50,61.28299854922615
@@ -2290,6 +2378,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66013,Kansas City Metro,Kansas,57,69.8626183461178
 2021-01-07,66013,Kansas City Metro,Kansas,57,69.8626183461178
 2021-01-08,66013,Kansas City Metro,Kansas,57,69.8626183461178
+2021-01-09,66013,Kansas City Metro,Kansas,57,69.8626183461178
 2020-12-14,66018,Kansas City Metro,Kansas,274,44.50942261045835
 2020-12-15,66018,Kansas City Metro,Kansas,279,45.32163835152511
 2020-12-16,66018,Kansas City Metro,Kansas,287,46.62118353723192
@@ -2316,6 +2405,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66018,Kansas City Metro,Kansas,372,60.42885113536681
 2021-01-07,66018,Kansas City Metro,Kansas,374,60.75373743179351
 2021-01-08,66018,Kansas City Metro,Kansas,377,61.24106687643357
+2021-01-09,66018,Kansas City Metro,Kansas,381,61.89083946928697
 2020-12-14,66021,Kansas City Metro,Kansas,77,43.2213262080679
 2020-12-15,66021,Kansas City Metro,Kansas,79,44.34395805762811
 2020-12-16,66021,Kansas City Metro,Kansas,80,44.90527398240821
@@ -2342,6 +2432,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66021,Kansas City Metro,Kansas,102,57.25422432757047
 2021-01-07,66021,Kansas City Metro,Kansas,102,57.25422432757047
 2021-01-08,66021,Kansas City Metro,Kansas,102,57.25422432757047
+2021-01-09,66021,Kansas City Metro,Kansas,102,57.25422432757047
 2020-12-14,66025,Kansas City Metro,Kansas,6,3.7457975554508534
 2020-12-15,66025,Kansas City Metro,Kansas,6,3.7457975554508534
 2020-12-16,66025,Kansas City Metro,Kansas,6,3.7457975554508534
@@ -2368,6 +2459,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66025,Kansas City Metro,Kansas,6,3.7457975554508534
 2021-01-07,66025,Kansas City Metro,Kansas,6,3.7457975554508534
 2021-01-08,66025,Kansas City Metro,Kansas,6,3.7457975554508534
+2021-01-09,66025,Kansas City Metro,Kansas,6,3.7457975554508534
 2020-12-14,66030,Kansas City Metro,Kansas,954,40.51643591268156
 2020-12-15,66030,Kansas City Metro,Kansas,964,40.94113649876837
 2020-12-16,66030,Kansas City Metro,Kansas,974,41.36583708485517
@@ -2394,6 +2486,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66030,Kansas City Metro,Kansas,1263,53.63968402276395
 2021-01-07,66030,Kansas City Metro,Kansas,1273,54.06438460885076
 2021-01-08,66030,Kansas City Metro,Kansas,1291,54.828845663807016
+2021-01-09,66030,Kansas City Metro,Kansas,1299,55.16860613267646
 2020-12-14,66031,Kansas City Metro,Kansas,13,20.2808112324493
 2020-12-15,66031,Kansas City Metro,Kansas,13,20.2808112324493
 2020-12-16,66031,Kansas City Metro,Kansas,13,20.2808112324493
@@ -2420,6 +2513,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66031,Kansas City Metro,Kansas,12,18.720748829953198
 2021-01-07,66031,Kansas City Metro,Kansas,12,18.720748829953198
 2021-01-08,66031,Kansas City Metro,Kansas,12,18.720748829953198
+2021-01-09,66031,Kansas City Metro,Kansas,12,18.720748829953198
 2020-12-14,66061,Kansas City Metro,Kansas,3368,52.72055600776407
 2020-12-15,66061,Kansas City Metro,Kansas,3390,53.064930185962055
 2020-12-16,66061,Kansas City Metro,Kansas,3422,53.565838081522756
@@ -2446,6 +2540,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66061,Kansas City Metro,Kansas,4203,65.79112140755119
 2021-01-07,66061,Kansas City Metro,Kansas,4246,66.46421639221089
 2021-01-08,66061,Kansas City Metro,Kansas,4313,67.5129922985411
+2021-01-09,66061,Kansas City Metro,Kansas,4339,67.91997996368418
 2020-12-14,66062,Kansas City Metro,Kansas,3610,44.85084918436059
 2020-12-15,66062,Kansas City Metro,Kansas,3627,45.062058169439304
 2020-12-16,66062,Kansas City Metro,Kansas,3675,45.658412950838
@@ -2472,6 +2567,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66062,Kansas City Metro,Kansas,4388,54.51676626619786
 2021-01-07,66062,Kansas City Metro,Kansas,4426,54.988880468138504
 2021-01-08,66062,Kansas City Metro,Kansas,4473,55.5728111915914
+2021-01-09,66062,Kansas City Metro,Kansas,4504,55.957956987911395
 2020-12-14,66083,Kansas City Metro,Kansas,235,59.835917546149446
 2020-12-15,66083,Kansas City Metro,Kansas,236,60.09053847187774
 2020-12-16,66083,Kansas City Metro,Kansas,241,61.36364310051922
@@ -2498,6 +2594,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66083,Kansas City Metro,Kansas,319,81.22407530732627
 2021-01-07,66083,Kansas City Metro,Kansas,322,81.98793808451116
 2021-01-08,66083,Kansas City Metro,Kansas,326,83.00642178742433
+2021-01-09,66083,Kansas City Metro,Kansas,330,84.02490549033752
 2020-12-14,66085,Kansas City Metro,Kansas,370,47.28434504979827
 2020-12-15,66085,Kansas City Metro,Kansas,376,48.051118212767975
 2020-12-16,66085,Kansas City Metro,Kansas,386,49.32907348438414
@@ -2524,6 +2621,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66085,Kansas City Metro,Kansas,466,59.55271565731349
 2021-01-07,66085,Kansas City Metro,Kansas,468,59.808306711636725
 2021-01-08,66085,Kansas City Metro,Kansas,473,60.447284347444814
+2021-01-09,66085,Kansas City Metro,Kansas,474,60.57507987460643
 2020-12-14,66101,Kansas City Metro,Kansas,1015,82.23950737319721
 2020-12-15,66101,Kansas City Metro,Kansas,1015,82.23950737319721
 2020-12-16,66101,Kansas City Metro,Kansas,1015,82.23950737319721
@@ -2550,6 +2648,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66101,Kansas City Metro,Kansas,1015,82.23950737319721
 2021-01-07,66101,Kansas City Metro,Kansas,1015,82.23950737319721
 2021-01-08,66101,Kansas City Metro,Kansas,1015,82.23950737319721
+2021-01-09,66101,Kansas City Metro,Kansas,1015,82.23950737319721
 2020-12-14,66102,Kansas City Metro,Kansas,2583,81.57529055078322
 2020-12-15,66102,Kansas City Metro,Kansas,2583,81.57529055078322
 2020-12-16,66102,Kansas City Metro,Kansas,2583,81.57529055078322
@@ -2576,6 +2675,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66102,Kansas City Metro,Kansas,2583,81.57529055078322
 2021-01-07,66102,Kansas City Metro,Kansas,2583,81.57529055078322
 2021-01-08,66102,Kansas City Metro,Kansas,2583,81.57529055078322
+2021-01-09,66102,Kansas City Metro,Kansas,2583,81.57529055078322
 2020-12-14,66103,Kansas City Metro,Kansas,866,63.81724392041267
 2020-12-15,66103,Kansas City Metro,Kansas,866,63.81724392041267
 2020-12-16,66103,Kansas City Metro,Kansas,866,63.81724392041267
@@ -2602,6 +2702,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66103,Kansas City Metro,Kansas,866,63.81724392041267
 2021-01-07,66103,Kansas City Metro,Kansas,866,63.81724392041267
 2021-01-08,66103,Kansas City Metro,Kansas,866,63.81724392041267
+2021-01-09,66103,Kansas City Metro,Kansas,866,63.81724392041267
 2020-12-14,66104,Kansas City Metro,Kansas,1846,69.91364944705347
 2020-12-15,66104,Kansas City Metro,Kansas,1846,69.91364944705347
 2020-12-16,66104,Kansas City Metro,Kansas,1846,69.91364944705347
@@ -2628,6 +2729,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66104,Kansas City Metro,Kansas,1846,69.91364944705347
 2021-01-07,66104,Kansas City Metro,Kansas,1846,69.91364944705347
 2021-01-08,66104,Kansas City Metro,Kansas,1846,69.91364944705347
+2021-01-09,66104,Kansas City Metro,Kansas,1846,69.91364944705347
 2020-12-14,66105,Kansas City Metro,Kansas,326,131.50463896732552
 2020-12-15,66105,Kansas City Metro,Kansas,326,131.50463896732552
 2020-12-16,66105,Kansas City Metro,Kansas,326,131.50463896732552
@@ -2654,6 +2756,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66105,Kansas City Metro,Kansas,326,131.50463896732552
 2021-01-07,66105,Kansas City Metro,Kansas,326,131.50463896732552
 2021-01-08,66105,Kansas City Metro,Kansas,326,131.50463896732552
+2021-01-09,66105,Kansas City Metro,Kansas,326,131.50463896732552
 2020-12-14,66106,Kansas City Metro,Kansas,1546,63.25436766089768
 2020-12-15,66106,Kansas City Metro,Kansas,1546,63.25436766089768
 2020-12-16,66106,Kansas City Metro,Kansas,1546,63.25436766089768
@@ -2680,6 +2783,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66106,Kansas City Metro,Kansas,1546,63.25436766089768
 2021-01-07,66106,Kansas City Metro,Kansas,1546,63.25436766089768
 2021-01-08,66106,Kansas City Metro,Kansas,1546,63.25436766089768
+2021-01-09,66106,Kansas City Metro,Kansas,1546,63.25436766089768
 2020-12-14,66109,Kansas City Metro,Kansas,1426,68.11707856339697
 2020-12-15,66109,Kansas City Metro,Kansas,1426,68.11707856339697
 2020-12-16,66109,Kansas City Metro,Kansas,1426,68.11707856339697
@@ -2706,6 +2810,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66109,Kansas City Metro,Kansas,1426,68.11707856339697
 2021-01-07,66109,Kansas City Metro,Kansas,1426,68.11707856339697
 2021-01-08,66109,Kansas City Metro,Kansas,1426,68.11707856339697
+2021-01-09,66109,Kansas City Metro,Kansas,1426,68.11707856339697
 2020-12-14,66111,Kansas City Metro,Kansas,411,41.15762066893651
 2020-12-15,66111,Kansas City Metro,Kansas,411,41.15762066893651
 2020-12-16,66111,Kansas City Metro,Kansas,411,41.15762066893651
@@ -2732,6 +2837,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66111,Kansas City Metro,Kansas,411,41.15762066893651
 2021-01-07,66111,Kansas City Metro,Kansas,411,41.15762066893651
 2021-01-08,66111,Kansas City Metro,Kansas,411,41.15762066893651
+2021-01-09,66111,Kansas City Metro,Kansas,411,41.15762066893651
 2020-12-14,66112,Kansas City Metro,Kansas,846,63.95041197369415
 2020-12-15,66112,Kansas City Metro,Kansas,846,63.95041197369415
 2020-12-16,66112,Kansas City Metro,Kansas,846,63.95041197369415
@@ -2758,6 +2864,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66112,Kansas City Metro,Kansas,846,63.95041197369415
 2021-01-07,66112,Kansas City Metro,Kansas,846,63.95041197369415
 2021-01-08,66112,Kansas City Metro,Kansas,846,63.95041197369415
+2021-01-09,66112,Kansas City Metro,Kansas,846,63.95041197369415
 2020-12-14,66202,Kansas City Metro,Kansas,843,52.09170116789223
 2020-12-15,66202,Kansas City Metro,Kansas,846,52.27708088735093
 2020-12-16,66202,Kansas City Metro,Kansas,858,53.018599765185684
@@ -2784,6 +2891,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66202,Kansas City Metro,Kansas,1008,62.28758573812025
 2021-01-07,66202,Kansas City Metro,Kansas,1015,62.720138416857196
 2021-01-08,66202,Kansas City Metro,Kansas,1021,63.090897855774585
+2021-01-09,66202,Kansas City Metro,Kansas,1027,63.46165729469195
 2020-12-14,66203,Kansas City Metro,Kansas,873,45.25660964230171
 2020-12-15,66203,Kansas City Metro,Kansas,887,45.98237428719544
 2020-12-16,66203,Kansas City Metro,Kansas,903,46.81181959564541
@@ -2810,6 +2918,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66203,Kansas City Metro,Kansas,1089,56.45412130637636
 2021-01-07,66203,Kansas City Metro,Kansas,1101,57.07620528771385
 2021-01-08,66203,Kansas City Metro,Kansas,1109,57.49092794193883
+2021-01-09,66203,Kansas City Metro,Kansas,1117,57.90565059616382
 2020-12-14,66204,Kansas City Metro,Kansas,1023,51.973784484072546
 2020-12-15,66204,Kansas City Metro,Kansas,1029,52.278616064624295
 2020-12-16,66204,Kansas City Metro,Kansas,1041,52.888279225727786
@@ -2836,6 +2945,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66204,Kansas City Metro,Kansas,1228,62.38886348625718
 2021-01-07,66204,Kansas City Metro,Kansas,1238,62.896916120510085
 2021-01-08,66204,Kansas City Metro,Kansas,1259,63.9638266524412
+2021-01-09,66204,Kansas City Metro,Kansas,1265,64.26865823299293
 2020-12-14,66205,Kansas City Metro,Kansas,642,47.79274919973201
 2020-12-15,66205,Kansas City Metro,Kansas,642,47.79274919973201
 2020-12-16,66205,Kansas City Metro,Kansas,635,47.271644457678846
@@ -2862,6 +2972,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66205,Kansas City Metro,Kansas,778,57.91706990247897
 2021-01-07,66205,Kansas City Metro,Kansas,785,58.438174644532126
 2021-01-08,66205,Kansas City Metro,Kansas,787,58.58706171369017
+2021-01-09,66205,Kansas City Metro,Kansas,787,58.58706171369017
 2020-12-14,66206,Kansas City Metro,Kansas,464,43.03867915777757
 2020-12-15,66206,Kansas City Metro,Kansas,467,43.31694647991838
 2020-12-16,66206,Kansas City Metro,Kansas,481,44.61552731657545
@@ -2888,6 +2999,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66206,Kansas City Metro,Kansas,582,53.98386049531583
 2021-01-07,66206,Kansas City Metro,Kansas,588,54.54039513959744
 2021-01-08,66206,Kansas City Metro,Kansas,592,54.91141823578518
+2021-01-09,66206,Kansas City Metro,Kansas,598,55.46795288006678
 2020-12-14,66207,Kansas City Metro,Kansas,656,45.3257790368272
 2020-12-15,66207,Kansas City Metro,Kansas,659,45.53306156291025
 2020-12-16,66207,Kansas City Metro,Kansas,673,46.50038001796449
@@ -2914,6 +3026,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66207,Kansas City Metro,Kansas,843,58.24638982933739
 2021-01-07,66207,Kansas City Metro,Kansas,846,58.453672355420444
 2021-01-08,66207,Kansas City Metro,Kansas,851,58.799143232225525
+2021-01-09,66207,Kansas City Metro,Kansas,853,58.937331582947564
 2020-12-14,66208,Kansas City Metro,Kansas,978,45.92843054381516
 2020-12-15,66208,Kansas City Metro,Kansas,985,46.257161641777024
 2020-12-16,66208,Kansas City Metro,Kansas,1022,47.99474030243261
@@ -2940,6 +3053,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66208,Kansas City Metro,Kansas,1202,56.44782567859491
 2021-01-07,66208,Kansas City Metro,Kansas,1220,57.29313421621114
 2021-01-08,66208,Kansas City Metro,Kansas,1229,57.71578848501925
+2021-01-09,66208,Kansas City Metro,Kansas,1236,58.044519582981124
 2020-12-14,66209,Kansas City Metro,Kansas,856,43.16909576882344
 2020-12-15,66209,Kansas City Metro,Kansas,862,43.47168288869837
 2020-12-16,66209,Kansas City Metro,Kansas,875,44.127288315094056
@@ -2966,6 +3080,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66209,Kansas City Metro,Kansas,1074,54.16309445761259
 2021-01-07,66209,Kansas City Metro,Kansas,1082,54.566543950779156
 2021-01-08,66209,Kansas City Metro,Kansas,1099,55.42387412375813
+2021-01-09,66209,Kansas City Metro,Kansas,1101,55.52473649704977
 2020-12-14,66210,Kansas City Metro,Kansas,773,41.35680273928629
 2020-12-15,66210,Kansas City Metro,Kansas,779,41.67781285110481
 2020-12-16,66210,Kansas City Metro,Kansas,784,41.945321277620245
@@ -2992,6 +3107,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66210,Kansas City Metro,Kansas,952,50.93360440853887
 2021-01-07,66210,Kansas City Metro,Kansas,966,51.68262800278209
 2021-01-08,66210,Kansas City Metro,Kansas,980,52.43165159702531
+2021-01-09,66210,Kansas City Metro,Kansas,985,52.69916002354074
 2020-12-14,66211,Kansas City Metro,Kansas,225,47.558655675332915
 2020-12-15,66211,Kansas City Metro,Kansas,228,48.19277108433735
 2020-12-16,66211,Kansas City Metro,Kansas,237,50.09511731135067
@@ -3018,6 +3134,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66211,Kansas City Metro,Kansas,301,63.62291270344536
 2021-01-07,66211,Kansas City Metro,Kansas,304,64.25702811244979
 2021-01-08,66211,Kansas City Metro,Kansas,305,64.46839991545129
+2021-01-09,66211,Kansas City Metro,Kansas,305,64.46839991545129
 2020-12-14,66212,Kansas City Metro,Kansas,1460,44.898210222030876
 2020-12-15,66212,Kansas City Metro,Kansas,1466,45.08272341472416
 2020-12-16,66212,Kansas City Metro,Kansas,1491,45.851528384279476
@@ -3044,6 +3161,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66212,Kansas City Metro,Kansas,1807,55.56922319945876
 2021-01-07,66212,Kansas City Metro,Kansas,1817,55.87674518728089
 2021-01-08,66212,Kansas City Metro,Kansas,1842,56.645550156836215
+2021-01-09,66212,Kansas City Metro,Kansas,1852,56.95307214465834
 2020-12-14,66213,Kansas City Metro,Kansas,1391,47.86154216701648
 2020-12-15,66213,Kansas City Metro,Kansas,1395,47.999174207755566
 2020-12-16,66213,Kansas City Metro,Kansas,1416,48.72174242163576
@@ -3070,6 +3188,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66213,Kansas City Metro,Kansas,1731,59.560265629838625
 2021-01-07,66213,Kansas City Metro,Kansas,1743,59.97316175205588
 2021-01-08,66213,Kansas City Metro,Kansas,1765,60.730137976120844
+2021-01-09,66213,Kansas City Metro,Kansas,1768,60.83336200667515
 2020-12-14,66214,Kansas City Metro,Kansas,517,42.59350799143187
 2020-12-15,66214,Kansas City Metro,Kansas,518,42.67589388696655
 2020-12-16,66214,Kansas City Metro,Kansas,528,43.4997528423134
@@ -3096,6 +3215,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66214,Kansas City Metro,Kansas,629,51.82072829131653
 2021-01-07,66214,Kansas City Metro,Kansas,633,52.15027187345527
 2021-01-08,66214,Kansas City Metro,Kansas,638,52.562201351128685
+2021-01-09,66214,Kansas City Metro,Kansas,639,52.64458724666337
 2020-12-14,66215,Kansas City Metro,Kansas,1101,41.37386794934426
 2020-12-15,66215,Kansas City Metro,Kansas,1107,41.599338619367934
 2020-12-16,66215,Kansas City Metro,Kansas,1126,42.3133290744429
@@ -3122,6 +3242,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66215,Kansas City Metro,Kansas,1475,55.42820638081996
 2021-01-07,66215,Kansas City Metro,Kansas,1490,55.99188305587915
 2021-01-08,66215,Kansas City Metro,Kansas,1511,56.78103040096201
+2021-01-09,66215,Kansas City Metro,Kansas,1518,57.04407951598963
 2020-12-14,66216,Kansas City Metro,Kansas,1154,46.66963238565131
 2020-12-15,66216,Kansas City Metro,Kansas,1168,47.23581510090185
 2020-12-16,66216,Kansas City Metro,Kansas,1188,48.04464755125976
@@ -3148,6 +3269,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66216,Kansas City Metro,Kansas,1437,58.114611558215714
 2021-01-07,66216,Kansas City Metro,Kansas,1454,58.802119141019936
 2021-01-08,66216,Kansas City Metro,Kansas,1480,59.85360132648522
+2021-01-09,66216,Kansas City Metro,Kansas,1486,60.09625106159259
 2020-12-14,66217,Kansas City Metro,Kansas,239,40.93867762932511
 2020-12-15,66217,Kansas City Metro,Kansas,240,41.109969167523126
 2020-12-16,66217,Kansas City Metro,Kansas,243,41.62384378211716
@@ -3174,6 +3296,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66217,Kansas City Metro,Kansas,301,51.558752997601914
 2021-01-07,66217,Kansas City Metro,Kansas,304,52.07262761219596
 2021-01-08,66217,Kansas City Metro,Kansas,310,53.10037684138403
+2021-01-09,66217,Kansas City Metro,Kansas,312,53.44295991778006
 2020-12-14,66218,Kansas City Metro,Kansas,423,50.9884281581485
 2020-12-15,66218,Kansas City Metro,Kansas,430,51.83220829315333
 2020-12-16,66218,Kansas City Metro,Kansas,434,52.314368370298936
@@ -3200,6 +3323,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66218,Kansas City Metro,Kansas,553,66.6586306653809
 2021-01-07,66218,Kansas City Metro,Kansas,560,67.50241080038573
 2021-01-08,66218,Kansas City Metro,Kansas,564,67.98457087753135
+2021-01-09,66218,Kansas City Metro,Kansas,567,68.34619093539054
 2020-12-14,66219,Kansas City Metro,Kansas,611,50.032754667540125
 2020-12-15,66219,Kansas City Metro,Kansas,616,50.44218801179168
 2020-12-16,66219,Kansas City Metro,Kansas,626,51.26105470029479
@@ -3226,6 +3350,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66219,Kansas City Metro,Kansas,740,60.59613494923027
 2021-01-07,66219,Kansas City Metro,Kansas,745,61.005568293481815
 2021-01-08,66219,Kansas City Metro,Kansas,755,61.824434981984936
+2021-01-09,66219,Kansas City Metro,Kansas,761,62.3157549950868
 2020-12-14,66220,Kansas City Metro,Kansas,366,51.05314548751569
 2020-12-15,66220,Kansas City Metro,Kansas,371,51.75059283024132
 2020-12-16,66220,Kansas City Metro,Kansas,377,52.58752964151207
@@ -3252,6 +3377,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66220,Kansas City Metro,Kansas,484,67.51290277584042
 2021-01-07,66220,Kansas City Metro,Kansas,496,69.18677639838192
 2021-01-08,66220,Kansas City Metro,Kansas,502,70.02371320965267
+2021-01-09,66220,Kansas City Metro,Kansas,503,70.16320267819779
 2020-12-14,66221,Kansas City Metro,Kansas,969,55.51417931824692
 2020-12-15,66221,Kansas City Metro,Kansas,980,56.14437124033228
 2020-12-16,66221,Kansas City Metro,Kansas,992,56.83185333715267
@@ -3278,6 +3404,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66221,Kansas City Metro,Kansas,1150,65.88370094528788
 2021-01-07,66221,Kansas City Metro,Kansas,1161,66.51389286737324
 2021-01-08,66221,Kansas City Metro,Kansas,1180,67.60240618733887
+2021-01-09,66221,Kansas City Metro,Kansas,1183,67.77427671154398
 2020-12-14,66223,Kansas City Metro,Kansas,1007,39.53981466938904
 2020-12-15,66223,Kansas City Metro,Kansas,1019,40.01099418878592
 2020-12-16,66223,Kansas City Metro,Kansas,1038,40.757028427831
@@ -3304,6 +3431,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66223,Kansas City Metro,Kansas,1260,49.47384953667347
 2021-01-07,66223,Kansas City Metro,Kansas,1272,49.94502905607037
 2021-01-08,66223,Kansas City Metro,Kansas,1290,50.6517983351657
+2021-01-09,66223,Kansas City Metro,Kansas,1300,51.044447934663104
 2020-12-14,66224,Kansas City Metro,Kansas,657,47.052925592631894
 2020-12-15,66224,Kansas City Metro,Kansas,658,47.12454343980486
 2020-12-16,66224,Kansas City Metro,Kansas,670,47.98395760588033
@@ -3330,6 +3458,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66224,Kansas City Metro,Kansas,781,55.93353864207841
 2021-01-07,66224,Kansas City Metro,Kansas,785,56.22001003077023
 2021-01-08,66224,Kansas City Metro,Kansas,793,56.79295280815388
+2021-01-09,66224,Kansas City Metro,Kansas,793,56.79295280815388
 2020-12-14,66226,Kansas City Metro,Kansas,710,50.20151311602913
 2020-12-15,66226,Kansas City Metro,Kansas,721,50.97928303754508
 2020-12-16,66226,Kansas City Metro,Kansas,735,51.96917202856537
@@ -3356,6 +3485,7 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66226,Kansas City Metro,Kansas,931,65.82761790284947
 2021-01-07,66226,Kansas City Metro,Kansas,943,66.67609418086685
 2021-01-08,66226,Kansas City Metro,Kansas,962,68.0195149543944
+2021-01-09,66226,Kansas City Metro,Kansas,966,68.3023403804002
 2020-12-14,66227,Kansas City Metro,Kansas,370,59.75452196382429
 2020-12-15,66227,Kansas City Metro,Kansas,372,60.077519379844965
 2020-12-16,66227,Kansas City Metro,Kansas,382,61.692506459948326
@@ -3382,3 +3512,4 @@ report_date,zip,region,state,cases,case_rate
 2021-01-06,66227,Kansas City Metro,Kansas,469,75.74289405684755
 2021-01-07,66227,Kansas City Metro,Kansas,476,76.87338501291988
 2021-01-08,66227,Kansas City Metro,Kansas,484,78.16537467700259
+2021-01-09,66227,Kansas City Metro,Kansas,489,78.97286821705427

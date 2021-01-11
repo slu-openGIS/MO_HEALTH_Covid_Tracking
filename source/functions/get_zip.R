@@ -268,7 +268,7 @@ get_zip_platte_bi <- function(){
   
   # navigate to dashboard URL
   remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
-  Sys.sleep(2)
+  Sys.sleep(4)
   
   # obtaining HTML page source
   zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
@@ -338,11 +338,11 @@ get_zip_st_charles <- function(cut = FALSE, val){
   
   # navigate to the site you wish to analyze
   remDr$navigate("https://app.powerbigov.us/view?r=eyJrIjoiZDFmN2ViMGEtNzQzMC00ZDU3LTkwZjUtOWU1N2RiZmJlOTYyIiwidCI6IjNiMTg1MTYzLTZjYTMtNDA2NS04NDAwLWNhNzJiM2Y3OWU2ZCJ9&pageName=ReportSectionb438b98829599a9276e2&pageName=ReportSectionb438b98829599a9276e2")
-  Sys.sleep(3)
+  Sys.sleep(4)
   
   # find and click the button leading to the Zip Code data
   remDr$findElement('.//button[descendant::span[text()="Zip Code"]]', using="xpath")$clickElement()
-  Sys.sleep(3)
+  Sys.sleep(4)
   
   # fetch the site source in XML
   zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
