@@ -21,7 +21,7 @@ user <- "Chris"
 # user <- "Carter"
 
 ## store date value
-date <- Sys.Date()-1
+date <- Sys.Date()
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
