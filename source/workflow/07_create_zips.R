@@ -38,7 +38,8 @@ dates <- list(
   lincoln_dates = seq(as.Date("2020-12-23"), date, by="days"),
   metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
   st_charles_dates = seq(as.Date("2020-07-14"), date, by="days"),
-  warren_dates = seq(as.Date("2020-10-28"), date, by="days")
+  warren_dates = seq(as.Date("2020-10-28"), date, by="days"),
+  wyandotte_dates = seq(as.Date("2021-01-17"), date, by="days")
 )
 
 ## Process Individual Jurisdictions

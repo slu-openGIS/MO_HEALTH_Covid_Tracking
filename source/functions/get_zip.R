@@ -79,7 +79,7 @@ get_zip_franklin <- function(file){
 get_zip_il <- function(){
   
   remDr$navigate("https://dph.illinois.gov/covid19/statistics")
-  Sys.sleep(6)
+  Sys.sleep(12)
   
   # find and click the button leading to the Zip Code data
   remDr$findElement("#pagin > li:last-child > a", using = "css selector")$clickElement()

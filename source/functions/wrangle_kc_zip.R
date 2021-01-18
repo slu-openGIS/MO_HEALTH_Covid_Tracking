@@ -8,7 +8,7 @@ process_kc_zip <- function(dates, reduce = TRUE){
     johnson_data = purrr::map_df(unlist(dates$kc_dates), ~ wrangle_kc_zip(date = .x, county = "Johnson")),
     kc_data = purrr::map_df(unlist(dates$kc_dates), ~ wrangle_kc_zip(date = .x, county = "Kansas City")),
     platte_data = purrr::map_df(unlist(dates$kc_dates), ~ wrangle_kc_zip(date = .x, county = "Platte")),
-    wyandotte_data = purrr::map_df(unlist(dates$kc_dates), ~ wrangle_kc_zip(date = .x, county = "Wyandotte"))
+    wyandotte_data = purrr::map_df(unlist(dates$wyandotte_dates), ~ wrangle_kc_zip(date = .x, county = "Wyandotte"))
   )
   
   if (reduce == TRUE){
