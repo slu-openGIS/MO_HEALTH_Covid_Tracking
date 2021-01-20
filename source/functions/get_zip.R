@@ -288,7 +288,7 @@ get_zip_platte_bi <- function(){
     bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i,')')
     bar <- remDr$findElement(bar_element, using = "css selector")
     remDr$mouseMoveToLocation(webElement = bar)
-    Sys.sleep(0.5)
+    Sys.sleep(1)
     zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
     zip_list[[i]] <- zip_data
   }

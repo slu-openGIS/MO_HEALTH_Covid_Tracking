@@ -26,8 +26,8 @@ kc_zips <- get_zip(state = "MO", county = "Kansas City")
 write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
 
 ## Platte County
-platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
-write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
+# platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
+# write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
 
 ## clean-up
 rm(clay_zips, jackson_zips, kc_zips, platte_zips)
