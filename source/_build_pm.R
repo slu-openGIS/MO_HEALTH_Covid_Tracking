@@ -75,7 +75,7 @@ source("source/functions/get_cases.R")        # scrape case/death data (MO)
 source("source/functions/get_demographics.R") # scrape demographic data (MO)
 source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
 source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
-# source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
+source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date
 source("source/functions/rsel.R")             # open and close RSelenium
 source("source/functions/wrangle_zip.R")      # process zip code data (STL)
@@ -85,7 +85,7 @@ source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
 
 # workflow ####
 
-#source("source/workflow/06_scrape_zips.R")
+source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
 # source("source/workflow/08_create_testing.R")
 source("source/workflow/09_create_stl_hospital.R")
