@@ -46,18 +46,25 @@ get_mo_deaths <- function(){
   
   ## tidy
   ### initial processing
-  out <- dplyr::rename(out,
-                       date = Dod,
-                       value = `Measure Names`,
-                       count = `Measure Values`
-  )
+  # out <- dplyr::rename(out,
+  #                     date = Dod,
+  #                     value = `Measure Names`,
+  #                     count = `Measure Values`
+  # )
   
-  out <- dplyr::select(out, date, value, count)
+  out <- dplyr::rename(out, 
+                       date = Dod,
+                       count = `Confirmed Deaths`)
+  
+  # out <- dplyr::select(out, date, value, count)
+  
+  out <- dplyr::select(out, date, count)
   
   out <- dplyr::filter(out, is.na(date) == FALSE)
   out <- dplyr::filter(out, date != "All")
   
   out <- dplyr::mutate(out, date = lubridate::mdy(date))
+  out <- dplyr::filter(out, date > "2020-03-01")
   
   ### pad first week with 0 deaths
   first_date <- dplyr::select(out, date)
@@ -66,7 +73,7 @@ get_mo_deaths <- function(){
   
   extra_dates <- dplyr::as_tibble(seq(first_date-6, first_date-1, by="days"))
   extra_dates <- dplyr::rename(extra_dates, date = value)
-  extra_dates <- dplyr::mutate(extra_dates, value = "Total Deaths")
+  # extra_dates <- dplyr::mutate(extra_dates, value = "Total Deaths")
   extra_dates <- dplyr::mutate(extra_dates, count = 0)
   
   ### combine data
@@ -74,7 +81,6 @@ get_mo_deaths <- function(){
   
   ### finish tidying
   out <- dplyr::mutate(out, value = "Deaths, Actual")
-  out <- dplyr::filter(out, date > "2020-03-01")
   
   out <- dplyr::mutate(out, avg = zoo::rollmean(count, k = 7, align = "right", fill = NA))
   
