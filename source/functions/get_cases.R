@@ -46,17 +46,17 @@ get_mo_deaths <- function(){
   
   ## tidy
   ### initial processing
-  # out <- dplyr::rename(out,
-  #                     date = Dod,
-  #                     value = `Measure Names`,
-  #                     count = `Measure Values`
-  # )
-  
-  out <- dplyr::rename(out, 
+  out <- dplyr::rename(out,
                        date = Dod,
-                       count = `Confirmed Deaths`)
+                       value = `Measure Names`,
+                       count = `Measure Values`
+  )
   
-  # out <- dplyr::select(out, date, value, count)
+  # out <- dplyr::rename(out, 
+  #                     date = Dod,
+  #                     count = `Confirmed Deaths`)
+  
+  out <- dplyr::select(out, date, value, count)
   
   out <- dplyr::select(out, date, count)
   
@@ -73,7 +73,7 @@ get_mo_deaths <- function(){
   
   extra_dates <- dplyr::as_tibble(seq(first_date-6, first_date-1, by="days"))
   extra_dates <- dplyr::rename(extra_dates, date = value)
-  # extra_dates <- dplyr::mutate(extra_dates, value = "Total Deaths")
+  extra_dates <- dplyr::mutate(extra_dates, value = "Total Deaths")
   extra_dates <- dplyr::mutate(extra_dates, count = 0)
   
   ### combine data
