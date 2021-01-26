@@ -58,13 +58,14 @@ get_mo_deaths <- function(){
   
   out <- dplyr::select(out, date, value, count)
   
-  out <- dplyr::select(out, date, count)
+  # out <- dplyr::select(out, date, count)
   
   out <- dplyr::filter(out, is.na(date) == FALSE)
   out <- dplyr::filter(out, date != "All")
   
   out <- dplyr::mutate(out, date = lubridate::mdy(date))
   out <- dplyr::filter(out, date > "2020-03-01")
+  out <- dplyr::arrange(out, date)
   
   ### pad first week with 0 deaths
   first_date <- dplyr::select(out, date)
