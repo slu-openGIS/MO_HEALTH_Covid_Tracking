@@ -42,14 +42,22 @@ if (q == FALSE){
 }
 
 ## confirm Docker is up and running
-q <- usethis::ui_yeah("Have you started Docker?")
+# q <- usethis::ui_yeah("Have you started Docker?")
 
-if (q == FALSE){
-  stop("Please start Docker before proceeding!")
-}
+# if (q == FALSE){
+#  stop("Please start Docker before proceeding!")
+# }
 
 ## clean-up
 rm(q)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+# start docker ####
+# docker image being used is - selenium/standalone-firefox
+# one update might be to use a more modern firefox version - I think this image is pretty old
+
+system("docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.1")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -95,8 +103,14 @@ source("source/workflow/15_create_demographics.R")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# clean-up ####
+# clean-up R environment ####
 rm(date, user)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+# clean-up docker environment ####
+system("docker stop $(docker ps -a -q)")
+system("docker rm $(docker ps -a -q)")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
