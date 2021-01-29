@@ -23,6 +23,9 @@ if (q == FALSE){
   stop("AM update aborted!")
 }
 
+## confirm St. Louis Pandemic Task Force data
+auto_update <- usethis::ui_yeah("Do you want to automatically update the remote GitHub repo?")
+
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
 # dependencies ####
@@ -86,5 +89,16 @@ if ((update == last_update$current_date) == FALSE){
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
+# optionally pushed to GitHub
+if (auto_update == TRUE){
+  
+  system(paste0("git commit -a -m 'build am data for ", as.character(date+1), "'"))
+  system("git add -A")
+  system("git push origin master")
+  
+}
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
 # clean-up ####
-rm(date, update, last_update, q, get_last_update)
+rm(date, auto_update, update, last_update, q, get_last_update)
