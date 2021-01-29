@@ -51,6 +51,9 @@ if (q == FALSE){
 ## clean-up
 rm(q)
 
+## confirm auto update data
+auto_update <- usethis::ui_yeah("Do you want to automatically update the remote GitHub repo?")
+
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # start docker ####
@@ -104,8 +107,19 @@ source("source/workflow/15_create_demographics.R")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
+# optionally pushed to GitHub
+if (auto_update == TRUE){
+  
+  system("git add -A")
+  system(paste0("git commit -a -m 'build pm data for ", as.character(date), "'"))
+  system("git push origin master")
+  
+}
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
 # clean-up R environment ####
-rm(date, user)
+rm(date, auto_update, user)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
