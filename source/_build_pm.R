@@ -41,13 +41,6 @@ if (q == FALSE){
   stop("Please update the hospitalization data manually before proceeding!")
 }
 
-## confirm Docker is up and running
-# q <- usethis::ui_yeah("Have you started Docker?")
-
-# if (q == FALSE){
-#  stop("Please start Docker before proceeding!")
-# }
-
 ## clean-up
 rm(q)
 
@@ -93,6 +86,7 @@ source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
 
 # workflow ####
 
+source("source/workflow/06_scrape_zips_selenium.R")
 source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
 # source("source/workflow/08_create_testing.R")
