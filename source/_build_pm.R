@@ -41,6 +41,13 @@ if (q == FALSE){
   stop("Please update the hospitalization data manually before proceeding!")
 }
 
+## confirm St. Louis Pandemic Task Force data
+q <- usethis::ui_yeah("Have you started the Docker daemon?")
+
+if (q == FALSE){
+  stop("Please start the Docker daemon before proceeding!")
+}
+
 ## clean-up
 rm(q)
 
