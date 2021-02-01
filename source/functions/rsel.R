@@ -9,8 +9,9 @@ open_rsel <- function(headless){
       port = 4445L,
       version = 'latest',
       browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-      chromever = '87.0.4280.87',
+      chromever = '88.0.4324.96',
       phantomver = "2.1.1",
+      geckover = "latest",
       verbose = F,
       extraCapabilities = list(
         chromeOptions = list(
@@ -25,8 +26,9 @@ open_rsel <- function(headless){
       port = 4445L,
       version = 'latest',
       browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-      chromever = '87.0.4280.87',
+      chromever = '88.0.4324.96',
       phantomver = "2.1.1",
+      geckover = "latest",
       verbose = F
     )
   }
