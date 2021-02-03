@@ -282,21 +282,57 @@ get_zip_platte_bi <- function(){
   # looping through ZCTA and cases from bar graph
   zcta_list <- list()
   zip_list <- list()
-  for(i in 1:10){
+  for(i in 1:12){
     
-    # getting ZCTA
-    zcta_path <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.y.axis.hideLinesOnAxis.setFocusRing > g:nth-child(',i+1,') > text > title')
-    zcta <- selectr::querySelectorAll(zipcode_data_table, zcta_path)
-    zcta <- purrr::map_chr(zcta, xml2::xml_text)
-    zcta_list[[i]] <- zcta
+    if(i <= 9){
+      # getting ZCTA
+      zcta_path <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(6) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.y.axis.hideLinesOnAxis.setFocusRing > g:nth-child(',i+1,') > text > title')
+      zcta <- selectr::querySelectorAll(zipcode_data_table, zcta_path)
+      zcta <- purrr::map_chr(zcta, xml2::xml_text)
+      zcta_list[[i]] <- zcta
+      
+      # getting cases
+      bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(6) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i,')')
+      bar <- remDr$findElement(bar_element, using = "css selector")
+      remDr$mouseMoveToLocation(webElement = bar)
+      Sys.sleep(0.5)
+      zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
+      zip_list[[i]] <- zip_data
+    }
     
-    # getting cases
-    bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(8) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i,')')
-    bar <- remDr$findElement(bar_element, using = "css selector")
-    remDr$mouseMoveToLocation(webElement = bar)
-    Sys.sleep(1)
-    zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
-    zip_list[[i]] <- zip_data
+    if(i == 9){
+      # scrolling down the zip list
+      scrollbar_element <- "#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(6) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > g.brush.responsive > rect.selection"
+      scrollbar <- remDr$findElement(scrollbar_element, using = "css selector")
+      remDr$mouseMoveToLocation(webElement = scrollbar)
+      remDr$buttondown()
+      
+      scrolldown_element <- "#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(15) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(9)"
+      scrolldown <- remDr$findElement(scrolldown_element, using = "css selector")
+      remDr$mouseMoveToLocation(webElement = scrolldown)
+      remDr$buttonup()
+      
+      # re-reading page source
+      zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
+      Sys.sleep(0.5)
+    }
+    
+    if(i > 9){
+      
+      # getting ZCTA
+      zcta_path <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(6) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.y.axis.hideLinesOnAxis.setFocusRing > g:nth-child(',i-2,') > text > title')
+      zcta <- selectr::querySelectorAll(zipcode_data_table, zcta_path)
+      zcta <- purrr::map_chr(zcta, xml2::xml_text)
+      zcta_list[[i]] <- zcta
+      
+      # getting cases
+      bar_element <- paste0('#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToPage > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(6) > transform > div > div:nth-child(3) > div > visual-modern > div > svg.cartesianChart > svg > g.axisGraphicsContext.columnChart > g.columnChartUnclippedGraphicsContext > svg > g > rect:nth-child(',i-3,')')
+      bar <- remDr$findElement(bar_element, using = "css selector")
+      remDr$mouseMoveToLocation(webElement = bar)
+      Sys.sleep(0.5)
+      zip_data <- remDr$findElement('/html/body/div[4]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
+      zip_list[[i]] <- zip_data
+    }
   }
   
   # output
