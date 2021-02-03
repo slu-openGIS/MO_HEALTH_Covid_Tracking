@@ -122,7 +122,7 @@ if (auto_update == TRUE){
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # clean-up R environment ####
-rm(date, auto_update, user)
+rm(date, auto_update, user, browser_name)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
