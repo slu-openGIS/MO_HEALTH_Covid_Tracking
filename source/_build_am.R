@@ -5,7 +5,8 @@
 # these data include:
 #   - the New York Times county data, which is used to build county, metro,
 #     regional, and state data sets for MO and adjacent areas
-#   - CMS nursing home data, but only if it has been updated
+#   - CMS nursing home data, but only if they have been updated
+#   - HHS hospitalization data, but only if they have been updated (in progress)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
@@ -15,12 +16,15 @@
 source("source/functions/get_last_update.R")
 
 ## check last update
-q <- get_last_update()
+q <- get_last_update(source = "New York Times")
 
 ## evaluate last update
 if (q == FALSE){
   stop("AM update aborted!")
 }
+
+## confirm auto update data
+auto_update <- usethis::ui_yeah("Do you want to automatically update the remote GitHub repo?")
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
@@ -66,8 +70,7 @@ source("source/workflow/05_create_regions.R")
 # execute weekly workflow ####
 
 ## check ltc metadata for update
-update <- fromJSON(file = "https://data.cms.gov/api/views/metadata/v1/s2uc-8wxp")
-update <- as.Date(update$dataUpdatedAt)
+update <- get_last_update(source = "CMS")
 load("data/source/ltc/last_update.rda")
 
 ## rebuild ltc data if there has been an update
@@ -75,7 +78,27 @@ if ((update == last_update$current_date) == FALSE){
   source("source/workflow/11_create_ltc.R") 
 }
 
+## check hospitalization metadata for update
+# update <- get_last_update(source = "HHS")
+# load("data/source/hhs/last_update.rda")
+
+## rebuild hhs data if there has been an update
+# if ((update == last_update$current_date) == FALSE){
+#  source("source/workflow/14_create_hhs.R") 
+#}
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+# optionally pushed to GitHub
+if (auto_update == TRUE){
+  
+  system("git add -A")
+  system(paste0("git commit -a -m 'build am data for ", as.character(date+1), "'"))
+  system("git push origin master")
+  
+}
+
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
 # clean-up ####
-rm(date, update, last_update, q, get_last_update)
+rm(date, auto_update, update, last_update, q, get_last_update)

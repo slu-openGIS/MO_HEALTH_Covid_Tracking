@@ -1,13 +1,8 @@
-# scrape zip code data ####
+# scrape zip code data - other approaches ####
 
 ## authorship
 ## Saint Louis University students Alvin Do, Eric Quach, and Metta Pham all
 ## contributed to this script and the underlying functions it calls.
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
-# open RSelenium ####
-open_rsel()
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -25,40 +20,40 @@ write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv
 kc_zips <- get_zip(state = "MO", county = "Kansas City")
 write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
 
-## Platte County
-platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
-write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
-
 ## clean-up
-rm(clay_zips, jackson_zips, kc_zips, platte_zips)
-rm(get_zip_clay, get_zip_jackson, get_zip_kc, get_zip_platte, get_zip_platte_bi, get_zip_platte_html)
+rm(clay_zips, jackson_zips, kc_zips)
+rm(get_zip_clay, get_zip_jackson, get_zip_kc)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # Missouri ZIPs, St. Louis Area ####
 
-## St. Charles County
-st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = TRUE, val = 2)
-write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
+## Franklin County
+
+## Jefferson County
+jefferson_zips <- get_zip(state = "MO", county = "Jefferson")
+write_csv(jefferson_zips, paste0("data/source/stl_daily_zips/jefferson_", date, ".csv"))
+
+## Lincoln County
+lincoln_zips <- get_zip(state = "MO", county = "Lincoln")
+write_csv(lincoln_zips, paste0("data/source/stl_daily_zips/lincoln_", date, ".csv"))
+
+## St. Louis City
+stl_city_zips <- get_zip(state = "MO", county = "St. Louis City")
+write_csv(stl_city_zips, paste0("data/source/stl_daily_zips/stl_city_", date, ".csv"))
+
+## St. Louis County
+stl_county_zips <- get_zip(state = "MO", county = "St. Louis County")
+write_csv(stl_county_zips, paste0("data/source/stl_daily_zips/stl_county_", date, ".csv"))
 
 ## Warren County
 warren_zips <- get_zip(state = "MO", county = "Warren")
 write_csv(warren_zips, paste0("data/source/stl_daily_zips/warren_", date, ".csv"))
 
 ## clean-up
-rm(st_charles_zips, warren_zips)
-rm(get_zip_st_charles, get_zip_warren)
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
-# Illinois ZIPs ####
-
-## Statewide ZIPs
-il_zips <- get_zip(state = "IL")
-write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
-
-## clean-up
-rm(il_zips, get_zip_il)
+rm(warren_zips, lincoln_zips, jefferson_zips, stl_city_zips, stl_county_zips)
+rm(get_zip_warren, get_zip_lincoln, get_zip_jefferson,
+   get_zip_st_louis_city, get_zip_st_louis_county, get_zip_franklin)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -78,15 +73,5 @@ rm(get_zip_johnson, get_zip_wyandotte)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# close RSelenium ####
-
-## shut down
-close_rsel()
-
-## clean-up
-rm(open_rsel, close_rsel)
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
 # final clean-up ####
-rm(get_esri, get_tableau, get_zip)
+rm(get_tableau, get_zip)

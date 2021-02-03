@@ -1,4 +1,4 @@
-get_zip <- function(state, county, method, cut = FALSE, val) {
+get_zip <- function(state, county, method, cut = FALSE, paged = FALSE, val, file) {
   
   load("data/source/paths.rda")
   
@@ -7,20 +7,32 @@ get_zip <- function(state, county, method, cut = FALSE, val) {
     
     if (county == "Clay"){
       out <- get_zip_clay(path = paths$clay)
+    } else if (county == "Franklin"){
+      out <- get_zip_franklin(file = file)
     } else if (county == "Jackson"){
       out <- get_zip_jackson(path = paths$jackson)
+    } else if (county == "Jefferson"){
+      out <- get_zip_jefferson(path = paths$jefferson)
     } else if (county == "Kansas City"){
       out <- get_zip_kc()
+    } else if (county == "Lincoln"){
+      out <- get_zip_lincoln(path = paths$lincoln)
     } else if (county == "Platte"){
       out <- get_zip_platte(method = method)
     } else if (county == "St. Charles"){
       out <- get_zip_st_charles(cut = cut, val = val) 
+    } else if (county == "St. Louis City"){
+      out <- get_zip_st_louis_city(path = paths$st_louis_city)
+    } else if (county == "St. Louis County"){
+      out <- get_zip_st_louis_county(path = paths$st_louis_county_zip)
     } else if (county == "Warren"){
       out <- get_zip_warren()
     }
     
   } else if (state == "IL"){
-    out <- get_zip_il()
+    
+    out <- get_zip_il(paged = paged)
+    
   } else if (state == "KS"){
     
     if (county == "Johnson"){
@@ -55,14 +67,29 @@ get_zip_clay <- function(path){
   
 }
 
-get_zip_il <- function(){
+get_zip_franklin <- function(file){
   
+  ## load reference data
+  tbl <- sf::st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDARY_ZCTA/master/data/geometries/STL_ZCTA_Franklin_County.geojson", 
+                      crs = 4326, stringsAsFactors = FALSE)
+  sf::st_geometry(tbl) <- NULL
+  
+}
+
+get_zip_il <- function(paged = FALSE){
+  
+  # navigate to page and wait for it to load
   remDr$navigate("https://dph.illinois.gov/covid19/statistics")
-  Sys.sleep(3)
+  Sys.sleep(30)
   
-  # find and click the button leading to the Zip Code data
-  remDr$findElement("#pagin > li:last-child > a", using = "css selector")$clickElement()
-  Sys.sleep(3)
+  # the zip data used to be paginated but have not been since late January 2021
+  if (paged == TRUE){
+   
+    # find and click the button leading to the Zip Code data
+    remDr$findElement("#pagin > li:last-child > a", using = "css selector")$clickElement()
+    Sys.sleep(3)
+     
+  }
   
   # fetch the site source in XML
   zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
@@ -127,6 +154,24 @@ get_zip_jackson <- function(path){
   
 }
 
+get_zip_jefferson <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  # tidy
+  out <- dplyr::select(out, ZIP, Active_Cas)
+  out <- dplyr::rename(out, 
+                       zip = ZIP,
+                       count = Active_Cas)
+  out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
+  
+}
+
 get_zip_johnson <- function(){
   
   ## scrape
@@ -175,6 +220,26 @@ get_zip_kc <- function(){
   
 }
 
+get_zip_lincoln <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  ## tidy
+  out <- dplyr::select(out, ZIP_CODE, COVID_Exce)
+  out <- dplyr::rename(out,
+                       zip = ZIP_CODE,
+                       count = COVID_Exce
+  )
+  out <- dplyr::mutate(out, count = ifelse(count < 10, NA, count))
+  out <- dplyr::filter(out, is.na(count) == FALSE)
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
+  
+}
+
 get_zip_platte <- function(method){
   
   if (method == "power bi"){
@@ -209,7 +274,7 @@ get_zip_platte_bi <- function(){
   
   # navigate to dashboard URL
   remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiODRhZjQ5MTEtNTJhNi00NjczLTlmMGYtYmYyNjVkZTEwMzg0IiwidCI6Ijk1Njc2ZGE2LTJlMzYtNGFkNi1hNThlLTUyNzg0NmI3M2M5MyJ9")
-  Sys.sleep(2)
+  Sys.sleep(4)
   
   # obtaining HTML page source
   zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
@@ -273,7 +338,7 @@ get_zip_platte_bi <- function(){
   # output
   out <- do.call(rbind, Map(data.frame, zip=zcta_list, count=zip_list))
   out <- dplyr::mutate(out, count = as.numeric(count))
-  #out <- dplyr::arrange(out, zip)
+  out <- dplyr::arrange(out, zip)
   
   ## return output
   return(out)
@@ -315,11 +380,11 @@ get_zip_st_charles <- function(cut = FALSE, val){
   
   # navigate to the site you wish to analyze
   remDr$navigate("https://app.powerbigov.us/view?r=eyJrIjoiZDFmN2ViMGEtNzQzMC00ZDU3LTkwZjUtOWU1N2RiZmJlOTYyIiwidCI6IjNiMTg1MTYzLTZjYTMtNDA2NS04NDAwLWNhNzJiM2Y3OWU2ZCJ9&pageName=ReportSectionb438b98829599a9276e2&pageName=ReportSectionb438b98829599a9276e2")
-  Sys.sleep(3)
+  Sys.sleep(4)
   
   # find and click the button leading to the Zip Code data
   remDr$findElement('.//button[descendant::span[text()="Zip Code"]]', using="xpath")$clickElement()
-  Sys.sleep(3)
+  Sys.sleep(4)
   
   # fetch the site source in XML
   zipcode_data_table <- xml2::read_html(remDr$getPageSource()[[1]])
@@ -383,14 +448,48 @@ get_zip_st_charles <- function(cut = FALSE, val){
   
 }
 
+get_zip_st_louis_city <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  ## tidy
+  out <- dplyr::select(out, GEOID10, Cases)
+  out <- dplyr::rename(out,
+                zip = GEOID10,
+                count = Cases)
+  out <- dplyr::mutate(out, zip = as.numeric(zip))
+  
+  ## return output
+  return(out)
+  
+}
+
+get_zip_st_louis_county <- function(path){
+  
+  ## scrape
+  out <- get_esri(path = path)
+  
+  ## tidy
+  out <- dplyr::select(out, zip_5, cases_total)
+  out <- dplyr::rename(out,
+                       zip = zip_5,
+                       count = cases_total)
+  out <- dplyr::arrange(out, zip)
+  
+  ## return output
+  return(out)
+  
+}
+
 get_zip_warren <- function(){
   
   # scrape website
-  webpage <- xml2::read_html("https://www.warrencountyhealth.com/")
+  webpage <- xml2::read_html("https://www.warrencountyhealth.com/covid-19-dashboard/")
   webpage <- rvest::html_nodes(webpage, "p")
   
   # tidy scraped data
-  data <- webpage[11]
+  data <- webpage[7]
   data <- suppressWarnings(stringr::str_split(string = data, pattern = "[[:space:]]", simplify = TRUE))
   data <- suppressWarnings(readr::parse_number(data))
   data <- data[is.na(data) == FALSE]
@@ -415,6 +514,7 @@ get_zip_wyandotte <- function(path){
   
   ## scrape
   out <- get_esri(path = path)
+  # out <- get_esri(path = paths$wyandotte)
   
   ## tidy
   out <- dplyr::select(out, zip, confirmed_count)

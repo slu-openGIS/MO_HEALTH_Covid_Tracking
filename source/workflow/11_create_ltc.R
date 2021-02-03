@@ -4,7 +4,8 @@
 
 # load data ####
 ## facility master list
-master_list <- st_read("data/source/ltc/mo_xl_ltc_facilities.geojson")
+master_list <- st_read("data/source/ltc/mo_xl_ltc_facilities.geojson") %>%
+  mutate(p_id = as.character(p_id))
 
 ## covid data
 covid <- read_csv(file = "https://data.cms.gov/api/views/s2uc-8wxp/rows.csv?accessType=DOWNLOAD") %>%
@@ -128,7 +129,8 @@ covid_latest_week %>%
     deaths_staff = s_deaths_covid, 
     new_deaths_res = r_new_deaths_covid,
     new_deaths_staff = s_new_deaths_covid
-  ) -> covid_latest_week
+  ) %>% 
+  mutate(p_id = as.character(p_id)) -> covid_latest_week
 
 ## join with master list
 covid_latest_week <- left_join(master_list, covid_latest_week, by = "p_id")

@@ -15,8 +15,10 @@
 # values ####
 
 ## store current Franklin County file name
-franklin_path <- paste0(lubridate::month(Sys.Date()), " ", stringr::str_pad(lubridate::day(Sys.Date()), 2, pad = "0"), " 2020 Table.xlsx")
-# franklin_path <- "11 15 2020 Table.xlsx"
+# franklin_path <- paste0(lubridate::month(Sys.Date()), " ", stringr::str_pad(lubridate::day(Sys.Date()), 2, pad = "0"), " 2020 Table.xlsx")
+franklin_path <- "Franklin County Data Rolling.xlsx"
+user <- "Chris"
+# user <- "Carter"
 
 ## store date value
 date <- Sys.Date()
@@ -39,8 +41,26 @@ if (q == FALSE){
   stop("Please update the hospitalization data manually before proceeding!")
 }
 
+## confirm St. Louis Pandemic Task Force data
+q <- usethis::ui_yeah("Have you started the Docker daemon?")
+
+if (q == FALSE){
+  stop("Please start the Docker daemon before proceeding!")
+}
+
 ## clean-up
 rm(q)
+
+## confirm auto update data
+auto_update <- usethis::ui_yeah("Do you want to automatically update the remote GitHub repo?")
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+# start docker ####
+# docker image being used is - selenium/standalone-firefox
+# one update might be to use a more modern firefox version - I think this image is pretty old
+
+system("docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.1")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -62,30 +82,50 @@ library(sf)             # mapping tools
 library(zoo)            # rolling means
 
 ## functions
-source("source/functions/get_esri.R")         # scrape ESRI dashboards
-source("source/functions/get_state.R")        # scrape state level data
-source("source/functions/get_tableau.R")      # scrape Tableau dashboards
-source("source/functions/get_zip.R")          # scrape zip code data
+source("source/functions/get_cases.R")        # scrape case/death data (MO)
+source("source/functions/get_demographics.R") # scrape demographic data (MO)
+source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
+source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
+source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date
 source("source/functions/rsel.R")             # open and close RSelenium
-source("source/functions/wrangle_zip.R")      # process zip code data
-source("source/functions/wrangle_kc_zip.R")      # process zip code data
+source("source/functions/wrangle_zip.R")      # process zip code data (STL)
+source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # workflow ####
 
+source("source/workflow/06_scrape_zips_selenium.R")
 source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
 # source("source/workflow/08_create_testing.R")
 source("source/workflow/09_create_stl_hospital.R")
 # source("source/workflow/10_create_kc_counties.R")
 source("source/workflow/12_create_deaths.R")
+source("source/workflow/15_create_demographics.R")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# clean-up ####
-rm(date, get_state)
+# optionally pushed to GitHub
+if (auto_update == TRUE){
+  
+  system("git add -A")
+  system(paste0("git commit -a -m 'build pm data for ", as.character(date), "'"))
+  system("git push origin master")
+  
+}
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+# clean-up R environment ####
+rm(date, auto_update, user)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
+# clean-up docker environment ####
+system("docker stop $(docker ps -a -q)")
+system("docker rm $(docker ps -a -q)")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

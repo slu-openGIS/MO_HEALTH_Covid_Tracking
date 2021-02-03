@@ -32,7 +32,7 @@ open_rsel <- function(headless){
       verbose = F
     )
   }
-  
+ 
   remDr <<- rD$client
   
 }
