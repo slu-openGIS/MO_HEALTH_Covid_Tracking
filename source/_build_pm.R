@@ -23,6 +23,9 @@ user <- "Chris"
 ## store date value
 date <- Sys.Date()
 
+## set browser
+browser_name <- "firefox"
+
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # qa promts ####

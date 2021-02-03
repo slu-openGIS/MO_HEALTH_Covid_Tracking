@@ -2,9 +2,9 @@
 #' This function is used to open and close the RSelenium driver
 #' 
 
-open_rsel <- function(headless){
+open_rsel <- function(browser){
   
-  if (headless == T){
+  if (browser == "chrome"){
     rD <<- RSelenium::rsDriver(
       port = 4445L,
       version = 'latest',
@@ -21,14 +21,12 @@ open_rsel <- function(headless){
             "download.prompt_for_download" = FALSE,
             "download.default_directory" = getwd())))
     )
-  } else {
+  } else if (browser == "firefox") {
     rD <<- RSelenium::rsDriver(
       port = 4445L,
       version = 'latest',
-      browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-      chromever = '88.0.4324.96',
+      browser = "firefox",
       phantomver = "2.1.1",
-      geckover = "latest",
       verbose = F
     )
   }

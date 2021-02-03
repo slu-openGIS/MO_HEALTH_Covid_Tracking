@@ -257,6 +257,7 @@ get_zip_platte <- function(method){
     html <- get_zip_platte_html()
     
     # subset html
+    bi <- dplyr::filter(bi, is.na(count) == FALSE)
     html <- dplyr::filter(html, zip %in% bi$zip == FALSE)
     
     # combine
@@ -338,6 +339,7 @@ get_zip_platte_bi <- function(){
   # output
   out <- do.call(rbind, Map(data.frame, zip=zcta_list, count=zip_list))
   out <- dplyr::mutate(out, count = as.numeric(count))
+  out <- dplyr::mutate(out, count = ifelse(zip == "64028", NA, count))
   out <- dplyr::arrange(out, zip)
   
   ## return output

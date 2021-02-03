@@ -7,15 +7,15 @@
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # open RSelenium ####
-open_rsel()
+open_rsel(browser = browser_name)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # Missouri ZIPs, Kansas City Area ####
 
 ## Platte County
-# platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
-# write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
+platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
+write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
