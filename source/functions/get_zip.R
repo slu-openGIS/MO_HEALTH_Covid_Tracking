@@ -354,11 +354,11 @@ get_zip_platte_html <- function(){
   
   # extract tables
   out <- rvest::html_nodes(webpage, "table")
-  out <- out[[2]]
-  out <- rvest::html_table(out, fill = TRUE)
+  table <- out[[3]]
+  table <- rvest::html_table(table, fill = TRUE)
   
   # tidy table
-  out <- dplyr::select(out, X1, X4)
+  out <- dplyr::select(table, X1, X4)
   out <- dplyr::rename(out, zip = X1, count = X4)
   
   n <- as.numeric(nrow(out))
