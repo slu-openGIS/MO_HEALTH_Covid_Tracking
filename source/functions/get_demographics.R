@@ -292,7 +292,7 @@ get_state_race <- function(){
 get_state_demos_scrape <- function(n){
   
   host_url <- "https://results.mo.gov"
-  path <- "/t/COVID19/views/DemographicsMOBILE/Public-DemographicsMOBILE"
+  path <- "/t/COVID19/views/COVID-19PublicDashboards/Demographics"
   
   body <- xml2::read_html(httr::modify_url(host_url, 
                                            path = path, 
