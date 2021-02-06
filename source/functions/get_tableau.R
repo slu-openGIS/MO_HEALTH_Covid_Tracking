@@ -1,20 +1,6 @@
 #'
 #' Function to scrape public Tableau Dashboards
 #' 
-#' If a website uses a Tableau dashboard to display data, click on the "Share" button on the bottom
-#' and the Link to the dashboard will be given.
-#' 
-#' For `host` arg, paste in the .com https link i.e. "https://public.tableau.com".
-#' For the `views` arg, paste in everything else after the host starting with "/views".
-#' For `n` arg, this will display the selected worksheet from scraping the Tableau data.
-#' 
-#' To explain the worksheet data further, if you set `getWS` arg to `TRUE`, it will display
-#' all the worksheets that contain all the data for the Tableau dashboard. It is best to run
-#' this first and see all the available worksheets before you select worksheet `n` to scrape.
-#' 
-#' Once you find out which worksheet you want to view, do 
-#' get_tableau(host = "some/host", views = "some/views" n = selectedworksheet) #`getWS` is defaulted to be `FALSE`
-#' 
 
 get_tableau <- function(host, views, n, getWS = FALSE){
   
