@@ -416,25 +416,35 @@ get_state_demos_scrape <- function(n){
       transform(`SUM(* Deaths Flag)-value` = as.numeric(`SUM(* Deaths Flag)-value`)) %>% 
       rename(age_group = age..group..value, total = SUM...Deaths.Flag..value)}
   else if(as.integer(selected) == 7){
+    
     df <- df %>%
-      select(`Race-alias`, `SUM(Positive case PCR)-alias`) %>% 
-      transform(`SUM(Positive case PCR)-alias` = as.numeric(`SUM(Positive case PCR)-alias`)) %>% 
-      rename(race = Race.alias, percentage = SUM.Positive.case.PCR..alias)}
-  else if(as.integer(selected) == 5){
+      rename(race = `Race-alias`, percentage = `AGG(SUM([* Positive Cases]) / TOTAL(SUM([* Positive Cases])))-alias`) %>%
+      select(race, percentage) %>% 
+      mutate(percentage = as.numeric(percentage))
+    
+  } else if(as.integer(selected) == 5){
+    
     df <- df %>%
-      select(`Race-alias`, `SUM(Death case)-alias`) %>% 
-      transform(`SUM(Death case)-alias` = as.numeric(`SUM(Death case)-alias`)) %>% 
-      rename(race = Race.alias, percentage = SUM.Death.case..alias)}
-  else if(as.integer(selected) == 6){
+      rename(race = `Race-alias`, percentage = `AGG(SUM([* Deaths]) / TOTAL(SUM([* Deaths])))-alias`) %>%
+      select(race, percentage) %>% 
+      mutate(percentage = as.numeric(percentage))
+    
+  } else if(as.integer(selected) == 6){
+    
     df <- df %>%
-      select(`Ethnicity-alias`, `SUM(Positive case PCR)-alias`) %>% 
-      transform(`SUM(Positive case PCR)-alias` = as.numeric(`SUM(Positive case PCR)-alias`)) %>% 
-      rename(ethnicity = Ethnicity.alias, percentage = SUM.Positive.case.PCR..alias)}
-  else if(as.integer(selected) == 4){
+      rename(ethnicity = `Ethnicity-alias`, percentage = `AGG(SUM([* Positive Cases]) / TOTAL(SUM([* Positive Cases])))-alias`) %>%
+      select(ethnicity, percentage) %>% 
+      mutate(percentage = as.numeric(percentage))
+      
+    
+  } else if(as.integer(selected) == 4){
+    
     df <- df %>%
-      select(`Ethnicity-alias`, `SUM(Death case)-alias`) %>% 
-      transform(`SUM(Death case)-alias` = as.numeric(`SUM(Death case)-alias`)) %>% 
-      rename(ethnicity = Ethnicity.alias, percentage = SUM.Death.case..alias)}
+      rename(ethnicity = `Ethnicity-alias`, percentage = `AGG(SUM([* Deaths]) / TOTAL(SUM([* Deaths])))-alias`) %>%
+      select(ethnicity, percentage) %>% 
+      mutate(percentage = as.numeric(percentage))
+    
+  }
   
   
   return(df)
