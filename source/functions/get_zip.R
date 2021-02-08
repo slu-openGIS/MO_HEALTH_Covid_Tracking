@@ -80,11 +80,11 @@ get_zip_il <- function(paged = FALSE){
   
   # navigate to page and wait for it to load
   remDr$navigate("https://dph.illinois.gov/covid19/statistics")
-  Sys.sleep(30)
+  Sys.sleep(3)
   
   # the zip data used to be paginated but have not been since late January 2021
   if (paged == TRUE){
-   
+  
     # find and click the button leading to the Zip Code data
     remDr$findElement("#pagin > li:last-child > a", using = "css selector")$clickElement()
     Sys.sleep(3)
