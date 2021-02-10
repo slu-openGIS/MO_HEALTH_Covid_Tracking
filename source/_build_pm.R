@@ -24,7 +24,8 @@ user <- "Chris"
 date <- Sys.Date()
 
 ## set browser
-browser_name <- "firefox"
+# browser_name <- "firefox"
+browser_name <- "chrome"
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -63,7 +64,7 @@ auto_update <- usethis::ui_yeah("Do you want to automatically update the remote 
 # docker image being used is - selenium/standalone-firefox
 # one update might be to use a more modern firefox version - I think this image is pretty old
 
-system("docker run -d -p 4445:4444 selenium/standalone-firefox:2.53.1")
+system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
