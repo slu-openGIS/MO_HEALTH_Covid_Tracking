@@ -418,21 +418,21 @@ get_state_demos_scrape <- function(n){
   else if(as.integer(selected) == 7){
     
     df <- df %>%
-      rename(race = `Race-alias`, percentage = `AGG(SUM([* Positive Cases]) / TOTAL(SUM([* Positive Cases])))-alias`) %>%
+      rename(race = `Race-alias`, percentage = `AGG(SUM([* Positive PCR Cases]) / TOTAL(SUM([* Positive PCR Cases])))-alias`) %>%
       select(race, percentage) %>% 
       mutate(percentage = as.numeric(percentage))
     
   } else if(as.integer(selected) == 5){
     
     df <- df %>%
-      rename(race = `Race-alias`, percentage = `AGG(SUM([* Deaths]) / TOTAL(SUM([* Deaths])))-alias`) %>%
+      rename(race = `Race-alias`, percentage = `AGG(SUM([* PCR Deaths]) / TOTAL(SUM([* PCR Deaths])))-alias`) %>%
       select(race, percentage) %>% 
       mutate(percentage = as.numeric(percentage))
     
   } else if(as.integer(selected) == 6){
     
     df <- df %>%
-      rename(ethnicity = `Ethnicity-alias`, percentage = `AGG(SUM([* Positive Cases]) / TOTAL(SUM([* Positive Cases])))-alias`) %>%
+      rename(ethnicity = `Ethnicity-alias`, percentage = `AGG(SUM([* Positive PCR Cases]) / TOTAL(SUM([* Positive PCR Cases])))-alias`) %>%
       select(ethnicity, percentage) %>% 
       mutate(percentage = as.numeric(percentage))
       
@@ -440,7 +440,7 @@ get_state_demos_scrape <- function(n){
   } else if(as.integer(selected) == 4){
     
     df <- df %>%
-      rename(ethnicity = `Ethnicity-alias`, percentage = `AGG(SUM([* Deaths]) / TOTAL(SUM([* Deaths])))-alias`) %>%
+      rename(ethnicity = `Ethnicity-alias`, percentage = `AGG(SUM([* PCR Deaths]) / TOTAL(SUM([* PCR Deaths])))-alias`) %>%
       select(ethnicity, percentage) %>% 
       mutate(percentage = as.numeric(percentage))
     
