@@ -12,6 +12,16 @@
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
+# Region C vaccine data ####
+region_c_vaccines <- dplyr::tibble(
+  value = c("Asian", "Black", "Native", "Other", "Pacific Islander", "Two or More", "White", "Unknown"),
+  pct = c(2, 8, NA, 7, NA, NA, 73, 10)
+)
+
+region_c_total_vaccines <- 311722
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
 # values ####
 
 ## store current Franklin County file name
@@ -44,6 +54,9 @@ q <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data fr
 if (q == FALSE){
   stop("Please update the hospitalization data manually before proceeding!")
 }
+
+## confirm update vaccine data
+region_c_update <- usethis::ui_yeah("Have you updated the Region C vaccination data?")
 
 ## confirm St. Louis Pandemic Task Force data
 q <- usethis::ui_yeah("Have you started the Docker daemon?")
@@ -109,6 +122,12 @@ source("source/workflow/09_create_stl_hospital.R")
 source("source/workflow/12_create_deaths.R")
 source("source/workflow/15_create_demographics.R")
 
+if (region_c_update == TRUE){
+  source("source/workflow/16_create_vaccinations.R")  
+} else if (region_c_update == FALSE){
+  rm(region_c_vaccines, region_c_total_vaccines)
+}
+
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # optionally pushed to GitHub
@@ -123,7 +142,7 @@ if (auto_update == TRUE){
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # clean-up R environment ####
-rm(date, auto_update, user, browser_name)
+rm(date, auto_update, user, browser_name, region_c_update)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
