@@ -95,9 +95,48 @@ rm(race, vaccine_race_ethnic)
 
 # county vaccine rates ####
 
+## load data
+county_sf <- st_read("data/source/mo_county.geojson")
+
+county_tbl <- select(county_sf, GEOID, NAME, pop)
+st_geometry(county_tbl) <- NULL
+
+county_sf %>%
+  select(-NAME, -pop) %>%
+  rename(geoid = GEOID) -> county_sf
+
 ## construct output
 ### scrape totals
-# county <- get_vaccine(metric = "county")
+county <- get_vaccine(metric = "county")
+
+### initial tidy
+county %>%
+  arrange(county) %>%
+  mutate(report_date = date, .before = county) %>%
+  mutate(state = "Missouri", .after = county) %>%
+  left_join(., county_tbl, by = c("county" = "NAME")) %>%
+  select(report_date, GEOID, everything()) %>%
+  rename(geoid = GEOID) %>%
+  mutate(first_dose_rate = first_dose/pop*1000, .after = first_dose) %>%
+  mutate(second_dose_rate = second_dose/pop*1000, .after = second_dose) %>%
+  mutate(total_dose_rate = total_dose/pop*1000, .after = total_dose) %>%
+  mutate(prior_week_rate = prior_week_dose/pop*1000, .after = prior_week_dose) %>%
+  select(-pop) -> county
+  
+### write daily data
+write_csv(county, paste0("data/source/mo_daily_vaccines/mo_daily_vaccines_", date, ".csv"))
+
+### create daily snapshot
+county_daily <- left_join(county_sf, county, by = "geoid") %>%
+  select(report_date, geoid, county, state, everything())
+
+### write daily snapshot data
+county_daily <- st_transform(county_daily, crs = 4326)
+
+st_write(county_daily, "data/county/daily_snapshot_mo_vaccines.geojson", delete_dsn = TRUE)
+
+### clean-up
+rm(county, county_daily, county_sf, county_tbl)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
