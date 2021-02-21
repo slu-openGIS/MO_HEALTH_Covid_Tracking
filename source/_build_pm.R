@@ -102,6 +102,7 @@ library(zoo)            # rolling means
 source("source/functions/get_cases.R")        # scrape case/death data (MO)
 source("source/functions/get_demographics.R") # scrape demographic data (MO)
 source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
+source("source/functions/get_mo_vacc.R")      # scrape vaccine data (MO / STL)
 source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
 source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date
@@ -121,12 +122,7 @@ source("source/workflow/09_create_stl_hospital.R")
 # source("source/workflow/10_create_kc_counties.R")
 source("source/workflow/12_create_deaths.R")
 source("source/workflow/15_create_demographics.R")
-
-if (region_c_update == TRUE){
-  source("source/workflow/16_create_vaccinations.R")  
-} else if (region_c_update == FALSE){
-  rm(region_c_vaccines, region_c_total_vaccines)
-}
+source("source/workflow/16_create_vaccines.R")  
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

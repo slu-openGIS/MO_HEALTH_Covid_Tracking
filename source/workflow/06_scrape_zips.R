@@ -17,8 +17,8 @@ jackson_zips <- get_zip(state = "MO", county = "Jackson")
 write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv"))
 
 ## Kansas City
-kc_zips <- get_zip(state = "MO", county = "Kansas City")
-write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
+# kc_zips <- get_zip(state = "MO", county = "Kansas City")
+# write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
 
 ## clean-up
 rm(clay_zips, jackson_zips, kc_zips)
@@ -74,4 +74,4 @@ rm(get_zip_johnson, get_zip_wyandotte)
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # final clean-up ####
-rm(get_tableau, get_zip)
+rm(get_zip)
