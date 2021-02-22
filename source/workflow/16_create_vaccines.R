@@ -47,18 +47,16 @@ vaccine_ethn <- get_vaccine(metric = "ethnicity")
 
 ### add count of unknown
 vaccine_race_unkown <- tibble(
-  value = "Unknown, Race",
+  value = "Unknown Race",
   first_dose = totals$first - sum(vaccine_race$first_dose),
   second_dose = totals$second - sum(vaccine_race$second_dose),
   total_dose = totals$total - sum(vaccine_race$total_dose)
 )
 
 vaccine_ethn_unknown <- tibble(
-  value = "Unknown, Ethnicity",
-  # first_dose = totals$first - sum(vaccine_race$first_dose),
-  first_dose = NA,
-  # second_dose = totals$second - sum(vaccine_race$second_dose),
-  second_dose = NA,
+  value = "Unknown Ethnicity",
+  first_dose = totals$first - sum(vaccine_race$first_dose),
+  second_dose = totals$second - sum(vaccine_race$second_dose),
   total_dose = totals$total - sum(vaccine_ethn$total_dose)
 )
 

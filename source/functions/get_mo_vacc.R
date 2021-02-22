@@ -39,15 +39,19 @@ get_vaccine <- function(metric){
     ## tidy
     out <- janitor::clean_names(out)
     
+    if ("agg_covid_19_doses_administered_alias" %in% names(out)){
+      stop("Race vaccination data has been updated!")
+    }
+    
     out <- dplyr::rename(out,
       first_dose = agg_first_covid_19_dose_administered_alias,
-      total_dose = agg_covid_19_doses_administered_alias,
+      # total_dose = agg_covid_19_doses_administered_alias,
       value = race_value
     )
     
     out <- dplyr::mutate(out,
                          first_dose = as.numeric(first_dose),
-                         total_dose = as.numeric(total_dose),
+                         # total_dose = as.numeric(total_dose),
                          value = dplyr::case_when(
                            value == "White" ~ "White",
                            value == "Black or African-American" ~ "Black",
@@ -56,6 +60,8 @@ get_vaccine <- function(metric){
                            value == "Native Hawaiian or Other Pacif" ~ "Pacific Islander",
                            value == "Multi-racial" ~ "Two or More"
                          ))
+    
+    out <- dplyr::mutate(out, total_dose = NA)
     
     out <- dplyr::mutate(out, second_dose = total_dose - first_dose)
     out <- dplyr::select(out, value, first_dose, second_dose, total_dose)
@@ -68,22 +74,22 @@ get_vaccine <- function(metric){
     ## tidy
     out <- janitor::clean_names(out)
     
-    if ("agg_first_covid_19_dose_administered_alias" %in% names(out)){
+    if ("agg_covid_19_doses_administered_alias" %in% names(out)){
       stop("Ethnicity vaccination data has been updated!")
     }
     
     out <- dplyr::rename(out,
-                         # first_dose = agg_first_covid_19_dose_administered_alias,
-                         total_dose = agg_covid_19_doses_administered_alias,
+                         first_dose = agg_first_covid_19_dose_administered_alias,
+                         # total_dose = agg_covid_19_doses_administered_alias,
                          value = recip_ethnicity_value
     )    
 
     out <- dplyr::mutate(out,
-                         # first_dose = as.numeric(first_dose),
-                         total_dose = as.numeric(total_dose),
+                         first_dose = as.numeric(first_dose),
+                         # total_dose = as.numeric(total_dose),
                          value = ifelse(value == "Hispanic or Latino", "Latino", "Not Latino"))
         
-    out <- dplyr::mutate(out, first_dose = NA)
+    out <- dplyr::mutate(out, total_dose = NA)
     
     out <- dplyr::mutate(out, second_dose = total_dose - first_dose)
     out <- dplyr::select(out, value, first_dose, second_dose, total_dose)
