@@ -15,10 +15,10 @@
 # Region C vaccine data ####
 region_c_vaccines <- dplyr::tibble(
   value = c("Asian", "Black", "Native", "Other", "Pacific Islander", "Two or More", "White", "Unknown"),
-  pct = c(2, 8, NA, 7, NA, NA, 73, 10)
+  pct = c(2, 8, NA, 8, NA, NA, 72, 10)
 )
 
-region_c_total_vaccines <- 311722
+region_c_total_vaccines <- 359132
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
