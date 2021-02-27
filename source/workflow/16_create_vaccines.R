@@ -100,7 +100,7 @@ county_tbl <- select(county_sf, GEOID, NAME, pop)
 st_geometry(county_tbl) <- NULL
 
 county_sf %>%
-  select(-NAME, -pop) %>%
+  select(-NAME, -pop, -district) %>%
   rename(geoid = GEOID) -> county_sf
 
 ## construct output
@@ -134,10 +134,35 @@ county_daily <- st_transform(county_daily, crs = 4326)
 st_write(county_daily, "data/county/daily_snapshot_mo_vaccines.geojson", delete_dsn = TRUE)
 
 ### clean-up
-rm(county, county_daily, county_sf, county_tbl)
+rm(county, county_sf, county_tbl)
+
+## caclulate patrol areas
+### prep vaccines
+county_daily <- select(county_daily, report_date, geoid, first_dose)
+st_geometry(county_daily) <- NULL
+
+### re-load data
+county_sf <- st_read("data/source/mo_county.geojson") %>%
+  select(GEOID, district, pop)
+st_geometry(county_sf) <- NULL
+
+### combine
+left_join(county_daily, county_sf, by = c("geoid" = "GEOID")) %>%
+  group_by(district) %>%
+  summarise(
+    report_date = first(report_date),
+    first_dose = sum(first_dose),
+    pop = sum(pop)
+  ) %>%
+  mutate(frist_dose_rate = first_dose/pop*1000) %>%
+  select(report_date, everything()) -> district_daily
+
+write_csv(district_daily, "data/district/daily_snapshop_mo_vaccines.csv")
+
+### clean-up
+rm(county_daily, county_sf, district_daily)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
 ## clean-up
 rm(get_mo_vacc, get_tableau, get_vaccine)
-

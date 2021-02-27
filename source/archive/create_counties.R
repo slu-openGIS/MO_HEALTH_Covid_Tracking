@@ -22,8 +22,22 @@ counties <- get_acs(geography = "county", variables = vars,
 counties_sf <- counties(state= 29) %>%
   select(GEOID, NAME)
 
+counties_centroids <- st_transform(counties_sf, crs = 26915) %>%
+  st_centroid() %>%
+  select(GEOID)
+  
+districts <- st_read("data/source/mo_highway_districts.geojson") %>%
+  st_transform(crs = 26915) %>%
+  rename(district = distrct)
+
+districts <- st_intersection(counties_centroids, districts)
+st_geometry(districts) <- NULL
+
+counties_sf <- left_join(counties_sf, districts, by = "GEOID") %>%
+  mutate(district = ifelse(GEOID == "29069", "E", district))
+
 out <- left_join(counties_sf, counties, by = "GEOID") %>%
   arrange(NAME) %>%
   mutate(NAME = ifelse(GEOID == "29510", "St. Louis City", NAME))
 
-st_write(out, "data/source/mo_county.geojson")
+st_write(out, "data/source/mo_county.geojson", delete_dsn = TRUE)
