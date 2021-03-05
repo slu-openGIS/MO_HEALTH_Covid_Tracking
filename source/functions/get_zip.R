@@ -54,8 +54,8 @@ get_zip_clay <- function(path){
   out <- get_esri(path = path)
   
   ## tidy
-  out <- dplyr::select(out, f1, Pop_up_Data_Zip)
-  out <- dplyr::rename(out, zip = f1, count = Pop_up_Data_Zip)
+  out <- dplyr::select(out, f1, f9)
+  out <- dplyr::rename(out, zip = f1, count = f9)
   out <- dplyr::filter(out, zip != 0)
   out <- dplyr::mutate(out, count = ifelse(count %in% c("<6", "0"), NA, count))
   out <- dplyr::mutate(out, count = as.numeric(count))
