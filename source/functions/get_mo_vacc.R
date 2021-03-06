@@ -23,7 +23,7 @@ get_vaccine <- function(metric){
     first <- get_mo_vacc(n = 9)
     first <- dplyr::pull(first, `AGG(COVID-19 Doses Administered)-alias`)
     secnd <- get_mo_vacc(n = 10)
-    secnd <- dplyr::pull(secnd, `AGG(COVID-19 Doses Administered)-alias`)
+    secnd <- dplyr::pull(secnd, `SUM(Vax_Complete)-alias`)
     
     out <- list(
       first = as.numeric(first),
