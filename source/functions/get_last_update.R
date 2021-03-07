@@ -35,20 +35,12 @@ get_last_update <- function(source){
   } else if (source == "HHS"){
     
     ## HHS hospitalization data
-    ## scrape
-    webpage <- xml2::read_html("https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility")
-    
-    ## extract table
-    out <- rvest::html_nodes(webpage, "table")
-    out <- out[[1]]
-    out <- rvest::html_table(out, fill = TRUE)
-    
-    ## subset
-    out <- dplyr::filter(out, Field == "Modified")
-    out <- as.Date(dplyr::pull(out, Value))
+    ## return api last update value
+    x <- fromJSON(file = "https://beta.healthdata.gov/api/views/metadata/v1/anag-cw7u")
+    x <- as.Date(x$updatedAt)
     
     ## return output
-    return(out)
+    return(x)
     
   }
   
