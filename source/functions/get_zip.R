@@ -139,17 +139,57 @@ get_zip_il <- function(paged = FALSE){
   
 } 
 
-get_zip_jackson <- function(path){
+get_zip_jackson <- function(){
   
-  ## scrape
-  out <- get_esri(path = path)
+  # opening PowerBI dashboard
+  remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiOGQ4MmIxM2UtNDFiZi00OTBiLWFhNWUtYmU5MWQ3NmE1ZDc3IiwidCI6IjM2YTEwMDhmLWI2ZDgtNGZjOC1iNjBhLTU2ZDg3OGFlNmU4MyIsImMiOjR9&pageName=ReportSection")
+  Sys.sleep(1)
   
-  ## tidy
-  out <- dplyr::select(out, ZIP, COVID_cases)   
-  out <- dplyr::rename(out, zip = ZIP, count = COVID_cases)
-  out <- dplyr::arrange(out, zip)
+  # clicking tab to take us to ZIP data
+  remDr$findElement('//*[@id="pvExplorationHost"]/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[1]/transform/div/div[2]/visual-container-modern[2]/transform/div/div[3]/div/visual-modern/div/button', using="xpath")$clickElement()
+  Sys.sleep(3)
   
-  ## return output
+  # allowing mouse to center onto map, and activating the JS to display Zip code and cases
+  remDr$mouseMoveToLocation(webElement = remDr$findElement('#labelCanvasId', using = "css selector"))
+  Sys.sleep(1)
+  remDr$findElement('//*[@id="pvExplorationHost"]/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[1]/transform/div/div[2]/visual-container-modern[4]/transform/div/visual-container-header-modern/div/div[1]/div/visual-header-item-container/div/button', using="xpath")$clickElement()
+  
+  # having mouse center on map
+  remDr$mouseMoveToLocation(webElement = remDr$findElement('#labelCanvasId', using = "css selector"))
+  Sys.sleep(1)
+  
+  zip_list <- list()
+  case_list <- list()
+  
+  for(i in 1:25){
+    
+    # mouse hovers on area to display Zip code and cases
+    area_element <- paste0("#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToScreen > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(4) > transform > div > div:nth-child(4) > div > visual-modern > div > div > svg > g.mapShapes > path:nth-child(",i,")")
+    
+    #area_element <- "#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToScreen > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(4) > transform > div > div:nth-child(4) > div > visual-modern > div > div > svg > g.mapShapes > path:nth-child(13)"
+    area <- remDr$findElement(area_element, using = "css selector")
+    remDr$mouseMoveToLocation(webElement = area)
+    
+    if(i == 13){
+      remDr$mouseMoveToLocation(y = -10)
+    }
+    
+    # getting Zip and cases
+    zip_code <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[1]/div[2]/div', using = "xpath")$getElementText()[[1]]
+    cases <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
+    
+    zip_list[[i]] <- zip_code
+    case_list[[i]] <- cases
+    
+    Sys.sleep(1)
+    
+  }
+  
+  # output
+  out <- do.call(rbind, Map(data.frame, zip=zip_list, count=case_list))
+  out <- dplyr::mutate(out, zip = as.numeric(zip_list),
+                       count = as.numeric(count))
+  
   return(out)
   
 }
