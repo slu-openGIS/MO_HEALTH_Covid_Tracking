@@ -12,17 +12,13 @@
 clay_zips <- get_zip(state = "MO", county = "Clay")
 write_csv(clay_zips, paste0("data/source/kc_daily_zips/clay_", date, ".csv"))
 
-## Jackson County
-jackson_zips <- get_zip(state = "MO", county = "Jackson")
-write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv"))
-
 ## Kansas City
 kc_zips <- get_zip(state = "MO", county = "Kansas City")
 write_csv(kc_zips, paste0("data/source/kc_daily_zips/kansas_city_", date, ".csv"))
 
 ## clean-up
-rm(clay_zips, jackson_zips, kc_zips)
-rm(get_zip_clay, get_zip_jackson, get_zip_kc)
+rm(clay_zips, kc_zips)
+rm(get_zip_clay, get_zip_kc)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

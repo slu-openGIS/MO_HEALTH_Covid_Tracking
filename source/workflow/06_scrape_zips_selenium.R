@@ -13,6 +13,10 @@ open_rsel(browser = browser_name)
 
 # Missouri ZIPs, Kansas City Area ####
 
+## Jackson County
+jackson_zips <- get_zip(state = "MO", county = "Jackson")
+write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv"))
+
 ## Platte County
 platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
 write_csv(platte_zips, paste0("data/source/kc_daily_zips/platte_", date, ".csv"))
@@ -36,9 +40,9 @@ write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 ## clean-up
-rm(platte_zips, st_charles_zips, il_zips)
+rm(platte_zips, st_charles_zips, il_zips, jackson_zips)
 rm(get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_il,
-   get_zip_st_charles)
+   get_zip_st_charles, get_zip_jackson)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
