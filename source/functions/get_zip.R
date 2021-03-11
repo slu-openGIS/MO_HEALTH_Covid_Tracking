@@ -143,7 +143,7 @@ get_zip_jackson <- function(){
   
   # opening PowerBI dashboard
   remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiOGQ4MmIxM2UtNDFiZi00OTBiLWFhNWUtYmU5MWQ3NmE1ZDc3IiwidCI6IjM2YTEwMDhmLWI2ZDgtNGZjOC1iNjBhLTU2ZDg3OGFlNmU4MyIsImMiOjR9&pageName=ReportSection")
-  Sys.sleep(1)
+  Sys.sleep(3)
   
   # clicking tab to take us to ZIP data
   remDr$findElement('//*[@id="pvExplorationHost"]/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[1]/transform/div/div[2]/visual-container-modern[2]/transform/div/div[3]/div/visual-modern/div/button', using="xpath")$clickElement()
