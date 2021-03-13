@@ -49,11 +49,7 @@ if (q == FALSE){
 }
 
 ## confirm St. Louis Pandemic Task Force data
-q <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
-
-if (q == FALSE){
-  stop("Please update the hospitalization data manually before proceeding!")
-}
+hospital_update <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
 
 ## confirm update vaccine data
 region_c_update <- usethis::ui_yeah("Have you updated the Region C vaccination data?")
@@ -117,9 +113,11 @@ source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
 source("source/workflow/06_scrape_zips_selenium.R")
 source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
-# source("source/workflow/08_create_testing.R")
-source("source/workflow/09_create_stl_hospital.R")
-# source("source/workflow/10_create_kc_counties.R")
+
+if (hospital_update == TRUE){
+  source("source/workflow/09_create_stl_hospital.R")
+}
+
 source("source/workflow/12_create_deaths.R")
 source("source/workflow/15_create_demographics.R")
 source("source/workflow/16_create_vaccines.R")  
