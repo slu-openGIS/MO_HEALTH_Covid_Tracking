@@ -136,7 +136,7 @@ if (auto_update == TRUE){
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # clean-up R environment ####
-rm(date, auto_update, user, browser_name, region_c_update)
+rm(date, auto_update, hospital_update, user, browser_name, region_c_update)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
