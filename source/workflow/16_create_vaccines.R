@@ -41,6 +41,10 @@ race <- read_csv("data/source/mo_race.csv") %>%
 ### scrape totals
 totals <- get_vaccine(metric = "totals")
 
+### store totals
+tibble(report_date = date, initiated = totals$initiated, complete = totals$complete) %>%
+  write_csv(file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
+
 ### scrape breakdowns
 vaccine_race <- get_vaccine(metric = "race")
 vaccine_ethn <- get_vaccine(metric = "ethnicity")
