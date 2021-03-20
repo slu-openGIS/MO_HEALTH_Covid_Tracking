@@ -209,11 +209,8 @@ st_write(county_covid, "data/nursing_home_ltc/mo_xl_ltc_county.geojson",
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
 # write last update ####
-last_date <- unique(covid_latest_week$report_date, na.rm = TRUE)
-last_date <- na.omit(last_date)
-
 last_update <- list(
-  last_date = last_date,
+  last_date = sort(unique(covid_latest_week$report_date, na.rm = TRUE), decreasing = TRUE)[1],
   statewide_date = date,
   current_date = date+1
 )

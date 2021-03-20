@@ -33,8 +33,8 @@ metro_counties <- list(
 # load data ####
 ## covid data
 # hosp_sf <- sf::st_read(dsn = "https://beta.healthdata.gov/api/geospatial/anag-cw7u?method=export&format=GeoJSON")
-# hosp <- read_csv(file = "https://beta.healthdata.gov/api/views/anag-cw7u/rows.csv")
-hosp <- read_csv(file = "https://healthdata.gov/sites/default/files/reported_hospital_capacity_admissions_facility_level_weekly_average_timeseries_20210228.csv")
+hosp <- read_csv(file = "https://beta.healthdata.gov/api/views/anag-cw7u/rows.csv",
+                 col_types = cols(collection_week = col_date(format = "")))
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
@@ -109,9 +109,65 @@ hosp %>%
     short_name == "St. Joseph" ~ "41140",
     short_name == "St. Louis" ~ "41180"
   )) %>%
-  select(report_date, geoid, short_name, everything()) -> hosp_metro
-
-hosp_metro %>%
+  select(report_date, geoid, short_name, everything()) %>%
   mutate(covid_per_cap = adult_covid/staffed_beds*1000, .after = adult_covid) -> hosp_metro
 
 write_csv(hosp_metro, "data/metro_all/metro_hospital.csv")
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+hosp %>%
+  mutate(region = case_when(
+    geoid %in% metro_counties$st_louis_mo ~ "St. Louis",
+    geoid %in% metro_counties$kansas_city_mo ~ "Kansas City",
+    geoid %in% c(metro_counties$st_louis_mo, metro_counties$kansas_city_mo) == FALSE ~ "Outstate"
+  )) %>%
+  filter(is.na(region) == FALSE) %>%
+  group_by(region, report_date) %>%
+  summarise(
+    staffed_beds = sum(staffed_beds, na.rm = TRUE),
+    occupied_beds = sum(occupied_beds, na.rm = TRUE),
+    adult_covid = sum(adult_covid, na.rm = TRUE),
+    pediatric_covid = sum(pediatric_covid, na.rm = TRUE),
+    occupied_icu_beds = sum(occupied_icu_beds, na.rm = TRUE),
+    staffed_icu_beds = sum(staffed_icu_beds, na.rm = TRUE),
+    adult_covid_icu = sum(adult_covid_icu, na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  select(report_date, region, everything()) %>%
+  mutate(covid_per_cap = adult_covid/staffed_beds*1000, .after = adult_covid) -> hosp_region
+
+hosp %>%
+  filter(state == "MO") %>%
+  mutate(region = "Missouri") %>% 
+  group_by(region, report_date) %>%
+  summarise(
+    staffed_beds = sum(staffed_beds, na.rm = TRUE),
+    occupied_beds = sum(occupied_beds, na.rm = TRUE),
+    adult_covid = sum(adult_covid, na.rm = TRUE),
+    pediatric_covid = sum(pediatric_covid, na.rm = TRUE),
+    occupied_icu_beds = sum(occupied_icu_beds, na.rm = TRUE),
+    staffed_icu_beds = sum(staffed_icu_beds, na.rm = TRUE),
+    adult_covid_icu = sum(adult_covid_icu, na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  select(report_date, region, everything()) %>%
+  mutate(covid_per_cap = adult_covid/staffed_beds*1000, .after = adult_covid) -> hosp_state
+
+hosp_region <- bind_rows(hosp_region, hosp_state) %>%
+  arrange(region, report_date)
+
+write_csv(hosp_region, "data/region/region_meso_hospital.csv")
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+# write last update ####
+last_update <- list(
+  last_date = sort(unique(hosp$report_date, na.rm = TRUE), decreasing = TRUE)[1],
+  statewide_date = date,
+  current_date = date+1
+)
+
+save(last_update, file = "data/source/hhs/last_update.rda")
+
+rm(hosp, hosp_metro, hosp_region, hosp_state, metro_counties, last_update)

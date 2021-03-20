@@ -39,11 +39,9 @@ library(readr)          # csv file tools
 
 ### spatial
 library(sf)             # mapping tools
-# library(tigris)
 
 ### other
 library(janitor)        # data wrangling
-library(rjson)          # parse json
 library(zoo)            # rolling means
 
 ## functions
@@ -79,13 +77,13 @@ if ((update == last_update$current_date) == FALSE){
 }
 
 ## check hospitalization metadata for update
-# update <- get_last_update(source = "HHS")
-# load("data/source/hhs/last_update.rda")
+update <- get_last_update(source = "HHS")
+load("data/source/hhs/last_update.rda")
 
 ## rebuild hhs data if there has been an update
-# if ((update == last_update$current_date) == FALSE){
-#  source("source/workflow/14_create_hhs.R") 
-#}
+if ((update == last_update$current_date) == FALSE){
+  source("source/workflow/14_create_hhs.R") 
+}
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
