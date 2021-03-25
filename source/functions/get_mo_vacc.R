@@ -87,15 +87,15 @@ get_vaccine <- function(metric){
     ) 
     
     out <- dplyr::select(out, county, value, count)
-    out <- dplyr::filter(out, value %in% c("Percent of Population First Dose", # "Percent of Population Initiating Vaccination"
+    out <- dplyr::filter(out, value %in% c("Percent of Population Initiating Vaccination",
                                            "COVID-19 Doses Administered") == FALSE)
     out <- dplyr::mutate(out, count = stringr::str_replace(string = count, patter = ",", replacement = ""))
     out <- dplyr::mutate(out, count = as.numeric(count))
     
     out <- dplyr::mutate(out, value = dplyr::case_when(
       value == "7-Day COVID-19 Doses Administered" ~ "last7",
-      value == "Vax Complete" ~ "complete", # "COVID-19 Vaccine Regimen Completed"
-      value == "First COVID-19 Dose Administered" ~ "initiated" # "COVID-19 Vaccine Regimen Initiated"
+      value == "COVID-19 Vaccine Regimen Completed" ~ "complete", 
+      value == "COVID-19 Vaccine Regimen Initiated" ~ "initiated"
     ))
     
     out <- tidyr::pivot_wider(out, id = county, names_from = value, values_from = count)
