@@ -7,18 +7,6 @@
 #   - Testing data for Missouri and adjacent states (currently paused because
 #     of dashboard changes at the state level)
 #   - Hospitalization data for St. Louis
-#   - Kansas City county breakdowns (currently paused because legacy dashboard 
-#     has not been updated)
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
-# Region C vaccine data ####
-region_c_vaccines <- dplyr::tibble(
-  value = c("Asian", "Black", "Native", "Other", "Pacific Islander", "Two or More", "White", "Unknown"),
-  pct = c(2, 8, NA, 8, NA, NA, 72, 10)
-)
-
-region_c_total_vaccines <- 359132
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -50,9 +38,6 @@ if (q == FALSE){
 
 ## confirm St. Louis Pandemic Task Force data
 hospital_update <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
-
-## confirm update vaccine data
-region_c_update <- usethis::ui_yeah("Have you updated the Region C vaccination data?")
 
 ## confirm St. Louis Pandemic Task Force data
 q <- usethis::ui_yeah("Have you started the Docker daemon?")
@@ -136,7 +121,7 @@ if (auto_update == TRUE){
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # clean-up R environment ####
-rm(date, auto_update, hospital_update, user, browser_name, region_c_update)
+rm(date, auto_update, hospital_update, user, browser_name)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
