@@ -14,8 +14,8 @@ open_rsel(browser = browser_name)
 # Missouri ZIPs, Kansas City Area ####
 
 ## Jackson County
-jackson_zips <- get_zip(state = "MO", county = "Jackson")
-write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv"))
+# jackson_zips <- get_zip(state = "MO", county = "Jackson")
+# write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv"))
 
 ## Platte County
 platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
