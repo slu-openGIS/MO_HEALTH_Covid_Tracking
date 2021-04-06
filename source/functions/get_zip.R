@@ -36,7 +36,7 @@ get_zip <- function(state, county, method, cut = FALSE, paged = FALSE, val, file
   } else if (state == "KS"){
     
     if (county == "Johnson"){
-      out <- get_zip_johnson()
+      out <- get_zip_johnson(path = paths$johnson)
     } else if (county == "Wyandotte"){
       out <- get_zip_wyandotte(path = paths$wyandotte)
     }
@@ -212,26 +212,20 @@ get_zip_jefferson <- function(path){
   
 }
 
-get_zip_johnson <- function(){
+get_zip_johnson <- function(path){
   
   ## scrape
-  out <- get_tableau(host = "https://public.tableau.com", 
-                     views = "/views/covid19_joco_public/dbCumulative", 
-                     n = 1)
+  out <- get_esri(path = path)
   
   ## tidy
-  out <- janitor::clean_names(out)
-  out <- dplyr::select(out, zip_alias, attr_positive_count_alias)
-  out <- dplyr::rename(out, zip = zip_alias, count = attr_positive_count_alias)
-  out <- dplyr::mutate(out, count = ifelse(count %in% c("<6", "0"), NA, count))
-  out <- dplyr::mutate(out, count = as.numeric(count))
-  out <- dplyr::filter(out, is.na(count) == FALSE)
-  out <- dplyr::arrange(out, zip)
+  out <- dplyr::select(out, Zip, Positives)
+  out <- dplyr::rename(out, 
+                       zip = Zip,
+                       count = Positives)
   
   ## return output
   return(out)
-  
-}
+}  
 
 get_zip_kc <- function(){
   
