@@ -142,7 +142,7 @@ get_zip_il <- function(paged = FALSE){
 get_zip_jackson <- function(){
   
   # opening PowerBI dashboard
-  remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiOGQ4MmIxM2UtNDFiZi00OTBiLWFhNWUtYmU5MWQ3NmE1ZDc3IiwidCI6IjM2YTEwMDhmLWI2ZDgtNGZjOC1iNjBhLTU2ZDg3OGFlNmU4MyIsImMiOjR9&pageName=ReportSection")
+  remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiOWE4YjAwZDUtZDZiMy00M2M4LWI4ZTItY2QyOTgzMTMwYzY3IiwidCI6IjM2YTEwMDhmLWI2ZDgtNGZjOC1iNjBhLTU2ZDg3OGFlNmU4MyIsImMiOjR9")
   Sys.sleep(1)
   
   # clicking tab to take us to ZIP data
@@ -159,9 +159,9 @@ get_zip_jackson <- function(){
   Sys.sleep(1)
   
   zip_list <- list()
-  case_list <- list()
+  inc_list <- list()
   
-  for(i in 1:25){
+  for(i in 1:26){
     
     # mouse hovers on area to display Zip code and cases
     area_element <- paste0("#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToScreen > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(4) > transform > div > div:nth-child(4) > div > visual-modern > div > div > svg > g.mapShapes > path:nth-child(",i,")")
@@ -176,19 +176,20 @@ get_zip_jackson <- function(){
     
     # getting Zip and cases
     zip_code <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[1]/div[2]/div', using = "xpath")$getElementText()[[1]]
-    cases <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
+    incidence <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
     
     zip_list[[i]] <- zip_code
-    case_list[[i]] <- cases
+    inc_list[[i]] <- incidence
     
     Sys.sleep(1)
     
   }
   
   # output
-  out <- do.call(rbind, Map(data.frame, zip=zip_list, count=case_list))
+  out <- do.call(rbind, Map(data.frame, zip=zip_list, incidence=inc_list))
   out <- dplyr::mutate(out, zip = as.numeric(zip_list),
-                       count = as.numeric(count))
+                       incidence = as.numeric(inc_list))
+  out <- dplyr::distinct(out)
   
   return(out)
   
