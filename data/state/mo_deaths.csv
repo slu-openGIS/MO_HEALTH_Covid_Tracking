@@ -375,6 +375,8 @@ date,value,count,avg
 2021-03-30,"Deaths, Actual",1,1.5714285714285714
 2021-03-31,"Deaths, Actual",1,1.2857142857142858
 2021-04-01,"Deaths, Actual",1,1.4285714285714286
+2021-04-04,"Deaths, Actual",1,1.4285714285714286
+2021-04-05,"Deaths, Actual",0,1
 2020-03-18,"Deaths, Reported",1,0.14285714285714285
 2020-03-19,"Deaths, Reported",0,0.14285714285714285
 2020-03-20,"Deaths, Reported",2,0.42857142857142855
@@ -759,3 +761,4 @@ date,value,count,avg
 2021-04-03,"Deaths, Reported",3,6.571428571428571
 2021-04-04,"Deaths, Reported",0,6.428571428571429
 2021-04-05,"Deaths, Reported",2,10
+2021-04-06,"Deaths, Reported",9,4
