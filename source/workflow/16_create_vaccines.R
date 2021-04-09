@@ -4,8 +4,8 @@
 
 # scrape race data (state)
 ## load source data
-race <- read_csv("data/source/mo_race.csv") %>%
-  mutate(geoid = as.character(geoid))
+# race <- read_csv("data/source/mo_race.csv") %>%
+#  mutate(geoid = as.character(geoid))
 
 ## construct output
 ### scrape totals
@@ -16,43 +16,44 @@ tibble(report_date = date, initiated = totals$initiated, complete = totals$compl
   write_csv(file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
 
 ### scrape breakdowns
-vaccine_race <- get_vaccine(metric = "race")
-vaccine_ethn <- get_vaccine(metric = "ethnicity")
+# vaccine_race <- get_vaccine(metric = "race")
+# vaccine_ethn <- get_vaccine(metric = "ethnicity")
 
 ### add count of unknown
-vaccine_race_unkown <- tibble(
-  value = "Unknown Race",
-  initiated = totals$initiated - sum(vaccine_race$initiated)
-)
+# vaccine_race_unkown <- tibble(
+#  value = "Unknown Race",
+#  initiated = totals$initiated - sum(vaccine_race$initiated)
+# )
 
-vaccine_ethn_unknown <- tibble(
-  value = "Unknown Ethnicity",
-  initiated = totals$initiated - sum(vaccine_race$initiated)
-)
+# vaccine_ethn_unknown <- tibble(
+#  value = "Unknown Ethnicity",
+#  initiated = totals$initiated - sum(vaccine_race$initiated)
+# )
 
 ### remove not latino
-vaccine_ethn <- filter(vaccine_ethn, value == "Latino")
+# vaccine_ethn <- filter(vaccine_ethn, value == "Latino")
 
 ### bind
-vaccine_race_ethnic <- bind_rows(vaccine_race, vaccine_ethn, vaccine_race_unkown,
-                                 vaccine_ethn_unknown)
+# vaccine_race_ethnic <- bind_rows(vaccine_race, vaccine_ethn, vaccine_race_unkown,
+#                                 vaccine_ethn_unknown)
 
 ### clean-up
-rm(vaccine_race, vaccine_ethn, vaccine_race_unkown,
-   vaccine_ethn_unknown, totals)
+# rm(vaccine_race, vaccine_ethn, vaccine_race_unkown,
+#   vaccine_ethn_unknown, totals)
+rm(totals)
 
 ### calculate rates
-left_join(vaccine_race_ethnic, race, by = "value") %>%
-  mutate(iniitiated_rate = initiated/pop*100000) %>%
-  select(geoid, value, initiated, iniitiated_rate) %>%
-  mutate(geoid = 29) %>%
-  mutate(report_date = date, .before = "geoid") -> vaccine_race_ethnic
+# left_join(vaccine_race_ethnic, race, by = "value") %>%
+#  mutate(iniitiated_rate = initiated/pop*100000) %>%
+#  select(geoid, value, initiated, iniitiated_rate) %>%
+#  mutate(geoid = 29) %>%
+#  mutate(report_date = date, .before = "geoid") -> vaccine_race_ethnic
 
 ## write data
-write_csv(vaccine_race_ethnic, "data/individual/mo_vaccine_race_rates.csv")
+# write_csv(vaccine_race_ethnic, "data/individual/mo_vaccine_race_rates.csv")
 
 ## clean-up
-rm(race, vaccine_race_ethnic)
+# rm(race, vaccine_race_ethnic)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
