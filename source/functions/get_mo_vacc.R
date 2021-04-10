@@ -18,7 +18,7 @@ get_vaccine <- function(metric){
   } else if (metric == "totals") {
     
     initiated <- get_mo_vacc(n = 7)
-    initiated <- dplyr::pull(initiated, `AGG(COVID-19 Doses Administered)-alias`)
+    initiated <- dplyr::pull(initiated, `AGG(First COVID-19 Dose Administered)-alias`)
     complete <- get_mo_vacc(n = 8)
     complete <- dplyr::pull(complete, `SUM(Vax Complete)-alias`)
     
