@@ -15,7 +15,7 @@ open_rsel(browser = browser_name)
 
 ## Jackson County
 # jackson_zips <- get_zip(state = "MO", county = "Jackson")
-# write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, ".csv"))
+# write_csv(jackson_zips, paste0("data/source/kc_daily_zips/jackson_", date, "_rates.csv"))
 
 ## Platte County
 platte_zips <- get_zip(state = "MO", county = "Platte", method = "mixed")
