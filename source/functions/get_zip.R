@@ -143,7 +143,7 @@ get_zip_jackson <- function(){
   
   # opening PowerBI dashboard
   remDr$navigate("https://app.powerbi.com/view?r=eyJrIjoiOWE4YjAwZDUtZDZiMy00M2M4LWI4ZTItY2QyOTgzMTMwYzY3IiwidCI6IjM2YTEwMDhmLWI2ZDgtNGZjOC1iNjBhLTU2ZDg3OGFlNmU4MyIsImMiOjR9")
-  Sys.sleep(1)
+  Sys.sleep(2)
   
   # clicking tab to take us to ZIP data
   remDr$findElement('//*[@id="pvExplorationHost"]/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[1]/transform/div/div[2]/visual-container-modern[2]/transform/div/div[3]/div/visual-modern/div/button', using="xpath")$clickElement()
@@ -151,7 +151,7 @@ get_zip_jackson <- function(){
   
   # allowing mouse to center onto map, and activating the JS to display Zip code and cases
   remDr$mouseMoveToLocation(webElement = remDr$findElement('#labelCanvasId', using = "css selector"))
-  Sys.sleep(1)
+  Sys.sleep(2)
   remDr$findElement('//*[@id="pvExplorationHost"]/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[1]/transform/div/div[2]/visual-container-modern[4]/transform/div/visual-container-header-modern/div/div[1]/div/visual-header-item-container/div/button', using="xpath")$clickElement()
   
   # having mouse center on map
@@ -165,23 +165,23 @@ get_zip_jackson <- function(){
     
     # mouse hovers on area to display Zip code and cases
     area_element <- paste0("#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToScreen > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(4) > transform > div > div:nth-child(4) > div > visual-modern > div > div > svg > g.mapShapes > path:nth-child(",i,")")
-    
-    #area_element <- "#pvExplorationHost > div > div > exploration > div > explore-canvas-modern > div > div.canvasFlexBox > div > div.displayArea.disableAnimations.fitToScreen > div.visualContainerHost > visual-container-repeat > visual-container-modern:nth-child(4) > transform > div > div:nth-child(4) > div > visual-modern > div > div > svg > g.mapShapes > path:nth-child(13)"
     area <- remDr$findElement(area_element, using = "css selector")
     remDr$mouseMoveToLocation(webElement = area)
     
-    if(i == 13){
+    # Nudging the mouse to pull up data 
+    if(i == 1&&13){
       remDr$mouseMoveToLocation(y = -10)
     }
+    
+    Sys.sleep(1)
     
     # getting Zip and cases
     zip_code <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[1]/div[2]/div', using = "xpath")$getElementText()[[1]]
     incidence <- remDr$findElement('/html/body/div[5]/visual-tooltip-modern/div/div/div/div/div[2]/div[2]/div', using = "xpath")$getElementText()[[1]]
     
+    # Adding to list
     zip_list[[i]] <- zip_code
     inc_list[[i]] <- incidence
-    
-    Sys.sleep(1)
     
   }
   
