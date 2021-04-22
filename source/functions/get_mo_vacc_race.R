@@ -1,8 +1,6 @@
 get_mo_vacc_race <- function(){
   
   race_list <- list()
-  percent_list <- list()
-  metric_list <- list()
   total_init_list <- list()
   total_comp_list <- list()
   
@@ -32,18 +30,16 @@ get_mo_vacc_race <- function(){
   Sys.sleep(1)
   
   # Gathering the data
-  for (i in 1:12){
+  for (i in 1:6){
     data <- xml2::read_html(remDr$getPageSource()[[1]])
     data <- selectr::querySelectorAll(data, "div.tab-tooltip table tbody tr td span")
     data <- purrr::map_chr(data, xml2::xml_text)
     
     race_list[i] <- data[3]
-    metric_list[i] <- gsub(':', '', data[4])
-    percent_list[i] <- gsub('%', '', data[5])
     total_init_list[i] <- gsub(',', '', data[7])
     total_comp_list[i] <- gsub(',', '', data[9])
     
-    remDr$mouseMoveToLocation(x = 75)
+    remDr$mouseMoveToLocation(x = 150)
     
   }
   
@@ -58,32 +54,27 @@ get_mo_vacc_race <- function(){
   remDr$mouseMoveToLocation(x = -440, y = 165)
   
   # Gathering data
-  for (i in 1:2){
-    data <- xml2::read_html(remDr$getPageSource()[[1]])
-    data <- selectr::querySelectorAll(data, "div.tab-tooltip table tbody tr td span")
-    data <- purrr::map_chr(data, xml2::xml_text)
-    
-    race_list[12+i] <- data[3]
-    metric_list[12+i] <- gsub(':', '', data[4])
-    percent_list[12+i] <- gsub('%', '', data[5])
-    total_init_list[12+i] <- gsub(',', '', data[7])
-    total_comp_list[12+i] <- gsub(',', '', data[9])
-    
-    remDr$mouseMoveToLocation(x = 240)
-  }
+  remDr$mouseMoveToLocation(webElement = eth_barplot)
+  remDr$mouseMoveToLocation(x = -440, y = 165)
+  
+  data <- xml2::read_html(remDr$getPageSource()[[1]])
+  data <- selectr::querySelectorAll(data, "div.tab-tooltip table tbody tr td span")
+  data <- purrr::map_chr(data, xml2::xml_text)
+  
+  race_list[7] <- data[3]
+  total_init_list[7] <- gsub(',', '', data[7])
+  total_comp_list[7] <- gsub(',', '', data[9])
   
   # tidy
-  out <- do.call(rbind, Map(data.frame, 
-                            race=race_list,
-                            metric = metric_list,
-                            percent=percent_list,
-                            total_first_dose = total_init_list,
-                            total_completed = total_comp_list))
+  out <- do.call(rbind, Map(data.frame,
+                            report_date = Sys.Date() - 1,
+                            geoid = 29,
+                            value=race_list,
+                            initiated = total_init_list,
+                            completed = total_comp_list))
   
   out <- dplyr::mutate(out, 
-                       percent = as.numeric(percent),
-                       total_first_dose = as.numeric(total_first_dose),
-                       total_completed = as.numeric(total_completed))
+                       initiated = as.numeric(initiated),
+                       completed = as.numeric(completed))
   return(out)
-  
 }
