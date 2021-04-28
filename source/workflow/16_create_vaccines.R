@@ -16,48 +16,48 @@ tibble(report_date = date, initiated = totals$initiated, complete = totals$compl
   write_csv(file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
 
 ### prep breakdowns
-vaccine_race_ethnic <- mutate(vaccine_race_ethnic, value = case_when(
-  value == "American Indian or Alaska Native" ~ "Native",
-  value == "Asian" ~ "Asian",
-  value == "Black or African-American" ~ "Black",
-  value == "Multi-racial" ~ "Two or More",
-  value == "Native Hawaiian or Other Pacific Islander" ~ "Pacific Islander",
-  value == "White" ~ "White",
-  value == "Hispanic or Latino" ~ "Latino"
-))
+# vaccine_race_ethnic <- mutate(vaccine_race_ethnic, value = case_when(
+#  value == "American Indian or Alaska Native" ~ "Native",
+#  value == "Asian" ~ "Asian",
+#  value == "Black or African-American" ~ "Black",
+#  value == "Multi-racial" ~ "Two or More",
+#  value == "Native Hawaiian or Other Pacific Islander" ~ "Pacific Islander",
+#  value == "White" ~ "White",
+#  value == "Hispanic or Latino" ~ "Latino"
+# ))
 
 ### add count of unknown
-vaccine_race <- filter(vaccine_race_ethnic, value != "Latino")
+# vaccine_race <- filter(vaccine_race_ethnic, value != "Latino")
 
-vaccine_race_unkown <- tibble(
-  report_date = date,
-  geoid = 29,
-  value = "Unknown",
-  initiated = totals$initiated - sum(vaccine_race$initiated),
-  completed = totals$complete - sum(vaccine_race$completed)
-)
+# vaccine_race_unkown <- tibble(
+#  report_date = date,
+#  geoid = 29,
+#  value = "Unknown",
+#  initiated = totals$initiated - sum(vaccine_race$initiated),
+#  completed = totals$complete - sum(vaccine_race$completed)
+# )
 
 ### bind
-vaccine_race_ethnic <- bind_rows(vaccine_race_ethnic, vaccine_race_unkown)
+# vaccine_race_ethnic <- bind_rows(vaccine_race_ethnic, vaccine_race_unkown)
 
-vaccine_race_ethnic <- mutate(vaccine_race_ethnic, report_date = date)
+# vaccine_race_ethnic <- mutate(vaccine_race_ethnic, report_date = date)
 
 ### clean-up
-rm(vaccine_race, vaccine_race_unkown, totals)
+# rm(vaccine_race, vaccine_race_unkown, totals)
 
 ### calculate rates
-race %>%
-  select(-geoid) %>%
-  left_join(vaccine_race_ethnic, ., by = "value") %>%
-  mutate(initiated_rate = initiated/pop*100000, .after = initiated) %>%
-  mutate(completed_rate = completed/pop*100000, .after = completed) %>%
-  select(-pop) -> vaccine_race_ethnic
+# race %>%
+#  select(-geoid) %>%
+#  left_join(vaccine_race_ethnic, ., by = "value") %>%
+#  mutate(initiated_rate = initiated/pop*100000, .after = initiated) %>%
+#  mutate(completed_rate = completed/pop*100000, .after = completed) %>%
+#  select(-pop) -> vaccine_race_ethnic
 
 ## write data
-write_csv(vaccine_race_ethnic, "data/individual/mo_vaccine_race_rates.csv")
+# write_csv(vaccine_race_ethnic, "data/individual/mo_vaccine_race_rates.csv")
 
 ## clean-up
-rm(race, vaccine_race_ethnic)
+# rm(race, vaccine_race_ethnic)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
