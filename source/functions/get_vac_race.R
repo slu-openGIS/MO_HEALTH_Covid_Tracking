@@ -11,12 +11,11 @@ get_vac_race <- function(){
   # Click on page and scroll down to data plot area
   remDr$findElement('//*[@id="view3135269236547538553_202816268246377735"]/div[1]/div[2]/canvas[2]', using = 'xpath')$clickElement()
   
-  for (i in 1:20){
+  for (i in 1:15){
     remDr$findElement("css", "body")$sendKeysToElement(list(key="down_arrow"))
   }
   
   # Click on "Race" radio button
-  remDr$findElement('//*[@id="[Parameters].[Pop Benchmark - 35-44 (copy)]_2"]/div[2]/input', using = "xpath")$clickElement()
   remDr$findElement('//*[@id="[Parameters].[Pop Benchmark - 35-44 (copy)]_2"]/div[2]/input', using = "xpath")$clickElement()
   Sys.sleep(3)
 
@@ -39,7 +38,7 @@ get_vac_race <- function(){
     total_init_list[i] <- gsub(',', '', data[7])
     total_comp_list[i] <- gsub(',', '', data[9])
     
-    remDr$mouseMoveToLocation(x = 150)
+    remDr$mouseMoveToLocation(x = 160)
     
   }
   
@@ -52,6 +51,7 @@ get_vac_race <- function(){
   remDr$mouseMoveToLocation(webElement = eth_barplot)
   
   remDr$mouseMoveToLocation(x = -440, y = 165)
+  Sys.sleep(1)
   
   # Gathering data
   remDr$mouseMoveToLocation(webElement = eth_barplot)
