@@ -32,9 +32,9 @@ browser_name <- "chrome"
 ## confirm Franklin County data
 q <- usethis::ui_yeah("Have you added the latest Franklin County ZIP code data to Downloads?")
 
-if (q == FALSE){
-  stop("Please update the filename before proceeding!")
-}
+# if (q == FALSE){
+#  stop("Please update the filename before proceeding!")
+# }
 
 ## confirm St. Louis Pandemic Task Force data
 hospital_update <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
