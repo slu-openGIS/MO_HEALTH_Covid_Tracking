@@ -9,7 +9,7 @@ open_rsel <- function(browser){
       port = 4445L,
       version = 'latest',
       browser = c("chrome", "firefox", "phantomjs", "internet explorer"),
-      chromever = '88.0.4324.96',
+      chromever = '90.0.4430.24',
       phantomver = "2.1.1",
       geckover = "latest",
       verbose = F,
@@ -30,7 +30,7 @@ open_rsel <- function(browser){
       verbose = F
     )
   }
- 
+  
   remDr <<- rD$client
   
 }
@@ -42,7 +42,7 @@ close_rsel <- function(){
     remDr$close()
     rD$server$stop()
   }
-    
+  
   # cleanup
   objs <- ls(pos = ".GlobalEnv")
   rm(list = objs[grep("rD|remDr", objs)], pos = ".GlobalEnv")
