@@ -152,7 +152,7 @@ get_zip_jackson <- function(){
   # allowing mouse to center onto map, and activating the JS to display Zip code and cases
   remDr$mouseMoveToLocation(webElement = remDr$findElement('#labelCanvasId', using = "css selector"))
   Sys.sleep(2)
-  remDr$findElement('/html/body/div[1]/root/div/div/div[1]/div/div/div/exploration-container/exploration-container-modern/div/div/div/exploration-host/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-modern[4]/transform/div/visual-container-header-modern/div/div[1]/div/visual-header-item-container/div/button/i', using="xpath")$clickElement()
+  remDr$findElement('/html/body/div[1]/root/div/div/div[1]/div/div/div/exploration-container/div/div/div/exploration-host/div/div/exploration/div/explore-canvas-modern/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-modern[4]/transform/div/visual-container-header-modern/div/div[1]/div/visual-header-item-container/div/button/i', using="xpath")$clickElement()
   
   # having mouse center on map
   remDr$mouseMoveToLocation(webElement = remDr$findElement('#labelCanvasId', using = "css selector"))
