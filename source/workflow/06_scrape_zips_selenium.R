@@ -40,7 +40,7 @@ write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # MO Race Vaccination Data
-vaccine_race_ethnic <- get_mo_vacc_race()
+# vaccine_race_ethnic <- get_mo_vacc_race()
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

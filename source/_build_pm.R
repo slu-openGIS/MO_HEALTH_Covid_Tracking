@@ -62,6 +62,22 @@ system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
+vaccine_race_ethnic <- dplyr::tibble(
+  report_date = rep(date, 7),
+  geoid = rep(29, 7),
+  value = c("American Indian or Alaska Native", "Asian", "Black or African-American",
+            "Multi-racial", "Native Hawaiian or Other Pacific Islander", 
+            "White", "Hispanic or Latino"),
+  initiated = c(3998, 57477, 156982, 
+                102364, 3938, 
+                1582331, 90015),
+  completed = c(2650, 36821, 108411,
+                87378, 2831, 
+                1244201, 61671)
+)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
 # dependencies ####
 
 ## packages
