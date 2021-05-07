@@ -39,7 +39,18 @@ q <- usethis::ui_yeah("Have you added the latest Franklin County ZIP code data t
 ## confirm St. Louis Pandemic Task Force data
 hospital_update <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
 
-## confirm St. Louis Pandemic Task Force data
+## confirm vaccine process
+vaccine_race_scrape <- usethis::ui_yeah("Do you want to attempt to scrape the vaccination race data from the State dashboard?")
+
+if (vaccine_race_scrape == FALSE){
+  q <- usethis::ui_yeah("Have you manually updated the vaccination rate data from the State dashboard?")
+  
+  if (q == FALSE){
+    stop("Please update the vaccination race data before proceeding!")
+  }
+}
+
+## confirm Docker started data
 q <- usethis::ui_yeah("Have you started the Docker daemon?")
 
 if (q == FALSE){
@@ -62,19 +73,21 @@ system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-vaccine_race_ethnic <- dplyr::tibble(
-  report_date = rep(date, 7),
-  geoid = rep(29, 7),
-  value = c("American Indian or Alaska Native", "Asian", "Black or African-American",
-            "Multi-racial", "Native Hawaiian or Other Pacific Islander", 
-            "White", "Hispanic or Latino"),
-  initiated = c(3998, 57477, 156982, 
-                102364, 3938, 
-                1582331, 90015),
-  completed = c(2650, 36821, 108411,
-                87378, 2831, 
-                1244201, 61671)
-)
+if (vaccine_race_scrape == FALSE){
+  vaccine_race_ethnic <- dplyr::tibble(
+    report_date = rep(date, 7),
+    geoid = rep(29, 7),
+    value = c("American Indian or Alaska Native", "Asian", "Black or African-American",
+              "Multi-racial", "Native Hawaiian or Other Pacific Islander", 
+              "White", "Hispanic or Latino"),
+    initiated = c(3998, 57477, 156982, 
+                  102364, 3938, 
+                  1582331, 90015),
+    completed = c(2650, 36821, 108411,
+                  87378, 2831, 
+                  1244201, 61671)
+  )
+}
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
