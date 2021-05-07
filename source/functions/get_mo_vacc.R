@@ -5,10 +5,10 @@ get_vaccine <- function(metric){
     
     ## scrape
     if (metric == "initiated"){
-      out <- get_mo_vacc(n = 7)
+      out <- get_mo_vacc(n = 8)
       out <- dplyr::pull(out, `AGG(COVID-19 Doses Administered)-alias`)
     } else if (metric == "completed"){
-      out <- get_mo_vacc(n = 8)
+      out <- get_mo_vacc(n = 9)
       out <- dplyr::pull(out, `SUM(Vax Complete)-alias`)
     }
     
@@ -17,9 +17,9 @@ get_vaccine <- function(metric){
     
   } else if (metric == "totals") {
     
-    initiated <- get_mo_vacc(n = 7)
+    initiated <- get_mo_vacc(n = 8)
     initiated <- dplyr::pull(initiated, `AGG(First COVID-19 Dose Administered)-alias`)
-    complete <- get_mo_vacc(n = 8)
+    complete <- get_mo_vacc(n = 9)
     complete <- dplyr::pull(complete, `SUM(Vax Complete)-alias`)
     
     out <- list(
@@ -75,7 +75,7 @@ get_vaccine <- function(metric){
   } else if (metric == "county"){
     
     ## scrape
-    out <- get_mo_vacc(n = 3)
+    out <- get_mo_vacc(n = 4)
     
     ## tidy
     out <- janitor::clean_names(out)
