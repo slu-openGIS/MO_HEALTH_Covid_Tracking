@@ -80,12 +80,12 @@ if (vaccine_race_scrape == FALSE){
     value = c("American Indian or Alaska Native", "Asian", "Black or African-American",
               "Multi-racial", "Native Hawaiian or Other Pacific Islander", 
               "White", "Hispanic or Latino"),
-    initiated = c(4090, 58534, 160474, 
-                  103731, 3988, 
-                  1600363, 91793),
-    completed = c(2844, 39914, 116126,
-                  90013, 2943, 
-                  1301245, 66056)
+    initiated = c(4120, 58866, 161292, 
+                  104072, 4009, 
+                  1604813, 92271),
+    completed = c(2869, 40385, 116955,
+                  90391, 2964, 
+                  1307890, 66653)
   )
 }
 
