@@ -68,13 +68,13 @@ total_pop <- read_csv("data/source/state_pop.csv") %>%
 ## scrape totals
 totals <- get_vaccine(metric = "totals")
 
-## sum subtotals
+## calculate initiated vaccinations
 initiated_race %>%
-  mutate(category = ifelse(jurisdiction == "Unknown", "Unknown Jurisdiction", "Missouri Jurisdiction")) %>%
+  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
   group_by(category) %>%
   summarise(initiated = sum(initiated, na.rm = TRUE)) -> x
 
-y <- tibble(category = "Out of State Jurisdiction", 
+y <- tibble(category = "Unknown or Out-of-state Jurisdiction", 
             initiated = totals$initiated-sum(x$initiated))
 
 initiated_race_totals <- bind_rows(x,y) %>%
