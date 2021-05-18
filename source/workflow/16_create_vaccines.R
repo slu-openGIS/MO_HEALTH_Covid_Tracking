@@ -2,18 +2,100 @@
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
+# convert state vaccination tables ####
+system(paste0("iconv -f utf-16le -t utf-8 ",
+              downloads_path, "/Initiated_Vaccinations_by_Race_data.csv", " > ", 
+              here::here(), "/data/source/mo_vaccines/Initiated_Vaccinations_by_Race_data.txt"))
+
+system(paste0("iconv -f utf-16le -t utf-8 ",
+              downloads_path, "/Completed_Vaccinations_by_Race_data.csv", " > ", 
+              here::here(), "/data/source/mo_vaccines/Completed_Vaccinations_by_Race_data.txt"))
+
+system(paste0("iconv -f utf-16le -t utf-8 ",
+              downloads_path, "/Initiated_Vaccinations_by_Ethnicity_data.csv", " > ", 
+              here::here(), "/data/source/mo_vaccines/Initiated_Vaccinations_by_Ethnicity_data.txt"))
+
+system(paste0("iconv -f utf-16le -t utf-8 ",
+              downloads_path, "/Completed_Vaccinations_by_Ethnicity_data.csv", " > ", 
+              here::here(), "/data/source/mo_vaccines/Completed_Vaccinations_by_Ethnicity_data.txt"))
+
+rm(downloads_path)
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+# load data ####
+initiated_race <- read_tsv(file = "data/source/mo_vaccines/Initiated_Vaccinations_by_Race_data.txt") %>%
+  clean_names() %>%
+  rename(
+    report_date = date_administered,
+    value = race,
+    initiated = covid_19_doses_administered
+  )
+
+completed_race <- read_tsv(file = "data/source/mo_vaccines/Completed_Vaccinations_by_Race_data.txt") %>%
+  clean_names() %>%
+  rename(
+    report_date = date_administered,
+    value = race,
+    completed = covid_19_doses_administered
+  )
+
+initiated_latino <- read_tsv(file = "data/source/mo_vaccines/Initiated_Vaccinations_by_Ethnicity_data.txt") %>%
+  clean_names() %>%
+  rename(
+    report_date = date_administered,
+    value = ethnicity,
+    initiated = covid_19_doses_administered
+  )
+
+completed_latino <- read_tsv(file = "data/source/mo_vaccines/Completed_Vaccinations_by_Ethnicity_data.txt") %>%
+  clean_names() %>%
+  rename(
+    report_date = date_administered,
+    value = ethnicity,
+    completed = covid_19_doses_administered
+  )
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+# calculate totals ####
+
+## load population
+total_pop <- read_csv("data/source/state_pop.csv") %>%
+  filter(NAME == "Missouri") %>%
+  pull(total_pop)
+
+## scrape totals
+totals <- get_vaccine(metric = "totals")
+
+## sum subtotals
+initiated_race %>%
+  mutate(category = ifelse(jurisdiction == "Unknown", "Unknown Jurisdiction", "Missouri Jurisdiction")) %>%
+  group_by(category) %>%
+  summarise(initiated = sum(initiated, na.rm = TRUE)) -> x
+
+y <- tibble(category = "Out of State Jurisdiction", 
+            initiated = totals$initiated-sum(x$initiated))
+
+initiated_race_totals <- bind_rows(x,y) %>%
+  mutate(initiated_pct = initiated/totals$initiated*100) %>%
+  mutate(total_pct = initiated/total_pop*100)
+
+rm(x, y, total_pop, initiated_race, initiated_race_totals, completed_race,
+   initiated_latino, completed_latino)  
+
+## store totals
+tibble(report_date = date, 
+       initiated = totals$initiated, 
+       complete = totals$complete) %>%
+  write_csv(file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
 # scrape race data (state)
 ## load source data
 race <- read_csv("data/source/mo_race.csv") %>%
   mutate(geoid = as.character(geoid))
-
-## construct output
-### scrape totals
-totals <- get_vaccine(metric = "totals")
-
-### store totals
-tibble(report_date = date, initiated = totals$initiated, complete = totals$complete) %>%
-  write_csv(file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
 
 ### prep breakdowns
 vaccine_race_ethnic <- mutate(vaccine_race_ethnic, value = case_when(

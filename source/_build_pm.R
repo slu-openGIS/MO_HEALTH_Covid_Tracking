@@ -12,6 +12,8 @@
 
 # values ####
 
+downloads_path <- "/Users/chris/Downloads"
+
 ## store current Franklin County file name
 # franklin_path <- paste0(lubridate::month(Sys.Date()), " ", stringr::str_pad(lubridate::day(Sys.Date()), 2, pad = "0"), " 2020 Table.xlsx")
 franklin_path <- "Franklin County Data Rolling.xlsx"
@@ -80,12 +82,12 @@ if (vaccine_race_scrape == FALSE){
     value = c("American Indian or Alaska Native", "Asian", "Black or African-American",
               "Multi-racial", "Native Hawaiian or Other Pacific Islander", 
               "White", "Hispanic or Latino"),
-    initiated = c(4248, 61377, 167911, 
-                  107086, 4077, 
-                  1642325, 95862),
-    completed = c(3096, 44228, 126719,
-                  93502, 3098, 
-                  1377733, 72004)
+    initiated = c(4256, 61619, 168317, 
+                  107459, 4080, 
+                  1646088, 96165),
+    completed = c(3109, 44344, 126949,
+                  93716, 3105, 
+                  1380420, 72249)
   )
 }
 
@@ -106,6 +108,7 @@ library(tidyr)          # data wrangling
 library(sf)             # mapping tools
 
 ### other packages
+library(janitor)        # data wrangling
 library(zoo)            # rolling means
 
 ## functions
