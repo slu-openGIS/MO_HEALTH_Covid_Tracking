@@ -42,14 +42,10 @@ q <- usethis::ui_yeah("Have you added the latest Franklin County ZIP code data t
 hospital_update <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
 
 ## confirm vaccine process
-vaccine_race_scrape <- usethis::ui_yeah("Do you want to attempt to scrape the vaccination race data from the State dashboard?")
+q <- usethis::ui_yeah("Have you added the latest four race/ethnicity vaccination data files to Downloads?")
 
-if (vaccine_race_scrape == FALSE){
-  q <- usethis::ui_yeah("Have you manually updated the vaccination rate data from the State dashboard?")
-  
-  if (q == FALSE){
-    stop("Please update the vaccination race data before proceeding!")
-  }
+if (q == FALSE){
+  stop("Please download all four race/ethnicity files before proceeding!")
 }
 
 ## confirm Docker started data
@@ -75,24 +71,6 @@ system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-if (vaccine_race_scrape == FALSE){
-  vaccine_race_ethnic <- dplyr::tibble(
-    report_date = rep(date, 7),
-    geoid = rep(29, 7),
-    value = c("American Indian or Alaska Native", "Asian", "Black or African-American",
-              "Multi-racial", "Native Hawaiian or Other Pacific Islander", 
-              "White", "Hispanic or Latino"),
-    initiated = c(4256, 61619, 168317, 
-                  107459, 4080, 
-                  1646088, 96165),
-    completed = c(3109, 44344, 126949,
-                  93716, 3105, 
-                  1380420, 72249)
-  )
-}
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
 # dependencies ####
 
 ## packages
@@ -102,6 +80,7 @@ library(lubridate)      # dates and times
 library(purrr)          # functional programming
 library(readr)          # csv file tools
 library(readxl)         # excel file tools
+library(testthat)       # unit testing
 library(tidyr)          # data wrangling
 
 ### spatial packages
@@ -116,7 +95,6 @@ source("source/functions/get_cases.R")        # scrape case/death data (MO)
 source("source/functions/get_demographics.R") # scrape demographic data (MO)
 source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
 source("source/functions/get_mo_vacc.R")      # scrape vaccine data (MO / STL)
-source("source/functions/get_mo_vacc_race.R")      # scrape vaccine data (MO / STL)
 source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
 source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date

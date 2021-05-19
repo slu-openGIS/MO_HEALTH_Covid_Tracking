@@ -39,17 +39,10 @@ write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
-# MO Race Vaccination Data
-if (vaccine_race_scrape == TRUE){
-  vaccine_race_ethnic <- get_mo_vacc_race() 
-}
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
 ## clean-up
 rm(platte_zips, st_charles_zips, il_zips, jackson_zips)
 rm(get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_il,
-   get_zip_st_charles, get_zip_jackson, get_mo_vacc_race)
+   get_zip_st_charles, get_zip_jackson)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

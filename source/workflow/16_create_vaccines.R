@@ -77,55 +77,122 @@ initiated_race %>%
 y <- tibble(category = "Unknown or Out-of-state Jurisdiction", 
             initiated = totals$initiated-sum(x$initiated))
 
-initiated_race_totals <- bind_rows(x,y) %>%
-  mutate(initiated_pct = initiated/totals$initiated*100) %>%
-  mutate(total_pct = initiated/total_pop*100)
+initiated_race_totals <- bind_rows(x,y)
 
-rm(x, y, total_pop, initiated_race, initiated_race_totals, completed_race,
-   initiated_latino, completed_latino)  
+completed_race %>%
+  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  group_by(category) %>%
+  summarise(completed = sum(completed, na.rm = TRUE)) -> x
 
-## store totals
-tibble(report_date = date, 
-       initiated = totals$initiated, 
-       complete = totals$complete) %>%
-  write_csv(file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
+y <- tibble(category = "Unknown or Out-of-state Jurisdiction", 
+            completed = totals$complete-sum(x$completed))
+
+completed_race_totals <- bind_rows(x,y)
+
+race_totals <- left_join(initiated_race_totals, completed_race_totals, by = "category") %>%
+  mutate(report_date = date, .before = category)
+
+rm(x, y, total_pop, totals, initiated_race_totals, completed_race_totals)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
-# scrape race data (state)
-## load source data
+# unit test latino data ####
+
+initiated_latino %>%
+  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  group_by(category) %>%
+  summarise(initiated = sum(initiated, na.rm = TRUE)) -> x
+
+completed_latino %>%
+  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  group_by(category) %>%
+  summarise(completed = sum(completed, na.rm = TRUE)) -> y
+
+expect_equal(race_totals[1:2,]$initiated, x$initiated)
+expect_equal(race_totals[1:2,]$completed, y$completed)
+
+rm(x,y)
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+# write totals ####
+
+write_csv(race_totals, file = paste0("data/source/mo_daily_vaccines/mo_total_vaccines_", date, ".csv"))
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
+# create race and ethnicity object ####
+
+## initiated vaccinations
+initiated_race %>%
+  group_by(value) %>%
+  summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
+  mutate(value = ifelse(value == "Unknown", "Unknown, Race", value)) -> x
+
+expect_equal(sum(race_totals[1:2,]$initiated), sum(x$initiated))
+
+initiated_latino %>%
+  group_by(value) %>%
+  summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
+  mutate(value = ifelse(value == "Unknown", "Unknown, Ethnicity", value)) -> y
+
+expect_equal(sum(race_totals[1:2,]$initiated), sum(y$initiated))
+
+y <- filter(y, value != "Not Hispanic or Latino")
+
+vaccine_race_ethnic <- bind_rows(x,y) %>%
+  arrange(value)
+
+## completed vaccinations
+completed_race %>%
+  group_by(value) %>%
+  summarise(completed = sum(completed, na.rm = TRUE)) %>%
+  mutate(value = ifelse(value == "Unknown", "Unknown, Race", value)) -> x
+
+expect_equal(sum(race_totals[1:2,]$completed), sum(x$completed))
+
+completed_latino %>%
+  group_by(value) %>%
+  summarise(completed = sum(completed, na.rm = TRUE)) %>%
+  mutate(value = ifelse(value == "Unknown", "Unknown, Ethnicity", value)) -> y
+
+expect_equal(sum(race_totals[1:2,]$completed), sum(y$completed))
+
+y <- filter(y, value != "Not Hispanic or Latino")
+
+vaccine_race_ethnic_completed <- bind_rows(x,y) %>%
+  arrange(value)
+
+## combine
+vaccine_race_ethnic <- left_join(vaccine_race_ethnic, vaccine_race_ethnic_completed, by = "value")
+
+rm(x, y, vaccine_race_ethnic_completed, initiated_race, initiated_latino,
+   completed_race, completed_latino)
+
+## finishing prepping data
+vaccine_race_ethnic <- vaccine_race_ethnic %>%
+  mutate(value = case_when(
+    value == "American Indian or Alaska Nati" ~ "Native",
+    value == "Asian" ~ "Asian",
+    value == "Black or African-American" ~ "Black",
+    value == "Hispanic or Latino" ~ "Latino",
+    value == "Multi-racial" ~ "Two or More",
+    value == "Native Hawaiian or Other Pacif" ~ "Pacific Islander",
+    value == "Other Race" ~ "Other Race",
+    value == "Unknown, Ethnicity" ~ "Unknown, Ethnicity",
+    value == "Unknown, Race" ~ "Unknown, Race",
+    value == "White" ~ "White"
+  )) %>%
+  arrange(value)
+
+vaccine_race_ethnic <- vaccine_race_ethnic %>% 
+  mutate(report_date = date, .before = value) %>%
+  mutate(geoid = 29, .before = value)
+
+## calculate rates
+### load source data
 race <- read_csv("data/source/mo_race.csv") %>%
   mutate(geoid = as.character(geoid))
-
-### prep breakdowns
-vaccine_race_ethnic <- mutate(vaccine_race_ethnic, value = case_when(
-  value == "American Indian or Alaska Native" ~ "Native",
-  value == "Asian" ~ "Asian",
-  value == "Black or African-American" ~ "Black",
-  value == "Multi-racial" ~ "Two or More",
-  value == "Native Hawaiian or Other Pacific Islander" ~ "Pacific Islander",
-  value == "White" ~ "White",
-  value == "Hispanic or Latino" ~ "Latino"
-))
-
-### add count of unknown
-vaccine_race <- filter(vaccine_race_ethnic, value != "Latino")
-
-vaccine_race_unkown <- tibble(
-  report_date = date,
-  geoid = 29,
-  value = "Unknown",
-  initiated = totals$initiated - sum(vaccine_race$initiated),
-  completed = totals$complete - sum(vaccine_race$completed)
-)
-
-### bind
-vaccine_race_ethnic <- bind_rows(vaccine_race_ethnic, vaccine_race_unkown)
-
-vaccine_race_ethnic <- mutate(vaccine_race_ethnic, report_date = date)
-
-### clean-up
-rm(vaccine_race, vaccine_race_unkown, totals)
 
 ### calculate rates
 race %>%
@@ -139,7 +206,7 @@ race %>%
 write_csv(vaccine_race_ethnic, "data/individual/mo_vaccine_race_rates.csv")
 
 ## clean-up
-rm(race, vaccine_race_ethnic)
+rm(race, race_totals, vaccine_race_ethnic)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
