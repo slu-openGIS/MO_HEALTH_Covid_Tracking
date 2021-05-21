@@ -60,56 +60,66 @@ completed_latino <- read_tsv(file = "data/source/mo_vaccines/Completed_Vaccinati
 
 # calculate totals ####
 
-## load population
-total_pop <- read_csv("data/source/state_pop.csv") %>%
-  filter(NAME == "Missouri") %>%
-  pull(total_pop)
-
-## scrape totals
-totals <- get_vaccine(metric = "totals")
-
 ## calculate initiated vaccinations
 initiated_race %>%
-  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  mutate(category = case_when(
+    jurisdiction == "Unknown Jurisdiction" ~ "Missouri, Unknown Jurisdiction",
+    jurisdiction == "Unknown State" ~ "No Address Given",
+    jurisdiction == "Out-of-State" ~ "Out-of-State",
+    TRUE ~ "Missouri, Known Jurisdiction"
+  )) %>%
   group_by(category) %>%
-  summarise(initiated = sum(initiated, na.rm = TRUE)) -> x
-
-y <- tibble(category = "Unknown or Out-of-state Jurisdiction", 
-            initiated = totals$initiated-sum(x$initiated))
-
-initiated_race_totals <- bind_rows(x,y)
-
+  summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
+  mutate(initiated_pct = initiated/sum(initiated)) -> x
+  
+## calculate completed vaccinatios
 completed_race %>%
-  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  mutate(category = case_when(
+    jurisdiction == "Unknown Jurisdiction" ~ "Missouri, Unknown Jurisdiction",
+    jurisdiction == "Unknown State" ~ "No Address Given",
+    jurisdiction == "Out-of-State" ~ "Out-of-State",
+    TRUE ~ "Missouri, Known Jurisdiction"
+  )) %>%
   group_by(category) %>%
-  summarise(completed = sum(completed, na.rm = TRUE)) -> x
+  summarise(completed = sum(completed, na.rm = TRUE)) %>%
+  mutate(completed_pct = completed/sum(completed)) -> y
 
-y <- tibble(category = "Unknown or Out-of-state Jurisdiction", 
-            completed = totals$complete-sum(x$completed))
-
-completed_race_totals <- bind_rows(x,y)
-
-race_totals <- left_join(initiated_race_totals, completed_race_totals, by = "category") %>%
+## combine
+race_totals <- left_join(x, y, by = "category") %>%
   mutate(report_date = date, .before = category)
 
-rm(x, y, total_pop, totals, initiated_race_totals, completed_race_totals)
+rm(x, y)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
 # unit test latino data ####
 
+## calculate initiated vaccinations
 initiated_latino %>%
-  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  mutate(category = case_when(
+    jurisdiction == "Unknown Jurisdiction" ~ "Missouri, Unknown Jurisdiction",
+    jurisdiction == "Unknown State" ~ "No Address Given",
+    jurisdiction == "Out-of-State" ~ "Out-of-State",
+    TRUE ~ "Missouri, Known Jurisdiction"
+  )) %>%
   group_by(category) %>%
-  summarise(initiated = sum(initiated, na.rm = TRUE)) -> x
+  summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
+  mutate(initiated_pct = initiated/sum(initiated)) -> x
 
+## calculate completed vaccinatios
 completed_latino %>%
-  mutate(category = ifelse(jurisdiction == "Unknown", "Missouri, Unknown Jurisdiction", "Missouri, Known Jurisdiction")) %>%
+  mutate(category = case_when(
+    jurisdiction == "Unknown Jurisdiction" ~ "Missouri, Unknown Jurisdiction",
+    jurisdiction == "Unknown State" ~ "No Address Given",
+    jurisdiction == "Out-of-State" ~ "Out-of-State",
+    TRUE ~ "Missouri, Known Jurisdiction"
+  )) %>%
   group_by(category) %>%
-  summarise(completed = sum(completed, na.rm = TRUE)) -> y
+  summarise(completed = sum(completed, na.rm = TRUE)) %>%
+  mutate(completed_pct = completed/sum(completed)) -> y
 
-expect_equal(race_totals[1:2,]$initiated, x$initiated)
-expect_equal(race_totals[1:2,]$completed, y$completed)
+expect_equal(race_totals$initiated, x$initiated)
+expect_equal(race_totals$completed, y$completed)
 
 rm(x,y)
 
@@ -125,6 +135,7 @@ write_csv(race_totals, file = paste0("data/source/mo_daily_vaccines/mo_total_vac
 
 ## initiated vaccinations
 initiated_race %>%
+  filter(jurisdiction %in% c("Unknown State", "Out-of-State") == FALSE) %>%
   group_by(value) %>%
   summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
   mutate(value = ifelse(value == "Unknown", "Unknown, Race", value)) -> x
@@ -132,6 +143,7 @@ initiated_race %>%
 expect_equal(sum(race_totals[1:2,]$initiated), sum(x$initiated))
 
 initiated_latino %>%
+  filter(jurisdiction %in% c("Unknown State", "Out-of-State") == FALSE) %>%
   group_by(value) %>%
   summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
   mutate(value = ifelse(value == "Unknown", "Unknown, Ethnicity", value)) -> y
@@ -145,6 +157,7 @@ vaccine_race_ethnic <- bind_rows(x,y) %>%
 
 ## completed vaccinations
 completed_race %>%
+  filter(jurisdiction %in% c("Unknown State", "Out-of-State") == FALSE) %>%
   group_by(value) %>%
   summarise(completed = sum(completed, na.rm = TRUE)) %>%
   mutate(value = ifelse(value == "Unknown", "Unknown, Race", value)) -> x
@@ -152,6 +165,7 @@ completed_race %>%
 expect_equal(sum(race_totals[1:2,]$completed), sum(x$completed))
 
 completed_latino %>%
+  filter(jurisdiction %in% c("Unknown State", "Out-of-State") == FALSE) %>%
   group_by(value) %>%
   summarise(completed = sum(completed, na.rm = TRUE)) %>%
   mutate(value = ifelse(value == "Unknown", "Unknown, Ethnicity", value)) -> y
