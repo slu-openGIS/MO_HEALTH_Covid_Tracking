@@ -218,4 +218,4 @@ last_update <- list(
 save(last_update, file = "data/source/ltc/last_update.rda")
 
 ## final clean-up
-rm(county_covid, covid_latest_week, last_update, last_date)
+rm(county_covid, covid_latest_week, last_update)
