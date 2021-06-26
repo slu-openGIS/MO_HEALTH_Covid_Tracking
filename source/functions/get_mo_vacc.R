@@ -83,7 +83,7 @@ get_vaccine <- function(metric){
     out <- dplyr::rename(out,
                          count = measure_values_alias,
                          value = measure_names_alias,
-                         county = jurisdiction1_value
+                         county = jurisdiction_value # jurisdiction1_value
     ) 
     
     out <- dplyr::select(out, county, value, count)
