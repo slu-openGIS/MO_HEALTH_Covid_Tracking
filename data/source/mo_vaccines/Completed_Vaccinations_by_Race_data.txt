@@ -1,4 +1,6 @@
 ﻿Date Administered 1 1 1 1 1 1 1 1 (copy)	* Jurisdiction 1 1 1 1 1 1 1 1 (copy)	* Race 1 (copy)	COVID-19 Doses Administered
+7/4/2021	Adair	White	1
+7/3/2021	Adair	White	1
 7/2/2021	Adair	White	12
 7/1/2021	Adair	White	11
 6/30/2021	Adair	White	14
@@ -175,6 +177,7 @@
 1/4/2021	Adair	White	2
 12/29/2020	Adair	White	1
 12/23/2020	Adair	White	1
+7/3/2021	Adair	Unknown	1
 7/2/2021	Adair	Unknown	1
 7/1/2021	Adair	Unknown	2
 6/30/2021	Adair	Unknown	3
@@ -452,6 +455,7 @@
 1/4/2021	Adair	Multi-racial	2
 12/18/2020	Adair	Multi-racial	1
 12/17/2020	Adair	Multi-racial	1
+7/3/2021	Adair	Black or African-American	1
 7/1/2021	Adair	Black or African-American	1
 6/25/2021	Adair	Black or African-American	3
 6/23/2021	Adair	Black or African-American	1
@@ -1134,7 +1138,8 @@
 4/14/2021	Atchison	Asian	1
 3/31/2021	Atchison	American Indian or Alaska Nati	1
 3/6/2021	Atchison	American Indian or Alaska Nati	1
-7/3/2021	Audrain	White	1
+7/4/2021	Audrain	White	1
+7/3/2021	Audrain	White	5
 7/2/2021	Audrain	White	3
 7/1/2021	Audrain	White	6
 6/30/2021	Audrain	White	9
@@ -1483,6 +1488,7 @@
 1/29/2021	Audrain	Other Race	1
 1/10/2021	Audrain	Other Race	1
 5/15/2021	Audrain	Native Hawaiian or Other Pacif	1
+7/3/2021	Audrain	Multi-racial	1
 7/2/2021	Audrain	Multi-racial	2
 6/29/2021	Audrain	Multi-racial	1
 6/28/2021	Audrain	Multi-racial	1
@@ -1682,6 +1688,7 @@
 4/7/2021	Audrain	American Indian or Alaska Nati	1
 3/4/2021	Audrain	American Indian or Alaska Nati	1
 3/2/2021	Audrain	American Indian or Alaska Nati	3
+7/4/2021	Barry	White	1
 7/3/2021	Barry	White	3
 7/2/2021	Barry	White	21
 7/1/2021	Barry	White	12
@@ -1848,6 +1855,7 @@
 1/8/2021	Barry	White	2
 1/7/2021	Barry	White	9
 1/6/2021	Barry	White	1
+7/4/2021	Barry	Unknown	2
 7/2/2021	Barry	Unknown	3
 7/1/2021	Barry	Unknown	2
 6/30/2021	Barry	Unknown	6
@@ -1978,6 +1986,7 @@
 1/21/2021	Barry	Unknown	2
 1/20/2021	Barry	Unknown	1
 1/19/2021	Barry	Unknown	3
+7/4/2021	Barry	Other Race	1
 7/3/2021	Barry	Other Race	1
 7/1/2021	Barry	Other Race	1
 6/28/2021	Barry	Other Race	1
@@ -2078,6 +2087,7 @@
 5/28/2021	Barry	Native Hawaiian or Other Pacif	1
 4/22/2021	Barry	Native Hawaiian or Other Pacif	2
 4/6/2021	Barry	Native Hawaiian or Other Pacif	1
+7/3/2021	Barry	Multi-racial	1
 7/2/2021	Barry	Multi-racial	1
 7/1/2021	Barry	Multi-racial	1
 6/30/2021	Barry	Multi-racial	1
@@ -2276,6 +2286,7 @@
 2/11/2021	Barry	Asian	1
 1/29/2021	Barry	Asian	1
 1/28/2021	Barry	Asian	1
+7/4/2021	Barry	American Indian or Alaska Nati	1
 7/2/2021	Barry	American Indian or Alaska Nati	1
 6/25/2021	Barry	American Indian or Alaska Nati	1
 6/15/2021	Barry	American Indian or Alaska Nati	1
@@ -2601,7 +2612,8 @@
 5/6/2021	Barton	American Indian or Alaska Nati	1
 4/22/2021	Barton	American Indian or Alaska Nati	1
 4/9/2021	Barton	American Indian or Alaska Nati	1
-7/3/2021	Bates	White	1
+7/4/2021	Bates	White	2
+7/3/2021	Bates	White	2
 7/2/2021	Bates	White	10
 7/1/2021	Bates	White	7
 6/30/2021	Bates	White	3
@@ -3065,6 +3077,7 @@
 6/29/2021	Bates	American Indian or Alaska Nati	1
 4/1/2021	Bates	American Indian or Alaska Nati	1
 3/18/2021	Bates	American Indian or Alaska Nati	1
+7/3/2021	Benton	White	1
 7/2/2021	Benton	White	6
 7/1/2021	Benton	White	9
 6/30/2021	Benton	White	5
@@ -3763,7 +3776,7 @@
 3/5/2021	Bollinger	Asian	2
 3/2/2021	Bollinger	American Indian or Alaska Nati	1
 1/28/2021	Bollinger	American Indian or Alaska Nati	1
-7/3/2021	Boone	White	8
+7/3/2021	Boone	White	30
 7/2/2021	Boone	White	62
 7/1/2021	Boone	White	70
 6/30/2021	Boone	White	86
@@ -3889,7 +3902,7 @@
 3/2/2021	Boone	White	99
 3/1/2021	Boone	White	50
 2/28/2021	Boone	White	46
-2/27/2021	Boone	White	506
+2/27/2021	Boone	White	505
 2/26/2021	Boone	White	294
 2/25/2021	Boone	White	347
 2/24/2021	Boone	White	349
@@ -3956,6 +3969,7 @@
 12/19/2020	Boone	White	2
 12/17/2020	Boone	White	1
 12/16/2020	Boone	White	2
+7/3/2021	Boone	Unknown	2
 7/2/2021	Boone	Unknown	4
 7/1/2021	Boone	Unknown	6
 6/30/2021	Boone	Unknown	6
@@ -4134,7 +4148,7 @@
 1/5/2021	Boone	Unknown	10
 1/4/2021	Boone	Unknown	9
 1/3/2021	Boone	Unknown	2
-7/3/2021	Boone	Other Race	3
+7/3/2021	Boone	Other Race	7
 7/1/2021	Boone	Other Race	3
 6/30/2021	Boone	Other Race	1
 6/29/2021	Boone	Other Race	1
@@ -4318,7 +4332,7 @@
 3/1/2021	Boone	Native Hawaiian or Other Pacif	1
 2/10/2021	Boone	Native Hawaiian or Other Pacif	1
 1/20/2021	Boone	Native Hawaiian or Other Pacif	1
-7/3/2021	Boone	Multi-racial	2
+7/3/2021	Boone	Multi-racial	7
 7/2/2021	Boone	Multi-racial	5
 7/1/2021	Boone	Multi-racial	6
 6/30/2021	Boone	Multi-racial	9
@@ -4498,7 +4512,8 @@
 1/4/2021	Boone	Multi-racial	2
 12/17/2020	Boone	Multi-racial	2
 12/16/2020	Boone	Multi-racial	5
-7/3/2021	Boone	Black or African-American	4
+7/4/2021	Boone	Black or African-American	2
+7/3/2021	Boone	Black or African-American	12
 7/2/2021	Boone	Black or African-American	16
 7/1/2021	Boone	Black or African-American	10
 6/30/2021	Boone	Black or African-American	14
@@ -4678,6 +4693,7 @@
 1/5/2021	Boone	Black or African-American	2
 1/4/2021	Boone	Black or African-American	1
 12/20/2020	Boone	Black or African-American	1
+7/3/2021	Boone	Asian	3
 7/2/2021	Boone	Asian	5
 7/1/2021	Boone	Asian	5
 6/30/2021	Boone	Asian	7
@@ -4906,7 +4922,8 @@
 1/26/2021	Boone	American Indian or Alaska Nati	1
 1/11/2021	Boone	American Indian or Alaska Nati	1
 1/8/2021	Boone	American Indian or Alaska Nati	2
-7/3/2021	Buchanan	White	4
+7/4/2021	Buchanan	White	1
+7/3/2021	Buchanan	White	6
 7/2/2021	Buchanan	White	21
 7/1/2021	Buchanan	White	36
 6/30/2021	Buchanan	White	18
@@ -4991,7 +5008,7 @@
 4/12/2021	Buchanan	White	46
 4/10/2021	Buchanan	White	24
 4/9/2021	Buchanan	White	135
-4/8/2021	Buchanan	White	132
+4/8/2021	Buchanan	White	133
 4/7/2021	Buchanan	White	123
 4/6/2021	Buchanan	White	128
 4/5/2021	Buchanan	White	32
@@ -5095,7 +5112,7 @@
 6/2/2021	Buchanan	Unknown	35
 6/1/2021	Buchanan	Unknown	1
 5/27/2021	Buchanan	Unknown	1
-5/26/2021	Buchanan	Unknown	43
+5/26/2021	Buchanan	Unknown	42
 5/25/2021	Buchanan	Unknown	1
 5/24/2021	Buchanan	Unknown	4
 5/21/2021	Buchanan	Unknown	3
@@ -5295,7 +5312,7 @@
 4/7/2021	Buchanan	Native Hawaiian or Other Pacif	2
 2/5/2021	Buchanan	Native Hawaiian or Other Pacif	1
 1/21/2021	Buchanan	Native Hawaiian or Other Pacif	1
-7/3/2021	Buchanan	Multi-racial	1
+7/3/2021	Buchanan	Multi-racial	2
 7/2/2021	Buchanan	Multi-racial	5
 7/1/2021	Buchanan	Multi-racial	4
 6/30/2021	Buchanan	Multi-racial	1
@@ -5437,6 +5454,7 @@
 1/11/2021	Buchanan	Multi-racial	1
 1/8/2021	Buchanan	Multi-racial	1
 1/6/2021	Buchanan	Multi-racial	1
+7/3/2021	Buchanan	Black or African-American	1
 7/2/2021	Buchanan	Black or African-American	1
 7/1/2021	Buchanan	Black or African-American	4
 6/29/2021	Buchanan	Black or African-American	1
@@ -5633,7 +5651,8 @@
 2/11/2021	Buchanan	American Indian or Alaska Nati	1
 1/26/2021	Buchanan	American Indian or Alaska Nati	1
 1/20/2021	Buchanan	American Indian or Alaska Nati	1
-7/3/2021	Butler	White	1
+7/4/2021	Butler	White	1
+7/3/2021	Butler	White	3
 7/2/2021	Butler	White	14
 7/1/2021	Butler	White	7
 6/30/2021	Butler	White	14
@@ -6586,7 +6605,7 @@
 2/5/2021	Caldwell	Asian	1
 3/30/2021	Caldwell	American Indian or Alaska Nati	1
 3/13/2021	Caldwell	American Indian or Alaska Nati	1
-7/3/2021	Callaway	White	1
+7/3/2021	Callaway	White	6
 7/2/2021	Callaway	White	36
 7/1/2021	Callaway	White	15
 6/30/2021	Callaway	White	17
@@ -6986,7 +7005,7 @@
 4/14/2021	Callaway	Native Hawaiian or Other Pacif	1
 4/6/2021	Callaway	Native Hawaiian or Other Pacif	1
 4/1/2021	Callaway	Native Hawaiian or Other Pacif	1
-7/3/2021	Callaway	Multi-racial	1
+7/3/2021	Callaway	Multi-racial	2
 7/2/2021	Callaway	Multi-racial	2
 7/1/2021	Callaway	Multi-racial	1
 6/30/2021	Callaway	Multi-racial	1
@@ -7318,7 +7337,7 @@
 2/19/2021	Callaway	American Indian or Alaska Nati	1
 2/17/2021	Callaway	American Indian or Alaska Nati	1
 1/19/2021	Callaway	American Indian or Alaska Nati	1
-7/3/2021	Camden	White	2
+7/3/2021	Camden	White	4
 7/2/2021	Camden	White	13
 7/1/2021	Camden	White	12
 6/30/2021	Camden	White	21
@@ -7776,6 +7795,7 @@
 4/17/2021	Camden	Multi-racial	1
 4/16/2021	Camden	Multi-racial	3
 4/12/2021	Camden	Multi-racial	3
+4/10/2021	Camden	Multi-racial	1
 4/9/2021	Camden	Multi-racial	2
 4/8/2021	Camden	Multi-racial	1
 4/7/2021	Camden	Multi-racial	3
@@ -7800,7 +7820,7 @@
 3/10/2021	Camden	Multi-racial	1
 3/9/2021	Camden	Multi-racial	2
 3/8/2021	Camden	Multi-racial	1
-3/7/2021	Camden	Multi-racial	9
+3/7/2021	Camden	Multi-racial	10
 3/6/2021	Camden	Multi-racial	3
 3/5/2021	Camden	Multi-racial	3
 3/4/2021	Camden	Multi-racial	4
@@ -7918,7 +7938,8 @@
 4/19/2021	Camden	American Indian or Alaska Nati	1
 4/8/2021	Camden	American Indian or Alaska Nati	1
 3/30/2021	Camden	American Indian or Alaska Nati	1
-7/3/2021	Cape Girardeau	White	6
+7/4/2021	Cape Girardeau	White	1
+7/3/2021	Cape Girardeau	White	13
 7/2/2021	Cape Girardeau	White	19
 7/1/2021	Cape Girardeau	White	16
 6/30/2021	Cape Girardeau	White	21
@@ -8069,7 +8090,7 @@
 2/4/2021	Cape Girardeau	White	154
 2/3/2021	Cape Girardeau	White	63
 2/2/2021	Cape Girardeau	White	95
-2/1/2021	Cape Girardeau	White	65
+2/1/2021	Cape Girardeau	White	66
 1/30/2021	Cape Girardeau	White	8
 1/29/2021	Cape Girardeau	White	29
 1/28/2021	Cape Girardeau	White	85
@@ -8103,6 +8124,7 @@
 12/22/2020	Cape Girardeau	White	1
 12/21/2020	Cape Girardeau	White	3
 12/18/2020	Cape Girardeau	White	1
+7/4/2021	Cape Girardeau	Unknown	1
 6/30/2021	Cape Girardeau	Unknown	5
 6/29/2021	Cape Girardeau	Unknown	3
 6/28/2021	Cape Girardeau	Unknown	4
@@ -8791,7 +8813,7 @@
 1/27/2021	Cape Girardeau	American Indian or Alaska Nati	1
 1/19/2021	Cape Girardeau	American Indian or Alaska Nati	1
 1/11/2021	Cape Girardeau	American Indian or Alaska Nati	1
-7/3/2021	Carroll	White	1
+7/3/2021	Carroll	White	3
 7/2/2021	Carroll	White	2
 7/1/2021	Carroll	White	4
 6/30/2021	Carroll	White	8
@@ -9287,7 +9309,8 @@
 2/25/2021	Carter	Asian	1
 5/20/2021	Carter	American Indian or Alaska Nati	1
 2/25/2021	Carter	American Indian or Alaska Nati	1
-7/3/2021	Cass	White	6
+7/4/2021	Cass	White	1
+7/3/2021	Cass	White	14
 7/2/2021	Cass	White	65
 7/1/2021	Cass	White	46
 6/30/2021	Cass	White	47
@@ -9357,7 +9380,7 @@
 4/27/2021	Cass	White	181
 4/26/2021	Cass	White	78
 4/25/2021	Cass	White	34
-4/24/2021	Cass	White	83
+4/24/2021	Cass	White	84
 4/23/2021	Cass	White	106
 4/22/2021	Cass	White	122
 4/21/2021	Cass	White	78
@@ -9380,8 +9403,8 @@
 4/4/2021	Cass	White	15
 4/3/2021	Cass	White	153
 4/2/2021	Cass	White	353
-4/1/2021	Cass	White	440
-3/31/2021	Cass	White	404
+4/1/2021	Cass	White	441
+3/31/2021	Cass	White	405
 3/30/2021	Cass	White	390
 3/29/2021	Cass	White	89
 3/28/2021	Cass	White	59
@@ -9466,6 +9489,8 @@
 1/2/2021	Cass	White	1
 12/31/2020	Cass	White	1
 12/28/2020	Cass	White	1
+7/4/2021	Cass	Unknown	1
+7/3/2021	Cass	Unknown	2
 7/2/2021	Cass	Unknown	10
 7/1/2021	Cass	Unknown	4
 6/30/2021	Cass	Unknown	4
@@ -9555,8 +9580,8 @@
 4/4/2021	Cass	Unknown	2
 4/3/2021	Cass	Unknown	192
 4/2/2021	Cass	Unknown	422
-4/1/2021	Cass	Unknown	510
-3/31/2021	Cass	Unknown	466
+4/1/2021	Cass	Unknown	509
+3/31/2021	Cass	Unknown	465
 3/30/2021	Cass	Unknown	209
 3/29/2021	Cass	Unknown	17
 3/28/2021	Cass	Unknown	33
@@ -9632,6 +9657,7 @@
 1/6/2021	Cass	Unknown	10
 12/30/2020	Cass	Unknown	1
 12/28/2020	Cass	Unknown	1
+7/3/2021	Cass	Other Race	1
 6/29/2021	Cass	Other Race	2
 6/28/2021	Cass	Other Race	1
 6/27/2021	Cass	Other Race	4
@@ -9791,6 +9817,7 @@
 2/16/2021	Cass	Native Hawaiian or Other Pacif	1
 2/4/2021	Cass	Native Hawaiian or Other Pacif	1
 1/18/2021	Cass	Native Hawaiian or Other Pacif	1
+7/3/2021	Cass	Multi-racial	1
 7/2/2021	Cass	Multi-racial	8
 7/1/2021	Cass	Multi-racial	1
 6/30/2021	Cass	Multi-racial	7
@@ -9951,6 +9978,7 @@
 1/7/2021	Cass	Multi-racial	3
 1/6/2021	Cass	Multi-racial	1
 1/5/2021	Cass	Multi-racial	1
+7/3/2021	Cass	Black or African-American	4
 7/2/2021	Cass	Black or African-American	4
 7/1/2021	Cass	Black or African-American	3
 6/30/2021	Cass	Black or African-American	2
@@ -10642,7 +10670,7 @@
 4/8/2021	Cedar	American Indian or Alaska Nati	1
 4/1/2021	Cedar	American Indian or Alaska Nati	1
 3/23/2021	Cedar	American Indian or Alaska Nati	1
-7/3/2021	Chariton	White	3
+7/3/2021	Chariton	White	5
 7/1/2021	Chariton	White	2
 6/30/2021	Chariton	White	2
 6/29/2021	Chariton	White	1
@@ -10931,7 +10959,8 @@
 2/2/2021	Chariton	Black or African-American	1
 3/3/2021	Chariton	Asian	1
 4/21/2021	Chariton	American Indian or Alaska Nati	1
-7/3/2021	Christian	White	7
+7/4/2021	Christian	White	6
+7/3/2021	Christian	White	22
 7/2/2021	Christian	White	54
 7/1/2021	Christian	White	38
 6/30/2021	Christian	White	31
@@ -11269,6 +11298,7 @@
 1/11/2021	Christian	Unknown	1
 1/6/2021	Christian	Unknown	2
 12/22/2020	Christian	Unknown	1
+7/3/2021	Christian	Other Race	1
 7/2/2021	Christian	Other Race	1
 7/1/2021	Christian	Other Race	1
 6/30/2021	Christian	Other Race	2
@@ -11950,7 +11980,8 @@
 5/11/2021	Clark	Black or African-American	1
 5/4/2021	Clark	Black or African-American	1
 4/25/2021	Clark	Black or African-American	1
-7/3/2021	Clay	White	10
+7/4/2021	Clay	White	1
+7/3/2021	Clay	White	29
 7/2/2021	Clay	White	54
 7/1/2021	Clay	White	57
 6/30/2021	Clay	White	44
@@ -12293,6 +12324,7 @@
 1/9/2021	Clay	Unknown	1
 1/8/2021	Clay	Unknown	3
 1/6/2021	Clay	Unknown	1
+7/3/2021	Clay	Other Race	4
 7/2/2021	Clay	Other Race	2
 7/1/2021	Clay	Other Race	2
 6/30/2021	Clay	Other Race	1
@@ -12472,7 +12504,8 @@
 2/17/2021	Clay	Native Hawaiian or Other Pacif	1
 2/11/2021	Clay	Native Hawaiian or Other Pacif	1
 1/12/2021	Clay	Native Hawaiian or Other Pacif	1
-7/3/2021	Clay	Multi-racial	4
+7/4/2021	Clay	Multi-racial	1
+7/3/2021	Clay	Multi-racial	6
 7/2/2021	Clay	Multi-racial	5
 7/1/2021	Clay	Multi-racial	10
 6/30/2021	Clay	Multi-racial	8
@@ -12648,6 +12681,7 @@
 1/7/2021	Clay	Multi-racial	2
 12/30/2020	Clay	Multi-racial	1
 12/22/2020	Clay	Multi-racial	1
+7/3/2021	Clay	Black or African-American	2
 7/2/2021	Clay	Black or African-American	4
 6/30/2021	Clay	Black or African-American	2
 6/29/2021	Clay	Black or African-American	2
@@ -12917,6 +12951,7 @@
 1/8/2021	Clay	Asian	1
 1/7/2021	Clay	Asian	1
 1/5/2021	Clay	Asian	1
+7/3/2021	Clay	American Indian or Alaska Nati	1
 6/28/2021	Clay	American Indian or Alaska Nati	1
 6/22/2021	Clay	American Indian or Alaska Nati	1
 6/21/2021	Clay	American Indian or Alaska Nati	1
@@ -12968,7 +13003,8 @@
 2/19/2021	Clay	American Indian or Alaska Nati	1
 2/7/2021	Clay	American Indian or Alaska Nati	1
 1/28/2021	Clay	American Indian or Alaska Nati	1
-7/3/2021	Clinton	White	1
+7/4/2021	Clinton	White	2
+7/3/2021	Clinton	White	2
 7/2/2021	Clinton	White	12
 7/1/2021	Clinton	White	17
 6/30/2021	Clinton	White	11
@@ -13549,7 +13585,7 @@
 3/13/2021	Clinton	American Indian or Alaska Nati	2
 3/11/2021	Clinton	American Indian or Alaska Nati	1
 3/6/2021	Clinton	American Indian or Alaska Nati	1
-7/3/2021	Cole	White	5
+7/3/2021	Cole	White	11
 7/2/2021	Cole	White	36
 7/1/2021	Cole	White	22
 6/30/2021	Cole	White	37
@@ -13562,7 +13598,7 @@
 6/23/2021	Cole	White	27
 6/22/2021	Cole	White	52
 6/21/2021	Cole	White	33
-6/20/2021	Cole	White	12
+6/20/2021	Cole	White	13
 6/19/2021	Cole	White	22
 6/18/2021	Cole	White	57
 6/17/2021	Cole	White	91
@@ -13638,7 +13674,7 @@
 4/8/2021	Cole	White	198
 4/7/2021	Cole	White	132
 4/6/2021	Cole	White	172
-4/5/2021	Cole	White	234
+4/5/2021	Cole	White	233
 4/4/2021	Cole	White	18
 4/3/2021	Cole	White	21
 4/2/2021	Cole	White	581
@@ -13733,6 +13769,7 @@
 1/1/2021	Cole	White	5
 12/16/2020	Cole	White	1
 12/15/2020	Cole	White	1
+7/3/2021	Cole	Unknown	2
 7/2/2021	Cole	Unknown	3
 7/1/2021	Cole	Unknown	4
 6/30/2021	Cole	Unknown	3
@@ -14027,6 +14064,7 @@
 3/8/2021	Cole	Native Hawaiian or Other Pacif	1
 2/26/2021	Cole	Native Hawaiian or Other Pacif	1
 2/10/2021	Cole	Native Hawaiian or Other Pacif	1
+7/3/2021	Cole	Multi-racial	2
 7/2/2021	Cole	Multi-racial	5
 6/30/2021	Cole	Multi-racial	4
 6/29/2021	Cole	Multi-racial	4
@@ -14173,7 +14211,7 @@
 1/7/2021	Cole	Multi-racial	3
 1/5/2021	Cole	Multi-racial	1
 12/18/2020	Cole	Multi-racial	1
-7/3/2021	Cole	Black or African-American	1
+7/3/2021	Cole	Black or African-American	6
 7/2/2021	Cole	Black or African-American	4
 7/1/2021	Cole	Black or African-American	7
 6/30/2021	Cole	Black or African-American	5
@@ -14466,7 +14504,7 @@
 6/28/2021	Cooper	White	3
 6/27/2021	Cooper	White	1
 6/26/2021	Cooper	White	4
-6/25/2021	Cooper	White	7
+6/25/2021	Cooper	White	8
 6/24/2021	Cooper	White	6
 6/23/2021	Cooper	White	6
 6/22/2021	Cooper	White	12
@@ -14972,6 +15010,7 @@
 4/26/2021	Cooper	American Indian or Alaska Nati	1
 4/16/2021	Cooper	American Indian or Alaska Nati	1
 3/23/2021	Cooper	American Indian or Alaska Nati	1
+7/4/2021	Crawford	White	4
 7/3/2021	Crawford	White	1
 7/2/2021	Crawford	White	1
 7/1/2021	Crawford	White	2
@@ -15145,6 +15184,7 @@
 1/7/2021	Crawford	White	3
 1/6/2021	Crawford	White	5
 1/4/2021	Crawford	White	2
+7/4/2021	Crawford	Unknown	2
 7/3/2021	Crawford	Unknown	1
 7/1/2021	Crawford	Unknown	1
 6/29/2021	Crawford	Unknown	1
@@ -15283,6 +15323,7 @@
 1/28/2021	Crawford	Other Race	1
 1/27/2021	Crawford	Other Race	1
 1/26/2021	Crawford	Other Race	1
+7/4/2021	Crawford	Multi-racial	1
 6/22/2021	Crawford	Multi-racial	2
 6/17/2021	Crawford	Multi-racial	2
 6/16/2021	Crawford	Multi-racial	2
@@ -15691,7 +15732,7 @@
 4/5/2021	Dade	Asian	1
 4/22/2021	Dade	American Indian or Alaska Nati	1
 4/5/2021	Dade	American Indian or Alaska Nati	1
-7/3/2021	Dallas	White	3
+7/3/2021	Dallas	White	5
 7/2/2021	Dallas	White	6
 7/1/2021	Dallas	White	6
 6/30/2021	Dallas	White	6
@@ -16667,7 +16708,7 @@
 5/14/2021	DeKalb	American Indian or Alaska Nati	1
 4/9/2021	DeKalb	American Indian or Alaska Nati	1
 3/13/2021	DeKalb	American Indian or Alaska Nati	1
-7/3/2021	Dent	White	1
+7/3/2021	Dent	White	2
 7/2/2021	Dent	White	5
 7/1/2021	Dent	White	1
 6/30/2021	Dent	White	6
@@ -16989,7 +17030,7 @@
 4/3/2021	Dent	American Indian or Alaska Nati	1
 3/12/2021	Dent	American Indian or Alaska Nati	1
 3/11/2021	Dent	American Indian or Alaska Nati	1
-7/3/2021	Douglas	White	1
+7/3/2021	Douglas	White	2
 7/2/2021	Douglas	White	2
 7/1/2021	Douglas	White	6
 6/30/2021	Douglas	White	4
@@ -17272,7 +17313,7 @@
 2/4/2021	Douglas	Asian	1
 4/2/2021	Douglas	American Indian or Alaska Nati	1
 2/27/2021	Douglas	American Indian or Alaska Nati	1
-7/3/2021	Dunklin	White	4
+7/3/2021	Dunklin	White	5
 7/2/2021	Dunklin	White	8
 7/1/2021	Dunklin	White	5
 6/30/2021	Dunklin	White	6
@@ -17538,6 +17579,7 @@
 1/18/2021	Dunklin	Unknown	1
 1/12/2021	Dunklin	Unknown	3
 1/6/2021	Dunklin	Unknown	7
+7/4/2021	Dunklin	Other Race	5
 6/29/2021	Dunklin	Other Race	2
 6/28/2021	Dunklin	Other Race	1
 6/26/2021	Dunklin	Other Race	1
@@ -17796,7 +17838,8 @@
 3/30/2021	Dunklin	American Indian or Alaska Nati	1
 3/11/2021	Dunklin	American Indian or Alaska Nati	1
 3/9/2021	Dunklin	American Indian or Alaska Nati	1
-7/3/2021	Franklin	White	14
+7/4/2021	Franklin	White	2
+7/3/2021	Franklin	White	23
 7/2/2021	Franklin	White	50
 7/1/2021	Franklin	White	66
 6/30/2021	Franklin	White	53
@@ -17885,7 +17928,7 @@
 4/8/2021	Franklin	White	709
 4/7/2021	Franklin	White	733
 4/6/2021	Franklin	White	517
-4/5/2021	Franklin	White	411
+4/5/2021	Franklin	White	412
 4/4/2021	Franklin	White	13
 4/3/2021	Franklin	White	110
 4/2/2021	Franklin	White	338
@@ -17975,6 +18018,7 @@
 1/5/2021	Franklin	White	13
 1/4/2021	Franklin	White	20
 1/2/2021	Franklin	White	1
+7/4/2021	Franklin	Unknown	2
 7/2/2021	Franklin	Unknown	1
 7/1/2021	Franklin	Unknown	4
 6/29/2021	Franklin	Unknown	7
@@ -18642,7 +18686,8 @@
 3/12/2021	Franklin	American Indian or Alaska Nati	1
 3/11/2021	Franklin	American Indian or Alaska Nati	1
 2/22/2021	Franklin	American Indian or Alaska Nati	1
-7/3/2021	Gasconade	White	3
+7/4/2021	Gasconade	White	1
+7/3/2021	Gasconade	White	4
 7/2/2021	Gasconade	White	6
 7/1/2021	Gasconade	White	9
 6/30/2021	Gasconade	White	7
@@ -19034,6 +19079,7 @@
 2/28/2021	Gasconade	Asian	1
 4/29/2021	Gasconade	American Indian or Alaska Nati	1
 3/2/2021	Gasconade	American Indian or Alaska Nati	1
+7/3/2021	Gentry	White	1
 7/1/2021	Gentry	White	1
 6/30/2021	Gentry	White	1
 6/29/2021	Gentry	White	1
@@ -19293,7 +19339,8 @@
 5/14/2021	Gentry	Black or African-American	1
 3/5/2021	Gentry	Black or African-American	1
 2/24/2021	Gentry	American Indian or Alaska Nati	1
-7/3/2021	Greene	White	26
+7/4/2021	Greene	White	6
+7/3/2021	Greene	White	77
 7/2/2021	Greene	White	155
 7/1/2021	Greene	White	131
 6/30/2021	Greene	White	156
@@ -19380,7 +19427,7 @@
 4/10/2021	Greene	White	580
 4/9/2021	Greene	White	2437
 4/8/2021	Greene	White	2109
-4/7/2021	Greene	White	1031
+4/7/2021	Greene	White	1032
 4/6/2021	Greene	White	1685
 4/5/2021	Greene	White	1285
 4/4/2021	Greene	White	282
@@ -19477,7 +19524,8 @@
 12/30/2020	Greene	White	1
 12/29/2020	Greene	White	1
 12/22/2020	Greene	White	2
-7/3/2021	Greene	Unknown	3
+7/4/2021	Greene	Unknown	1
+7/3/2021	Greene	Unknown	4
 7/2/2021	Greene	Unknown	23
 7/1/2021	Greene	Unknown	26
 6/30/2021	Greene	Unknown	20
@@ -19653,6 +19701,7 @@
 1/6/2021	Greene	Unknown	7
 1/4/2021	Greene	Unknown	1
 12/22/2020	Greene	Unknown	1
+7/3/2021	Greene	Other Race	1
 7/2/2021	Greene	Other Race	4
 7/1/2021	Greene	Other Race	4
 6/30/2021	Greene	Other Race	6
@@ -19878,7 +19927,7 @@
 1/23/2021	Greene	Native Hawaiian or Other Pacif	1
 1/21/2021	Greene	Native Hawaiian or Other Pacif	1
 1/18/2021	Greene	Native Hawaiian or Other Pacif	1
-7/3/2021	Greene	Multi-racial	3
+7/3/2021	Greene	Multi-racial	12
 7/2/2021	Greene	Multi-racial	12
 7/1/2021	Greene	Multi-racial	8
 6/30/2021	Greene	Multi-racial	27
@@ -20064,7 +20113,7 @@
 12/16/2020	Greene	Multi-racial	144
 12/15/2020	Greene	Multi-racial	36
 12/14/2020	Greene	Multi-racial	5
-7/3/2021	Greene	Black or African-American	2
+7/3/2021	Greene	Black or African-American	5
 7/2/2021	Greene	Black or African-American	6
 7/1/2021	Greene	Black or African-American	8
 6/30/2021	Greene	Black or African-American	7
@@ -20227,7 +20276,8 @@
 1/13/2021	Greene	Black or African-American	3
 1/12/2021	Greene	Black or African-American	1
 1/11/2021	Greene	Black or African-American	1
-7/3/2021	Greene	Asian	2
+7/4/2021	Greene	Asian	2
+7/3/2021	Greene	Asian	3
 7/2/2021	Greene	Asian	6
 7/1/2021	Greene	Asian	3
 6/30/2021	Greene	Asian	9
@@ -20387,6 +20437,7 @@
 1/12/2021	Greene	Asian	2
 1/10/2021	Greene	Asian	1
 1/6/2021	Greene	Asian	1
+7/3/2021	Greene	American Indian or Alaska Nati	1
 7/2/2021	Greene	American Indian or Alaska Nati	1
 6/30/2021	Greene	American Indian or Alaska Nati	1
 6/29/2021	Greene	American Indian or Alaska Nati	1
@@ -20488,6 +20539,7 @@
 1/20/2021	Greene	American Indian or Alaska Nati	1
 1/18/2021	Greene	American Indian or Alaska Nati	1
 1/17/2021	Greene	American Indian or Alaska Nati	1
+7/3/2021	Grundy	White	1
 7/2/2021	Grundy	White	10
 7/1/2021	Grundy	White	8
 6/30/2021	Grundy	White	2
@@ -21018,7 +21070,8 @@
 4/8/2021	Harrison	American Indian or Alaska Nati	1
 3/9/2021	Harrison	American Indian or Alaska Nati	1
 3/6/2021	Harrison	American Indian or Alaska Nati	1
-7/3/2021	Henry	White	2
+7/4/2021	Henry	White	2
+7/3/2021	Henry	White	5
 7/2/2021	Henry	White	10
 7/1/2021	Henry	White	5
 6/30/2021	Henry	White	16
@@ -21026,7 +21079,7 @@
 6/28/2021	Henry	White	9
 6/27/2021	Henry	White	4
 6/26/2021	Henry	White	6
-6/25/2021	Henry	White	10
+6/25/2021	Henry	White	9
 6/24/2021	Henry	White	12
 6/23/2021	Henry	White	6
 6/22/2021	Henry	White	14
@@ -21463,6 +21516,7 @@
 4/29/2021	Henry	American Indian or Alaska Nati	1
 3/29/2021	Henry	American Indian or Alaska Nati	1
 1/6/2021	Henry	American Indian or Alaska Nati	1
+7/3/2021	Hickory	White	1
 7/1/2021	Hickory	White	4
 6/30/2021	Hickory	White	1
 6/29/2021	Hickory	White	2
@@ -22308,7 +22362,8 @@
 3/23/2021	Howard	Asian	1
 2/19/2021	Howard	Asian	1
 1/27/2021	Howard	Asian	2
-7/3/2021	Howell	White	6
+7/4/2021	Howell	White	6
+7/3/2021	Howell	White	9
 7/2/2021	Howell	White	21
 7/1/2021	Howell	White	17
 6/30/2021	Howell	White	10
@@ -22458,7 +22513,7 @@
 2/4/2021	Howell	White	3
 2/3/2021	Howell	White	10
 2/2/2021	Howell	White	29
-2/1/2021	Howell	White	13
+2/1/2021	Howell	White	12
 1/30/2021	Howell	White	1
 1/29/2021	Howell	White	13
 1/28/2021	Howell	White	27
@@ -22721,6 +22776,7 @@
 2/5/2021	Howell	Multi-racial	2
 2/3/2021	Howell	Multi-racial	1
 2/2/2021	Howell	Multi-racial	2
+2/1/2021	Howell	Multi-racial	1
 1/30/2021	Howell	Multi-racial	1
 1/23/2021	Howell	Multi-racial	1
 1/22/2021	Howell	Multi-racial	1
@@ -22802,7 +22858,7 @@
 2/26/2021	Howell	American Indian or Alaska Nati	2
 2/25/2021	Howell	American Indian or Alaska Nati	2
 2/1/2021	Howell	American Indian or Alaska Nati	1
-7/3/2021	Iron	White	2
+7/3/2021	Iron	White	4
 7/2/2021	Iron	White	8
 7/1/2021	Iron	White	4
 6/30/2021	Iron	White	5
@@ -23139,7 +23195,8 @@
 3/17/2021	Iron	American Indian or Alaska Nati	1
 2/25/2021	Iron	American Indian or Alaska Nati	1
 1/13/2021	Iron	American Indian or Alaska Nati	1
-7/3/2021	Jackson	White	30
+7/4/2021	Jackson	White	5
+7/3/2021	Jackson	White	91
 7/2/2021	Jackson	White	191
 7/1/2021	Jackson	White	157
 6/30/2021	Jackson	White	174
@@ -23147,7 +23204,7 @@
 6/28/2021	Jackson	White	250
 6/27/2021	Jackson	White	93
 6/26/2021	Jackson	White	150
-6/25/2021	Jackson	White	253
+6/25/2021	Jackson	White	252
 6/24/2021	Jackson	White	216
 6/23/2021	Jackson	White	237
 6/22/2021	Jackson	White	269
@@ -23221,10 +23278,10 @@
 4/15/2021	Jackson	White	1345
 4/14/2021	Jackson	White	1158
 4/13/2021	Jackson	White	1216
-4/12/2021	Jackson	White	976
+4/12/2021	Jackson	White	975
 4/11/2021	Jackson	White	597
 4/10/2021	Jackson	White	1040
-4/9/2021	Jackson	White	2085
+4/9/2021	Jackson	White	2086
 4/8/2021	Jackson	White	1327
 4/7/2021	Jackson	White	1398
 4/6/2021	Jackson	White	1724
@@ -23329,7 +23386,7 @@
 12/21/2020	Jackson	White	5
 12/19/2020	Jackson	White	1
 12/16/2020	Jackson	White	1
-7/3/2021	Jackson	Unknown	2
+7/3/2021	Jackson	Unknown	3
 7/2/2021	Jackson	Unknown	10
 7/1/2021	Jackson	Unknown	12
 6/30/2021	Jackson	Unknown	7
@@ -23414,7 +23471,7 @@
 4/12/2021	Jackson	Unknown	132
 4/11/2021	Jackson	Unknown	25
 4/10/2021	Jackson	Unknown	463
-4/9/2021	Jackson	Unknown	237
+4/9/2021	Jackson	Unknown	236
 4/8/2021	Jackson	Unknown	266
 4/7/2021	Jackson	Unknown	149
 4/6/2021	Jackson	Unknown	480
@@ -23508,7 +23565,8 @@
 12/28/2020	Jackson	Unknown	2
 12/23/2020	Jackson	Unknown	4
 12/22/2020	Jackson	Unknown	1
-7/3/2021	Jackson	Other Race	9
+7/4/2021	Jackson	Other Race	1
+7/3/2021	Jackson	Other Race	11
 7/2/2021	Jackson	Other Race	12
 7/1/2021	Jackson	Other Race	12
 6/30/2021	Jackson	Other Race	8
@@ -23608,7 +23666,7 @@
 3/28/2021	Jackson	Other Race	8
 3/27/2021	Jackson	Other Race	33
 3/26/2021	Jackson	Other Race	69
-3/25/2021	Jackson	Other Race	65
+3/25/2021	Jackson	Other Race	64
 3/24/2021	Jackson	Other Race	41
 3/23/2021	Jackson	Other Race	29
 3/22/2021	Jackson	Other Race	63
@@ -23680,6 +23738,7 @@
 1/6/2021	Jackson	Other Race	4
 1/5/2021	Jackson	Other Race	2
 12/21/2020	Jackson	Other Race	1
+7/3/2021	Jackson	Native Hawaiian or Other Pacif	1
 6/30/2021	Jackson	Native Hawaiian or Other Pacif	3
 6/29/2021	Jackson	Native Hawaiian or Other Pacif	2
 6/28/2021	Jackson	Native Hawaiian or Other Pacif	1
@@ -23790,7 +23849,8 @@
 1/7/2021	Jackson	Native Hawaiian or Other Pacif	2
 1/6/2021	Jackson	Native Hawaiian or Other Pacif	4
 1/5/2021	Jackson	Native Hawaiian or Other Pacif	1
-7/3/2021	Jackson	Multi-racial	1
+7/4/2021	Jackson	Multi-racial	1
+7/3/2021	Jackson	Multi-racial	18
 7/2/2021	Jackson	Multi-racial	20
 7/1/2021	Jackson	Multi-racial	21
 6/30/2021	Jackson	Multi-racial	19
@@ -23872,7 +23932,7 @@
 4/15/2021	Jackson	Multi-racial	45
 4/14/2021	Jackson	Multi-racial	50
 4/13/2021	Jackson	Multi-racial	43
-4/12/2021	Jackson	Multi-racial	51
+4/12/2021	Jackson	Multi-racial	52
 4/11/2021	Jackson	Multi-racial	17
 4/10/2021	Jackson	Multi-racial	43
 4/9/2021	Jackson	Multi-racial	82
@@ -23890,7 +23950,7 @@
 3/28/2021	Jackson	Multi-racial	14
 3/27/2021	Jackson	Multi-racial	49
 3/26/2021	Jackson	Multi-racial	114
-3/25/2021	Jackson	Multi-racial	99
+3/25/2021	Jackson	Multi-racial	100
 3/24/2021	Jackson	Multi-racial	82
 3/23/2021	Jackson	Multi-racial	70
 3/22/2021	Jackson	Multi-racial	145
@@ -23968,7 +24028,8 @@
 12/17/2020	Jackson	Multi-racial	2
 12/16/2020	Jackson	Multi-racial	1
 12/14/2020	Jackson	Multi-racial	1
-7/3/2021	Jackson	Black or African-American	7
+7/4/2021	Jackson	Black or African-American	1
+7/3/2021	Jackson	Black or African-American	13
 7/2/2021	Jackson	Black or African-American	25
 7/1/2021	Jackson	Black or African-American	25
 6/30/2021	Jackson	Black or African-American	22
@@ -23979,7 +24040,7 @@
 6/25/2021	Jackson	Black or African-American	34
 6/24/2021	Jackson	Black or African-American	29
 6/23/2021	Jackson	Black or African-American	31
-6/22/2021	Jackson	Black or African-American	37
+6/22/2021	Jackson	Black or African-American	36
 6/21/2021	Jackson	Black or African-American	18
 6/20/2021	Jackson	Black or African-American	19
 6/19/2021	Jackson	Black or African-American	22
@@ -24423,7 +24484,7 @@
 1/20/2021	Jackson	American Indian or Alaska Nati	1
 1/13/2021	Jackson	American Indian or Alaska Nati	1
 1/9/2021	Jackson	American Indian or Alaska Nati	1
-7/3/2021	Jasper	White	7
+7/3/2021	Jasper	White	16
 7/2/2021	Jasper	White	54
 7/1/2021	Jasper	White	30
 6/30/2021	Jasper	White	24
@@ -24590,7 +24651,7 @@
 1/11/2021	Jasper	White	3
 1/8/2021	Jasper	White	1
 1/4/2021	Jasper	White	1
-7/3/2021	Jasper	Unknown	1
+7/3/2021	Jasper	Unknown	2
 7/2/2021	Jasper	Unknown	9
 7/1/2021	Jasper	Unknown	4
 6/30/2021	Jasper	Unknown	1
@@ -24732,7 +24793,7 @@
 1/22/2021	Jasper	Unknown	2
 1/14/2021	Jasper	Unknown	1
 1/13/2021	Jasper	Unknown	1
-7/3/2021	Jasper	Other Race	1
+7/3/2021	Jasper	Other Race	2
 7/2/2021	Jasper	Other Race	1
 6/30/2021	Jasper	Other Race	1
 6/28/2021	Jasper	Other Race	1
@@ -24879,6 +24940,7 @@
 4/5/2021	Jasper	Native Hawaiian or Other Pacif	1
 3/3/2021	Jasper	Native Hawaiian or Other Pacif	1
 2/24/2021	Jasper	Native Hawaiian or Other Pacif	1
+7/3/2021	Jasper	Multi-racial	1
 7/2/2021	Jasper	Multi-racial	2
 7/1/2021	Jasper	Multi-racial	1
 6/30/2021	Jasper	Multi-racial	3
@@ -25194,7 +25256,8 @@
 2/23/2021	Jasper	American Indian or Alaska Nati	2
 1/22/2021	Jasper	American Indian or Alaska Nati	1
 1/20/2021	Jasper	American Indian or Alaska Nati	1
-7/3/2021	Jefferson	White	19
+7/4/2021	Jefferson	White	1
+7/3/2021	Jefferson	White	67
 7/2/2021	Jefferson	White	146
 7/1/2021	Jefferson	White	96
 6/30/2021	Jefferson	White	163
@@ -25252,7 +25315,7 @@
 5/9/2021	Jefferson	White	116
 5/8/2021	Jefferson	White	381
 5/7/2021	Jefferson	White	575
-5/6/2021	Jefferson	White	462
+5/6/2021	Jefferson	White	463
 5/5/2021	Jefferson	White	1017
 5/4/2021	Jefferson	White	982
 5/3/2021	Jefferson	White	826
@@ -25289,7 +25352,7 @@
 4/2/2021	Jefferson	White	693
 4/1/2021	Jefferson	White	797
 3/31/2021	Jefferson	White	551
-3/30/2021	Jefferson	White	1308
+3/30/2021	Jefferson	White	1309
 3/29/2021	Jefferson	White	768
 3/28/2021	Jefferson	White	136
 3/27/2021	Jefferson	White	209
@@ -25315,7 +25378,7 @@
 3/7/2021	Jefferson	White	23
 3/6/2021	Jefferson	White	390
 3/5/2021	Jefferson	White	353
-3/4/2021	Jefferson	White	647
+3/4/2021	Jefferson	White	648
 3/3/2021	Jefferson	White	137
 3/2/2021	Jefferson	White	185
 3/1/2021	Jefferson	White	106
@@ -25374,7 +25437,7 @@
 1/6/2021	Jefferson	White	23
 1/5/2021	Jefferson	White	21
 1/4/2021	Jefferson	White	31
-7/3/2021	Jefferson	Unknown	3
+7/3/2021	Jefferson	Unknown	5
 7/2/2021	Jefferson	Unknown	11
 7/1/2021	Jefferson	Unknown	2
 6/30/2021	Jefferson	Unknown	6
@@ -25430,7 +25493,7 @@
 5/9/2021	Jefferson	Unknown	4
 5/8/2021	Jefferson	Unknown	12
 5/7/2021	Jefferson	Unknown	86
-5/6/2021	Jefferson	Unknown	36
+5/6/2021	Jefferson	Unknown	35
 5/5/2021	Jefferson	Unknown	439
 5/4/2021	Jefferson	Unknown	147
 5/3/2021	Jefferson	Unknown	359
@@ -25466,7 +25529,7 @@
 4/2/2021	Jefferson	Unknown	63
 4/1/2021	Jefferson	Unknown	95
 3/31/2021	Jefferson	Unknown	108
-3/30/2021	Jefferson	Unknown	409
+3/30/2021	Jefferson	Unknown	408
 3/29/2021	Jefferson	Unknown	428
 3/28/2021	Jefferson	Unknown	4
 3/27/2021	Jefferson	Unknown	14
@@ -25548,7 +25611,7 @@
 1/6/2021	Jefferson	Unknown	3
 1/5/2021	Jefferson	Unknown	3
 1/4/2021	Jefferson	Unknown	9
-7/3/2021	Jefferson	Other Race	2
+7/3/2021	Jefferson	Other Race	3
 7/2/2021	Jefferson	Other Race	4
 7/1/2021	Jefferson	Other Race	2
 6/30/2021	Jefferson	Other Race	1
@@ -25720,6 +25783,7 @@
 4/2/2021	Jefferson	Native Hawaiian or Other Pacif	1
 3/23/2021	Jefferson	Native Hawaiian or Other Pacif	1
 3/6/2021	Jefferson	Native Hawaiian or Other Pacif	1
+7/3/2021	Jefferson	Multi-racial	4
 7/2/2021	Jefferson	Multi-racial	7
 7/1/2021	Jefferson	Multi-racial	2
 6/30/2021	Jefferson	Multi-racial	10
@@ -26191,7 +26255,7 @@
 3/15/2021	Jefferson	American Indian or Alaska Nati	1
 3/4/2021	Jefferson	American Indian or Alaska Nati	1
 2/10/2021	Jefferson	American Indian or Alaska Nati	1
-7/3/2021	Johnson	White	2
+7/3/2021	Johnson	White	7
 7/2/2021	Johnson	White	23
 7/1/2021	Johnson	White	24
 6/30/2021	Johnson	White	17
@@ -26923,7 +26987,8 @@
 3/9/2021	Johnson	American Indian or Alaska Nati	1
 2/19/2021	Johnson	American Indian or Alaska Nati	2
 1/20/2021	Johnson	American Indian or Alaska Nati	1
-7/3/2021	Joplin	White	10
+7/4/2021	Joplin	White	3
+7/3/2021	Joplin	White	22
 7/2/2021	Joplin	White	44
 7/1/2021	Joplin	White	34
 6/30/2021	Joplin	White	41
@@ -27096,6 +27161,7 @@
 1/6/2021	Joplin	White	4
 1/4/2021	Joplin	White	1
 1/1/2021	Joplin	White	1
+7/4/2021	Joplin	Unknown	1
 7/2/2021	Joplin	Unknown	8
 7/1/2021	Joplin	Unknown	4
 6/30/2021	Joplin	Unknown	3
@@ -27407,6 +27473,7 @@
 1/20/2021	Joplin	Native Hawaiian or Other Pacif	1
 1/19/2021	Joplin	Native Hawaiian or Other Pacif	1
 1/18/2021	Joplin	Native Hawaiian or Other Pacif	1
+7/3/2021	Joplin	Multi-racial	4
 7/2/2021	Joplin	Multi-racial	2
 7/1/2021	Joplin	Multi-racial	6
 6/30/2021	Joplin	Multi-racial	9
@@ -27567,6 +27634,7 @@
 12/17/2020	Joplin	Multi-racial	35
 12/16/2020	Joplin	Multi-racial	16
 12/15/2020	Joplin	Multi-racial	4
+7/3/2021	Joplin	Black or African-American	1
 7/2/2021	Joplin	Black or African-American	2
 6/29/2021	Joplin	Black or African-American	2
 6/28/2021	Joplin	Black or African-American	2
@@ -27872,7 +27940,8 @@
 1/21/2021	Joplin	American Indian or Alaska Nati	5
 1/20/2021	Joplin	American Indian or Alaska Nati	2
 1/18/2021	Joplin	American Indian or Alaska Nati	1
-7/3/2021	Kansas City	White	30
+7/4/2021	Kansas City	White	4
+7/3/2021	Kansas City	White	78
 7/2/2021	Kansas City	White	155
 7/1/2021	Kansas City	White	167
 6/30/2021	Kansas City	White	221
@@ -27943,7 +28012,7 @@
 4/26/2021	Kansas City	White	934
 4/25/2021	Kansas City	White	234
 4/24/2021	Kansas City	White	546
-4/23/2021	Kansas City	White	1874
+4/23/2021	Kansas City	White	1873
 4/22/2021	Kansas City	White	1924
 4/21/2021	Kansas City	White	1324
 4/20/2021	Kansas City	White	1356
@@ -28063,7 +28132,7 @@
 12/22/2020	Kansas City	White	1
 12/21/2020	Kansas City	White	2
 12/17/2020	Kansas City	White	2
-7/3/2021	Kansas City	Unknown	3
+7/3/2021	Kansas City	Unknown	10
 7/2/2021	Kansas City	Unknown	19
 7/1/2021	Kansas City	Unknown	14
 6/30/2021	Kansas City	Unknown	22
@@ -28212,7 +28281,7 @@
 2/4/2021	Kansas City	Unknown	154
 2/3/2021	Kansas City	Unknown	83
 2/2/2021	Kansas City	Unknown	58
-2/1/2021	Kansas City	Unknown	37
+2/1/2021	Kansas City	Unknown	36
 1/31/2021	Kansas City	Unknown	13
 1/30/2021	Kansas City	Unknown	2
 1/29/2021	Kansas City	Unknown	177
@@ -28243,7 +28312,8 @@
 12/28/2020	Kansas City	Unknown	1
 12/23/2020	Kansas City	Unknown	1
 12/22/2020	Kansas City	Unknown	1
-7/3/2021	Kansas City	Other Race	5
+7/4/2021	Kansas City	Other Race	5
+7/3/2021	Kansas City	Other Race	21
 7/2/2021	Kansas City	Other Race	22
 7/1/2021	Kansas City	Other Race	27
 6/30/2021	Kansas City	Other Race	26
@@ -28548,7 +28618,8 @@
 1/7/2021	Kansas City	Native Hawaiian or Other Pacif	2
 1/6/2021	Kansas City	Native Hawaiian or Other Pacif	1
 1/5/2021	Kansas City	Native Hawaiian or Other Pacif	1
-7/3/2021	Kansas City	Multi-racial	8
+7/4/2021	Kansas City	Multi-racial	3
+7/3/2021	Kansas City	Multi-racial	29
 7/2/2021	Kansas City	Multi-racial	59
 7/1/2021	Kansas City	Multi-racial	58
 6/30/2021	Kansas City	Multi-racial	51
@@ -28606,7 +28677,7 @@
 5/9/2021	Kansas City	Multi-racial	37
 5/8/2021	Kansas City	Multi-racial	44
 5/7/2021	Kansas City	Multi-racial	125
-5/6/2021	Kansas City	Multi-racial	269
+5/6/2021	Kansas City	Multi-racial	270
 5/5/2021	Kansas City	Multi-racial	87
 5/4/2021	Kansas City	Multi-racial	141
 5/3/2021	Kansas City	Multi-racial	89
@@ -28619,7 +28690,7 @@
 4/26/2021	Kansas City	Multi-racial	104
 4/25/2021	Kansas City	Multi-racial	28
 4/24/2021	Kansas City	Multi-racial	53
-4/23/2021	Kansas City	Multi-racial	242
+4/23/2021	Kansas City	Multi-racial	243
 4/22/2021	Kansas City	Multi-racial	253
 4/21/2021	Kansas City	Multi-racial	120
 4/20/2021	Kansas City	Multi-racial	121
@@ -28733,7 +28804,8 @@
 12/17/2020	Kansas City	Multi-racial	3
 12/16/2020	Kansas City	Multi-racial	3
 12/15/2020	Kansas City	Multi-racial	1
-7/3/2021	Kansas City	Black or African-American	12
+7/4/2021	Kansas City	Black or African-American	7
+7/3/2021	Kansas City	Black or African-American	40
 7/2/2021	Kansas City	Black or African-American	82
 7/1/2021	Kansas City	Black or African-American	81
 6/30/2021	Kansas City	Black or African-American	92
@@ -28744,7 +28816,7 @@
 6/25/2021	Kansas City	Black or African-American	138
 6/24/2021	Kansas City	Black or African-American	109
 6/23/2021	Kansas City	Black or African-American	114
-6/22/2021	Kansas City	Black or African-American	124
+6/22/2021	Kansas City	Black or African-American	125
 6/21/2021	Kansas City	Black or African-American	59
 6/20/2021	Kansas City	Black or African-American	33
 6/19/2021	Kansas City	Black or African-American	65
@@ -28912,7 +28984,7 @@
 1/5/2021	Kansas City	Black or African-American	6
 1/4/2021	Kansas City	Black or African-American	3
 12/18/2020	Kansas City	Black or African-American	1
-7/3/2021	Kansas City	Asian	3
+7/3/2021	Kansas City	Asian	10
 7/2/2021	Kansas City	Asian	13
 7/1/2021	Kansas City	Asian	18
 6/30/2021	Kansas City	Asian	18
@@ -29394,7 +29466,7 @@
 6/2/2021	Knox	Asian	1
 4/13/2021	Knox	Asian	1
 2/9/2021	Knox	American Indian or Alaska Nati	1
-7/3/2021	Laclede	White	10
+7/3/2021	Laclede	White	12
 7/2/2021	Laclede	White	21
 7/1/2021	Laclede	White	12
 6/30/2021	Laclede	White	21
@@ -29937,7 +30009,8 @@
 2/16/2021	Laclede	American Indian or Alaska Nati	1
 2/12/2021	Laclede	American Indian or Alaska Nati	1
 2/3/2021	Laclede	American Indian or Alaska Nati	1
-7/3/2021	Lafayette	White	5
+7/4/2021	Lafayette	White	1
+7/3/2021	Lafayette	White	6
 7/2/2021	Lafayette	White	15
 7/1/2021	Lafayette	White	12
 6/30/2021	Lafayette	White	28
@@ -30320,6 +30393,7 @@
 4/9/2021	Lafayette	Native Hawaiian or Other Pacif	1
 4/2/2021	Lafayette	Native Hawaiian or Other Pacif	1
 3/3/2021	Lafayette	Native Hawaiian or Other Pacif	1
+7/3/2021	Lafayette	Multi-racial	1
 7/2/2021	Lafayette	Multi-racial	1
 7/1/2021	Lafayette	Multi-racial	1
 6/29/2021	Lafayette	Multi-racial	1
@@ -30572,7 +30646,8 @@
 3/18/2021	Lafayette	American Indian or Alaska Nati	1
 3/3/2021	Lafayette	American Indian or Alaska Nati	1
 2/22/2021	Lafayette	American Indian or Alaska Nati	1
-7/3/2021	Lawrence	White	6
+7/4/2021	Lawrence	White	1
+7/3/2021	Lawrence	White	9
 7/2/2021	Lawrence	White	23
 7/1/2021	Lawrence	White	12
 6/30/2021	Lawrence	White	14
@@ -31331,7 +31406,8 @@
 4/1/2021	Lewis	Asian	1
 3/23/2021	Lewis	American Indian or Alaska Nati	1
 2/19/2021	Lewis	American Indian or Alaska Nati	1
-7/3/2021	Lincoln	White	4
+7/4/2021	Lincoln	White	1
+7/3/2021	Lincoln	White	11
 7/2/2021	Lincoln	White	23
 7/1/2021	Lincoln	White	35
 6/30/2021	Lincoln	White	28
@@ -31397,7 +31473,7 @@
 5/1/2021	Lincoln	White	64
 4/30/2021	Lincoln	White	95
 4/29/2021	Lincoln	White	105
-4/28/2021	Lincoln	White	365
+4/28/2021	Lincoln	White	366
 4/27/2021	Lincoln	White	104
 4/26/2021	Lincoln	White	155
 4/25/2021	Lincoln	White	19
@@ -31554,7 +31630,7 @@
 5/1/2021	Lincoln	Unknown	1
 4/30/2021	Lincoln	Unknown	8
 4/29/2021	Lincoln	Unknown	8
-4/28/2021	Lincoln	Unknown	142
+4/28/2021	Lincoln	Unknown	141
 4/27/2021	Lincoln	Unknown	22
 4/26/2021	Lincoln	Unknown	4
 4/24/2021	Lincoln	Unknown	4
@@ -31718,7 +31794,7 @@
 6/1/2021	Lincoln	Native Hawaiian or Other Pacif	1
 4/9/2021	Lincoln	Native Hawaiian or Other Pacif	1
 1/29/2021	Lincoln	Native Hawaiian or Other Pacif	1
-7/3/2021	Lincoln	Multi-racial	1
+7/3/2021	Lincoln	Multi-racial	2
 7/1/2021	Lincoln	Multi-racial	2
 6/28/2021	Lincoln	Multi-racial	1
 6/27/2021	Lincoln	Multi-racial	3
@@ -32002,6 +32078,7 @@
 4/16/2021	Lincoln	American Indian or Alaska Nati	2
 4/12/2021	Lincoln	American Indian or Alaska Nati	1
 4/9/2021	Lincoln	American Indian or Alaska Nati	1
+7/4/2021	Linn	White	1
 7/3/2021	Linn	White	2
 7/2/2021	Linn	White	7
 7/1/2021	Linn	White	6
@@ -32355,7 +32432,8 @@
 3/26/2021	Linn	American Indian or Alaska Nati	1
 3/16/2021	Linn	American Indian or Alaska Nati	1
 3/5/2021	Linn	American Indian or Alaska Nati	1
-7/3/2021	Livingston	White	3
+7/4/2021	Livingston	White	1
+7/3/2021	Livingston	White	5
 7/2/2021	Livingston	White	10
 7/1/2021	Livingston	White	16
 6/30/2021	Livingston	White	14
@@ -32721,7 +32799,7 @@
 5/9/2021	Livingston	American Indian or Alaska Nati	1
 3/13/2021	Livingston	American Indian or Alaska Nati	1
 2/1/2021	Livingston	American Indian or Alaska Nati	1
-7/3/2021	Macon	White	4
+7/3/2021	Macon	White	5
 7/2/2021	Macon	White	4
 7/1/2021	Macon	White	11
 6/30/2021	Macon	White	7
@@ -33131,6 +33209,7 @@
 3/11/2021	Macon	American Indian or Alaska Nati	1
 3/9/2021	Macon	American Indian or Alaska Nati	1
 2/25/2021	Macon	American Indian or Alaska Nati	1
+7/3/2021	Madison	White	1
 7/2/2021	Madison	White	14
 7/1/2021	Madison	White	3
 6/30/2021	Madison	White	3
@@ -33772,7 +33851,7 @@
 2/27/2021	Maries	Asian	1
 7/3/2021	Maries	American Indian or Alaska Nati	1
 3/1/2021	Maries	American Indian or Alaska Nati	1
-7/3/2021	Marion	White	1
+7/3/2021	Marion	White	4
 7/2/2021	Marion	White	5
 7/1/2021	Marion	White	8
 6/30/2021	Marion	White	22
@@ -33931,6 +34010,7 @@
 1/7/2021	Marion	White	1
 1/6/2021	Marion	White	3
 12/23/2020	Marion	White	1
+7/4/2021	Marion	Unknown	1
 7/1/2021	Marion	Unknown	1
 6/30/2021	Marion	Unknown	1
 6/29/2021	Marion	Unknown	10
@@ -34061,7 +34141,7 @@
 3/8/2021	Marion	Native Hawaiian or Other Pacif	1
 2/9/2021	Marion	Native Hawaiian or Other Pacif	1
 2/8/2021	Marion	Native Hawaiian or Other Pacif	1
-7/3/2021	Marion	Multi-racial	1
+7/3/2021	Marion	Multi-racial	2
 6/28/2021	Marion	Multi-racial	1
 6/22/2021	Marion	Multi-racial	3
 6/15/2021	Marion	Multi-racial	1
@@ -34272,6 +34352,7 @@
 2/16/2021	Marion	American Indian or Alaska Nati	2
 2/12/2021	Marion	American Indian or Alaska Nati	1
 2/9/2021	Marion	American Indian or Alaska Nati	1
+7/4/2021	McDonald	White	1
 7/2/2021	McDonald	White	5
 7/1/2021	McDonald	White	4
 6/30/2021	McDonald	White	5
@@ -34809,6 +34890,7 @@
 2/5/2021	Mercer	Unknown	1
 2/4/2021	Mercer	Unknown	1
 2/3/2021	Mercer	Unknown	2
+7/4/2021	Mercer	Other Race	2
 7/3/2021	Mercer	Other Race	1
 6/17/2021	Mercer	Other Race	2
 5/30/2021	Mercer	Other Race	1
@@ -34839,6 +34921,7 @@
 1/11/2021	Mercer	Multi-racial	1
 3/16/2021	Mercer	Black or African-American	1
 6/2/2021	Mercer	American Indian or Alaska Nati	1
+7/4/2021	Miller	White	1
 7/3/2021	Miller	White	3
 7/2/2021	Miller	White	10
 7/1/2021	Miller	White	10
@@ -35993,6 +36076,7 @@
 4/20/2021	Moniteau	American Indian or Alaska Nati	2
 4/16/2021	Moniteau	American Indian or Alaska Nati	2
 4/9/2021	Moniteau	American Indian or Alaska Nati	1
+7/3/2021	Monroe	White	1
 7/2/2021	Monroe	White	2
 7/1/2021	Monroe	White	2
 6/30/2021	Monroe	White	6
@@ -36261,6 +36345,7 @@
 1/18/2021	Monroe	Multi-racial	1
 1/12/2021	Monroe	Multi-racial	1
 1/9/2021	Monroe	Multi-racial	1
+7/3/2021	Monroe	Black or African-American	1
 6/29/2021	Monroe	Black or African-American	1
 6/15/2021	Monroe	Black or African-American	1
 5/25/2021	Monroe	Black or African-American	1
@@ -36293,6 +36378,7 @@
 2/16/2021	Monroe	Asian	1
 2/5/2021	Monroe	Asian	1
 3/22/2021	Monroe	American Indian or Alaska Nati	1
+7/3/2021	Montgomery	White	1
 7/2/2021	Montgomery	White	3
 7/1/2021	Montgomery	White	13
 6/30/2021	Montgomery	White	1
@@ -36669,7 +36755,7 @@
 5/28/2021	Montgomery	American Indian or Alaska Nati	1
 5/17/2021	Montgomery	American Indian or Alaska Nati	1
 4/1/2021	Montgomery	American Indian or Alaska Nati	1
-7/3/2021	Morgan	White	4
+7/3/2021	Morgan	White	5
 7/2/2021	Morgan	White	8
 7/1/2021	Morgan	White	7
 6/30/2021	Morgan	White	8
@@ -37504,7 +37590,8 @@
 3/9/2021	New Madrid	Asian	1
 3/2/2021	New Madrid	Asian	1
 2/24/2021	New Madrid	Asian	1
-7/3/2021	Newton	White	1
+7/4/2021	Newton	White	3
+7/3/2021	Newton	White	7
 7/2/2021	Newton	White	14
 7/1/2021	Newton	White	21
 6/30/2021	Newton	White	23
@@ -38143,6 +38230,7 @@
 1/27/2021	Newton	American Indian or Alaska Nati	1
 1/21/2021	Newton	American Indian or Alaska Nati	1
 1/20/2021	Newton	American Indian or Alaska Nati	2
+7/3/2021	Nodaway	White	2
 7/2/2021	Nodaway	White	8
 7/1/2021	Nodaway	White	10
 6/30/2021	Nodaway	White	11
@@ -38634,7 +38722,7 @@
 4/7/2021	Nodaway	American Indian or Alaska Nati	1
 2/10/2021	Nodaway	American Indian or Alaska Nati	1
 1/13/2021	Nodaway	American Indian or Alaska Nati	1
-7/3/2021	Oregon	White	1
+7/3/2021	Oregon	White	2
 7/2/2021	Oregon	White	3
 7/1/2021	Oregon	White	1
 6/26/2021	Oregon	White	3
@@ -38939,7 +39027,7 @@
 4/29/2021	Osage	White	13
 4/28/2021	Osage	White	11
 4/27/2021	Osage	White	11
-4/26/2021	Osage	White	48
+4/26/2021	Osage	White	49
 4/25/2021	Osage	White	1
 4/23/2021	Osage	White	13
 4/22/2021	Osage	White	17
@@ -39054,7 +39142,7 @@
 4/29/2021	Osage	Unknown	3
 4/28/2021	Osage	Unknown	2
 4/27/2021	Osage	Unknown	6
-4/26/2021	Osage	Unknown	32
+4/26/2021	Osage	Unknown	31
 4/23/2021	Osage	Unknown	2
 4/22/2021	Osage	Unknown	4
 4/21/2021	Osage	Unknown	3
@@ -39178,7 +39266,8 @@
 2/15/2021	Osage	Black or African-American	1
 5/5/2021	Osage	American Indian or Alaska Nati	1
 4/16/2021	Osage	American Indian or Alaska Nati	1
-7/3/2021	Out-of-State	White	17
+7/4/2021	Out-of-State	White	4
+7/3/2021	Out-of-State	White	32
 7/2/2021	Out-of-State	White	77
 7/1/2021	Out-of-State	White	64
 6/30/2021	Out-of-State	White	87
@@ -39304,7 +39393,7 @@
 3/2/2021	Out-of-State	White	296
 3/1/2021	Out-of-State	White	205
 2/28/2021	Out-of-State	White	26
-2/27/2021	Out-of-State	White	201
+2/27/2021	Out-of-State	White	202
 2/26/2021	Out-of-State	White	773
 2/25/2021	Out-of-State	White	423
 2/24/2021	Out-of-State	White	352
@@ -39550,7 +39639,8 @@
 12/29/2020	Out-of-State	Unknown	1
 12/22/2020	Out-of-State	Unknown	1
 12/21/2020	Out-of-State	Unknown	1
-7/3/2021	Out-of-State	Other Race	3
+7/4/2021	Out-of-State	Other Race	1
+7/3/2021	Out-of-State	Other Race	5
 7/2/2021	Out-of-State	Other Race	6
 7/1/2021	Out-of-State	Other Race	7
 6/30/2021	Out-of-State	Other Race	23
@@ -39819,6 +39909,8 @@
 1/7/2021	Out-of-State	Native Hawaiian or Other Pacif	2
 1/6/2021	Out-of-State	Native Hawaiian or Other Pacif	1
 1/5/2021	Out-of-State	Native Hawaiian or Other Pacif	1
+7/4/2021	Out-of-State	Multi-racial	1
+7/3/2021	Out-of-State	Multi-racial	3
 7/2/2021	Out-of-State	Multi-racial	11
 7/1/2021	Out-of-State	Multi-racial	10
 6/30/2021	Out-of-State	Multi-racial	5
@@ -39901,7 +39993,7 @@
 4/13/2021	Out-of-State	Multi-racial	24
 4/12/2021	Out-of-State	Multi-racial	21
 4/11/2021	Out-of-State	Multi-racial	21
-4/10/2021	Out-of-State	Multi-racial	19
+4/10/2021	Out-of-State	Multi-racial	18
 4/9/2021	Out-of-State	Multi-racial	35
 4/8/2021	Out-of-State	Multi-racial	20
 4/7/2021	Out-of-State	Multi-racial	29
@@ -39935,7 +40027,7 @@
 3/10/2021	Out-of-State	Multi-racial	16
 3/9/2021	Out-of-State	Multi-racial	12
 3/8/2021	Out-of-State	Multi-racial	17
-3/7/2021	Out-of-State	Multi-racial	5
+3/7/2021	Out-of-State	Multi-racial	4
 3/6/2021	Out-of-State	Multi-racial	23
 3/5/2021	Out-of-State	Multi-racial	21
 3/4/2021	Out-of-State	Multi-racial	12
@@ -40000,7 +40092,8 @@
 12/17/2020	Out-of-State	Multi-racial	12
 12/16/2020	Out-of-State	Multi-racial	7
 12/15/2020	Out-of-State	Multi-racial	1
-7/3/2021	Out-of-State	Black or African-American	3
+7/4/2021	Out-of-State	Black or African-American	2
+7/3/2021	Out-of-State	Black or African-American	7
 7/2/2021	Out-of-State	Black or African-American	13
 7/1/2021	Out-of-State	Black or African-American	17
 6/30/2021	Out-of-State	Black or African-American	22
@@ -40182,7 +40275,7 @@
 1/4/2021	Out-of-State	Black or African-American	6
 1/3/2021	Out-of-State	Black or African-American	1
 12/30/2020	Out-of-State	Black or African-American	1
-7/3/2021	Out-of-State	Asian	5
+7/3/2021	Out-of-State	Asian	8
 7/2/2021	Out-of-State	Asian	7
 7/1/2021	Out-of-State	Asian	10
 6/30/2021	Out-of-State	Asian	12
@@ -40680,6 +40773,7 @@
 2/27/2021	Ozark	Other Race	1
 2/3/2021	Ozark	Other Race	1
 3/3/2021	Ozark	Native Hawaiian or Other Pacif	1
+7/3/2021	Ozark	Multi-racial	1
 6/28/2021	Ozark	Multi-racial	1
 5/25/2021	Ozark	Multi-racial	1
 5/11/2021	Ozark	Multi-racial	1
@@ -41056,6 +41150,7 @@
 2/26/2021	Pemiscot	Asian	2
 2/12/2021	Pemiscot	Asian	1
 5/12/2021	Pemiscot	American Indian or Alaska Nati	1
+7/3/2021	Perry	White	2
 7/2/2021	Perry	White	6
 7/1/2021	Perry	White	14
 6/30/2021	Perry	White	7
@@ -41402,7 +41497,8 @@
 1/27/2021	Perry	Asian	1
 1/13/2021	Perry	Asian	2
 4/28/2021	Perry	American Indian or Alaska Nati	1
-7/3/2021	Pettis	White	7
+7/4/2021	Pettis	White	1
+7/3/2021	Pettis	White	11
 7/2/2021	Pettis	White	9
 7/1/2021	Pettis	White	26
 6/30/2021	Pettis	White	16
@@ -41784,7 +41880,7 @@
 4/19/2021	Pettis	Native Hawaiian or Other Pacif	1
 4/15/2021	Pettis	Native Hawaiian or Other Pacif	4
 4/12/2021	Pettis	Native Hawaiian or Other Pacif	2
-7/3/2021	Pettis	Multi-racial	2
+7/3/2021	Pettis	Multi-racial	4
 7/2/2021	Pettis	Multi-racial	3
 7/1/2021	Pettis	Multi-racial	2
 6/30/2021	Pettis	Multi-racial	1
@@ -42043,7 +42139,7 @@
 2/25/2021	Pettis	American Indian or Alaska Nati	2
 2/23/2021	Pettis	American Indian or Alaska Nati	1
 2/4/2021	Pettis	American Indian or Alaska Nati	1
-7/3/2021	Phelps	White	4
+7/3/2021	Phelps	White	5
 7/2/2021	Phelps	White	17
 7/1/2021	Phelps	White	9
 6/30/2021	Phelps	White	11
@@ -42167,7 +42263,7 @@
 3/3/2021	Phelps	White	53
 3/2/2021	Phelps	White	22
 3/1/2021	Phelps	White	13
-2/27/2021	Phelps	White	199
+2/27/2021	Phelps	White	200
 2/26/2021	Phelps	White	569
 2/25/2021	Phelps	White	21
 2/24/2021	Phelps	White	49
@@ -42313,7 +42409,7 @@
 3/3/2021	Phelps	Unknown	8
 3/2/2021	Phelps	Unknown	9
 3/1/2021	Phelps	Unknown	2
-2/27/2021	Phelps	Unknown	325
+2/27/2021	Phelps	Unknown	324
 2/26/2021	Phelps	Unknown	411
 2/25/2021	Phelps	Unknown	6
 2/24/2021	Phelps	Unknown	7
@@ -42453,6 +42549,7 @@
 2/27/2021	Phelps	Native Hawaiian or Other Pacif	2
 2/26/2021	Phelps	Native Hawaiian or Other Pacif	1
 1/20/2021	Phelps	Native Hawaiian or Other Pacif	1
+7/3/2021	Phelps	Multi-racial	1
 7/2/2021	Phelps	Multi-racial	4
 7/1/2021	Phelps	Multi-racial	1
 6/29/2021	Phelps	Multi-racial	1
@@ -43193,6 +43290,8 @@
 5/11/2021	Pike	American Indian or Alaska Nati	1
 4/13/2021	Pike	American Indian or Alaska Nati	1
 3/23/2021	Pike	American Indian or Alaska Nati	1
+7/4/2021	Platte	White	1
+7/3/2021	Platte	White	5
 7/2/2021	Platte	White	17
 7/1/2021	Platte	White	23
 6/30/2021	Platte	White	20
@@ -43521,6 +43620,7 @@
 1/11/2021	Platte	Unknown	2
 1/9/2021	Platte	Unknown	1
 1/8/2021	Platte	Unknown	2
+7/3/2021	Platte	Other Race	2
 7/2/2021	Platte	Other Race	2
 6/30/2021	Platte	Other Race	1
 6/29/2021	Platte	Other Race	2
@@ -43663,6 +43763,7 @@
 3/8/2021	Platte	Native Hawaiian or Other Pacif	1
 3/2/2021	Platte	Native Hawaiian or Other Pacif	1
 2/17/2021	Platte	Native Hawaiian or Other Pacif	1
+7/3/2021	Platte	Multi-racial	1
 7/2/2021	Platte	Multi-racial	3
 7/1/2021	Platte	Multi-racial	1
 6/30/2021	Platte	Multi-racial	2
@@ -44035,6 +44136,7 @@
 1/12/2021	Platte	Asian	3
 1/11/2021	Platte	Asian	2
 1/9/2021	Platte	Asian	1
+7/3/2021	Platte	American Indian or Alaska Nati	2
 6/19/2021	Platte	American Indian or Alaska Nati	1
 6/17/2021	Platte	American Indian or Alaska Nati	1
 6/16/2021	Platte	American Indian or Alaska Nati	2
@@ -44064,7 +44166,8 @@
 3/3/2021	Platte	American Indian or Alaska Nati	1
 3/1/2021	Platte	American Indian or Alaska Nati	1
 2/22/2021	Platte	American Indian or Alaska Nati	1
-7/3/2021	Polk	White	3
+7/4/2021	Polk	White	1
+7/3/2021	Polk	White	4
 7/2/2021	Polk	White	9
 7/1/2021	Polk	White	14
 6/30/2021	Polk	White	13
@@ -44563,7 +44666,8 @@
 3/22/2021	Polk	American Indian or Alaska Nati	1
 3/3/2021	Polk	American Indian or Alaska Nati	1
 1/26/2021	Polk	American Indian or Alaska Nati	1
-7/3/2021	Pulaski	White	2
+7/4/2021	Pulaski	White	1
+7/3/2021	Pulaski	White	5
 7/2/2021	Pulaski	White	6
 7/1/2021	Pulaski	White	14
 6/30/2021	Pulaski	White	14
@@ -44809,7 +44913,7 @@
 3/11/2021	Pulaski	Unknown	17
 3/10/2021	Pulaski	Unknown	2
 3/9/2021	Pulaski	Unknown	1
-3/8/2021	Pulaski	Unknown	6
+3/8/2021	Pulaski	Unknown	5
 3/7/2021	Pulaski	Unknown	21
 3/5/2021	Pulaski	Unknown	6
 3/4/2021	Pulaski	Unknown	44
@@ -45353,6 +45457,7 @@
 12/16/2020	Putnam	Multi-racial	1
 4/2/2021	Putnam	Black or African-American	1
 3/25/2021	Putnam	Asian	1
+7/3/2021	Ralls	White	1
 6/30/2021	Ralls	White	1
 6/29/2021	Ralls	White	7
 6/28/2021	Ralls	White	2
@@ -45615,7 +45720,7 @@
 6/8/2021	Ralls	Asian	1
 5/5/2021	Ralls	Asian	1
 1/18/2021	Ralls	Asian	1
-7/3/2021	Randolph	White	2
+7/3/2021	Randolph	White	7
 7/2/2021	Randolph	White	11
 7/1/2021	Randolph	White	13
 6/30/2021	Randolph	White	21
@@ -45945,6 +46050,7 @@
 4/28/2021	Randolph	Native Hawaiian or Other Pacif	1
 2/24/2021	Randolph	Native Hawaiian or Other Pacif	2
 2/10/2021	Randolph	Native Hawaiian or Other Pacif	1
+7/3/2021	Randolph	Multi-racial	2
 7/2/2021	Randolph	Multi-racial	1
 6/30/2021	Randolph	Multi-racial	2
 6/29/2021	Randolph	Multi-racial	1
@@ -46020,6 +46126,7 @@
 1/9/2021	Randolph	Multi-racial	1
 1/6/2021	Randolph	Multi-racial	1
 12/16/2020	Randolph	Multi-racial	1
+7/4/2021	Randolph	Black or African-American	1
 7/1/2021	Randolph	Black or African-American	1
 6/30/2021	Randolph	Black or African-American	1
 6/29/2021	Randolph	Black or African-American	1
@@ -46136,7 +46243,8 @@
 3/22/2021	Randolph	American Indian or Alaska Nati	1
 3/11/2021	Randolph	American Indian or Alaska Nati	1
 2/24/2021	Randolph	American Indian or Alaska Nati	2
-7/3/2021	Ray	White	1
+7/4/2021	Ray	White	2
+7/3/2021	Ray	White	2
 7/2/2021	Ray	White	7
 7/1/2021	Ray	White	8
 6/30/2021	Ray	White	9
@@ -46882,6 +46990,8 @@
 6/30/2021	Reynolds	Asian	1
 6/21/2021	Reynolds	Asian	1
 5/28/2021	Reynolds	American Indian or Alaska Nati	1
+7/4/2021	Ripley	White	1
+7/3/2021	Ripley	White	1
 7/2/2021	Ripley	White	7
 6/30/2021	Ripley	White	6
 6/29/2021	Ripley	White	3
@@ -47138,6 +47248,7 @@
 4/9/2021	Ripley	Asian	2
 2/4/2021	Ripley	Asian	1
 3/6/2021	Ripley	American Indian or Alaska Nati	1
+7/3/2021	Saline	White	1
 7/2/2021	Saline	White	6
 7/1/2021	Saline	White	9
 6/30/2021	Saline	White	16
@@ -48671,7 +48782,7 @@
 4/7/2021	Scott	American Indian or Alaska Nati	1
 4/6/2021	Scott	American Indian or Alaska Nati	2
 2/9/2021	Scott	American Indian or Alaska Nati	1
-7/3/2021	Shannon	White	1
+7/3/2021	Shannon	White	2
 7/2/2021	Shannon	White	3
 6/30/2021	Shannon	White	6
 6/29/2021	Shannon	White	4
@@ -49094,7 +49205,8 @@
 5/11/2021	Shelby	American Indian or Alaska Nati	1
 4/29/2021	Shelby	American Indian or Alaska Nati	1
 3/3/2021	Shelby	American Indian or Alaska Nati	1
-7/3/2021	St. Charles	White	53
+7/4/2021	St. Charles	White	10
+7/3/2021	St. Charles	White	117
 7/2/2021	St. Charles	White	234
 7/1/2021	St. Charles	White	265
 6/30/2021	St. Charles	White	244
@@ -49222,7 +49334,7 @@
 2/28/2021	St. Charles	White	102
 2/27/2021	St. Charles	White	739
 2/26/2021	St. Charles	White	1090
-2/25/2021	St. Charles	White	701
+2/25/2021	St. Charles	White	700
 2/24/2021	St. Charles	White	840
 2/23/2021	St. Charles	White	974
 2/22/2021	St. Charles	White	846
@@ -49459,7 +49571,7 @@
 1/6/2021	St. Charles	Unknown	49
 1/5/2021	St. Charles	Unknown	36
 1/4/2021	St. Charles	Unknown	22
-7/3/2021	St. Charles	Other Race	2
+7/3/2021	St. Charles	Other Race	8
 7/2/2021	St. Charles	Other Race	5
 7/1/2021	St. Charles	Other Race	3
 6/30/2021	St. Charles	Other Race	10
@@ -49697,7 +49809,8 @@
 1/14/2021	St. Charles	Native Hawaiian or Other Pacif	1
 1/13/2021	St. Charles	Native Hawaiian or Other Pacif	2
 1/11/2021	St. Charles	Native Hawaiian or Other Pacif	1
-7/3/2021	St. Charles	Multi-racial	1
+7/4/2021	St. Charles	Multi-racial	2
+7/3/2021	St. Charles	Multi-racial	8
 7/2/2021	St. Charles	Multi-racial	18
 7/1/2021	St. Charles	Multi-racial	14
 6/30/2021	St. Charles	Multi-racial	24
@@ -49825,7 +49938,7 @@
 2/28/2021	St. Charles	Multi-racial	31
 2/27/2021	St. Charles	Multi-racial	34
 2/26/2021	St. Charles	Multi-racial	48
-2/25/2021	St. Charles	Multi-racial	130
+2/25/2021	St. Charles	Multi-racial	131
 2/24/2021	St. Charles	Multi-racial	90
 2/23/2021	St. Charles	Multi-racial	54
 2/22/2021	St. Charles	Multi-racial	57
@@ -49882,7 +49995,7 @@
 12/17/2020	St. Charles	Multi-racial	1
 12/16/2020	St. Charles	Multi-racial	1
 12/15/2020	St. Charles	Multi-racial	1
-7/3/2021	St. Charles	Black or African-American	9
+7/3/2021	St. Charles	Black or African-American	21
 7/2/2021	St. Charles	Black or African-American	18
 7/1/2021	St. Charles	Black or African-American	16
 6/30/2021	St. Charles	Black or African-American	24
@@ -50059,7 +50172,7 @@
 1/6/2021	St. Charles	Black or African-American	2
 1/5/2021	St. Charles	Black or African-American	4
 1/4/2021	St. Charles	Black or African-American	2
-7/3/2021	St. Charles	Asian	2
+7/3/2021	St. Charles	Asian	10
 7/2/2021	St. Charles	Asian	15
 7/1/2021	St. Charles	Asian	12
 6/30/2021	St. Charles	Asian	13
@@ -50322,6 +50435,7 @@
 1/12/2021	St. Charles	American Indian or Alaska Nati	1
 1/11/2021	St. Charles	American Indian or Alaska Nati	1
 1/7/2021	St. Charles	American Indian or Alaska Nati	1
+7/4/2021	St. Clair	White	1
 7/2/2021	St. Clair	White	1
 7/1/2021	St. Clair	White	3
 6/30/2021	St. Clair	White	1
@@ -50574,7 +50688,6 @@
 3/31/2021	St. Clair	Other Race	1
 3/30/2021	St. Clair	Other Race	1
 3/26/2021	St. Clair	Other Race	2
-3/18/2021	St. Clair	Other Race	1
 3/17/2021	St. Clair	Other Race	1
 3/14/2021	St. Clair	Other Race	1
 3/12/2021	St. Clair	Other Race	1
@@ -50611,7 +50724,7 @@
 3/28/2021	St. Clair	Multi-racial	1
 3/26/2021	St. Clair	Multi-racial	1
 3/25/2021	St. Clair	Multi-racial	5
-3/18/2021	St. Clair	Multi-racial	1
+3/18/2021	St. Clair	Multi-racial	2
 3/13/2021	St. Clair	Multi-racial	1
 3/11/2021	St. Clair	Multi-racial	3
 3/8/2021	St. Clair	Multi-racial	1
@@ -50649,7 +50762,8 @@
 4/29/2021	St. Clair	Asian	1
 2/3/2021	St. Clair	Asian	1
 3/13/2021	St. Clair	American Indian or Alaska Nati	1
-7/3/2021	St. Francois	White	9
+7/4/2021	St. Francois	White	2
+7/3/2021	St. Francois	White	14
 7/2/2021	St. Francois	White	28
 7/1/2021	St. Francois	White	22
 6/30/2021	St. Francois	White	13
@@ -50763,10 +50877,10 @@
 3/14/2021	St. Francois	White	6
 3/13/2021	St. Francois	White	90
 3/12/2021	St. Francois	White	192
-3/11/2021	St. Francois	White	120
+3/11/2021	St. Francois	White	121
 3/10/2021	St. Francois	White	119
 3/9/2021	St. Francois	White	47
-3/8/2021	St. Francois	White	144
+3/8/2021	St. Francois	White	145
 3/6/2021	St. Francois	White	59
 3/5/2021	St. Francois	White	259
 3/4/2021	St. Francois	White	104
@@ -50921,7 +51035,7 @@
 3/15/2021	St. Francois	Unknown	16
 3/13/2021	St. Francois	Unknown	2
 3/12/2021	St. Francois	Unknown	27
-3/11/2021	St. Francois	Unknown	16
+3/11/2021	St. Francois	Unknown	15
 3/10/2021	St. Francois	Unknown	29
 3/9/2021	St. Francois	Unknown	6
 3/8/2021	St. Francois	Unknown	12
@@ -51040,6 +51154,7 @@
 4/7/2021	St. Francois	Native Hawaiian or Other Pacif	1
 3/26/2021	St. Francois	Native Hawaiian or Other Pacif	1
 2/26/2021	St. Francois	Native Hawaiian or Other Pacif	1
+7/3/2021	St. Francois	Multi-racial	2
 7/2/2021	St. Francois	Multi-racial	2
 7/1/2021	St. Francois	Multi-racial	4
 6/29/2021	St. Francois	Multi-racial	1
@@ -51323,10 +51438,11 @@
 4/7/2021	St. Francois	American Indian or Alaska Nati	1
 2/26/2021	St. Francois	American Indian or Alaska Nati	3
 2/24/2021	St. Francois	American Indian or Alaska Nati	1
-7/3/2021	St. Louis	White	40
+7/4/2021	St. Louis	White	6
+7/3/2021	St. Louis	White	164
 7/2/2021	St. Louis	White	369
 7/1/2021	St. Louis	White	329
-6/30/2021	St. Louis	White	414
+6/30/2021	St. Louis	White	413
 6/29/2021	St. Louis	White	437
 6/28/2021	St. Louis	White	404
 6/27/2021	St. Louis	White	250
@@ -51388,7 +51504,7 @@
 5/2/2021	St. Louis	White	1036
 5/1/2021	St. Louis	White	2148
 4/30/2021	St. Louis	White	3055
-4/29/2021	St. Louis	White	4711
+4/29/2021	St. Louis	White	4712
 4/28/2021	St. Louis	White	4064
 4/27/2021	St. Louis	White	4682
 4/26/2021	St. Louis	White	2938
@@ -51409,13 +51525,13 @@
 4/11/2021	St. Louis	White	1154
 4/10/2021	St. Louis	White	2449
 4/9/2021	St. Louis	White	4387
-4/8/2021	St. Louis	White	4111
+4/8/2021	St. Louis	White	4112
 4/7/2021	St. Louis	White	4418
 4/6/2021	St. Louis	White	4174
 4/5/2021	St. Louis	White	3063
 4/4/2021	St. Louis	White	271
 4/3/2021	St. Louis	White	2921
-4/2/2021	St. Louis	White	3777
+4/2/2021	St. Louis	White	3778
 4/1/2021	St. Louis	White	2774
 3/31/2021	St. Louis	White	4011
 3/30/2021	St. Louis	White	4311
@@ -51424,7 +51540,7 @@
 3/27/2021	St. Louis	White	2088
 3/26/2021	St. Louis	White	3327
 3/25/2021	St. Louis	White	3723
-3/24/2021	St. Louis	White	3119
+3/24/2021	St. Louis	White	3118
 3/23/2021	St. Louis	White	2943
 3/22/2021	St. Louis	White	2573
 3/21/2021	St. Louis	White	607
@@ -51443,7 +51559,7 @@
 3/8/2021	St. Louis	White	1581
 3/7/2021	St. Louis	White	236
 3/6/2021	St. Louis	White	1756
-3/5/2021	St. Louis	White	1474
+3/5/2021	St. Louis	White	1475
 3/4/2021	St. Louis	White	1485
 3/3/2021	St. Louis	White	1412
 3/2/2021	St. Louis	White	1632
@@ -51511,7 +51627,8 @@
 12/24/2020	St. Louis	White	1
 12/18/2020	St. Louis	White	1
 12/17/2020	St. Louis	White	1
-7/3/2021	St. Louis	Unknown	4
+7/4/2021	St. Louis	Unknown	3
+7/3/2021	St. Louis	Unknown	8
 7/2/2021	St. Louis	Unknown	23
 7/1/2021	St. Louis	Unknown	13
 6/30/2021	St. Louis	Unknown	28
@@ -51576,7 +51693,7 @@
 5/2/2021	St. Louis	Unknown	48
 5/1/2021	St. Louis	Unknown	176
 4/30/2021	St. Louis	Unknown	252
-4/29/2021	St. Louis	Unknown	589
+4/29/2021	St. Louis	Unknown	588
 4/28/2021	St. Louis	Unknown	494
 4/27/2021	St. Louis	Unknown	287
 4/26/2021	St. Louis	Unknown	264
@@ -51631,7 +51748,7 @@
 3/8/2021	St. Louis	Unknown	171
 3/7/2021	St. Louis	Unknown	35
 3/6/2021	St. Louis	Unknown	94
-3/5/2021	St. Louis	Unknown	219
+3/5/2021	St. Louis	Unknown	218
 3/4/2021	St. Louis	Unknown	178
 3/3/2021	St. Louis	Unknown	221
 3/2/2021	St. Louis	Unknown	147
@@ -51693,7 +51810,8 @@
 1/3/2021	St. Louis	Unknown	1
 1/1/2021	St. Louis	Unknown	1
 12/29/2020	St. Louis	Unknown	1
-7/3/2021	St. Louis	Other Race	1
+7/4/2021	St. Louis	Other Race	1
+7/3/2021	St. Louis	Other Race	11
 7/2/2021	St. Louis	Other Race	26
 7/1/2021	St. Louis	Other Race	16
 6/30/2021	St. Louis	Other Race	18
@@ -51983,7 +52101,8 @@
 1/8/2021	St. Louis	Native Hawaiian or Other Pacif	1
 1/7/2021	St. Louis	Native Hawaiian or Other Pacif	1
 1/6/2021	St. Louis	Native Hawaiian or Other Pacif	1
-7/3/2021	St. Louis	Multi-racial	8
+7/4/2021	St. Louis	Multi-racial	3
+7/3/2021	St. Louis	Multi-racial	33
 7/2/2021	St. Louis	Multi-racial	68
 7/1/2021	St. Louis	Multi-racial	57
 6/30/2021	St. Louis	Multi-racial	56
@@ -52069,12 +52188,12 @@
 4/11/2021	St. Louis	Multi-racial	84
 4/10/2021	St. Louis	Multi-racial	139
 4/9/2021	St. Louis	Multi-racial	219
-4/8/2021	St. Louis	Multi-racial	221
+4/8/2021	St. Louis	Multi-racial	222
 4/7/2021	St. Louis	Multi-racial	184
 4/6/2021	St. Louis	Multi-racial	193
 4/5/2021	St. Louis	Multi-racial	146
 4/4/2021	St. Louis	Multi-racial	12
-4/3/2021	St. Louis	Multi-racial	128
+4/3/2021	St. Louis	Multi-racial	129
 4/2/2021	St. Louis	Multi-racial	178
 4/1/2021	St. Louis	Multi-racial	159
 3/31/2021	St. Louis	Multi-racial	170
@@ -52083,7 +52202,7 @@
 3/28/2021	St. Louis	Multi-racial	99
 3/27/2021	St. Louis	Multi-racial	122
 3/26/2021	St. Louis	Multi-racial	201
-3/25/2021	St. Louis	Multi-racial	202
+3/25/2021	St. Louis	Multi-racial	203
 3/24/2021	St. Louis	Multi-racial	134
 3/23/2021	St. Louis	Multi-racial	138
 3/22/2021	St. Louis	Multi-racial	110
@@ -52168,7 +52287,8 @@
 12/17/2020	St. Louis	Multi-racial	2
 12/16/2020	St. Louis	Multi-racial	3
 12/15/2020	St. Louis	Multi-racial	3
-7/3/2021	St. Louis	Black or African-American	15
+7/4/2021	St. Louis	Black or African-American	4
+7/3/2021	St. Louis	Black or African-American	77
 7/2/2021	St. Louis	Black or African-American	301
 7/1/2021	St. Louis	Black or African-American	107
 6/30/2021	St. Louis	Black or African-American	147
@@ -52268,7 +52388,7 @@
 3/28/2021	St. Louis	Black or African-American	173
 3/27/2021	St. Louis	Black or African-American	646
 3/26/2021	St. Louis	Black or African-American	582
-3/25/2021	St. Louis	Black or African-American	583
+3/25/2021	St. Louis	Black or African-American	582
 3/24/2021	St. Louis	Black or African-American	554
 3/23/2021	St. Louis	Black or African-American	396
 3/22/2021	St. Louis	Black or African-American	282
@@ -52349,7 +52469,8 @@
 1/4/2021	St. Louis	Black or African-American	25
 12/31/2020	St. Louis	Black or African-American	2
 12/23/2020	St. Louis	Black or African-American	1
-7/3/2021	St. Louis	Asian	8
+7/4/2021	St. Louis	Asian	2
+7/3/2021	St. Louis	Asian	25
 7/2/2021	St. Louis	Asian	38
 7/1/2021	St. Louis	Asian	19
 6/30/2021	St. Louis	Asian	36
@@ -52435,7 +52556,7 @@
 4/11/2021	St. Louis	Asian	104
 4/10/2021	St. Louis	Asian	139
 4/9/2021	St. Louis	Asian	383
-4/8/2021	St. Louis	Asian	289
+4/8/2021	St. Louis	Asian	288
 4/7/2021	St. Louis	Asian	251
 4/6/2021	St. Louis	Asian	256
 4/5/2021	St. Louis	Asian	137
@@ -52665,7 +52786,8 @@
 1/8/2021	St. Louis	American Indian or Alaska Nati	1
 1/7/2021	St. Louis	American Indian or Alaska Nati	1
 1/5/2021	St. Louis	American Indian or Alaska Nati	1
-7/3/2021	St. Louis City	White	14
+7/4/2021	St. Louis City	White	2
+7/3/2021	St. Louis City	White	45
 7/2/2021	St. Louis City	White	76
 7/1/2021	St. Louis City	White	77
 6/30/2021	St. Louis City	White	100
@@ -52758,7 +52880,7 @@
 4/4/2021	St. Louis City	White	59
 4/3/2021	St. Louis City	White	729
 4/2/2021	St. Louis City	White	482
-4/1/2021	St. Louis City	White	364
+4/1/2021	St. Louis City	White	365
 3/31/2021	St. Louis City	White	464
 3/30/2021	St. Louis City	White	603
 3/29/2021	St. Louis City	White	424
@@ -52907,7 +53029,7 @@
 5/4/2021	St. Louis City	Unknown	65
 5/3/2021	St. Louis City	Unknown	81
 5/2/2021	St. Louis City	Unknown	2
-5/1/2021	St. Louis City	Unknown	26
+5/1/2021	St. Louis City	Unknown	25
 4/30/2021	St. Louis City	Unknown	74
 4/29/2021	St. Louis City	Unknown	157
 4/28/2021	St. Louis City	Unknown	100
@@ -53022,7 +53144,8 @@
 1/5/2021	St. Louis City	Unknown	33
 1/4/2021	St. Louis City	Unknown	63
 1/1/2021	St. Louis City	Unknown	1
-7/3/2021	St. Louis City	Other Race	1
+7/4/2021	St. Louis City	Other Race	1
+7/3/2021	St. Louis City	Other Race	6
 7/2/2021	St. Louis City	Other Race	4
 7/1/2021	St. Louis City	Other Race	6
 6/30/2021	St. Louis City	Other Race	6
@@ -53085,7 +53208,7 @@
 5/4/2021	St. Louis City	Other Race	28
 5/3/2021	St. Louis City	Other Race	32
 5/2/2021	St. Louis City	Other Race	18
-5/1/2021	St. Louis City	Other Race	25
+5/1/2021	St. Louis City	Other Race	26
 4/30/2021	St. Louis City	Other Race	37
 4/29/2021	St. Louis City	Other Race	36
 4/28/2021	St. Louis City	Other Race	28
@@ -53257,7 +53380,7 @@
 1/15/2021	St. Louis City	Native Hawaiian or Other Pacif	3
 1/13/2021	St. Louis City	Native Hawaiian or Other Pacif	1
 1/5/2021	St. Louis City	Native Hawaiian or Other Pacif	1
-7/3/2021	St. Louis City	Multi-racial	2
+7/3/2021	St. Louis City	Multi-racial	13
 7/2/2021	St. Louis City	Multi-racial	23
 7/1/2021	St. Louis City	Multi-racial	26
 6/30/2021	St. Louis City	Multi-racial	24
@@ -53339,7 +53462,7 @@
 4/15/2021	St. Louis City	Multi-racial	53
 4/14/2021	St. Louis City	Multi-racial	52
 4/13/2021	St. Louis City	Multi-racial	36
-4/12/2021	St. Louis City	Multi-racial	40
+4/12/2021	St. Louis City	Multi-racial	41
 4/11/2021	St. Louis City	Multi-racial	11
 4/10/2021	St. Louis City	Multi-racial	27
 4/9/2021	St. Louis City	Multi-racial	42
@@ -53356,7 +53479,7 @@
 3/29/2021	St. Louis City	Multi-racial	17
 3/28/2021	St. Louis City	Multi-racial	12
 3/27/2021	St. Louis City	Multi-racial	24
-3/26/2021	St. Louis City	Multi-racial	60
+3/26/2021	St. Louis City	Multi-racial	61
 3/25/2021	St. Louis City	Multi-racial	51
 3/24/2021	St. Louis City	Multi-racial	40
 3/23/2021	St. Louis City	Multi-racial	35
@@ -53439,7 +53562,7 @@
 12/17/2020	St. Louis City	Multi-racial	1
 12/16/2020	St. Louis City	Multi-racial	2
 12/15/2020	St. Louis City	Multi-racial	1
-7/3/2021	St. Louis City	Black or African-American	11
+7/3/2021	St. Louis City	Black or African-American	61
 7/2/2021	St. Louis City	Black or African-American	105
 7/1/2021	St. Louis City	Black or African-American	75
 6/30/2021	St. Louis City	Black or African-American	107
@@ -53618,6 +53741,7 @@
 1/6/2021	St. Louis City	Black or African-American	9
 1/5/2021	St. Louis City	Black or African-American	17
 1/4/2021	St. Louis City	Black or African-American	11
+7/3/2021	St. Louis City	Asian	7
 7/2/2021	St. Louis City	Asian	6
 7/1/2021	St. Louis City	Asian	11
 6/30/2021	St. Louis City	Asian	9
@@ -53715,7 +53839,7 @@
 3/29/2021	St. Louis City	Asian	9
 3/28/2021	St. Louis City	Asian	4
 3/27/2021	St. Louis City	Asian	15
-3/26/2021	St. Louis City	Asian	102
+3/26/2021	St. Louis City	Asian	101
 3/25/2021	St. Louis City	Asian	68
 3/24/2021	St. Louis City	Asian	14
 3/23/2021	St. Louis City	Asian	20
@@ -53880,6 +54004,8 @@
 1/11/2021	St. Louis City	American Indian or Alaska Nati	1
 1/8/2021	St. Louis City	American Indian or Alaska Nati	1
 1/5/2021	St. Louis City	American Indian or Alaska Nati	1
+7/4/2021	Ste. Genevieve	White	1
+7/3/2021	Ste. Genevieve	White	2
 7/2/2021	Ste. Genevieve	White	5
 7/1/2021	Ste. Genevieve	White	19
 6/30/2021	Ste. Genevieve	White	8
@@ -54024,7 +54150,7 @@
 2/8/2021	Ste. Genevieve	White	19
 2/7/2021	Ste. Genevieve	White	1
 2/6/2021	Ste. Genevieve	White	3
-2/5/2021	Ste. Genevieve	White	6
+2/5/2021	Ste. Genevieve	White	7
 2/4/2021	Ste. Genevieve	White	14
 2/3/2021	Ste. Genevieve	White	2
 2/2/2021	Ste. Genevieve	White	2
@@ -54291,6 +54417,7 @@
 4/16/2021	Ste. Genevieve	American Indian or Alaska Nati	1
 3/24/2021	Ste. Genevieve	American Indian or Alaska Nati	2
 3/9/2021	Ste. Genevieve	American Indian or Alaska Nati	1
+7/3/2021	Stoddard	White	3
 7/2/2021	Stoddard	White	14
 7/1/2021	Stoddard	White	17
 6/30/2021	Stoddard	White	10
@@ -54730,6 +54857,7 @@
 6/16/2021	Stoddard	American Indian or Alaska Nati	1
 3/22/2021	Stoddard	American Indian or Alaska Nati	1
 3/3/2021	Stoddard	American Indian or Alaska Nati	1
+7/3/2021	Stone	White	4
 7/2/2021	Stone	White	7
 7/1/2021	Stone	White	11
 6/30/2021	Stone	White	15
@@ -54819,7 +54947,7 @@
 4/6/2021	Stone	White	134
 4/5/2021	Stone	White	50
 4/4/2021	Stone	White	2
-4/3/2021	Stone	White	61
+4/3/2021	Stone	White	60
 4/2/2021	Stone	White	75
 4/1/2021	Stone	White	119
 3/31/2021	Stone	White	50
@@ -54897,6 +55025,7 @@
 1/11/2021	Stone	White	1
 1/8/2021	Stone	White	1
 1/7/2021	Stone	White	1
+7/4/2021	Stone	Unknown	2
 7/3/2021	Stone	Unknown	1
 7/2/2021	Stone	Unknown	1
 7/1/2021	Stone	Unknown	6
@@ -55085,7 +55214,7 @@
 1/26/2021	Stone	Other Race	8
 1/18/2021	Stone	Other Race	1
 6/22/2021	Stone	Native Hawaiian or Other Pacif	1
-7/3/2021	Stone	Multi-racial	1
+7/3/2021	Stone	Multi-racial	2
 6/30/2021	Stone	Multi-racial	1
 6/29/2021	Stone	Multi-racial	1
 6/25/2021	Stone	Multi-racial	1
@@ -55210,7 +55339,7 @@
 3/12/2021	Stone	American Indian or Alaska Nati	1
 3/11/2021	Stone	American Indian or Alaska Nati	1
 1/22/2021	Stone	American Indian or Alaska Nati	1
-7/3/2021	Sullivan	White	1
+7/3/2021	Sullivan	White	3
 7/1/2021	Sullivan	White	3
 6/30/2021	Sullivan	White	4
 6/29/2021	Sullivan	White	8
@@ -55484,7 +55613,8 @@
 6/21/2021	Sullivan	American Indian or Alaska Nati	1
 3/6/2021	Sullivan	American Indian or Alaska Nati	1
 2/25/2021	Sullivan	American Indian or Alaska Nati	1
-7/3/2021	Taney	White	5
+7/4/2021	Taney	White	1
+7/3/2021	Taney	White	14
 7/2/2021	Taney	White	29
 7/1/2021	Taney	White	24
 6/30/2021	Taney	White	23
@@ -55571,11 +55701,11 @@
 4/10/2021	Taney	White	78
 4/9/2021	Taney	White	188
 4/8/2021	Taney	White	225
-4/7/2021	Taney	White	196
+4/7/2021	Taney	White	195
 4/6/2021	Taney	White	273
 4/5/2021	Taney	White	272
 4/4/2021	Taney	White	2
-4/3/2021	Taney	White	76
+4/3/2021	Taney	White	77
 4/2/2021	Taney	White	162
 4/1/2021	Taney	White	54
 3/31/2021	Taney	White	126
@@ -55655,6 +55785,7 @@
 1/7/2021	Taney	White	1
 1/6/2021	Taney	White	1
 12/14/2020	Taney	White	1
+7/4/2021	Taney	Unknown	1
 7/2/2021	Taney	Unknown	9
 7/1/2021	Taney	Unknown	8
 6/30/2021	Taney	Unknown	1
@@ -55795,6 +55926,7 @@
 1/20/2021	Taney	Unknown	5
 1/12/2021	Taney	Unknown	1
 1/11/2021	Taney	Unknown	1
+7/3/2021	Taney	Other Race	1
 7/2/2021	Taney	Other Race	1
 6/30/2021	Taney	Other Race	4
 6/29/2021	Taney	Other Race	2
@@ -56170,7 +56302,7 @@
 2/11/2021	Taney	American Indian or Alaska Nati	1
 2/5/2021	Taney	American Indian or Alaska Nati	1
 1/28/2021	Taney	American Indian or Alaska Nati	1
-7/3/2021	Texas	White	6
+7/3/2021	Texas	White	8
 7/2/2021	Texas	White	15
 7/1/2021	Texas	White	2
 6/30/2021	Texas	White	11
@@ -56271,7 +56403,7 @@
 3/25/2021	Texas	White	16
 3/24/2021	Texas	White	11
 3/23/2021	Texas	White	56
-3/22/2021	Texas	White	14
+3/22/2021	Texas	White	15
 3/21/2021	Texas	White	1
 3/20/2021	Texas	White	13
 3/19/2021	Texas	White	23
@@ -56391,7 +56523,7 @@
 3/25/2021	Texas	Unknown	4
 3/24/2021	Texas	Unknown	4
 3/23/2021	Texas	Unknown	48
-3/22/2021	Texas	Unknown	4
+3/22/2021	Texas	Unknown	3
 3/20/2021	Texas	Unknown	2
 3/19/2021	Texas	Unknown	5
 3/13/2021	Texas	Unknown	1
@@ -56572,7 +56704,7 @@
 3/21/2021	Texas	American Indian or Alaska Nati	1
 3/16/2021	Texas	American Indian or Alaska Nati	1
 3/9/2021	Texas	American Indian or Alaska Nati	5
-7/3/2021	Unknown Jurisdiction	White	2
+7/3/2021	Unknown Jurisdiction	White	6
 7/2/2021	Unknown Jurisdiction	White	37
 7/1/2021	Unknown Jurisdiction	White	51
 6/30/2021	Unknown Jurisdiction	White	37
@@ -56610,7 +56742,7 @@
 5/29/2021	Unknown Jurisdiction	White	29
 5/28/2021	Unknown Jurisdiction	White	72
 5/27/2021	Unknown Jurisdiction	White	91
-5/26/2021	Unknown Jurisdiction	White	89
+5/26/2021	Unknown Jurisdiction	White	90
 5/25/2021	Unknown Jurisdiction	White	174
 5/24/2021	Unknown Jurisdiction	White	132
 5/23/2021	Unknown Jurisdiction	White	21
@@ -56642,7 +56774,7 @@
 4/27/2021	Unknown Jurisdiction	White	990
 4/26/2021	Unknown Jurisdiction	White	422
 4/25/2021	Unknown Jurisdiction	White	40
-4/24/2021	Unknown Jurisdiction	White	1533
+4/24/2021	Unknown Jurisdiction	White	1532
 4/23/2021	Unknown Jurisdiction	White	1600
 4/22/2021	Unknown Jurisdiction	White	947
 4/21/2021	Unknown Jurisdiction	White	582
@@ -56657,15 +56789,15 @@
 4/12/2021	Unknown Jurisdiction	White	484
 4/11/2021	Unknown Jurisdiction	White	365
 4/10/2021	Unknown Jurisdiction	White	367
-4/9/2021	Unknown Jurisdiction	White	1086
+4/9/2021	Unknown Jurisdiction	White	1087
 4/8/2021	Unknown Jurisdiction	White	830
 4/7/2021	Unknown Jurisdiction	White	535
 4/6/2021	Unknown Jurisdiction	White	609
 4/5/2021	Unknown Jurisdiction	White	477
 4/4/2021	Unknown Jurisdiction	White	10
-4/3/2021	Unknown Jurisdiction	White	371
+4/3/2021	Unknown Jurisdiction	White	370
 4/2/2021	Unknown Jurisdiction	White	1088
-4/1/2021	Unknown Jurisdiction	White	831
+4/1/2021	Unknown Jurisdiction	White	830
 3/31/2021	Unknown Jurisdiction	White	887
 3/30/2021	Unknown Jurisdiction	White	745
 3/29/2021	Unknown Jurisdiction	White	1219
@@ -56673,7 +56805,7 @@
 3/27/2021	Unknown Jurisdiction	White	181
 3/26/2021	Unknown Jurisdiction	White	1009
 3/25/2021	Unknown Jurisdiction	White	526
-3/24/2021	Unknown Jurisdiction	White	437
+3/24/2021	Unknown Jurisdiction	White	438
 3/23/2021	Unknown Jurisdiction	White	1159
 3/22/2021	Unknown Jurisdiction	White	290
 3/21/2021	Unknown Jurisdiction	White	35
@@ -56691,7 +56823,7 @@
 3/9/2021	Unknown Jurisdiction	White	654
 3/8/2021	Unknown Jurisdiction	White	236
 3/7/2021	Unknown Jurisdiction	White	21
-3/6/2021	Unknown Jurisdiction	White	1595
+3/6/2021	Unknown Jurisdiction	White	1596
 3/5/2021	Unknown Jurisdiction	White	324
 3/4/2021	Unknown Jurisdiction	White	555
 3/3/2021	Unknown Jurisdiction	White	288
@@ -56719,7 +56851,7 @@
 2/9/2021	Unknown Jurisdiction	White	190
 2/8/2021	Unknown Jurisdiction	White	224
 2/6/2021	Unknown Jurisdiction	White	9
-2/5/2021	Unknown Jurisdiction	White	225
+2/5/2021	Unknown Jurisdiction	White	224
 2/4/2021	Unknown Jurisdiction	White	169
 2/3/2021	Unknown Jurisdiction	White	236
 2/2/2021	Unknown Jurisdiction	White	188
@@ -56753,6 +56885,8 @@
 1/4/2021	Unknown Jurisdiction	White	41
 12/23/2020	Unknown Jurisdiction	White	1
 12/18/2020	Unknown Jurisdiction	White	1
+7/4/2021	Unknown Jurisdiction	Unknown	1
+7/3/2021	Unknown Jurisdiction	Unknown	1
 7/2/2021	Unknown Jurisdiction	Unknown	3
 7/1/2021	Unknown Jurisdiction	Unknown	1
 6/30/2021	Unknown Jurisdiction	Unknown	6
@@ -56924,6 +57058,7 @@
 1/6/2021	Unknown Jurisdiction	Unknown	10
 1/5/2021	Unknown Jurisdiction	Unknown	3
 1/4/2021	Unknown Jurisdiction	Unknown	3
+7/3/2021	Unknown Jurisdiction	Other Race	2
 7/2/2021	Unknown Jurisdiction	Other Race	2
 7/1/2021	Unknown Jurisdiction	Other Race	4
 6/30/2021	Unknown Jurisdiction	Other Race	4
@@ -57137,6 +57272,7 @@
 2/23/2021	Unknown Jurisdiction	Native Hawaiian or Other Pacif	2
 2/4/2021	Unknown Jurisdiction	Native Hawaiian or Other Pacif	1
 1/19/2021	Unknown Jurisdiction	Native Hawaiian or Other Pacif	1
+7/3/2021	Unknown Jurisdiction	Multi-racial	1
 7/2/2021	Unknown Jurisdiction	Multi-racial	16
 7/1/2021	Unknown Jurisdiction	Multi-racial	10
 6/30/2021	Unknown Jurisdiction	Multi-racial	9
@@ -57312,7 +57448,7 @@
 1/5/2021	Unknown Jurisdiction	Multi-racial	3
 1/4/2021	Unknown Jurisdiction	Multi-racial	3
 12/17/2020	Unknown Jurisdiction	Multi-racial	1
-7/3/2021	Unknown Jurisdiction	Black or African-American	2
+7/3/2021	Unknown Jurisdiction	Black or African-American	4
 7/2/2021	Unknown Jurisdiction	Black or African-American	17
 7/1/2021	Unknown Jurisdiction	Black or African-American	11
 6/30/2021	Unknown Jurisdiction	Black or African-American	7
@@ -57485,6 +57621,7 @@
 1/7/2021	Unknown Jurisdiction	Black or African-American	5
 1/5/2021	Unknown Jurisdiction	Black or African-American	5
 1/4/2021	Unknown Jurisdiction	Black or African-American	3
+7/3/2021	Unknown Jurisdiction	Asian	1
 7/2/2021	Unknown Jurisdiction	Asian	3
 7/1/2021	Unknown Jurisdiction	Asian	2
 6/30/2021	Unknown Jurisdiction	Asian	6
@@ -57720,7 +57857,7 @@
 2/3/2021	Unknown Jurisdiction	American Indian or Alaska Nati	1
 1/29/2021	Unknown Jurisdiction	American Indian or Alaska Nati	1
 1/18/2021	Unknown Jurisdiction	American Indian or Alaska Nati	1
-7/3/2021	Unknown State	White	3
+7/3/2021	Unknown State	White	6
 7/2/2021	Unknown State	White	20
 7/1/2021	Unknown State	White	37
 6/30/2021	Unknown State	White	28
@@ -57778,7 +57915,7 @@
 5/9/2021	Unknown State	White	141
 5/8/2021	Unknown State	White	1095
 5/7/2021	Unknown State	White	800
-5/6/2021	Unknown State	White	2982
+5/6/2021	Unknown State	White	2981
 5/5/2021	Unknown State	White	2239
 5/4/2021	Unknown State	White	807
 5/3/2021	Unknown State	White	521
@@ -57812,7 +57949,7 @@
 4/5/2021	Unknown State	White	905
 4/4/2021	Unknown State	White	12
 4/3/2021	Unknown State	White	417
-4/2/2021	Unknown State	White	992
+4/2/2021	Unknown State	White	991
 4/1/2021	Unknown State	White	554
 3/31/2021	Unknown State	White	1006
 3/30/2021	Unknown State	White	1451
@@ -58018,7 +58155,7 @@
 3/7/2021	Unknown State	Unknown	63
 3/6/2021	Unknown State	Unknown	293
 3/5/2021	Unknown State	Unknown	355
-3/4/2021	Unknown State	Unknown	312
+3/4/2021	Unknown State	Unknown	311
 3/3/2021	Unknown State	Unknown	376
 3/2/2021	Unknown State	Unknown	259
 3/1/2021	Unknown State	Unknown	189
@@ -58151,7 +58288,7 @@
 4/15/2021	Unknown State	Other Race	36
 4/14/2021	Unknown State	Other Race	55
 4/13/2021	Unknown State	Other Race	81
-4/12/2021	Unknown State	Other Race	48
+4/12/2021	Unknown State	Other Race	47
 4/11/2021	Unknown State	Other Race	1
 4/10/2021	Unknown State	Other Race	17
 4/9/2021	Unknown State	Other Race	342
@@ -58311,6 +58448,7 @@
 1/19/2021	Unknown State	Native Hawaiian or Other Pacif	3
 1/12/2021	Unknown State	Native Hawaiian or Other Pacif	1
 1/8/2021	Unknown State	Native Hawaiian or Other Pacif	1
+7/3/2021	Unknown State	Multi-racial	2
 7/1/2021	Unknown State	Multi-racial	3
 6/29/2021	Unknown State	Multi-racial	3
 6/28/2021	Unknown State	Multi-racial	1
@@ -58462,7 +58600,8 @@
 1/5/2021	Unknown State	Multi-racial	6
 1/4/2021	Unknown State	Multi-racial	1
 12/16/2020	Unknown State	Multi-racial	1
-7/3/2021	Unknown State	Black or African-American	2
+7/4/2021	Unknown State	Black or African-American	1
+7/3/2021	Unknown State	Black or African-American	5
 7/2/2021	Unknown State	Black or African-American	2
 7/1/2021	Unknown State	Black or African-American	1
 6/30/2021	Unknown State	Black or African-American	7
@@ -59288,7 +59427,7 @@
 5/21/2021	Vernon	American Indian or Alaska Nati	1
 4/1/2021	Vernon	American Indian or Alaska Nati	1
 3/11/2021	Vernon	American Indian or Alaska Nati	1
-7/3/2021	Warren	White	10
+7/3/2021	Warren	White	14
 7/2/2021	Warren	White	11
 7/1/2021	Warren	White	22
 6/30/2021	Warren	White	10
@@ -59599,6 +59738,7 @@
 1/5/2021	Warren	Unknown	1
 1/4/2021	Warren	Unknown	2
 12/24/2020	Warren	Unknown	1
+7/3/2021	Warren	Other Race	1
 7/1/2021	Warren	Other Race	1
 6/21/2021	Warren	Other Race	2
 6/17/2021	Warren	Other Race	2
@@ -59667,6 +59807,7 @@
 4/14/2021	Warren	Native Hawaiian or Other Pacif	1
 4/7/2021	Warren	Native Hawaiian or Other Pacif	1
 1/29/2021	Warren	Native Hawaiian or Other Pacif	1
+7/3/2021	Warren	Multi-racial	1
 7/2/2021	Warren	Multi-racial	2
 6/29/2021	Warren	Multi-racial	2
 6/28/2021	Warren	Multi-racial	2
@@ -59927,6 +60068,7 @@
 3/8/2021	Warren	American Indian or Alaska Nati	1
 2/22/2021	Warren	American Indian or Alaska Nati	1
 2/9/2021	Warren	American Indian or Alaska Nati	1
+7/4/2021	Washington	White	2
 7/2/2021	Washington	White	8
 7/1/2021	Washington	White	7
 6/30/2021	Washington	White	15
@@ -60333,6 +60475,7 @@
 4/23/2021	Washington	American Indian or Alaska Nati	1
 4/21/2021	Washington	American Indian or Alaska Nati	1
 2/10/2021	Washington	American Indian or Alaska Nati	1
+7/3/2021	Wayne	White	1
 7/2/2021	Wayne	White	2
 7/1/2021	Wayne	White	5
 6/30/2021	Wayne	White	5
@@ -60644,7 +60787,8 @@
 5/25/2021	Wayne	American Indian or Alaska Nati	1
 3/29/2021	Wayne	American Indian or Alaska Nati	1
 2/12/2021	Wayne	American Indian or Alaska Nati	1
-7/3/2021	Webster	White	2
+7/4/2021	Webster	White	2
+7/3/2021	Webster	White	6
 7/2/2021	Webster	White	20
 7/1/2021	Webster	White	16
 6/30/2021	Webster	White	20
@@ -60717,7 +60861,7 @@
 4/24/2021	Webster	White	51
 4/23/2021	Webster	White	53
 4/22/2021	Webster	White	77
-4/21/2021	Webster	White	54
+4/21/2021	Webster	White	55
 4/20/2021	Webster	White	92
 4/19/2021	Webster	White	93
 4/18/2021	Webster	White	16
@@ -60880,7 +61024,7 @@
 4/24/2021	Webster	Unknown	37
 4/23/2021	Webster	Unknown	13
 4/22/2021	Webster	Unknown	32
-4/21/2021	Webster	Unknown	9
+4/21/2021	Webster	Unknown	8
 4/20/2021	Webster	Unknown	51
 4/19/2021	Webster	Unknown	66
 4/17/2021	Webster	Unknown	6
@@ -61330,6 +61474,7 @@
 3/6/2021	Worth	Multi-racial	1
 3/3/2021	Worth	Multi-racial	1
 2/9/2021	Worth	Multi-racial	1
+7/3/2021	Wright	White	1
 7/2/2021	Wright	White	6
 7/1/2021	Wright	White	5
 6/30/2021	Wright	White	4
