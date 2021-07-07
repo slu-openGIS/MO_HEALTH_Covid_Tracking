@@ -4,9 +4,8 @@
 
 ## read data
 hosp_data <- read_csv("data/source/stl_hospital/historic_data.csv") %>%
-  mutate(date = mdy(date)) %>%
-  rename(report_date = date)
-
+  mutate(report_date = mdy(report_date))
+  
 ## calculate rolling averages
 hosp_data %>%
   mutate(new_in_pt_avg = rollmean(new_in_pt, k = 7, align = "right", fill = NA)) %>%
