@@ -68,13 +68,13 @@ source("source/workflow/05_create_regions.R")
 # execute weekly workflow ####
 
 ## check ltc metadata for update
-update <- get_last_update(source = "CMS")
-load("data/source/ltc/last_update.rda")
+# update <- get_last_update(source = "CMS")
+# load("data/source/ltc/last_update.rda")
 
 ## rebuild ltc data if there has been an update
-if ((update == last_update$current_date) == FALSE){
-  source("source/workflow/11_create_ltc.R") 
-}
+# if ((update == last_update$current_date) == FALSE){
+#  source("source/workflow/11_create_ltc.R") 
+# }
 
 ## check hospitalization metadata for update
 update <- get_last_update(source = "HHS")
