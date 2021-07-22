@@ -27,37 +27,37 @@ rm(downloads_path)
 initiated_race <- read_tsv(file = "data/source/mo_vaccines/Initiated_Vaccinations_by_Race_data.txt") %>%
   clean_names() %>%
   rename(
-    report_date = date_administered_1_1_1_1_1_1_1_1_copy, # date_administered,
-    value = race_1_copy, # race,
-    initiated = covid_19_doses_administered, # covid_19_doses_administered
-    jurisdiction = jurisdiction_1_1_1_1_1_1_1_1_copy
+    report_date = date_administered, # date_administered_1_1_1_1_1_1_1_1_copy,
+    value = race, # race_1_copy,
+    initiated = covid_19_doses_administered,
+    jurisdiction = jurisdiction # jurisdiction_1_1_1_1_1_1_1_1_copy
   )
 
 completed_race <- read_tsv(file = "data/source/mo_vaccines/Completed_Vaccinations_by_Race_data.txt") %>%
   clean_names() %>%
   rename(
-    report_date = date_administered_1_1_1_1_1_1_1_1_copy, # date_administered,
-    value = race_1_copy, # race,
-    completed = covid_19_doses_administered, # covid_19_doses_administered
-    jurisdiction = jurisdiction_1_1_1_1_1_1_1_1_copy
+    report_date = date_administered, # date_administered_1_1_1_1_1_1_1_1_copy,
+    value = race, # race_1_copy,
+    completed = covid_19_doses_administered,
+    jurisdiction = jurisdiction # jurisdiction_1_1_1_1_1_1_1_1_copy
   )
 
 initiated_latino <- read_tsv(file = "data/source/mo_vaccines/Initiated_Vaccinations_by_Ethnicity_data.txt") %>%
   clean_names() %>%
   rename(
-    report_date = date_administered_1_1_1_1_1_1_1_1_copy, # date_administered,
-    value = ethnicity_1_copy, # race,
-    initiated = covid_19_doses_administered, # covid_19_doses_administered
-    jurisdiction = jurisdiction_1_1_1_1_1_1_1_1_copy
+    report_date = date_administered, # date_administered_1_1_1_1_1_1_1_1_copy,
+    value = ethnicity, # ethnicity_1_copy,
+    initiated = covid_19_doses_administered, 
+    jurisdiction = jurisdiction # jurisdiction_1_1_1_1_1_1_1_1_copy
   )
 
 completed_latino <- read_tsv(file = "data/source/mo_vaccines/Completed_Vaccinations_by_Ethnicity_data.txt") %>%
   clean_names() %>%
   rename(
-    report_date = date_administered_1_1_1_1_1_1_1_1_copy, # date_administered,
-    value = ethnicity_1_copy, # race,
-    completed = covid_19_doses_administered, # covid_19_doses_administered
-    jurisdiction = jurisdiction_1_1_1_1_1_1_1_1_copy
+    report_date = date_administered, # date_administered_1_1_1_1_1_1_1_1_copy,
+    value = ethnicity, # ethnicity_1_copy,
+    completed = covid_19_doses_administered, 
+    jurisdiction = jurisdiction # jurisdiction_1_1_1_1_1_1_1_1_copy
   )
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
