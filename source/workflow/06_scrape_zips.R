@@ -43,8 +43,8 @@ stl_county_zips <- get_zip(state = "MO", county = "St. Louis County")
 write_csv(stl_county_zips, paste0("data/source/stl_daily_zips/stl_county_", date, ".csv"))
 
 ## Warren County
-warren_zips <- get_zip(state = "MO", county = "Warren")
-write_csv(warren_zips, paste0("data/source/stl_daily_zips/warren_", date, ".csv"))
+# warren_zips <- get_zip(state = "MO", county = "Warren")
+# write_csv(warren_zips, paste0("data/source/stl_daily_zips/warren_", date, ".csv"))
 
 ## clean-up
 rm(warren_zips, lincoln_zips, jefferson_zips, stl_city_zips, stl_county_zips)
