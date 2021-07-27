@@ -75,7 +75,7 @@ get_vaccine <- function(metric){
   } else if (metric == "county"){
     
     ## scrape
-    out <- get_mo_vacc(n = 4)
+    out <- get_mo_vacc(n = 3)
     
     ## tidy
     out <- janitor::clean_names(out)
