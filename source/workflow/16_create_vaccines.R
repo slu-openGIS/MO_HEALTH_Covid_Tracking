@@ -228,6 +228,64 @@ rm(race, race_totals, vaccine_race_ethnic)
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
+# longitudinal vaccination data ####
+## load initiated
+initiated <- read_tsv(file = "data/source/mo_vaccines/Initiated_Vaccinations_by_Race_data.txt") %>%
+  clean_names() %>%
+  rename(
+    report_date = date_administered, # date_administered_1_1_1_1_1_1_1_1_copy,
+    value = race, # race_1_copy,
+    initiated = covid_19_doses_administered,
+    jurisdiction = jurisdiction # jurisdiction_1_1_1_1_1_1_1_1_copy
+  ) %>%
+  filter(jurisdiction %in% c("Unknown State", "Out-of-State", "Unknown Jurisdiction") == FALSE) %>%
+  mutate(jurisdiction = ifelse(jurisdiction == "Independence", "Jackson", jurisdiction)) 
+
+## process
+initiated <- initiated %>%
+  mutate(report_date = mdy(report_date)) %>%
+  select(-value) %>%
+  group_by(report_date, jurisdiction) %>%
+  summarise(vaccinations = sum(initiated, na.rm = TRUE)) %>%
+  arrange(jurisdiction, report_date) %>%
+  mutate(value = "initiated", .after = "jurisdiction")
+
+### still need to expand
+
+## load completed
+completed <- read_tsv(file = "data/source/mo_vaccines/Completed_Vaccinations_by_Race_data.txt") %>%
+  clean_names() %>%
+  rename(
+    report_date = date_administered, # date_administered_1_1_1_1_1_1_1_1_copy,
+    value = race, # race_1_copy,
+    completed = covid_19_doses_administered,
+    jurisdiction = jurisdiction # jurisdiction_1_1_1_1_1_1_1_1_copy
+  ) %>%
+  filter(jurisdiction %in% c("Unknown State", "Out-of-State", "Unknown Jurisdiction") == FALSE) %>%
+  mutate(jurisdiction = ifelse(jurisdiction == "Independence", "Jackson", jurisdiction)) 
+
+## process
+completed <- completed %>%
+  mutate(report_date = mdy(report_date)) %>%
+  group_by(report_date, jurisdiction) %>%
+  summarise(vaccinations = sum(completed, na.rm = TRUE)) %>%
+  arrange(jurisdiction, report_date) %>%
+  mutate(value = "completed", .after = "jurisdiction")
+
+### still need to expand
+
+## combine
+county_vaccinations <- bind_rows(initiated, completed) %>%
+  arrange(jurisdiction, report_date)
+
+## write
+write_csv(county_vaccinations, "data/county/county_full_vaccination.csv")
+
+## clean-up
+rm(completed, initiated)
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
 # county vaccine rates ####
 
 ## load data
@@ -241,14 +299,27 @@ county_sf %>%
   rename(geoid = GEOID) -> county_sf
 
 ## construct output
-### scrape totals
-county <- get_vaccine(metric = "county")
+### build totals
+initiated <- county_vaccinations %>%
+  filter(value == "initiated") %>%
+  group_by(jurisdiction) %>%
+  summarise(initiated = sum(vaccinations, na.rm = TRUE))
 
-### initial tidy
-county %>%
-  arrange(county) %>%
+completed <- county_vaccinations %>%
+  filter(value == "completed") %>%
+  group_by(jurisdiction) %>%
+  summarise(complete = sum(vaccinations, na.rm = TRUE))
+
+last7 <- county_vaccinations %>%
+  filter(report_date >= date-7) %>%
+  group_by(jurisdiction) %>%
+  summarise(last7 = sum(vaccinations, na.rm = TRUE))
+  
+### combine and initial tidy
+left_join(initiated, completed, by = "jurisdiction") %>%
+  left_join(., last7, by = "jurisdiction") %>%
+  rename(county = jurisdiction) %>%
   mutate(report_date = date, .before = county) %>%
-  mutate(state = "Missouri", .after = county) %>%
   left_join(., county_tbl, by = c("county" = "NAME")) %>%
   select(report_date, GEOID, everything()) %>%
   rename(geoid = GEOID) %>%
@@ -262,7 +333,7 @@ write_csv(county, paste0("data/source/mo_daily_vaccines/mo_daily_vaccines_", dat
 
 ### create daily snapshot
 county_daily <- left_join(county_sf, county, by = "geoid") %>%
-  select(report_date, geoid, county, state, everything())
+  select(report_date, geoid, county, everything())
 
 ### write daily snapshot data
 county_daily <- st_transform(county_daily, crs = 4326)
@@ -270,7 +341,7 @@ county_daily <- st_transform(county_daily, crs = 4326)
 st_write(county_daily, "data/county/daily_snapshot_mo_vaccines.geojson", delete_dsn = TRUE)
 
 ### clean-up
-rm(county, county_sf, county_tbl)
+rm(county, county_sf, county_tbl, county_vaccinations, completed, initiated, last7)
 
 ## calculate patrol areas
 ### prep vaccines
@@ -301,8 +372,3 @@ write_csv(district_daily, "data/district/daily_snapshot_mo_vaccines.csv")
 
 ### clean-up
 rm(county_daily, county_sf, district_daily)
-
-# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
-
-## clean-up
-rm(get_mo_vacc, get_tableau, get_vaccine)

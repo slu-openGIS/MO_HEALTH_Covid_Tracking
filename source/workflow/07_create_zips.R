@@ -38,7 +38,7 @@ dates <- list(
   lincoln_dates = seq(as.Date("2020-12-23"), date, by="days"),
   metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
   st_charles_dates = seq(as.Date("2020-07-14"), date, by="days"),
-  warren_dates = seq(as.Date("2020-10-28"), date, by="days"),
+  warren_dates = seq(as.Date("2020-10-28"), as.Date("2021-07-15"), by="days"),
   wyandotte_dates = seq(as.Date("2021-01-17"), date, by="days")
 )
 
@@ -216,19 +216,19 @@ lincoln_test2 <- filter(lincoln_data, report_date %in% c(date, date-2)) %>%
 lincoln_test2 <- all(lincoln_test2$current == lincoln_test2$prior, na.rm = TRUE)
 
 ## Warren County
-warren_test <- filter(warren_data, report_date %in% c(date, date-1)) %>%
-  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
-  select(period, zip, cases) %>%
-  pivot_wider(names_from = period, values_from = cases)
+# warren_test <- filter(warren_data, report_date %in% c(date, date-1)) %>%
+#  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+#  select(period, zip, cases) %>%
+#  pivot_wider(names_from = period, values_from = cases)
 
-warren_test <- all(warren_test$current == warren_test$prior, na.rm = TRUE)
+# warren_test <- all(warren_test$current == warren_test$prior, na.rm = TRUE)
 
-warren_test2 <- filter(warren_data, report_date %in% c(date, date-2)) %>%
-  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
-  select(period, zip, cases) %>%
-  pivot_wider(names_from = period, values_from = cases)
+# warren_test2 <- filter(warren_data, report_date %in% c(date, date-2)) %>%
+#  mutate(period = ifelse(report_date == date, "current", "prior")) %>%
+#  select(period, zip, cases) %>%
+#  pivot_wider(names_from = period, values_from = cases)
 
-warren_test2 <- all(warren_test2$current == warren_test2$prior, na.rm = TRUE)
+# warren_test2 <- all(warren_test2$current == warren_test2$prior, na.rm = TRUE)
 
 ## Warren County
 franklin_test <- filter(franklin_data, report_date %in% c(date-1, date-2)) %>%
@@ -264,14 +264,14 @@ metro_east_test2 <- all(metro_east_test2$current == metro_east_test2$prior, na.r
 zip_test <- tibble(
   source = c("St. Louis City", "St. Louis City", "St. Louis County", "St. Louis County", 
              "St. Charles County", "St. Charles County", "Jefferson County", "Jefferson County",
-             "Warren County", "Warren County", "Franklin County", "Franklin County",
+             "Franklin County", "Franklin County", # "Warren County", "Warren County", 
              "Lincoln County", "Lincoln County",
              "Metro East", "Metro East"),
-  period = c("1 day", "2 days", "1 day", "2 days", "1 day", "2 days", "1 day", "2 days", 
+  period = c("1 day", "2 days", "1 day", "2 days", "1 day", "2 days", # "1 day", "2 days", 
              "1 day", "2 days", "1 day", "2 days", "1 day", "2 days", "1 day", "2 days"),
   result = c(stl_city_test, stl_city_test2, stl_county_test, stl_county_test2, 
              stl_charles_test, stl_charles_test2, jeffco_test, jeffco_test2,
-             warren_test, warren_test2, franklin_test, franklin_test2,
+             franklin_test, franklin_test2, # warren_test, warren_test2, 
              lincoln_test, lincoln_test2,
              metro_east_test, metro_east_test2)
 )
@@ -279,7 +279,7 @@ zip_test <- tibble(
 ## Clean-up
 rm(stl_city_test, stl_city_test2, stl_county_test, stl_county_test2, 
    stl_charles_test, stl_charles_test2, jeffco_test, jeffco_test2,
-   warren_test, warren_test2, lincoln_test, lincoln_test2, 
+   lincoln_test, lincoln_test2, # warren_test, warren_test2, 
    metro_east_test, metro_east_test2, franklin_test, franklin_test2)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
