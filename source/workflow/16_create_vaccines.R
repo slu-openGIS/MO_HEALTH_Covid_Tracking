@@ -190,12 +190,12 @@ rm(x, y, vaccine_race_ethnic_completed, initiated_race, initiated_latino,
 ## finishing prepping data
 vaccine_race_ethnic <- vaccine_race_ethnic %>%
   mutate(value = case_when(
-    value == "American Indian or Alaska Nati" ~ "Native",
+    value == "American Indian or Alaska Native" ~ "Native",
     value == "Asian" ~ "Asian",
     value == "Black or African-American" ~ "Black",
     value == "Hispanic or Latino" ~ "Latino",
     value == "Multi-racial" ~ "Two or More",
-    value == "Native Hawaiian or Other Pacif" ~ "Pacific Islander",
+    value == "Native Hawaiian or Other Pacific Islander" ~ "Pacific Islander",
     value == "Other Race" ~ "Other Race",
     value == "Unknown, Ethnicity" ~ "Unknown, Ethnicity",
     value == "Unknown, Race" ~ "Unknown, Race",
