@@ -45,6 +45,3 @@ others <- filter(initiated_race, value != "White") %>%
   group_by(report_date) %>%
   summarise(initiated = sum(initiated, na.rm = TRUE)) %>%
   mutate(initiated_avg = rollmean(initiated, k = 7, align = "right", fill = NA))
-
-
-
