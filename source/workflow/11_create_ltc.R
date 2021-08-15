@@ -8,7 +8,7 @@ master_list <- st_read("data/source/ltc/mo_xl_ltc_facilities.geojson") %>%
   mutate(p_id = as.character(p_id))
 
 ## covid data
-covid <- read_csv(file = "https://data.cms.gov/api/views/s2uc-8wxp/rows.csv?accessType=DOWNLOAD") %>%
+covid <- read_csv(file = paste0(downloads_path, "/COVID-19 Nursing Home Data.csv")) %>%
   clean_names()
 
 ## county data

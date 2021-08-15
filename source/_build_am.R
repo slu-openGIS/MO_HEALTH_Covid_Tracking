@@ -10,6 +10,11 @@
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
+# store download path ####
+downloads_path <- "/Users/chris/Downloads"
+
+# ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+
 # qa prompts ####
 
 ## load function
@@ -99,4 +104,4 @@ if (auto_update == TRUE){
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
 # clean-up ####
-rm(date, auto_update, update, q, get_last_update)
+rm(date, auto_update, update, q, get_last_update, downloads_path)
