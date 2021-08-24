@@ -1,4 +1,6 @@
 ﻿Date Administered	Jurisdiction	Ethnicity	COVID-19 Doses Administered
+8/22/2021	Adair	Unknown	1
+8/21/2021	Adair	Unknown	2
 8/20/2021	Adair	Unknown	3
 8/19/2021	Adair	Unknown	2
 8/17/2021	Adair	Unknown	2
@@ -165,6 +167,7 @@
 1/13/2021	Adair	Unknown	131
 1/11/2021	Adair	Unknown	160
 1/9/2021	Adair	Unknown	1
+8/21/2021	Adair	Not Hispanic or Latino	9
 8/20/2021	Adair	Not Hispanic or Latino	27
 8/19/2021	Adair	Not Hispanic or Latino	13
 8/18/2021	Adair	Not Hispanic or Latino	15
@@ -204,7 +207,7 @@
 7/14/2021	Adair	Not Hispanic or Latino	10
 7/13/2021	Adair	Not Hispanic or Latino	5
 7/12/2021	Adair	Not Hispanic or Latino	4
-7/11/2021	Adair	Not Hispanic or Latino	2
+7/11/2021	Adair	Not Hispanic or Latino	1
 7/10/2021	Adair	Not Hispanic or Latino	7
 7/9/2021	Adair	Not Hispanic or Latino	8
 7/8/2021	Adair	Not Hispanic or Latino	6
@@ -298,7 +301,7 @@
 4/11/2021	Adair	Not Hispanic or Latino	18
 4/10/2021	Adair	Not Hispanic or Latino	84
 4/9/2021	Adair	Not Hispanic or Latino	93
-4/8/2021	Adair	Not Hispanic or Latino	68
+4/8/2021	Adair	Not Hispanic or Latino	69
 4/7/2021	Adair	Not Hispanic or Latino	85
 4/6/2021	Adair	Not Hispanic or Latino	84
 4/5/2021	Adair	Not Hispanic or Latino	76
@@ -606,6 +609,7 @@
 1/14/2021	Andrew	Unknown	3
 1/13/2021	Andrew	Unknown	5
 1/6/2021	Andrew	Unknown	1
+8/22/2021	Andrew	Not Hispanic or Latino	2
 8/21/2021	Andrew	Not Hispanic or Latino	1
 8/20/2021	Andrew	Not Hispanic or Latino	32
 8/19/2021	Andrew	Not Hispanic or Latino	8
@@ -936,6 +940,7 @@
 1/28/2021	Atchison	Unknown	3
 1/20/2021	Atchison	Unknown	7
 1/5/2021	Atchison	Unknown	1
+8/21/2021	Atchison	Not Hispanic or Latino	1
 8/20/2021	Atchison	Not Hispanic or Latino	3
 8/19/2021	Atchison	Not Hispanic or Latino	8
 8/17/2021	Atchison	Not Hispanic or Latino	4
@@ -1097,6 +1102,7 @@
 2/17/2021	Atchison	Hispanic or Latino	1
 2/5/2021	Atchison	Hispanic or Latino	1
 1/29/2021	Atchison	Hispanic or Latino	3
+8/22/2021	Audrain	Unknown	3
 8/20/2021	Audrain	Unknown	2
 8/19/2021	Audrain	Unknown	2
 8/16/2021	Audrain	Unknown	3
@@ -1261,6 +1267,7 @@
 1/5/2021	Audrain	Unknown	3
 1/3/2021	Audrain	Unknown	2
 1/2/2021	Audrain	Unknown	2
+8/21/2021	Audrain	Not Hispanic or Latino	4
 8/20/2021	Audrain	Not Hispanic or Latino	20
 8/19/2021	Audrain	Not Hispanic or Latino	16
 8/18/2021	Audrain	Not Hispanic or Latino	22
@@ -1768,8 +1775,9 @@
 1/21/2021	Barry	Unknown	4
 1/20/2021	Barry	Unknown	2
 1/19/2021	Barry	Unknown	1
-8/21/2021	Barry	Not Hispanic or Latino	12
-8/20/2021	Barry	Not Hispanic or Latino	57
+8/22/2021	Barry	Not Hispanic or Latino	10
+8/21/2021	Barry	Not Hispanic or Latino	15
+8/20/2021	Barry	Not Hispanic or Latino	59
 8/19/2021	Barry	Not Hispanic or Latino	40
 8/18/2021	Barry	Not Hispanic or Latino	45
 8/17/2021	Barry	Not Hispanic or Latino	36
@@ -2275,7 +2283,8 @@
 1/21/2021	Barton	Unknown	5
 1/14/2021	Barton	Unknown	1
 1/11/2021	Barton	Unknown	1
-8/21/2021	Barton	Not Hispanic or Latino	5
+8/22/2021	Barton	Not Hispanic or Latino	1
+8/21/2021	Barton	Not Hispanic or Latino	7
 8/20/2021	Barton	Not Hispanic or Latino	13
 8/19/2021	Barton	Not Hispanic or Latino	7
 8/18/2021	Barton	Not Hispanic or Latino	11
@@ -2581,6 +2590,7 @@
 2/5/2021	Barton	Hispanic or Latino	1
 2/4/2021	Barton	Hispanic or Latino	1
 2/2/2021	Barton	Hispanic or Latino	3
+8/22/2021	Bates	Unknown	1
 8/20/2021	Bates	Unknown	2
 8/18/2021	Bates	Unknown	3
 8/16/2021	Bates	Unknown	3
@@ -2720,7 +2730,8 @@
 1/21/2021	Bates	Unknown	1
 1/20/2021	Bates	Unknown	1
 1/19/2021	Bates	Unknown	1
-8/21/2021	Bates	Not Hispanic or Latino	4
+8/22/2021	Bates	Not Hispanic or Latino	1
+8/21/2021	Bates	Not Hispanic or Latino	7
 8/20/2021	Bates	Not Hispanic or Latino	14
 8/19/2021	Bates	Not Hispanic or Latino	7
 8/18/2021	Bates	Not Hispanic or Latino	13
@@ -2982,7 +2993,8 @@
 2/2/2021	Bates	Hispanic or Latino	3
 1/28/2021	Bates	Hispanic or Latino	6
 1/25/2021	Bates	Hispanic or Latino	1
-8/21/2021	Benton	Unknown	4
+8/22/2021	Benton	Unknown	3
+8/21/2021	Benton	Unknown	6
 8/20/2021	Benton	Unknown	1
 8/19/2021	Benton	Unknown	2
 8/18/2021	Benton	Unknown	3
@@ -3128,7 +3140,8 @@
 1/12/2021	Benton	Unknown	3
 1/11/2021	Benton	Unknown	6
 1/6/2021	Benton	Unknown	2
-8/21/2021	Benton	Not Hispanic or Latino	2
+8/22/2021	Benton	Not Hispanic or Latino	1
+8/21/2021	Benton	Not Hispanic or Latino	4
 8/20/2021	Benton	Not Hispanic or Latino	20
 8/19/2021	Benton	Not Hispanic or Latino	14
 8/18/2021	Benton	Not Hispanic or Latino	26
@@ -3343,6 +3356,7 @@
 1/11/2021	Benton	Not Hispanic or Latino	31
 1/8/2021	Benton	Not Hispanic or Latino	2
 1/6/2021	Benton	Not Hispanic or Latino	11
+8/22/2021	Benton	Hispanic or Latino	1
 8/20/2021	Benton	Hispanic or Latino	1
 8/15/2021	Benton	Hispanic or Latino	2
 8/14/2021	Benton	Hispanic or Latino	1
@@ -3522,9 +3536,10 @@
 1/11/2021	Bollinger	Unknown	7
 1/8/2021	Bollinger	Unknown	2
 1/5/2021	Bollinger	Unknown	5
+8/22/2021	Bollinger	Not Hispanic or Latino	1
 8/21/2021	Bollinger	Not Hispanic or Latino	1
 8/20/2021	Bollinger	Not Hispanic or Latino	14
-8/19/2021	Bollinger	Not Hispanic or Latino	7
+8/19/2021	Bollinger	Not Hispanic or Latino	8
 8/18/2021	Bollinger	Not Hispanic or Latino	16
 8/17/2021	Bollinger	Not Hispanic or Latino	13
 8/16/2021	Bollinger	Not Hispanic or Latino	16
@@ -3761,7 +3776,7 @@
 1/19/2021	Bollinger	Hispanic or Latino	1
 1/18/2021	Bollinger	Hispanic or Latino	1
 1/5/2021	Bollinger	Hispanic or Latino	2
-8/21/2021	Boone	Unknown	1
+8/21/2021	Boone	Unknown	20
 8/20/2021	Boone	Unknown	24
 8/19/2021	Boone	Unknown	22
 8/18/2021	Boone	Unknown	21
@@ -3890,7 +3905,7 @@
 4/16/2021	Boone	Unknown	47
 4/15/2021	Boone	Unknown	41
 4/14/2021	Boone	Unknown	82
-4/13/2021	Boone	Unknown	71
+4/13/2021	Boone	Unknown	70
 4/12/2021	Boone	Unknown	79
 4/11/2021	Boone	Unknown	31
 4/10/2021	Boone	Unknown	34
@@ -3915,7 +3930,7 @@
 3/22/2021	Boone	Unknown	132
 3/21/2021	Boone	Unknown	11
 3/20/2021	Boone	Unknown	16
-3/19/2021	Boone	Unknown	63
+3/19/2021	Boone	Unknown	64
 3/18/2021	Boone	Unknown	43
 3/17/2021	Boone	Unknown	80
 3/16/2021	Boone	Unknown	41
@@ -3991,7 +4006,8 @@
 1/3/2021	Boone	Unknown	1
 12/22/2020	Boone	Unknown	1
 12/16/2020	Boone	Unknown	1
-8/21/2021	Boone	Not Hispanic or Latino	20
+8/22/2021	Boone	Not Hispanic or Latino	4
+8/21/2021	Boone	Not Hispanic or Latino	135
 8/20/2021	Boone	Not Hispanic or Latino	182
 8/19/2021	Boone	Not Hispanic or Latino	185
 8/18/2021	Boone	Not Hispanic or Latino	176
@@ -4056,7 +4072,7 @@
 6/20/2021	Boone	Not Hispanic or Latino	43
 6/19/2021	Boone	Not Hispanic or Latino	93
 6/18/2021	Boone	Not Hispanic or Latino	299
-6/17/2021	Boone	Not Hispanic or Latino	170
+6/17/2021	Boone	Not Hispanic or Latino	169
 6/16/2021	Boone	Not Hispanic or Latino	152
 6/15/2021	Boone	Not Hispanic or Latino	172
 6/14/2021	Boone	Not Hispanic or Latino	161
@@ -4121,7 +4137,7 @@
 4/16/2021	Boone	Not Hispanic or Latino	592
 4/15/2021	Boone	Not Hispanic or Latino	502
 4/14/2021	Boone	Not Hispanic or Latino	472
-4/13/2021	Boone	Not Hispanic or Latino	509
+4/13/2021	Boone	Not Hispanic or Latino	510
 4/12/2021	Boone	Not Hispanic or Latino	423
 4/11/2021	Boone	Not Hispanic or Latino	1457
 4/10/2021	Boone	Not Hispanic or Latino	184
@@ -4138,7 +4154,7 @@
 3/30/2021	Boone	Not Hispanic or Latino	332
 3/29/2021	Boone	Not Hispanic or Latino	312
 3/28/2021	Boone	Not Hispanic or Latino	470
-3/27/2021	Boone	Not Hispanic or Latino	1805
+3/27/2021	Boone	Not Hispanic or Latino	1806
 3/26/2021	Boone	Not Hispanic or Latino	486
 3/25/2021	Boone	Not Hispanic or Latino	2323
 3/24/2021	Boone	Not Hispanic or Latino	291
@@ -4187,11 +4203,11 @@
 2/9/2021	Boone	Not Hispanic or Latino	284
 2/8/2021	Boone	Not Hispanic or Latino	141
 2/7/2021	Boone	Not Hispanic or Latino	1
-2/6/2021	Boone	Not Hispanic or Latino	208
+2/6/2021	Boone	Not Hispanic or Latino	207
 2/5/2021	Boone	Not Hispanic or Latino	381
 2/4/2021	Boone	Not Hispanic or Latino	320
-2/3/2021	Boone	Not Hispanic or Latino	222
-2/2/2021	Boone	Not Hispanic or Latino	251
+2/3/2021	Boone	Not Hispanic or Latino	221
+2/2/2021	Boone	Not Hispanic or Latino	250
 2/1/2021	Boone	Not Hispanic or Latino	173
 1/31/2021	Boone	Not Hispanic or Latino	95
 1/30/2021	Boone	Not Hispanic or Latino	76
@@ -4235,7 +4251,8 @@
 12/19/2020	Boone	Not Hispanic or Latino	2
 12/17/2020	Boone	Not Hispanic or Latino	4
 12/16/2020	Boone	Not Hispanic or Latino	8
-8/21/2021	Boone	Hispanic or Latino	1
+8/22/2021	Boone	Hispanic or Latino	1
+8/21/2021	Boone	Hispanic or Latino	5
 8/20/2021	Boone	Hispanic or Latino	11
 8/19/2021	Boone	Hispanic or Latino	10
 8/18/2021	Boone	Hispanic or Latino	14
@@ -4380,7 +4397,7 @@
 3/30/2021	Boone	Hispanic or Latino	34
 3/29/2021	Boone	Hispanic or Latino	6
 3/28/2021	Boone	Hispanic or Latino	18
-3/27/2021	Boone	Hispanic or Latino	40
+3/27/2021	Boone	Hispanic or Latino	39
 3/26/2021	Boone	Hispanic or Latino	16
 3/25/2021	Boone	Hispanic or Latino	51
 3/24/2021	Boone	Hispanic or Latino	6
@@ -4454,6 +4471,8 @@
 1/8/2021	Boone	Hispanic or Latino	3
 1/7/2021	Boone	Hispanic or Latino	7
 1/6/2021	Boone	Hispanic or Latino	9
+8/22/2021	Buchanan	Unknown	1
+8/21/2021	Buchanan	Unknown	2
 8/20/2021	Buchanan	Unknown	4
 8/19/2021	Buchanan	Unknown	8
 8/18/2021	Buchanan	Unknown	6
@@ -4624,7 +4643,7 @@
 1/31/2021	Buchanan	Unknown	3
 1/30/2021	Buchanan	Unknown	2
 1/29/2021	Buchanan	Unknown	6
-1/28/2021	Buchanan	Unknown	73
+1/28/2021	Buchanan	Unknown	72
 1/27/2021	Buchanan	Unknown	70
 1/26/2021	Buchanan	Unknown	141
 1/25/2021	Buchanan	Unknown	1
@@ -4645,7 +4664,8 @@
 1/7/2021	Buchanan	Unknown	1
 1/6/2021	Buchanan	Unknown	1
 1/4/2021	Buchanan	Unknown	1
-8/21/2021	Buchanan	Not Hispanic or Latino	6
+8/22/2021	Buchanan	Not Hispanic or Latino	4
+8/21/2021	Buchanan	Not Hispanic or Latino	38
 8/20/2021	Buchanan	Not Hispanic or Latino	66
 8/19/2021	Buchanan	Not Hispanic or Latino	73
 8/18/2021	Buchanan	Not Hispanic or Latino	40
@@ -4681,7 +4701,7 @@
 7/19/2021	Buchanan	Not Hispanic or Latino	22
 7/18/2021	Buchanan	Not Hispanic or Latino	10
 7/17/2021	Buchanan	Not Hispanic or Latino	22
-7/16/2021	Buchanan	Not Hispanic or Latino	43
+7/16/2021	Buchanan	Not Hispanic or Latino	42
 7/15/2021	Buchanan	Not Hispanic or Latino	23
 7/14/2021	Buchanan	Not Hispanic or Latino	28
 7/13/2021	Buchanan	Not Hispanic or Latino	26
@@ -4850,7 +4870,7 @@
 1/31/2021	Buchanan	Not Hispanic or Latino	5
 1/30/2021	Buchanan	Not Hispanic or Latino	2
 1/29/2021	Buchanan	Not Hispanic or Latino	119
-1/28/2021	Buchanan	Not Hispanic or Latino	99
+1/28/2021	Buchanan	Not Hispanic or Latino	100
 1/27/2021	Buchanan	Not Hispanic or Latino	98
 1/26/2021	Buchanan	Not Hispanic or Latino	141
 1/25/2021	Buchanan	Not Hispanic or Latino	12
@@ -4871,6 +4891,7 @@
 1/8/2021	Buchanan	Not Hispanic or Latino	3
 1/7/2021	Buchanan	Not Hispanic or Latino	1
 1/6/2021	Buchanan	Not Hispanic or Latino	2
+8/21/2021	Buchanan	Hispanic or Latino	2
 8/20/2021	Buchanan	Hispanic or Latino	4
 8/19/2021	Buchanan	Hispanic or Latino	5
 8/18/2021	Buchanan	Hispanic or Latino	1
@@ -4992,7 +5013,7 @@
 4/5/2021	Buchanan	Hispanic or Latino	3
 4/3/2021	Buchanan	Hispanic or Latino	1
 4/2/2021	Buchanan	Hispanic or Latino	16
-4/1/2021	Buchanan	Hispanic or Latino	22
+4/1/2021	Buchanan	Hispanic or Latino	21
 3/31/2021	Buchanan	Hispanic or Latino	25
 3/30/2021	Buchanan	Hispanic or Latino	7
 3/29/2021	Buchanan	Hispanic or Latino	2
@@ -5036,6 +5057,7 @@
 1/20/2021	Buchanan	Hispanic or Latino	4
 1/19/2021	Buchanan	Hispanic or Latino	1
 1/14/2021	Buchanan	Hispanic or Latino	1
+8/21/2021	Butler	Unknown	1
 8/20/2021	Butler	Unknown	5
 8/19/2021	Butler	Unknown	20
 8/18/2021	Butler	Unknown	6
@@ -5214,7 +5236,8 @@
 1/8/2021	Butler	Unknown	5
 1/7/2021	Butler	Unknown	3
 1/5/2021	Butler	Unknown	1
-8/21/2021	Butler	Not Hispanic or Latino	18
+8/22/2021	Butler	Not Hispanic or Latino	8
+8/21/2021	Butler	Not Hispanic or Latino	31
 8/20/2021	Butler	Not Hispanic or Latino	59
 8/19/2021	Butler	Not Hispanic or Latino	69
 8/18/2021	Butler	Not Hispanic or Latino	53
@@ -5578,6 +5601,7 @@
 1/27/2021	Butler	Hispanic or Latino	7
 1/26/2021	Butler	Hispanic or Latino	2
 1/21/2021	Butler	Hispanic or Latino	1
+8/21/2021	Caldwell	Unknown	1
 8/19/2021	Caldwell	Unknown	1
 8/13/2021	Caldwell	Unknown	2
 8/12/2021	Caldwell	Unknown	4
@@ -5687,7 +5711,7 @@
 1/20/2021	Caldwell	Unknown	1
 1/11/2021	Caldwell	Unknown	1
 1/6/2021	Caldwell	Unknown	1
-8/21/2021	Caldwell	Not Hispanic or Latino	2
+8/21/2021	Caldwell	Not Hispanic or Latino	12
 8/20/2021	Caldwell	Not Hispanic or Latino	11
 8/19/2021	Caldwell	Not Hispanic or Latino	8
 8/18/2021	Caldwell	Not Hispanic or Latino	6
@@ -5953,9 +5977,9 @@
 2/5/2021	Caldwell	Hispanic or Latino	1
 2/3/2021	Caldwell	Hispanic or Latino	2
 1/30/2021	Caldwell	Hispanic or Latino	2
-8/21/2021	Callaway	Unknown	1
+8/21/2021	Callaway	Unknown	2
 8/20/2021	Callaway	Unknown	9
-8/19/2021	Callaway	Unknown	19
+8/19/2021	Callaway	Unknown	20
 8/18/2021	Callaway	Unknown	11
 8/16/2021	Callaway	Unknown	8
 8/14/2021	Callaway	Unknown	3
@@ -6152,7 +6176,8 @@
 1/4/2021	Callaway	Unknown	5
 1/3/2021	Callaway	Unknown	1
 1/2/2021	Callaway	Unknown	1
-8/21/2021	Callaway	Not Hispanic or Latino	12
+8/22/2021	Callaway	Not Hispanic or Latino	3
+8/21/2021	Callaway	Not Hispanic or Latino	31
 8/20/2021	Callaway	Not Hispanic or Latino	101
 8/19/2021	Callaway	Not Hispanic or Latino	57
 8/18/2021	Callaway	Not Hispanic or Latino	55
@@ -6328,7 +6353,7 @@
 3/1/2021	Callaway	Not Hispanic or Latino	21
 2/28/2021	Callaway	Not Hispanic or Latino	1
 2/27/2021	Callaway	Not Hispanic or Latino	67
-2/26/2021	Callaway	Not Hispanic or Latino	161
+2/26/2021	Callaway	Not Hispanic or Latino	162
 2/25/2021	Callaway	Not Hispanic or Latino	253
 2/24/2021	Callaway	Not Hispanic or Latino	92
 2/23/2021	Callaway	Not Hispanic or Latino	83
@@ -6386,6 +6411,7 @@
 12/27/2020	Callaway	Not Hispanic or Latino	1
 12/17/2020	Callaway	Not Hispanic or Latino	1
 12/16/2020	Callaway	Not Hispanic or Latino	1
+8/21/2021	Callaway	Hispanic or Latino	1
 8/20/2021	Callaway	Hispanic or Latino	2
 8/19/2021	Callaway	Hispanic or Latino	2
 8/17/2021	Callaway	Hispanic or Latino	1
@@ -6538,11 +6564,11 @@
 1/11/2021	Callaway	Hispanic or Latino	1
 1/7/2021	Callaway	Hispanic or Latino	1
 1/6/2021	Callaway	Hispanic or Latino	1
-8/21/2021	Camden	Unknown	1
+8/21/2021	Camden	Unknown	3
 8/20/2021	Camden	Unknown	7
 8/19/2021	Camden	Unknown	13
 8/18/2021	Camden	Unknown	15
-8/17/2021	Camden	Unknown	8
+8/17/2021	Camden	Unknown	7
 8/16/2021	Camden	Unknown	13
 8/15/2021	Camden	Unknown	4
 8/14/2021	Camden	Unknown	5
@@ -6677,7 +6703,7 @@
 3/27/2021	Camden	Unknown	2
 3/26/2021	Camden	Unknown	12
 3/25/2021	Camden	Unknown	29
-3/24/2021	Camden	Unknown	45
+3/24/2021	Camden	Unknown	44
 3/23/2021	Camden	Unknown	15
 3/22/2021	Camden	Unknown	30
 3/21/2021	Camden	Unknown	2
@@ -6690,11 +6716,11 @@
 3/14/2021	Camden	Unknown	1
 3/13/2021	Camden	Unknown	6
 3/12/2021	Camden	Unknown	20
-3/11/2021	Camden	Unknown	50
+3/11/2021	Camden	Unknown	49
 3/10/2021	Camden	Unknown	9
 3/9/2021	Camden	Unknown	4
 3/8/2021	Camden	Unknown	15
-3/7/2021	Camden	Unknown	408
+3/7/2021	Camden	Unknown	407
 3/6/2021	Camden	Unknown	1
 3/5/2021	Camden	Unknown	20
 3/4/2021	Camden	Unknown	29
@@ -6723,7 +6749,7 @@
 2/3/2021	Camden	Unknown	6
 2/2/2021	Camden	Unknown	1
 2/1/2021	Camden	Unknown	8
-1/29/2021	Camden	Unknown	6
+1/29/2021	Camden	Unknown	5
 1/28/2021	Camden	Unknown	2
 1/27/2021	Camden	Unknown	5
 1/26/2021	Camden	Unknown	15
@@ -6741,11 +6767,12 @@
 1/7/2021	Camden	Unknown	2
 1/5/2021	Camden	Unknown	2
 1/4/2021	Camden	Unknown	2
-8/21/2021	Camden	Not Hispanic or Latino	9
+8/22/2021	Camden	Not Hispanic or Latino	6
+8/21/2021	Camden	Not Hispanic or Latino	27
 8/20/2021	Camden	Not Hispanic or Latino	38
 8/19/2021	Camden	Not Hispanic or Latino	50
-8/18/2021	Camden	Not Hispanic or Latino	40
-8/17/2021	Camden	Not Hispanic or Latino	64
+8/18/2021	Camden	Not Hispanic or Latino	41
+8/17/2021	Camden	Not Hispanic or Latino	65
 8/16/2021	Camden	Not Hispanic or Latino	45
 8/15/2021	Camden	Not Hispanic or Latino	20
 8/14/2021	Camden	Not Hispanic or Latino	23
@@ -6877,7 +6904,7 @@
 4/9/2021	Camden	Not Hispanic or Latino	166
 4/8/2021	Camden	Not Hispanic or Latino	125
 4/7/2021	Camden	Not Hispanic or Latino	104
-4/6/2021	Camden	Not Hispanic or Latino	93
+4/6/2021	Camden	Not Hispanic or Latino	94
 4/5/2021	Camden	Not Hispanic or Latino	86
 4/4/2021	Camden	Not Hispanic or Latino	7
 4/3/2021	Camden	Not Hispanic or Latino	26
@@ -6890,12 +6917,12 @@
 3/27/2021	Camden	Not Hispanic or Latino	36
 3/26/2021	Camden	Not Hispanic or Latino	184
 3/25/2021	Camden	Not Hispanic or Latino	538
-3/24/2021	Camden	Not Hispanic or Latino	175
+3/24/2021	Camden	Not Hispanic or Latino	176
 3/23/2021	Camden	Not Hispanic or Latino	155
 3/22/2021	Camden	Not Hispanic or Latino	404
 3/21/2021	Camden	Not Hispanic or Latino	15
 3/20/2021	Camden	Not Hispanic or Latino	52
-3/19/2021	Camden	Not Hispanic or Latino	240
+3/19/2021	Camden	Not Hispanic or Latino	239
 3/18/2021	Camden	Not Hispanic or Latino	110
 3/17/2021	Camden	Not Hispanic or Latino	126
 3/16/2021	Camden	Not Hispanic or Latino	192
@@ -6907,12 +6934,12 @@
 3/10/2021	Camden	Not Hispanic or Latino	156
 3/9/2021	Camden	Not Hispanic or Latino	94
 3/8/2021	Camden	Not Hispanic or Latino	97
-3/7/2021	Camden	Not Hispanic or Latino	653
+3/7/2021	Camden	Not Hispanic or Latino	654
 3/6/2021	Camden	Not Hispanic or Latino	316
 3/5/2021	Camden	Not Hispanic or Latino	104
 3/4/2021	Camden	Not Hispanic or Latino	136
 3/3/2021	Camden	Not Hispanic or Latino	117
-3/2/2021	Camden	Not Hispanic or Latino	79
+3/2/2021	Camden	Not Hispanic or Latino	80
 3/1/2021	Camden	Not Hispanic or Latino	81
 2/28/2021	Camden	Not Hispanic or Latino	3
 2/27/2021	Camden	Not Hispanic or Latino	23
@@ -6923,7 +6950,7 @@
 2/22/2021	Camden	Not Hispanic or Latino	219
 2/21/2021	Camden	Not Hispanic or Latino	3
 2/20/2021	Camden	Not Hispanic or Latino	11
-2/19/2021	Camden	Not Hispanic or Latino	548
+2/19/2021	Camden	Not Hispanic or Latino	547
 2/18/2021	Camden	Not Hispanic or Latino	25
 2/17/2021	Camden	Not Hispanic or Latino	10
 2/16/2021	Camden	Not Hispanic or Latino	24
@@ -6968,6 +6995,7 @@
 12/27/2020	Camden	Not Hispanic or Latino	1
 12/18/2020	Camden	Not Hispanic or Latino	1
 12/16/2020	Camden	Not Hispanic or Latino	1
+8/21/2021	Camden	Hispanic or Latino	4
 8/20/2021	Camden	Hispanic or Latino	3
 8/19/2021	Camden	Hispanic or Latino	1
 8/18/2021	Camden	Hispanic or Latino	4
@@ -7116,7 +7144,8 @@
 1/19/2021	Camden	Hispanic or Latino	2
 1/12/2021	Camden	Hispanic or Latino	1
 1/11/2021	Camden	Hispanic or Latino	2
-8/21/2021	Cape Girardeau	Unknown	4
+8/22/2021	Cape Girardeau	Unknown	2
+8/21/2021	Cape Girardeau	Unknown	9
 8/20/2021	Cape Girardeau	Unknown	12
 8/19/2021	Cape Girardeau	Unknown	7
 8/18/2021	Cape Girardeau	Unknown	14
@@ -7328,7 +7357,8 @@
 1/4/2021	Cape Girardeau	Unknown	7
 1/2/2021	Cape Girardeau	Unknown	2
 12/21/2020	Cape Girardeau	Unknown	1
-8/21/2021	Cape Girardeau	Not Hispanic or Latino	20
+8/22/2021	Cape Girardeau	Not Hispanic or Latino	9
+8/21/2021	Cape Girardeau	Not Hispanic or Latino	40
 8/20/2021	Cape Girardeau	Not Hispanic or Latino	90
 8/19/2021	Cape Girardeau	Not Hispanic or Latino	69
 8/18/2021	Cape Girardeau	Not Hispanic or Latino	76
@@ -7381,7 +7411,7 @@
 7/2/2021	Cape Girardeau	Not Hispanic or Latino	29
 7/1/2021	Cape Girardeau	Not Hispanic or Latino	20
 6/30/2021	Cape Girardeau	Not Hispanic or Latino	32
-6/29/2021	Cape Girardeau	Not Hispanic or Latino	33
+6/29/2021	Cape Girardeau	Not Hispanic or Latino	32
 6/28/2021	Cape Girardeau	Not Hispanic or Latino	27
 6/27/2021	Cape Girardeau	Not Hispanic or Latino	15
 6/26/2021	Cape Girardeau	Not Hispanic or Latino	33
@@ -7565,6 +7595,7 @@
 12/17/2020	Cape Girardeau	Not Hispanic or Latino	1
 12/16/2020	Cape Girardeau	Not Hispanic or Latino	1
 12/15/2020	Cape Girardeau	Not Hispanic or Latino	1
+8/21/2021	Cape Girardeau	Hispanic or Latino	1
 8/20/2021	Cape Girardeau	Hispanic or Latino	4
 8/19/2021	Cape Girardeau	Hispanic or Latino	1
 8/18/2021	Cape Girardeau	Hispanic or Latino	4
@@ -7963,7 +7994,7 @@
 3/1/2021	Carroll	Not Hispanic or Latino	4
 2/27/2021	Carroll	Not Hispanic or Latino	5
 2/26/2021	Carroll	Not Hispanic or Latino	28
-2/25/2021	Carroll	Not Hispanic or Latino	26
+2/25/2021	Carroll	Not Hispanic or Latino	25
 2/24/2021	Carroll	Not Hispanic or Latino	176
 2/23/2021	Carroll	Not Hispanic or Latino	15
 2/22/2021	Carroll	Not Hispanic or Latino	20
@@ -8095,7 +8126,8 @@
 1/24/2021	Carter	Unknown	1
 1/19/2021	Carter	Unknown	1
 1/11/2021	Carter	Unknown	1
-8/21/2021	Carter	Not Hispanic or Latino	4
+8/22/2021	Carter	Not Hispanic or Latino	1
+8/21/2021	Carter	Not Hispanic or Latino	8
 8/20/2021	Carter	Not Hispanic or Latino	9
 8/19/2021	Carter	Not Hispanic or Latino	21
 8/18/2021	Carter	Not Hispanic or Latino	9
@@ -8310,7 +8342,8 @@
 2/12/2021	Carter	Hispanic or Latino	3
 2/6/2021	Carter	Hispanic or Latino	3
 2/4/2021	Carter	Hispanic or Latino	1
-8/21/2021	Cass	Unknown	1
+8/22/2021	Cass	Unknown	3
+8/21/2021	Cass	Unknown	54
 8/20/2021	Cass	Unknown	28
 8/19/2021	Cass	Unknown	14
 8/18/2021	Cass	Unknown	32
@@ -8425,7 +8458,7 @@
 4/30/2021	Cass	Unknown	294
 4/29/2021	Cass	Unknown	266
 4/28/2021	Cass	Unknown	262
-4/27/2021	Cass	Unknown	26
+4/27/2021	Cass	Unknown	25
 4/26/2021	Cass	Unknown	5
 4/24/2021	Cass	Unknown	5
 4/23/2021	Cass	Unknown	29
@@ -8436,7 +8469,7 @@
 4/18/2021	Cass	Unknown	5
 4/17/2021	Cass	Unknown	232
 4/16/2021	Cass	Unknown	535
-4/15/2021	Cass	Unknown	360
+4/15/2021	Cass	Unknown	359
 4/14/2021	Cass	Unknown	26
 4/13/2021	Cass	Unknown	239
 4/12/2021	Cass	Unknown	27
@@ -8448,7 +8481,7 @@
 4/6/2021	Cass	Unknown	413
 4/5/2021	Cass	Unknown	36
 4/4/2021	Cass	Unknown	5
-4/3/2021	Cass	Unknown	188
+4/3/2021	Cass	Unknown	189
 4/2/2021	Cass	Unknown	434
 4/1/2021	Cass	Unknown	515
 3/31/2021	Cass	Unknown	471
@@ -8459,10 +8492,10 @@
 3/26/2021	Cass	Unknown	339
 3/25/2021	Cass	Unknown	247
 3/24/2021	Cass	Unknown	297
-3/23/2021	Cass	Unknown	198
+3/23/2021	Cass	Unknown	197
 3/22/2021	Cass	Unknown	35
 3/21/2021	Cass	Unknown	10
-3/20/2021	Cass	Unknown	572
+3/20/2021	Cass	Unknown	571
 3/19/2021	Cass	Unknown	642
 3/18/2021	Cass	Unknown	83
 3/17/2021	Cass	Unknown	57
@@ -8470,7 +8503,7 @@
 3/15/2021	Cass	Unknown	20
 3/14/2021	Cass	Unknown	40
 3/13/2021	Cass	Unknown	310
-3/12/2021	Cass	Unknown	308
+3/12/2021	Cass	Unknown	307
 3/11/2021	Cass	Unknown	44
 3/10/2021	Cass	Unknown	38
 3/9/2021	Cass	Unknown	32
@@ -8487,7 +8520,7 @@
 2/25/2021	Cass	Unknown	7
 2/24/2021	Cass	Unknown	132
 2/23/2021	Cass	Unknown	156
-2/22/2021	Cass	Unknown	95
+2/22/2021	Cass	Unknown	94
 2/20/2021	Cass	Unknown	2
 2/19/2021	Cass	Unknown	15
 2/18/2021	Cass	Unknown	25
@@ -8497,7 +8530,7 @@
 2/13/2021	Cass	Unknown	4
 2/12/2021	Cass	Unknown	69
 2/11/2021	Cass	Unknown	32
-2/10/2021	Cass	Unknown	89
+2/10/2021	Cass	Unknown	88
 2/9/2021	Cass	Unknown	105
 2/8/2021	Cass	Unknown	25
 2/6/2021	Cass	Unknown	2
@@ -8528,7 +8561,8 @@
 1/5/2021	Cass	Unknown	1
 12/30/2020	Cass	Unknown	1
 12/28/2020	Cass	Unknown	1
-8/21/2021	Cass	Not Hispanic or Latino	28
+8/22/2021	Cass	Not Hispanic or Latino	12
+8/21/2021	Cass	Not Hispanic or Latino	126
 8/20/2021	Cass	Not Hispanic or Latino	130
 8/19/2021	Cass	Not Hispanic or Latino	88
 8/18/2021	Cass	Not Hispanic or Latino	110
@@ -8636,7 +8670,7 @@
 5/8/2021	Cass	Not Hispanic or Latino	153
 5/7/2021	Cass	Not Hispanic or Latino	130
 5/6/2021	Cass	Not Hispanic or Latino	148
-5/5/2021	Cass	Not Hispanic or Latino	129
+5/5/2021	Cass	Not Hispanic or Latino	128
 5/4/2021	Cass	Not Hispanic or Latino	266
 5/3/2021	Cass	Not Hispanic or Latino	163
 5/2/2021	Cass	Not Hispanic or Latino	85
@@ -8652,14 +8686,14 @@
 4/22/2021	Cass	Not Hispanic or Latino	129
 4/21/2021	Cass	Not Hispanic or Latino	84
 4/20/2021	Cass	Not Hispanic or Latino	175
-4/19/2021	Cass	Not Hispanic or Latino	103
+4/19/2021	Cass	Not Hispanic or Latino	104
 4/18/2021	Cass	Not Hispanic or Latino	29
 4/17/2021	Cass	Not Hispanic or Latino	116
 4/16/2021	Cass	Not Hispanic or Latino	400
 4/15/2021	Cass	Not Hispanic or Latino	300
 4/14/2021	Cass	Not Hispanic or Latino	127
 4/13/2021	Cass	Not Hispanic or Latino	222
-4/12/2021	Cass	Not Hispanic or Latino	113
+4/12/2021	Cass	Not Hispanic or Latino	112
 4/11/2021	Cass	Not Hispanic or Latino	49
 4/10/2021	Cass	Not Hispanic or Latino	171
 4/9/2021	Cass	Not Hispanic or Latino	448
@@ -8679,7 +8713,7 @@
 3/26/2021	Cass	Not Hispanic or Latino	377
 3/25/2021	Cass	Not Hispanic or Latino	258
 3/24/2021	Cass	Not Hispanic or Latino	278
-3/23/2021	Cass	Not Hispanic or Latino	160
+3/23/2021	Cass	Not Hispanic or Latino	161
 3/22/2021	Cass	Not Hispanic or Latino	81
 3/21/2021	Cass	Not Hispanic or Latino	110
 3/20/2021	Cass	Not Hispanic or Latino	444
@@ -8690,7 +8724,7 @@
 3/15/2021	Cass	Not Hispanic or Latino	59
 3/14/2021	Cass	Not Hispanic or Latino	82
 3/13/2021	Cass	Not Hispanic or Latino	316
-3/12/2021	Cass	Not Hispanic or Latino	266
+3/12/2021	Cass	Not Hispanic or Latino	267
 3/11/2021	Cass	Not Hispanic or Latino	53
 3/10/2021	Cass	Not Hispanic or Latino	56
 3/9/2021	Cass	Not Hispanic or Latino	121
@@ -8708,7 +8742,7 @@
 2/25/2021	Cass	Not Hispanic or Latino	39
 2/24/2021	Cass	Not Hispanic or Latino	91
 2/23/2021	Cass	Not Hispanic or Latino	161
-2/22/2021	Cass	Not Hispanic or Latino	105
+2/22/2021	Cass	Not Hispanic or Latino	106
 2/21/2021	Cass	Not Hispanic or Latino	34
 2/20/2021	Cass	Not Hispanic or Latino	67
 2/19/2021	Cass	Not Hispanic or Latino	93
@@ -8759,7 +8793,7 @@
 12/31/2020	Cass	Not Hispanic or Latino	1
 12/28/2020	Cass	Not Hispanic or Latino	1
 12/22/2020	Cass	Not Hispanic or Latino	1
-8/21/2021	Cass	Hispanic or Latino	2
+8/21/2021	Cass	Hispanic or Latino	9
 8/20/2021	Cass	Hispanic or Latino	5
 8/19/2021	Cass	Hispanic or Latino	9
 8/18/2021	Cass	Hispanic or Latino	8
@@ -9081,7 +9115,8 @@
 1/25/2021	Cedar	Unknown	6
 1/22/2021	Cedar	Unknown	1
 1/6/2021	Cedar	Unknown	1
-8/21/2021	Cedar	Not Hispanic or Latino	2
+8/22/2021	Cedar	Not Hispanic or Latino	2
+8/21/2021	Cedar	Not Hispanic or Latino	3
 8/20/2021	Cedar	Not Hispanic or Latino	10
 8/19/2021	Cedar	Not Hispanic or Latino	13
 8/18/2021	Cedar	Not Hispanic or Latino	8
@@ -9664,7 +9699,8 @@
 2/24/2021	Chariton	Hispanic or Latino	40
 2/12/2021	Chariton	Hispanic or Latino	1
 2/5/2021	Chariton	Hispanic or Latino	1
-8/21/2021	Christian	Unknown	4
+8/22/2021	Christian	Unknown	7
+8/21/2021	Christian	Unknown	5
 8/20/2021	Christian	Unknown	21
 8/19/2021	Christian	Unknown	19
 8/18/2021	Christian	Unknown	16
@@ -9807,7 +9843,7 @@
 3/29/2021	Christian	Unknown	99
 3/28/2021	Christian	Unknown	3
 3/27/2021	Christian	Unknown	133
-3/26/2021	Christian	Unknown	205
+3/26/2021	Christian	Unknown	204
 3/25/2021	Christian	Unknown	46
 3/24/2021	Christian	Unknown	134
 3/23/2021	Christian	Unknown	29
@@ -9871,7 +9907,8 @@
 1/9/2021	Christian	Unknown	2
 1/6/2021	Christian	Unknown	1
 12/22/2020	Christian	Unknown	1
-8/21/2021	Christian	Not Hispanic or Latino	31
+8/22/2021	Christian	Not Hispanic or Latino	12
+8/21/2021	Christian	Not Hispanic or Latino	105
 8/20/2021	Christian	Not Hispanic or Latino	145
 8/19/2021	Christian	Not Hispanic or Latino	149
 8/18/2021	Christian	Not Hispanic or Latino	131
@@ -9934,7 +9971,7 @@
 6/22/2021	Christian	Not Hispanic or Latino	44
 6/21/2021	Christian	Not Hispanic or Latino	46
 6/20/2021	Christian	Not Hispanic or Latino	23
-6/19/2021	Christian	Not Hispanic or Latino	41
+6/19/2021	Christian	Not Hispanic or Latino	40
 6/18/2021	Christian	Not Hispanic or Latino	43
 6/17/2021	Christian	Not Hispanic or Latino	69
 6/16/2021	Christian	Not Hispanic or Latino	70
@@ -10019,7 +10056,7 @@
 3/29/2021	Christian	Not Hispanic or Latino	212
 3/28/2021	Christian	Not Hispanic or Latino	59
 3/27/2021	Christian	Not Hispanic or Latino	327
-3/26/2021	Christian	Not Hispanic or Latino	340
+3/26/2021	Christian	Not Hispanic or Latino	341
 3/25/2021	Christian	Not Hispanic or Latino	284
 3/24/2021	Christian	Not Hispanic or Latino	286
 3/23/2021	Christian	Not Hispanic or Latino	191
@@ -10108,6 +10145,7 @@
 12/16/2020	Christian	Not Hispanic or Latino	40
 12/15/2020	Christian	Not Hispanic or Latino	11
 12/14/2020	Christian	Not Hispanic or Latino	1
+8/22/2021	Christian	Hispanic or Latino	4
 8/21/2021	Christian	Hispanic or Latino	5
 8/20/2021	Christian	Hispanic or Latino	3
 8/19/2021	Christian	Hispanic or Latino	6
@@ -10558,7 +10596,8 @@
 3/3/2021	Clark	Hispanic or Latino	1
 3/1/2021	Clark	Hispanic or Latino	1
 2/17/2021	Clark	Hispanic or Latino	1
-8/21/2021	Clay	Unknown	5
+8/22/2021	Clay	Unknown	1
+8/21/2021	Clay	Unknown	10
 8/20/2021	Clay	Unknown	14
 8/19/2021	Clay	Unknown	12
 8/18/2021	Clay	Unknown	15
@@ -10773,7 +10812,8 @@
 1/6/2021	Clay	Unknown	2
 1/5/2021	Clay	Unknown	4
 1/4/2021	Clay	Unknown	1
-8/21/2021	Clay	Not Hispanic or Latino	26
+8/22/2021	Clay	Not Hispanic or Latino	14
+8/21/2021	Clay	Not Hispanic or Latino	107
 8/20/2021	Clay	Not Hispanic or Latino	182
 8/19/2021	Clay	Not Hispanic or Latino	129
 8/18/2021	Clay	Not Hispanic or Latino	134
@@ -10848,7 +10888,7 @@
 6/10/2021	Clay	Not Hispanic or Latino	170
 6/9/2021	Clay	Not Hispanic or Latino	178
 6/8/2021	Clay	Not Hispanic or Latino	216
-6/7/2021	Clay	Not Hispanic or Latino	251
+6/7/2021	Clay	Not Hispanic or Latino	252
 6/6/2021	Clay	Not Hispanic or Latino	103
 6/5/2021	Clay	Not Hispanic or Latino	166
 6/4/2021	Clay	Not Hispanic or Latino	156
@@ -10867,7 +10907,7 @@
 5/22/2021	Clay	Not Hispanic or Latino	106
 5/21/2021	Clay	Not Hispanic or Latino	156
 5/20/2021	Clay	Not Hispanic or Latino	117
-5/19/2021	Clay	Not Hispanic or Latino	159
+5/19/2021	Clay	Not Hispanic or Latino	160
 5/18/2021	Clay	Not Hispanic or Latino	165
 5/17/2021	Clay	Not Hispanic or Latino	169
 5/16/2021	Clay	Not Hispanic or Latino	49
@@ -10875,7 +10915,7 @@
 5/14/2021	Clay	Not Hispanic or Latino	277
 5/13/2021	Clay	Not Hispanic or Latino	153
 5/12/2021	Clay	Not Hispanic or Latino	146
-5/11/2021	Clay	Not Hispanic or Latino	345
+5/11/2021	Clay	Not Hispanic or Latino	346
 5/10/2021	Clay	Not Hispanic or Latino	168
 5/9/2021	Clay	Not Hispanic or Latino	72
 5/8/2021	Clay	Not Hispanic or Latino	111
@@ -10886,7 +10926,7 @@
 5/3/2021	Clay	Not Hispanic or Latino	204
 5/2/2021	Clay	Not Hispanic or Latino	87
 5/1/2021	Clay	Not Hispanic or Latino	194
-4/30/2021	Clay	Not Hispanic or Latino	377
+4/30/2021	Clay	Not Hispanic or Latino	376
 4/29/2021	Clay	Not Hispanic or Latino	348
 4/28/2021	Clay	Not Hispanic or Latino	368
 4/27/2021	Clay	Not Hispanic or Latino	398
@@ -10910,7 +10950,7 @@
 4/9/2021	Clay	Not Hispanic or Latino	798
 4/8/2021	Clay	Not Hispanic or Latino	629
 4/7/2021	Clay	Not Hispanic or Latino	207
-4/6/2021	Clay	Not Hispanic or Latino	319
+4/6/2021	Clay	Not Hispanic or Latino	320
 4/5/2021	Clay	Not Hispanic or Latino	338
 4/4/2021	Clay	Not Hispanic or Latino	27
 4/3/2021	Clay	Not Hispanic or Latino	126
@@ -10939,7 +10979,7 @@
 3/11/2021	Clay	Not Hispanic or Latino	113
 3/10/2021	Clay	Not Hispanic or Latino	84
 3/9/2021	Clay	Not Hispanic or Latino	520
-3/8/2021	Clay	Not Hispanic or Latino	834
+3/8/2021	Clay	Not Hispanic or Latino	833
 3/7/2021	Clay	Not Hispanic or Latino	19
 3/6/2021	Clay	Not Hispanic or Latino	52
 3/5/2021	Clay	Not Hispanic or Latino	82
@@ -10949,7 +10989,7 @@
 3/1/2021	Clay	Not Hispanic or Latino	80
 2/28/2021	Clay	Not Hispanic or Latino	10
 2/27/2021	Clay	Not Hispanic or Latino	93
-2/26/2021	Clay	Not Hispanic or Latino	238
+2/26/2021	Clay	Not Hispanic or Latino	239
 2/25/2021	Clay	Not Hispanic or Latino	197
 2/24/2021	Clay	Not Hispanic or Latino	77
 2/23/2021	Clay	Not Hispanic or Latino	70
@@ -11008,7 +11048,8 @@
 12/30/2020	Clay	Not Hispanic or Latino	1
 12/22/2020	Clay	Not Hispanic or Latino	1
 12/15/2020	Clay	Not Hispanic or Latino	1
-8/21/2021	Clay	Hispanic or Latino	2
+8/22/2021	Clay	Hispanic or Latino	2
+8/21/2021	Clay	Hispanic or Latino	8
 8/20/2021	Clay	Hispanic or Latino	7
 8/19/2021	Clay	Hispanic or Latino	3
 8/18/2021	Clay	Hispanic or Latino	6
@@ -11078,7 +11119,7 @@
 6/10/2021	Clay	Hispanic or Latino	10
 6/9/2021	Clay	Hispanic or Latino	13
 6/8/2021	Clay	Hispanic or Latino	14
-6/7/2021	Clay	Hispanic or Latino	19
+6/7/2021	Clay	Hispanic or Latino	18
 6/6/2021	Clay	Hispanic or Latino	4
 6/5/2021	Clay	Hispanic or Latino	14
 6/4/2021	Clay	Hispanic or Latino	10
@@ -11211,6 +11252,7 @@
 1/11/2021	Clay	Hispanic or Latino	2
 1/9/2021	Clay	Hispanic or Latino	2
 1/8/2021	Clay	Hispanic or Latino	4
+8/21/2021	Clinton	Unknown	1
 8/20/2021	Clinton	Unknown	3
 8/19/2021	Clinton	Unknown	2
 8/18/2021	Clinton	Unknown	2
@@ -11374,7 +11416,8 @@
 1/14/2021	Clinton	Unknown	2
 1/13/2021	Clinton	Unknown	2
 1/11/2021	Clinton	Unknown	2
-8/21/2021	Clinton	Not Hispanic or Latino	8
+8/22/2021	Clinton	Not Hispanic or Latino	4
+8/21/2021	Clinton	Not Hispanic or Latino	13
 8/20/2021	Clinton	Not Hispanic or Latino	51
 8/19/2021	Clinton	Not Hispanic or Latino	16
 8/18/2021	Clinton	Not Hispanic or Latino	14
@@ -11716,6 +11759,8 @@
 1/29/2021	Clinton	Hispanic or Latino	1
 1/28/2021	Clinton	Hispanic or Latino	1
 1/26/2021	Clinton	Hispanic or Latino	1
+8/22/2021	Cole	Unknown	1
+8/21/2021	Cole	Unknown	6
 8/20/2021	Cole	Unknown	7
 8/19/2021	Cole	Unknown	6
 8/18/2021	Cole	Unknown	10
@@ -11888,13 +11933,13 @@
 2/21/2021	Cole	Unknown	1
 2/20/2021	Cole	Unknown	81
 2/19/2021	Cole	Unknown	124
-2/18/2021	Cole	Unknown	126
+2/18/2021	Cole	Unknown	125
 2/17/2021	Cole	Unknown	87
 2/16/2021	Cole	Unknown	47
 2/15/2021	Cole	Unknown	37
 2/13/2021	Cole	Unknown	72
 2/12/2021	Cole	Unknown	71
-2/11/2021	Cole	Unknown	75
+2/11/2021	Cole	Unknown	74
 2/10/2021	Cole	Unknown	23
 2/9/2021	Cole	Unknown	48
 2/8/2021	Cole	Unknown	6
@@ -11926,7 +11971,7 @@
 1/10/2021	Cole	Unknown	4
 1/9/2021	Cole	Unknown	9
 1/8/2021	Cole	Unknown	80
-1/7/2021	Cole	Unknown	108
+1/7/2021	Cole	Unknown	107
 1/6/2021	Cole	Unknown	14
 1/5/2021	Cole	Unknown	5
 1/4/2021	Cole	Unknown	19
@@ -11935,12 +11980,13 @@
 1/1/2021	Cole	Unknown	2
 12/16/2020	Cole	Unknown	1
 12/15/2020	Cole	Unknown	1
-8/21/2021	Cole	Not Hispanic or Latino	11
-8/20/2021	Cole	Not Hispanic or Latino	139
+8/22/2021	Cole	Not Hispanic or Latino	4
+8/21/2021	Cole	Not Hispanic or Latino	51
+8/20/2021	Cole	Not Hispanic or Latino	140
 8/19/2021	Cole	Not Hispanic or Latino	80
 8/18/2021	Cole	Not Hispanic or Latino	86
 8/17/2021	Cole	Not Hispanic or Latino	105
-8/16/2021	Cole	Not Hispanic or Latino	129
+8/16/2021	Cole	Not Hispanic or Latino	128
 8/15/2021	Cole	Not Hispanic or Latino	47
 8/14/2021	Cole	Not Hispanic or Latino	48
 8/13/2021	Cole	Not Hispanic or Latino	129
@@ -12042,7 +12088,7 @@
 5/9/2021	Cole	Not Hispanic or Latino	20
 5/8/2021	Cole	Not Hispanic or Latino	72
 5/7/2021	Cole	Not Hispanic or Latino	119
-5/6/2021	Cole	Not Hispanic or Latino	218
+5/6/2021	Cole	Not Hispanic or Latino	217
 5/5/2021	Cole	Not Hispanic or Latino	192
 5/4/2021	Cole	Not Hispanic or Latino	267
 5/3/2021	Cole	Not Hispanic or Latino	154
@@ -12062,7 +12108,7 @@
 4/19/2021	Cole	Not Hispanic or Latino	256
 4/18/2021	Cole	Not Hispanic or Latino	16
 4/17/2021	Cole	Not Hispanic or Latino	145
-4/16/2021	Cole	Not Hispanic or Latino	257
+4/16/2021	Cole	Not Hispanic or Latino	256
 4/15/2021	Cole	Not Hispanic or Latino	181
 4/14/2021	Cole	Not Hispanic or Latino	538
 4/13/2021	Cole	Not Hispanic or Latino	227
@@ -12112,20 +12158,20 @@
 2/28/2021	Cole	Not Hispanic or Latino	1
 2/27/2021	Cole	Not Hispanic or Latino	233
 2/26/2021	Cole	Not Hispanic or Latino	1199
-2/25/2021	Cole	Not Hispanic or Latino	261
+2/25/2021	Cole	Not Hispanic or Latino	260
 2/24/2021	Cole	Not Hispanic or Latino	67
 2/23/2021	Cole	Not Hispanic or Latino	135
 2/22/2021	Cole	Not Hispanic or Latino	119
 2/20/2021	Cole	Not Hispanic or Latino	509
 2/19/2021	Cole	Not Hispanic or Latino	930
-2/18/2021	Cole	Not Hispanic or Latino	336
+2/18/2021	Cole	Not Hispanic or Latino	337
 2/17/2021	Cole	Not Hispanic or Latino	166
 2/16/2021	Cole	Not Hispanic or Latino	136
 2/15/2021	Cole	Not Hispanic or Latino	39
 2/14/2021	Cole	Not Hispanic or Latino	3
 2/13/2021	Cole	Not Hispanic or Latino	760
 2/12/2021	Cole	Not Hispanic or Latino	653
-2/11/2021	Cole	Not Hispanic or Latino	278
+2/11/2021	Cole	Not Hispanic or Latino	279
 2/10/2021	Cole	Not Hispanic or Latino	216
 2/9/2021	Cole	Not Hispanic or Latino	171
 2/8/2021	Cole	Not Hispanic or Latino	143
@@ -12159,7 +12205,7 @@
 1/10/2021	Cole	Not Hispanic or Latino	13
 1/9/2021	Cole	Not Hispanic or Latino	10
 1/8/2021	Cole	Not Hispanic or Latino	98
-1/7/2021	Cole	Not Hispanic or Latino	97
+1/7/2021	Cole	Not Hispanic or Latino	98
 1/6/2021	Cole	Not Hispanic or Latino	26
 1/5/2021	Cole	Not Hispanic or Latino	11
 1/4/2021	Cole	Not Hispanic or Latino	23
@@ -12170,6 +12216,7 @@
 12/18/2020	Cole	Not Hispanic or Latino	1
 12/16/2020	Cole	Not Hispanic or Latino	1
 12/15/2020	Cole	Not Hispanic or Latino	1
+8/22/2021	Cole	Hispanic or Latino	1
 8/20/2021	Cole	Hispanic or Latino	9
 8/19/2021	Cole	Hispanic or Latino	3
 8/18/2021	Cole	Hispanic or Latino	3
@@ -12519,7 +12566,8 @@
 1/7/2021	Cooper	Unknown	4
 1/6/2021	Cooper	Unknown	1
 1/3/2021	Cooper	Unknown	1
-8/21/2021	Cooper	Not Hispanic or Latino	7
+8/22/2021	Cooper	Not Hispanic or Latino	1
+8/21/2021	Cooper	Not Hispanic or Latino	10
 8/20/2021	Cooper	Not Hispanic or Latino	10
 8/19/2021	Cooper	Not Hispanic or Latino	31
 8/18/2021	Cooper	Not Hispanic or Latino	8
@@ -12729,7 +12777,7 @@
 1/19/2021	Cooper	Not Hispanic or Latino	10
 1/18/2021	Cooper	Not Hispanic or Latino	11
 1/17/2021	Cooper	Not Hispanic or Latino	2
-1/16/2021	Cooper	Not Hispanic or Latino	3
+1/16/2021	Cooper	Not Hispanic or Latino	2
 1/14/2021	Cooper	Not Hispanic or Latino	5
 1/13/2021	Cooper	Not Hispanic or Latino	5
 1/12/2021	Cooper	Not Hispanic or Latino	24
@@ -12741,6 +12789,7 @@
 1/6/2021	Cooper	Not Hispanic or Latino	6
 1/4/2021	Cooper	Not Hispanic or Latino	1
 12/16/2020	Cooper	Not Hispanic or Latino	1
+8/21/2021	Cooper	Hispanic or Latino	1
 8/20/2021	Cooper	Hispanic or Latino	1
 8/19/2021	Cooper	Hispanic or Latino	4
 8/17/2021	Cooper	Hispanic or Latino	1
@@ -12837,6 +12886,7 @@
 2/2/2021	Cooper	Hispanic or Latino	1
 1/23/2021	Cooper	Hispanic or Latino	1
 1/7/2021	Cooper	Hispanic or Latino	1
+8/22/2021	Crawford	Unknown	2
 8/21/2021	Crawford	Unknown	2
 8/20/2021	Crawford	Unknown	2
 8/18/2021	Crawford	Unknown	3
@@ -12983,9 +13033,10 @@
 1/12/2021	Crawford	Unknown	2
 1/8/2021	Crawford	Unknown	2
 1/6/2021	Crawford	Unknown	1
-8/21/2021	Crawford	Not Hispanic or Latino	12
+8/22/2021	Crawford	Not Hispanic or Latino	8
+8/21/2021	Crawford	Not Hispanic or Latino	13
 8/20/2021	Crawford	Not Hispanic or Latino	52
-8/19/2021	Crawford	Not Hispanic or Latino	16
+8/19/2021	Crawford	Not Hispanic or Latino	22
 8/18/2021	Crawford	Not Hispanic or Latino	25
 8/17/2021	Crawford	Not Hispanic or Latino	29
 8/16/2021	Crawford	Not Hispanic or Latino	28
@@ -13207,6 +13258,7 @@
 1/6/2021	Crawford	Not Hispanic or Latino	6
 1/5/2021	Crawford	Not Hispanic or Latino	1
 1/4/2021	Crawford	Not Hispanic or Latino	2
+8/22/2021	Crawford	Hispanic or Latino	1
 8/20/2021	Crawford	Hispanic or Latino	2
 8/18/2021	Crawford	Hispanic or Latino	1
 8/16/2021	Crawford	Hispanic or Latino	1
@@ -13786,7 +13838,8 @@
 1/19/2021	Dallas	Unknown	1
 1/14/2021	Dallas	Unknown	1
 1/10/2021	Dallas	Unknown	1
-8/21/2021	Dallas	Not Hispanic or Latino	5
+8/22/2021	Dallas	Not Hispanic or Latino	2
+8/21/2021	Dallas	Not Hispanic or Latino	15
 8/20/2021	Dallas	Not Hispanic or Latino	18
 8/19/2021	Dallas	Not Hispanic or Latino	12
 8/18/2021	Dallas	Not Hispanic or Latino	20
@@ -13863,7 +13916,7 @@
 6/5/2021	Dallas	Not Hispanic or Latino	4
 6/4/2021	Dallas	Not Hispanic or Latino	10
 6/3/2021	Dallas	Not Hispanic or Latino	19
-6/2/2021	Dallas	Not Hispanic or Latino	7
+6/2/2021	Dallas	Not Hispanic or Latino	8
 6/1/2021	Dallas	Not Hispanic or Latino	14
 5/31/2021	Dallas	Not Hispanic or Latino	2
 5/30/2021	Dallas	Not Hispanic or Latino	2
@@ -14181,6 +14234,7 @@
 1/26/2021	Daviess	Unknown	1
 1/20/2021	Daviess	Unknown	1
 1/16/2021	Daviess	Unknown	1
+8/22/2021	Daviess	Not Hispanic or Latino	2
 8/21/2021	Daviess	Not Hispanic or Latino	1
 8/20/2021	Daviess	Not Hispanic or Latino	9
 8/19/2021	Daviess	Not Hispanic or Latino	9
@@ -14531,7 +14585,8 @@
 1/20/2021	DeKalb	Unknown	2
 1/17/2021	DeKalb	Unknown	1
 1/13/2021	DeKalb	Unknown	1
-8/21/2021	DeKalb	Not Hispanic or Latino	1
+8/22/2021	DeKalb	Not Hispanic or Latino	1
+8/21/2021	DeKalb	Not Hispanic or Latino	4
 8/20/2021	DeKalb	Not Hispanic or Latino	8
 8/19/2021	DeKalb	Not Hispanic or Latino	8
 8/18/2021	DeKalb	Not Hispanic or Latino	8
@@ -14674,7 +14729,7 @@
 3/13/2021	DeKalb	Not Hispanic or Latino	48
 3/12/2021	DeKalb	Not Hispanic or Latino	15
 3/11/2021	DeKalb	Not Hispanic or Latino	26
-3/10/2021	DeKalb	Not Hispanic or Latino	11
+3/10/2021	DeKalb	Not Hispanic or Latino	10
 3/9/2021	DeKalb	Not Hispanic or Latino	30
 3/8/2021	DeKalb	Not Hispanic or Latino	3
 3/6/2021	DeKalb	Not Hispanic or Latino	14
@@ -14869,9 +14924,10 @@
 1/20/2021	Dent	Unknown	4
 1/19/2021	Dent	Unknown	3
 1/8/2021	Dent	Unknown	1
+8/22/2021	Dent	Not Hispanic or Latino	3
 8/21/2021	Dent	Not Hispanic or Latino	1
 8/20/2021	Dent	Not Hispanic or Latino	20
-8/19/2021	Dent	Not Hispanic or Latino	26
+8/19/2021	Dent	Not Hispanic or Latino	27
 8/18/2021	Dent	Not Hispanic or Latino	14
 8/17/2021	Dent	Not Hispanic or Latino	28
 8/16/2021	Dent	Not Hispanic or Latino	26
@@ -15251,7 +15307,8 @@
 1/22/2021	Douglas	Unknown	1
 1/19/2021	Douglas	Unknown	1
 1/11/2021	Douglas	Unknown	1
-8/21/2021	Douglas	Not Hispanic or Latino	8
+8/22/2021	Douglas	Not Hispanic or Latino	2
+8/21/2021	Douglas	Not Hispanic or Latino	11
 8/20/2021	Douglas	Not Hispanic or Latino	17
 8/19/2021	Douglas	Not Hispanic or Latino	13
 8/18/2021	Douglas	Not Hispanic or Latino	13
@@ -15640,7 +15697,8 @@
 1/19/2021	Dunklin	Unknown	8
 1/12/2021	Dunklin	Unknown	4
 1/6/2021	Dunklin	Unknown	7
-8/21/2021	Dunklin	Not Hispanic or Latino	11
+8/22/2021	Dunklin	Not Hispanic or Latino	7
+8/21/2021	Dunklin	Not Hispanic or Latino	25
 8/20/2021	Dunklin	Not Hispanic or Latino	21
 8/19/2021	Dunklin	Not Hispanic or Latino	13
 8/18/2021	Dunklin	Not Hispanic or Latino	13
@@ -15854,7 +15912,8 @@
 1/8/2021	Dunklin	Not Hispanic or Latino	1
 1/6/2021	Dunklin	Not Hispanic or Latino	9
 1/4/2021	Dunklin	Not Hispanic or Latino	1
-8/21/2021	Dunklin	Hispanic or Latino	2
+8/22/2021	Dunklin	Hispanic or Latino	1
+8/21/2021	Dunklin	Hispanic or Latino	3
 8/20/2021	Dunklin	Hispanic or Latino	8
 8/19/2021	Dunklin	Hispanic or Latino	1
 8/18/2021	Dunklin	Hispanic or Latino	2
@@ -15999,6 +16058,8 @@
 1/11/2021	Dunklin	Hispanic or Latino	1
 1/8/2021	Dunklin	Hispanic or Latino	1
 1/6/2021	Dunklin	Hispanic or Latino	7
+8/22/2021	Franklin	Unknown	2
+8/21/2021	Franklin	Unknown	4
 8/20/2021	Franklin	Unknown	13
 8/19/2021	Franklin	Unknown	14
 8/18/2021	Franklin	Unknown	10
@@ -16132,7 +16193,7 @@
 4/11/2021	Franklin	Unknown	6
 4/10/2021	Franklin	Unknown	21
 4/9/2021	Franklin	Unknown	39
-4/8/2021	Franklin	Unknown	65
+4/8/2021	Franklin	Unknown	63
 4/7/2021	Franklin	Unknown	60
 4/6/2021	Franklin	Unknown	54
 4/5/2021	Franklin	Unknown	43
@@ -16218,9 +16279,10 @@
 1/6/2021	Franklin	Unknown	6
 1/5/2021	Franklin	Unknown	5
 1/4/2021	Franklin	Unknown	8
-8/21/2021	Franklin	Not Hispanic or Latino	29
-8/20/2021	Franklin	Not Hispanic or Latino	167
-8/19/2021	Franklin	Not Hispanic or Latino	194
+8/22/2021	Franklin	Not Hispanic or Latino	16
+8/21/2021	Franklin	Not Hispanic or Latino	73
+8/20/2021	Franklin	Not Hispanic or Latino	168
+8/19/2021	Franklin	Not Hispanic or Latino	215
 8/18/2021	Franklin	Not Hispanic or Latino	125
 8/17/2021	Franklin	Not Hispanic or Latino	180
 8/16/2021	Franklin	Not Hispanic or Latino	121
@@ -16353,7 +16415,7 @@
 4/11/2021	Franklin	Not Hispanic or Latino	105
 4/10/2021	Franklin	Not Hispanic or Latino	198
 4/9/2021	Franklin	Not Hispanic or Latino	643
-4/8/2021	Franklin	Not Hispanic or Latino	722
+4/8/2021	Franklin	Not Hispanic or Latino	723
 4/7/2021	Franklin	Not Hispanic or Latino	717
 4/6/2021	Franklin	Not Hispanic or Latino	525
 4/5/2021	Franklin	Not Hispanic or Latino	439
@@ -16380,7 +16442,7 @@
 3/15/2021	Franklin	Not Hispanic or Latino	315
 3/14/2021	Franklin	Not Hispanic or Latino	14
 3/13/2021	Franklin	Not Hispanic or Latino	94
-3/12/2021	Franklin	Not Hispanic or Latino	246
+3/12/2021	Franklin	Not Hispanic or Latino	245
 3/11/2021	Franklin	Not Hispanic or Latino	336
 3/10/2021	Franklin	Not Hispanic or Latino	321
 3/9/2021	Franklin	Not Hispanic or Latino	388
@@ -16404,7 +16466,7 @@
 2/19/2021	Franklin	Not Hispanic or Latino	182
 2/18/2021	Franklin	Not Hispanic or Latino	100
 2/17/2021	Franklin	Not Hispanic or Latino	102
-2/16/2021	Franklin	Not Hispanic or Latino	80
+2/16/2021	Franklin	Not Hispanic or Latino	81
 2/15/2021	Franklin	Not Hispanic or Latino	51
 2/14/2021	Franklin	Not Hispanic or Latino	76
 2/13/2021	Franklin	Not Hispanic or Latino	131
@@ -16448,7 +16510,8 @@
 1/2/2021	Franklin	Not Hispanic or Latino	1
 12/30/2020	Franklin	Not Hispanic or Latino	1
 12/16/2020	Franklin	Not Hispanic or Latino	1
-8/21/2021	Franklin	Hispanic or Latino	1
+8/22/2021	Franklin	Hispanic or Latino	1
+8/21/2021	Franklin	Hispanic or Latino	3
 8/20/2021	Franklin	Hispanic or Latino	5
 8/19/2021	Franklin	Hispanic or Latino	4
 8/18/2021	Franklin	Hispanic or Latino	1
@@ -16782,7 +16845,7 @@
 1/8/2021	Gasconade	Unknown	8
 1/6/2021	Gasconade	Unknown	1
 1/4/2021	Gasconade	Unknown	1
-8/21/2021	Gasconade	Not Hispanic or Latino	2
+8/21/2021	Gasconade	Not Hispanic or Latino	5
 8/20/2021	Gasconade	Not Hispanic or Latino	41
 8/19/2021	Gasconade	Not Hispanic or Latino	25
 8/18/2021	Gasconade	Not Hispanic or Latino	20
@@ -17159,7 +17222,8 @@
 1/22/2021	Gentry	Unknown	2
 1/20/2021	Gentry	Unknown	3
 1/13/2021	Gentry	Unknown	1
-8/21/2021	Gentry	Not Hispanic or Latino	3
+8/22/2021	Gentry	Not Hispanic or Latino	1
+8/21/2021	Gentry	Not Hispanic or Latino	5
 8/20/2021	Gentry	Not Hispanic or Latino	17
 8/19/2021	Gentry	Not Hispanic or Latino	2
 8/18/2021	Gentry	Not Hispanic or Latino	7
@@ -17295,7 +17359,7 @@
 3/13/2021	Gentry	Not Hispanic or Latino	6
 3/12/2021	Gentry	Not Hispanic or Latino	5
 3/11/2021	Gentry	Not Hispanic or Latino	9
-3/10/2021	Gentry	Not Hispanic or Latino	33
+3/10/2021	Gentry	Not Hispanic or Latino	34
 3/9/2021	Gentry	Not Hispanic or Latino	3
 3/8/2021	Gentry	Not Hispanic or Latino	5
 3/7/2021	Gentry	Not Hispanic or Latino	1
@@ -17366,7 +17430,8 @@
 2/11/2021	Gentry	Hispanic or Latino	1
 2/5/2021	Gentry	Hispanic or Latino	1
 2/3/2021	Gentry	Hispanic or Latino	2
-8/21/2021	Greene	Unknown	14
+8/22/2021	Greene	Unknown	6
+8/21/2021	Greene	Unknown	23
 8/20/2021	Greene	Unknown	53
 8/19/2021	Greene	Unknown	47
 8/18/2021	Greene	Unknown	48
@@ -17589,7 +17654,8 @@
 12/17/2020	Greene	Unknown	1
 12/16/2020	Greene	Unknown	2
 12/15/2020	Greene	Unknown	4
-8/21/2021	Greene	Not Hispanic or Latino	117
+8/22/2021	Greene	Not Hispanic or Latino	62
+8/21/2021	Greene	Not Hispanic or Latino	263
 8/20/2021	Greene	Not Hispanic or Latino	399
 8/19/2021	Greene	Not Hispanic or Latino	393
 8/18/2021	Greene	Not Hispanic or Latino	379
@@ -17620,7 +17686,7 @@
 7/24/2021	Greene	Not Hispanic or Latino	199
 7/23/2021	Greene	Not Hispanic or Latino	365
 7/22/2021	Greene	Not Hispanic or Latino	242
-7/21/2021	Greene	Not Hispanic or Latino	248
+7/21/2021	Greene	Not Hispanic or Latino	249
 7/20/2021	Greene	Not Hispanic or Latino	228
 7/19/2021	Greene	Not Hispanic or Latino	268
 7/18/2021	Greene	Not Hispanic or Latino	117
@@ -17652,7 +17718,7 @@
 6/22/2021	Greene	Not Hispanic or Latino	189
 6/21/2021	Greene	Not Hispanic or Latino	199
 6/20/2021	Greene	Not Hispanic or Latino	93
-6/19/2021	Greene	Not Hispanic or Latino	138
+6/19/2021	Greene	Not Hispanic or Latino	139
 6/18/2021	Greene	Not Hispanic or Latino	227
 6/17/2021	Greene	Not Hispanic or Latino	236
 6/16/2021	Greene	Not Hispanic or Latino	223
@@ -17723,7 +17789,7 @@
 4/12/2021	Greene	Not Hispanic or Latino	1507
 4/11/2021	Greene	Not Hispanic or Latino	315
 4/10/2021	Greene	Not Hispanic or Latino	602
-4/9/2021	Greene	Not Hispanic or Latino	2799
+4/9/2021	Greene	Not Hispanic or Latino	2801
 4/8/2021	Greene	Not Hispanic or Latino	2423
 4/7/2021	Greene	Not Hispanic or Latino	1130
 4/6/2021	Greene	Not Hispanic or Latino	2050
@@ -17739,7 +17805,7 @@
 3/27/2021	Greene	Not Hispanic or Latino	1144
 3/26/2021	Greene	Not Hispanic or Latino	1908
 3/25/2021	Greene	Not Hispanic or Latino	1314
-3/24/2021	Greene	Not Hispanic or Latino	1293
+3/24/2021	Greene	Not Hispanic or Latino	1294
 3/23/2021	Greene	Not Hispanic or Latino	509
 3/22/2021	Greene	Not Hispanic or Latino	493
 3/21/2021	Greene	Not Hispanic or Latino	354
@@ -17830,7 +17896,8 @@
 12/16/2020	Greene	Not Hispanic or Latino	153
 12/15/2020	Greene	Not Hispanic or Latino	39
 12/14/2020	Greene	Not Hispanic or Latino	6
-8/21/2021	Greene	Hispanic or Latino	6
+8/22/2021	Greene	Hispanic or Latino	2
+8/21/2021	Greene	Hispanic or Latino	20
 8/20/2021	Greene	Hispanic or Latino	22
 8/19/2021	Greene	Hispanic or Latino	32
 8/18/2021	Greene	Hispanic or Latino	23
@@ -18139,6 +18206,8 @@
 2/3/2021	Grundy	Unknown	1
 1/25/2021	Grundy	Unknown	1
 1/13/2021	Grundy	Unknown	1
+8/22/2021	Grundy	Not Hispanic or Latino	1
+8/21/2021	Grundy	Not Hispanic or Latino	4
 8/20/2021	Grundy	Not Hispanic or Latino	16
 8/19/2021	Grundy	Not Hispanic or Latino	8
 8/18/2021	Grundy	Not Hispanic or Latino	2
@@ -18693,6 +18762,7 @@
 2/17/2021	Harrison	Hispanic or Latino	1
 2/9/2021	Harrison	Hispanic or Latino	1
 2/5/2021	Harrison	Hispanic or Latino	1
+8/21/2021	Henry	Unknown	2
 8/20/2021	Henry	Unknown	5
 8/19/2021	Henry	Unknown	5
 8/18/2021	Henry	Unknown	4
@@ -18841,7 +18911,8 @@
 1/8/2021	Henry	Unknown	1
 1/7/2021	Henry	Unknown	1
 1/6/2021	Henry	Unknown	13
-8/21/2021	Henry	Not Hispanic or Latino	7
+8/22/2021	Henry	Not Hispanic or Latino	1
+8/21/2021	Henry	Not Hispanic or Latino	22
 8/20/2021	Henry	Not Hispanic or Latino	38
 8/19/2021	Henry	Not Hispanic or Latino	31
 8/18/2021	Henry	Not Hispanic or Latino	37
@@ -19060,6 +19131,7 @@
 1/6/2021	Henry	Not Hispanic or Latino	36
 1/4/2021	Henry	Not Hispanic or Latino	1
 12/17/2020	Henry	Not Hispanic or Latino	2
+8/21/2021	Henry	Hispanic or Latino	1
 8/19/2021	Henry	Hispanic or Latino	1
 8/18/2021	Henry	Hispanic or Latino	3
 8/16/2021	Henry	Hispanic or Latino	2
@@ -19259,6 +19331,7 @@
 1/28/2021	Hickory	Unknown	1
 1/27/2021	Hickory	Unknown	4
 1/12/2021	Hickory	Unknown	1
+8/22/2021	Hickory	Not Hispanic or Latino	3
 8/20/2021	Hickory	Not Hispanic or Latino	1
 8/19/2021	Hickory	Not Hispanic or Latino	6
 8/18/2021	Hickory	Not Hispanic or Latino	4
@@ -19584,6 +19657,7 @@
 1/27/2021	Holt	Unknown	2
 1/22/2021	Holt	Unknown	2
 1/20/2021	Holt	Unknown	1
+8/21/2021	Holt	Not Hispanic or Latino	1
 8/20/2021	Holt	Not Hispanic or Latino	5
 8/19/2021	Holt	Not Hispanic or Latino	8
 8/17/2021	Holt	Not Hispanic or Latino	1
@@ -19749,7 +19823,8 @@
 2/25/2021	Holt	Hispanic or Latino	2
 1/29/2021	Holt	Hispanic or Latino	1
 1/28/2021	Holt	Hispanic or Latino	1
-8/21/2021	Howard	Unknown	1
+8/22/2021	Howard	Unknown	2
+8/21/2021	Howard	Unknown	2
 8/20/2021	Howard	Unknown	1
 8/19/2021	Howard	Unknown	1
 8/18/2021	Howard	Unknown	1
@@ -19860,7 +19935,8 @@
 1/9/2021	Howard	Unknown	1
 1/8/2021	Howard	Unknown	2
 1/7/2021	Howard	Unknown	1
-8/21/2021	Howard	Not Hispanic or Latino	8
+8/22/2021	Howard	Not Hispanic or Latino	2
+8/21/2021	Howard	Not Hispanic or Latino	10
 8/20/2021	Howard	Not Hispanic or Latino	11
 8/19/2021	Howard	Not Hispanic or Latino	11
 8/18/2021	Howard	Not Hispanic or Latino	12
@@ -20111,7 +20187,7 @@
 2/13/2021	Howard	Hispanic or Latino	1
 2/8/2021	Howard	Hispanic or Latino	2
 1/26/2021	Howard	Hispanic or Latino	1
-8/21/2021	Howell	Unknown	1
+8/21/2021	Howell	Unknown	5
 8/20/2021	Howell	Unknown	30
 8/19/2021	Howell	Unknown	13
 8/18/2021	Howell	Unknown	9
@@ -20286,7 +20362,8 @@
 1/11/2021	Howell	Unknown	3
 1/8/2021	Howell	Unknown	1
 1/4/2021	Howell	Unknown	1
-8/21/2021	Howell	Not Hispanic or Latino	19
+8/22/2021	Howell	Not Hispanic or Latino	15
+8/21/2021	Howell	Not Hispanic or Latino	46
 8/20/2021	Howell	Not Hispanic or Latino	99
 8/19/2021	Howell	Not Hispanic or Latino	54
 8/18/2021	Howell	Not Hispanic or Latino	54
@@ -20637,7 +20714,8 @@
 1/25/2021	Howell	Hispanic or Latino	3
 1/22/2021	Howell	Hispanic or Latino	1
 1/19/2021	Howell	Hispanic or Latino	1
-8/21/2021	Independence	Unknown	2
+8/22/2021	Independence	Unknown	1
+8/21/2021	Independence	Unknown	15
 8/20/2021	Independence	Unknown	15
 8/19/2021	Independence	Unknown	10
 8/18/2021	Independence	Unknown	15
@@ -20857,7 +20935,8 @@
 1/7/2021	Independence	Unknown	4
 1/6/2021	Independence	Unknown	3
 1/2/2021	Independence	Unknown	1
-8/21/2021	Independence	Not Hispanic or Latino	24
+8/22/2021	Independence	Not Hispanic or Latino	15
+8/21/2021	Independence	Not Hispanic or Latino	131
 8/20/2021	Independence	Not Hispanic or Latino	126
 8/19/2021	Independence	Not Hispanic or Latino	129
 8/18/2021	Independence	Not Hispanic or Latino	139
@@ -20966,14 +21045,14 @@
 5/7/2021	Independence	Not Hispanic or Latino	283
 5/6/2021	Independence	Not Hispanic or Latino	439
 5/5/2021	Independence	Not Hispanic or Latino	353
-5/4/2021	Independence	Not Hispanic or Latino	429
+5/4/2021	Independence	Not Hispanic or Latino	430
 5/3/2021	Independence	Not Hispanic or Latino	358
 5/2/2021	Independence	Not Hispanic or Latino	84
 5/1/2021	Independence	Not Hispanic or Latino	208
 4/30/2021	Independence	Not Hispanic or Latino	409
 4/29/2021	Independence	Not Hispanic or Latino	422
 4/28/2021	Independence	Not Hispanic or Latino	388
-4/27/2021	Independence	Not Hispanic or Latino	440
+4/27/2021	Independence	Not Hispanic or Latino	441
 4/26/2021	Independence	Not Hispanic or Latino	269
 4/25/2021	Independence	Not Hispanic or Latino	48
 4/24/2021	Independence	Not Hispanic or Latino	122
@@ -21011,7 +21090,7 @@
 3/23/2021	Independence	Not Hispanic or Latino	340
 3/22/2021	Independence	Not Hispanic or Latino	423
 3/21/2021	Independence	Not Hispanic or Latino	186
-3/20/2021	Independence	Not Hispanic or Latino	647
+3/20/2021	Independence	Not Hispanic or Latino	648
 3/19/2021	Independence	Not Hispanic or Latino	579
 3/18/2021	Independence	Not Hispanic or Latino	282
 3/17/2021	Independence	Not Hispanic or Latino	297
@@ -21090,7 +21169,8 @@
 12/17/2020	Independence	Not Hispanic or Latino	1
 12/16/2020	Independence	Not Hispanic or Latino	1
 12/14/2020	Independence	Not Hispanic or Latino	1
-8/21/2021	Independence	Hispanic or Latino	7
+8/22/2021	Independence	Hispanic or Latino	1
+8/21/2021	Independence	Hispanic or Latino	20
 8/20/2021	Independence	Hispanic or Latino	14
 8/19/2021	Independence	Hispanic or Latino	21
 8/18/2021	Independence	Hispanic or Latino	14
@@ -21162,7 +21242,7 @@
 6/12/2021	Independence	Hispanic or Latino	44
 6/11/2021	Independence	Hispanic or Latino	41
 6/10/2021	Independence	Hispanic or Latino	24
-6/9/2021	Independence	Hispanic or Latino	37
+6/9/2021	Independence	Hispanic or Latino	38
 6/8/2021	Independence	Hispanic or Latino	36
 6/7/2021	Independence	Hispanic or Latino	26
 6/6/2021	Independence	Hispanic or Latino	16
@@ -21243,7 +21323,7 @@
 3/23/2021	Independence	Hispanic or Latino	10
 3/22/2021	Independence	Hispanic or Latino	17
 3/21/2021	Independence	Hispanic or Latino	4
-3/20/2021	Independence	Hispanic or Latino	34
+3/20/2021	Independence	Hispanic or Latino	33
 3/19/2021	Independence	Hispanic or Latino	39
 3/18/2021	Independence	Hispanic or Latino	17
 3/17/2021	Independence	Hispanic or Latino	8
@@ -21416,7 +21496,8 @@
 1/18/2021	Iron	Unknown	1
 1/13/2021	Iron	Unknown	12
 1/9/2021	Iron	Unknown	1
-8/21/2021	Iron	Not Hispanic or Latino	3
+8/22/2021	Iron	Not Hispanic or Latino	1
+8/21/2021	Iron	Not Hispanic or Latino	7
 8/20/2021	Iron	Not Hispanic or Latino	20
 8/19/2021	Iron	Not Hispanic or Latino	9
 8/18/2021	Iron	Not Hispanic or Latino	15
@@ -21679,7 +21760,8 @@
 2/6/2021	Iron	Hispanic or Latino	1
 1/28/2021	Iron	Hispanic or Latino	1
 1/26/2021	Iron	Hispanic or Latino	1
-8/21/2021	Jackson	Unknown	9
+8/22/2021	Jackson	Unknown	3
+8/21/2021	Jackson	Unknown	35
 8/20/2021	Jackson	Unknown	28
 8/19/2021	Jackson	Unknown	46
 8/18/2021	Jackson	Unknown	28
@@ -21807,12 +21889,12 @@
 4/18/2021	Jackson	Unknown	4
 4/17/2021	Jackson	Unknown	121
 4/16/2021	Jackson	Unknown	247
-4/15/2021	Jackson	Unknown	368
+4/15/2021	Jackson	Unknown	367
 4/14/2021	Jackson	Unknown	128
 4/13/2021	Jackson	Unknown	364
 4/12/2021	Jackson	Unknown	159
 4/11/2021	Jackson	Unknown	28
-4/10/2021	Jackson	Unknown	287
+4/10/2021	Jackson	Unknown	286
 4/9/2021	Jackson	Unknown	298
 4/8/2021	Jackson	Unknown	229
 4/7/2021	Jackson	Unknown	212
@@ -21821,8 +21903,8 @@
 4/4/2021	Jackson	Unknown	10
 4/3/2021	Jackson	Unknown	95
 4/2/2021	Jackson	Unknown	596
-4/1/2021	Jackson	Unknown	620
-3/31/2021	Jackson	Unknown	237
+4/1/2021	Jackson	Unknown	618
+3/31/2021	Jackson	Unknown	236
 3/30/2021	Jackson	Unknown	350
 3/29/2021	Jackson	Unknown	429
 3/28/2021	Jackson	Unknown	31
@@ -21830,7 +21912,7 @@
 3/26/2021	Jackson	Unknown	580
 3/25/2021	Jackson	Unknown	479
 3/24/2021	Jackson	Unknown	381
-3/23/2021	Jackson	Unknown	345
+3/23/2021	Jackson	Unknown	343
 3/22/2021	Jackson	Unknown	382
 3/21/2021	Jackson	Unknown	21
 3/20/2021	Jackson	Unknown	99
@@ -21849,7 +21931,7 @@
 3/7/2021	Jackson	Unknown	27
 3/6/2021	Jackson	Unknown	96
 3/5/2021	Jackson	Unknown	136
-3/4/2021	Jackson	Unknown	184
+3/4/2021	Jackson	Unknown	183
 3/3/2021	Jackson	Unknown	293
 3/2/2021	Jackson	Unknown	165
 3/1/2021	Jackson	Unknown	209
@@ -21909,12 +21991,13 @@
 12/28/2020	Jackson	Unknown	2
 12/23/2020	Jackson	Unknown	4
 12/21/2020	Jackson	Unknown	1
-8/21/2021	Jackson	Not Hispanic or Latino	52
+8/22/2021	Jackson	Not Hispanic or Latino	21
+8/21/2021	Jackson	Not Hispanic or Latino	239
 8/20/2021	Jackson	Not Hispanic or Latino	379
 8/19/2021	Jackson	Not Hispanic or Latino	306
 8/18/2021	Jackson	Not Hispanic or Latino	277
 8/17/2021	Jackson	Not Hispanic or Latino	272
-8/16/2021	Jackson	Not Hispanic or Latino	341
+8/16/2021	Jackson	Not Hispanic or Latino	342
 8/15/2021	Jackson	Not Hispanic or Latino	169
 8/14/2021	Jackson	Not Hispanic or Latino	217
 8/13/2021	Jackson	Not Hispanic or Latino	298
@@ -21933,7 +22016,7 @@
 7/31/2021	Jackson	Not Hispanic or Latino	155
 7/30/2021	Jackson	Not Hispanic or Latino	235
 7/29/2021	Jackson	Not Hispanic or Latino	176
-7/28/2021	Jackson	Not Hispanic or Latino	159
+7/28/2021	Jackson	Not Hispanic or Latino	160
 7/27/2021	Jackson	Not Hispanic or Latino	147
 7/26/2021	Jackson	Not Hispanic or Latino	196
 7/25/2021	Jackson	Not Hispanic or Latino	52
@@ -21983,7 +22066,7 @@
 6/11/2021	Jackson	Not Hispanic or Latino	385
 6/10/2021	Jackson	Not Hispanic or Latino	386
 6/9/2021	Jackson	Not Hispanic or Latino	497
-6/8/2021	Jackson	Not Hispanic or Latino	428
+6/8/2021	Jackson	Not Hispanic or Latino	429
 6/7/2021	Jackson	Not Hispanic or Latino	671
 6/6/2021	Jackson	Not Hispanic or Latino	259
 6/5/2021	Jackson	Not Hispanic or Latino	562
@@ -22017,7 +22100,7 @@
 5/8/2021	Jackson	Not Hispanic or Latino	279
 5/7/2021	Jackson	Not Hispanic or Latino	739
 5/6/2021	Jackson	Not Hispanic or Latino	1320
-5/5/2021	Jackson	Not Hispanic or Latino	1113
+5/5/2021	Jackson	Not Hispanic or Latino	1114
 5/4/2021	Jackson	Not Hispanic or Latino	1168
 5/3/2021	Jackson	Not Hispanic or Latino	1254
 5/2/2021	Jackson	Not Hispanic or Latino	313
@@ -22025,7 +22108,7 @@
 4/30/2021	Jackson	Not Hispanic or Latino	1096
 4/29/2021	Jackson	Not Hispanic or Latino	1026
 4/28/2021	Jackson	Not Hispanic or Latino	1088
-4/27/2021	Jackson	Not Hispanic or Latino	1166
+4/27/2021	Jackson	Not Hispanic or Latino	1167
 4/26/2021	Jackson	Not Hispanic or Latino	874
 4/25/2021	Jackson	Not Hispanic or Latino	153
 4/24/2021	Jackson	Not Hispanic or Latino	318
@@ -22037,30 +22120,30 @@
 4/18/2021	Jackson	Not Hispanic or Latino	133
 4/17/2021	Jackson	Not Hispanic or Latino	229
 4/16/2021	Jackson	Not Hispanic or Latino	1037
-4/15/2021	Jackson	Not Hispanic or Latino	945
+4/15/2021	Jackson	Not Hispanic or Latino	946
 4/14/2021	Jackson	Not Hispanic or Latino	916
 4/13/2021	Jackson	Not Hispanic or Latino	776
 4/12/2021	Jackson	Not Hispanic or Latino	741
 4/11/2021	Jackson	Not Hispanic or Latino	538
-4/10/2021	Jackson	Not Hispanic or Latino	949
+4/10/2021	Jackson	Not Hispanic or Latino	950
 4/9/2021	Jackson	Not Hispanic or Latino	1139
 4/8/2021	Jackson	Not Hispanic or Latino	1073
 4/7/2021	Jackson	Not Hispanic or Latino	1063
-4/6/2021	Jackson	Not Hispanic or Latino	1316
+4/6/2021	Jackson	Not Hispanic or Latino	1314
 4/5/2021	Jackson	Not Hispanic or Latino	1222
 4/4/2021	Jackson	Not Hispanic or Latino	110
 4/3/2021	Jackson	Not Hispanic or Latino	428
 4/2/2021	Jackson	Not Hispanic or Latino	1229
-4/1/2021	Jackson	Not Hispanic or Latino	1377
-3/31/2021	Jackson	Not Hispanic or Latino	941
+4/1/2021	Jackson	Not Hispanic or Latino	1379
+3/31/2021	Jackson	Not Hispanic or Latino	942
 3/30/2021	Jackson	Not Hispanic or Latino	913
 3/29/2021	Jackson	Not Hispanic or Latino	1220
 3/28/2021	Jackson	Not Hispanic or Latino	160
 3/27/2021	Jackson	Not Hispanic or Latino	729
 3/26/2021	Jackson	Not Hispanic or Latino	1393
 3/25/2021	Jackson	Not Hispanic or Latino	1366
-3/24/2021	Jackson	Not Hispanic or Latino	1366
-3/23/2021	Jackson	Not Hispanic or Latino	849
+3/24/2021	Jackson	Not Hispanic or Latino	1367
+3/23/2021	Jackson	Not Hispanic or Latino	851
 3/22/2021	Jackson	Not Hispanic or Latino	749
 3/21/2021	Jackson	Not Hispanic or Latino	540
 3/20/2021	Jackson	Not Hispanic or Latino	1542
@@ -22079,7 +22162,7 @@
 3/7/2021	Jackson	Not Hispanic or Latino	71
 3/6/2021	Jackson	Not Hispanic or Latino	133
 3/5/2021	Jackson	Not Hispanic or Latino	235
-3/4/2021	Jackson	Not Hispanic or Latino	233
+3/4/2021	Jackson	Not Hispanic or Latino	234
 3/3/2021	Jackson	Not Hispanic or Latino	331
 3/2/2021	Jackson	Not Hispanic or Latino	342
 3/1/2021	Jackson	Not Hispanic or Latino	169
@@ -22089,7 +22172,7 @@
 2/25/2021	Jackson	Not Hispanic or Latino	286
 2/24/2021	Jackson	Not Hispanic or Latino	305
 2/23/2021	Jackson	Not Hispanic or Latino	294
-2/22/2021	Jackson	Not Hispanic or Latino	369
+2/22/2021	Jackson	Not Hispanic or Latino	370
 2/21/2021	Jackson	Not Hispanic or Latino	146
 2/20/2021	Jackson	Not Hispanic or Latino	338
 2/19/2021	Jackson	Not Hispanic or Latino	636
@@ -22150,7 +22233,8 @@
 12/17/2020	Jackson	Not Hispanic or Latino	1
 12/16/2020	Jackson	Not Hispanic or Latino	1
 12/15/2020	Jackson	Not Hispanic or Latino	1
-8/21/2021	Jackson	Hispanic or Latino	7
+8/22/2021	Jackson	Hispanic or Latino	5
+8/21/2021	Jackson	Hispanic or Latino	23
 8/20/2021	Jackson	Hispanic or Latino	43
 8/19/2021	Jackson	Hispanic or Latino	27
 8/18/2021	Jackson	Hispanic or Latino	17
@@ -22373,7 +22457,7 @@
 12/31/2020	Jackson	Hispanic or Latino	1
 12/28/2020	Jackson	Hispanic or Latino	1
 12/21/2020	Jackson	Hispanic or Latino	2
-8/21/2021	Jasper	Unknown	4
+8/21/2021	Jasper	Unknown	9
 8/20/2021	Jasper	Unknown	21
 8/19/2021	Jasper	Unknown	10
 8/18/2021	Jasper	Unknown	10
@@ -22535,7 +22619,7 @@
 2/22/2021	Jasper	Unknown	156
 2/19/2021	Jasper	Unknown	14
 2/18/2021	Jasper	Unknown	32
-2/17/2021	Jasper	Unknown	62
+2/17/2021	Jasper	Unknown	61
 2/16/2021	Jasper	Unknown	11
 2/15/2021	Jasper	Unknown	20
 2/13/2021	Jasper	Unknown	1
@@ -22561,9 +22645,10 @@
 1/13/2021	Jasper	Unknown	1
 1/11/2021	Jasper	Unknown	2
 1/8/2021	Jasper	Unknown	1
-8/21/2021	Jasper	Not Hispanic or Latino	24
-8/20/2021	Jasper	Not Hispanic or Latino	104
-8/19/2021	Jasper	Not Hispanic or Latino	116
+8/22/2021	Jasper	Not Hispanic or Latino	11
+8/21/2021	Jasper	Not Hispanic or Latino	51
+8/20/2021	Jasper	Not Hispanic or Latino	106
+8/19/2021	Jasper	Not Hispanic or Latino	120
 8/18/2021	Jasper	Not Hispanic or Latino	122
 8/17/2021	Jasper	Not Hispanic or Latino	125
 8/16/2021	Jasper	Not Hispanic or Latino	67
@@ -22742,7 +22827,7 @@
 2/20/2021	Jasper	Not Hispanic or Latino	59
 2/19/2021	Jasper	Not Hispanic or Latino	59
 2/18/2021	Jasper	Not Hispanic or Latino	40
-2/17/2021	Jasper	Not Hispanic or Latino	99
+2/17/2021	Jasper	Not Hispanic or Latino	100
 2/16/2021	Jasper	Not Hispanic or Latino	35
 2/15/2021	Jasper	Not Hispanic or Latino	41
 2/13/2021	Jasper	Not Hispanic or Latino	19
@@ -22786,7 +22871,8 @@
 12/17/2020	Jasper	Not Hispanic or Latino	13
 12/16/2020	Jasper	Not Hispanic or Latino	4
 12/15/2020	Jasper	Not Hispanic or Latino	1
-8/21/2021	Jasper	Hispanic or Latino	5
+8/22/2021	Jasper	Hispanic or Latino	1
+8/21/2021	Jasper	Hispanic or Latino	8
 8/20/2021	Jasper	Hispanic or Latino	12
 8/19/2021	Jasper	Hispanic or Latino	8
 8/18/2021	Jasper	Hispanic or Latino	8
@@ -22981,7 +23067,8 @@
 1/12/2021	Jasper	Hispanic or Latino	2
 1/11/2021	Jasper	Hispanic or Latino	1
 1/9/2021	Jasper	Hispanic or Latino	1
-8/21/2021	Jefferson	Unknown	9
+8/22/2021	Jefferson	Unknown	2
+8/21/2021	Jefferson	Unknown	16
 8/20/2021	Jefferson	Unknown	16
 8/19/2021	Jefferson	Unknown	18
 8/18/2021	Jefferson	Unknown	14
@@ -23048,7 +23135,7 @@
 6/17/2021	Jefferson	Unknown	41
 6/16/2021	Jefferson	Unknown	14
 6/15/2021	Jefferson	Unknown	26
-6/14/2021	Jefferson	Unknown	22
+6/14/2021	Jefferson	Unknown	21
 6/13/2021	Jefferson	Unknown	10
 6/12/2021	Jefferson	Unknown	13
 6/11/2021	Jefferson	Unknown	24
@@ -23095,7 +23182,7 @@
 5/1/2021	Jefferson	Unknown	10
 4/30/2021	Jefferson	Unknown	42
 4/29/2021	Jefferson	Unknown	378
-4/28/2021	Jefferson	Unknown	209
+4/28/2021	Jefferson	Unknown	208
 4/27/2021	Jefferson	Unknown	67
 4/26/2021	Jefferson	Unknown	73
 4/25/2021	Jefferson	Unknown	5
@@ -23145,7 +23232,7 @@
 3/12/2021	Jefferson	Unknown	31
 3/11/2021	Jefferson	Unknown	70
 3/10/2021	Jefferson	Unknown	94
-3/9/2021	Jefferson	Unknown	44
+3/9/2021	Jefferson	Unknown	45
 3/8/2021	Jefferson	Unknown	626
 3/7/2021	Jefferson	Unknown	7
 3/6/2021	Jefferson	Unknown	11
@@ -23210,8 +23297,9 @@
 1/5/2021	Jefferson	Unknown	8
 1/4/2021	Jefferson	Unknown	17
 12/18/2020	Jefferson	Unknown	1
-8/21/2021	Jefferson	Not Hispanic or Latino	39
-8/20/2021	Jefferson	Not Hispanic or Latino	241
+8/22/2021	Jefferson	Not Hispanic or Latino	15
+8/21/2021	Jefferson	Not Hispanic or Latino	148
+8/20/2021	Jefferson	Not Hispanic or Latino	242
 8/19/2021	Jefferson	Not Hispanic or Latino	232
 8/18/2021	Jefferson	Not Hispanic or Latino	320
 8/17/2021	Jefferson	Not Hispanic or Latino	213
@@ -23219,7 +23307,7 @@
 8/15/2021	Jefferson	Not Hispanic or Latino	107
 8/14/2021	Jefferson	Not Hispanic or Latino	169
 8/13/2021	Jefferson	Not Hispanic or Latino	274
-8/12/2021	Jefferson	Not Hispanic or Latino	196
+8/12/2021	Jefferson	Not Hispanic or Latino	197
 8/11/2021	Jefferson	Not Hispanic or Latino	257
 8/10/2021	Jefferson	Not Hispanic or Latino	196
 8/9/2021	Jefferson	Not Hispanic or Latino	225
@@ -23325,7 +23413,7 @@
 5/1/2021	Jefferson	Not Hispanic or Latino	245
 4/30/2021	Jefferson	Not Hispanic or Latino	431
 4/29/2021	Jefferson	Not Hispanic or Latino	1168
-4/28/2021	Jefferson	Not Hispanic or Latino	681
+4/28/2021	Jefferson	Not Hispanic or Latino	682
 4/27/2021	Jefferson	Not Hispanic or Latino	946
 4/26/2021	Jefferson	Not Hispanic or Latino	406
 4/25/2021	Jefferson	Not Hispanic or Latino	72
@@ -23345,7 +23433,7 @@
 4/11/2021	Jefferson	Not Hispanic or Latino	102
 4/10/2021	Jefferson	Not Hispanic or Latino	299
 4/9/2021	Jefferson	Not Hispanic or Latino	610
-4/8/2021	Jefferson	Not Hispanic or Latino	1070
+4/8/2021	Jefferson	Not Hispanic or Latino	1069
 4/7/2021	Jefferson	Not Hispanic or Latino	685
 4/6/2021	Jefferson	Not Hispanic or Latino	1006
 4/5/2021	Jefferson	Not Hispanic or Latino	386
@@ -23386,7 +23474,7 @@
 3/1/2021	Jefferson	Not Hispanic or Latino	109
 2/28/2021	Jefferson	Not Hispanic or Latino	27
 2/27/2021	Jefferson	Not Hispanic or Latino	104
-2/26/2021	Jefferson	Not Hispanic or Latino	338
+2/26/2021	Jefferson	Not Hispanic or Latino	339
 2/25/2021	Jefferson	Not Hispanic or Latino	362
 2/24/2021	Jefferson	Not Hispanic or Latino	199
 2/23/2021	Jefferson	Not Hispanic or Latino	224
@@ -23441,7 +23529,8 @@
 12/21/2020	Jefferson	Not Hispanic or Latino	1
 12/19/2020	Jefferson	Not Hispanic or Latino	1
 12/16/2020	Jefferson	Not Hispanic or Latino	1
-8/21/2021	Jefferson	Hispanic or Latino	3
+8/22/2021	Jefferson	Hispanic or Latino	1
+8/21/2021	Jefferson	Hispanic or Latino	4
 8/20/2021	Jefferson	Hispanic or Latino	4
 8/19/2021	Jefferson	Hispanic or Latino	3
 8/18/2021	Jefferson	Hispanic or Latino	6
@@ -23613,7 +23702,7 @@
 3/2/2021	Jefferson	Hispanic or Latino	2
 3/1/2021	Jefferson	Hispanic or Latino	6
 2/27/2021	Jefferson	Hispanic or Latino	14
-2/26/2021	Jefferson	Hispanic or Latino	38
+2/26/2021	Jefferson	Hispanic or Latino	37
 2/25/2021	Jefferson	Hispanic or Latino	5
 2/24/2021	Jefferson	Hispanic or Latino	6
 2/23/2021	Jefferson	Hispanic or Latino	9
@@ -23655,7 +23744,8 @@
 1/6/2021	Jefferson	Hispanic or Latino	1
 1/5/2021	Jefferson	Hispanic or Latino	1
 1/4/2021	Jefferson	Hispanic or Latino	1
-8/21/2021	Johnson	Unknown	3
+8/22/2021	Johnson	Unknown	3
+8/21/2021	Johnson	Unknown	7
 8/20/2021	Johnson	Unknown	9
 8/19/2021	Johnson	Unknown	11
 8/18/2021	Johnson	Unknown	15
@@ -23772,7 +23862,7 @@
 4/13/2021	Johnson	Unknown	6
 4/12/2021	Johnson	Unknown	36
 4/10/2021	Johnson	Unknown	32
-4/9/2021	Johnson	Unknown	49
+4/9/2021	Johnson	Unknown	50
 4/8/2021	Johnson	Unknown	51
 4/7/2021	Johnson	Unknown	23
 4/6/2021	Johnson	Unknown	28
@@ -23835,7 +23925,6 @@
 2/3/2021	Johnson	Unknown	7
 2/2/2021	Johnson	Unknown	33
 2/1/2021	Johnson	Unknown	1
-1/29/2021	Johnson	Unknown	1
 1/28/2021	Johnson	Unknown	8
 1/27/2021	Johnson	Unknown	22
 1/26/2021	Johnson	Unknown	21
@@ -23853,9 +23942,10 @@
 1/10/2021	Johnson	Unknown	1
 1/8/2021	Johnson	Unknown	16
 1/6/2021	Johnson	Unknown	7
-8/21/2021	Johnson	Not Hispanic or Latino	6
-8/20/2021	Johnson	Not Hispanic or Latino	59
-8/19/2021	Johnson	Not Hispanic or Latino	40
+8/22/2021	Johnson	Not Hispanic or Latino	9
+8/21/2021	Johnson	Not Hispanic or Latino	23
+8/20/2021	Johnson	Not Hispanic or Latino	60
+8/19/2021	Johnson	Not Hispanic or Latino	41
 8/18/2021	Johnson	Not Hispanic or Latino	49
 8/17/2021	Johnson	Not Hispanic or Latino	43
 8/16/2021	Johnson	Not Hispanic or Latino	57
@@ -24077,7 +24167,7 @@
 1/4/2021	Johnson	Not Hispanic or Latino	1
 12/21/2020	Johnson	Not Hispanic or Latino	1
 12/18/2020	Johnson	Not Hispanic or Latino	2
-8/21/2021	Johnson	Hispanic or Latino	1
+8/21/2021	Johnson	Hispanic or Latino	2
 8/19/2021	Johnson	Hispanic or Latino	1
 8/18/2021	Johnson	Hispanic or Latino	3
 8/17/2021	Johnson	Hispanic or Latino	1
@@ -24161,7 +24251,7 @@
 4/23/2021	Johnson	Hispanic or Latino	4
 4/22/2021	Johnson	Hispanic or Latino	8
 4/21/2021	Johnson	Hispanic or Latino	1
-4/20/2021	Johnson	Hispanic or Latino	7
+4/20/2021	Johnson	Hispanic or Latino	8
 4/19/2021	Johnson	Hispanic or Latino	1
 4/17/2021	Johnson	Hispanic or Latino	2
 4/16/2021	Johnson	Hispanic or Latino	1
@@ -24211,7 +24301,7 @@
 2/4/2021	Johnson	Hispanic or Latino	1
 2/3/2021	Johnson	Hispanic or Latino	1
 2/2/2021	Johnson	Hispanic or Latino	2
-1/29/2021	Johnson	Hispanic or Latino	1
+1/29/2021	Johnson	Hispanic or Latino	2
 1/28/2021	Johnson	Hispanic or Latino	1
 1/27/2021	Johnson	Hispanic or Latino	1
 1/26/2021	Johnson	Hispanic or Latino	1
@@ -24220,7 +24310,8 @@
 1/12/2021	Johnson	Hispanic or Latino	1
 1/8/2021	Johnson	Hispanic or Latino	1
 1/6/2021	Johnson	Hispanic or Latino	1
-8/21/2021	Joplin	Unknown	8
+8/22/2021	Joplin	Unknown	1
+8/21/2021	Joplin	Unknown	12
 8/20/2021	Joplin	Unknown	14
 8/19/2021	Joplin	Unknown	8
 8/18/2021	Joplin	Unknown	10
@@ -24429,9 +24520,10 @@
 1/8/2021	Joplin	Unknown	6
 1/7/2021	Joplin	Unknown	4
 12/17/2020	Joplin	Unknown	1
-8/21/2021	Joplin	Not Hispanic or Latino	17
+8/22/2021	Joplin	Not Hispanic or Latino	16
+8/21/2021	Joplin	Not Hispanic or Latino	48
 8/20/2021	Joplin	Not Hispanic or Latino	91
-8/19/2021	Joplin	Not Hispanic or Latino	97
+8/19/2021	Joplin	Not Hispanic or Latino	99
 8/18/2021	Joplin	Not Hispanic or Latino	113
 8/17/2021	Joplin	Not Hispanic or Latino	101
 8/16/2021	Joplin	Not Hispanic or Latino	81
@@ -24659,7 +24751,8 @@
 12/17/2020	Joplin	Not Hispanic or Latino	39
 12/16/2020	Joplin	Not Hispanic or Latino	22
 12/15/2020	Joplin	Not Hispanic or Latino	4
-8/21/2021	Joplin	Hispanic or Latino	5
+8/22/2021	Joplin	Hispanic or Latino	1
+8/21/2021	Joplin	Hispanic or Latino	8
 8/20/2021	Joplin	Hispanic or Latino	6
 8/19/2021	Joplin	Hispanic or Latino	8
 8/18/2021	Joplin	Hispanic or Latino	7
@@ -24854,7 +24947,8 @@
 1/7/2021	Joplin	Hispanic or Latino	1
 12/18/2020	Joplin	Hispanic or Latino	1
 12/17/2020	Joplin	Hispanic or Latino	2
-8/21/2021	Kansas City	Unknown	12
+8/22/2021	Kansas City	Unknown	7
+8/21/2021	Kansas City	Unknown	46
 8/20/2021	Kansas City	Unknown	65
 8/19/2021	Kansas City	Unknown	64
 8/18/2021	Kansas City	Unknown	67
@@ -24866,7 +24960,7 @@
 8/12/2021	Kansas City	Unknown	42
 8/11/2021	Kansas City	Unknown	49
 8/10/2021	Kansas City	Unknown	46
-8/9/2021	Kansas City	Unknown	42
+8/9/2021	Kansas City	Unknown	43
 8/8/2021	Kansas City	Unknown	21
 8/7/2021	Kansas City	Unknown	44
 8/6/2021	Kansas City	Unknown	53
@@ -24970,13 +25064,13 @@
 4/29/2021	Kansas City	Unknown	241
 4/28/2021	Kansas City	Unknown	257
 4/27/2021	Kansas City	Unknown	272
-4/26/2021	Kansas City	Unknown	121
+4/26/2021	Kansas City	Unknown	122
 4/25/2021	Kansas City	Unknown	19
 4/24/2021	Kansas City	Unknown	38
 4/23/2021	Kansas City	Unknown	322
 4/22/2021	Kansas City	Unknown	320
 4/21/2021	Kansas City	Unknown	134
-4/20/2021	Kansas City	Unknown	230
+4/20/2021	Kansas City	Unknown	229
 4/19/2021	Kansas City	Unknown	66
 4/18/2021	Kansas City	Unknown	20
 4/17/2021	Kansas City	Unknown	69
@@ -24987,7 +25081,7 @@
 4/12/2021	Kansas City	Unknown	413
 4/11/2021	Kansas City	Unknown	27
 4/10/2021	Kansas City	Unknown	282
-4/9/2021	Kansas City	Unknown	498
+4/9/2021	Kansas City	Unknown	497
 4/8/2021	Kansas City	Unknown	521
 4/7/2021	Kansas City	Unknown	435
 4/6/2021	Kansas City	Unknown	556
@@ -24998,14 +25092,14 @@
 4/1/2021	Kansas City	Unknown	719
 3/31/2021	Kansas City	Unknown	303
 3/30/2021	Kansas City	Unknown	463
-3/29/2021	Kansas City	Unknown	600
+3/29/2021	Kansas City	Unknown	599
 3/28/2021	Kansas City	Unknown	47
 3/27/2021	Kansas City	Unknown	144
 3/26/2021	Kansas City	Unknown	652
 3/25/2021	Kansas City	Unknown	597
 3/24/2021	Kansas City	Unknown	318
 3/23/2021	Kansas City	Unknown	506
-3/22/2021	Kansas City	Unknown	563
+3/22/2021	Kansas City	Unknown	562
 3/21/2021	Kansas City	Unknown	43
 3/20/2021	Kansas City	Unknown	73
 3/19/2021	Kansas City	Unknown	414
@@ -25032,21 +25126,21 @@
 2/26/2021	Kansas City	Unknown	347
 2/25/2021	Kansas City	Unknown	75
 2/24/2021	Kansas City	Unknown	82
-2/23/2021	Kansas City	Unknown	88
+2/23/2021	Kansas City	Unknown	87
 2/22/2021	Kansas City	Unknown	203
 2/21/2021	Kansas City	Unknown	1
 2/20/2021	Kansas City	Unknown	19
-2/19/2021	Kansas City	Unknown	369
+2/19/2021	Kansas City	Unknown	368
 2/18/2021	Kansas City	Unknown	399
 2/17/2021	Kansas City	Unknown	309
-2/16/2021	Kansas City	Unknown	316
+2/16/2021	Kansas City	Unknown	315
 2/15/2021	Kansas City	Unknown	310
 2/13/2021	Kansas City	Unknown	18
 2/12/2021	Kansas City	Unknown	440
-2/11/2021	Kansas City	Unknown	459
+2/11/2021	Kansas City	Unknown	458
 2/10/2021	Kansas City	Unknown	256
 2/9/2021	Kansas City	Unknown	111
-2/8/2021	Kansas City	Unknown	106
+2/8/2021	Kansas City	Unknown	105
 2/7/2021	Kansas City	Unknown	3
 2/6/2021	Kansas City	Unknown	49
 2/5/2021	Kansas City	Unknown	247
@@ -25085,8 +25179,9 @@
 12/23/2020	Kansas City	Unknown	2
 12/22/2020	Kansas City	Unknown	1
 12/21/2020	Kansas City	Unknown	1
-8/21/2021	Kansas City	Not Hispanic or Latino	93
-8/20/2021	Kansas City	Not Hispanic or Latino	641
+8/22/2021	Kansas City	Not Hispanic or Latino	49
+8/21/2021	Kansas City	Not Hispanic or Latino	391
+8/20/2021	Kansas City	Not Hispanic or Latino	642
 8/19/2021	Kansas City	Not Hispanic or Latino	567
 8/18/2021	Kansas City	Not Hispanic or Latino	551
 8/17/2021	Kansas City	Not Hispanic or Latino	504
@@ -25097,7 +25192,7 @@
 8/12/2021	Kansas City	Not Hispanic or Latino	398
 8/11/2021	Kansas City	Not Hispanic or Latino	411
 8/10/2021	Kansas City	Not Hispanic or Latino	420
-8/9/2021	Kansas City	Not Hispanic or Latino	447
+8/9/2021	Kansas City	Not Hispanic or Latino	448
 8/8/2021	Kansas City	Not Hispanic or Latino	162
 8/7/2021	Kansas City	Not Hispanic or Latino	286
 8/6/2021	Kansas City	Not Hispanic or Latino	435
@@ -25126,7 +25221,7 @@
 7/14/2021	Kansas City	Not Hispanic or Latino	273
 7/13/2021	Kansas City	Not Hispanic or Latino	275
 7/12/2021	Kansas City	Not Hispanic or Latino	327
-7/11/2021	Kansas City	Not Hispanic or Latino	98
+7/11/2021	Kansas City	Not Hispanic or Latino	99
 7/10/2021	Kansas City	Not Hispanic or Latino	177
 7/9/2021	Kansas City	Not Hispanic or Latino	341
 7/8/2021	Kansas City	Not Hispanic or Latino	272
@@ -25159,7 +25254,7 @@
 6/11/2021	Kansas City	Not Hispanic or Latino	782
 6/10/2021	Kansas City	Not Hispanic or Latino	665
 6/9/2021	Kansas City	Not Hispanic or Latino	804
-6/8/2021	Kansas City	Not Hispanic or Latino	760
+6/8/2021	Kansas City	Not Hispanic or Latino	759
 6/7/2021	Kansas City	Not Hispanic or Latino	1027
 6/6/2021	Kansas City	Not Hispanic or Latino	372
 6/5/2021	Kansas City	Not Hispanic or Latino	557
@@ -25194,21 +25289,21 @@
 5/7/2021	Kansas City	Not Hispanic or Latino	1253
 5/6/2021	Kansas City	Not Hispanic or Latino	2946
 5/5/2021	Kansas City	Not Hispanic or Latino	1212
-5/4/2021	Kansas City	Not Hispanic or Latino	1981
+5/4/2021	Kansas City	Not Hispanic or Latino	1980
 5/3/2021	Kansas City	Not Hispanic or Latino	1299
 5/2/2021	Kansas City	Not Hispanic or Latino	438
 5/1/2021	Kansas City	Not Hispanic or Latino	1208
-4/30/2021	Kansas City	Not Hispanic or Latino	1792
+4/30/2021	Kansas City	Not Hispanic or Latino	1793
 4/29/2021	Kansas City	Not Hispanic or Latino	1835
 4/28/2021	Kansas City	Not Hispanic or Latino	1687
-4/27/2021	Kansas City	Not Hispanic or Latino	2242
+4/27/2021	Kansas City	Not Hispanic or Latino	2243
 4/26/2021	Kansas City	Not Hispanic or Latino	1167
 4/25/2021	Kansas City	Not Hispanic or Latino	286
 4/24/2021	Kansas City	Not Hispanic or Latino	676
 4/23/2021	Kansas City	Not Hispanic or Latino	2362
 4/22/2021	Kansas City	Not Hispanic or Latino	2406
 4/21/2021	Kansas City	Not Hispanic or Latino	1670
-4/20/2021	Kansas City	Not Hispanic or Latino	1752
+4/20/2021	Kansas City	Not Hispanic or Latino	1753
 4/19/2021	Kansas City	Not Hispanic or Latino	1322
 4/18/2021	Kansas City	Not Hispanic or Latino	320
 4/17/2021	Kansas City	Not Hispanic or Latino	388
@@ -25219,8 +25314,8 @@
 4/12/2021	Kansas City	Not Hispanic or Latino	1374
 4/11/2021	Kansas City	Not Hispanic or Latino	518
 4/10/2021	Kansas City	Not Hispanic or Latino	1507
-4/9/2021	Kansas City	Not Hispanic or Latino	3045
-4/8/2021	Kansas City	Not Hispanic or Latino	2654
+4/9/2021	Kansas City	Not Hispanic or Latino	3046
+4/8/2021	Kansas City	Not Hispanic or Latino	2655
 4/7/2021	Kansas City	Not Hispanic or Latino	1662
 4/6/2021	Kansas City	Not Hispanic or Latino	1836
 4/5/2021	Kansas City	Not Hispanic or Latino	1785
@@ -25230,14 +25325,14 @@
 4/1/2021	Kansas City	Not Hispanic or Latino	2254
 3/31/2021	Kansas City	Not Hispanic or Latino	1346
 3/30/2021	Kansas City	Not Hispanic or Latino	2598
-3/29/2021	Kansas City	Not Hispanic or Latino	2908
+3/29/2021	Kansas City	Not Hispanic or Latino	2909
 3/28/2021	Kansas City	Not Hispanic or Latino	327
-3/27/2021	Kansas City	Not Hispanic or Latino	1140
+3/27/2021	Kansas City	Not Hispanic or Latino	1141
 3/26/2021	Kansas City	Not Hispanic or Latino	3068
-3/25/2021	Kansas City	Not Hispanic or Latino	3392
+3/25/2021	Kansas City	Not Hispanic or Latino	3391
 3/24/2021	Kansas City	Not Hispanic or Latino	2003
 3/23/2021	Kansas City	Not Hispanic or Latino	1388
-3/22/2021	Kansas City	Not Hispanic or Latino	1192
+3/22/2021	Kansas City	Not Hispanic or Latino	1193
 3/21/2021	Kansas City	Not Hispanic or Latino	656
 3/20/2021	Kansas City	Not Hispanic or Latino	1794
 3/19/2021	Kansas City	Not Hispanic or Latino	2149
@@ -25250,12 +25345,12 @@
 3/12/2021	Kansas City	Not Hispanic or Latino	563
 3/11/2021	Kansas City	Not Hispanic or Latino	670
 3/10/2021	Kansas City	Not Hispanic or Latino	785
-3/9/2021	Kansas City	Not Hispanic or Latino	1149
-3/8/2021	Kansas City	Not Hispanic or Latino	1596
+3/9/2021	Kansas City	Not Hispanic or Latino	1150
+3/8/2021	Kansas City	Not Hispanic or Latino	1597
 3/7/2021	Kansas City	Not Hispanic or Latino	237
 3/6/2021	Kansas City	Not Hispanic or Latino	398
 3/5/2021	Kansas City	Not Hispanic or Latino	511
-3/4/2021	Kansas City	Not Hispanic or Latino	501
+3/4/2021	Kansas City	Not Hispanic or Latino	500
 3/3/2021	Kansas City	Not Hispanic or Latino	693
 3/2/2021	Kansas City	Not Hispanic or Latino	742
 3/1/2021	Kansas City	Not Hispanic or Latino	355
@@ -25264,22 +25359,22 @@
 2/26/2021	Kansas City	Not Hispanic or Latino	883
 2/25/2021	Kansas City	Not Hispanic or Latino	382
 2/24/2021	Kansas City	Not Hispanic or Latino	271
-2/23/2021	Kansas City	Not Hispanic or Latino	265
-2/22/2021	Kansas City	Not Hispanic or Latino	522
+2/23/2021	Kansas City	Not Hispanic or Latino	266
+2/22/2021	Kansas City	Not Hispanic or Latino	521
 2/21/2021	Kansas City	Not Hispanic or Latino	192
 2/20/2021	Kansas City	Not Hispanic or Latino	532
-2/19/2021	Kansas City	Not Hispanic or Latino	1166
+2/19/2021	Kansas City	Not Hispanic or Latino	1167
 2/18/2021	Kansas City	Not Hispanic or Latino	1097
 2/17/2021	Kansas City	Not Hispanic or Latino	868
 2/16/2021	Kansas City	Not Hispanic or Latino	869
-2/15/2021	Kansas City	Not Hispanic or Latino	794
+2/15/2021	Kansas City	Not Hispanic or Latino	795
 2/14/2021	Kansas City	Not Hispanic or Latino	12
 2/13/2021	Kansas City	Not Hispanic or Latino	38
 2/12/2021	Kansas City	Not Hispanic or Latino	1049
-2/11/2021	Kansas City	Not Hispanic or Latino	1043
+2/11/2021	Kansas City	Not Hispanic or Latino	1044
 2/10/2021	Kansas City	Not Hispanic or Latino	660
 2/9/2021	Kansas City	Not Hispanic or Latino	572
-2/8/2021	Kansas City	Not Hispanic or Latino	603
+2/8/2021	Kansas City	Not Hispanic or Latino	604
 2/7/2021	Kansas City	Not Hispanic or Latino	187
 2/6/2021	Kansas City	Not Hispanic or Latino	406
 2/5/2021	Kansas City	Not Hispanic or Latino	942
@@ -25296,13 +25391,13 @@
 1/25/2021	Kansas City	Not Hispanic or Latino	223
 1/24/2021	Kansas City	Not Hispanic or Latino	7
 1/23/2021	Kansas City	Not Hispanic or Latino	86
-1/22/2021	Kansas City	Not Hispanic or Latino	245
+1/22/2021	Kansas City	Not Hispanic or Latino	246
 1/21/2021	Kansas City	Not Hispanic or Latino	455
 1/20/2021	Kansas City	Not Hispanic or Latino	648
 1/19/2021	Kansas City	Not Hispanic or Latino	493
 1/18/2021	Kansas City	Not Hispanic or Latino	175
 1/17/2021	Kansas City	Not Hispanic or Latino	2
-1/16/2021	Kansas City	Not Hispanic or Latino	13
+1/16/2021	Kansas City	Not Hispanic or Latino	14
 1/15/2021	Kansas City	Not Hispanic or Latino	122
 1/14/2021	Kansas City	Not Hispanic or Latino	63
 1/13/2021	Kansas City	Not Hispanic or Latino	254
@@ -25331,7 +25426,8 @@
 12/17/2020	Kansas City	Not Hispanic or Latino	8
 12/16/2020	Kansas City	Not Hispanic or Latino	3
 12/15/2020	Kansas City	Not Hispanic or Latino	2
-8/21/2021	Kansas City	Hispanic or Latino	21
+8/22/2021	Kansas City	Hispanic or Latino	15
+8/21/2021	Kansas City	Hispanic or Latino	62
 8/20/2021	Kansas City	Hispanic or Latino	101
 8/19/2021	Kansas City	Hispanic or Latino	83
 8/18/2021	Kansas City	Hispanic or Latino	111
@@ -25371,7 +25467,7 @@
 7/15/2021	Kansas City	Hispanic or Latino	59
 7/14/2021	Kansas City	Hispanic or Latino	61
 7/13/2021	Kansas City	Hispanic or Latino	63
-7/12/2021	Kansas City	Hispanic or Latino	75
+7/12/2021	Kansas City	Hispanic or Latino	76
 7/11/2021	Kansas City	Hispanic or Latino	37
 7/10/2021	Kansas City	Hispanic or Latino	52
 7/9/2021	Kansas City	Hispanic or Latino	79
@@ -25381,7 +25477,7 @@
 7/5/2021	Kansas City	Hispanic or Latino	37
 7/4/2021	Kansas City	Hispanic or Latino	5
 7/3/2021	Kansas City	Hispanic or Latino	44
-7/2/2021	Kansas City	Hispanic or Latino	71
+7/2/2021	Kansas City	Hispanic or Latino	72
 7/1/2021	Kansas City	Hispanic or Latino	74
 6/30/2021	Kansas City	Hispanic or Latino	71
 6/29/2021	Kansas City	Hispanic or Latino	72
@@ -25478,7 +25574,7 @@
 3/30/2021	Kansas City	Hispanic or Latino	171
 3/29/2021	Kansas City	Hispanic or Latino	152
 3/28/2021	Kansas City	Hispanic or Latino	17
-3/27/2021	Kansas City	Hispanic or Latino	69
+3/27/2021	Kansas City	Hispanic or Latino	70
 3/26/2021	Kansas City	Hispanic or Latino	206
 3/25/2021	Kansas City	Hispanic or Latino	165
 3/24/2021	Kansas City	Hispanic or Latino	125
@@ -25501,7 +25597,7 @@
 3/7/2021	Kansas City	Hispanic or Latino	23
 3/6/2021	Kansas City	Hispanic or Latino	17
 3/5/2021	Kansas City	Hispanic or Latino	46
-3/4/2021	Kansas City	Hispanic or Latino	36
+3/4/2021	Kansas City	Hispanic or Latino	37
 3/3/2021	Kansas City	Hispanic or Latino	61
 3/2/2021	Kansas City	Hispanic or Latino	52
 3/1/2021	Kansas City	Hispanic or Latino	24
@@ -25776,7 +25872,8 @@
 2/11/2021	Knox	Hispanic or Latino	1
 2/5/2021	Knox	Hispanic or Latino	1
 1/13/2021	Knox	Hispanic or Latino	1
-8/21/2021	Laclede	Unknown	9
+8/22/2021	Laclede	Unknown	1
+8/21/2021	Laclede	Unknown	10
 8/20/2021	Laclede	Unknown	10
 8/19/2021	Laclede	Unknown	9
 8/18/2021	Laclede	Unknown	13
@@ -25951,7 +26048,8 @@
 1/11/2021	Laclede	Unknown	2
 1/8/2021	Laclede	Unknown	1
 1/6/2021	Laclede	Unknown	2
-8/21/2021	Laclede	Not Hispanic or Latino	15
+8/22/2021	Laclede	Not Hispanic or Latino	5
+8/21/2021	Laclede	Not Hispanic or Latino	37
 8/20/2021	Laclede	Not Hispanic or Latino	46
 8/19/2021	Laclede	Not Hispanic or Latino	44
 8/18/2021	Laclede	Not Hispanic or Latino	72
@@ -26101,7 +26199,7 @@
 3/25/2021	Laclede	Not Hispanic or Latino	184
 3/24/2021	Laclede	Not Hispanic or Latino	95
 3/23/2021	Laclede	Not Hispanic or Latino	442
-3/22/2021	Laclede	Not Hispanic or Latino	458
+3/22/2021	Laclede	Not Hispanic or Latino	459
 3/21/2021	Laclede	Not Hispanic or Latino	6
 3/20/2021	Laclede	Not Hispanic or Latino	7
 3/19/2021	Laclede	Not Hispanic or Latino	39
@@ -26300,7 +26398,7 @@
 1/14/2021	Laclede	Hispanic or Latino	1
 1/6/2021	Laclede	Hispanic or Latino	4
 1/5/2021	Laclede	Hispanic or Latino	1
-8/21/2021	Lafayette	Unknown	2
+8/21/2021	Lafayette	Unknown	4
 8/20/2021	Lafayette	Unknown	9
 8/19/2021	Lafayette	Unknown	5
 8/18/2021	Lafayette	Unknown	3
@@ -26489,7 +26587,8 @@
 1/11/2021	Lafayette	Unknown	2
 1/6/2021	Lafayette	Unknown	1
 1/4/2021	Lafayette	Unknown	1
-8/21/2021	Lafayette	Not Hispanic or Latino	22
+8/22/2021	Lafayette	Not Hispanic or Latino	9
+8/21/2021	Lafayette	Not Hispanic or Latino	36
 8/20/2021	Lafayette	Not Hispanic or Latino	48
 8/19/2021	Lafayette	Not Hispanic or Latino	38
 8/18/2021	Lafayette	Not Hispanic or Latino	34
@@ -26525,7 +26624,7 @@
 7/19/2021	Lafayette	Not Hispanic or Latino	10
 7/18/2021	Lafayette	Not Hispanic or Latino	4
 7/17/2021	Lafayette	Not Hispanic or Latino	8
-7/16/2021	Lafayette	Not Hispanic or Latino	6
+7/16/2021	Lafayette	Not Hispanic or Latino	7
 7/15/2021	Lafayette	Not Hispanic or Latino	7
 7/14/2021	Lafayette	Not Hispanic or Latino	9
 7/13/2021	Lafayette	Not Hispanic or Latino	26
@@ -26714,6 +26813,7 @@
 1/4/2021	Lafayette	Not Hispanic or Latino	1
 12/29/2020	Lafayette	Not Hispanic or Latino	2
 12/21/2020	Lafayette	Not Hispanic or Latino	1
+8/22/2021	Lafayette	Hispanic or Latino	1
 8/20/2021	Lafayette	Hispanic or Latino	3
 8/19/2021	Lafayette	Hispanic or Latino	3
 8/18/2021	Lafayette	Hispanic or Latino	4
@@ -27012,7 +27112,7 @@
 2/15/2021	Lawrence	Unknown	1
 2/14/2021	Lawrence	Unknown	1
 2/13/2021	Lawrence	Unknown	1
-2/12/2021	Lawrence	Unknown	5
+2/12/2021	Lawrence	Unknown	4
 2/11/2021	Lawrence	Unknown	5
 2/10/2021	Lawrence	Unknown	1
 2/9/2021	Lawrence	Unknown	3
@@ -27027,9 +27127,10 @@
 1/21/2021	Lawrence	Unknown	1
 1/19/2021	Lawrence	Unknown	1
 12/17/2020	Lawrence	Unknown	1
-8/21/2021	Lawrence	Not Hispanic or Latino	25
-8/20/2021	Lawrence	Not Hispanic or Latino	79
-8/19/2021	Lawrence	Not Hispanic or Latino	58
+8/22/2021	Lawrence	Not Hispanic or Latino	10
+8/21/2021	Lawrence	Not Hispanic or Latino	30
+8/20/2021	Lawrence	Not Hispanic or Latino	81
+8/19/2021	Lawrence	Not Hispanic or Latino	59
 8/18/2021	Lawrence	Not Hispanic or Latino	56
 8/17/2021	Lawrence	Not Hispanic or Latino	53
 8/16/2021	Lawrence	Not Hispanic or Latino	50
@@ -27216,7 +27317,7 @@
 2/15/2021	Lawrence	Not Hispanic or Latino	9
 2/14/2021	Lawrence	Not Hispanic or Latino	9
 2/13/2021	Lawrence	Not Hispanic or Latino	17
-2/12/2021	Lawrence	Not Hispanic or Latino	127
+2/12/2021	Lawrence	Not Hispanic or Latino	128
 2/11/2021	Lawrence	Not Hispanic or Latino	24
 2/10/2021	Lawrence	Not Hispanic or Latino	52
 2/9/2021	Lawrence	Not Hispanic or Latino	9
@@ -27404,6 +27505,7 @@
 2/3/2021	Lawrence	Hispanic or Latino	5
 1/22/2021	Lawrence	Hispanic or Latino	1
 1/8/2021	Lawrence	Hispanic or Latino	1
+8/21/2021	Lewis	Unknown	1
 8/17/2021	Lewis	Unknown	1
 8/12/2021	Lewis	Unknown	1
 8/10/2021	Lewis	Unknown	1
@@ -27490,6 +27592,7 @@
 1/19/2021	Lewis	Unknown	1
 1/13/2021	Lewis	Unknown	1
 1/12/2021	Lewis	Unknown	2
+8/21/2021	Lewis	Not Hispanic or Latino	1
 8/18/2021	Lewis	Not Hispanic or Latino	1
 8/15/2021	Lewis	Not Hispanic or Latino	1
 8/14/2021	Lewis	Not Hispanic or Latino	1
@@ -27666,6 +27769,7 @@
 2/12/2021	Lewis	Hispanic or Latino	2
 2/9/2021	Lewis	Hispanic or Latino	1
 2/3/2021	Lewis	Hispanic or Latino	1
+8/21/2021	Lincoln	Unknown	1
 8/20/2021	Lincoln	Unknown	4
 8/19/2021	Lincoln	Unknown	5
 8/18/2021	Lincoln	Unknown	3
@@ -27868,7 +27972,8 @@
 1/6/2021	Lincoln	Unknown	6
 1/5/2021	Lincoln	Unknown	4
 1/4/2021	Lincoln	Unknown	3
-8/21/2021	Lincoln	Not Hispanic or Latino	12
+8/22/2021	Lincoln	Not Hispanic or Latino	5
+8/21/2021	Lincoln	Not Hispanic or Latino	35
 8/20/2021	Lincoln	Not Hispanic or Latino	64
 8/19/2021	Lincoln	Not Hispanic or Latino	68
 8/18/2021	Lincoln	Not Hispanic or Latino	46
@@ -28363,7 +28468,8 @@
 1/18/2021	Linn	Unknown	1
 1/13/2021	Linn	Unknown	1
 1/12/2021	Linn	Unknown	1
-8/21/2021	Linn	Not Hispanic or Latino	2
+8/22/2021	Linn	Not Hispanic or Latino	1
+8/21/2021	Linn	Not Hispanic or Latino	10
 8/20/2021	Linn	Not Hispanic or Latino	15
 8/19/2021	Linn	Not Hispanic or Latino	8
 8/18/2021	Linn	Not Hispanic or Latino	9
@@ -28760,6 +28866,7 @@
 1/28/2021	Livingston	Unknown	1
 1/19/2021	Livingston	Unknown	1
 1/6/2021	Livingston	Unknown	1
+8/22/2021	Livingston	Not Hispanic or Latino	2
 8/21/2021	Livingston	Not Hispanic or Latino	1
 8/20/2021	Livingston	Not Hispanic or Latino	7
 8/19/2021	Livingston	Not Hispanic or Latino	14
@@ -28927,7 +29034,7 @@
 3/1/2021	Livingston	Not Hispanic or Latino	20
 2/27/2021	Livingston	Not Hispanic or Latino	16
 2/26/2021	Livingston	Not Hispanic or Latino	25
-2/25/2021	Livingston	Not Hispanic or Latino	306
+2/25/2021	Livingston	Not Hispanic or Latino	307
 2/24/2021	Livingston	Not Hispanic or Latino	22
 2/23/2021	Livingston	Not Hispanic or Latino	176
 2/22/2021	Livingston	Not Hispanic or Latino	50
@@ -29163,7 +29270,7 @@
 1/13/2021	Macon	Unknown	4
 1/12/2021	Macon	Unknown	1
 1/11/2021	Macon	Unknown	6
-8/21/2021	Macon	Not Hispanic or Latino	5
+8/21/2021	Macon	Not Hispanic or Latino	8
 8/20/2021	Macon	Not Hispanic or Latino	19
 8/19/2021	Macon	Not Hispanic or Latino	45
 8/18/2021	Macon	Not Hispanic or Latino	12
@@ -29272,7 +29379,7 @@
 4/30/2021	Macon	Not Hispanic or Latino	16
 4/29/2021	Macon	Not Hispanic or Latino	8
 4/28/2021	Macon	Not Hispanic or Latino	20
-4/27/2021	Macon	Not Hispanic or Latino	16
+4/27/2021	Macon	Not Hispanic or Latino	15
 4/26/2021	Macon	Not Hispanic or Latino	13
 4/24/2021	Macon	Not Hispanic or Latino	7
 4/23/2021	Macon	Not Hispanic or Latino	30
@@ -29574,7 +29681,8 @@
 1/8/2021	Madison	Unknown	2
 1/5/2021	Madison	Unknown	1
 1/4/2021	Madison	Unknown	1
-8/21/2021	Madison	Not Hispanic or Latino	1
+8/22/2021	Madison	Not Hispanic or Latino	2
+8/21/2021	Madison	Not Hispanic or Latino	5
 8/20/2021	Madison	Not Hispanic or Latino	20
 8/19/2021	Madison	Not Hispanic or Latino	12
 8/18/2021	Madison	Not Hispanic or Latino	13
@@ -29948,9 +30056,10 @@
 1/11/2021	Maries	Unknown	2
 1/8/2021	Maries	Unknown	3
 1/7/2021	Maries	Unknown	2
-8/21/2021	Maries	Not Hispanic or Latino	2
-8/20/2021	Maries	Not Hispanic or Latino	9
-8/19/2021	Maries	Not Hispanic or Latino	4
+8/22/2021	Maries	Not Hispanic or Latino	2
+8/21/2021	Maries	Not Hispanic or Latino	4
+8/20/2021	Maries	Not Hispanic or Latino	22
+8/19/2021	Maries	Not Hispanic or Latino	6
 8/18/2021	Maries	Not Hispanic or Latino	11
 8/17/2021	Maries	Not Hispanic or Latino	11
 8/16/2021	Maries	Not Hispanic or Latino	5
@@ -30182,6 +30291,7 @@
 1/30/2021	Maries	Hispanic or Latino	1
 1/19/2021	Maries	Hispanic or Latino	1
 1/6/2021	Maries	Hispanic or Latino	1
+8/21/2021	Marion	Unknown	3
 8/20/2021	Marion	Unknown	2
 8/19/2021	Marion	Unknown	5
 8/17/2021	Marion	Unknown	4
@@ -30334,7 +30444,8 @@
 1/18/2021	Marion	Unknown	46
 1/13/2021	Marion	Unknown	21
 1/12/2021	Marion	Unknown	20
-8/21/2021	Marion	Not Hispanic or Latino	4
+8/22/2021	Marion	Not Hispanic or Latino	3
+8/21/2021	Marion	Not Hispanic or Latino	6
 8/20/2021	Marion	Not Hispanic or Latino	15
 8/19/2021	Marion	Not Hispanic or Latino	14
 8/18/2021	Marion	Not Hispanic or Latino	26
@@ -30516,7 +30627,7 @@
 2/15/2021	Marion	Not Hispanic or Latino	91
 2/12/2021	Marion	Not Hispanic or Latino	422
 2/11/2021	Marion	Not Hispanic or Latino	251
-2/10/2021	Marion	Not Hispanic or Latino	5
+2/10/2021	Marion	Not Hispanic or Latino	6
 2/9/2021	Marion	Not Hispanic or Latino	312
 2/8/2021	Marion	Not Hispanic or Latino	355
 2/6/2021	Marion	Not Hispanic or Latino	4
@@ -30792,7 +30903,8 @@
 1/21/2021	McDonald	Unknown	2
 1/20/2021	McDonald	Unknown	12
 1/19/2021	McDonald	Unknown	1
-8/21/2021	McDonald	Not Hispanic or Latino	4
+8/22/2021	McDonald	Not Hispanic or Latino	1
+8/21/2021	McDonald	Not Hispanic or Latino	7
 8/20/2021	McDonald	Not Hispanic or Latino	10
 8/19/2021	McDonald	Not Hispanic or Latino	7
 8/18/2021	McDonald	Not Hispanic or Latino	8
@@ -31299,6 +31411,7 @@
 3/4/2021	Mercer	Hispanic or Latino	3
 3/2/2021	Mercer	Hispanic or Latino	3
 2/26/2021	Mercer	Hispanic or Latino	1
+8/21/2021	Miller	Unknown	1
 8/20/2021	Miller	Unknown	3
 8/19/2021	Miller	Unknown	3
 8/18/2021	Miller	Unknown	4
@@ -31316,7 +31429,7 @@
 8/6/2021	Miller	Unknown	4
 8/5/2021	Miller	Unknown	5
 8/4/2021	Miller	Unknown	3
-8/3/2021	Miller	Unknown	5
+8/3/2021	Miller	Unknown	4
 8/2/2021	Miller	Unknown	6
 8/1/2021	Miller	Unknown	2
 7/31/2021	Miller	Unknown	1
@@ -31474,9 +31587,10 @@
 1/5/2021	Miller	Unknown	2
 1/4/2021	Miller	Unknown	1
 12/23/2020	Miller	Unknown	1
-8/21/2021	Miller	Not Hispanic or Latino	4
-8/20/2021	Miller	Not Hispanic or Latino	39
-8/19/2021	Miller	Not Hispanic or Latino	42
+8/22/2021	Miller	Not Hispanic or Latino	1
+8/21/2021	Miller	Not Hispanic or Latino	15
+8/20/2021	Miller	Not Hispanic or Latino	42
+8/19/2021	Miller	Not Hispanic or Latino	43
 8/18/2021	Miller	Not Hispanic or Latino	39
 8/17/2021	Miller	Not Hispanic or Latino	23
 8/16/2021	Miller	Not Hispanic or Latino	28
@@ -31539,7 +31653,7 @@
 6/18/2021	Miller	Not Hispanic or Latino	11
 6/17/2021	Miller	Not Hispanic or Latino	26
 6/16/2021	Miller	Not Hispanic or Latino	19
-6/15/2021	Miller	Not Hispanic or Latino	10
+6/15/2021	Miller	Not Hispanic or Latino	9
 6/14/2021	Miller	Not Hispanic or Latino	12
 6/13/2021	Miller	Not Hispanic or Latino	5
 6/12/2021	Miller	Not Hispanic or Latino	6
@@ -31600,7 +31714,7 @@
 4/18/2021	Miller	Not Hispanic or Latino	6
 4/17/2021	Miller	Not Hispanic or Latino	9
 4/16/2021	Miller	Not Hispanic or Latino	64
-4/15/2021	Miller	Not Hispanic or Latino	31
+4/15/2021	Miller	Not Hispanic or Latino	30
 4/14/2021	Miller	Not Hispanic or Latino	39
 4/13/2021	Miller	Not Hispanic or Latino	20
 4/12/2021	Miller	Not Hispanic or Latino	35
@@ -31635,7 +31749,7 @@
 3/14/2021	Miller	Not Hispanic or Latino	2
 3/13/2021	Miller	Not Hispanic or Latino	4
 3/12/2021	Miller	Not Hispanic or Latino	208
-3/11/2021	Miller	Not Hispanic or Latino	253
+3/11/2021	Miller	Not Hispanic or Latino	251
 3/10/2021	Miller	Not Hispanic or Latino	30
 3/9/2021	Miller	Not Hispanic or Latino	14
 3/8/2021	Miller	Not Hispanic or Latino	33
@@ -31659,12 +31773,12 @@
 2/16/2021	Miller	Not Hispanic or Latino	40
 2/15/2021	Miller	Not Hispanic or Latino	1
 2/13/2021	Miller	Not Hispanic or Latino	48
-2/12/2021	Miller	Not Hispanic or Latino	113
+2/12/2021	Miller	Not Hispanic or Latino	110
 2/11/2021	Miller	Not Hispanic or Latino	23
 2/10/2021	Miller	Not Hispanic or Latino	22
 2/9/2021	Miller	Not Hispanic or Latino	10
 2/8/2021	Miller	Not Hispanic or Latino	14
-2/6/2021	Miller	Not Hispanic or Latino	3
+2/6/2021	Miller	Not Hispanic or Latino	2
 2/5/2021	Miller	Not Hispanic or Latino	9
 2/4/2021	Miller	Not Hispanic or Latino	30
 2/3/2021	Miller	Not Hispanic or Latino	6
@@ -31881,9 +31995,10 @@
 1/13/2021	Mississippi	Unknown	4
 1/12/2021	Mississippi	Unknown	17
 1/11/2021	Mississippi	Unknown	2
-8/21/2021	Mississippi	Not Hispanic or Latino	2
-8/20/2021	Mississippi	Not Hispanic or Latino	8
-8/19/2021	Mississippi	Not Hispanic or Latino	13
+8/22/2021	Mississippi	Not Hispanic or Latino	1
+8/21/2021	Mississippi	Not Hispanic or Latino	4
+8/20/2021	Mississippi	Not Hispanic or Latino	13
+8/19/2021	Mississippi	Not Hispanic or Latino	14
 8/18/2021	Mississippi	Not Hispanic or Latino	18
 8/17/2021	Mississippi	Not Hispanic or Latino	9
 8/16/2021	Mississippi	Not Hispanic or Latino	6
@@ -32027,7 +32142,7 @@
 3/20/2021	Mississippi	Not Hispanic or Latino	2
 3/19/2021	Mississippi	Not Hispanic or Latino	8
 3/18/2021	Mississippi	Not Hispanic or Latino	4
-3/17/2021	Mississippi	Not Hispanic or Latino	62
+3/17/2021	Mississippi	Not Hispanic or Latino	61
 3/16/2021	Mississippi	Not Hispanic or Latino	88
 3/15/2021	Mississippi	Not Hispanic or Latino	8
 3/14/2021	Mississippi	Not Hispanic or Latino	6
@@ -32219,7 +32334,7 @@
 3/7/2021	Moniteau	Unknown	1
 3/6/2021	Moniteau	Unknown	1
 3/5/2021	Moniteau	Unknown	10
-3/3/2021	Moniteau	Unknown	6
+3/3/2021	Moniteau	Unknown	5
 3/1/2021	Moniteau	Unknown	3
 2/27/2021	Moniteau	Unknown	1
 2/26/2021	Moniteau	Unknown	16
@@ -32252,7 +32367,7 @@
 1/6/2021	Moniteau	Unknown	3
 1/5/2021	Moniteau	Unknown	1
 1/4/2021	Moniteau	Unknown	1
-8/21/2021	Moniteau	Not Hispanic or Latino	3
+8/21/2021	Moniteau	Not Hispanic or Latino	4
 8/20/2021	Moniteau	Not Hispanic or Latino	20
 8/19/2021	Moniteau	Not Hispanic or Latino	47
 8/18/2021	Moniteau	Not Hispanic or Latino	23
@@ -32548,6 +32663,7 @@
 2/13/2021	Moniteau	Hispanic or Latino	3
 1/20/2021	Moniteau	Hispanic or Latino	1
 1/16/2021	Moniteau	Hispanic or Latino	1
+8/21/2021	Monroe	Unknown	1
 8/19/2021	Monroe	Unknown	1
 8/16/2021	Monroe	Unknown	2
 8/13/2021	Monroe	Unknown	1
@@ -32643,7 +32759,8 @@
 1/13/2021	Monroe	Unknown	1
 1/12/2021	Monroe	Unknown	2
 1/10/2021	Monroe	Unknown	1
-8/21/2021	Monroe	Not Hispanic or Latino	3
+8/22/2021	Monroe	Not Hispanic or Latino	1
+8/21/2021	Monroe	Not Hispanic or Latino	6
 8/20/2021	Monroe	Not Hispanic or Latino	7
 8/19/2021	Monroe	Not Hispanic or Latino	15
 8/18/2021	Monroe	Not Hispanic or Latino	8
@@ -33005,9 +33122,9 @@
 1/8/2021	Montgomery	Unknown	1
 1/7/2021	Montgomery	Unknown	1
 1/5/2021	Montgomery	Unknown	2
-8/21/2021	Montgomery	Not Hispanic or Latino	1
-8/20/2021	Montgomery	Not Hispanic or Latino	6
-8/19/2021	Montgomery	Not Hispanic or Latino	17
+8/21/2021	Montgomery	Not Hispanic or Latino	2
+8/20/2021	Montgomery	Not Hispanic or Latino	23
+8/19/2021	Montgomery	Not Hispanic or Latino	31
 8/18/2021	Montgomery	Not Hispanic or Latino	10
 8/17/2021	Montgomery	Not Hispanic or Latino	17
 8/16/2021	Montgomery	Not Hispanic or Latino	21
@@ -33348,7 +33465,7 @@
 5/19/2021	Morgan	Unknown	5
 5/18/2021	Morgan	Unknown	4
 5/17/2021	Morgan	Unknown	9
-5/14/2021	Morgan	Unknown	4
+5/14/2021	Morgan	Unknown	3
 5/13/2021	Morgan	Unknown	2
 5/12/2021	Morgan	Unknown	4
 5/10/2021	Morgan	Unknown	7
@@ -33439,7 +33556,8 @@
 1/7/2021	Morgan	Unknown	2
 1/6/2021	Morgan	Unknown	1
 1/5/2021	Morgan	Unknown	1
-8/21/2021	Morgan	Not Hispanic or Latino	6
+8/22/2021	Morgan	Not Hispanic or Latino	3
+8/21/2021	Morgan	Not Hispanic or Latino	13
 8/20/2021	Morgan	Not Hispanic or Latino	19
 8/19/2021	Morgan	Not Hispanic or Latino	24
 8/18/2021	Morgan	Not Hispanic or Latino	17
@@ -33579,7 +33697,7 @@
 4/3/2021	Morgan	Not Hispanic or Latino	6
 4/2/2021	Morgan	Not Hispanic or Latino	19
 4/1/2021	Morgan	Not Hispanic or Latino	38
-3/31/2021	Morgan	Not Hispanic or Latino	50
+3/31/2021	Morgan	Not Hispanic or Latino	49
 3/30/2021	Morgan	Not Hispanic or Latino	59
 3/29/2021	Morgan	Not Hispanic or Latino	31
 3/28/2021	Morgan	Not Hispanic or Latino	2
@@ -33587,7 +33705,7 @@
 3/26/2021	Morgan	Not Hispanic or Latino	80
 3/25/2021	Morgan	Not Hispanic or Latino	121
 3/24/2021	Morgan	Not Hispanic or Latino	60
-3/23/2021	Morgan	Not Hispanic or Latino	51
+3/23/2021	Morgan	Not Hispanic or Latino	50
 3/22/2021	Morgan	Not Hispanic or Latino	95
 3/21/2021	Morgan	Not Hispanic or Latino	4
 3/20/2021	Morgan	Not Hispanic or Latino	23
@@ -33616,7 +33734,7 @@
 2/24/2021	Morgan	Not Hispanic or Latino	46
 2/23/2021	Morgan	Not Hispanic or Latino	22
 2/22/2021	Morgan	Not Hispanic or Latino	30
-2/20/2021	Morgan	Not Hispanic or Latino	7
+2/20/2021	Morgan	Not Hispanic or Latino	6
 2/19/2021	Morgan	Not Hispanic or Latino	170
 2/18/2021	Morgan	Not Hispanic or Latino	18
 2/17/2021	Morgan	Not Hispanic or Latino	4
@@ -33851,7 +33969,8 @@
 1/12/2021	New Madrid	Unknown	10
 1/11/2021	New Madrid	Unknown	1
 1/8/2021	New Madrid	Unknown	1
-8/21/2021	New Madrid	Not Hispanic or Latino	2
+8/22/2021	New Madrid	Not Hispanic or Latino	2
+8/21/2021	New Madrid	Not Hispanic or Latino	9
 8/20/2021	New Madrid	Not Hispanic or Latino	14
 8/19/2021	New Madrid	Not Hispanic or Latino	10
 8/18/2021	New Madrid	Not Hispanic or Latino	9
@@ -33909,7 +34028,7 @@
 6/24/2021	New Madrid	Not Hispanic or Latino	15
 6/23/2021	New Madrid	Not Hispanic or Latino	4
 6/22/2021	New Madrid	Not Hispanic or Latino	4
-6/21/2021	New Madrid	Not Hispanic or Latino	14
+6/21/2021	New Madrid	Not Hispanic or Latino	13
 6/20/2021	New Madrid	Not Hispanic or Latino	4
 6/19/2021	New Madrid	Not Hispanic or Latino	4
 6/18/2021	New Madrid	Not Hispanic or Latino	6
@@ -34280,7 +34399,7 @@
 3/6/2021	Newton	Unknown	2
 3/5/2021	Newton	Unknown	26
 3/4/2021	Newton	Unknown	11
-3/3/2021	Newton	Unknown	57
+3/3/2021	Newton	Unknown	56
 3/2/2021	Newton	Unknown	64
 3/1/2021	Newton	Unknown	11
 2/27/2021	Newton	Unknown	76
@@ -34312,9 +34431,10 @@
 1/14/2021	Newton	Unknown	1
 1/13/2021	Newton	Unknown	1
 1/11/2021	Newton	Unknown	2
-8/21/2021	Newton	Not Hispanic or Latino	6
-8/20/2021	Newton	Not Hispanic or Latino	55
-8/19/2021	Newton	Not Hispanic or Latino	38
+8/22/2021	Newton	Not Hispanic or Latino	4
+8/21/2021	Newton	Not Hispanic or Latino	18
+8/20/2021	Newton	Not Hispanic or Latino	57
+8/19/2021	Newton	Not Hispanic or Latino	39
 8/18/2021	Newton	Not Hispanic or Latino	41
 8/17/2021	Newton	Not Hispanic or Latino	40
 8/16/2021	Newton	Not Hispanic or Latino	34
@@ -34481,7 +34601,7 @@
 3/7/2021	Newton	Not Hispanic or Latino	3
 3/5/2021	Newton	Not Hispanic or Latino	26
 3/4/2021	Newton	Not Hispanic or Latino	47
-3/3/2021	Newton	Not Hispanic or Latino	43
+3/3/2021	Newton	Not Hispanic or Latino	44
 3/2/2021	Newton	Not Hispanic or Latino	43
 3/1/2021	Newton	Not Hispanic or Latino	20
 2/27/2021	Newton	Not Hispanic or Latino	30
@@ -34823,7 +34943,8 @@
 1/20/2021	Nodaway	Unknown	28
 1/15/2021	Nodaway	Unknown	2
 1/13/2021	Nodaway	Unknown	14
-8/21/2021	Nodaway	Not Hispanic or Latino	1
+8/22/2021	Nodaway	Not Hispanic or Latino	1
+8/21/2021	Nodaway	Not Hispanic or Latino	12
 8/20/2021	Nodaway	Not Hispanic or Latino	44
 8/19/2021	Nodaway	Not Hispanic or Latino	19
 8/18/2021	Nodaway	Not Hispanic or Latino	19
@@ -35136,7 +35257,7 @@
 2/3/2021	Nodaway	Hispanic or Latino	1
 1/27/2021	Nodaway	Hispanic or Latino	1
 1/22/2021	Nodaway	Hispanic or Latino	1
-8/21/2021	Oregon	Unknown	1
+8/21/2021	Oregon	Unknown	2
 8/20/2021	Oregon	Unknown	6
 8/19/2021	Oregon	Unknown	8
 8/18/2021	Oregon	Unknown	3
@@ -35600,8 +35721,9 @@
 1/7/2021	Osage	Unknown	8
 1/6/2021	Osage	Unknown	2
 1/4/2021	Osage	Unknown	1
-8/21/2021	Osage	Not Hispanic or Latino	1
-8/20/2021	Osage	Not Hispanic or Latino	26
+8/22/2021	Osage	Not Hispanic or Latino	1
+8/21/2021	Osage	Not Hispanic or Latino	8
+8/20/2021	Osage	Not Hispanic or Latino	27
 8/19/2021	Osage	Not Hispanic or Latino	19
 8/18/2021	Osage	Not Hispanic or Latino	14
 8/17/2021	Osage	Not Hispanic or Latino	9
@@ -35923,7 +36045,8 @@
 1/28/2021	Ozark	Unknown	15
 1/27/2021	Ozark	Unknown	2
 1/20/2021	Ozark	Unknown	4
-8/21/2021	Ozark	Not Hispanic or Latino	1
+8/22/2021	Ozark	Not Hispanic or Latino	2
+8/21/2021	Ozark	Not Hispanic or Latino	3
 8/20/2021	Ozark	Not Hispanic or Latino	18
 8/19/2021	Ozark	Not Hispanic or Latino	5
 8/18/2021	Ozark	Not Hispanic or Latino	8
@@ -36199,6 +36322,7 @@
 1/27/2021	Pemiscot	Unknown	20
 1/19/2021	Pemiscot	Unknown	9
 1/12/2021	Pemiscot	Unknown	1
+8/22/2021	Pemiscot	Not Hispanic or Latino	1
 8/21/2021	Pemiscot	Not Hispanic or Latino	6
 8/20/2021	Pemiscot	Not Hispanic or Latino	7
 8/19/2021	Pemiscot	Not Hispanic or Latino	2
@@ -36377,6 +36501,7 @@
 1/20/2021	Pemiscot	Not Hispanic or Latino	1
 1/19/2021	Pemiscot	Not Hispanic or Latino	30
 1/12/2021	Pemiscot	Not Hispanic or Latino	1
+8/22/2021	Pemiscot	Hispanic or Latino	1
 8/20/2021	Pemiscot	Hispanic or Latino	1
 8/18/2021	Pemiscot	Hispanic or Latino	1
 8/17/2021	Pemiscot	Hispanic or Latino	1
@@ -36444,6 +36569,7 @@
 2/9/2021	Pemiscot	Hispanic or Latino	1
 2/8/2021	Pemiscot	Hispanic or Latino	6
 1/27/2021	Pemiscot	Hispanic or Latino	2
+8/21/2021	Perry	Unknown	2
 8/20/2021	Perry	Unknown	7
 8/18/2021	Perry	Unknown	1
 8/17/2021	Perry	Unknown	5
@@ -36560,7 +36686,8 @@
 1/11/2021	Perry	Unknown	5
 1/9/2021	Perry	Unknown	1
 1/6/2021	Perry	Unknown	1
-8/21/2021	Perry	Not Hispanic or Latino	2
+8/22/2021	Perry	Not Hispanic or Latino	3
+8/21/2021	Perry	Not Hispanic or Latino	9
 8/20/2021	Perry	Not Hispanic or Latino	32
 8/19/2021	Perry	Not Hispanic or Latino	8
 8/18/2021	Perry	Not Hispanic or Latino	22
@@ -36825,7 +36952,7 @@
 2/8/2021	Perry	Hispanic or Latino	4
 2/4/2021	Perry	Hispanic or Latino	1
 1/28/2021	Perry	Hispanic or Latino	1
-8/21/2021	Pettis	Unknown	1
+8/21/2021	Pettis	Unknown	3
 8/20/2021	Pettis	Unknown	11
 8/19/2021	Pettis	Unknown	6
 8/18/2021	Pettis	Unknown	4
@@ -36979,7 +37106,7 @@
 2/26/2021	Pettis	Unknown	84
 2/25/2021	Pettis	Unknown	445
 2/24/2021	Pettis	Unknown	101
-2/23/2021	Pettis	Unknown	310
+2/23/2021	Pettis	Unknown	311
 2/22/2021	Pettis	Unknown	6
 2/20/2021	Pettis	Unknown	5
 2/19/2021	Pettis	Unknown	29
@@ -37010,7 +37137,7 @@
 1/12/2021	Pettis	Unknown	6
 1/11/2021	Pettis	Unknown	5
 1/8/2021	Pettis	Unknown	7
-8/21/2021	Pettis	Not Hispanic or Latino	8
+8/21/2021	Pettis	Not Hispanic or Latino	28
 8/20/2021	Pettis	Not Hispanic or Latino	32
 8/19/2021	Pettis	Not Hispanic or Latino	54
 8/18/2021	Pettis	Not Hispanic or Latino	43
@@ -37238,7 +37365,8 @@
 1/5/2021	Pettis	Not Hispanic or Latino	2
 1/4/2021	Pettis	Not Hispanic or Latino	1
 12/16/2020	Pettis	Not Hispanic or Latino	1
-8/21/2021	Pettis	Hispanic or Latino	4
+8/22/2021	Pettis	Hispanic or Latino	1
+8/21/2021	Pettis	Hispanic or Latino	7
 8/20/2021	Pettis	Hispanic or Latino	6
 8/19/2021	Pettis	Hispanic or Latino	4
 8/18/2021	Pettis	Hispanic or Latino	6
@@ -37408,6 +37536,7 @@
 1/19/2021	Pettis	Hispanic or Latino	2
 1/13/2021	Pettis	Hispanic or Latino	3
 1/12/2021	Pettis	Hispanic or Latino	1
+8/22/2021	Phelps	Unknown	2
 8/21/2021	Phelps	Unknown	1
 8/20/2021	Phelps	Unknown	4
 8/19/2021	Phelps	Unknown	5
@@ -37592,9 +37721,10 @@
 1/8/2021	Phelps	Unknown	2
 1/7/2021	Phelps	Unknown	2
 1/6/2021	Phelps	Unknown	5
-8/21/2021	Phelps	Not Hispanic or Latino	17
+8/22/2021	Phelps	Not Hispanic or Latino	4
+8/21/2021	Phelps	Not Hispanic or Latino	29
 8/20/2021	Phelps	Not Hispanic or Latino	55
-8/19/2021	Phelps	Not Hispanic or Latino	60
+8/19/2021	Phelps	Not Hispanic or Latino	64
 8/18/2021	Phelps	Not Hispanic or Latino	58
 8/17/2021	Phelps	Not Hispanic or Latino	72
 8/16/2021	Phelps	Not Hispanic or Latino	67
@@ -38104,7 +38234,8 @@
 1/11/2021	Pike	Unknown	1
 1/7/2021	Pike	Unknown	1
 1/6/2021	Pike	Unknown	1
-8/21/2021	Pike	Not Hispanic or Latino	5
+8/22/2021	Pike	Not Hispanic or Latino	4
+8/21/2021	Pike	Not Hispanic or Latino	8
 8/20/2021	Pike	Not Hispanic or Latino	12
 8/19/2021	Pike	Not Hispanic or Latino	14
 8/18/2021	Pike	Not Hispanic or Latino	15
@@ -38389,6 +38520,7 @@
 2/9/2021	Pike	Hispanic or Latino	1
 2/2/2021	Pike	Hispanic or Latino	1
 1/18/2021	Pike	Hispanic or Latino	2
+8/21/2021	Platte	Unknown	5
 8/20/2021	Platte	Unknown	9
 8/19/2021	Platte	Unknown	4
 8/18/2021	Platte	Unknown	4
@@ -38563,7 +38695,7 @@
 2/16/2021	Platte	Unknown	5
 2/15/2021	Platte	Unknown	6
 2/12/2021	Platte	Unknown	17
-2/11/2021	Platte	Unknown	17
+2/11/2021	Platte	Unknown	15
 2/10/2021	Platte	Unknown	13
 2/9/2021	Platte	Unknown	4
 2/8/2021	Platte	Unknown	5
@@ -38593,7 +38725,8 @@
 1/7/2021	Platte	Unknown	1
 1/6/2021	Platte	Unknown	1
 1/4/2021	Platte	Unknown	1
-8/21/2021	Platte	Not Hispanic or Latino	6
+8/22/2021	Platte	Not Hispanic or Latino	5
+8/21/2021	Platte	Not Hispanic or Latino	31
 8/20/2021	Platte	Not Hispanic or Latino	44
 8/19/2021	Platte	Not Hispanic or Latino	32
 8/18/2021	Platte	Not Hispanic or Latino	45
@@ -38741,7 +38874,7 @@
 3/28/2021	Platte	Not Hispanic or Latino	39
 3/27/2021	Platte	Not Hispanic or Latino	91
 3/26/2021	Platte	Not Hispanic or Latino	247
-3/25/2021	Platte	Not Hispanic or Latino	466
+3/25/2021	Platte	Not Hispanic or Latino	467
 3/24/2021	Platte	Not Hispanic or Latino	329
 3/23/2021	Platte	Not Hispanic or Latino	144
 3/22/2021	Platte	Not Hispanic or Latino	49
@@ -38782,7 +38915,7 @@
 2/14/2021	Platte	Not Hispanic or Latino	1
 2/13/2021	Platte	Not Hispanic or Latino	1
 2/12/2021	Platte	Not Hispanic or Latino	62
-2/11/2021	Platte	Not Hispanic or Latino	56
+2/11/2021	Platte	Not Hispanic or Latino	58
 2/10/2021	Platte	Not Hispanic or Latino	66
 2/9/2021	Platte	Not Hispanic or Latino	45
 2/8/2021	Platte	Not Hispanic or Latino	28
@@ -38801,7 +38934,7 @@
 1/26/2021	Platte	Not Hispanic or Latino	45
 1/25/2021	Platte	Not Hispanic or Latino	11
 1/23/2021	Platte	Not Hispanic or Latino	10
-1/22/2021	Platte	Not Hispanic or Latino	21
+1/22/2021	Platte	Not Hispanic or Latino	20
 1/21/2021	Platte	Not Hispanic or Latino	35
 1/20/2021	Platte	Not Hispanic or Latino	72
 1/19/2021	Platte	Not Hispanic or Latino	66
@@ -38821,6 +38954,8 @@
 1/4/2021	Platte	Not Hispanic or Latino	1
 12/22/2020	Platte	Not Hispanic or Latino	1
 12/21/2020	Platte	Not Hispanic or Latino	1
+8/22/2021	Platte	Hispanic or Latino	1
+8/21/2021	Platte	Hispanic or Latino	1
 8/20/2021	Platte	Hispanic or Latino	6
 8/19/2021	Platte	Hispanic or Latino	2
 8/18/2021	Platte	Hispanic or Latino	3
@@ -39164,7 +39299,8 @@
 1/14/2021	Polk	Unknown	1
 1/13/2021	Polk	Unknown	1
 1/11/2021	Polk	Unknown	2
-8/21/2021	Polk	Not Hispanic or Latino	11
+8/22/2021	Polk	Not Hispanic or Latino	7
+8/21/2021	Polk	Not Hispanic or Latino	23
 8/20/2021	Polk	Not Hispanic or Latino	34
 8/19/2021	Polk	Not Hispanic or Latino	21
 8/18/2021	Polk	Not Hispanic or Latino	24
@@ -39244,7 +39380,7 @@
 6/5/2021	Polk	Not Hispanic or Latino	6
 6/4/2021	Polk	Not Hispanic or Latino	28
 6/3/2021	Polk	Not Hispanic or Latino	18
-6/2/2021	Polk	Not Hispanic or Latino	20
+6/2/2021	Polk	Not Hispanic or Latino	19
 6/1/2021	Polk	Not Hispanic or Latino	25
 5/31/2021	Polk	Not Hispanic or Latino	2
 5/30/2021	Polk	Not Hispanic or Latino	5
@@ -39391,6 +39527,8 @@
 12/17/2020	Polk	Not Hispanic or Latino	4
 12/16/2020	Polk	Not Hispanic or Latino	1
 12/15/2020	Polk	Not Hispanic or Latino	1
+8/22/2021	Polk	Hispanic or Latino	1
+8/21/2021	Polk	Hispanic or Latino	1
 8/18/2021	Polk	Hispanic or Latino	1
 8/17/2021	Polk	Hispanic or Latino	2
 8/16/2021	Polk	Hispanic or Latino	2
@@ -39506,7 +39644,7 @@
 1/26/2021	Polk	Hispanic or Latino	7
 1/20/2021	Polk	Hispanic or Latino	2
 1/11/2021	Polk	Hispanic or Latino	1
-8/21/2021	Pulaski	Unknown	1
+8/21/2021	Pulaski	Unknown	2
 8/20/2021	Pulaski	Unknown	6
 8/19/2021	Pulaski	Unknown	13
 8/18/2021	Pulaski	Unknown	6
@@ -39677,15 +39815,16 @@
 1/11/2021	Pulaski	Unknown	6
 1/7/2021	Pulaski	Unknown	1
 1/4/2021	Pulaski	Unknown	1
-8/21/2021	Pulaski	Not Hispanic or Latino	19
-8/20/2021	Pulaski	Not Hispanic or Latino	33
-8/19/2021	Pulaski	Not Hispanic or Latino	36
+8/22/2021	Pulaski	Not Hispanic or Latino	13
+8/21/2021	Pulaski	Not Hispanic or Latino	26
+8/20/2021	Pulaski	Not Hispanic or Latino	59
+8/19/2021	Pulaski	Not Hispanic or Latino	44
 8/18/2021	Pulaski	Not Hispanic or Latino	37
 8/17/2021	Pulaski	Not Hispanic or Latino	36
 8/16/2021	Pulaski	Not Hispanic or Latino	26
 8/15/2021	Pulaski	Not Hispanic or Latino	12
 8/14/2021	Pulaski	Not Hispanic or Latino	21
-8/13/2021	Pulaski	Not Hispanic or Latino	54
+8/13/2021	Pulaski	Not Hispanic or Latino	55
 8/12/2021	Pulaski	Not Hispanic or Latino	36
 8/11/2021	Pulaski	Not Hispanic or Latino	44
 8/10/2021	Pulaski	Not Hispanic or Latino	50
@@ -39708,7 +39847,7 @@
 7/24/2021	Pulaski	Not Hispanic or Latino	5
 7/23/2021	Pulaski	Not Hispanic or Latino	18
 7/22/2021	Pulaski	Not Hispanic or Latino	18
-7/21/2021	Pulaski	Not Hispanic or Latino	27
+7/21/2021	Pulaski	Not Hispanic or Latino	26
 7/20/2021	Pulaski	Not Hispanic or Latino	20
 7/19/2021	Pulaski	Not Hispanic or Latino	27
 7/18/2021	Pulaski	Not Hispanic or Latino	4
@@ -40343,7 +40482,7 @@
 1/18/2021	Ralls	Unknown	6
 1/13/2021	Ralls	Unknown	1
 1/12/2021	Ralls	Unknown	4
-8/21/2021	Ralls	Not Hispanic or Latino	1
+8/21/2021	Ralls	Not Hispanic or Latino	3
 8/20/2021	Ralls	Not Hispanic or Latino	2
 8/19/2021	Ralls	Not Hispanic or Latino	8
 8/18/2021	Ralls	Not Hispanic or Latino	14
@@ -40561,6 +40700,7 @@
 2/8/2021	Ralls	Hispanic or Latino	1
 2/2/2021	Ralls	Hispanic or Latino	1
 1/19/2021	Ralls	Hispanic or Latino	1
+8/21/2021	Randolph	Unknown	4
 8/20/2021	Randolph	Unknown	5
 8/19/2021	Randolph	Unknown	10
 8/18/2021	Randolph	Unknown	2
@@ -40729,7 +40869,8 @@
 1/7/2021	Randolph	Unknown	2
 1/6/2021	Randolph	Unknown	1
 12/30/2020	Randolph	Unknown	1
-8/21/2021	Randolph	Not Hispanic or Latino	5
+8/22/2021	Randolph	Not Hispanic or Latino	1
+8/21/2021	Randolph	Not Hispanic or Latino	11
 8/20/2021	Randolph	Not Hispanic or Latino	16
 8/19/2021	Randolph	Not Hispanic or Latino	37
 8/18/2021	Randolph	Not Hispanic or Latino	46
@@ -40902,7 +41043,7 @@
 2/28/2021	Randolph	Not Hispanic or Latino	1
 2/27/2021	Randolph	Not Hispanic or Latino	4
 2/26/2021	Randolph	Not Hispanic or Latino	9
-2/25/2021	Randolph	Not Hispanic or Latino	26
+2/25/2021	Randolph	Not Hispanic or Latino	27
 2/24/2021	Randolph	Not Hispanic or Latino	693
 2/23/2021	Randolph	Not Hispanic or Latino	3
 2/22/2021	Randolph	Not Hispanic or Latino	20
@@ -41050,6 +41191,7 @@
 1/24/2021	Randolph	Hispanic or Latino	1
 1/18/2021	Randolph	Hispanic or Latino	1
 1/7/2021	Randolph	Hispanic or Latino	1
+8/21/2021	Ray	Unknown	2
 8/20/2021	Ray	Unknown	2
 8/19/2021	Ray	Unknown	5
 8/18/2021	Ray	Unknown	2
@@ -41208,7 +41350,8 @@
 1/19/2021	Ray	Unknown	2
 1/16/2021	Ray	Unknown	1
 1/11/2021	Ray	Unknown	2
-8/21/2021	Ray	Not Hispanic or Latino	8
+8/22/2021	Ray	Not Hispanic or Latino	6
+8/21/2021	Ray	Not Hispanic or Latino	14
 8/20/2021	Ray	Not Hispanic or Latino	35
 8/19/2021	Ray	Not Hispanic or Latino	29
 8/18/2021	Ray	Not Hispanic or Latino	16
@@ -41588,7 +41731,7 @@
 2/11/2021	Reynolds	Unknown	1
 1/22/2021	Reynolds	Unknown	1
 1/13/2021	Reynolds	Unknown	1
-8/21/2021	Reynolds	Not Hispanic or Latino	1
+8/21/2021	Reynolds	Not Hispanic or Latino	4
 8/20/2021	Reynolds	Not Hispanic or Latino	11
 8/19/2021	Reynolds	Not Hispanic or Latino	1
 8/18/2021	Reynolds	Not Hispanic or Latino	15
@@ -41874,7 +42017,7 @@
 1/25/2021	Ripley	Unknown	1
 1/19/2021	Ripley	Unknown	1
 1/8/2021	Ripley	Unknown	2
-8/21/2021	Ripley	Not Hispanic or Latino	1
+8/21/2021	Ripley	Not Hispanic or Latino	7
 8/20/2021	Ripley	Not Hispanic or Latino	26
 8/19/2021	Ripley	Not Hispanic or Latino	9
 8/18/2021	Ripley	Not Hispanic or Latino	8
@@ -42261,7 +42404,8 @@
 1/13/2021	Saline	Unknown	6
 1/12/2021	Saline	Unknown	1
 1/11/2021	Saline	Unknown	4
-8/21/2021	Saline	Not Hispanic or Latino	7
+8/22/2021	Saline	Not Hispanic or Latino	3
+8/21/2021	Saline	Not Hispanic or Latino	9
 8/20/2021	Saline	Not Hispanic or Latino	27
 8/19/2021	Saline	Not Hispanic or Latino	49
 8/18/2021	Saline	Not Hispanic or Latino	27
@@ -42480,6 +42624,7 @@
 1/6/2021	Saline	Not Hispanic or Latino	2
 1/5/2021	Saline	Not Hispanic or Latino	1
 12/17/2020	Saline	Not Hispanic or Latino	1
+8/22/2021	Saline	Hispanic or Latino	2
 8/21/2021	Saline	Hispanic or Latino	1
 8/20/2021	Saline	Hispanic or Latino	2
 8/19/2021	Saline	Hispanic or Latino	8
@@ -42698,6 +42843,7 @@
 1/20/2021	Schuyler	Unknown	3
 1/13/2021	Schuyler	Unknown	2
 1/11/2021	Schuyler	Unknown	6
+8/21/2021	Schuyler	Not Hispanic or Latino	2
 8/20/2021	Schuyler	Not Hispanic or Latino	1
 8/19/2021	Schuyler	Not Hispanic or Latino	2
 8/18/2021	Schuyler	Not Hispanic or Latino	4
@@ -42906,6 +43052,7 @@
 1/25/2021	Scotland	Unknown	1
 1/20/2021	Scotland	Unknown	7
 1/11/2021	Scotland	Unknown	1
+8/21/2021	Scotland	Not Hispanic or Latino	1
 8/19/2021	Scotland	Not Hispanic or Latino	6
 8/18/2021	Scotland	Not Hispanic or Latino	1
 8/17/2021	Scotland	Not Hispanic or Latino	2
@@ -43033,7 +43180,7 @@
 3/12/2021	Scotland	Hispanic or Latino	3
 3/4/2021	Scotland	Hispanic or Latino	1
 2/25/2021	Scotland	Hispanic or Latino	1
-8/21/2021	Scott	Unknown	1
+8/21/2021	Scott	Unknown	3
 8/20/2021	Scott	Unknown	3
 8/19/2021	Scott	Unknown	5
 8/18/2021	Scott	Unknown	3
@@ -43194,9 +43341,10 @@
 1/7/2021	Scott	Unknown	3
 1/6/2021	Scott	Unknown	3
 1/5/2021	Scott	Unknown	6
-8/21/2021	Scott	Not Hispanic or Latino	9
-8/20/2021	Scott	Not Hispanic or Latino	35
-8/19/2021	Scott	Not Hispanic or Latino	36
+8/22/2021	Scott	Not Hispanic or Latino	4
+8/21/2021	Scott	Not Hispanic or Latino	23
+8/20/2021	Scott	Not Hispanic or Latino	36
+8/19/2021	Scott	Not Hispanic or Latino	37
 8/18/2021	Scott	Not Hispanic or Latino	35
 8/17/2021	Scott	Not Hispanic or Latino	39
 8/16/2021	Scott	Not Hispanic or Latino	45
@@ -43558,6 +43706,7 @@
 2/2/2021	Shannon	Unknown	1
 1/21/2021	Shannon	Unknown	1
 1/8/2021	Shannon	Unknown	1
+8/21/2021	Shannon	Not Hispanic or Latino	4
 8/20/2021	Shannon	Not Hispanic or Latino	17
 8/19/2021	Shannon	Not Hispanic or Latino	16
 8/18/2021	Shannon	Not Hispanic or Latino	9
@@ -43829,7 +43978,7 @@
 1/25/2021	Shelby	Unknown	1
 1/19/2021	Shelby	Unknown	2
 1/18/2021	Shelby	Unknown	2
-8/21/2021	Shelby	Not Hispanic or Latino	3
+8/21/2021	Shelby	Not Hispanic or Latino	4
 8/20/2021	Shelby	Not Hispanic or Latino	2
 8/19/2021	Shelby	Not Hispanic or Latino	7
 8/18/2021	Shelby	Not Hispanic or Latino	21
@@ -44035,15 +44184,16 @@
 2/25/2021	Shelby	Hispanic or Latino	6
 2/24/2021	Shelby	Hispanic or Latino	1
 2/2/2021	Shelby	Hispanic or Latino	3
-8/21/2021	St. Charles	Unknown	11
+8/22/2021	St. Charles	Unknown	3
+8/21/2021	St. Charles	Unknown	33
 8/20/2021	St. Charles	Unknown	51
-8/19/2021	St. Charles	Unknown	41
+8/19/2021	St. Charles	Unknown	42
 8/18/2021	St. Charles	Unknown	38
 8/17/2021	St. Charles	Unknown	31
 8/16/2021	St. Charles	Unknown	42
 8/15/2021	St. Charles	Unknown	14
 8/14/2021	St. Charles	Unknown	23
-8/13/2021	St. Charles	Unknown	47
+8/13/2021	St. Charles	Unknown	48
 8/12/2021	St. Charles	Unknown	34
 8/11/2021	St. Charles	Unknown	35
 8/10/2021	St. Charles	Unknown	23
@@ -44161,7 +44311,7 @@
 4/19/2021	St. Charles	Unknown	451
 4/18/2021	St. Charles	Unknown	137
 4/17/2021	St. Charles	Unknown	281
-4/16/2021	St. Charles	Unknown	429
+4/16/2021	St. Charles	Unknown	428
 4/15/2021	St. Charles	Unknown	692
 4/14/2021	St. Charles	Unknown	195
 4/13/2021	St. Charles	Unknown	355
@@ -44170,15 +44320,15 @@
 4/10/2021	St. Charles	Unknown	86
 4/9/2021	St. Charles	Unknown	269
 4/8/2021	St. Charles	Unknown	731
-4/7/2021	St. Charles	Unknown	380
-4/6/2021	St. Charles	Unknown	378
+4/7/2021	St. Charles	Unknown	379
+4/6/2021	St. Charles	Unknown	377
 4/5/2021	St. Charles	Unknown	298
 4/4/2021	St. Charles	Unknown	17
 4/3/2021	St. Charles	Unknown	58
 4/2/2021	St. Charles	Unknown	151
 4/1/2021	St. Charles	Unknown	160
 3/31/2021	St. Charles	Unknown	105
-3/30/2021	St. Charles	Unknown	389
+3/30/2021	St. Charles	Unknown	390
 3/29/2021	St. Charles	Unknown	242
 3/28/2021	St. Charles	Unknown	27
 3/27/2021	St. Charles	Unknown	85
@@ -44212,7 +44362,7 @@
 2/27/2021	St. Charles	Unknown	39
 2/26/2021	St. Charles	Unknown	99
 2/25/2021	St. Charles	Unknown	91
-2/24/2021	St. Charles	Unknown	160
+2/24/2021	St. Charles	Unknown	159
 2/23/2021	St. Charles	Unknown	119
 2/22/2021	St. Charles	Unknown	304
 2/21/2021	St. Charles	Unknown	110
@@ -44226,7 +44376,7 @@
 2/13/2021	St. Charles	Unknown	24
 2/12/2021	St. Charles	Unknown	146
 2/11/2021	St. Charles	Unknown	106
-2/10/2021	St. Charles	Unknown	100
+2/10/2021	St. Charles	Unknown	99
 2/9/2021	St. Charles	Unknown	202
 2/8/2021	St. Charles	Unknown	66
 2/7/2021	St. Charles	Unknown	2
@@ -44264,15 +44414,16 @@
 1/4/2021	St. Charles	Unknown	78
 12/31/2020	St. Charles	Unknown	1
 12/24/2020	St. Charles	Unknown	1
-8/21/2021	St. Charles	Not Hispanic or Latino	74
-8/20/2021	St. Charles	Not Hispanic or Latino	493
+8/22/2021	St. Charles	Not Hispanic or Latino	40
+8/21/2021	St. Charles	Not Hispanic or Latino	336
+8/20/2021	St. Charles	Not Hispanic or Latino	498
 8/19/2021	St. Charles	Not Hispanic or Latino	370
 8/18/2021	St. Charles	Not Hispanic or Latino	413
 8/17/2021	St. Charles	Not Hispanic or Latino	464
 8/16/2021	St. Charles	Not Hispanic or Latino	486
 8/15/2021	St. Charles	Not Hispanic or Latino	282
 8/14/2021	St. Charles	Not Hispanic or Latino	365
-8/13/2021	St. Charles	Not Hispanic or Latino	513
+8/13/2021	St. Charles	Not Hispanic or Latino	515
 8/12/2021	St. Charles	Not Hispanic or Latino	413
 8/11/2021	St. Charles	Not Hispanic or Latino	427
 8/10/2021	St. Charles	Not Hispanic or Latino	420
@@ -44385,13 +44536,13 @@
 4/25/2021	St. Charles	Not Hispanic or Latino	289
 4/24/2021	St. Charles	Not Hispanic or Latino	990
 4/23/2021	St. Charles	Not Hispanic or Latino	1468
-4/22/2021	St. Charles	Not Hispanic or Latino	1456
+4/22/2021	St. Charles	Not Hispanic or Latino	1457
 4/21/2021	St. Charles	Not Hispanic or Latino	2561
 4/20/2021	St. Charles	Not Hispanic or Latino	2678
 4/19/2021	St. Charles	Not Hispanic or Latino	1406
 4/18/2021	St. Charles	Not Hispanic or Latino	446
 4/17/2021	St. Charles	Not Hispanic or Latino	2687
-4/16/2021	St. Charles	Not Hispanic or Latino	3821
+4/16/2021	St. Charles	Not Hispanic or Latino	3822
 4/15/2021	St. Charles	Not Hispanic or Latino	3897
 4/14/2021	St. Charles	Not Hispanic or Latino	1643
 4/13/2021	St. Charles	Not Hispanic or Latino	1652
@@ -44400,8 +44551,8 @@
 4/10/2021	St. Charles	Not Hispanic or Latino	1030
 4/9/2021	St. Charles	Not Hispanic or Latino	2266
 4/8/2021	St. Charles	Not Hispanic or Latino	4061
-4/7/2021	St. Charles	Not Hispanic or Latino	1408
-4/6/2021	St. Charles	Not Hispanic or Latino	1546
+4/7/2021	St. Charles	Not Hispanic or Latino	1409
+4/6/2021	St. Charles	Not Hispanic or Latino	1547
 4/5/2021	St. Charles	Not Hispanic or Latino	1106
 4/4/2021	St. Charles	Not Hispanic or Latino	158
 4/3/2021	St. Charles	Not Hispanic or Latino	972
@@ -44413,7 +44564,7 @@
 3/28/2021	St. Charles	Not Hispanic or Latino	744
 3/27/2021	St. Charles	Not Hispanic or Latino	682
 3/26/2021	St. Charles	Not Hispanic or Latino	970
-3/25/2021	St. Charles	Not Hispanic or Latino	1194
+3/25/2021	St. Charles	Not Hispanic or Latino	1193
 3/24/2021	St. Charles	Not Hispanic or Latino	2089
 3/23/2021	St. Charles	Not Hispanic or Latino	2060
 3/22/2021	St. Charles	Not Hispanic or Latino	899
@@ -44440,9 +44591,9 @@
 3/1/2021	St. Charles	Not Hispanic or Latino	497
 2/28/2021	St. Charles	Not Hispanic or Latino	162
 2/27/2021	St. Charles	Not Hispanic or Latino	754
-2/26/2021	St. Charles	Not Hispanic or Latino	972
+2/26/2021	St. Charles	Not Hispanic or Latino	973
 2/25/2021	St. Charles	Not Hispanic or Latino	884
-2/24/2021	St. Charles	Not Hispanic or Latino	901
+2/24/2021	St. Charles	Not Hispanic or Latino	902
 2/23/2021	St. Charles	Not Hispanic or Latino	1023
 2/22/2021	St. Charles	Not Hispanic or Latino	842
 2/21/2021	St. Charles	Not Hispanic or Latino	76
@@ -44456,7 +44607,7 @@
 2/13/2021	St. Charles	Not Hispanic or Latino	209
 2/12/2021	St. Charles	Not Hispanic or Latino	711
 2/11/2021	St. Charles	Not Hispanic or Latino	549
-2/10/2021	St. Charles	Not Hispanic or Latino	831
+2/10/2021	St. Charles	Not Hispanic or Latino	832
 2/9/2021	St. Charles	Not Hispanic or Latino	815
 2/8/2021	St. Charles	Not Hispanic or Latino	426
 2/7/2021	St. Charles	Not Hispanic or Latino	15
@@ -44468,7 +44619,7 @@
 2/1/2021	St. Charles	Not Hispanic or Latino	221
 1/31/2021	St. Charles	Not Hispanic or Latino	62
 1/30/2021	St. Charles	Not Hispanic or Latino	52
-1/29/2021	St. Charles	Not Hispanic or Latino	317
+1/29/2021	St. Charles	Not Hispanic or Latino	318
 1/28/2021	St. Charles	Not Hispanic or Latino	255
 1/27/2021	St. Charles	Not Hispanic or Latino	262
 1/26/2021	St. Charles	Not Hispanic or Latino	278
@@ -44502,7 +44653,8 @@
 12/17/2020	St. Charles	Not Hispanic or Latino	4
 12/16/2020	St. Charles	Not Hispanic or Latino	1
 12/15/2020	St. Charles	Not Hispanic or Latino	1
-8/21/2021	St. Charles	Hispanic or Latino	6
+8/22/2021	St. Charles	Hispanic or Latino	2
+8/21/2021	St. Charles	Hispanic or Latino	31
 8/20/2021	St. Charles	Hispanic or Latino	32
 8/19/2021	St. Charles	Hispanic or Latino	25
 8/18/2021	St. Charles	Hispanic or Latino	19
@@ -44622,7 +44774,7 @@
 4/25/2021	St. Charles	Hispanic or Latino	18
 4/24/2021	St. Charles	Hispanic or Latino	43
 4/23/2021	St. Charles	Hispanic or Latino	50
-4/22/2021	St. Charles	Hispanic or Latino	68
+4/22/2021	St. Charles	Hispanic or Latino	67
 4/21/2021	St. Charles	Hispanic or Latino	98
 4/20/2021	St. Charles	Hispanic or Latino	106
 4/19/2021	St. Charles	Hispanic or Latino	41
@@ -44676,7 +44828,7 @@
 3/2/2021	St. Charles	Hispanic or Latino	5
 3/1/2021	St. Charles	Hispanic or Latino	6
 2/27/2021	St. Charles	Hispanic or Latino	26
-2/26/2021	St. Charles	Hispanic or Latino	166
+2/26/2021	St. Charles	Hispanic or Latino	165
 2/25/2021	St. Charles	Hispanic or Latino	4
 2/24/2021	St. Charles	Hispanic or Latino	8
 2/23/2021	St. Charles	Hispanic or Latino	19
@@ -44837,7 +44989,8 @@
 1/11/2021	St. Clair	Unknown	1
 1/7/2021	St. Clair	Unknown	1
 1/6/2021	St. Clair	Unknown	1
-8/21/2021	St. Clair	Not Hispanic or Latino	2
+8/22/2021	St. Clair	Not Hispanic or Latino	1
+8/21/2021	St. Clair	Not Hispanic or Latino	9
 8/20/2021	St. Clair	Not Hispanic or Latino	11
 8/19/2021	St. Clair	Not Hispanic or Latino	6
 8/18/2021	St. Clair	Not Hispanic or Latino	13
@@ -45076,7 +45229,8 @@
 2/8/2021	St. Clair	Hispanic or Latino	1
 1/28/2021	St. Clair	Hispanic or Latino	1
 1/19/2021	St. Clair	Hispanic or Latino	1
-8/21/2021	St. Francois	Unknown	2
+8/22/2021	St. Francois	Unknown	2
+8/21/2021	St. Francois	Unknown	7
 8/20/2021	St. Francois	Unknown	13
 8/19/2021	St. Francois	Unknown	3
 8/18/2021	St. Francois	Unknown	9
@@ -45280,7 +45434,8 @@
 1/5/2021	St. Francois	Unknown	3
 1/4/2021	St. Francois	Unknown	7
 12/22/2020	St. Francois	Unknown	1
-8/21/2021	St. Francois	Not Hispanic or Latino	4
+8/22/2021	St. Francois	Not Hispanic or Latino	9
+8/21/2021	St. Francois	Not Hispanic or Latino	33
 8/20/2021	St. Francois	Not Hispanic or Latino	96
 8/19/2021	St. Francois	Not Hispanic or Latino	55
 8/18/2021	St. Francois	Not Hispanic or Latino	52
@@ -45672,9 +45827,10 @@
 1/12/2021	St. Francois	Hispanic or Latino	1
 1/7/2021	St. Francois	Hispanic or Latino	1
 1/6/2021	St. Francois	Hispanic or Latino	1
-8/21/2021	St. Louis	Unknown	27
+8/22/2021	St. Louis	Unknown	9
+8/21/2021	St. Louis	Unknown	80
 8/20/2021	St. Louis	Unknown	101
-8/19/2021	St. Louis	Unknown	96
+8/19/2021	St. Louis	Unknown	97
 8/18/2021	St. Louis	Unknown	82
 8/17/2021	St. Louis	Unknown	76
 8/16/2021	St. Louis	Unknown	93
@@ -45696,7 +45852,7 @@
 7/31/2021	St. Louis	Unknown	55
 7/30/2021	St. Louis	Unknown	77
 7/29/2021	St. Louis	Unknown	75
-7/28/2021	St. Louis	Unknown	61
+7/28/2021	St. Louis	Unknown	60
 7/27/2021	St. Louis	Unknown	71
 7/26/2021	St. Louis	Unknown	71
 7/25/2021	St. Louis	Unknown	19
@@ -45801,22 +45957,22 @@
 4/17/2021	St. Louis	Unknown	502
 4/16/2021	St. Louis	Unknown	939
 4/15/2021	St. Louis	Unknown	910
-4/14/2021	St. Louis	Unknown	761
+4/14/2021	St. Louis	Unknown	760
 4/13/2021	St. Louis	Unknown	607
 4/12/2021	St. Louis	Unknown	541
 4/11/2021	St. Louis	Unknown	112
 4/10/2021	St. Louis	Unknown	607
-4/9/2021	St. Louis	Unknown	891
+4/9/2021	St. Louis	Unknown	894
 4/8/2021	St. Louis	Unknown	682
-4/7/2021	St. Louis	Unknown	923
-4/6/2021	St. Louis	Unknown	916
+4/7/2021	St. Louis	Unknown	919
+4/6/2021	St. Louis	Unknown	915
 4/5/2021	St. Louis	Unknown	623
 4/4/2021	St. Louis	Unknown	18
 4/3/2021	St. Louis	Unknown	453
-4/2/2021	St. Louis	Unknown	509
-4/1/2021	St. Louis	Unknown	602
-3/31/2021	St. Louis	Unknown	456
-3/30/2021	St. Louis	Unknown	671
+4/2/2021	St. Louis	Unknown	505
+4/1/2021	St. Louis	Unknown	601
+3/31/2021	St. Louis	Unknown	455
+3/30/2021	St. Louis	Unknown	670
 3/29/2021	St. Louis	Unknown	532
 3/28/2021	St. Louis	Unknown	132
 3/27/2021	St. Louis	Unknown	406
@@ -45843,11 +45999,11 @@
 3/6/2021	St. Louis	Unknown	182
 3/5/2021	St. Louis	Unknown	321
 3/4/2021	St. Louis	Unknown	274
-3/3/2021	St. Louis	Unknown	273
-3/2/2021	St. Louis	Unknown	189
+3/3/2021	St. Louis	Unknown	272
+3/2/2021	St. Louis	Unknown	188
 3/1/2021	St. Louis	Unknown	129
 2/28/2021	St. Louis	Unknown	15
-2/27/2021	St. Louis	Unknown	245
+2/27/2021	St. Louis	Unknown	243
 2/26/2021	St. Louis	Unknown	390
 2/25/2021	St. Louis	Unknown	269
 2/24/2021	St. Louis	Unknown	307
@@ -45858,18 +46014,18 @@
 2/19/2021	St. Louis	Unknown	819
 2/18/2021	St. Louis	Unknown	919
 2/17/2021	St. Louis	Unknown	464
-2/16/2021	St. Louis	Unknown	512
+2/16/2021	St. Louis	Unknown	511
 2/15/2021	St. Louis	Unknown	242
 2/14/2021	St. Louis	Unknown	19
 2/13/2021	St. Louis	Unknown	86
 2/12/2021	St. Louis	Unknown	341
-2/11/2021	St. Louis	Unknown	465
+2/11/2021	St. Louis	Unknown	464
 2/10/2021	St. Louis	Unknown	508
 2/9/2021	St. Louis	Unknown	419
 2/8/2021	St. Louis	Unknown	322
 2/7/2021	St. Louis	Unknown	6
 2/6/2021	St. Louis	Unknown	30
-2/5/2021	St. Louis	Unknown	268
+2/5/2021	St. Louis	Unknown	267
 2/4/2021	St. Louis	Unknown	249
 2/3/2021	St. Louis	Unknown	411
 2/2/2021	St. Louis	Unknown	327
@@ -45878,7 +46034,7 @@
 1/30/2021	St. Louis	Unknown	42
 1/29/2021	St. Louis	Unknown	242
 1/28/2021	St. Louis	Unknown	197
-1/27/2021	St. Louis	Unknown	335
+1/27/2021	St. Louis	Unknown	334
 1/26/2021	St. Louis	Unknown	297
 1/25/2021	St. Louis	Unknown	234
 1/24/2021	St. Louis	Unknown	5
@@ -45898,7 +46054,7 @@
 1/10/2021	St. Louis	Unknown	13
 1/9/2021	St. Louis	Unknown	87
 1/8/2021	St. Louis	Unknown	353
-1/7/2021	St. Louis	Unknown	286
+1/7/2021	St. Louis	Unknown	285
 1/6/2021	St. Louis	Unknown	157
 1/5/2021	St. Louis	Unknown	155
 1/4/2021	St. Louis	Unknown	221
@@ -45906,19 +46062,20 @@
 1/1/2021	St. Louis	Unknown	1
 12/31/2020	St. Louis	Unknown	1
 12/23/2020	St. Louis	Unknown	1
-8/21/2021	St. Louis	Not Hispanic or Latino	209
-8/20/2021	St. Louis	Not Hispanic or Latino	874
-8/19/2021	St. Louis	Not Hispanic or Latino	747
+8/22/2021	St. Louis	Not Hispanic or Latino	43
+8/21/2021	St. Louis	Not Hispanic or Latino	678
+8/20/2021	St. Louis	Not Hispanic or Latino	876
+8/19/2021	St. Louis	Not Hispanic or Latino	750
 8/18/2021	St. Louis	Not Hispanic or Latino	837
 8/17/2021	St. Louis	Not Hispanic or Latino	920
 8/16/2021	St. Louis	Not Hispanic or Latino	1163
 8/15/2021	St. Louis	Not Hispanic or Latino	528
 8/14/2021	St. Louis	Not Hispanic or Latino	741
-8/13/2021	St. Louis	Not Hispanic or Latino	1010
+8/13/2021	St. Louis	Not Hispanic or Latino	1011
 8/12/2021	St. Louis	Not Hispanic or Latino	767
 8/11/2021	St. Louis	Not Hispanic or Latino	950
 8/10/2021	St. Louis	Not Hispanic or Latino	886
-8/9/2021	St. Louis	Not Hispanic or Latino	917
+8/9/2021	St. Louis	Not Hispanic or Latino	916
 8/8/2021	St. Louis	Not Hispanic or Latino	432
 8/7/2021	St. Louis	Not Hispanic or Latino	657
 8/6/2021	St. Louis	Not Hispanic or Latino	932
@@ -45930,7 +46087,7 @@
 7/31/2021	St. Louis	Not Hispanic or Latino	621
 7/30/2021	St. Louis	Not Hispanic or Latino	754
 7/29/2021	St. Louis	Not Hispanic or Latino	491
-7/28/2021	St. Louis	Not Hispanic or Latino	632
+7/28/2021	St. Louis	Not Hispanic or Latino	633
 7/27/2021	St. Louis	Not Hispanic or Latino	626
 7/26/2021	St. Louis	Not Hispanic or Latino	608
 7/25/2021	St. Louis	Not Hispanic or Latino	150
@@ -45980,7 +46137,7 @@
 6/11/2021	St. Louis	Not Hispanic or Latino	1798
 6/10/2021	St. Louis	Not Hispanic or Latino	1474
 6/9/2021	St. Louis	Not Hispanic or Latino	2693
-6/8/2021	St. Louis	Not Hispanic or Latino	2105
+6/8/2021	St. Louis	Not Hispanic or Latino	2106
 6/7/2021	St. Louis	Not Hispanic or Latino	3010
 6/6/2021	St. Louis	Not Hispanic or Latino	1342
 6/5/2021	St. Louis	Not Hispanic or Latino	2765
@@ -45991,9 +46148,9 @@
 5/31/2021	St. Louis	Not Hispanic or Latino	110
 5/30/2021	St. Louis	Not Hispanic or Latino	294
 5/29/2021	St. Louis	Not Hispanic or Latino	498
-5/28/2021	St. Louis	Not Hispanic or Latino	983
+5/28/2021	St. Louis	Not Hispanic or Latino	984
 5/27/2021	St. Louis	Not Hispanic or Latino	1066
-5/26/2021	St. Louis	Not Hispanic or Latino	1167
+5/26/2021	St. Louis	Not Hispanic or Latino	1168
 5/25/2021	St. Louis	Not Hispanic or Latino	1196
 5/24/2021	St. Louis	Not Hispanic or Latino	1073
 5/23/2021	St. Louis	Not Hispanic or Latino	379
@@ -46021,7 +46178,7 @@
 5/1/2021	St. Louis	Not Hispanic or Latino	3032
 4/30/2021	St. Louis	Not Hispanic or Latino	3963
 4/29/2021	St. Louis	Not Hispanic or Latino	6154
-4/28/2021	St. Louis	Not Hispanic or Latino	5387
+4/28/2021	St. Louis	Not Hispanic or Latino	5385
 4/27/2021	St. Louis	Not Hispanic or Latino	5955
 4/26/2021	St. Louis	Not Hispanic or Latino	3899
 4/25/2021	St. Louis	Not Hispanic or Latino	759
@@ -46035,23 +46192,23 @@
 4/17/2021	St. Louis	Not Hispanic or Latino	4150
 4/16/2021	St. Louis	Not Hispanic or Latino	5513
 4/15/2021	St. Louis	Not Hispanic or Latino	4955
-4/14/2021	St. Louis	Not Hispanic or Latino	5061
+4/14/2021	St. Louis	Not Hispanic or Latino	5062
 4/13/2021	St. Louis	Not Hispanic or Latino	5086
 4/12/2021	St. Louis	Not Hispanic or Latino	4730
 4/11/2021	St. Louis	Not Hispanic or Latino	1380
 4/10/2021	St. Louis	Not Hispanic or Latino	3479
-4/9/2021	St. Louis	Not Hispanic or Latino	5775
-4/8/2021	St. Louis	Not Hispanic or Latino	5187
-4/7/2021	St. Louis	Not Hispanic or Latino	5545
-4/6/2021	St. Louis	Not Hispanic or Latino	5160
+4/9/2021	St. Louis	Not Hispanic or Latino	5774
+4/8/2021	St. Louis	Not Hispanic or Latino	5186
+4/7/2021	St. Louis	Not Hispanic or Latino	5544
+4/6/2021	St. Louis	Not Hispanic or Latino	5161
 4/5/2021	St. Louis	Not Hispanic or Latino	3817
 4/4/2021	St. Louis	Not Hispanic or Latino	308
 4/3/2021	St. Louis	Not Hispanic or Latino	3698
 4/2/2021	St. Louis	Not Hispanic or Latino	4589
-4/1/2021	St. Louis	Not Hispanic or Latino	3491
-3/31/2021	St. Louis	Not Hispanic or Latino	4986
+4/1/2021	St. Louis	Not Hispanic or Latino	3492
+3/31/2021	St. Louis	Not Hispanic or Latino	4988
 3/30/2021	St. Louis	Not Hispanic or Latino	5156
-3/29/2021	St. Louis	Not Hispanic or Latino	3749
+3/29/2021	St. Louis	Not Hispanic or Latino	3750
 3/28/2021	St. Louis	Not Hispanic or Latino	1759
 3/27/2021	St. Louis	Not Hispanic or Latino	2815
 3/26/2021	St. Louis	Not Hispanic or Latino	4118
@@ -46077,13 +46234,13 @@
 3/6/2021	St. Louis	Not Hispanic or Latino	2194
 3/5/2021	St. Louis	Not Hispanic or Latino	1907
 3/4/2021	St. Louis	Not Hispanic or Latino	1756
-3/3/2021	St. Louis	Not Hispanic or Latino	1759
-3/2/2021	St. Louis	Not Hispanic or Latino	2035
+3/3/2021	St. Louis	Not Hispanic or Latino	1760
+3/2/2021	St. Louis	Not Hispanic or Latino	2036
 3/1/2021	St. Louis	Not Hispanic or Latino	1792
 2/28/2021	St. Louis	Not Hispanic or Latino	582
-2/27/2021	St. Louis	Not Hispanic or Latino	1379
+2/27/2021	St. Louis	Not Hispanic or Latino	1381
 2/26/2021	St. Louis	Not Hispanic or Latino	2957
-2/25/2021	St. Louis	Not Hispanic or Latino	2283
+2/25/2021	St. Louis	Not Hispanic or Latino	2284
 2/24/2021	St. Louis	Not Hispanic or Latino	2505
 2/23/2021	St. Louis	Not Hispanic or Latino	2938
 2/22/2021	St. Louis	Not Hispanic or Latino	2537
@@ -46092,18 +46249,18 @@
 2/19/2021	St. Louis	Not Hispanic or Latino	3410
 2/18/2021	St. Louis	Not Hispanic or Latino	3472
 2/17/2021	St. Louis	Not Hispanic or Latino	2751
-2/16/2021	St. Louis	Not Hispanic or Latino	2857
+2/16/2021	St. Louis	Not Hispanic or Latino	2858
 2/15/2021	St. Louis	Not Hispanic or Latino	1278
 2/14/2021	St. Louis	Not Hispanic or Latino	421
 2/13/2021	St. Louis	Not Hispanic or Latino	971
 2/12/2021	St. Louis	Not Hispanic or Latino	2184
-2/11/2021	St. Louis	Not Hispanic or Latino	2662
+2/11/2021	St. Louis	Not Hispanic or Latino	2663
 2/10/2021	St. Louis	Not Hispanic or Latino	1666
 2/9/2021	St. Louis	Not Hispanic or Latino	1380
 2/8/2021	St. Louis	Not Hispanic or Latino	1626
 2/7/2021	St. Louis	Not Hispanic or Latino	88
 2/6/2021	St. Louis	Not Hispanic or Latino	152
-2/5/2021	St. Louis	Not Hispanic or Latino	1205
+2/5/2021	St. Louis	Not Hispanic or Latino	1206
 2/4/2021	St. Louis	Not Hispanic or Latino	1221
 2/3/2021	St. Louis	Not Hispanic or Latino	1179
 2/2/2021	St. Louis	Not Hispanic or Latino	1200
@@ -46112,7 +46269,7 @@
 1/30/2021	St. Louis	Not Hispanic or Latino	76
 1/29/2021	St. Louis	Not Hispanic or Latino	801
 1/28/2021	St. Louis	Not Hispanic or Latino	604
-1/27/2021	St. Louis	Not Hispanic or Latino	890
+1/27/2021	St. Louis	Not Hispanic or Latino	891
 1/26/2021	St. Louis	Not Hispanic or Latino	993
 1/25/2021	St. Louis	Not Hispanic or Latino	787
 1/24/2021	St. Louis	Not Hispanic or Latino	92
@@ -46131,7 +46288,7 @@
 1/10/2021	St. Louis	Not Hispanic or Latino	276
 1/9/2021	St. Louis	Not Hispanic or Latino	466
 1/8/2021	St. Louis	Not Hispanic or Latino	1063
-1/7/2021	St. Louis	Not Hispanic or Latino	814
+1/7/2021	St. Louis	Not Hispanic or Latino	815
 1/6/2021	St. Louis	Not Hispanic or Latino	565
 1/5/2021	St. Louis	Not Hispanic or Latino	394
 1/4/2021	St. Louis	Not Hispanic or Latino	262
@@ -46147,9 +46304,10 @@
 12/17/2020	St. Louis	Not Hispanic or Latino	4
 12/16/2020	St. Louis	Not Hispanic or Latino	3
 12/15/2020	St. Louis	Not Hispanic or Latino	3
-8/21/2021	St. Louis	Hispanic or Latino	18
+8/22/2021	St. Louis	Hispanic or Latino	5
+8/21/2021	St. Louis	Hispanic or Latino	64
 8/20/2021	St. Louis	Hispanic or Latino	48
-8/19/2021	St. Louis	Hispanic or Latino	49
+8/19/2021	St. Louis	Hispanic or Latino	50
 8/18/2021	St. Louis	Hispanic or Latino	32
 8/17/2021	St. Louis	Hispanic or Latino	40
 8/16/2021	St. Louis	Hispanic or Latino	75
@@ -46221,7 +46379,7 @@
 6/11/2021	St. Louis	Hispanic or Latino	70
 6/10/2021	St. Louis	Hispanic or Latino	70
 6/9/2021	St. Louis	Hispanic or Latino	213
-6/8/2021	St. Louis	Hispanic or Latino	88
+6/8/2021	St. Louis	Hispanic or Latino	87
 6/7/2021	St. Louis	Hispanic or Latino	135
 6/6/2021	St. Louis	Hispanic or Latino	57
 6/5/2021	St. Louis	Hispanic or Latino	127
@@ -46234,7 +46392,7 @@
 5/29/2021	St. Louis	Hispanic or Latino	36
 5/28/2021	St. Louis	Hispanic or Latino	64
 5/27/2021	St. Louis	Hispanic or Latino	50
-5/26/2021	St. Louis	Hispanic or Latino	117
+5/26/2021	St. Louis	Hispanic or Latino	116
 5/25/2021	St. Louis	Hispanic or Latino	69
 5/24/2021	St. Louis	Hispanic or Latino	88
 5/23/2021	St. Louis	Hispanic or Latino	22
@@ -46291,7 +46449,7 @@
 4/2/2021	St. Louis	Hispanic or Latino	117
 4/1/2021	St. Louis	Hispanic or Latino	80
 3/31/2021	St. Louis	Hispanic or Latino	119
-3/30/2021	St. Louis	Hispanic or Latino	128
+3/30/2021	St. Louis	Hispanic or Latino	129
 3/29/2021	St. Louis	Hispanic or Latino	78
 3/28/2021	St. Louis	Hispanic or Latino	40
 3/27/2021	St. Louis	Hispanic or Latino	54
@@ -46308,7 +46466,7 @@
 3/16/2021	St. Louis	Hispanic or Latino	82
 3/15/2021	St. Louis	Hispanic or Latino	25
 3/14/2021	St. Louis	Hispanic or Latino	22
-3/13/2021	St. Louis	Hispanic or Latino	54
+3/13/2021	St. Louis	Hispanic or Latino	53
 3/12/2021	St. Louis	Hispanic or Latino	82
 3/11/2021	St. Louis	Hispanic or Latino	73
 3/10/2021	St. Louis	Hispanic or Latino	72
@@ -46375,9 +46533,10 @@
 1/5/2021	St. Louis	Hispanic or Latino	5
 1/4/2021	St. Louis	Hispanic or Latino	3
 12/28/2020	St. Louis	Hispanic or Latino	1
-8/21/2021	St. Louis City	Unknown	12
+8/22/2021	St. Louis City	Unknown	3
+8/21/2021	St. Louis City	Unknown	28
 8/20/2021	St. Louis City	Unknown	22
-8/19/2021	St. Louis City	Unknown	24
+8/19/2021	St. Louis City	Unknown	26
 8/18/2021	St. Louis City	Unknown	26
 8/17/2021	St. Louis City	Unknown	28
 8/16/2021	St. Louis City	Unknown	29
@@ -46524,7 +46683,7 @@
 3/27/2021	St. Louis City	Unknown	181
 3/26/2021	St. Louis City	Unknown	567
 3/25/2021	St. Louis City	Unknown	746
-3/24/2021	St. Louis City	Unknown	110
+3/24/2021	St. Louis City	Unknown	109
 3/23/2021	St. Louis City	Unknown	88
 3/22/2021	St. Louis City	Unknown	90
 3/21/2021	St. Louis City	Unknown	29
@@ -46557,13 +46716,13 @@
 2/21/2021	St. Louis City	Unknown	6
 2/20/2021	St. Louis City	Unknown	275
 2/19/2021	St. Louis City	Unknown	300
-2/18/2021	St. Louis City	Unknown	165
+2/18/2021	St. Louis City	Unknown	164
 2/17/2021	St. Louis City	Unknown	111
 2/16/2021	St. Louis City	Unknown	95
 2/15/2021	St. Louis City	Unknown	45
 2/13/2021	St. Louis City	Unknown	17
 2/12/2021	St. Louis City	Unknown	122
-2/11/2021	St. Louis City	Unknown	172
+2/11/2021	St. Louis City	Unknown	171
 2/10/2021	St. Louis City	Unknown	125
 2/9/2021	St. Louis City	Unknown	142
 2/8/2021	St. Louis City	Unknown	108
@@ -46588,7 +46747,7 @@
 1/18/2021	St. Louis City	Unknown	125
 1/16/2021	St. Louis City	Unknown	34
 1/15/2021	St. Louis City	Unknown	103
-1/14/2021	St. Louis City	Unknown	142
+1/14/2021	St. Louis City	Unknown	141
 1/13/2021	St. Louis City	Unknown	121
 1/12/2021	St. Louis City	Unknown	126
 1/11/2021	St. Louis City	Unknown	122
@@ -46599,15 +46758,16 @@
 1/6/2021	St. Louis City	Unknown	64
 1/5/2021	St. Louis City	Unknown	58
 1/4/2021	St. Louis City	Unknown	107
-8/21/2021	St. Louis City	Not Hispanic or Latino	85
+8/22/2021	St. Louis City	Not Hispanic or Latino	18
+8/21/2021	St. Louis City	Not Hispanic or Latino	238
 8/20/2021	St. Louis City	Not Hispanic or Latino	267
-8/19/2021	St. Louis City	Not Hispanic or Latino	259
+8/19/2021	St. Louis City	Not Hispanic or Latino	260
 8/18/2021	St. Louis City	Not Hispanic or Latino	281
 8/17/2021	St. Louis City	Not Hispanic or Latino	357
 8/16/2021	St. Louis City	Not Hispanic or Latino	365
-8/15/2021	St. Louis City	Not Hispanic or Latino	170
+8/15/2021	St. Louis City	Not Hispanic or Latino	169
 8/14/2021	St. Louis City	Not Hispanic or Latino	283
-8/13/2021	St. Louis City	Not Hispanic or Latino	302
+8/13/2021	St. Louis City	Not Hispanic or Latino	303
 8/12/2021	St. Louis City	Not Hispanic or Latino	295
 8/11/2021	St. Louis City	Not Hispanic or Latino	290
 8/10/2021	St. Louis City	Not Hispanic or Latino	306
@@ -46714,7 +46874,7 @@
 5/1/2021	St. Louis City	Not Hispanic or Latino	605
 4/30/2021	St. Louis City	Not Hispanic or Latino	803
 4/29/2021	St. Louis City	Not Hispanic or Latino	1150
-4/28/2021	St. Louis City	Not Hispanic or Latino	1104
+4/28/2021	St. Louis City	Not Hispanic or Latino	1105
 4/27/2021	St. Louis City	Not Hispanic or Latino	983
 4/26/2021	St. Louis City	Not Hispanic or Latino	694
 4/25/2021	St. Louis City	Not Hispanic or Latino	167
@@ -46735,8 +46895,8 @@
 4/10/2021	St. Louis City	Not Hispanic or Latino	900
 4/9/2021	St. Louis City	Not Hispanic or Latino	1200
 4/8/2021	St. Louis City	Not Hispanic or Latino	1136
-4/7/2021	St. Louis City	Not Hispanic or Latino	1217
-4/6/2021	St. Louis City	Not Hispanic or Latino	1199
+4/7/2021	St. Louis City	Not Hispanic or Latino	1219
+4/6/2021	St. Louis City	Not Hispanic or Latino	1200
 4/5/2021	St. Louis City	Not Hispanic or Latino	790
 4/4/2021	St. Louis City	Not Hispanic or Latino	84
 4/3/2021	St. Louis City	Not Hispanic or Latino	1008
@@ -46749,7 +46909,7 @@
 3/27/2021	St. Louis City	Not Hispanic or Latino	1007
 3/26/2021	St. Louis City	Not Hispanic or Latino	2403
 3/25/2021	St. Louis City	Not Hispanic or Latino	2263
-3/24/2021	St. Louis City	Not Hispanic or Latino	725
+3/24/2021	St. Louis City	Not Hispanic or Latino	726
 3/23/2021	St. Louis City	Not Hispanic or Latino	589
 3/22/2021	St. Louis City	Not Hispanic or Latino	528
 3/21/2021	St. Louis City	Not Hispanic or Latino	110
@@ -46783,14 +46943,14 @@
 2/21/2021	St. Louis City	Not Hispanic or Latino	24
 2/20/2021	St. Louis City	Not Hispanic or Latino	928
 2/19/2021	St. Louis City	Not Hispanic or Latino	1219
-2/18/2021	St. Louis City	Not Hispanic or Latino	909
+2/18/2021	St. Louis City	Not Hispanic or Latino	910
 2/17/2021	St. Louis City	Not Hispanic or Latino	501
 2/16/2021	St. Louis City	Not Hispanic or Latino	416
 2/15/2021	St. Louis City	Not Hispanic or Latino	175
 2/14/2021	St. Louis City	Not Hispanic or Latino	51
 2/13/2021	St. Louis City	Not Hispanic or Latino	102
 2/12/2021	St. Louis City	Not Hispanic or Latino	598
-2/11/2021	St. Louis City	Not Hispanic or Latino	522
+2/11/2021	St. Louis City	Not Hispanic or Latino	523
 2/10/2021	St. Louis City	Not Hispanic or Latino	348
 2/9/2021	St. Louis City	Not Hispanic or Latino	331
 2/8/2021	St. Louis City	Not Hispanic or Latino	323
@@ -46807,7 +46967,7 @@
 1/28/2021	St. Louis City	Not Hispanic or Latino	165
 1/27/2021	St. Louis City	Not Hispanic or Latino	198
 1/26/2021	St. Louis City	Not Hispanic or Latino	302
-1/25/2021	St. Louis City	Not Hispanic or Latino	230
+1/25/2021	St. Louis City	Not Hispanic or Latino	231
 1/24/2021	St. Louis City	Not Hispanic or Latino	4
 1/23/2021	St. Louis City	Not Hispanic or Latino	79
 1/22/2021	St. Louis City	Not Hispanic or Latino	133
@@ -46817,7 +46977,7 @@
 1/18/2021	St. Louis City	Not Hispanic or Latino	247
 1/16/2021	St. Louis City	Not Hispanic or Latino	130
 1/15/2021	St. Louis City	Not Hispanic or Latino	236
-1/14/2021	St. Louis City	Not Hispanic or Latino	209
+1/14/2021	St. Louis City	Not Hispanic or Latino	210
 1/13/2021	St. Louis City	Not Hispanic or Latino	276
 1/12/2021	St. Louis City	Not Hispanic or Latino	231
 1/11/2021	St. Louis City	Not Hispanic or Latino	288
@@ -46838,7 +46998,8 @@
 12/17/2020	St. Louis City	Not Hispanic or Latino	2
 12/16/2020	St. Louis City	Not Hispanic or Latino	2
 12/15/2020	St. Louis City	Not Hispanic or Latino	1
-8/21/2021	St. Louis City	Hispanic or Latino	4
+8/22/2021	St. Louis City	Hispanic or Latino	4
+8/21/2021	St. Louis City	Hispanic or Latino	19
 8/20/2021	St. Louis City	Hispanic or Latino	23
 8/19/2021	St. Louis City	Hispanic or Latino	20
 8/18/2021	St. Louis City	Hispanic or Latino	30
@@ -46963,7 +47124,7 @@
 4/20/2021	St. Louis City	Hispanic or Latino	38
 4/19/2021	St. Louis City	Hispanic or Latino	40
 4/18/2021	St. Louis City	Hispanic or Latino	66
-4/17/2021	St. Louis City	Hispanic or Latino	86
+4/17/2021	St. Louis City	Hispanic or Latino	87
 4/16/2021	St. Louis City	Hispanic or Latino	60
 4/15/2021	St. Louis City	Hispanic or Latino	64
 4/14/2021	St. Louis City	Hispanic or Latino	53
@@ -47061,6 +47222,7 @@
 1/5/2021	St. Louis City	Hispanic or Latino	7
 12/22/2020	St. Louis City	Hispanic or Latino	1
 12/14/2020	St. Louis City	Hispanic or Latino	1
+8/21/2021	Ste. Genevieve	Unknown	2
 8/20/2021	Ste. Genevieve	Unknown	4
 8/19/2021	Ste. Genevieve	Unknown	1
 8/18/2021	Ste. Genevieve	Unknown	1
@@ -47186,7 +47348,7 @@
 1/13/2021	Ste. Genevieve	Unknown	5
 1/12/2021	Ste. Genevieve	Unknown	2
 1/11/2021	Ste. Genevieve	Unknown	1
-8/21/2021	Ste. Genevieve	Not Hispanic or Latino	2
+8/21/2021	Ste. Genevieve	Not Hispanic or Latino	10
 8/20/2021	Ste. Genevieve	Not Hispanic or Latino	21
 8/19/2021	Ste. Genevieve	Not Hispanic or Latino	21
 8/18/2021	Ste. Genevieve	Not Hispanic or Latino	20
@@ -47634,7 +47796,8 @@
 1/11/2021	Stoddard	Unknown	1
 1/8/2021	Stoddard	Unknown	12
 1/7/2021	Stoddard	Unknown	1
-8/21/2021	Stoddard	Not Hispanic or Latino	7
+8/22/2021	Stoddard	Not Hispanic or Latino	6
+8/21/2021	Stoddard	Not Hispanic or Latino	22
 8/20/2021	Stoddard	Not Hispanic or Latino	42
 8/19/2021	Stoddard	Not Hispanic or Latino	44
 8/18/2021	Stoddard	Not Hispanic or Latino	33
@@ -47712,7 +47875,7 @@
 6/6/2021	Stoddard	Not Hispanic or Latino	5
 6/5/2021	Stoddard	Not Hispanic or Latino	17
 6/4/2021	Stoddard	Not Hispanic or Latino	20
-6/3/2021	Stoddard	Not Hispanic or Latino	24
+6/3/2021	Stoddard	Not Hispanic or Latino	23
 6/2/2021	Stoddard	Not Hispanic or Latino	15
 6/1/2021	Stoddard	Not Hispanic or Latino	17
 5/31/2021	Stoddard	Not Hispanic or Latino	3
@@ -47859,6 +48022,7 @@
 1/4/2021	Stoddard	Not Hispanic or Latino	2
 1/1/2021	Stoddard	Not Hispanic or Latino	1
 12/28/2020	Stoddard	Not Hispanic or Latino	1
+8/22/2021	Stoddard	Hispanic or Latino	1
 8/21/2021	Stoddard	Hispanic or Latino	3
 8/20/2021	Stoddard	Hispanic or Latino	1
 8/19/2021	Stoddard	Hispanic or Latino	1
@@ -47963,6 +48127,7 @@
 2/1/2021	Stoddard	Hispanic or Latino	2
 1/29/2021	Stoddard	Hispanic or Latino	5
 1/21/2021	Stoddard	Hispanic or Latino	2
+8/22/2021	Stone	Unknown	1
 8/21/2021	Stone	Unknown	2
 8/20/2021	Stone	Unknown	2
 8/19/2021	Stone	Unknown	9
@@ -48134,7 +48299,7 @@
 1/21/2021	Stone	Unknown	1
 1/20/2021	Stone	Unknown	1
 1/18/2021	Stone	Unknown	1
-8/21/2021	Stone	Not Hispanic or Latino	7
+8/21/2021	Stone	Not Hispanic or Latino	25
 8/20/2021	Stone	Not Hispanic or Latino	26
 8/19/2021	Stone	Not Hispanic or Latino	25
 8/18/2021	Stone	Not Hispanic or Latino	26
@@ -48356,6 +48521,7 @@
 1/6/2021	Stone	Not Hispanic or Latino	1
 12/17/2020	Stone	Not Hispanic or Latino	2
 12/16/2020	Stone	Not Hispanic or Latino	4
+8/22/2021	Stone	Hispanic or Latino	1
 8/21/2021	Stone	Hispanic or Latino	1
 8/17/2021	Stone	Hispanic or Latino	4
 8/15/2021	Stone	Hispanic or Latino	1
@@ -48466,6 +48632,7 @@
 1/25/2021	Stone	Hispanic or Latino	1
 1/20/2021	Stone	Hispanic or Latino	1
 12/16/2020	Stone	Hispanic or Latino	1
+8/21/2021	Sullivan	Unknown	2
 8/20/2021	Sullivan	Unknown	1
 8/13/2021	Sullivan	Unknown	2
 8/12/2021	Sullivan	Unknown	2
@@ -48542,6 +48709,7 @@
 2/5/2021	Sullivan	Unknown	2
 1/13/2021	Sullivan	Unknown	1
 1/11/2021	Sullivan	Unknown	2
+8/21/2021	Sullivan	Not Hispanic or Latino	3
 8/20/2021	Sullivan	Not Hispanic or Latino	8
 8/19/2021	Sullivan	Not Hispanic or Latino	4
 8/18/2021	Sullivan	Not Hispanic or Latino	20
@@ -48705,7 +48873,7 @@
 1/13/2021	Sullivan	Not Hispanic or Latino	8
 1/11/2021	Sullivan	Not Hispanic or Latino	13
 1/9/2021	Sullivan	Not Hispanic or Latino	2
-8/21/2021	Sullivan	Hispanic or Latino	1
+8/21/2021	Sullivan	Hispanic or Latino	4
 8/20/2021	Sullivan	Hispanic or Latino	2
 8/18/2021	Sullivan	Hispanic or Latino	10
 8/17/2021	Sullivan	Hispanic or Latino	2
@@ -48795,7 +48963,7 @@
 2/15/2021	Sullivan	Hispanic or Latino	1
 2/12/2021	Sullivan	Hispanic or Latino	1
 2/10/2021	Sullivan	Hispanic or Latino	2
-8/21/2021	Taney	Unknown	3
+8/21/2021	Taney	Unknown	5
 8/20/2021	Taney	Unknown	23
 8/19/2021	Taney	Unknown	12
 8/18/2021	Taney	Unknown	23
@@ -48984,9 +49152,10 @@
 1/20/2021	Taney	Unknown	4
 1/12/2021	Taney	Unknown	1
 1/11/2021	Taney	Unknown	1
-8/21/2021	Taney	Not Hispanic or Latino	24
+8/22/2021	Taney	Not Hispanic or Latino	7
+8/21/2021	Taney	Not Hispanic or Latino	50
 8/20/2021	Taney	Not Hispanic or Latino	86
-8/19/2021	Taney	Not Hispanic or Latino	68
+8/19/2021	Taney	Not Hispanic or Latino	69
 8/18/2021	Taney	Not Hispanic or Latino	79
 8/17/2021	Taney	Not Hispanic or Latino	123
 8/16/2021	Taney	Not Hispanic or Latino	78
@@ -49145,7 +49314,7 @@
 3/16/2021	Taney	Not Hispanic or Latino	32
 3/15/2021	Taney	Not Hispanic or Latino	12
 3/14/2021	Taney	Not Hispanic or Latino	2
-3/13/2021	Taney	Not Hispanic or Latino	139
+3/13/2021	Taney	Not Hispanic or Latino	140
 3/12/2021	Taney	Not Hispanic or Latino	59
 3/11/2021	Taney	Not Hispanic or Latino	52
 3/10/2021	Taney	Not Hispanic or Latino	31
@@ -49212,7 +49381,7 @@
 12/17/2020	Taney	Not Hispanic or Latino	3
 12/16/2020	Taney	Not Hispanic or Latino	2
 12/14/2020	Taney	Not Hispanic or Latino	1
-8/21/2021	Taney	Hispanic or Latino	3
+8/21/2021	Taney	Hispanic or Latino	6
 8/20/2021	Taney	Hispanic or Latino	8
 8/19/2021	Taney	Hispanic or Latino	7
 8/18/2021	Taney	Hispanic or Latino	7
@@ -49388,6 +49557,7 @@
 1/19/2021	Taney	Hispanic or Latino	1
 1/15/2021	Taney	Hispanic or Latino	1
 1/11/2021	Taney	Hispanic or Latino	1
+8/22/2021	Texas	Unknown	2
 8/20/2021	Texas	Unknown	10
 8/19/2021	Texas	Unknown	1
 8/18/2021	Texas	Unknown	2
@@ -49520,8 +49690,9 @@
 1/21/2021	Texas	Unknown	4
 1/20/2021	Texas	Unknown	3
 1/11/2021	Texas	Unknown	1
-8/21/2021	Texas	Not Hispanic or Latino	17
-8/20/2021	Texas	Not Hispanic or Latino	52
+8/22/2021	Texas	Not Hispanic or Latino	7
+8/21/2021	Texas	Not Hispanic or Latino	30
+8/20/2021	Texas	Not Hispanic or Latino	54
 8/19/2021	Texas	Not Hispanic or Latino	38
 8/18/2021	Texas	Not Hispanic or Latino	34
 8/17/2021	Texas	Not Hispanic or Latino	61
@@ -49940,7 +50111,8 @@
 1/14/2021	Vernon	Unknown	1
 1/13/2021	Vernon	Unknown	1
 1/6/2021	Vernon	Unknown	1
-8/21/2021	Vernon	Not Hispanic or Latino	8
+8/22/2021	Vernon	Not Hispanic or Latino	3
+8/21/2021	Vernon	Not Hispanic or Latino	9
 8/20/2021	Vernon	Not Hispanic or Latino	12
 8/19/2021	Vernon	Not Hispanic or Latino	7
 8/18/2021	Vernon	Not Hispanic or Latino	19
@@ -50146,6 +50318,7 @@
 1/6/2021	Vernon	Not Hispanic or Latino	11
 12/18/2020	Vernon	Not Hispanic or Latino	1
 12/16/2020	Vernon	Not Hispanic or Latino	1
+8/22/2021	Vernon	Hispanic or Latino	1
 8/21/2021	Vernon	Hispanic or Latino	2
 8/16/2021	Vernon	Hispanic or Latino	1
 8/12/2021	Vernon	Hispanic or Latino	1
@@ -50223,6 +50396,8 @@
 2/3/2021	Vernon	Hispanic or Latino	1
 1/27/2021	Vernon	Hispanic or Latino	1
 1/26/2021	Vernon	Hispanic or Latino	1
+8/22/2021	Warren	Unknown	2
+8/21/2021	Warren	Unknown	1
 8/20/2021	Warren	Unknown	5
 8/19/2021	Warren	Unknown	4
 8/18/2021	Warren	Unknown	2
@@ -50421,7 +50596,8 @@
 1/5/2021	Warren	Unknown	4
 1/4/2021	Warren	Unknown	3
 12/24/2020	Warren	Unknown	1
-8/21/2021	Warren	Not Hispanic or Latino	8
+8/22/2021	Warren	Not Hispanic or Latino	2
+8/21/2021	Warren	Not Hispanic or Latino	23
 8/20/2021	Warren	Not Hispanic or Latino	39
 8/19/2021	Warren	Not Hispanic or Latino	28
 8/18/2021	Warren	Not Hispanic or Latino	21
@@ -50646,6 +50822,8 @@
 1/6/2021	Warren	Not Hispanic or Latino	20
 1/5/2021	Warren	Not Hispanic or Latino	7
 1/4/2021	Warren	Not Hispanic or Latino	7
+8/22/2021	Warren	Hispanic or Latino	1
+8/21/2021	Warren	Hispanic or Latino	1
 8/20/2021	Warren	Hispanic or Latino	4
 8/19/2021	Warren	Hispanic or Latino	2
 8/17/2021	Warren	Hispanic or Latino	1
@@ -50780,7 +50958,7 @@
 1/11/2021	Warren	Hispanic or Latino	6
 8/21/2021	Washington	Unknown	2
 8/20/2021	Washington	Unknown	2
-8/19/2021	Washington	Unknown	16
+8/19/2021	Washington	Unknown	21
 8/18/2021	Washington	Unknown	1
 8/16/2021	Washington	Unknown	1
 8/14/2021	Washington	Unknown	4
@@ -50911,9 +51089,10 @@
 1/13/2021	Washington	Unknown	2
 1/8/2021	Washington	Unknown	3
 1/4/2021	Washington	Unknown	1
-8/21/2021	Washington	Not Hispanic or Latino	10
+8/22/2021	Washington	Not Hispanic or Latino	2
+8/21/2021	Washington	Not Hispanic or Latino	16
 8/20/2021	Washington	Not Hispanic or Latino	44
-8/19/2021	Washington	Not Hispanic or Latino	23
+8/19/2021	Washington	Not Hispanic or Latino	24
 8/18/2021	Washington	Not Hispanic or Latino	14
 8/17/2021	Washington	Not Hispanic or Latino	8
 8/16/2021	Washington	Not Hispanic or Latino	18
@@ -51344,7 +51523,7 @@
 1/21/2021	Wayne	Unknown	1
 1/18/2021	Wayne	Unknown	1
 1/12/2021	Wayne	Unknown	1
-8/21/2021	Wayne	Not Hispanic or Latino	5
+8/21/2021	Wayne	Not Hispanic or Latino	8
 8/20/2021	Wayne	Not Hispanic or Latino	19
 8/19/2021	Wayne	Not Hispanic or Latino	15
 8/18/2021	Wayne	Not Hispanic or Latino	19
@@ -51801,7 +51980,8 @@
 1/22/2021	Webster	Unknown	1
 1/21/2021	Webster	Unknown	3
 1/20/2021	Webster	Unknown	1
-8/21/2021	Webster	Not Hispanic or Latino	13
+8/22/2021	Webster	Not Hispanic or Latino	8
+8/21/2021	Webster	Not Hispanic or Latino	33
 8/20/2021	Webster	Not Hispanic or Latino	68
 8/19/2021	Webster	Not Hispanic or Latino	70
 8/18/2021	Webster	Not Hispanic or Latino	60
@@ -52226,7 +52406,7 @@
 2/2/2021	Worth	Unknown	3
 1/30/2021	Worth	Unknown	1
 1/27/2021	Worth	Unknown	1
-8/21/2021	Worth	Not Hispanic or Latino	1
+8/21/2021	Worth	Not Hispanic or Latino	2
 8/20/2021	Worth	Not Hispanic or Latino	2
 8/17/2021	Worth	Not Hispanic or Latino	1
 8/14/2021	Worth	Not Hispanic or Latino	2
@@ -52471,7 +52651,8 @@
 1/26/2021	Wright	Unknown	1
 1/25/2021	Wright	Unknown	1
 1/20/2021	Wright	Unknown	3
-8/21/2021	Wright	Not Hispanic or Latino	13
+8/22/2021	Wright	Not Hispanic or Latino	9
+8/21/2021	Wright	Not Hispanic or Latino	25
 8/20/2021	Wright	Not Hispanic or Latino	45
 8/19/2021	Wright	Not Hispanic or Latino	45
 8/18/2021	Wright	Not Hispanic or Latino	53
@@ -52774,10 +52955,11 @@
 2/1/2021	Wright	Hispanic or Latino	1
 1/28/2021	Wright	Hispanic or Latino	1
 1/27/2021	Wright	Hispanic or Latino	1
-8/21/2021	Unknown Jurisdiction	Unknown	14
+8/22/2021	Unknown Jurisdiction	Unknown	4
+8/21/2021	Unknown Jurisdiction	Unknown	20
 8/20/2021	Unknown Jurisdiction	Unknown	42
 8/19/2021	Unknown Jurisdiction	Unknown	33
-8/18/2021	Unknown Jurisdiction	Unknown	32
+8/18/2021	Unknown Jurisdiction	Unknown	33
 8/17/2021	Unknown Jurisdiction	Unknown	29
 8/16/2021	Unknown Jurisdiction	Unknown	36
 8/15/2021	Unknown Jurisdiction	Unknown	3
@@ -52893,7 +53075,7 @@
 4/27/2021	Unknown Jurisdiction	Unknown	152
 4/26/2021	Unknown Jurisdiction	Unknown	80
 4/25/2021	Unknown Jurisdiction	Unknown	9
-4/24/2021	Unknown Jurisdiction	Unknown	176
+4/24/2021	Unknown Jurisdiction	Unknown	175
 4/23/2021	Unknown Jurisdiction	Unknown	124
 4/22/2021	Unknown Jurisdiction	Unknown	120
 4/21/2021	Unknown Jurisdiction	Unknown	132
@@ -52908,14 +53090,14 @@
 4/12/2021	Unknown Jurisdiction	Unknown	223
 4/11/2021	Unknown Jurisdiction	Unknown	12
 4/10/2021	Unknown Jurisdiction	Unknown	78
-4/9/2021	Unknown Jurisdiction	Unknown	400
-4/8/2021	Unknown Jurisdiction	Unknown	209
+4/9/2021	Unknown Jurisdiction	Unknown	403
+4/8/2021	Unknown Jurisdiction	Unknown	208
 4/7/2021	Unknown Jurisdiction	Unknown	150
-4/6/2021	Unknown Jurisdiction	Unknown	102
+4/6/2021	Unknown Jurisdiction	Unknown	100
 4/5/2021	Unknown Jurisdiction	Unknown	79
 4/4/2021	Unknown Jurisdiction	Unknown	4
 4/3/2021	Unknown Jurisdiction	Unknown	41
-4/2/2021	Unknown Jurisdiction	Unknown	347
+4/2/2021	Unknown Jurisdiction	Unknown	344
 4/1/2021	Unknown Jurisdiction	Unknown	263
 3/31/2021	Unknown Jurisdiction	Unknown	209
 3/30/2021	Unknown Jurisdiction	Unknown	203
@@ -52928,10 +53110,10 @@
 3/23/2021	Unknown Jurisdiction	Unknown	75
 3/22/2021	Unknown Jurisdiction	Unknown	35
 3/21/2021	Unknown Jurisdiction	Unknown	13
-3/20/2021	Unknown Jurisdiction	Unknown	35
+3/20/2021	Unknown Jurisdiction	Unknown	36
 3/19/2021	Unknown Jurisdiction	Unknown	85
 3/18/2021	Unknown Jurisdiction	Unknown	126
-3/17/2021	Unknown Jurisdiction	Unknown	215
+3/17/2021	Unknown Jurisdiction	Unknown	216
 3/16/2021	Unknown Jurisdiction	Unknown	190
 3/15/2021	Unknown Jurisdiction	Unknown	65
 3/14/2021	Unknown Jurisdiction	Unknown	9
@@ -52953,11 +53135,11 @@
 2/26/2021	Unknown Jurisdiction	Unknown	426
 2/25/2021	Unknown Jurisdiction	Unknown	294
 2/24/2021	Unknown Jurisdiction	Unknown	104
-2/23/2021	Unknown Jurisdiction	Unknown	541
+2/23/2021	Unknown Jurisdiction	Unknown	540
 2/22/2021	Unknown Jurisdiction	Unknown	135
 2/21/2021	Unknown Jurisdiction	Unknown	2
 2/20/2021	Unknown Jurisdiction	Unknown	16
-2/19/2021	Unknown Jurisdiction	Unknown	228
+2/19/2021	Unknown Jurisdiction	Unknown	227
 2/18/2021	Unknown Jurisdiction	Unknown	169
 2/17/2021	Unknown Jurisdiction	Unknown	200
 2/16/2021	Unknown Jurisdiction	Unknown	154
@@ -52966,7 +53148,7 @@
 2/13/2021	Unknown Jurisdiction	Unknown	15
 2/12/2021	Unknown Jurisdiction	Unknown	128
 2/11/2021	Unknown Jurisdiction	Unknown	145
-2/10/2021	Unknown Jurisdiction	Unknown	74
+2/10/2021	Unknown Jurisdiction	Unknown	75
 2/9/2021	Unknown Jurisdiction	Unknown	83
 2/8/2021	Unknown Jurisdiction	Unknown	96
 2/6/2021	Unknown Jurisdiction	Unknown	3
@@ -52994,20 +53176,21 @@
 1/12/2021	Unknown Jurisdiction	Unknown	57
 1/11/2021	Unknown Jurisdiction	Unknown	56
 1/10/2021	Unknown Jurisdiction	Unknown	2
-1/9/2021	Unknown Jurisdiction	Unknown	40
-1/8/2021	Unknown Jurisdiction	Unknown	99
+1/9/2021	Unknown Jurisdiction	Unknown	39
+1/8/2021	Unknown Jurisdiction	Unknown	98
 1/7/2021	Unknown Jurisdiction	Unknown	72
 1/6/2021	Unknown Jurisdiction	Unknown	29
 1/5/2021	Unknown Jurisdiction	Unknown	26
 1/4/2021	Unknown Jurisdiction	Unknown	31
 12/23/2020	Unknown Jurisdiction	Unknown	1
 12/18/2020	Unknown Jurisdiction	Unknown	1
-8/21/2021	Unknown Jurisdiction	Not Hispanic or Latino	29
-8/20/2021	Unknown Jurisdiction	Not Hispanic or Latino	374
-8/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	243
-8/18/2021	Unknown Jurisdiction	Not Hispanic or Latino	255
+8/22/2021	Unknown Jurisdiction	Not Hispanic or Latino	5
+8/21/2021	Unknown Jurisdiction	Not Hispanic or Latino	86
+8/20/2021	Unknown Jurisdiction	Not Hispanic or Latino	375
+8/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	247
+8/18/2021	Unknown Jurisdiction	Not Hispanic or Latino	268
 8/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	286
-8/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	236
+8/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	237
 8/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	46
 8/14/2021	Unknown Jurisdiction	Not Hispanic or Latino	78
 8/13/2021	Unknown Jurisdiction	Not Hispanic or Latino	262
@@ -53020,7 +53203,7 @@
 8/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	182
 8/5/2021	Unknown Jurisdiction	Not Hispanic or Latino	197
 8/4/2021	Unknown Jurisdiction	Not Hispanic or Latino	210
-8/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	148
+8/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	149
 8/2/2021	Unknown Jurisdiction	Not Hispanic or Latino	154
 8/1/2021	Unknown Jurisdiction	Not Hispanic or Latino	37
 7/31/2021	Unknown Jurisdiction	Not Hispanic or Latino	79
@@ -53063,14 +53246,14 @@
 6/24/2021	Unknown Jurisdiction	Not Hispanic or Latino	129
 6/23/2021	Unknown Jurisdiction	Not Hispanic or Latino	121
 6/22/2021	Unknown Jurisdiction	Not Hispanic or Latino	131
-6/21/2021	Unknown Jurisdiction	Not Hispanic or Latino	86
+6/21/2021	Unknown Jurisdiction	Not Hispanic or Latino	87
 6/20/2021	Unknown Jurisdiction	Not Hispanic or Latino	32
 6/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	63
 6/18/2021	Unknown Jurisdiction	Not Hispanic or Latino	118
-6/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	262
+6/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	263
 6/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	127
-6/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	195
-6/14/2021	Unknown Jurisdiction	Not Hispanic or Latino	146
+6/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	196
+6/14/2021	Unknown Jurisdiction	Not Hispanic or Latino	147
 6/13/2021	Unknown Jurisdiction	Not Hispanic or Latino	59
 6/12/2021	Unknown Jurisdiction	Not Hispanic or Latino	140
 6/11/2021	Unknown Jurisdiction	Not Hispanic or Latino	179
@@ -53109,7 +53292,7 @@
 5/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	35
 5/8/2021	Unknown Jurisdiction	Not Hispanic or Latino	212
 5/7/2021	Unknown Jurisdiction	Not Hispanic or Latino	508
-5/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	498
+5/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	499
 5/5/2021	Unknown Jurisdiction	Not Hispanic or Latino	311
 5/4/2021	Unknown Jurisdiction	Not Hispanic or Latino	522
 5/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	394
@@ -53129,43 +53312,43 @@
 4/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	519
 4/18/2021	Unknown Jurisdiction	Not Hispanic or Latino	55
 4/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	720
-4/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	1013
-4/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	957
+4/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	1014
+4/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	959
 4/14/2021	Unknown Jurisdiction	Not Hispanic or Latino	1171
 4/13/2021	Unknown Jurisdiction	Not Hispanic or Latino	1110
 4/12/2021	Unknown Jurisdiction	Not Hispanic or Latino	690
 4/11/2021	Unknown Jurisdiction	Not Hispanic or Latino	432
 4/10/2021	Unknown Jurisdiction	Not Hispanic or Latino	425
-4/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	1263
+4/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	1262
 4/8/2021	Unknown Jurisdiction	Not Hispanic or Latino	1069
-4/7/2021	Unknown Jurisdiction	Not Hispanic or Latino	703
-4/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	737
+4/7/2021	Unknown Jurisdiction	Not Hispanic or Latino	702
+4/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	736
 4/5/2021	Unknown Jurisdiction	Not Hispanic or Latino	693
 4/4/2021	Unknown Jurisdiction	Not Hispanic or Latino	9
 4/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	461
-4/2/2021	Unknown Jurisdiction	Not Hispanic or Latino	1322
+4/2/2021	Unknown Jurisdiction	Not Hispanic or Latino	1321
 4/1/2021	Unknown Jurisdiction	Not Hispanic or Latino	1291
-3/31/2021	Unknown Jurisdiction	Not Hispanic or Latino	1180
+3/31/2021	Unknown Jurisdiction	Not Hispanic or Latino	1181
 3/30/2021	Unknown Jurisdiction	Not Hispanic or Latino	858
-3/29/2021	Unknown Jurisdiction	Not Hispanic or Latino	1383
+3/29/2021	Unknown Jurisdiction	Not Hispanic or Latino	1382
 3/28/2021	Unknown Jurisdiction	Not Hispanic or Latino	777
 3/27/2021	Unknown Jurisdiction	Not Hispanic or Latino	272
 3/26/2021	Unknown Jurisdiction	Not Hispanic or Latino	1125
 3/25/2021	Unknown Jurisdiction	Not Hispanic or Latino	768
 3/24/2021	Unknown Jurisdiction	Not Hispanic or Latino	731
-3/23/2021	Unknown Jurisdiction	Not Hispanic or Latino	1416
+3/23/2021	Unknown Jurisdiction	Not Hispanic or Latino	1417
 3/22/2021	Unknown Jurisdiction	Not Hispanic or Latino	472
 3/21/2021	Unknown Jurisdiction	Not Hispanic or Latino	43
 3/20/2021	Unknown Jurisdiction	Not Hispanic or Latino	274
-3/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	1253
+3/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	1254
 3/18/2021	Unknown Jurisdiction	Not Hispanic or Latino	1060
-3/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	1943
+3/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	1944
 3/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	1557
 3/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	924
 3/14/2021	Unknown Jurisdiction	Not Hispanic or Latino	28
-3/13/2021	Unknown Jurisdiction	Not Hispanic or Latino	1579
+3/13/2021	Unknown Jurisdiction	Not Hispanic or Latino	1578
 3/12/2021	Unknown Jurisdiction	Not Hispanic or Latino	537
-3/11/2021	Unknown Jurisdiction	Not Hispanic or Latino	948
+3/11/2021	Unknown Jurisdiction	Not Hispanic or Latino	951
 3/10/2021	Unknown Jurisdiction	Not Hispanic or Latino	404
 3/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	738
 3/8/2021	Unknown Jurisdiction	Not Hispanic or Latino	324
@@ -53173,36 +53356,36 @@
 3/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	1762
 3/5/2021	Unknown Jurisdiction	Not Hispanic or Latino	360
 3/4/2021	Unknown Jurisdiction	Not Hispanic or Latino	582
-3/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	346
+3/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	347
 3/2/2021	Unknown Jurisdiction	Not Hispanic or Latino	276
 3/1/2021	Unknown Jurisdiction	Not Hispanic or Latino	203
 2/28/2021	Unknown Jurisdiction	Not Hispanic or Latino	104
 2/27/2021	Unknown Jurisdiction	Not Hispanic or Latino	703
-2/26/2021	Unknown Jurisdiction	Not Hispanic or Latino	3025
+2/26/2021	Unknown Jurisdiction	Not Hispanic or Latino	3023
 2/25/2021	Unknown Jurisdiction	Not Hispanic or Latino	970
 2/24/2021	Unknown Jurisdiction	Not Hispanic or Latino	422
-2/23/2021	Unknown Jurisdiction	Not Hispanic or Latino	1825
+2/23/2021	Unknown Jurisdiction	Not Hispanic or Latino	1826
 2/22/2021	Unknown Jurisdiction	Not Hispanic or Latino	1208
 2/21/2021	Unknown Jurisdiction	Not Hispanic or Latino	20
-2/20/2021	Unknown Jurisdiction	Not Hispanic or Latino	132
-2/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	538
+2/20/2021	Unknown Jurisdiction	Not Hispanic or Latino	133
+2/19/2021	Unknown Jurisdiction	Not Hispanic or Latino	539
 2/18/2021	Unknown Jurisdiction	Not Hispanic or Latino	451
 2/17/2021	Unknown Jurisdiction	Not Hispanic or Latino	434
 2/16/2021	Unknown Jurisdiction	Not Hispanic or Latino	320
 2/15/2021	Unknown Jurisdiction	Not Hispanic or Latino	271
 2/14/2021	Unknown Jurisdiction	Not Hispanic or Latino	107
 2/13/2021	Unknown Jurisdiction	Not Hispanic or Latino	168
-2/12/2021	Unknown Jurisdiction	Not Hispanic or Latino	421
+2/12/2021	Unknown Jurisdiction	Not Hispanic or Latino	424
 2/11/2021	Unknown Jurisdiction	Not Hispanic or Latino	331
 2/10/2021	Unknown Jurisdiction	Not Hispanic or Latino	253
 2/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	223
 2/8/2021	Unknown Jurisdiction	Not Hispanic or Latino	212
 2/7/2021	Unknown Jurisdiction	Not Hispanic or Latino	2
-2/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	15
+2/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	17
 2/5/2021	Unknown Jurisdiction	Not Hispanic or Latino	250
 2/4/2021	Unknown Jurisdiction	Not Hispanic or Latino	170
-2/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	317
-2/2/2021	Unknown Jurisdiction	Not Hispanic or Latino	208
+2/3/2021	Unknown Jurisdiction	Not Hispanic or Latino	318
+2/2/2021	Unknown Jurisdiction	Not Hispanic or Latino	209
 2/1/2021	Unknown Jurisdiction	Not Hispanic or Latino	189
 1/31/2021	Unknown Jurisdiction	Not Hispanic or Latino	33
 1/30/2021	Unknown Jurisdiction	Not Hispanic or Latino	11
@@ -53226,8 +53409,8 @@
 1/12/2021	Unknown Jurisdiction	Not Hispanic or Latino	95
 1/11/2021	Unknown Jurisdiction	Not Hispanic or Latino	85
 1/10/2021	Unknown Jurisdiction	Not Hispanic or Latino	13
-1/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	30
-1/8/2021	Unknown Jurisdiction	Not Hispanic or Latino	69
+1/9/2021	Unknown Jurisdiction	Not Hispanic or Latino	31
+1/8/2021	Unknown Jurisdiction	Not Hispanic or Latino	70
 1/7/2021	Unknown Jurisdiction	Not Hispanic or Latino	62
 1/6/2021	Unknown Jurisdiction	Not Hispanic or Latino	31
 1/5/2021	Unknown Jurisdiction	Not Hispanic or Latino	27
@@ -53237,7 +53420,7 @@
 12/24/2020	Unknown Jurisdiction	Not Hispanic or Latino	1
 12/23/2020	Unknown Jurisdiction	Not Hispanic or Latino	1
 12/17/2020	Unknown Jurisdiction	Not Hispanic or Latino	1
-8/21/2021	Unknown Jurisdiction	Hispanic or Latino	2
+8/21/2021	Unknown Jurisdiction	Hispanic or Latino	6
 8/20/2021	Unknown Jurisdiction	Hispanic or Latino	14
 8/19/2021	Unknown Jurisdiction	Hispanic or Latino	9
 8/18/2021	Unknown Jurisdiction	Hispanic or Latino	13
@@ -53354,7 +53537,7 @@
 4/27/2021	Unknown Jurisdiction	Hispanic or Latino	51
 4/26/2021	Unknown Jurisdiction	Hispanic or Latino	32
 4/25/2021	Unknown Jurisdiction	Hispanic or Latino	1
-4/24/2021	Unknown Jurisdiction	Hispanic or Latino	128
+4/24/2021	Unknown Jurisdiction	Hispanic or Latino	129
 4/23/2021	Unknown Jurisdiction	Hispanic or Latino	55
 4/22/2021	Unknown Jurisdiction	Hispanic or Latino	48
 4/21/2021	Unknown Jurisdiction	Hispanic or Latino	33
@@ -53376,7 +53559,7 @@
 4/5/2021	Unknown Jurisdiction	Hispanic or Latino	24
 4/3/2021	Unknown Jurisdiction	Hispanic or Latino	26
 4/2/2021	Unknown Jurisdiction	Hispanic or Latino	39
-4/1/2021	Unknown Jurisdiction	Hispanic or Latino	56
+4/1/2021	Unknown Jurisdiction	Hispanic or Latino	57
 3/31/2021	Unknown Jurisdiction	Hispanic or Latino	45
 3/30/2021	Unknown Jurisdiction	Hispanic or Latino	28
 3/29/2021	Unknown Jurisdiction	Hispanic or Latino	37
@@ -53395,7 +53578,7 @@
 3/16/2021	Unknown Jurisdiction	Hispanic or Latino	30
 3/15/2021	Unknown Jurisdiction	Hispanic or Latino	22
 3/14/2021	Unknown Jurisdiction	Hispanic or Latino	1
-3/13/2021	Unknown Jurisdiction	Hispanic or Latino	16
+3/13/2021	Unknown Jurisdiction	Hispanic or Latino	17
 3/12/2021	Unknown Jurisdiction	Hispanic or Latino	202
 3/11/2021	Unknown Jurisdiction	Hispanic or Latino	167
 3/10/2021	Unknown Jurisdiction	Hispanic or Latino	15
@@ -53415,7 +53598,7 @@
 2/22/2021	Unknown Jurisdiction	Hispanic or Latino	10
 2/21/2021	Unknown Jurisdiction	Hispanic or Latino	3
 2/20/2021	Unknown Jurisdiction	Hispanic or Latino	4
-2/19/2021	Unknown Jurisdiction	Hispanic or Latino	8
+2/19/2021	Unknown Jurisdiction	Hispanic or Latino	9
 2/18/2021	Unknown Jurisdiction	Hispanic or Latino	5
 2/17/2021	Unknown Jurisdiction	Hispanic or Latino	6
 2/16/2021	Unknown Jurisdiction	Hispanic or Latino	8
@@ -53447,9 +53630,10 @@
 1/8/2021	Unknown Jurisdiction	Hispanic or Latino	1
 1/7/2021	Unknown Jurisdiction	Hispanic or Latino	1
 1/5/2021	Unknown Jurisdiction	Hispanic or Latino	1
-8/21/2021	Unknown State	Unknown	1
+8/22/2021	Unknown State	Unknown	3
+8/21/2021	Unknown State	Unknown	4
 8/20/2021	Unknown State	Unknown	40
-8/19/2021	Unknown State	Unknown	45
+8/19/2021	Unknown State	Unknown	47
 8/18/2021	Unknown State	Unknown	52
 8/17/2021	Unknown State	Unknown	33
 8/16/2021	Unknown State	Unknown	29
@@ -53489,7 +53673,7 @@
 7/11/2021	Unknown State	Unknown	1
 7/10/2021	Unknown State	Unknown	6
 7/9/2021	Unknown State	Unknown	50
-7/8/2021	Unknown State	Unknown	49
+7/8/2021	Unknown State	Unknown	48
 7/7/2021	Unknown State	Unknown	36
 7/6/2021	Unknown State	Unknown	37
 7/5/2021	Unknown State	Unknown	5
@@ -53545,7 +53729,7 @@
 5/14/2021	Unknown State	Unknown	157
 5/13/2021	Unknown State	Unknown	132
 5/12/2021	Unknown State	Unknown	170
-5/11/2021	Unknown State	Unknown	304
+5/11/2021	Unknown State	Unknown	303
 5/10/2021	Unknown State	Unknown	130
 5/9/2021	Unknown State	Unknown	2
 5/8/2021	Unknown State	Unknown	50
@@ -53569,7 +53753,7 @@
 4/20/2021	Unknown State	Unknown	210
 4/19/2021	Unknown State	Unknown	307
 4/18/2021	Unknown State	Unknown	21
-4/17/2021	Unknown State	Unknown	77
+4/17/2021	Unknown State	Unknown	76
 4/16/2021	Unknown State	Unknown	390
 4/15/2021	Unknown State	Unknown	553
 4/14/2021	Unknown State	Unknown	739
@@ -53583,14 +53767,14 @@
 4/6/2021	Unknown State	Unknown	716
 4/5/2021	Unknown State	Unknown	414
 4/4/2021	Unknown State	Unknown	2
-4/3/2021	Unknown State	Unknown	79
+4/3/2021	Unknown State	Unknown	78
 4/2/2021	Unknown State	Unknown	509
 4/1/2021	Unknown State	Unknown	419
 3/31/2021	Unknown State	Unknown	274
-3/30/2021	Unknown State	Unknown	859
+3/30/2021	Unknown State	Unknown	858
 3/29/2021	Unknown State	Unknown	572
 3/28/2021	Unknown State	Unknown	128
-3/27/2021	Unknown State	Unknown	387
+3/27/2021	Unknown State	Unknown	386
 3/26/2021	Unknown State	Unknown	984
 3/25/2021	Unknown State	Unknown	1067
 3/24/2021	Unknown State	Unknown	299
@@ -53600,7 +53784,7 @@
 3/20/2021	Unknown State	Unknown	153
 3/19/2021	Unknown State	Unknown	221
 3/18/2021	Unknown State	Unknown	360
-3/17/2021	Unknown State	Unknown	414
+3/17/2021	Unknown State	Unknown	413
 3/16/2021	Unknown State	Unknown	99
 3/15/2021	Unknown State	Unknown	74
 3/14/2021	Unknown State	Unknown	103
@@ -53615,14 +53799,14 @@
 3/5/2021	Unknown State	Unknown	329
 3/4/2021	Unknown State	Unknown	519
 3/3/2021	Unknown State	Unknown	445
-3/2/2021	Unknown State	Unknown	244
+3/2/2021	Unknown State	Unknown	243
 3/1/2021	Unknown State	Unknown	179
 2/28/2021	Unknown State	Unknown	2
 2/27/2021	Unknown State	Unknown	331
 2/26/2021	Unknown State	Unknown	788
-2/25/2021	Unknown State	Unknown	569
+2/25/2021	Unknown State	Unknown	568
 2/24/2021	Unknown State	Unknown	515
-2/23/2021	Unknown State	Unknown	556
+2/23/2021	Unknown State	Unknown	555
 2/22/2021	Unknown State	Unknown	254
 2/21/2021	Unknown State	Unknown	4
 2/20/2021	Unknown State	Unknown	42
@@ -53656,7 +53840,7 @@
 1/23/2021	Unknown State	Unknown	14
 1/22/2021	Unknown State	Unknown	136
 1/21/2021	Unknown State	Unknown	104
-1/20/2021	Unknown State	Unknown	177
+1/20/2021	Unknown State	Unknown	176
 1/19/2021	Unknown State	Unknown	188
 1/18/2021	Unknown State	Unknown	85
 1/17/2021	Unknown State	Unknown	9
@@ -53676,9 +53860,10 @@
 12/30/2020	Unknown State	Unknown	1
 12/28/2020	Unknown State	Unknown	1
 12/17/2020	Unknown State	Unknown	3
-8/21/2021	Unknown State	Not Hispanic or Latino	15
+8/22/2021	Unknown State	Not Hispanic or Latino	5
+8/21/2021	Unknown State	Not Hispanic or Latino	25
 8/20/2021	Unknown State	Not Hispanic or Latino	60
-8/19/2021	Unknown State	Not Hispanic or Latino	70
+8/19/2021	Unknown State	Not Hispanic or Latino	72
 8/18/2021	Unknown State	Not Hispanic or Latino	62
 8/17/2021	Unknown State	Not Hispanic or Latino	63
 8/16/2021	Unknown State	Not Hispanic or Latino	36
@@ -53741,14 +53926,14 @@
 6/20/2021	Unknown State	Not Hispanic or Latino	10
 6/19/2021	Unknown State	Not Hispanic or Latino	15
 6/18/2021	Unknown State	Not Hispanic or Latino	51
-6/17/2021	Unknown State	Not Hispanic or Latino	79
+6/17/2021	Unknown State	Not Hispanic or Latino	80
 6/16/2021	Unknown State	Not Hispanic or Latino	45
 6/15/2021	Unknown State	Not Hispanic or Latino	68
 6/14/2021	Unknown State	Not Hispanic or Latino	59
 6/13/2021	Unknown State	Not Hispanic or Latino	11
 6/12/2021	Unknown State	Not Hispanic or Latino	48
 6/11/2021	Unknown State	Not Hispanic or Latino	85
-6/10/2021	Unknown State	Not Hispanic or Latino	91
+6/10/2021	Unknown State	Not Hispanic or Latino	92
 6/9/2021	Unknown State	Not Hispanic or Latino	107
 6/8/2021	Unknown State	Not Hispanic or Latino	119
 6/7/2021	Unknown State	Not Hispanic or Latino	115
@@ -53791,8 +53976,8 @@
 5/1/2021	Unknown State	Not Hispanic or Latino	1105
 4/30/2021	Unknown State	Not Hispanic or Latino	1492
 4/29/2021	Unknown State	Not Hispanic or Latino	2450
-4/28/2021	Unknown State	Not Hispanic or Latino	2013
-4/27/2021	Unknown State	Not Hispanic or Latino	1808
+4/28/2021	Unknown State	Not Hispanic or Latino	2012
+4/27/2021	Unknown State	Not Hispanic or Latino	1807
 4/26/2021	Unknown State	Not Hispanic or Latino	239
 4/25/2021	Unknown State	Not Hispanic or Latino	36
 4/24/2021	Unknown State	Not Hispanic or Latino	200
@@ -53810,25 +53995,25 @@
 4/12/2021	Unknown State	Not Hispanic or Latino	1000
 4/11/2021	Unknown State	Not Hispanic or Latino	36
 4/10/2021	Unknown State	Not Hispanic or Latino	537
-4/9/2021	Unknown State	Not Hispanic or Latino	5210
-4/8/2021	Unknown State	Not Hispanic or Latino	3114
-4/7/2021	Unknown State	Not Hispanic or Latino	1729
-4/6/2021	Unknown State	Not Hispanic or Latino	1608
+4/9/2021	Unknown State	Not Hispanic or Latino	5208
+4/8/2021	Unknown State	Not Hispanic or Latino	3113
+4/7/2021	Unknown State	Not Hispanic or Latino	1727
+4/6/2021	Unknown State	Not Hispanic or Latino	1607
 4/5/2021	Unknown State	Not Hispanic or Latino	1026
 4/4/2021	Unknown State	Not Hispanic or Latino	11
 4/3/2021	Unknown State	Not Hispanic or Latino	514
-4/2/2021	Unknown State	Not Hispanic or Latino	1163
+4/2/2021	Unknown State	Not Hispanic or Latino	1162
 4/1/2021	Unknown State	Not Hispanic or Latino	674
-3/31/2021	Unknown State	Not Hispanic or Latino	1090
+3/31/2021	Unknown State	Not Hispanic or Latino	1089
 3/30/2021	Unknown State	Not Hispanic or Latino	1538
 3/29/2021	Unknown State	Not Hispanic or Latino	804
 3/28/2021	Unknown State	Not Hispanic or Latino	40
-3/27/2021	Unknown State	Not Hispanic or Latino	369
+3/27/2021	Unknown State	Not Hispanic or Latino	368
 3/26/2021	Unknown State	Not Hispanic or Latino	1211
 3/25/2021	Unknown State	Not Hispanic or Latino	1360
-3/24/2021	Unknown State	Not Hispanic or Latino	1326
+3/24/2021	Unknown State	Not Hispanic or Latino	1324
 3/23/2021	Unknown State	Not Hispanic or Latino	1481
-3/22/2021	Unknown State	Not Hispanic or Latino	572
+3/22/2021	Unknown State	Not Hispanic or Latino	571
 3/21/2021	Unknown State	Not Hispanic or Latino	7
 3/20/2021	Unknown State	Not Hispanic or Latino	1914
 3/19/2021	Unknown State	Not Hispanic or Latino	1844
@@ -53910,7 +54095,7 @@
 12/30/2020	Unknown State	Not Hispanic or Latino	1
 12/17/2020	Unknown State	Not Hispanic or Latino	1
 12/16/2020	Unknown State	Not Hispanic or Latino	2
-8/21/2021	Unknown State	Hispanic or Latino	2
+8/21/2021	Unknown State	Hispanic or Latino	4
 8/20/2021	Unknown State	Hispanic or Latino	6
 8/19/2021	Unknown State	Hispanic or Latino	2
 8/18/2021	Unknown State	Hispanic or Latino	2
@@ -54019,7 +54204,7 @@
 4/23/2021	Unknown State	Hispanic or Latino	101
 4/22/2021	Unknown State	Hispanic or Latino	82
 4/21/2021	Unknown State	Hispanic or Latino	66
-4/20/2021	Unknown State	Hispanic or Latino	110
+4/20/2021	Unknown State	Hispanic or Latino	109
 4/19/2021	Unknown State	Hispanic or Latino	54
 4/18/2021	Unknown State	Hispanic or Latino	3
 4/17/2021	Unknown State	Hispanic or Latino	6
@@ -54100,9 +54285,10 @@
 1/11/2021	Unknown State	Hispanic or Latino	2
 1/8/2021	Unknown State	Hispanic or Latino	2
 1/6/2021	Unknown State	Hispanic or Latino	2
-8/21/2021	Out-of-State	Unknown	24
+8/22/2021	Out-of-State	Unknown	1
+8/21/2021	Out-of-State	Unknown	41
 8/20/2021	Out-of-State	Unknown	49
-8/19/2021	Out-of-State	Unknown	31
+8/19/2021	Out-of-State	Unknown	32
 8/18/2021	Out-of-State	Unknown	45
 8/17/2021	Out-of-State	Unknown	28
 8/16/2021	Out-of-State	Unknown	47
@@ -54112,7 +54298,7 @@
 8/12/2021	Out-of-State	Unknown	27
 8/11/2021	Out-of-State	Unknown	34
 8/10/2021	Out-of-State	Unknown	45
-8/9/2021	Out-of-State	Unknown	32
+8/9/2021	Out-of-State	Unknown	34
 8/8/2021	Out-of-State	Unknown	18
 8/7/2021	Out-of-State	Unknown	20
 8/6/2021	Out-of-State	Unknown	38
@@ -54217,7 +54403,7 @@
 4/29/2021	Out-of-State	Unknown	260
 4/28/2021	Out-of-State	Unknown	260
 4/27/2021	Out-of-State	Unknown	257
-4/26/2021	Out-of-State	Unknown	142
+4/26/2021	Out-of-State	Unknown	141
 4/25/2021	Out-of-State	Unknown	22
 4/24/2021	Out-of-State	Unknown	149
 4/23/2021	Out-of-State	Unknown	384
@@ -54241,7 +54427,7 @@
 4/5/2021	Out-of-State	Unknown	132
 4/4/2021	Out-of-State	Unknown	6
 4/3/2021	Out-of-State	Unknown	108
-4/2/2021	Out-of-State	Unknown	259
+4/2/2021	Out-of-State	Unknown	258
 4/1/2021	Out-of-State	Unknown	310
 3/31/2021	Out-of-State	Unknown	186
 3/30/2021	Out-of-State	Unknown	183
@@ -54255,7 +54441,7 @@
 3/22/2021	Out-of-State	Unknown	178
 3/21/2021	Out-of-State	Unknown	34
 3/20/2021	Out-of-State	Unknown	74
-3/19/2021	Out-of-State	Unknown	283
+3/19/2021	Out-of-State	Unknown	282
 3/18/2021	Out-of-State	Unknown	78
 3/17/2021	Out-of-State	Unknown	110
 3/16/2021	Out-of-State	Unknown	72
@@ -54337,8 +54523,9 @@
 12/21/2020	Out-of-State	Unknown	1
 12/17/2020	Out-of-State	Unknown	1
 12/16/2020	Out-of-State	Unknown	3
-8/21/2021	Out-of-State	Not Hispanic or Latino	43
-8/20/2021	Out-of-State	Not Hispanic or Latino	177
+8/22/2021	Out-of-State	Not Hispanic or Latino	19
+8/21/2021	Out-of-State	Not Hispanic or Latino	114
+8/20/2021	Out-of-State	Not Hispanic or Latino	179
 8/19/2021	Out-of-State	Not Hispanic or Latino	151
 8/18/2021	Out-of-State	Not Hispanic or Latino	140
 8/17/2021	Out-of-State	Not Hispanic or Latino	159
@@ -54443,7 +54630,7 @@
 5/10/2021	Out-of-State	Not Hispanic or Latino	636
 5/9/2021	Out-of-State	Not Hispanic or Latino	189
 5/8/2021	Out-of-State	Not Hispanic or Latino	641
-5/7/2021	Out-of-State	Not Hispanic or Latino	657
+5/7/2021	Out-of-State	Not Hispanic or Latino	658
 5/6/2021	Out-of-State	Not Hispanic or Latino	742
 5/5/2021	Out-of-State	Not Hispanic or Latino	658
 5/4/2021	Out-of-State	Not Hispanic or Latino	993
@@ -54461,14 +54648,14 @@
 4/22/2021	Out-of-State	Not Hispanic or Latino	1528
 4/21/2021	Out-of-State	Not Hispanic or Latino	1482
 4/20/2021	Out-of-State	Not Hispanic or Latino	1836
-4/19/2021	Out-of-State	Not Hispanic or Latino	1634
+4/19/2021	Out-of-State	Not Hispanic or Latino	1633
 4/18/2021	Out-of-State	Not Hispanic or Latino	940
 4/17/2021	Out-of-State	Not Hispanic or Latino	1115
 4/16/2021	Out-of-State	Not Hispanic or Latino	1421
 4/15/2021	Out-of-State	Not Hispanic or Latino	1199
 4/14/2021	Out-of-State	Not Hispanic or Latino	1015
 4/13/2021	Out-of-State	Not Hispanic or Latino	1092
-4/12/2021	Out-of-State	Not Hispanic or Latino	933
+4/12/2021	Out-of-State	Not Hispanic or Latino	934
 4/11/2021	Out-of-State	Not Hispanic or Latino	1074
 4/10/2021	Out-of-State	Not Hispanic or Latino	664
 4/9/2021	Out-of-State	Not Hispanic or Latino	1465
@@ -54521,7 +54708,7 @@
 2/21/2021	Out-of-State	Not Hispanic or Latino	282
 2/20/2021	Out-of-State	Not Hispanic or Latino	478
 2/19/2021	Out-of-State	Not Hispanic or Latino	1362
-2/18/2021	Out-of-State	Not Hispanic or Latino	1183
+2/18/2021	Out-of-State	Not Hispanic or Latino	1184
 2/17/2021	Out-of-State	Not Hispanic or Latino	976
 2/16/2021	Out-of-State	Not Hispanic or Latino	1189
 2/15/2021	Out-of-State	Not Hispanic or Latino	999
@@ -54550,7 +54737,7 @@
 1/23/2021	Out-of-State	Not Hispanic or Latino	163
 1/22/2021	Out-of-State	Not Hispanic or Latino	366
 1/21/2021	Out-of-State	Not Hispanic or Latino	472
-1/20/2021	Out-of-State	Not Hispanic or Latino	638
+1/20/2021	Out-of-State	Not Hispanic or Latino	639
 1/19/2021	Out-of-State	Not Hispanic or Latino	327
 1/18/2021	Out-of-State	Not Hispanic or Latino	359
 1/16/2021	Out-of-State	Not Hispanic or Latino	60
@@ -54579,7 +54766,8 @@
 12/17/2020	Out-of-State	Not Hispanic or Latino	17
 12/16/2020	Out-of-State	Not Hispanic or Latino	9
 12/15/2020	Out-of-State	Not Hispanic or Latino	2
-8/21/2021	Out-of-State	Hispanic or Latino	12
+8/22/2021	Out-of-State	Hispanic or Latino	2
+8/21/2021	Out-of-State	Hispanic or Latino	21
 8/20/2021	Out-of-State	Hispanic or Latino	22
 8/19/2021	Out-of-State	Hispanic or Latino	17
 8/18/2021	Out-of-State	Hispanic or Latino	21
@@ -54652,7 +54840,7 @@
 6/12/2021	Out-of-State	Hispanic or Latino	34
 6/11/2021	Out-of-State	Hispanic or Latino	55
 6/10/2021	Out-of-State	Hispanic or Latino	33
-6/9/2021	Out-of-State	Hispanic or Latino	91
+6/9/2021	Out-of-State	Hispanic or Latino	90
 6/8/2021	Out-of-State	Hispanic or Latino	47
 6/7/2021	Out-of-State	Hispanic or Latino	29
 6/6/2021	Out-of-State	Hispanic or Latino	7
@@ -54762,7 +54950,7 @@
 2/21/2021	Out-of-State	Hispanic or Latino	6
 2/20/2021	Out-of-State	Hispanic or Latino	15
 2/19/2021	Out-of-State	Hispanic or Latino	49
-2/18/2021	Out-of-State	Hispanic or Latino	44
+2/18/2021	Out-of-State	Hispanic or Latino	43
 2/17/2021	Out-of-State	Hispanic or Latino	27
 2/16/2021	Out-of-State	Hispanic or Latino	26
 2/15/2021	Out-of-State	Hispanic or Latino	40

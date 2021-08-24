@@ -205,7 +205,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-07,Adair,initiated,75
 2021-04-07,Adair,completed,98
 2021-04-08,Adair,initiated,73
-2021-04-08,Adair,completed,96
+2021-04-08,Adair,completed,97
 2021-04-09,Adair,initiated,104
 2021-04-09,Adair,completed,107
 2021-04-10,Adair,initiated,102
@@ -298,7 +298,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-23,Adair,completed,3
 2021-05-24,Adair,initiated,14
 2021-05-24,Adair,completed,20
-2021-05-25,Adair,initiated,13
+2021-05-25,Adair,initiated,12
 2021-05-25,Adair,completed,12
 2021-05-26,Adair,initiated,13
 2021-05-26,Adair,completed,18
@@ -392,7 +392,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-09,Adair,completed,10
 2021-07-10,Adair,initiated,18
 2021-07-10,Adair,completed,7
-2021-07-11,Adair,completed,2
+2021-07-11,Adair,completed,1
 2021-07-12,Adair,initiated,12
 2021-07-12,Adair,completed,5
 2021-07-13,Adair,initiated,14
@@ -472,6 +472,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Adair,completed,15
 2021-08-20,Adair,initiated,24
 2021-08-20,Adair,completed,30
+2021-08-21,Adair,initiated,20
+2021-08-21,Adair,completed,11
+2021-08-22,Adair,completed,1
 2020-12-18,Andrew,initiated,2
 2020-12-21,Andrew,initiated,1
 2020-12-22,Andrew,initiated,17
@@ -909,8 +912,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Andrew,completed,9
 2021-08-20,Andrew,initiated,19
 2021-08-20,Andrew,completed,34
-2021-08-21,Andrew,initiated,6
+2021-08-21,Andrew,initiated,8
 2021-08-21,Andrew,completed,1
+2021-08-22,Andrew,completed,2
 2020-12-16,Atchison,initiated,1
 2020-12-17,Atchison,initiated,1
 2020-12-22,Atchison,initiated,2
@@ -1226,6 +1230,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Atchison,completed,9
 2021-08-20,Atchison,initiated,5
 2021-08-20,Atchison,completed,3
+2021-08-21,Atchison,initiated,3
+2021-08-21,Atchison,completed,1
 2020-12-16,Audrain,initiated,33
 2020-12-17,Audrain,initiated,29
 2020-12-18,Audrain,initiated,30
@@ -1691,12 +1697,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Audrain,completed,26
 2021-08-18,Audrain,initiated,19
 2021-08-18,Audrain,completed,24
-2021-08-19,Audrain,initiated,11
+2021-08-19,Audrain,initiated,12
 2021-08-19,Audrain,completed,18
 2021-08-20,Audrain,initiated,20
 2021-08-20,Audrain,completed,23
-2021-08-21,Audrain,initiated,3
-2021-08-21,Audrain,completed,1
+2021-08-21,Audrain,initiated,18
+2021-08-21,Audrain,completed,5
+2021-08-22,Audrain,initiated,1
+2021-08-22,Audrain,completed,3
 2020-12-15,Barry,initiated,2
 2020-12-15,Barry,completed,2
 2020-12-16,Barry,initiated,1
@@ -2118,7 +2126,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-28,Barry,completed,32
 2021-07-29,Barry,initiated,59
 2021-07-29,Barry,completed,22
-2021-07-30,Barry,initiated,104
+2021-07-30,Barry,initiated,105
 2021-07-30,Barry,completed,42
 2021-07-31,Barry,initiated,29
 2021-07-31,Barry,completed,14
@@ -2161,9 +2169,11 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Barry,initiated,49
 2021-08-19,Barry,completed,57
 2021-08-20,Barry,initiated,42
-2021-08-20,Barry,completed,95
-2021-08-21,Barry,initiated,10
-2021-08-21,Barry,completed,17
+2021-08-20,Barry,completed,97
+2021-08-21,Barry,initiated,11
+2021-08-21,Barry,completed,20
+2021-08-22,Barry,initiated,9
+2021-08-22,Barry,completed,10
 2020-12-18,Barton,initiated,7
 2020-12-20,Barton,initiated,2
 2020-12-21,Barton,initiated,3
@@ -2594,8 +2604,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Barton,completed,10
 2021-08-20,Barton,initiated,13
 2021-08-20,Barton,completed,19
-2021-08-21,Barton,initiated,5
-2021-08-21,Barton,completed,5
+2021-08-21,Barton,initiated,6
+2021-08-21,Barton,completed,7
+2021-08-22,Barton,initiated,3
+2021-08-22,Barton,completed,1
 2020-12-16,Bates,initiated,1
 2020-12-18,Bates,initiated,2
 2020-12-19,Bates,initiated,2
@@ -3039,8 +3051,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Bates,completed,7
 2021-08-20,Bates,initiated,5
 2021-08-20,Bates,completed,16
-2021-08-21,Bates,initiated,4
-2021-08-21,Bates,completed,4
+2021-08-21,Bates,initiated,6
+2021-08-21,Bates,completed,7
+2021-08-22,Bates,initiated,2
+2021-08-22,Bates,completed,2
 2020-12-17,Benton,initiated,1
 2020-12-18,Benton,initiated,7
 2020-12-19,Benton,initiated,7
@@ -3492,7 +3506,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,Benton,initiated,19
 2021-08-20,Benton,completed,22
 2021-08-21,Benton,initiated,5
-2021-08-21,Benton,completed,6
+2021-08-21,Benton,completed,10
+2021-08-22,Benton,completed,5
 2020-12-16,Bollinger,initiated,1
 2020-12-17,Bollinger,initiated,12
 2020-12-18,Bollinger,initiated,2
@@ -3911,12 +3926,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Bollinger,completed,13
 2021-08-18,Bollinger,initiated,25
 2021-08-18,Bollinger,completed,17
-2021-08-19,Bollinger,initiated,15
-2021-08-19,Bollinger,completed,8
+2021-08-19,Bollinger,initiated,16
+2021-08-19,Bollinger,completed,9
 2021-08-20,Bollinger,initiated,12
 2021-08-20,Bollinger,completed,14
-2021-08-21,Bollinger,initiated,2
+2021-08-21,Bollinger,initiated,3
 2021-08-21,Bollinger,completed,1
+2021-08-22,Bollinger,completed,1
 2020-12-14,Boone,initiated,1
 2020-12-15,Boone,initiated,27
 2020-12-16,Boone,initiated,342
@@ -3967,9 +3983,9 @@ report_date,jurisdiction,value,vaccinations
 2021-01-10,Boone,completed,328
 2021-01-11,Boone,initiated,185
 2021-01-11,Boone,completed,564
-2021-01-12,Boone,initiated,202
+2021-01-12,Boone,initiated,201
 2021-01-12,Boone,completed,484
-2021-01-13,Boone,initiated,280
+2021-01-13,Boone,initiated,279
 2021-01-13,Boone,completed,121
 2021-01-14,Boone,initiated,327
 2021-01-14,Boone,completed,103
@@ -4010,15 +4026,15 @@ report_date,jurisdiction,value,vaccinations
 2021-02-01,Boone,initiated,96
 2021-02-01,Boone,completed,231
 2021-02-02,Boone,initiated,310
-2021-02-02,Boone,completed,319
+2021-02-02,Boone,completed,318
 2021-02-03,Boone,initiated,339
-2021-02-03,Boone,completed,286
+2021-02-03,Boone,completed,285
 2021-02-04,Boone,initiated,1972
 2021-02-04,Boone,completed,411
 2021-02-05,Boone,initiated,456
 2021-02-05,Boone,completed,496
-2021-02-06,Boone,initiated,1684
-2021-02-06,Boone,completed,290
+2021-02-06,Boone,initiated,1683
+2021-02-06,Boone,completed,289
 2021-02-07,Boone,completed,1
 2021-02-08,Boone,initiated,133
 2021-02-08,Boone,completed,177
@@ -4042,7 +4058,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-17,Boone,completed,652
 2021-02-18,Boone,initiated,297
 2021-02-18,Boone,completed,1039
-2021-02-19,Boone,initiated,298
+2021-02-19,Boone,initiated,299
 2021-02-19,Boone,completed,970
 2021-02-20,Boone,initiated,38
 2021-02-20,Boone,completed,109
@@ -4098,7 +4114,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-18,Boone,initiated,674
 2021-03-18,Boone,completed,500
 2021-03-19,Boone,initiated,2672
-2021-03-19,Boone,completed,661
+2021-03-19,Boone,completed,662
 2021-03-20,Boone,initiated,234
 2021-03-20,Boone,completed,251
 2021-03-21,Boone,initiated,1523
@@ -4277,8 +4293,8 @@ report_date,jurisdiction,value,vaccinations
 2021-06-15,Boone,completed,197
 2021-06-16,Boone,initiated,104
 2021-06-16,Boone,completed,168
-2021-06-17,Boone,initiated,186
-2021-06-17,Boone,completed,189
+2021-06-17,Boone,initiated,185
+2021-06-17,Boone,completed,188
 2021-06-18,Boone,initiated,146
 2021-06-18,Boone,completed,352
 2021-06-19,Boone,initiated,89
@@ -4357,7 +4373,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-25,Boone,completed,40
 2021-07-26,Boone,initiated,219
 2021-07-26,Boone,completed,122
-2021-07-27,Boone,initiated,196
+2021-07-27,Boone,initiated,195
 2021-07-27,Boone,completed,119
 2021-07-28,Boone,initiated,243
 2021-07-28,Boone,completed,120
@@ -4407,8 +4423,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Boone,completed,217
 2021-08-20,Boone,initiated,178
 2021-08-20,Boone,completed,217
-2021-08-21,Boone,initiated,28
-2021-08-21,Boone,completed,22
+2021-08-21,Boone,initiated,107
+2021-08-21,Boone,completed,160
+2021-08-22,Boone,initiated,8
+2021-08-22,Boone,completed,5
 2020-12-16,Buchanan,initiated,1
 2020-12-17,Buchanan,initiated,1
 2020-12-18,Buchanan,initiated,6
@@ -4596,8 +4614,8 @@ report_date,jurisdiction,value,vaccinations
 2021-03-30,Buchanan,completed,407
 2021-03-31,Buchanan,initiated,416
 2021-03-31,Buchanan,completed,517
-2021-04-01,Buchanan,initiated,325
-2021-04-01,Buchanan,completed,530
+2021-04-01,Buchanan,initiated,324
+2021-04-01,Buchanan,completed,529
 2021-04-02,Buchanan,initiated,154
 2021-04-02,Buchanan,completed,268
 2021-04-03,Buchanan,initiated,20
@@ -4807,8 +4825,8 @@ report_date,jurisdiction,value,vaccinations
 2021-07-14,Buchanan,completed,37
 2021-07-15,Buchanan,initiated,65
 2021-07-15,Buchanan,completed,28
-2021-07-16,Buchanan,initiated,54
-2021-07-16,Buchanan,completed,46
+2021-07-16,Buchanan,initiated,53
+2021-07-16,Buchanan,completed,45
 2021-07-17,Buchanan,initiated,38
 2021-07-17,Buchanan,completed,27
 2021-07-18,Buchanan,initiated,32
@@ -4821,7 +4839,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-21,Buchanan,completed,40
 2021-07-22,Buchanan,initiated,72
 2021-07-22,Buchanan,completed,25
-2021-07-23,Buchanan,initiated,110
+2021-07-23,Buchanan,initiated,111
 2021-07-23,Buchanan,completed,47
 2021-07-24,Buchanan,initiated,40
 2021-07-24,Buchanan,completed,26
@@ -4833,7 +4851,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-27,Buchanan,completed,21
 2021-07-28,Buchanan,initiated,70
 2021-07-28,Buchanan,completed,40
-2021-07-29,Buchanan,initiated,201
+2021-07-29,Buchanan,initiated,198
 2021-07-29,Buchanan,completed,97
 2021-07-30,Buchanan,initiated,65
 2021-07-30,Buchanan,completed,27
@@ -4879,8 +4897,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Buchanan,completed,86
 2021-08-20,Buchanan,initiated,69
 2021-08-20,Buchanan,completed,74
-2021-08-21,Buchanan,initiated,4
-2021-08-21,Buchanan,completed,6
+2021-08-21,Buchanan,initiated,23
+2021-08-21,Buchanan,completed,42
+2021-08-22,Buchanan,initiated,2
+2021-08-22,Buchanan,completed,5
 2020-12-14,Butler,initiated,1
 2020-12-15,Butler,initiated,2
 2020-12-15,Butler,completed,1
@@ -5353,8 +5373,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Butler,completed,92
 2021-08-20,Butler,initiated,57
 2021-08-20,Butler,completed,64
-2021-08-21,Butler,initiated,11
-2021-08-21,Butler,completed,19
+2021-08-21,Butler,initiated,34
+2021-08-21,Butler,completed,33
+2021-08-22,Butler,initiated,8
+2021-08-22,Butler,completed,8
 2020-12-16,Caldwell,initiated,1
 2020-12-17,Caldwell,initiated,2
 2020-12-19,Caldwell,initiated,1
@@ -5796,8 +5818,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Caldwell,completed,9
 2021-08-20,Caldwell,initiated,8
 2021-08-20,Caldwell,completed,11
-2021-08-21,Caldwell,initiated,2
-2021-08-21,Caldwell,completed,2
+2021-08-21,Caldwell,initiated,7
+2021-08-21,Caldwell,completed,13
+2021-08-22,Caldwell,initiated,2
 2020-12-15,Callaway,initiated,7
 2020-12-16,Callaway,initiated,22
 2020-12-16,Callaway,completed,1
@@ -5886,7 +5909,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-03,Callaway,completed,26
 2021-02-04,Callaway,initiated,291
 2021-02-04,Callaway,completed,79
-2021-02-05,Callaway,initiated,264
+2021-02-05,Callaway,initiated,265
 2021-02-05,Callaway,completed,48
 2021-02-06,Callaway,initiated,178
 2021-02-06,Callaway,completed,41
@@ -5928,7 +5951,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-25,Callaway,initiated,200
 2021-02-25,Callaway,completed,304
 2021-02-26,Callaway,initiated,223
-2021-02-26,Callaway,completed,172
+2021-02-26,Callaway,completed,173
 2021-02-27,Callaway,initiated,131
 2021-02-27,Callaway,completed,71
 2021-02-28,Callaway,initiated,9
@@ -6275,12 +6298,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Callaway,completed,38
 2021-08-18,Callaway,initiated,57
 2021-08-18,Callaway,completed,66
-2021-08-19,Callaway,initiated,67
-2021-08-19,Callaway,completed,78
+2021-08-19,Callaway,initiated,68
+2021-08-19,Callaway,completed,79
 2021-08-20,Callaway,initiated,81
 2021-08-20,Callaway,completed,112
-2021-08-21,Callaway,initiated,15
-2021-08-21,Callaway,completed,13
+2021-08-21,Callaway,initiated,27
+2021-08-21,Callaway,completed,34
+2021-08-22,Callaway,initiated,5
+2021-08-22,Callaway,completed,3
 2020-12-15,Camden,initiated,5
 2020-12-16,Camden,initiated,4
 2020-12-16,Camden,completed,1
@@ -6294,7 +6319,7 @@ report_date,jurisdiction,value,vaccinations
 2020-12-23,Camden,initiated,78
 2020-12-26,Camden,initiated,1
 2020-12-27,Camden,completed,1
-2020-12-28,Camden,initiated,129
+2020-12-28,Camden,initiated,128
 2020-12-29,Camden,initiated,172
 2020-12-30,Camden,initiated,73
 2020-12-31,Camden,initiated,7
@@ -6343,12 +6368,12 @@ report_date,jurisdiction,value,vaccinations
 2021-01-25,Camden,completed,41
 2021-01-26,Camden,initiated,77
 2021-01-26,Camden,completed,34
-2021-01-27,Camden,initiated,409
+2021-01-27,Camden,initiated,410
 2021-01-27,Camden,completed,38
 2021-01-28,Camden,initiated,82
 2021-01-28,Camden,completed,37
-2021-01-29,Camden,initiated,391
-2021-01-29,Camden,completed,16
+2021-01-29,Camden,initiated,390
+2021-01-29,Camden,completed,15
 2021-01-30,Camden,initiated,29
 2021-01-30,Camden,completed,1
 2021-01-31,Camden,initiated,3
@@ -6373,7 +6398,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-09,Camden,completed,15
 2021-02-10,Camden,initiated,136
 2021-02-10,Camden,completed,35
-2021-02-11,Camden,initiated,409
+2021-02-11,Camden,initiated,408
 2021-02-11,Camden,completed,65
 2021-02-12,Camden,initiated,334
 2021-02-12,Camden,completed,206
@@ -6390,7 +6415,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-18,Camden,initiated,60
 2021-02-18,Camden,completed,30
 2021-02-19,Camden,initiated,87
-2021-02-19,Camden,completed,587
+2021-02-19,Camden,completed,586
 2021-02-20,Camden,initiated,7
 2021-02-20,Camden,completed,13
 2021-02-21,Camden,initiated,3
@@ -6403,7 +6428,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Camden,completed,222
 2021-02-25,Camden,initiated,560
 2021-02-25,Camden,completed,97
-2021-02-26,Camden,initiated,221
+2021-02-26,Camden,initiated,220
 2021-02-26,Camden,completed,484
 2021-02-27,Camden,initiated,60
 2021-02-27,Camden,completed,36
@@ -6412,7 +6437,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-01,Camden,initiated,62
 2021-03-01,Camden,completed,107
 2021-03-02,Camden,initiated,92
-2021-03-02,Camden,completed,108
+2021-03-02,Camden,completed,109
 2021-03-03,Camden,initiated,133
 2021-03-03,Camden,completed,184
 2021-03-04,Camden,initiated,126
@@ -6425,12 +6450,12 @@ report_date,jurisdiction,value,vaccinations
 2021-03-07,Camden,completed,1073
 2021-03-08,Camden,initiated,86
 2021-03-08,Camden,completed,113
-2021-03-09,Camden,initiated,88
+2021-03-09,Camden,initiated,89
 2021-03-09,Camden,completed,103
 2021-03-10,Camden,initiated,76
 2021-03-10,Camden,completed,167
 2021-03-11,Camden,initiated,227
-2021-03-11,Camden,completed,600
+2021-03-11,Camden,completed,599
 2021-03-12,Camden,initiated,254
 2021-03-12,Camden,completed,457
 2021-03-13,Camden,initiated,32
@@ -6446,7 +6471,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-18,Camden,initiated,101
 2021-03-18,Camden,completed,127
 2021-03-19,Camden,initiated,363
-2021-03-19,Camden,completed,341
+2021-03-19,Camden,completed,340
 2021-03-20,Camden,initiated,14
 2021-03-20,Camden,completed,57
 2021-03-21,Camden,initiated,11
@@ -6482,7 +6507,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-05,Camden,initiated,110
 2021-04-05,Camden,completed,104
 2021-04-06,Camden,initiated,156
-2021-04-06,Camden,completed,124
+2021-04-06,Camden,completed,125
 2021-04-07,Camden,initiated,166
 2021-04-07,Camden,completed,125
 2021-04-08,Camden,initiated,173
@@ -6750,13 +6775,15 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Camden,initiated,42
 2021-08-17,Camden,completed,72
 2021-08-18,Camden,initiated,36
-2021-08-18,Camden,completed,59
+2021-08-18,Camden,completed,60
 2021-08-19,Camden,initiated,43
 2021-08-19,Camden,completed,64
 2021-08-20,Camden,initiated,32
 2021-08-20,Camden,completed,48
-2021-08-21,Camden,initiated,4
-2021-08-21,Camden,completed,10
+2021-08-21,Camden,initiated,14
+2021-08-21,Camden,completed,34
+2021-08-22,Camden,initiated,2
+2021-08-22,Camden,completed,6
 2020-12-15,Cape Girardeau,initiated,7
 2020-12-15,Cape Girardeau,completed,1
 2020-12-16,Cape Girardeau,initiated,14
@@ -7135,7 +7162,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-28,Cape Girardeau,initiated,56
 2021-06-28,Cape Girardeau,completed,36
 2021-06-29,Cape Girardeau,initiated,52
-2021-06-29,Cape Girardeau,completed,36
+2021-06-29,Cape Girardeau,completed,35
 2021-06-30,Cape Girardeau,initiated,58
 2021-06-30,Cape Girardeau,completed,39
 2021-07-01,Cape Girardeau,initiated,30
@@ -7236,12 +7263,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Cape Girardeau,completed,72
 2021-08-18,Cape Girardeau,initiated,124
 2021-08-18,Cape Girardeau,completed,94
-2021-08-19,Cape Girardeau,initiated,94
+2021-08-19,Cape Girardeau,initiated,95
 2021-08-19,Cape Girardeau,completed,77
 2021-08-20,Cape Girardeau,initiated,139
 2021-08-20,Cape Girardeau,completed,106
-2021-08-21,Cape Girardeau,initiated,28
-2021-08-21,Cape Girardeau,completed,24
+2021-08-21,Cape Girardeau,initiated,64
+2021-08-21,Cape Girardeau,completed,50
+2021-08-22,Cape Girardeau,initiated,11
+2021-08-22,Cape Girardeau,completed,11
 2020-12-16,Carroll,initiated,1
 2020-12-16,Carroll,completed,1
 2020-12-18,Carroll,initiated,1
@@ -7298,7 +7327,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-02,Carroll,completed,7
 2021-02-03,Carroll,initiated,195
 2021-02-03,Carroll,completed,5
-2021-02-04,Carroll,initiated,73
+2021-02-04,Carroll,initiated,72
 2021-02-04,Carroll,completed,26
 2021-02-05,Carroll,initiated,16
 2021-02-05,Carroll,completed,7
@@ -7336,7 +7365,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Carroll,initiated,25
 2021-02-24,Carroll,completed,187
 2021-02-25,Carroll,initiated,210
-2021-02-25,Carroll,completed,28
+2021-02-25,Carroll,completed,27
 2021-02-26,Carroll,initiated,356
 2021-02-26,Carroll,completed,31
 2021-02-27,Carroll,initiated,7
@@ -7656,6 +7685,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Carroll,completed,9
 2021-08-20,Carroll,initiated,5
 2021-08-20,Carroll,completed,11
+2021-08-21,Carroll,initiated,2
 2021-08-21,Carroll,completed,2
 2020-12-17,Carter,initiated,2
 2020-12-18,Carter,initiated,1
@@ -8049,7 +8079,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Carter,completed,36
 2021-08-20,Carter,initiated,5
 2021-08-20,Carter,completed,9
-2021-08-21,Carter,completed,4
+2021-08-21,Carter,initiated,2
+2021-08-21,Carter,completed,8
+2021-08-22,Carter,completed,1
 2020-12-14,Cass,initiated,1
 2020-12-15,Cass,initiated,5
 2020-12-16,Cass,initiated,9
@@ -8104,7 +8136,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-18,Cass,completed,22
 2021-01-19,Cass,initiated,40
 2021-01-19,Cass,completed,78
-2021-01-20,Cass,initiated,392
+2021-01-20,Cass,initiated,391
 2021-01-20,Cass,completed,98
 2021-01-21,Cass,initiated,267
 2021-01-21,Cass,completed,67
@@ -8147,7 +8179,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-09,Cass,initiated,91
 2021-02-09,Cass,completed,261
 2021-02-10,Cass,initiated,60
-2021-02-10,Cass,completed,218
+2021-02-10,Cass,completed,217
 2021-02-11,Cass,initiated,369
 2021-02-11,Cass,completed,118
 2021-02-12,Cass,initiated,422
@@ -8177,7 +8209,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Cass,completed,232
 2021-02-25,Cass,initiated,961
 2021-02-25,Cass,completed,46
-2021-02-26,Cass,initiated,855
+2021-02-26,Cass,initiated,854
 2021-02-26,Cass,completed,467
 2021-02-27,Cass,initiated,645
 2021-02-27,Cass,completed,3
@@ -8207,7 +8239,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-11,Cass,completed,100
 2021-03-12,Cass,initiated,1197
 2021-03-12,Cass,completed,579
-2021-03-13,Cass,initiated,738
+2021-03-13,Cass,initiated,739
 2021-03-13,Cass,completed,637
 2021-03-14,Cass,initiated,97
 2021-03-14,Cass,completed,125
@@ -8217,15 +8249,15 @@ report_date,jurisdiction,value,vaccinations
 2021-03-16,Cass,completed,195
 2021-03-17,Cass,initiated,456
 2021-03-17,Cass,completed,215
-2021-03-18,Cass,initiated,418
+2021-03-18,Cass,initiated,417
 2021-03-18,Cass,completed,245
 2021-03-19,Cass,initiated,544
 2021-03-19,Cass,completed,1028
 2021-03-20,Cass,initiated,213
-2021-03-20,Cass,completed,1028
+2021-03-20,Cass,completed,1027
 2021-03-21,Cass,initiated,44
 2021-03-21,Cass,completed,120
-2021-03-22,Cass,initiated,127
+2021-03-22,Cass,initiated,126
 2021-03-22,Cass,completed,119
 2021-03-23,Cass,initiated,480
 2021-03-23,Cass,completed,359
@@ -8239,9 +8271,9 @@ report_date,jurisdiction,value,vaccinations
 2021-03-27,Cass,completed,172
 2021-03-28,Cass,initiated,39
 2021-03-28,Cass,completed,100
-2021-03-29,Cass,initiated,119
+2021-03-29,Cass,initiated,120
 2021-03-29,Cass,completed,125
-2021-03-30,Cass,initiated,227
+2021-03-30,Cass,initiated,226
 2021-03-30,Cass,completed,619
 2021-03-31,Cass,initiated,192
 2021-03-31,Cass,completed,902
@@ -8250,7 +8282,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-02,Cass,initiated,165
 2021-04-02,Cass,completed,809
 2021-04-03,Cass,initiated,121
-2021-04-03,Cass,completed,370
+2021-04-03,Cass,completed,371
 2021-04-04,Cass,initiated,67
 2021-04-04,Cass,completed,18
 2021-04-05,Cass,initiated,188
@@ -8268,13 +8300,13 @@ report_date,jurisdiction,value,vaccinations
 2021-04-11,Cass,initiated,102
 2021-04-11,Cass,completed,57
 2021-04-12,Cass,initiated,249
-2021-04-12,Cass,completed,145
+2021-04-12,Cass,completed,144
 2021-04-13,Cass,initiated,296
 2021-04-13,Cass,completed,471
-2021-04-14,Cass,initiated,487
+2021-04-14,Cass,initiated,486
 2021-04-14,Cass,completed,157
 2021-04-15,Cass,initiated,291
-2021-04-15,Cass,completed,672
+2021-04-15,Cass,completed,671
 2021-04-16,Cass,initiated,211
 2021-04-16,Cass,completed,952
 2021-04-17,Cass,initiated,98
@@ -8282,7 +8314,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-18,Cass,initiated,59
 2021-04-18,Cass,completed,36
 2021-04-19,Cass,initiated,94
-2021-04-19,Cass,completed,121
+2021-04-19,Cass,completed,122
 2021-04-20,Cass,initiated,328
 2021-04-20,Cass,completed,213
 2021-04-21,Cass,initiated,91
@@ -8298,7 +8330,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-26,Cass,initiated,65
 2021-04-26,Cass,completed,101
 2021-04-27,Cass,initiated,118
-2021-04-27,Cass,completed,239
+2021-04-27,Cass,completed,238
 2021-04-28,Cass,initiated,88
 2021-04-28,Cass,completed,575
 2021-04-29,Cass,initiated,151
@@ -8314,8 +8346,8 @@ report_date,jurisdiction,value,vaccinations
 2021-05-04,Cass,initiated,168
 2021-05-04,Cass,completed,316
 2021-05-05,Cass,initiated,85
-2021-05-05,Cass,completed,145
-2021-05-06,Cass,initiated,84
+2021-05-05,Cass,completed,144
+2021-05-06,Cass,initiated,83
 2021-05-06,Cass,completed,230
 2021-05-07,Cass,initiated,112
 2021-05-07,Cass,completed,164
@@ -8529,8 +8561,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Cass,completed,111
 2021-08-20,Cass,initiated,110
 2021-08-20,Cass,completed,163
-2021-08-21,Cass,initiated,14
-2021-08-21,Cass,completed,31
+2021-08-21,Cass,initiated,144
+2021-08-21,Cass,completed,189
+2021-08-22,Cass,initiated,7
+2021-08-22,Cass,completed,15
 2020-12-15,Cedar,initiated,1
 2020-12-15,Cedar,completed,1
 2020-12-16,Cedar,initiated,1
@@ -8963,8 +8997,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Cedar,completed,18
 2021-08-20,Cedar,initiated,10
 2021-08-20,Cedar,completed,11
-2021-08-21,Cedar,initiated,1
-2021-08-21,Cedar,completed,4
+2021-08-21,Cedar,initiated,2
+2021-08-21,Cedar,completed,5
+2021-08-22,Cedar,initiated,1
+2021-08-22,Cedar,completed,2
 2020-12-16,Chariton,initiated,2
 2020-12-16,Chariton,completed,1
 2020-12-17,Chariton,initiated,2
@@ -9378,7 +9414,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Chariton,completed,9
 2021-08-20,Chariton,initiated,5
 2021-08-20,Chariton,completed,6
-2021-08-21,Chariton,initiated,1
+2021-08-21,Chariton,initiated,3
 2021-08-21,Chariton,completed,2
 2020-12-14,Christian,initiated,1
 2020-12-14,Christian,completed,1
@@ -9683,7 +9719,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-20,Christian,completed,96
 2021-05-21,Christian,initiated,91
 2021-05-21,Christian,completed,111
-2021-05-22,Christian,initiated,65
+2021-05-22,Christian,initiated,64
 2021-05-22,Christian,completed,59
 2021-05-23,Christian,initiated,37
 2021-05-23,Christian,completed,30
@@ -9740,7 +9776,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-18,Christian,initiated,80
 2021-06-18,Christian,completed,50
 2021-06-19,Christian,initiated,50
-2021-06-19,Christian,completed,41
+2021-06-19,Christian,completed,40
 2021-06-20,Christian,initiated,25
 2021-06-20,Christian,completed,29
 2021-06-21,Christian,initiated,93
@@ -9805,7 +9841,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-20,Christian,completed,53
 2021-07-21,Christian,initiated,211
 2021-07-21,Christian,completed,102
-2021-07-22,Christian,initiated,205
+2021-07-22,Christian,initiated,206
 2021-07-22,Christian,completed,83
 2021-07-23,Christian,initiated,234
 2021-07-23,Christian,completed,172
@@ -9821,9 +9857,9 @@ report_date,jurisdiction,value,vaccinations
 2021-07-28,Christian,completed,137
 2021-07-29,Christian,initiated,196
 2021-07-29,Christian,completed,132
-2021-07-30,Christian,initiated,160
+2021-07-30,Christian,initiated,161
 2021-07-30,Christian,completed,151
-2021-07-31,Christian,initiated,112
+2021-07-31,Christian,initiated,113
 2021-07-31,Christian,completed,65
 2021-08-01,Christian,initiated,52
 2021-08-01,Christian,completed,55
@@ -9865,8 +9901,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Christian,completed,174
 2021-08-20,Christian,initiated,100
 2021-08-20,Christian,completed,169
-2021-08-21,Christian,initiated,15
-2021-08-21,Christian,completed,40
+2021-08-21,Christian,initiated,44
+2021-08-21,Christian,completed,115
+2021-08-22,Christian,initiated,5
+2021-08-22,Christian,completed,23
 2020-12-21,Clark,initiated,3
 2020-12-23,Clark,initiated,6
 2020-12-24,Clark,initiated,1
@@ -10290,7 +10328,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-25,Clay,initiated,1328
 2021-02-25,Clay,completed,268
 2021-02-26,Clay,initiated,1415
-2021-02-26,Clay,completed,294
+2021-02-26,Clay,completed,295
 2021-02-27,Clay,initiated,230
 2021-02-27,Clay,completed,124
 2021-02-28,Clay,initiated,74
@@ -10310,7 +10348,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-07,Clay,initiated,131
 2021-03-07,Clay,completed,25
 2021-03-08,Clay,initiated,205
-2021-03-08,Clay,completed,959
+2021-03-08,Clay,completed,958
 2021-03-09,Clay,initiated,424
 2021-03-09,Clay,completed,619
 2021-03-10,Clay,initiated,263
@@ -10325,7 +10363,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-14,Clay,completed,96
 2021-03-15,Clay,initiated,580
 2021-03-15,Clay,completed,211
-2021-03-16,Clay,initiated,290
+2021-03-16,Clay,initiated,291
 2021-03-16,Clay,completed,318
 2021-03-17,Clay,initiated,204
 2021-03-17,Clay,completed,984
@@ -10368,12 +10406,12 @@ report_date,jurisdiction,value,vaccinations
 2021-04-05,Clay,initiated,363
 2021-04-05,Clay,completed,402
 2021-04-06,Clay,initiated,476
-2021-04-06,Clay,completed,418
+2021-04-06,Clay,completed,419
 2021-04-07,Clay,initiated,392
 2021-04-07,Clay,completed,246
 2021-04-08,Clay,initiated,446
 2021-04-08,Clay,completed,795
-2021-04-09,Clay,initiated,645
+2021-04-09,Clay,initiated,644
 2021-04-09,Clay,completed,1009
 2021-04-10,Clay,initiated,261
 2021-04-10,Clay,completed,148
@@ -10381,7 +10419,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-11,Clay,completed,70
 2021-04-12,Clay,initiated,349
 2021-04-12,Clay,completed,197
-2021-04-13,Clay,initiated,494
+2021-04-13,Clay,initiated,495
 2021-04-13,Clay,completed,198
 2021-04-14,Clay,initiated,235
 2021-04-14,Clay,completed,306
@@ -10416,7 +10454,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-29,Clay,initiated,132
 2021-04-29,Clay,completed,381
 2021-04-30,Clay,initiated,137
-2021-04-30,Clay,completed,427
+2021-04-30,Clay,completed,426
 2021-05-01,Clay,initiated,79
 2021-05-01,Clay,completed,226
 2021-05-02,Clay,initiated,56
@@ -10438,7 +10476,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-10,Clay,initiated,107
 2021-05-10,Clay,completed,187
 2021-05-11,Clay,initiated,133
-2021-05-11,Clay,completed,416
+2021-05-11,Clay,completed,417
 2021-05-12,Clay,initiated,106
 2021-05-12,Clay,completed,165
 2021-05-13,Clay,initiated,169
@@ -10454,7 +10492,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-18,Clay,initiated,309
 2021-05-18,Clay,completed,189
 2021-05-19,Clay,initiated,283
-2021-05-19,Clay,completed,175
+2021-05-19,Clay,completed,176
 2021-05-20,Clay,initiated,229
 2021-05-20,Clay,completed,132
 2021-05-21,Clay,initiated,181
@@ -10588,19 +10626,19 @@ report_date,jurisdiction,value,vaccinations
 2021-07-24,Clay,completed,59
 2021-07-25,Clay,initiated,86
 2021-07-25,Clay,completed,14
-2021-07-26,Clay,initiated,193
+2021-07-26,Clay,initiated,194
 2021-07-26,Clay,completed,75
-2021-07-27,Clay,initiated,176
+2021-07-27,Clay,initiated,177
 2021-07-27,Clay,completed,73
 2021-07-28,Clay,initiated,175
 2021-07-28,Clay,completed,65
-2021-07-29,Clay,initiated,184
+2021-07-29,Clay,initiated,187
 2021-07-29,Clay,completed,71
 2021-07-30,Clay,initiated,211
 2021-07-30,Clay,completed,104
-2021-07-31,Clay,initiated,136
+2021-07-31,Clay,initiated,134
 2021-07-31,Clay,completed,63
-2021-08-01,Clay,initiated,90
+2021-08-01,Clay,initiated,91
 2021-08-01,Clay,completed,54
 2021-08-02,Clay,initiated,197
 2021-08-02,Clay,completed,112
@@ -10622,7 +10660,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-10,Clay,completed,147
 2021-08-11,Clay,initiated,142
 2021-08-11,Clay,completed,116
-2021-08-12,Clay,initiated,113
+2021-08-12,Clay,initiated,114
 2021-08-12,Clay,completed,118
 2021-08-13,Clay,initiated,121
 2021-08-13,Clay,completed,154
@@ -10634,14 +10672,16 @@ report_date,jurisdiction,value,vaccinations
 2021-08-16,Clay,completed,163
 2021-08-17,Clay,initiated,123
 2021-08-17,Clay,completed,153
-2021-08-18,Clay,initiated,125
+2021-08-18,Clay,initiated,126
 2021-08-18,Clay,completed,155
 2021-08-19,Clay,initiated,100
 2021-08-19,Clay,completed,144
 2021-08-20,Clay,initiated,109
 2021-08-20,Clay,completed,203
-2021-08-21,Clay,initiated,15
-2021-08-21,Clay,completed,33
+2021-08-21,Clay,initiated,65
+2021-08-21,Clay,completed,125
+2021-08-22,Clay,initiated,10
+2021-08-22,Clay,completed,17
 2020-12-18,Clinton,initiated,2
 2020-12-19,Clinton,initiated,2
 2020-12-20,Clinton,initiated,1
@@ -11104,8 +11144,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Clinton,completed,19
 2021-08-20,Clinton,initiated,27
 2021-08-20,Clinton,completed,56
-2021-08-21,Clinton,initiated,14
-2021-08-21,Clinton,completed,8
+2021-08-21,Clinton,initiated,21
+2021-08-21,Clinton,completed,14
+2021-08-22,Clinton,completed,4
 2020-12-15,Cole,initiated,34
 2020-12-15,Cole,completed,2
 2020-12-16,Cole,initiated,60
@@ -11189,7 +11230,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-31,Cole,completed,16
 2021-02-01,Cole,initiated,174
 2021-02-01,Cole,completed,23
-2021-02-02,Cole,initiated,218
+2021-02-02,Cole,initiated,217
 2021-02-02,Cole,completed,70
 2021-02-03,Cole,initiated,134
 2021-02-03,Cole,completed,88
@@ -11235,7 +11276,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Cole,initiated,258
 2021-02-24,Cole,completed,104
 2021-02-25,Cole,initiated,517
-2021-02-25,Cole,completed,323
+2021-02-25,Cole,completed,322
 2021-02-26,Cole,initiated,750
 2021-02-26,Cole,completed,1285
 2021-02-27,Cole,initiated,88
@@ -11278,7 +11319,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-17,Cole,completed,174
 2021-03-18,Cole,initiated,257
 2021-03-18,Cole,completed,139
-2021-03-19,Cole,initiated,1037
+2021-03-19,Cole,initiated,1038
 2021-03-19,Cole,completed,130
 2021-03-20,Cole,initiated,59
 2021-03-20,Cole,completed,56
@@ -11292,7 +11333,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-24,Cole,completed,202
 2021-03-25,Cole,initiated,303
 2021-03-25,Cole,completed,483
-2021-03-26,Cole,initiated,240
+2021-03-26,Cole,initiated,239
 2021-03-26,Cole,completed,588
 2021-03-27,Cole,initiated,156
 2021-03-27,Cole,completed,79
@@ -11328,14 +11369,14 @@ report_date,jurisdiction,value,vaccinations
 2021-04-11,Cole,completed,37
 2021-04-12,Cole,initiated,229
 2021-04-12,Cole,completed,421
-2021-04-13,Cole,initiated,375
+2021-04-13,Cole,initiated,374
 2021-04-13,Cole,completed,306
 2021-04-14,Cole,initiated,186
 2021-04-14,Cole,completed,655
 2021-04-15,Cole,initiated,309
 2021-04-15,Cole,completed,230
 2021-04-16,Cole,initiated,170
-2021-04-16,Cole,completed,292
+2021-04-16,Cole,completed,291
 2021-04-17,Cole,initiated,58
 2021-04-17,Cole,completed,180
 2021-04-18,Cole,initiated,15
@@ -11375,7 +11416,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-05,Cole,initiated,54
 2021-05-05,Cole,completed,206
 2021-05-06,Cole,initiated,98
-2021-05-06,Cole,completed,236
+2021-05-06,Cole,completed,235
 2021-05-07,Cole,initiated,68
 2021-05-07,Cole,completed,131
 2021-05-08,Cole,initiated,36
@@ -11518,7 +11559,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-15,Cole,completed,73
 2021-07-16,Cole,initiated,129
 2021-07-16,Cole,completed,51
-2021-07-17,Cole,initiated,66
+2021-07-17,Cole,initiated,65
 2021-07-17,Cole,completed,25
 2021-07-18,Cole,initiated,44
 2021-07-18,Cole,completed,19
@@ -11579,7 +11620,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-15,Cole,initiated,35
 2021-08-15,Cole,completed,52
 2021-08-16,Cole,initiated,95
-2021-08-16,Cole,completed,149
+2021-08-16,Cole,completed,148
 2021-08-17,Cole,initiated,105
 2021-08-17,Cole,completed,125
 2021-08-18,Cole,initiated,91
@@ -11587,9 +11628,11 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Cole,initiated,96
 2021-08-19,Cole,completed,89
 2021-08-20,Cole,initiated,88
-2021-08-20,Cole,completed,155
-2021-08-21,Cole,initiated,6
-2021-08-21,Cole,completed,11
+2021-08-20,Cole,completed,156
+2021-08-21,Cole,initiated,51
+2021-08-21,Cole,completed,57
+2021-08-22,Cole,initiated,3
+2021-08-22,Cole,completed,6
 2020-12-15,Cooper,initiated,1
 2020-12-16,Cooper,initiated,3
 2020-12-16,Cooper,completed,1
@@ -11601,7 +11644,6 @@ report_date,jurisdiction,value,vaccinations
 2020-12-22,Cooper,initiated,29
 2020-12-23,Cooper,initiated,5
 2020-12-24,Cooper,initiated,1
-2020-12-26,Cooper,initiated,1
 2020-12-27,Cooper,initiated,1
 2020-12-28,Cooper,initiated,23
 2020-12-29,Cooper,initiated,38
@@ -11634,7 +11676,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-14,Cooper,completed,6
 2021-01-15,Cooper,initiated,17
 2021-01-16,Cooper,initiated,9
-2021-01-16,Cooper,completed,3
+2021-01-16,Cooper,completed,2
 2021-01-17,Cooper,initiated,2
 2021-01-17,Cooper,completed,2
 2021-01-18,Cooper,initiated,40
@@ -12054,8 +12096,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Cooper,completed,51
 2021-08-20,Cooper,initiated,16
 2021-08-20,Cooper,completed,14
-2021-08-21,Cooper,initiated,2
-2021-08-21,Cooper,completed,10
+2021-08-21,Cooper,initiated,9
+2021-08-21,Cooper,completed,14
+2021-08-22,Cooper,completed,1
 2020-12-16,Crawford,initiated,2
 2020-12-17,Crawford,initiated,2
 2020-12-18,Crawford,initiated,15
@@ -12517,12 +12560,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Crawford,completed,29
 2021-08-18,Crawford,initiated,21
 2021-08-18,Crawford,completed,29
-2021-08-19,Crawford,initiated,20
-2021-08-19,Crawford,completed,16
-2021-08-20,Crawford,initiated,29
+2021-08-19,Crawford,initiated,21
+2021-08-19,Crawford,completed,22
+2021-08-20,Crawford,initiated,32
 2021-08-20,Crawford,completed,56
-2021-08-21,Crawford,initiated,8
-2021-08-21,Crawford,completed,14
+2021-08-21,Crawford,initiated,13
+2021-08-21,Crawford,completed,15
+2021-08-22,Crawford,initiated,2
+2021-08-22,Crawford,completed,11
 2020-12-16,Dade,initiated,1
 2020-12-17,Dade,initiated,1
 2020-12-17,Dade,completed,1
@@ -13195,7 +13240,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-03,Dallas,completed,7
 2021-05-04,Dallas,initiated,29
 2021-05-04,Dallas,completed,11
-2021-05-05,Dallas,initiated,9
+2021-05-05,Dallas,initiated,10
 2021-05-05,Dallas,completed,20
 2021-05-06,Dallas,initiated,8
 2021-05-06,Dallas,completed,37
@@ -13251,7 +13296,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-01,Dallas,initiated,8
 2021-06-01,Dallas,completed,17
 2021-06-02,Dallas,initiated,5
-2021-06-02,Dallas,completed,7
+2021-06-02,Dallas,completed,8
 2021-06-03,Dallas,initiated,14
 2021-06-03,Dallas,completed,20
 2021-06-04,Dallas,initiated,17
@@ -13407,8 +13452,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Dallas,completed,16
 2021-08-20,Dallas,initiated,10
 2021-08-20,Dallas,completed,25
-2021-08-21,Dallas,initiated,7
-2021-08-21,Dallas,completed,10
+2021-08-21,Dallas,initiated,9
+2021-08-21,Dallas,completed,20
+2021-08-22,Dallas,completed,2
 2020-12-21,Daviess,initiated,3
 2020-12-22,Daviess,initiated,4
 2020-12-23,Daviess,initiated,2
@@ -13814,8 +13860,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Daviess,completed,15
 2021-08-20,Daviess,initiated,7
 2021-08-20,Daviess,completed,9
-2021-08-21,Daviess,initiated,1
+2021-08-21,Daviess,initiated,6
 2021-08-21,Daviess,completed,1
+2021-08-22,Daviess,completed,2
 2020-12-16,DeKalb,initiated,2
 2020-12-21,DeKalb,initiated,1
 2020-12-22,DeKalb,initiated,3
@@ -13935,8 +13982,8 @@ report_date,jurisdiction,value,vaccinations
 2021-03-08,DeKalb,completed,5
 2021-03-09,DeKalb,initiated,53
 2021-03-09,DeKalb,completed,51
-2021-03-10,DeKalb,initiated,238
-2021-03-10,DeKalb,completed,23
+2021-03-10,DeKalb,initiated,237
+2021-03-10,DeKalb,completed,22
 2021-03-11,DeKalb,initiated,133
 2021-03-11,DeKalb,completed,56
 2021-03-12,DeKalb,initiated,26
@@ -14230,8 +14277,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,DeKalb,completed,11
 2021-08-20,DeKalb,initiated,7
 2021-08-20,DeKalb,completed,10
-2021-08-21,DeKalb,initiated,1
-2021-08-21,DeKalb,completed,2
+2021-08-21,DeKalb,initiated,2
+2021-08-21,DeKalb,completed,5
+2021-08-22,DeKalb,initiated,1
+2021-08-22,DeKalb,completed,1
 2020-12-15,Dent,initiated,1
 2020-12-15,Dent,completed,1
 2020-12-16,Dent,initiated,3
@@ -14671,12 +14720,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Dent,completed,28
 2021-08-18,Dent,initiated,12
 2021-08-18,Dent,completed,16
-2021-08-19,Dent,initiated,62
-2021-08-19,Dent,completed,31
+2021-08-19,Dent,initiated,63
+2021-08-19,Dent,completed,32
 2021-08-20,Dent,initiated,13
 2021-08-20,Dent,completed,32
 2021-08-21,Dent,initiated,11
 2021-08-21,Dent,completed,1
+2021-08-22,Dent,initiated,7
+2021-08-22,Dent,completed,3
 2020-12-17,Douglas,initiated,3
 2020-12-17,Douglas,completed,1
 2020-12-18,Douglas,initiated,1
@@ -15102,8 +15153,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Douglas,completed,18
 2021-08-20,Douglas,initiated,9
 2021-08-20,Douglas,completed,22
-2021-08-21,Douglas,initiated,2
-2021-08-21,Douglas,completed,8
+2021-08-21,Douglas,initiated,4
+2021-08-21,Douglas,completed,11
+2021-08-22,Douglas,completed,2
 2020-12-17,Dunklin,initiated,1
 2020-12-18,Dunklin,initiated,2
 2020-12-19,Dunklin,initiated,11
@@ -15556,8 +15608,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Dunklin,completed,16
 2021-08-20,Dunklin,initiated,40
 2021-08-20,Dunklin,completed,30
-2021-08-21,Dunklin,initiated,19
-2021-08-21,Dunklin,completed,13
+2021-08-21,Dunklin,initiated,21
+2021-08-21,Dunklin,completed,28
+2021-08-22,Dunklin,initiated,7
+2021-08-22,Dunklin,completed,8
 2020-12-14,Franklin,initiated,2
 2020-12-15,Franklin,initiated,51
 2020-12-16,Franklin,initiated,92
@@ -15624,7 +15678,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-24,Franklin,completed,3
 2021-01-25,Franklin,initiated,173
 2021-01-25,Franklin,completed,99
-2021-01-26,Franklin,initiated,218
+2021-01-26,Franklin,initiated,219
 2021-01-26,Franklin,completed,74
 2021-01-27,Franklin,initiated,121
 2021-01-27,Franklin,completed,85
@@ -15666,7 +15720,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-15,Franklin,initiated,138
 2021-02-15,Franklin,completed,57
 2021-02-16,Franklin,initiated,183
-2021-02-16,Franklin,completed,88
+2021-02-16,Franklin,completed,89
 2021-02-17,Franklin,initiated,213
 2021-02-17,Franklin,completed,125
 2021-02-18,Franklin,initiated,263
@@ -15714,7 +15768,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-11,Franklin,initiated,872
 2021-03-11,Franklin,completed,366
 2021-03-12,Franklin,initiated,531
-2021-03-12,Franklin,completed,279
+2021-03-12,Franklin,completed,278
 2021-03-13,Franklin,initiated,140
 2021-03-13,Franklin,completed,100
 2021-03-14,Franklin,initiated,36
@@ -15768,7 +15822,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-07,Franklin,initiated,812
 2021-04-07,Franklin,completed,795
 2021-04-08,Franklin,initiated,737
-2021-04-08,Franklin,completed,799
+2021-04-08,Franklin,completed,798
 2021-04-09,Franklin,initiated,689
 2021-04-09,Franklin,completed,698
 2021-04-10,Franklin,initiated,413
@@ -16033,12 +16087,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Franklin,completed,195
 2021-08-18,Franklin,initiated,145
 2021-08-18,Franklin,completed,136
-2021-08-19,Franklin,initiated,139
-2021-08-19,Franklin,completed,212
-2021-08-20,Franklin,initiated,129
-2021-08-20,Franklin,completed,185
-2021-08-21,Franklin,initiated,25
-2021-08-21,Franklin,completed,30
+2021-08-19,Franklin,initiated,157
+2021-08-19,Franklin,completed,233
+2021-08-20,Franklin,initiated,130
+2021-08-20,Franklin,completed,186
+2021-08-21,Franklin,initiated,79
+2021-08-21,Franklin,completed,80
+2021-08-22,Franklin,initiated,13
+2021-08-22,Franklin,completed,19
 2020-12-16,Gasconade,initiated,4
 2020-12-17,Gasconade,initiated,5
 2020-12-18,Gasconade,initiated,18
@@ -16492,7 +16548,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Gasconade,completed,33
 2021-08-20,Gasconade,initiated,30
 2021-08-20,Gasconade,completed,41
-2021-08-21,Gasconade,completed,3
+2021-08-21,Gasconade,initiated,5
+2021-08-21,Gasconade,completed,6
+2021-08-22,Gasconade,initiated,3
 2020-12-21,Gentry,initiated,2
 2020-12-22,Gentry,initiated,2
 2020-12-23,Gentry,initiated,10
@@ -16607,8 +16665,8 @@ report_date,jurisdiction,value,vaccinations
 2021-03-08,Gentry,completed,6
 2021-03-09,Gentry,initiated,13
 2021-03-09,Gentry,completed,6
-2021-03-10,Gentry,initiated,52
-2021-03-10,Gentry,completed,66
+2021-03-10,Gentry,initiated,53
+2021-03-10,Gentry,completed,67
 2021-03-11,Gentry,initiated,12
 2021-03-11,Gentry,completed,16
 2021-03-12,Gentry,initiated,11
@@ -16888,10 +16946,11 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Gentry,completed,8
 2021-08-19,Gentry,initiated,8
 2021-08-19,Gentry,completed,3
-2021-08-20,Gentry,initiated,13
+2021-08-20,Gentry,initiated,15
 2021-08-20,Gentry,completed,21
-2021-08-21,Gentry,initiated,1
-2021-08-21,Gentry,completed,3
+2021-08-21,Gentry,initiated,7
+2021-08-21,Gentry,completed,5
+2021-08-22,Gentry,completed,1
 2020-12-14,Greene,initiated,6
 2020-12-14,Greene,completed,6
 2020-12-15,Greene,initiated,54
@@ -17025,7 +17084,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-22,Greene,completed,302
 2021-02-23,Greene,initiated,493
 2021-02-23,Greene,completed,381
-2021-02-24,Greene,initiated,1621
+2021-02-24,Greene,initiated,1622
 2021-02-24,Greene,completed,239
 2021-02-25,Greene,initiated,742
 2021-02-25,Greene,completed,899
@@ -17057,7 +17116,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-10,Greene,completed,364
 2021-03-11,Greene,initiated,1503
 2021-03-11,Greene,completed,403
-2021-03-12,Greene,initiated,1140
+2021-03-12,Greene,initiated,1141
 2021-03-12,Greene,completed,653
 2021-03-13,Greene,initiated,559
 2021-03-13,Greene,completed,394
@@ -17082,7 +17141,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-23,Greene,initiated,1556
 2021-03-23,Greene,completed,568
 2021-03-24,Greene,initiated,822
-2021-03-24,Greene,completed,1868
+2021-03-24,Greene,completed,1869
 2021-03-25,Greene,initiated,795
 2021-03-25,Greene,completed,1413
 2021-03-26,Greene,initiated,802
@@ -17113,8 +17172,8 @@ report_date,jurisdiction,value,vaccinations
 2021-04-07,Greene,completed,1260
 2021-04-08,Greene,initiated,1077
 2021-04-08,Greene,completed,3252
-2021-04-09,Greene,initiated,2372
-2021-04-09,Greene,completed,3570
+2021-04-09,Greene,initiated,2373
+2021-04-09,Greene,completed,3572
 2021-04-10,Greene,initiated,592
 2021-04-10,Greene,completed,709
 2021-04-11,Greene,initiated,195
@@ -17199,7 +17258,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-20,Greene,completed,390
 2021-05-21,Greene,initiated,492
 2021-05-21,Greene,completed,352
-2021-05-22,Greene,initiated,279
+2021-05-22,Greene,initiated,280
 2021-05-22,Greene,completed,264
 2021-05-23,Greene,initiated,98
 2021-05-23,Greene,completed,110
@@ -17256,7 +17315,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-18,Greene,initiated,251
 2021-06-18,Greene,completed,281
 2021-06-19,Greene,initiated,182
-2021-06-19,Greene,completed,171
+2021-06-19,Greene,completed,172
 2021-06-20,Greene,initiated,73
 2021-06-20,Greene,completed,104
 2021-06-21,Greene,initiated,311
@@ -17277,7 +17336,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-28,Greene,completed,250
 2021-06-29,Greene,initiated,277
 2021-06-29,Greene,completed,179
-2021-06-30,Greene,initiated,293
+2021-06-30,Greene,initiated,294
 2021-06-30,Greene,completed,250
 2021-07-01,Greene,initiated,364
 2021-07-01,Greene,completed,218
@@ -17320,8 +17379,8 @@ report_date,jurisdiction,value,vaccinations
 2021-07-20,Greene,initiated,536
 2021-07-20,Greene,completed,279
 2021-07-21,Greene,initiated,617
-2021-07-21,Greene,completed,283
-2021-07-22,Greene,initiated,696
+2021-07-21,Greene,completed,284
+2021-07-22,Greene,initiated,695
 2021-07-22,Greene,completed,298
 2021-07-23,Greene,initiated,671
 2021-07-23,Greene,completed,430
@@ -17337,7 +17396,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-28,Greene,completed,370
 2021-07-29,Greene,initiated,645
 2021-07-29,Greene,completed,361
-2021-07-30,Greene,initiated,456
+2021-07-30,Greene,initiated,454
 2021-07-30,Greene,completed,366
 2021-07-31,Greene,initiated,329
 2021-07-31,Greene,completed,283
@@ -17381,8 +17440,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Greene,completed,472
 2021-08-20,Greene,initiated,249
 2021-08-20,Greene,completed,474
-2021-08-21,Greene,initiated,103
-2021-08-21,Greene,completed,137
+2021-08-21,Greene,initiated,169
+2021-08-21,Greene,completed,306
+2021-08-22,Greene,initiated,14
+2021-08-22,Greene,completed,70
 2020-12-18,Grundy,initiated,1
 2020-12-21,Grundy,initiated,1
 2020-12-22,Grundy,initiated,4
@@ -17790,6 +17851,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Grundy,completed,11
 2021-08-20,Grundy,initiated,6
 2021-08-20,Grundy,completed,19
+2021-08-21,Grundy,initiated,4
+2021-08-21,Grundy,completed,4
+2021-08-22,Grundy,initiated,1
+2021-08-22,Grundy,completed,1
 2020-12-18,Harrison,initiated,1
 2020-12-20,Harrison,initiated,1
 2020-12-21,Harrison,initiated,2
@@ -18195,6 +18260,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,Harrison,initiated,12
 2021-08-20,Harrison,completed,21
 2021-08-21,Harrison,completed,1
+2021-08-22,Harrison,initiated,1
 2020-12-15,Henry,initiated,2
 2020-12-16,Henry,initiated,2
 2020-12-17,Henry,initiated,5
@@ -18652,8 +18718,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Henry,completed,37
 2021-08-20,Henry,initiated,25
 2021-08-20,Henry,completed,43
-2021-08-21,Henry,initiated,6
-2021-08-21,Henry,completed,7
+2021-08-21,Henry,initiated,17
+2021-08-21,Henry,completed,25
+2021-08-22,Henry,initiated,5
+2021-08-22,Henry,completed,1
 2020-12-18,Hickory,initiated,3
 2020-12-18,Hickory,completed,1
 2020-12-21,Hickory,initiated,1
@@ -19065,6 +19133,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,Hickory,initiated,1
 2021-08-20,Hickory,completed,1
 2021-08-21,Hickory,initiated,1
+2021-08-22,Hickory,completed,3
 2020-12-23,Holt,initiated,6
 2020-12-27,Holt,initiated,3
 2020-12-28,Holt,initiated,51
@@ -19400,7 +19469,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Holt,completed,8
 2021-08-20,Holt,initiated,4
 2021-08-20,Holt,completed,5
-2021-08-21,Holt,completed,1
+2021-08-21,Holt,initiated,1
+2021-08-21,Holt,completed,2
 2020-12-16,Howard,initiated,2
 2020-12-17,Howard,initiated,6
 2020-12-18,Howard,initiated,6
@@ -19843,8 +19913,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Howard,completed,12
 2021-08-20,Howard,initiated,9
 2021-08-20,Howard,completed,12
-2021-08-21,Howard,initiated,2
-2021-08-21,Howard,completed,9
+2021-08-21,Howard,initiated,4
+2021-08-21,Howard,completed,12
+2021-08-22,Howard,initiated,1
+2021-08-22,Howard,completed,4
 2020-12-15,Howell,initiated,1
 2020-12-15,Howell,completed,1
 2020-12-16,Howell,initiated,3
@@ -20318,8 +20390,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Howell,completed,73
 2021-08-20,Howell,initiated,55
 2021-08-20,Howell,completed,130
-2021-08-21,Howell,initiated,5
-2021-08-21,Howell,completed,20
+2021-08-21,Howell,initiated,12
+2021-08-21,Howell,completed,51
+2021-08-22,Howell,initiated,4
+2021-08-22,Howell,completed,15
 2020-12-13,Iron,initiated,1
 2020-12-16,Iron,initiated,1
 2020-12-17,Iron,initiated,4
@@ -20751,8 +20825,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Iron,completed,11
 2021-08-20,Iron,initiated,14
 2021-08-20,Iron,completed,23
-2021-08-21,Iron,initiated,1
-2021-08-21,Iron,completed,3
+2021-08-21,Iron,initiated,2
+2021-08-21,Iron,completed,7
+2021-08-22,Iron,completed,1
 2020-12-13,Jackson,initiated,2
 2020-12-14,Jackson,initiated,8
 2020-12-14,Jackson,completed,1
@@ -20846,7 +20921,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-30,Jackson,completed,12
 2021-01-31,Jackson,initiated,203
 2021-01-31,Jackson,completed,7
-2021-02-01,Jackson,initiated,771
+2021-02-01,Jackson,initiated,772
 2021-02-01,Jackson,completed,243
 2021-02-02,Jackson,initiated,572
 2021-02-02,Jackson,completed,388
@@ -20889,7 +20964,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-21,Jackson,initiated,20
 2021-02-21,Jackson,completed,244
 2021-02-22,Jackson,initiated,845
-2021-02-22,Jackson,completed,711
+2021-02-22,Jackson,completed,712
 2021-02-23,Jackson,initiated,1622
 2021-02-23,Jackson,completed,410
 2021-02-24,Jackson,initiated,2502
@@ -20906,7 +20981,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-01,Jackson,completed,596
 2021-03-02,Jackson,initiated,1947
 2021-03-02,Jackson,completed,702
-2021-03-03,Jackson,initiated,2602
+2021-03-03,Jackson,initiated,2603
 2021-03-03,Jackson,completed,819
 2021-03-04,Jackson,initiated,2913
 2021-03-04,Jackson,completed,584
@@ -20918,7 +20993,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-07,Jackson,completed,133
 2021-03-08,Jackson,initiated,1757
 2021-03-08,Jackson,completed,765
-2021-03-09,Jackson,initiated,1516
+2021-03-09,Jackson,initiated,1515
 2021-03-09,Jackson,completed,716
 2021-03-10,Jackson,initiated,2510
 2021-03-10,Jackson,completed,906
@@ -20932,7 +21007,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-14,Jackson,completed,499
 2021-03-15,Jackson,initiated,1859
 2021-03-15,Jackson,completed,799
-2021-03-16,Jackson,initiated,1792
+2021-03-16,Jackson,initiated,1791
 2021-03-16,Jackson,completed,1132
 2021-03-17,Jackson,initiated,1512
 2021-03-17,Jackson,completed,1298
@@ -20949,14 +21024,14 @@ report_date,jurisdiction,value,vaccinations
 2021-03-23,Jackson,initiated,1953
 2021-03-23,Jackson,completed,1670
 2021-03-24,Jackson,initiated,1313
-2021-03-24,Jackson,completed,2410
+2021-03-24,Jackson,completed,2411
 2021-03-25,Jackson,initiated,1985
 2021-03-25,Jackson,completed,2721
 2021-03-26,Jackson,initiated,1673
 2021-03-26,Jackson,completed,2956
 2021-03-27,Jackson,initiated,479
 2021-03-27,Jackson,completed,1290
-2021-03-28,Jackson,initiated,179
+2021-03-28,Jackson,initiated,180
 2021-03-28,Jackson,completed,263
 2021-03-29,Jackson,initiated,1543
 2021-03-29,Jackson,completed,2491
@@ -20974,8 +21049,8 @@ report_date,jurisdiction,value,vaccinations
 2021-04-04,Jackson,completed,181
 2021-04-05,Jackson,initiated,1828
 2021-04-05,Jackson,completed,2350
-2021-04-06,Jackson,initiated,1988
-2021-04-06,Jackson,completed,2556
+2021-04-06,Jackson,initiated,1990
+2021-04-06,Jackson,completed,2554
 2021-04-07,Jackson,initiated,2636
 2021-04-07,Jackson,completed,1832
 2021-04-08,Jackson,initiated,2611
@@ -20988,9 +21063,9 @@ report_date,jurisdiction,value,vaccinations
 2021-04-11,Jackson,completed,725
 2021-04-12,Jackson,initiated,2136
 2021-04-12,Jackson,completed,1299
-2021-04-13,Jackson,initiated,2053
+2021-04-13,Jackson,initiated,2054
 2021-04-13,Jackson,completed,1511
-2021-04-14,Jackson,initiated,2229
+2021-04-14,Jackson,initiated,2230
 2021-04-14,Jackson,completed,1524
 2021-04-15,Jackson,initiated,2145
 2021-04-15,Jackson,completed,1777
@@ -21017,7 +21092,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-26,Jackson,initiated,425
 2021-04-26,Jackson,completed,1340
 2021-04-27,Jackson,initiated,549
-2021-04-27,Jackson,completed,1890
+2021-04-27,Jackson,completed,1892
 2021-04-28,Jackson,initiated,571
 2021-04-28,Jackson,completed,1826
 2021-04-29,Jackson,initiated,805
@@ -21031,10 +21106,10 @@ report_date,jurisdiction,value,vaccinations
 2021-05-03,Jackson,initiated,446
 2021-05-03,Jackson,completed,1854
 2021-05-04,Jackson,initiated,506
-2021-05-04,Jackson,completed,1835
+2021-05-04,Jackson,completed,1836
 2021-05-05,Jackson,initiated,617
-2021-05-05,Jackson,completed,1795
-2021-05-06,Jackson,initiated,422
+2021-05-05,Jackson,completed,1796
+2021-05-06,Jackson,initiated,423
 2021-05-06,Jackson,completed,2080
 2021-05-07,Jackson,initiated,672
 2021-05-07,Jackson,completed,1310
@@ -21058,9 +21133,9 @@ report_date,jurisdiction,value,vaccinations
 2021-05-16,Jackson,completed,213
 2021-05-17,Jackson,initiated,1259
 2021-05-17,Jackson,completed,546
-2021-05-18,Jackson,initiated,998
+2021-05-18,Jackson,initiated,999
 2021-05-18,Jackson,completed,569
-2021-05-19,Jackson,initiated,970
+2021-05-19,Jackson,initiated,971
 2021-05-19,Jackson,completed,510
 2021-05-20,Jackson,initiated,783
 2021-05-20,Jackson,completed,726
@@ -21101,9 +21176,9 @@ report_date,jurisdiction,value,vaccinations
 2021-06-07,Jackson,initiated,400
 2021-06-07,Jackson,completed,1004
 2021-06-08,Jackson,initiated,254
-2021-06-08,Jackson,completed,749
+2021-06-08,Jackson,completed,750
 2021-06-09,Jackson,initiated,274
-2021-06-09,Jackson,completed,807
+2021-06-09,Jackson,completed,808
 2021-06-10,Jackson,initiated,262
 2021-06-10,Jackson,completed,648
 2021-06-11,Jackson,initiated,353
@@ -21178,7 +21253,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-15,Jackson,completed,275
 2021-07-16,Jackson,initiated,513
 2021-07-16,Jackson,completed,349
-2021-07-17,Jackson,initiated,332
+2021-07-17,Jackson,initiated,331
 2021-07-17,Jackson,completed,225
 2021-07-18,Jackson,initiated,250
 2021-07-18,Jackson,completed,124
@@ -21201,12 +21276,12 @@ report_date,jurisdiction,value,vaccinations
 2021-07-27,Jackson,initiated,626
 2021-07-27,Jackson,completed,265
 2021-07-28,Jackson,initiated,655
-2021-07-28,Jackson,completed,269
+2021-07-28,Jackson,completed,270
 2021-07-29,Jackson,initiated,616
 2021-07-29,Jackson,completed,326
 2021-07-30,Jackson,initiated,731
 2021-07-30,Jackson,completed,446
-2021-07-31,Jackson,initiated,530
+2021-07-31,Jackson,initiated,527
 2021-07-31,Jackson,completed,294
 2021-08-01,Jackson,initiated,326
 2021-08-01,Jackson,completed,167
@@ -21228,7 +21303,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-09,Jackson,completed,469
 2021-08-10,Jackson,initiated,553
 2021-08-10,Jackson,completed,379
-2021-08-11,Jackson,initiated,498
+2021-08-11,Jackson,initiated,499
 2021-08-11,Jackson,completed,432
 2021-08-12,Jackson,initiated,554
 2021-08-12,Jackson,completed,417
@@ -21239,7 +21314,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-15,Jackson,initiated,221
 2021-08-15,Jackson,completed,263
 2021-08-16,Jackson,initiated,465
-2021-08-16,Jackson,completed,607
+2021-08-16,Jackson,completed,608
 2021-08-17,Jackson,initiated,382
 2021-08-17,Jackson,completed,448
 2021-08-18,Jackson,initiated,419
@@ -21248,8 +21323,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Jackson,completed,539
 2021-08-20,Jackson,initiated,481
 2021-08-20,Jackson,completed,605
-2021-08-21,Jackson,initiated,73
-2021-08-21,Jackson,completed,101
+2021-08-21,Jackson,initiated,293
+2021-08-21,Jackson,completed,463
+2021-08-22,Jackson,initiated,32
+2021-08-22,Jackson,completed,46
 2020-12-15,Jasper,initiated,1
 2020-12-15,Jasper,completed,1
 2020-12-16,Jasper,initiated,7
@@ -21573,7 +21650,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-09,Jasper,completed,70
 2021-06-10,Jasper,initiated,64
 2021-06-10,Jasper,completed,79
-2021-06-11,Jasper,initiated,56
+2021-06-11,Jasper,initiated,57
 2021-06-11,Jasper,completed,56
 2021-06-12,Jasper,initiated,24
 2021-06-12,Jasper,completed,35
@@ -21711,11 +21788,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Jasper,initiated,83
 2021-08-18,Jasper,completed,140
 2021-08-19,Jasper,initiated,53
-2021-08-19,Jasper,completed,134
+2021-08-19,Jasper,completed,138
 2021-08-20,Jasper,initiated,100
-2021-08-20,Jasper,completed,137
-2021-08-21,Jasper,initiated,25
-2021-08-21,Jasper,completed,33
+2021-08-20,Jasper,completed,139
+2021-08-21,Jasper,initiated,38
+2021-08-21,Jasper,completed,68
+2021-08-22,Jasper,initiated,5
+2021-08-22,Jasper,completed,12
 2020-12-14,Jefferson,initiated,5
 2020-12-15,Jefferson,initiated,30
 2020-12-16,Jefferson,initiated,106
@@ -21815,7 +21894,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-09,Jefferson,completed,506
 2021-02-10,Jefferson,initiated,216
 2021-02-10,Jefferson,completed,534
-2021-02-11,Jefferson,initiated,403
+2021-02-11,Jefferson,initiated,404
 2021-02-11,Jefferson,completed,503
 2021-02-12,Jefferson,initiated,470
 2021-02-12,Jefferson,completed,592
@@ -21867,8 +21946,8 @@ report_date,jurisdiction,value,vaccinations
 2021-03-07,Jefferson,completed,31
 2021-03-08,Jefferson,initiated,1716
 2021-03-08,Jefferson,completed,1232
-2021-03-09,Jefferson,initiated,936
-2021-03-09,Jefferson,completed,500
+2021-03-09,Jefferson,initiated,935
+2021-03-09,Jefferson,completed,501
 2021-03-10,Jefferson,initiated,1296
 2021-03-10,Jefferson,completed,459
 2021-03-11,Jefferson,initiated,986
@@ -21928,7 +22007,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-07,Jefferson,initiated,1866
 2021-04-07,Jefferson,completed,974
 2021-04-08,Jefferson,initiated,964
-2021-04-08,Jefferson,completed,1412
+2021-04-08,Jefferson,completed,1411
 2021-04-09,Jefferson,initiated,1199
 2021-04-09,Jefferson,completed,713
 2021-04-10,Jefferson,initiated,525
@@ -22005,7 +22084,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-15,Jefferson,completed,319
 2021-05-16,Jefferson,initiated,205
 2021-05-16,Jefferson,completed,139
-2021-05-17,Jefferson,initiated,478
+2021-05-17,Jefferson,initiated,477
 2021-05-17,Jefferson,completed,356
 2021-05-18,Jefferson,initiated,539
 2021-05-18,Jefferson,completed,346
@@ -22062,7 +22141,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-13,Jefferson,initiated,38
 2021-06-13,Jefferson,completed,135
 2021-06-14,Jefferson,initiated,123
-2021-06-14,Jefferson,completed,277
+2021-06-14,Jefferson,completed,276
 2021-06-15,Jefferson,initiated,128
 2021-06-15,Jefferson,completed,275
 2021-06-16,Jefferson,initiated,123
@@ -22180,7 +22259,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-11,Jefferson,initiated,241
 2021-08-11,Jefferson,completed,273
 2021-08-12,Jefferson,initiated,256
-2021-08-12,Jefferson,completed,209
+2021-08-12,Jefferson,completed,210
 2021-08-13,Jefferson,initiated,299
 2021-08-13,Jefferson,completed,316
 2021-08-14,Jefferson,initiated,145
@@ -22196,9 +22275,11 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Jefferson,initiated,191
 2021-08-19,Jefferson,completed,253
 2021-08-20,Jefferson,initiated,267
-2021-08-20,Jefferson,completed,261
-2021-08-21,Jefferson,initiated,36
-2021-08-21,Jefferson,completed,51
+2021-08-20,Jefferson,completed,262
+2021-08-21,Jefferson,initiated,157
+2021-08-21,Jefferson,completed,168
+2021-08-22,Jefferson,initiated,12
+2021-08-22,Jefferson,completed,18
 2020-12-16,Johnson,initiated,1
 2020-12-17,Johnson,initiated,5
 2020-12-18,Johnson,initiated,38
@@ -22314,7 +22395,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Johnson,completed,330
 2021-02-25,Johnson,initiated,43
 2021-02-25,Johnson,completed,43
-2021-02-26,Johnson,initiated,49
+2021-02-26,Johnson,initiated,50
 2021-02-26,Johnson,completed,313
 2021-02-27,Johnson,initiated,124
 2021-02-27,Johnson,completed,6
@@ -22342,7 +22423,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-10,Johnson,completed,30
 2021-03-11,Johnson,initiated,159
 2021-03-11,Johnson,completed,29
-2021-03-12,Johnson,initiated,150
+2021-03-12,Johnson,initiated,151
 2021-03-12,Johnson,completed,270
 2021-03-13,Johnson,initiated,106
 2021-03-13,Johnson,completed,92
@@ -22358,7 +22439,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-18,Johnson,completed,36
 2021-03-19,Johnson,initiated,104
 2021-03-19,Johnson,completed,57
-2021-03-20,Johnson,initiated,42
+2021-03-20,Johnson,initiated,41
 2021-03-20,Johnson,completed,32
 2021-03-21,Johnson,initiated,12
 2021-03-21,Johnson,completed,6
@@ -22380,7 +22461,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-29,Johnson,completed,398
 2021-03-30,Johnson,initiated,149
 2021-03-30,Johnson,completed,416
-2021-03-31,Johnson,initiated,166
+2021-03-31,Johnson,initiated,167
 2021-03-31,Johnson,completed,200
 2021-04-01,Johnson,initiated,320
 2021-04-01,Johnson,completed,68
@@ -22399,7 +22480,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-08,Johnson,initiated,89
 2021-04-08,Johnson,completed,142
 2021-04-09,Johnson,initiated,434
-2021-04-09,Johnson,completed,148
+2021-04-09,Johnson,completed,149
 2021-04-10,Johnson,initiated,51
 2021-04-10,Johnson,completed,134
 2021-04-11,Johnson,initiated,17
@@ -22421,7 +22502,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-19,Johnson,initiated,35
 2021-04-19,Johnson,completed,39
 2021-04-20,Johnson,initiated,47
-2021-04-20,Johnson,completed,193
+2021-04-20,Johnson,completed,194
 2021-04-21,Johnson,initiated,69
 2021-04-21,Johnson,completed,45
 2021-04-22,Johnson,initiated,48
@@ -22603,7 +22684,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-19,Johnson,completed,22
 2021-07-20,Johnson,initiated,47
 2021-07-20,Johnson,completed,25
-2021-07-21,Johnson,initiated,95
+2021-07-21,Johnson,initiated,96
 2021-07-21,Johnson,completed,32
 2021-07-22,Johnson,initiated,68
 2021-07-22,Johnson,completed,28
@@ -22661,12 +22742,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Johnson,completed,52
 2021-08-18,Johnson,initiated,40
 2021-08-18,Johnson,completed,67
-2021-08-19,Johnson,initiated,52
-2021-08-19,Johnson,completed,52
-2021-08-20,Johnson,initiated,48
-2021-08-20,Johnson,completed,68
-2021-08-21,Johnson,initiated,16
-2021-08-21,Johnson,completed,10
+2021-08-19,Johnson,initiated,53
+2021-08-19,Johnson,completed,53
+2021-08-20,Johnson,initiated,49
+2021-08-20,Johnson,completed,69
+2021-08-21,Johnson,initiated,32
+2021-08-21,Johnson,completed,32
+2021-08-22,Johnson,initiated,2
+2021-08-22,Johnson,completed,12
 2020-12-15,Joplin,initiated,7
 2020-12-15,Joplin,completed,4
 2020-12-16,Joplin,initiated,31
@@ -23137,11 +23220,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Joplin,initiated,114
 2021-08-18,Joplin,completed,130
 2021-08-19,Joplin,initiated,78
-2021-08-19,Joplin,completed,113
+2021-08-19,Joplin,completed,115
 2021-08-20,Joplin,initiated,108
 2021-08-20,Joplin,completed,111
-2021-08-21,Joplin,initiated,19
-2021-08-21,Joplin,completed,30
+2021-08-21,Joplin,initiated,39
+2021-08-21,Joplin,completed,68
+2021-08-22,Joplin,initiated,13
+2021-08-22,Joplin,completed,18
 2020-12-13,Kansas City,initiated,1
 2020-12-14,Kansas City,initiated,24
 2020-12-15,Kansas City,initiated,55
@@ -23163,13 +23248,13 @@ report_date,jurisdiction,value,vaccinations
 2020-12-23,Kansas City,completed,6
 2020-12-24,Kansas City,initiated,126
 2020-12-24,Kansas City,completed,1
-2020-12-26,Kansas City,initiated,33
+2020-12-26,Kansas City,initiated,34
 2020-12-27,Kansas City,initiated,43
 2020-12-28,Kansas City,initiated,565
 2020-12-28,Kansas City,completed,4
 2020-12-29,Kansas City,initiated,808
 2020-12-29,Kansas City,completed,3
-2020-12-30,Kansas City,initiated,1298
+2020-12-30,Kansas City,initiated,1299
 2020-12-30,Kansas City,completed,5
 2020-12-31,Kansas City,initiated,986
 2020-12-31,Kansas City,completed,3
@@ -23204,26 +23289,26 @@ report_date,jurisdiction,value,vaccinations
 2021-01-15,Kansas City,initiated,1121
 2021-01-15,Kansas City,completed,161
 2021-01-16,Kansas City,initiated,155
-2021-01-16,Kansas City,completed,35
+2021-01-16,Kansas City,completed,36
 2021-01-17,Kansas City,initiated,7
 2021-01-17,Kansas City,completed,2
 2021-01-18,Kansas City,initiated,364
 2021-01-18,Kansas City,completed,241
-2021-01-19,Kansas City,initiated,669
+2021-01-19,Kansas City,initiated,670
 2021-01-19,Kansas City,completed,671
 2021-01-20,Kansas City,initiated,1033
 2021-01-20,Kansas City,completed,783
 2021-01-21,Kansas City,initiated,1940
 2021-01-21,Kansas City,completed,574
 2021-01-22,Kansas City,initiated,1860
-2021-01-22,Kansas City,completed,300
+2021-01-22,Kansas City,completed,301
 2021-01-23,Kansas City,initiated,361
 2021-01-23,Kansas City,completed,102
 2021-01-24,Kansas City,initiated,36
 2021-01-24,Kansas City,completed,13
 2021-01-25,Kansas City,initiated,1093
 2021-01-25,Kansas City,completed,365
-2021-01-26,Kansas City,initiated,1263
+2021-01-26,Kansas City,initiated,1262
 2021-01-26,Kansas City,completed,710
 2021-01-27,Kansas City,initiated,1123
 2021-01-27,Kansas City,completed,785
@@ -23235,7 +23320,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-30,Kansas City,completed,19
 2021-01-31,Kansas City,initiated,203
 2021-01-31,Kansas City,completed,31
-2021-02-01,Kansas City,initiated,792
+2021-02-01,Kansas City,initiated,791
 2021-02-01,Kansas City,completed,360
 2021-02-02,Kansas City,initiated,773
 2021-02-02,Kansas City,completed,628
@@ -23243,7 +23328,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-03,Kansas City,completed,601
 2021-02-04,Kansas City,initiated,1738
 2021-02-04,Kansas City,completed,1143
-2021-02-05,Kansas City,initiated,2606
+2021-02-05,Kansas City,initiated,2607
 2021-02-05,Kansas City,completed,1244
 2021-02-06,Kansas City,initiated,753
 2021-02-06,Kansas City,completed,478
@@ -23264,12 +23349,12 @@ report_date,jurisdiction,value,vaccinations
 2021-02-14,Kansas City,initiated,273
 2021-02-14,Kansas City,completed,12
 2021-02-15,Kansas City,initiated,316
-2021-02-15,Kansas City,completed,1139
+2021-02-15,Kansas City,completed,1140
 2021-02-16,Kansas City,initiated,392
-2021-02-16,Kansas City,completed,1249
+2021-02-16,Kansas City,completed,1248
 2021-02-17,Kansas City,initiated,620
 2021-02-17,Kansas City,completed,1245
-2021-02-18,Kansas City,initiated,1688
+2021-02-18,Kansas City,initiated,1687
 2021-02-18,Kansas City,completed,1570
 2021-02-19,Kansas City,initiated,885
 2021-02-19,Kansas City,completed,1588
@@ -23278,7 +23363,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-21,Kansas City,initiated,14
 2021-02-21,Kansas City,completed,201
 2021-02-22,Kansas City,initiated,847
-2021-02-22,Kansas City,completed,749
+2021-02-22,Kansas City,completed,748
 2021-02-23,Kansas City,initiated,1341
 2021-02-23,Kansas City,completed,378
 2021-02-24,Kansas City,initiated,2005
@@ -23297,18 +23382,18 @@ report_date,jurisdiction,value,vaccinations
 2021-03-02,Kansas City,completed,1115
 2021-03-03,Kansas City,initiated,2581
 2021-03-03,Kansas City,completed,1213
-2021-03-04,Kansas City,initiated,4214
+2021-03-04,Kansas City,initiated,4215
 2021-03-04,Kansas City,completed,845
-2021-03-05,Kansas City,initiated,4110
+2021-03-05,Kansas City,initiated,4109
 2021-03-05,Kansas City,completed,833
-2021-03-06,Kansas City,initiated,2000
+2021-03-06,Kansas City,initiated,2002
 2021-03-06,Kansas City,completed,580
 2021-03-07,Kansas City,initiated,589
 2021-03-07,Kansas City,completed,275
 2021-03-08,Kansas City,initiated,1652
-2021-03-08,Kansas City,completed,2017
+2021-03-08,Kansas City,completed,2018
 2021-03-09,Kansas City,initiated,1943
-2021-03-09,Kansas City,completed,1591
+2021-03-09,Kansas City,completed,1592
 2021-03-10,Kansas City,initiated,2610
 2021-03-10,Kansas City,completed,1142
 2021-03-11,Kansas City,initiated,2572
@@ -23340,16 +23425,16 @@ report_date,jurisdiction,value,vaccinations
 2021-03-24,Kansas City,initiated,2610
 2021-03-24,Kansas City,completed,2446
 2021-03-25,Kansas City,initiated,2066
-2021-03-25,Kansas City,completed,4154
-2021-03-26,Kansas City,initiated,3277
+2021-03-25,Kansas City,completed,4153
+2021-03-26,Kansas City,initiated,3278
 2021-03-26,Kansas City,completed,3926
 2021-03-27,Kansas City,initiated,594
-2021-03-27,Kansas City,completed,1353
+2021-03-27,Kansas City,completed,1355
 2021-03-28,Kansas City,initiated,343
 2021-03-28,Kansas City,completed,391
 2021-03-29,Kansas City,initiated,2233
 2021-03-29,Kansas City,completed,3660
-2021-03-30,Kansas City,initiated,2525
+2021-03-30,Kansas City,initiated,2526
 2021-03-30,Kansas City,completed,3232
 2021-03-31,Kansas City,initiated,3255
 2021-03-31,Kansas City,completed,1801
@@ -23368,8 +23453,8 @@ report_date,jurisdiction,value,vaccinations
 2021-04-07,Kansas City,initiated,2668
 2021-04-07,Kansas City,completed,2286
 2021-04-08,Kansas City,initiated,3128
-2021-04-08,Kansas City,completed,3395
-2021-04-09,Kansas City,initiated,3066
+2021-04-08,Kansas City,completed,3396
+2021-04-09,Kansas City,initiated,3067
 2021-04-09,Kansas City,completed,3770
 2021-04-10,Kansas City,initiated,2549
 2021-04-10,Kansas City,completed,2026
@@ -23377,7 +23462,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-11,Kansas City,completed,592
 2021-04-12,Kansas City,initiated,2175
 2021-04-12,Kansas City,completed,1937
-2021-04-13,Kansas City,initiated,2639
+2021-04-13,Kansas City,initiated,2638
 2021-04-13,Kansas City,completed,1902
 2021-04-14,Kansas City,initiated,1966
 2021-04-14,Kansas City,completed,2005
@@ -23404,15 +23489,15 @@ report_date,jurisdiction,value,vaccinations
 2021-04-25,Kansas City,initiated,268
 2021-04-25,Kansas City,completed,351
 2021-04-26,Kansas City,initiated,695
-2021-04-26,Kansas City,completed,1420
+2021-04-26,Kansas City,completed,1421
 2021-04-27,Kansas City,initiated,815
-2021-04-27,Kansas City,completed,2785
+2021-04-27,Kansas City,completed,2786
 2021-04-28,Kansas City,initiated,778
 2021-04-28,Kansas City,completed,2138
 2021-04-29,Kansas City,initiated,889
 2021-04-29,Kansas City,completed,2340
 2021-04-30,Kansas City,initiated,900
-2021-04-30,Kansas City,completed,2286
+2021-04-30,Kansas City,completed,2287
 2021-05-01,Kansas City,initiated,503
 2021-05-01,Kansas City,completed,1510
 2021-05-02,Kansas City,initiated,259
@@ -23420,7 +23505,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-03,Kansas City,initiated,568
 2021-05-03,Kansas City,completed,1569
 2021-05-04,Kansas City,initiated,829
-2021-05-04,Kansas City,completed,2529
+2021-05-04,Kansas City,completed,2528
 2021-05-05,Kansas City,initiated,677
 2021-05-05,Kansas City,completed,1572
 2021-05-06,Kansas City,initiated,649
@@ -23447,7 +23532,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-16,Kansas City,completed,279
 2021-05-17,Kansas City,initiated,1667
 2021-05-17,Kansas City,completed,760
-2021-05-18,Kansas City,initiated,1286
+2021-05-18,Kansas City,initiated,1285
 2021-05-18,Kansas City,completed,847
 2021-05-19,Kansas City,initiated,1280
 2021-05-19,Kansas City,completed,816
@@ -23461,7 +23546,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-23,Kansas City,completed,245
 2021-05-24,Kansas City,initiated,782
 2021-05-24,Kansas City,completed,605
-2021-05-25,Kansas City,initiated,770
+2021-05-25,Kansas City,initiated,771
 2021-05-25,Kansas City,completed,719
 2021-05-26,Kansas City,initiated,627
 2021-05-26,Kansas City,completed,589
@@ -23490,7 +23575,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-07,Kansas City,initiated,507
 2021-06-07,Kansas City,completed,1247
 2021-06-08,Kansas City,initiated,579
-2021-06-08,Kansas City,completed,971
+2021-06-08,Kansas City,completed,970
 2021-06-09,Kansas City,initiated,490
 2021-06-09,Kansas City,completed,1021
 2021-06-10,Kansas City,initiated,547
@@ -23538,7 +23623,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-01,Kansas City,initiated,486
 2021-07-01,Kansas City,completed,393
 2021-07-02,Kansas City,initiated,454
-2021-07-02,Kansas City,completed,406
+2021-07-02,Kansas City,completed,407
 2021-07-03,Kansas City,initiated,240
 2021-07-03,Kansas City,completed,193
 2021-07-04,Kansas City,initiated,24
@@ -23556,9 +23641,9 @@ report_date,jurisdiction,value,vaccinations
 2021-07-10,Kansas City,initiated,401
 2021-07-10,Kansas City,completed,244
 2021-07-11,Kansas City,initiated,220
-2021-07-11,Kansas City,completed,147
+2021-07-11,Kansas City,completed,148
 2021-07-12,Kansas City,initiated,563
-2021-07-12,Kansas City,completed,435
+2021-07-12,Kansas City,completed,436
 2021-07-13,Kansas City,initiated,541
 2021-07-13,Kansas City,completed,368
 2021-07-14,Kansas City,initiated,524
@@ -23585,19 +23670,19 @@ report_date,jurisdiction,value,vaccinations
 2021-07-24,Kansas City,completed,270
 2021-07-25,Kansas City,initiated,399
 2021-07-25,Kansas City,completed,97
-2021-07-26,Kansas City,initiated,906
+2021-07-26,Kansas City,initiated,907
 2021-07-26,Kansas City,completed,377
 2021-07-27,Kansas City,initiated,864
 2021-07-27,Kansas City,completed,376
 2021-07-28,Kansas City,initiated,928
 2021-07-28,Kansas City,completed,421
-2021-07-29,Kansas City,initiated,928
+2021-07-29,Kansas City,initiated,925
 2021-07-29,Kansas City,completed,395
 2021-07-30,Kansas City,initiated,1025
 2021-07-30,Kansas City,completed,516
-2021-07-31,Kansas City,initiated,659
+2021-07-31,Kansas City,initiated,661
 2021-07-31,Kansas City,completed,314
-2021-08-01,Kansas City,initiated,375
+2021-08-01,Kansas City,initiated,374
 2021-08-01,Kansas City,completed,180
 2021-08-02,Kansas City,initiated,960
 2021-08-02,Kansas City,completed,496
@@ -23613,13 +23698,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-07,Kansas City,completed,387
 2021-08-08,Kansas City,initiated,336
 2021-08-08,Kansas City,completed,238
-2021-08-09,Kansas City,initiated,807
-2021-08-09,Kansas City,completed,538
+2021-08-09,Kansas City,initiated,810
+2021-08-09,Kansas City,completed,540
 2021-08-10,Kansas City,initiated,714
 2021-08-10,Kansas City,completed,544
-2021-08-11,Kansas City,initiated,786
+2021-08-11,Kansas City,initiated,785
 2021-08-11,Kansas City,completed,526
-2021-08-12,Kansas City,initiated,642
+2021-08-12,Kansas City,initiated,646
 2021-08-12,Kansas City,completed,507
 2021-08-13,Kansas City,initiated,727
 2021-08-13,Kansas City,completed,687
@@ -23635,10 +23720,12 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Kansas City,completed,729
 2021-08-19,Kansas City,initiated,588
 2021-08-19,Kansas City,completed,714
-2021-08-20,Kansas City,initiated,664
-2021-08-20,Kansas City,completed,807
-2021-08-21,Kansas City,initiated,89
-2021-08-21,Kansas City,completed,126
+2021-08-20,Kansas City,initiated,665
+2021-08-20,Kansas City,completed,808
+2021-08-21,Kansas City,initiated,390
+2021-08-21,Kansas City,completed,499
+2021-08-22,Kansas City,initiated,36
+2021-08-22,Kansas City,completed,71
 2020-12-16,Knox,initiated,1
 2020-12-17,Knox,initiated,1
 2020-12-21,Knox,initiated,21
@@ -23944,6 +24031,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Knox,initiated,2
 2021-08-19,Knox,completed,8
 2021-08-20,Knox,completed,1
+2021-08-21,Knox,initiated,2
 2020-12-15,Laclede,initiated,13
 2020-12-15,Laclede,completed,2
 2020-12-16,Laclede,initiated,20
@@ -24053,7 +24141,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-20,Laclede,completed,27
 2021-02-21,Laclede,initiated,4
 2021-02-21,Laclede,completed,1
-2021-02-22,Laclede,initiated,532
+2021-02-22,Laclede,initiated,533
 2021-02-22,Laclede,completed,12
 2021-02-23,Laclede,initiated,568
 2021-02-23,Laclede,completed,9
@@ -24109,7 +24197,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-21,Laclede,initiated,5
 2021-03-21,Laclede,completed,7
 2021-03-22,Laclede,initiated,143
-2021-03-22,Laclede,completed,541
+2021-03-22,Laclede,completed,542
 2021-03-23,Laclede,initiated,96
 2021-03-23,Laclede,completed,541
 2021-03-24,Laclede,initiated,84
@@ -24411,8 +24499,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Laclede,completed,54
 2021-08-20,Laclede,initiated,25
 2021-08-20,Laclede,completed,57
-2021-08-21,Laclede,initiated,7
-2021-08-21,Laclede,completed,25
+2021-08-21,Laclede,initiated,15
+2021-08-21,Laclede,completed,48
+2021-08-22,Laclede,initiated,2
+2021-08-22,Laclede,completed,6
 2020-12-15,Lafayette,initiated,1
 2020-12-16,Lafayette,initiated,2
 2020-12-17,Lafayette,initiated,8
@@ -24809,8 +24899,8 @@ report_date,jurisdiction,value,vaccinations
 2021-07-14,Lafayette,completed,12
 2021-07-15,Lafayette,initiated,22
 2021-07-15,Lafayette,completed,8
-2021-07-16,Lafayette,initiated,43
-2021-07-16,Lafayette,completed,9
+2021-07-16,Lafayette,initiated,44
+2021-07-16,Lafayette,completed,10
 2021-07-17,Lafayette,initiated,21
 2021-07-17,Lafayette,completed,10
 2021-07-18,Lafayette,initiated,9
@@ -24881,8 +24971,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Lafayette,completed,46
 2021-08-20,Lafayette,initiated,26
 2021-08-20,Lafayette,completed,60
-2021-08-21,Lafayette,initiated,14
-2021-08-21,Lafayette,completed,24
+2021-08-21,Lafayette,initiated,27
+2021-08-21,Lafayette,completed,40
+2021-08-22,Lafayette,initiated,2
+2021-08-22,Lafayette,completed,10
 2020-12-15,Lawrence,initiated,1
 2020-12-15,Lawrence,completed,1
 2020-12-16,Lawrence,initiated,4
@@ -25351,11 +25443,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Lawrence,initiated,42
 2021-08-18,Lawrence,completed,72
 2021-08-19,Lawrence,initiated,31
-2021-08-19,Lawrence,completed,64
+2021-08-19,Lawrence,completed,65
 2021-08-20,Lawrence,initiated,53
-2021-08-20,Lawrence,completed,108
-2021-08-21,Lawrence,initiated,10
-2021-08-21,Lawrence,completed,31
+2021-08-20,Lawrence,completed,110
+2021-08-21,Lawrence,initiated,12
+2021-08-21,Lawrence,completed,36
+2021-08-22,Lawrence,initiated,4
+2021-08-22,Lawrence,completed,10
 2020-12-14,Lewis,initiated,1
 2020-12-16,Lewis,initiated,1
 2020-12-18,Lewis,initiated,1
@@ -25693,6 +25787,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Lewis,completed,1
 2021-08-20,Lewis,initiated,1
 2021-08-20,Lewis,completed,1
+2021-08-21,Lewis,initiated,1
+2021-08-21,Lewis,completed,2
 2020-12-16,Lincoln,initiated,8
 2020-12-17,Lincoln,initiated,70
 2020-12-18,Lincoln,initiated,54
@@ -26166,8 +26262,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Lincoln,completed,75
 2021-08-20,Lincoln,initiated,71
 2021-08-20,Lincoln,completed,69
-2021-08-21,Lincoln,initiated,9
-2021-08-21,Lincoln,completed,12
+2021-08-21,Lincoln,initiated,32
+2021-08-21,Lincoln,completed,36
+2021-08-22,Lincoln,initiated,2
+2021-08-22,Lincoln,completed,5
 2020-12-15,Linn,initiated,1
 2020-12-18,Linn,initiated,2
 2020-12-19,Linn,initiated,4
@@ -26609,8 +26707,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Linn,completed,9
 2021-08-20,Linn,initiated,20
 2021-08-20,Linn,completed,23
-2021-08-21,Linn,initiated,4
-2021-08-21,Linn,completed,3
+2021-08-21,Linn,initiated,8
+2021-08-21,Linn,completed,11
+2021-08-22,Linn,initiated,1
+2021-08-22,Linn,completed,1
 2020-12-17,Livingston,initiated,3
 2020-12-17,Livingston,completed,1
 2020-12-18,Livingston,initiated,5
@@ -26667,7 +26767,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-02,Livingston,completed,12
 2021-02-03,Livingston,initiated,26
 2021-02-03,Livingston,completed,26
-2021-02-04,Livingston,initiated,325
+2021-02-04,Livingston,initiated,326
 2021-02-04,Livingston,completed,15
 2021-02-05,Livingston,initiated,133
 2021-02-05,Livingston,completed,110
@@ -26707,7 +26807,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Livingston,initiated,89
 2021-02-24,Livingston,completed,23
 2021-02-25,Livingston,initiated,71
-2021-02-25,Livingston,completed,307
+2021-02-25,Livingston,completed,308
 2021-02-26,Livingston,initiated,246
 2021-02-26,Livingston,completed,27
 2021-02-27,Livingston,initiated,16
@@ -27048,8 +27148,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Livingston,completed,30
 2021-08-20,Livingston,initiated,18
 2021-08-20,Livingston,completed,7
-2021-08-21,Livingston,initiated,4
+2021-08-21,Livingston,initiated,9
 2021-08-21,Livingston,completed,1
+2021-08-22,Livingston,completed,2
 2020-12-18,Macon,initiated,5
 2020-12-19,Macon,initiated,1
 2020-12-21,Macon,initiated,30
@@ -27226,7 +27327,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-04,Macon,completed,1
 2021-04-05,Macon,initiated,30
 2021-04-05,Macon,completed,22
-2021-04-06,Macon,initiated,48
+2021-04-06,Macon,initiated,47
 2021-04-06,Macon,completed,56
 2021-04-07,Macon,initiated,23
 2021-04-07,Macon,completed,61
@@ -27268,7 +27369,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-26,Macon,initiated,5
 2021-04-26,Macon,completed,16
 2021-04-27,Macon,initiated,22
-2021-04-27,Macon,completed,22
+2021-04-27,Macon,completed,21
 2021-04-28,Macon,initiated,13
 2021-04-28,Macon,completed,20
 2021-04-29,Macon,initiated,21
@@ -27491,8 +27592,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Macon,completed,64
 2021-08-20,Macon,initiated,8
 2021-08-20,Macon,completed,22
-2021-08-21,Macon,initiated,1
-2021-08-21,Macon,completed,5
+2021-08-21,Macon,initiated,4
+2021-08-21,Macon,completed,8
 2020-12-15,Madison,initiated,1
 2020-12-17,Madison,initiated,3
 2020-12-18,Madison,initiated,5
@@ -27935,8 +28036,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Madison,completed,17
 2021-08-20,Madison,initiated,7
 2021-08-20,Madison,completed,23
-2021-08-21,Madison,initiated,4
-2021-08-21,Madison,completed,1
+2021-08-21,Madison,initiated,7
+2021-08-21,Madison,completed,5
+2021-08-22,Madison,initiated,5
+2021-08-22,Madison,completed,2
 2020-12-15,Maries,initiated,2
 2020-12-16,Maries,initiated,3
 2020-12-17,Maries,initiated,2
@@ -28360,10 +28463,12 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Maries,initiated,22
 2021-08-18,Maries,completed,12
 2021-08-19,Maries,initiated,4
-2021-08-19,Maries,completed,5
-2021-08-20,Maries,initiated,7
-2021-08-20,Maries,completed,12
-2021-08-21,Maries,completed,2
+2021-08-19,Maries,completed,7
+2021-08-20,Maries,initiated,18
+2021-08-20,Maries,completed,25
+2021-08-21,Maries,initiated,2
+2021-08-21,Maries,completed,4
+2021-08-22,Maries,completed,2
 2020-12-14,Marion,initiated,1
 2020-12-15,Marion,initiated,1
 2020-12-16,Marion,initiated,2
@@ -28409,7 +28514,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-18,Marion,completed,154
 2021-01-19,Marion,initiated,302
 2021-01-19,Marion,completed,117
-2021-01-20,Marion,initiated,805
+2021-01-20,Marion,initiated,806
 2021-01-20,Marion,completed,8
 2021-01-21,Marion,initiated,401
 2021-01-21,Marion,completed,5
@@ -28447,8 +28552,8 @@ report_date,jurisdiction,value,vaccinations
 2021-02-08,Marion,completed,437
 2021-02-09,Marion,initiated,32
 2021-02-09,Marion,completed,381
-2021-02-10,Marion,initiated,9
-2021-02-10,Marion,completed,6
+2021-02-10,Marion,initiated,8
+2021-02-10,Marion,completed,7
 2021-02-11,Marion,initiated,49
 2021-02-11,Marion,completed,285
 2021-02-12,Marion,initiated,45
@@ -28821,8 +28926,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Marion,completed,19
 2021-08-20,Marion,initiated,18
 2021-08-20,Marion,completed,18
-2021-08-21,Marion,initiated,1
-2021-08-21,Marion,completed,4
+2021-08-21,Marion,initiated,4
+2021-08-21,Marion,completed,9
+2021-08-22,Marion,initiated,3
+2021-08-22,Marion,completed,3
 2020-12-17,McDonald,initiated,4
 2020-12-17,McDonald,completed,1
 2020-12-18,McDonald,initiated,2
@@ -29260,8 +29367,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,McDonald,completed,8
 2021-08-20,McDonald,initiated,20
 2021-08-20,McDonald,completed,14
-2021-08-21,McDonald,initiated,7
-2021-08-21,McDonald,completed,6
+2021-08-21,McDonald,initiated,13
+2021-08-21,McDonald,completed,9
+2021-08-22,McDonald,initiated,6
+2021-08-22,McDonald,completed,1
 2020-12-20,Mercer,initiated,1
 2020-12-23,Mercer,initiated,2
 2020-12-29,Mercer,initiated,3
@@ -29551,6 +29660,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Mercer,completed,7
 2021-08-20,Mercer,initiated,8
 2021-08-20,Mercer,completed,2
+2021-08-22,Mercer,initiated,1
 2020-12-15,Miller,initiated,1
 2020-12-16,Miller,initiated,5
 2020-12-17,Miller,initiated,10
@@ -29575,7 +29685,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-04,Miller,completed,4
 2021-01-05,Miller,initiated,12
 2021-01-05,Miller,completed,3
-2021-01-06,Miller,initiated,10
+2021-01-06,Miller,initiated,9
 2021-01-06,Miller,completed,7
 2021-01-07,Miller,initiated,42
 2021-01-07,Miller,completed,10
@@ -29603,7 +29713,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-20,Miller,completed,35
 2021-01-21,Miller,initiated,29
 2021-01-21,Miller,completed,30
-2021-01-22,Miller,initiated,112
+2021-01-22,Miller,initiated,109
 2021-01-22,Miller,completed,4
 2021-01-23,Miller,initiated,49
 2021-01-23,Miller,completed,3
@@ -29632,17 +29742,17 @@ report_date,jurisdiction,value,vaccinations
 2021-02-05,Miller,initiated,82
 2021-02-05,Miller,completed,13
 2021-02-06,Miller,initiated,17
-2021-02-06,Miller,completed,5
+2021-02-06,Miller,completed,4
 2021-02-08,Miller,initiated,11
 2021-02-08,Miller,completed,29
 2021-02-09,Miller,initiated,15
 2021-02-09,Miller,completed,16
 2021-02-10,Miller,initiated,25
 2021-02-10,Miller,completed,37
-2021-02-11,Miller,initiated,244
+2021-02-11,Miller,initiated,242
 2021-02-11,Miller,completed,36
 2021-02-12,Miller,initiated,108
-2021-02-12,Miller,completed,115
+2021-02-12,Miller,completed,112
 2021-02-13,Miller,initiated,7
 2021-02-13,Miller,completed,50
 2021-02-14,Miller,initiated,4
@@ -29676,9 +29786,9 @@ report_date,jurisdiction,value,vaccinations
 2021-03-01,Miller,completed,22
 2021-03-02,Miller,initiated,44
 2021-03-02,Miller,completed,11
-2021-03-03,Miller,initiated,130
+2021-03-03,Miller,initiated,129
 2021-03-03,Miller,completed,16
-2021-03-04,Miller,initiated,82
+2021-03-04,Miller,initiated,81
 2021-03-04,Miller,completed,124
 2021-03-05,Miller,initiated,83
 2021-03-05,Miller,completed,77
@@ -29693,7 +29803,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-10,Miller,initiated,73
 2021-03-10,Miller,completed,32
 2021-03-11,Miller,initiated,91
-2021-03-11,Miller,completed,265
+2021-03-11,Miller,completed,263
 2021-03-12,Miller,initiated,219
 2021-03-12,Miller,completed,238
 2021-03-13,Miller,initiated,4
@@ -29763,7 +29873,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-14,Miller,initiated,38
 2021-04-14,Miller,completed,43
 2021-04-15,Miller,initiated,35
-2021-04-15,Miller,completed,47
+2021-04-15,Miller,completed,46
 2021-04-16,Miller,initiated,33
 2021-04-16,Miller,completed,67
 2021-04-17,Miller,initiated,13
@@ -29883,8 +29993,8 @@ report_date,jurisdiction,value,vaccinations
 2021-06-13,Miller,completed,6
 2021-06-14,Miller,initiated,10
 2021-06-14,Miller,completed,15
-2021-06-15,Miller,initiated,9
-2021-06-15,Miller,completed,11
+2021-06-15,Miller,initiated,8
+2021-06-15,Miller,completed,10
 2021-06-16,Miller,initiated,10
 2021-06-16,Miller,completed,21
 2021-06-17,Miller,initiated,13
@@ -29938,7 +30048,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-11,Miller,completed,1
 2021-07-12,Miller,initiated,41
 2021-07-12,Miller,completed,11
-2021-07-13,Miller,initiated,25
+2021-07-13,Miller,initiated,24
 2021-07-13,Miller,completed,9
 2021-07-14,Miller,initiated,60
 2021-07-14,Miller,completed,19
@@ -29981,7 +30091,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-02,Miller,initiated,40
 2021-08-02,Miller,completed,24
 2021-08-03,Miller,initiated,37
-2021-08-03,Miller,completed,36
+2021-08-03,Miller,completed,35
 2021-08-04,Miller,initiated,59
 2021-08-04,Miller,completed,26
 2021-08-05,Miller,initiated,42
@@ -30013,11 +30123,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Miller,initiated,32
 2021-08-18,Miller,completed,43
 2021-08-19,Miller,initiated,64
-2021-08-19,Miller,completed,48
-2021-08-20,Miller,initiated,15
-2021-08-20,Miller,completed,43
-2021-08-21,Miller,initiated,2
-2021-08-21,Miller,completed,4
+2021-08-19,Miller,completed,49
+2021-08-20,Miller,initiated,18
+2021-08-20,Miller,completed,46
+2021-08-21,Miller,initiated,9
+2021-08-21,Miller,completed,16
+2021-08-22,Miller,initiated,3
+2021-08-22,Miller,completed,1
 2020-12-17,Mississippi,initiated,2
 2020-12-19,Mississippi,initiated,1
 2020-12-20,Mississippi,initiated,1
@@ -30111,7 +30223,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-22,Mississippi,completed,10
 2021-02-23,Mississippi,initiated,108
 2021-02-23,Mississippi,completed,10
-2021-02-24,Mississippi,initiated,66
+2021-02-24,Mississippi,initiated,65
 2021-02-24,Mississippi,completed,11
 2021-02-25,Mississippi,initiated,20
 2021-02-25,Mississippi,completed,100
@@ -30150,7 +30262,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-16,Mississippi,initiated,62
 2021-03-16,Mississippi,completed,88
 2021-03-17,Mississippi,initiated,8
-2021-03-17,Mississippi,completed,64
+2021-03-17,Mississippi,completed,63
 2021-03-18,Mississippi,initiated,47
 2021-03-18,Mississippi,completed,5
 2021-03-19,Mississippi,initiated,33
@@ -30432,10 +30544,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Mississippi,initiated,19
 2021-08-18,Mississippi,completed,19
 2021-08-19,Mississippi,initiated,30
-2021-08-19,Mississippi,completed,14
-2021-08-20,Mississippi,initiated,13
-2021-08-20,Mississippi,completed,9
-2021-08-21,Mississippi,completed,3
+2021-08-19,Mississippi,completed,15
+2021-08-20,Mississippi,initiated,15
+2021-08-20,Mississippi,completed,14
+2021-08-21,Mississippi,initiated,2
+2021-08-21,Mississippi,completed,5
+2021-08-22,Mississippi,initiated,3
+2021-08-22,Mississippi,completed,1
 2020-12-15,Moniteau,initiated,1
 2020-12-16,Moniteau,initiated,7
 2020-12-17,Moniteau,initiated,18
@@ -30506,7 +30621,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-01,Moniteau,completed,40
 2021-02-02,Moniteau,initiated,10
 2021-02-02,Moniteau,completed,7
-2021-02-03,Moniteau,initiated,76
+2021-02-03,Moniteau,initiated,75
 2021-02-03,Moniteau,completed,12
 2021-02-04,Moniteau,initiated,86
 2021-02-04,Moniteau,completed,18
@@ -30558,7 +30673,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-02,Moniteau,initiated,91
 2021-03-02,Moniteau,completed,10
 2021-03-03,Moniteau,initiated,54
-2021-03-03,Moniteau,completed,65
+2021-03-03,Moniteau,completed,64
 2021-03-04,Moniteau,initiated,16
 2021-03-04,Moniteau,completed,61
 2021-03-05,Moniteau,initiated,25
@@ -30884,8 +30999,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Moniteau,completed,65
 2021-08-20,Moniteau,initiated,31
 2021-08-20,Moniteau,completed,24
-2021-08-21,Moniteau,initiated,2
-2021-08-21,Moniteau,completed,3
+2021-08-21,Moniteau,initiated,3
+2021-08-21,Moniteau,completed,4
+2021-08-22,Moniteau,initiated,1
 2020-12-16,Monroe,initiated,1
 2020-12-17,Monroe,initiated,4
 2020-12-18,Monroe,initiated,1
@@ -31300,8 +31416,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Monroe,completed,16
 2021-08-20,Monroe,initiated,6
 2021-08-20,Monroe,completed,7
-2021-08-21,Monroe,initiated,1
-2021-08-21,Monroe,completed,3
+2021-08-21,Monroe,initiated,7
+2021-08-21,Monroe,completed,7
+2021-08-22,Monroe,initiated,1
+2021-08-22,Monroe,completed,1
 2020-12-16,Montgomery,initiated,2
 2020-12-17,Montgomery,initiated,10
 2020-12-18,Montgomery,initiated,15
@@ -31755,12 +31873,12 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Montgomery,completed,18
 2021-08-18,Montgomery,initiated,5
 2021-08-18,Montgomery,completed,12
-2021-08-19,Montgomery,initiated,8
-2021-08-19,Montgomery,completed,19
-2021-08-20,Montgomery,initiated,8
-2021-08-20,Montgomery,completed,12
-2021-08-21,Montgomery,initiated,1
-2021-08-21,Montgomery,completed,1
+2021-08-19,Montgomery,initiated,14
+2021-08-19,Montgomery,completed,33
+2021-08-20,Montgomery,initiated,12
+2021-08-20,Montgomery,completed,29
+2021-08-21,Montgomery,initiated,8
+2021-08-21,Montgomery,completed,2
 2020-12-15,Morgan,initiated,3
 2020-12-16,Morgan,initiated,2
 2020-12-17,Morgan,initiated,4
@@ -31808,7 +31926,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-21,Morgan,completed,5
 2021-01-22,Morgan,initiated,36
 2021-01-23,Morgan,initiated,79
-2021-01-25,Morgan,initiated,40
+2021-01-25,Morgan,initiated,39
 2021-01-25,Morgan,completed,56
 2021-01-26,Morgan,initiated,35
 2021-01-26,Morgan,completed,13
@@ -31856,10 +31974,10 @@ report_date,jurisdiction,value,vaccinations
 2021-02-19,Morgan,initiated,85
 2021-02-19,Morgan,completed,178
 2021-02-20,Morgan,initiated,3
-2021-02-20,Morgan,completed,7
+2021-02-20,Morgan,completed,6
 2021-02-22,Morgan,initiated,94
 2021-02-22,Morgan,completed,35
-2021-02-23,Morgan,initiated,46
+2021-02-23,Morgan,initiated,45
 2021-02-23,Morgan,completed,29
 2021-02-24,Morgan,initiated,107
 2021-02-24,Morgan,completed,82
@@ -31874,7 +31992,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-01,Morgan,completed,31
 2021-03-02,Morgan,initiated,44
 2021-03-02,Morgan,completed,48
-2021-03-03,Morgan,initiated,101
+2021-03-03,Morgan,initiated,99
 2021-03-03,Morgan,completed,84
 2021-03-04,Morgan,initiated,80
 2021-03-04,Morgan,completed,95
@@ -31915,7 +32033,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-22,Morgan,initiated,23
 2021-03-22,Morgan,completed,107
 2021-03-23,Morgan,initiated,46
-2021-03-23,Morgan,completed,53
+2021-03-23,Morgan,completed,52
 2021-03-24,Morgan,initiated,40
 2021-03-24,Morgan,completed,98
 2021-03-25,Morgan,initiated,49
@@ -31931,7 +32049,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-30,Morgan,initiated,56
 2021-03-30,Morgan,completed,69
 2021-03-31,Morgan,initiated,79
-2021-03-31,Morgan,completed,81
+2021-03-31,Morgan,completed,80
 2021-04-01,Morgan,initiated,46
 2021-04-01,Morgan,completed,65
 2021-04-02,Morgan,initiated,54
@@ -31962,7 +32080,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-14,Morgan,completed,70
 2021-04-15,Morgan,initiated,36
 2021-04-15,Morgan,completed,28
-2021-04-16,Morgan,initiated,32
+2021-04-16,Morgan,initiated,31
 2021-04-16,Morgan,completed,85
 2021-04-17,Morgan,initiated,8
 2021-04-17,Morgan,completed,7
@@ -32019,7 +32137,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-13,Morgan,initiated,15
 2021-05-13,Morgan,completed,40
 2021-05-14,Morgan,initiated,29
-2021-05-14,Morgan,completed,19
+2021-05-14,Morgan,completed,18
 2021-05-15,Morgan,initiated,7
 2021-05-15,Morgan,completed,5
 2021-05-16,Morgan,initiated,2
@@ -32212,8 +32330,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Morgan,completed,27
 2021-08-20,Morgan,initiated,24
 2021-08-20,Morgan,completed,26
-2021-08-21,Morgan,initiated,7
-2021-08-21,Morgan,completed,7
+2021-08-21,Morgan,initiated,9
+2021-08-21,Morgan,completed,14
+2021-08-22,Morgan,initiated,2
+2021-08-22,Morgan,completed,3
 2020-12-16,New Madrid,initiated,1
 2020-12-17,New Madrid,initiated,1
 2020-12-18,New Madrid,initiated,4
@@ -32456,7 +32576,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-08,New Madrid,initiated,4
 2021-05-08,New Madrid,completed,2
 2021-05-09,New Madrid,completed,3
-2021-05-10,New Madrid,initiated,23
+2021-05-10,New Madrid,initiated,22
 2021-05-10,New Madrid,completed,32
 2021-05-11,New Madrid,initiated,8
 2021-05-11,New Madrid,completed,8
@@ -32537,7 +32657,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-19,New Madrid,completed,4
 2021-06-20,New Madrid,completed,5
 2021-06-21,New Madrid,initiated,12
-2021-06-21,New Madrid,completed,17
+2021-06-21,New Madrid,completed,16
 2021-06-22,New Madrid,initiated,6
 2021-06-22,New Madrid,completed,5
 2021-06-23,New Madrid,initiated,10
@@ -32651,10 +32771,12 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,New Madrid,completed,10
 2021-08-19,New Madrid,initiated,39
 2021-08-19,New Madrid,completed,11
-2021-08-20,New Madrid,initiated,19
+2021-08-20,New Madrid,initiated,20
 2021-08-20,New Madrid,completed,14
-2021-08-21,New Madrid,initiated,5
-2021-08-21,New Madrid,completed,5
+2021-08-21,New Madrid,initiated,9
+2021-08-21,New Madrid,completed,12
+2021-08-22,New Madrid,initiated,2
+2021-08-22,New Madrid,completed,2
 2020-12-16,Newton,initiated,4
 2020-12-16,Newton,completed,4
 2020-12-17,Newton,initiated,14
@@ -33114,11 +33236,13 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Newton,initiated,39
 2021-08-18,Newton,completed,57
 2021-08-19,Newton,initiated,63
-2021-08-19,Newton,completed,57
+2021-08-19,Newton,completed,58
 2021-08-20,Newton,initiated,40
-2021-08-20,Newton,completed,90
-2021-08-21,Newton,initiated,7
-2021-08-21,Newton,completed,8
+2021-08-20,Newton,completed,92
+2021-08-21,Newton,initiated,14
+2021-08-21,Newton,completed,20
+2021-08-22,Newton,initiated,4
+2021-08-22,Newton,completed,4
 2020-12-18,Nodaway,initiated,1
 2020-12-20,Nodaway,initiated,1
 2020-12-21,Nodaway,initiated,1
@@ -33567,8 +33691,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Nodaway,completed,19
 2021-08-20,Nodaway,initiated,33
 2021-08-20,Nodaway,completed,58
-2021-08-21,Nodaway,initiated,4
-2021-08-21,Nodaway,completed,2
+2021-08-21,Nodaway,initiated,7
+2021-08-21,Nodaway,completed,13
+2021-08-22,Nodaway,initiated,1
+2021-08-22,Nodaway,completed,1
 2020-12-16,Oregon,initiated,1
 2020-12-16,Oregon,completed,1
 2020-12-19,Oregon,initiated,1
@@ -33966,7 +34092,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,Oregon,initiated,11
 2021-08-20,Oregon,completed,24
 2021-08-21,Oregon,initiated,2
-2021-08-21,Oregon,completed,3
+2021-08-21,Oregon,completed,4
+2021-08-22,Oregon,initiated,2
 2020-12-15,Osage,initiated,1
 2020-12-16,Osage,initiated,9
 2020-12-16,Osage,completed,1
@@ -34351,7 +34478,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-27,Osage,completed,6
 2021-07-28,Osage,initiated,24
 2021-07-28,Osage,completed,9
-2021-07-29,Osage,initiated,27
+2021-07-29,Osage,initiated,26
 2021-07-29,Osage,completed,11
 2021-07-30,Osage,initiated,51
 2021-07-30,Osage,completed,25
@@ -34393,9 +34520,12 @@ report_date,jurisdiction,value,vaccinations
 2021-08-18,Osage,completed,17
 2021-08-19,Osage,initiated,13
 2021-08-19,Osage,completed,25
-2021-08-20,Osage,initiated,29
-2021-08-20,Osage,completed,33
-2021-08-21,Osage,completed,1
+2021-08-20,Osage,initiated,32
+2021-08-20,Osage,completed,34
+2021-08-21,Osage,initiated,2
+2021-08-21,Osage,completed,8
+2021-08-22,Osage,initiated,1
+2021-08-22,Osage,completed,1
 2020-12-22,Ozark,initiated,7
 2020-12-23,Ozark,initiated,5
 2020-12-24,Ozark,initiated,1
@@ -34783,8 +34913,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Ozark,completed,6
 2021-08-20,Ozark,initiated,3
 2021-08-20,Ozark,completed,20
-2021-08-21,Ozark,initiated,4
-2021-08-21,Ozark,completed,1
+2021-08-21,Ozark,initiated,5
+2021-08-21,Ozark,completed,3
+2021-08-22,Ozark,completed,2
 2020-12-22,Pemiscot,initiated,2
 2020-12-29,Pemiscot,initiated,44
 2020-12-30,Pemiscot,initiated,29
@@ -35168,6 +35299,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,Pemiscot,completed,8
 2021-08-21,Pemiscot,initiated,3
 2021-08-21,Pemiscot,completed,6
+2021-08-22,Pemiscot,initiated,3
+2021-08-22,Pemiscot,completed,2
 2020-12-17,Perry,initiated,5
 2020-12-18,Perry,initiated,8
 2020-12-19,Perry,initiated,1
@@ -35379,7 +35512,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-22,Perry,completed,22
 2021-04-23,Perry,initiated,52
 2021-04-23,Perry,completed,159
-2021-04-24,Perry,initiated,5
+2021-04-24,Perry,initiated,6
 2021-04-24,Perry,completed,7
 2021-04-25,Perry,completed,2
 2021-04-26,Perry,initiated,35
@@ -35608,8 +35741,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Perry,completed,8
 2021-08-20,Perry,initiated,47
 2021-08-20,Perry,completed,41
-2021-08-21,Perry,initiated,4
-2021-08-21,Perry,completed,2
+2021-08-21,Perry,initiated,20
+2021-08-21,Perry,completed,11
+2021-08-22,Perry,initiated,3
+2021-08-22,Perry,completed,3
 2020-12-16,Pettis,initiated,8
 2020-12-16,Pettis,completed,1
 2020-12-17,Pettis,initiated,4
@@ -35677,7 +35812,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-28,Pettis,completed,49
 2021-01-29,Pettis,initiated,1234
 2021-01-29,Pettis,completed,9
-2021-01-30,Pettis,initiated,284
+2021-01-30,Pettis,initiated,285
 2021-01-31,Pettis,initiated,12
 2021-01-31,Pettis,completed,3
 2021-02-01,Pettis,initiated,15
@@ -35724,7 +35859,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-22,Pettis,initiated,33
 2021-02-22,Pettis,completed,17
 2021-02-23,Pettis,initiated,33
-2021-02-23,Pettis,completed,903
+2021-02-23,Pettis,completed,904
 2021-02-24,Pettis,initiated,268
 2021-02-24,Pettis,completed,260
 2021-02-25,Pettis,initiated,38
@@ -36081,8 +36216,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Pettis,completed,64
 2021-08-20,Pettis,initiated,40
 2021-08-20,Pettis,completed,49
-2021-08-21,Pettis,initiated,3
-2021-08-21,Pettis,completed,13
+2021-08-21,Pettis,initiated,13
+2021-08-21,Pettis,completed,38
+2021-08-22,Pettis,initiated,1
+2021-08-22,Pettis,completed,1
 2020-12-15,Phelps,initiated,2
 2020-12-16,Phelps,initiated,8
 2020-12-16,Phelps,completed,2
@@ -36548,12 +36685,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Phelps,completed,80
 2021-08-18,Phelps,initiated,69
 2021-08-18,Phelps,completed,65
-2021-08-19,Phelps,initiated,79
-2021-08-19,Phelps,completed,66
+2021-08-19,Phelps,initiated,82
+2021-08-19,Phelps,completed,70
 2021-08-20,Phelps,initiated,35
 2021-08-20,Phelps,completed,62
-2021-08-21,Phelps,initiated,8
-2021-08-21,Phelps,completed,19
+2021-08-21,Phelps,initiated,18
+2021-08-21,Phelps,completed,31
+2021-08-22,Phelps,initiated,4
+2021-08-22,Phelps,completed,6
 2020-12-15,Pike,initiated,1
 2020-12-16,Pike,initiated,6
 2020-12-17,Pike,initiated,9
@@ -36977,7 +37116,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-11,Pike,completed,28
 2021-08-12,Pike,initiated,10
 2021-08-12,Pike,completed,11
-2021-08-13,Pike,initiated,22
+2021-08-13,Pike,initiated,23
 2021-08-13,Pike,completed,13
 2021-08-14,Pike,initiated,6
 2021-08-14,Pike,completed,13
@@ -36993,8 +37132,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Pike,completed,14
 2021-08-20,Pike,initiated,13
 2021-08-20,Pike,completed,13
-2021-08-21,Pike,initiated,2
-2021-08-21,Pike,completed,5
+2021-08-21,Pike,initiated,3
+2021-08-21,Pike,completed,8
+2021-08-22,Pike,initiated,3
+2021-08-22,Pike,completed,4
 2020-12-14,Platte,initiated,1
 2020-12-15,Platte,initiated,3
 2020-12-16,Platte,initiated,5
@@ -37012,7 +37153,7 @@ report_date,jurisdiction,value,vaccinations
 2020-12-27,Platte,initiated,11
 2020-12-28,Platte,initiated,36
 2020-12-29,Platte,initiated,80
-2020-12-30,Platte,initiated,98
+2020-12-30,Platte,initiated,97
 2020-12-31,Platte,initiated,52
 2021-01-01,Platte,initiated,1
 2021-01-02,Platte,initiated,22
@@ -37054,7 +37195,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-21,Platte,initiated,102
 2021-01-21,Platte,completed,38
 2021-01-22,Platte,initiated,105
-2021-01-22,Platte,completed,25
+2021-01-22,Platte,completed,24
 2021-01-23,Platte,initiated,13
 2021-01-23,Platte,completed,10
 2021-01-25,Platte,initiated,66
@@ -37134,7 +37275,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-03,Platte,completed,130
 2021-03-04,Platte,initiated,397
 2021-03-04,Platte,completed,83
-2021-03-05,Platte,initiated,250
+2021-03-05,Platte,initiated,251
 2021-03-05,Platte,completed,56
 2021-03-06,Platte,initiated,181
 2021-03-06,Platte,completed,49
@@ -37175,7 +37316,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-24,Platte,initiated,252
 2021-03-24,Platte,completed,350
 2021-03-25,Platte,initiated,154
-2021-03-25,Platte,completed,509
+2021-03-25,Platte,completed,510
 2021-03-26,Platte,initiated,393
 2021-03-26,Platte,completed,298
 2021-03-27,Platte,initiated,53
@@ -37472,8 +37613,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Platte,completed,38
 2021-08-20,Platte,initiated,51
 2021-08-20,Platte,completed,59
-2021-08-21,Platte,initiated,5
-2021-08-21,Platte,completed,6
+2021-08-21,Platte,initiated,21
+2021-08-21,Platte,completed,37
+2021-08-22,Platte,initiated,4
+2021-08-22,Platte,completed,6
 2020-12-14,Polk,initiated,1
 2020-12-15,Polk,initiated,1
 2020-12-15,Polk,completed,1
@@ -37731,7 +37874,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-03,Polk,completed,32
 2021-05-04,Polk,initiated,20
 2021-05-04,Polk,completed,16
-2021-05-05,Polk,initiated,22
+2021-05-05,Polk,initiated,21
 2021-05-05,Polk,completed,58
 2021-05-06,Polk,initiated,30
 2021-05-06,Polk,completed,107
@@ -37788,7 +37931,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-01,Polk,initiated,22
 2021-06-01,Polk,completed,32
 2021-06-02,Polk,initiated,38
-2021-06-02,Polk,completed,22
+2021-06-02,Polk,completed,21
 2021-06-03,Polk,initiated,26
 2021-06-03,Polk,completed,18
 2021-06-04,Polk,initiated,41
@@ -37947,8 +38090,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Polk,completed,22
 2021-08-20,Polk,initiated,29
 2021-08-20,Polk,completed,42
-2021-08-21,Polk,initiated,4
-2021-08-21,Polk,completed,13
+2021-08-21,Polk,initiated,6
+2021-08-21,Polk,completed,26
+2021-08-22,Polk,initiated,3
+2021-08-22,Polk,completed,8
 2020-12-15,Pulaski,initiated,1
 2020-12-16,Pulaski,initiated,12
 2020-12-16,Pulaski,completed,2
@@ -38307,7 +38452,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-28,Pulaski,completed,17
 2021-06-29,Pulaski,initiated,25
 2021-06-29,Pulaski,completed,22
-2021-06-30,Pulaski,initiated,30
+2021-06-30,Pulaski,initiated,29
 2021-06-30,Pulaski,completed,34
 2021-07-01,Pulaski,initiated,26
 2021-07-01,Pulaski,completed,32
@@ -38350,7 +38495,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-20,Pulaski,initiated,105
 2021-07-20,Pulaski,completed,28
 2021-07-21,Pulaski,initiated,112
-2021-07-21,Pulaski,completed,41
+2021-07-21,Pulaski,completed,40
 2021-07-22,Pulaski,initiated,84
 2021-07-22,Pulaski,completed,27
 2021-07-23,Pulaski,initiated,92
@@ -38365,13 +38510,13 @@ report_date,jurisdiction,value,vaccinations
 2021-07-27,Pulaski,completed,13
 2021-07-28,Pulaski,initiated,100
 2021-07-28,Pulaski,completed,56
-2021-07-29,Pulaski,initiated,95
+2021-07-29,Pulaski,initiated,96
 2021-07-29,Pulaski,completed,29
 2021-07-30,Pulaski,initiated,110
 2021-07-30,Pulaski,completed,37
 2021-07-31,Pulaski,initiated,25
 2021-07-31,Pulaski,completed,15
-2021-08-01,Pulaski,initiated,9
+2021-08-01,Pulaski,initiated,10
 2021-08-01,Pulaski,completed,13
 2021-08-02,Pulaski,initiated,30
 2021-08-02,Pulaski,completed,15
@@ -38395,8 +38540,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-11,Pulaski,completed,67
 2021-08-12,Pulaski,initiated,37
 2021-08-12,Pulaski,completed,50
-2021-08-13,Pulaski,initiated,52
-2021-08-13,Pulaski,completed,86
+2021-08-13,Pulaski,initiated,53
+2021-08-13,Pulaski,completed,87
 2021-08-14,Pulaski,initiated,23
 2021-08-14,Pulaski,completed,26
 2021-08-15,Pulaski,initiated,11
@@ -38407,12 +38552,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Pulaski,completed,45
 2021-08-18,Pulaski,initiated,50
 2021-08-18,Pulaski,completed,49
-2021-08-19,Pulaski,initiated,42
-2021-08-19,Pulaski,completed,50
-2021-08-20,Pulaski,initiated,27
-2021-08-20,Pulaski,completed,41
-2021-08-21,Pulaski,initiated,15
-2021-08-21,Pulaski,completed,22
+2021-08-19,Pulaski,initiated,49
+2021-08-19,Pulaski,completed,58
+2021-08-20,Pulaski,initiated,30
+2021-08-20,Pulaski,completed,67
+2021-08-21,Pulaski,initiated,19
+2021-08-21,Pulaski,completed,30
+2021-08-22,Pulaski,initiated,4
+2021-08-22,Pulaski,completed,13
 2020-12-21,Putnam,initiated,4
 2020-12-23,Putnam,initiated,2
 2020-12-28,Putnam,initiated,2
@@ -39082,7 +39229,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Ralls,initiated,6
 2021-08-19,Ralls,completed,11
 2021-08-20,Ralls,completed,2
-2021-08-21,Ralls,completed,1
+2021-08-21,Ralls,initiated,1
+2021-08-21,Ralls,completed,3
 2020-12-16,Randolph,initiated,7
 2020-12-16,Randolph,completed,1
 2020-12-17,Randolph,initiated,9
@@ -39155,7 +39303,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-31,Randolph,completed,6
 2021-02-01,Randolph,initiated,3
 2021-02-01,Randolph,completed,10
-2021-02-02,Randolph,initiated,127
+2021-02-02,Randolph,initiated,128
 2021-02-02,Randolph,completed,20
 2021-02-03,Randolph,initiated,13
 2021-02-03,Randolph,completed,11
@@ -39199,7 +39347,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,Randolph,initiated,59
 2021-02-24,Randolph,completed,1255
 2021-02-25,Randolph,initiated,56
-2021-02-25,Randolph,completed,29
+2021-02-25,Randolph,completed,30
 2021-02-26,Randolph,initiated,20
 2021-02-26,Randolph,completed,12
 2021-02-27,Randolph,initiated,28
@@ -39545,8 +39693,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Randolph,completed,50
 2021-08-20,Randolph,initiated,26
 2021-08-20,Randolph,completed,21
-2021-08-21,Randolph,initiated,6
-2021-08-21,Randolph,completed,5
+2021-08-21,Randolph,initiated,9
+2021-08-21,Randolph,completed,15
+2021-08-22,Randolph,initiated,2
+2021-08-22,Randolph,completed,1
 2020-12-16,Ray,initiated,1
 2020-12-17,Ray,initiated,4
 2020-12-18,Ray,initiated,3
@@ -40011,8 +40161,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Ray,completed,35
 2021-08-20,Ray,initiated,23
 2021-08-20,Ray,completed,37
-2021-08-21,Ray,initiated,11
-2021-08-21,Ray,completed,10
+2021-08-21,Ray,initiated,17
+2021-08-21,Ray,completed,18
+2021-08-22,Ray,initiated,4
+2021-08-22,Ray,completed,6
 2020-12-18,Reynolds,initiated,1
 2020-12-23,Reynolds,initiated,3
 2020-12-24,Reynolds,initiated,1
@@ -40381,7 +40533,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Reynolds,completed,3
 2021-08-20,Reynolds,initiated,6
 2021-08-20,Reynolds,completed,12
-2021-08-21,Reynolds,completed,1
+2021-08-21,Reynolds,initiated,3
+2021-08-21,Reynolds,completed,4
 2020-12-18,Ripley,initiated,5
 2020-12-22,Ripley,initiated,1
 2020-12-23,Ripley,initiated,5
@@ -40788,8 +40941,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Ripley,completed,16
 2021-08-20,Ripley,initiated,26
 2021-08-20,Ripley,completed,28
-2021-08-21,Ripley,initiated,2
-2021-08-21,Ripley,completed,2
+2021-08-21,Ripley,initiated,3
+2021-08-21,Ripley,completed,8
 2020-12-16,Saline,initiated,1
 2020-12-17,Saline,initiated,3
 2020-12-17,Saline,completed,1
@@ -41246,8 +41399,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Saline,completed,77
 2021-08-20,Saline,initiated,39
 2021-08-20,Saline,completed,36
-2021-08-21,Saline,initiated,7
-2021-08-21,Saline,completed,10
+2021-08-21,Saline,initiated,10
+2021-08-21,Saline,completed,12
+2021-08-22,Saline,initiated,31
+2021-08-22,Saline,completed,5
 2020-12-17,Schuyler,initiated,1
 2020-12-20,Schuyler,initiated,1
 2020-12-21,Schuyler,initiated,10
@@ -41567,6 +41722,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Schuyler,completed,3
 2021-08-20,Schuyler,initiated,5
 2021-08-20,Schuyler,completed,2
+2021-08-21,Schuyler,completed,2
 2020-12-21,Scotland,initiated,4
 2020-12-22,Scotland,initiated,4
 2020-12-23,Scotland,initiated,27
@@ -41836,6 +41992,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Scotland,initiated,5
 2021-08-19,Scotland,completed,8
 2021-08-20,Scotland,initiated,1
+2021-08-21,Scotland,completed,1
 2020-12-15,Scott,initiated,1
 2020-12-17,Scott,initiated,31
 2020-12-18,Scott,initiated,23
@@ -42298,12 +42455,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Scott,completed,41
 2021-08-18,Scott,initiated,64
 2021-08-18,Scott,completed,38
-2021-08-19,Scott,initiated,48
-2021-08-19,Scott,completed,44
-2021-08-20,Scott,initiated,47
-2021-08-20,Scott,completed,38
-2021-08-21,Scott,initiated,9
-2021-08-21,Scott,completed,10
+2021-08-19,Scott,initiated,50
+2021-08-19,Scott,completed,45
+2021-08-20,Scott,initiated,51
+2021-08-20,Scott,completed,39
+2021-08-21,Scott,initiated,28
+2021-08-21,Scott,completed,26
+2021-08-22,Scott,initiated,6
+2021-08-22,Scott,completed,4
 2020-12-18,Shannon,initiated,1
 2020-12-21,Shannon,initiated,1
 2020-12-22,Shannon,initiated,4
@@ -42677,6 +42836,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Shannon,completed,20
 2021-08-20,Shannon,initiated,5
 2021-08-20,Shannon,completed,19
+2021-08-21,Shannon,initiated,1
+2021-08-21,Shannon,completed,4
 2020-12-16,Shelby,initiated,1
 2020-12-17,Shelby,initiated,1
 2020-12-19,Shelby,initiated,1
@@ -43054,7 +43215,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Shelby,completed,9
 2021-08-20,Shelby,initiated,2
 2021-08-20,Shelby,completed,2
-2021-08-21,Shelby,completed,3
+2021-08-21,Shelby,initiated,1
+2021-08-21,Shelby,completed,4
 2020-12-14,St. Charles,initiated,12
 2020-12-15,St. Charles,initiated,70
 2020-12-15,St. Charles,completed,1
@@ -43077,7 +43239,7 @@ report_date,jurisdiction,value,vaccinations
 2020-12-26,St. Charles,initiated,198
 2020-12-27,St. Charles,initiated,104
 2020-12-27,St. Charles,completed,1
-2020-12-28,St. Charles,initiated,732
+2020-12-28,St. Charles,initiated,733
 2020-12-28,St. Charles,completed,2
 2020-12-29,St. Charles,initiated,650
 2020-12-30,St. Charles,initiated,624
@@ -43138,7 +43300,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-28,St. Charles,initiated,1165
 2021-01-28,St. Charles,completed,344
 2021-01-29,St. Charles,initiated,1308
-2021-01-29,St. Charles,completed,420
+2021-01-29,St. Charles,completed,421
 2021-01-30,St. Charles,initiated,840
 2021-01-30,St. Charles,completed,61
 2021-01-31,St. Charles,initiated,94
@@ -43201,7 +43363,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-28,St. Charles,completed,164
 2021-03-01,St. Charles,initiated,1546
 2021-03-01,St. Charles,completed,557
-2021-03-02,St. Charles,initiated,2409
+2021-03-02,St. Charles,initiated,2410
 2021-03-02,St. Charles,completed,1019
 2021-03-03,St. Charles,initiated,2052
 2021-03-03,St. Charles,completed,531
@@ -43219,7 +43381,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-09,St. Charles,completed,913
 2021-03-10,St. Charles,initiated,2518
 2021-03-10,St. Charles,completed,846
-2021-03-11,St. Charles,initiated,2157
+2021-03-11,St. Charles,initiated,2156
 2021-03-11,St. Charles,completed,872
 2021-03-12,St. Charles,initiated,1438
 2021-03-12,St. Charles,completed,1158
@@ -43247,8 +43409,8 @@ report_date,jurisdiction,value,vaccinations
 2021-03-23,St. Charles,completed,2237
 2021-03-24,St. Charles,initiated,1845
 2021-03-24,St. Charles,completed,2557
-2021-03-25,St. Charles,initiated,4366
-2021-03-25,St. Charles,completed,1539
+2021-03-25,St. Charles,initiated,4367
+2021-03-25,St. Charles,completed,1538
 2021-03-26,St. Charles,initiated,4767
 2021-03-26,St. Charles,completed,1089
 2021-03-27,St. Charles,initiated,3396
@@ -43258,7 +43420,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-29,St. Charles,initiated,1329
 2021-03-29,St. Charles,completed,1229
 2021-03-30,St. Charles,initiated,2300
-2021-03-30,St. Charles,completed,3290
+2021-03-30,St. Charles,completed,3291
 2021-03-31,St. Charles,initiated,3086
 2021-03-31,St. Charles,completed,3068
 2021-04-01,St. Charles,initiated,4595
@@ -43453,7 +43615,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-04,St. Charles,completed,14
 2021-07-05,St. Charles,initiated,288
 2021-07-05,St. Charles,completed,285
-2021-07-06,St. Charles,initiated,362
+2021-07-06,St. Charles,initiated,363
 2021-07-06,St. Charles,completed,303
 2021-07-07,St. Charles,initiated,360
 2021-07-07,St. Charles,completed,282
@@ -43489,7 +43651,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-22,St. Charles,completed,294
 2021-07-23,St. Charles,initiated,653
 2021-07-23,St. Charles,completed,286
-2021-07-24,St. Charles,initiated,445
+2021-07-24,St. Charles,initiated,444
 2021-07-24,St. Charles,completed,196
 2021-07-25,St. Charles,initiated,375
 2021-07-25,St. Charles,completed,79
@@ -43503,7 +43665,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-29,St. Charles,completed,303
 2021-07-30,St. Charles,initiated,643
 2021-07-30,St. Charles,completed,406
-2021-07-31,St. Charles,initiated,364
+2021-07-31,St. Charles,initiated,365
 2021-07-31,St. Charles,completed,225
 2021-08-01,St. Charles,initiated,234
 2021-08-01,St. Charles,completed,183
@@ -43530,7 +43692,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-12,St. Charles,initiated,408
 2021-08-12,St. Charles,completed,468
 2021-08-13,St. Charles,initiated,546
-2021-08-13,St. Charles,completed,581
+2021-08-13,St. Charles,completed,584
 2021-08-14,St. Charles,initiated,308
 2021-08-14,St. Charles,completed,404
 2021-08-15,St. Charles,initiated,239
@@ -43541,12 +43703,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,St. Charles,completed,518
 2021-08-18,St. Charles,initiated,428
 2021-08-18,St. Charles,completed,470
-2021-08-19,St. Charles,initiated,396
-2021-08-19,St. Charles,completed,436
-2021-08-20,St. Charles,initiated,507
-2021-08-20,St. Charles,completed,576
-2021-08-21,St. Charles,initiated,60
-2021-08-21,St. Charles,completed,91
+2021-08-19,St. Charles,initiated,398
+2021-08-19,St. Charles,completed,437
+2021-08-20,St. Charles,initiated,508
+2021-08-20,St. Charles,completed,581
+2021-08-21,St. Charles,initiated,279
+2021-08-21,St. Charles,completed,400
+2021-08-22,St. Charles,initiated,28
+2021-08-22,St. Charles,completed,45
 2020-12-17,St. Clair,initiated,1
 2020-12-18,St. Clair,initiated,4
 2020-12-19,St. Clair,initiated,3
@@ -43975,7 +44139,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,St. Clair,initiated,5
 2021-08-20,St. Clair,completed,15
 2021-08-21,St. Clair,initiated,1
-2021-08-21,St. Clair,completed,2
+2021-08-21,St. Clair,completed,9
+2021-08-22,St. Clair,completed,1
 2020-12-14,St. Francois,initiated,3
 2020-12-16,St. Francois,initiated,10
 2020-12-17,St. Francois,initiated,74
@@ -44451,8 +44616,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,St. Francois,completed,59
 2021-08-20,St. Francois,initiated,61
 2021-08-20,St. Francois,completed,111
-2021-08-21,St. Francois,initiated,8
-2021-08-21,St. Francois,completed,7
+2021-08-21,St. Francois,initiated,28
+2021-08-21,St. Francois,completed,41
+2021-08-22,St. Francois,initiated,6
+2021-08-22,St. Francois,completed,11
 2020-12-14,St. Louis,initiated,90
 2020-12-15,St. Louis,initiated,326
 2020-12-15,St. Louis,completed,3
@@ -44546,7 +44713,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-01,St. Louis,completed,1161
 2021-02-02,St. Louis,initiated,2998
 2021-02-02,St. Louis,completed,1554
-2021-02-03,St. Louis,initiated,3246
+2021-02-03,St. Louis,initiated,3247
 2021-02-03,St. Louis,completed,1612
 2021-02-04,St. Louis,initiated,2936
 2021-02-04,St. Louis,completed,1487
@@ -44580,7 +44747,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-18,St. Louis,completed,4425
 2021-02-19,St. Louis,initiated,2877
 2021-02-19,St. Louis,completed,4300
-2021-02-20,St. Louis,initiated,3662
+2021-02-20,St. Louis,initiated,3661
 2021-02-20,St. Louis,completed,1708
 2021-02-21,St. Louis,initiated,383
 2021-02-21,St. Louis,completed,150
@@ -44591,14 +44758,14 @@ report_date,jurisdiction,value,vaccinations
 2021-02-24,St. Louis,initiated,4154
 2021-02-24,St. Louis,completed,2848
 2021-02-25,St. Louis,initiated,4289
-2021-02-25,St. Louis,completed,2575
+2021-02-25,St. Louis,completed,2576
 2021-02-26,St. Louis,initiated,3484
 2021-02-26,St. Louis,completed,3810
 2021-02-27,St. Louis,initiated,3770
 2021-02-27,St. Louis,completed,1774
 2021-02-28,St. Louis,initiated,1000
 2021-02-28,St. Louis,completed,600
-2021-03-01,St. Louis,initiated,5098
+2021-03-01,St. Louis,initiated,5099
 2021-03-01,St. Louis,completed,1948
 2021-03-02,St. Louis,initiated,5258
 2021-03-02,St. Louis,completed,2241
@@ -44612,7 +44779,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-06,St. Louis,completed,2416
 2021-03-07,St. Louis,initiated,2219
 2021-03-07,St. Louis,completed,291
-2021-03-08,St. Louis,initiated,4886
+2021-03-08,St. Louis,initiated,4887
 2021-03-08,St. Louis,completed,2006
 2021-03-09,St. Louis,initiated,5646
 2021-03-09,St. Louis,completed,2370
@@ -44620,10 +44787,10 @@ report_date,jurisdiction,value,vaccinations
 2021-03-10,St. Louis,completed,3320
 2021-03-11,St. Louis,initiated,5485
 2021-03-11,St. Louis,completed,3167
-2021-03-12,St. Louis,initiated,5394
+2021-03-12,St. Louis,initiated,5395
 2021-03-12,St. Louis,completed,3187
 2021-03-13,St. Louis,initiated,4262
-2021-03-13,St. Louis,completed,3181
+2021-03-13,St. Louis,completed,3180
 2021-03-14,St. Louis,initiated,1095
 2021-03-14,St. Louis,completed,200
 2021-03-15,St. Louis,initiated,4442
@@ -44655,15 +44822,15 @@ report_date,jurisdiction,value,vaccinations
 2021-03-28,St. Louis,initiated,1468
 2021-03-28,St. Louis,completed,1931
 2021-03-29,St. Louis,initiated,4205
-2021-03-29,St. Louis,completed,4359
+2021-03-29,St. Louis,completed,4360
 2021-03-30,St. Louis,initiated,5088
 2021-03-30,St. Louis,completed,5955
 2021-03-31,St. Louis,initiated,5687
-2021-03-31,St. Louis,completed,5561
+2021-03-31,St. Louis,completed,5562
 2021-04-01,St. Louis,initiated,8607
 2021-04-01,St. Louis,completed,4173
 2021-04-02,St. Louis,initiated,6112
-2021-04-02,St. Louis,completed,5215
+2021-04-02,St. Louis,completed,5211
 2021-04-03,St. Louis,initiated,4974
 2021-04-03,St. Louis,completed,4254
 2021-04-04,St. Louis,initiated,631
@@ -44673,11 +44840,11 @@ report_date,jurisdiction,value,vaccinations
 2021-04-06,St. Louis,initiated,7327
 2021-04-06,St. Louis,completed,6238
 2021-04-07,St. Louis,initiated,8160
-2021-04-07,St. Louis,completed,6612
+2021-04-07,St. Louis,completed,6607
 2021-04-08,St. Louis,initiated,8303
-2021-04-08,St. Louis,completed,6030
+2021-04-08,St. Louis,completed,6029
 2021-04-09,St. Louis,initiated,7066
-2021-04-09,St. Louis,completed,6860
+2021-04-09,St. Louis,completed,6862
 2021-04-10,St. Louis,initiated,5409
 2021-04-10,St. Louis,completed,4249
 2021-04-11,St. Louis,initiated,1451
@@ -44715,7 +44882,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-27,St. Louis,initiated,2211
 2021-04-27,St. Louis,completed,6685
 2021-04-28,St. Louis,initiated,2000
-2021-04-28,St. Louis,completed,6273
+2021-04-28,St. Louis,completed,6271
 2021-04-29,St. Louis,initiated,1796
 2021-04-29,St. Louis,completed,7231
 2021-04-30,St. Louis,initiated,1730
@@ -44775,7 +44942,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-27,St. Louis,initiated,1413
 2021-05-27,St. Louis,completed,1221
 2021-05-28,St. Louis,initiated,1306
-2021-05-28,St. Louis,completed,1158
+2021-05-28,St. Louis,completed,1159
 2021-05-29,St. Louis,initiated,647
 2021-05-29,St. Louis,completed,566
 2021-05-30,St. Louis,initiated,374
@@ -44886,9 +45053,9 @@ report_date,jurisdiction,value,vaccinations
 2021-07-21,St. Louis,completed,676
 2021-07-22,St. Louis,initiated,1151
 2021-07-22,St. Louis,completed,636
-2021-07-23,St. Louis,initiated,1492
+2021-07-23,St. Louis,initiated,1495
 2021-07-23,St. Louis,completed,808
-2021-07-24,St. Louis,initiated,1096
+2021-07-24,St. Louis,initiated,1098
 2021-07-24,St. Louis,completed,491
 2021-07-25,St. Louis,initiated,755
 2021-07-25,St. Louis,completed,182
@@ -44902,7 +45069,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-29,St. Louis,completed,611
 2021-07-30,St. Louis,initiated,1269
 2021-07-30,St. Louis,completed,886
-2021-07-31,St. Louis,initiated,845
+2021-07-31,St. Louis,initiated,844
 2021-07-31,St. Louis,completed,719
 2021-08-01,St. Louis,initiated,560
 2021-08-01,St. Louis,completed,371
@@ -44921,15 +45088,15 @@ report_date,jurisdiction,value,vaccinations
 2021-08-08,St. Louis,initiated,465
 2021-08-08,St. Louis,completed,500
 2021-08-09,St. Louis,initiated,997
-2021-08-09,St. Louis,completed,1046
+2021-08-09,St. Louis,completed,1045
 2021-08-10,St. Louis,initiated,926
 2021-08-10,St. Louis,completed,1007
 2021-08-11,St. Louis,initiated,990
 2021-08-11,St. Louis,completed,1087
-2021-08-12,St. Louis,initiated,887
+2021-08-12,St. Louis,initiated,888
 2021-08-12,St. Louis,completed,881
-2021-08-13,St. Louis,initiated,1015
-2021-08-13,St. Louis,completed,1161
+2021-08-13,St. Louis,initiated,1018
+2021-08-13,St. Louis,completed,1162
 2021-08-14,St. Louis,initiated,686
 2021-08-14,St. Louis,completed,859
 2021-08-15,St. Louis,initiated,421
@@ -44940,12 +45107,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,St. Louis,completed,1036
 2021-08-18,St. Louis,initiated,830
 2021-08-18,St. Louis,completed,951
-2021-08-19,St. Louis,initiated,797
-2021-08-19,St. Louis,completed,892
-2021-08-20,St. Louis,initiated,919
-2021-08-20,St. Louis,completed,1023
-2021-08-21,St. Louis,initiated,180
-2021-08-21,St. Louis,completed,254
+2021-08-19,St. Louis,initiated,800
+2021-08-19,St. Louis,completed,897
+2021-08-20,St. Louis,initiated,921
+2021-08-20,St. Louis,completed,1025
+2021-08-21,St. Louis,initiated,678
+2021-08-21,St. Louis,completed,822
+2021-08-22,St. Louis,initiated,49
+2021-08-22,St. Louis,completed,57
 2020-12-14,St. Louis City,initiated,26
 2020-12-14,St. Louis City,completed,1
 2020-12-15,St. Louis City,initiated,75
@@ -45020,7 +45189,7 @@ report_date,jurisdiction,value,vaccinations
 2021-01-24,St. Louis City,initiated,211
 2021-01-24,St. Louis City,completed,5
 2021-01-25,St. Louis City,initiated,640
-2021-01-25,St. Louis City,completed,356
+2021-01-25,St. Louis City,completed,357
 2021-01-26,St. Louis City,initiated,687
 2021-01-26,St. Louis City,completed,419
 2021-01-27,St. Louis City,initiated,642
@@ -45141,7 +45310,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-25,St. Louis City,completed,3113
 2021-03-26,St. Louis City,initiated,3368
 2021-03-26,St. Louis City,completed,3100
-2021-03-27,St. Louis City,initiated,924
+2021-03-27,St. Louis City,initiated,925
 2021-03-27,St. Louis City,completed,1226
 2021-03-28,St. Louis City,initiated,355
 2021-03-28,St. Louis City,completed,184
@@ -45161,10 +45330,10 @@ report_date,jurisdiction,value,vaccinations
 2021-04-04,St. Louis City,completed,88
 2021-04-05,St. Louis City,initiated,1173
 2021-04-05,St. Louis City,completed,975
-2021-04-06,St. Louis City,initiated,1356
-2021-04-06,St. Louis City,completed,1450
-2021-04-07,St. Louis City,initiated,1748
-2021-04-07,St. Louis City,completed,1478
+2021-04-06,St. Louis City,initiated,1357
+2021-04-06,St. Louis City,completed,1451
+2021-04-07,St. Louis City,initiated,1751
+2021-04-07,St. Louis City,completed,1480
 2021-04-08,St. Louis City,initiated,1571
 2021-04-08,St. Louis City,completed,1312
 2021-04-09,St. Louis City,initiated,1596
@@ -45184,7 +45353,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-16,St. Louis City,initiated,1072
 2021-04-16,St. Louis City,completed,1181
 2021-04-17,St. Louis City,initiated,818
-2021-04-17,St. Louis City,completed,1279
+2021-04-17,St. Louis City,completed,1280
 2021-04-18,St. Louis City,initiated,318
 2021-04-18,St. Louis City,completed,848
 2021-04-19,St. Louis City,initiated,846
@@ -45206,7 +45375,7 @@ report_date,jurisdiction,value,vaccinations
 2021-04-27,St. Louis City,initiated,557
 2021-04-27,St. Louis City,completed,1112
 2021-04-28,St. Louis City,initiated,525
-2021-04-28,St. Louis City,completed,1263
+2021-04-28,St. Louis City,completed,1264
 2021-04-29,St. Louis City,initiated,567
 2021-04-29,St. Louis City,completed,1383
 2021-04-30,St. Louis City,initiated,470
@@ -45225,7 +45394,7 @@ report_date,jurisdiction,value,vaccinations
 2021-05-06,St. Louis City,completed,1027
 2021-05-07,St. Louis City,initiated,584
 2021-05-07,St. Louis City,completed,1100
-2021-05-08,St. Louis City,initiated,261
+2021-05-08,St. Louis City,initiated,262
 2021-05-08,St. Louis City,completed,763
 2021-05-09,St. Louis City,initiated,108
 2021-05-09,St. Louis City,completed,202
@@ -45377,7 +45546,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-21,St. Louis City,completed,231
 2021-07-22,St. Louis City,initiated,426
 2021-07-22,St. Louis City,completed,210
-2021-07-23,St. Louis City,initiated,520
+2021-07-23,St. Louis City,initiated,518
 2021-07-23,St. Louis City,completed,273
 2021-07-24,St. Louis City,initiated,466
 2021-07-24,St. Louis City,completed,194
@@ -45401,7 +45570,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-02,St. Louis City,completed,310
 2021-08-03,St. Louis City,initiated,436
 2021-08-03,St. Louis City,completed,325
-2021-08-04,St. Louis City,initiated,485
+2021-08-04,St. Louis City,initiated,493
 2021-08-04,St. Louis City,completed,290
 2021-08-05,St. Louis City,initiated,426
 2021-08-05,St. Louis City,completed,314
@@ -45419,24 +45588,26 @@ report_date,jurisdiction,value,vaccinations
 2021-08-11,St. Louis City,completed,325
 2021-08-12,St. Louis City,initiated,384
 2021-08-12,St. Louis City,completed,335
-2021-08-13,St. Louis City,initiated,356
-2021-08-13,St. Louis City,completed,368
+2021-08-13,St. Louis City,initiated,358
+2021-08-13,St. Louis City,completed,369
 2021-08-14,St. Louis City,initiated,284
 2021-08-14,St. Louis City,completed,340
 2021-08-15,St. Louis City,initiated,152
-2021-08-15,St. Louis City,completed,198
+2021-08-15,St. Louis City,completed,197
 2021-08-16,St. Louis City,initiated,345
 2021-08-16,St. Louis City,completed,426
 2021-08-17,St. Louis City,initiated,358
 2021-08-17,St. Louis City,completed,411
 2021-08-18,St. Louis City,initiated,321
 2021-08-18,St. Louis City,completed,337
-2021-08-19,St. Louis City,initiated,326
-2021-08-19,St. Louis City,completed,303
+2021-08-19,St. Louis City,initiated,329
+2021-08-19,St. Louis City,completed,306
 2021-08-20,St. Louis City,initiated,289
 2021-08-20,St. Louis City,completed,312
-2021-08-21,St. Louis City,initiated,70
-2021-08-21,St. Louis City,completed,101
+2021-08-21,St. Louis City,initiated,273
+2021-08-21,St. Louis City,completed,285
+2021-08-22,St. Louis City,initiated,14
+2021-08-22,St. Louis City,completed,25
 2020-12-15,Ste. Genevieve,initiated,1
 2020-12-16,Ste. Genevieve,initiated,5
 2020-12-17,Ste. Genevieve,initiated,7
@@ -45904,8 +46075,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Ste. Genevieve,completed,23
 2021-08-20,Ste. Genevieve,initiated,28
 2021-08-20,Ste. Genevieve,completed,25
-2021-08-21,Ste. Genevieve,initiated,6
-2021-08-21,Ste. Genevieve,completed,2
+2021-08-21,Ste. Genevieve,initiated,16
+2021-08-21,Ste. Genevieve,completed,12
+2021-08-22,Ste. Genevieve,initiated,1
 2020-12-15,Stoddard,initiated,2
 2020-12-17,Stoddard,initiated,3
 2020-12-18,Stoddard,initiated,42
@@ -46217,7 +46389,7 @@ report_date,jurisdiction,value,vaccinations
 2021-06-02,Stoddard,initiated,17
 2021-06-02,Stoddard,completed,17
 2021-06-03,Stoddard,initiated,14
-2021-06-03,Stoddard,completed,28
+2021-06-03,Stoddard,completed,27
 2021-06-04,Stoddard,initiated,25
 2021-06-04,Stoddard,completed,24
 2021-06-05,Stoddard,initiated,8
@@ -46373,8 +46545,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Stoddard,completed,53
 2021-08-20,Stoddard,initiated,80
 2021-08-20,Stoddard,completed,45
-2021-08-21,Stoddard,initiated,13
-2021-08-21,Stoddard,completed,13
+2021-08-21,Stoddard,initiated,35
+2021-08-21,Stoddard,completed,28
+2021-08-22,Stoddard,initiated,7
+2021-08-22,Stoddard,completed,7
 2020-12-16,Stone,initiated,6
 2020-12-16,Stone,completed,5
 2020-12-17,Stone,initiated,4
@@ -46838,8 +47012,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Stone,completed,34
 2021-08-20,Stone,initiated,11
 2021-08-20,Stone,completed,28
-2021-08-21,Stone,initiated,5
-2021-08-21,Stone,completed,10
+2021-08-21,Stone,initiated,6
+2021-08-21,Stone,completed,28
+2021-08-22,Stone,completed,2
 2020-12-19,Sullivan,initiated,1
 2020-12-21,Sullivan,initiated,16
 2020-12-23,Sullivan,initiated,12
@@ -47220,7 +47395,8 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Sullivan,completed,4
 2021-08-20,Sullivan,initiated,4
 2021-08-20,Sullivan,completed,11
-2021-08-21,Sullivan,completed,1
+2021-08-21,Sullivan,initiated,5
+2021-08-21,Sullivan,completed,9
 2020-12-14,Taney,initiated,1
 2020-12-14,Taney,completed,1
 2020-12-15,Taney,initiated,2
@@ -47321,7 +47497,7 @@ report_date,jurisdiction,value,vaccinations
 2021-02-11,Taney,completed,207
 2021-02-12,Taney,initiated,89
 2021-02-12,Taney,completed,251
-2021-02-13,Taney,initiated,239
+2021-02-13,Taney,initiated,240
 2021-02-13,Taney,completed,42
 2021-02-14,Taney,initiated,10
 2021-02-14,Taney,completed,6
@@ -47376,7 +47552,7 @@ report_date,jurisdiction,value,vaccinations
 2021-03-12,Taney,initiated,194
 2021-03-12,Taney,completed,86
 2021-03-13,Taney,initiated,121
-2021-03-13,Taney,completed,164
+2021-03-13,Taney,completed,165
 2021-03-14,Taney,initiated,8
 2021-03-14,Taney,completed,4
 2021-03-15,Taney,initiated,452
@@ -47693,12 +47869,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Taney,completed,163
 2021-08-18,Taney,initiated,52
 2021-08-18,Taney,completed,109
-2021-08-19,Taney,initiated,59
-2021-08-19,Taney,completed,87
+2021-08-19,Taney,initiated,60
+2021-08-19,Taney,completed,88
 2021-08-20,Taney,initiated,62
 2021-08-20,Taney,completed,117
-2021-08-21,Taney,initiated,13
-2021-08-21,Taney,completed,30
+2021-08-21,Taney,initiated,32
+2021-08-21,Taney,completed,61
+2021-08-22,Taney,initiated,4
+2021-08-22,Taney,completed,7
 2020-12-15,Texas,initiated,2
 2020-12-16,Texas,initiated,3
 2020-12-16,Texas,completed,3
@@ -48152,12 +48330,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Texas,completed,66
 2021-08-18,Texas,initiated,15
 2021-08-18,Texas,completed,36
-2021-08-19,Texas,initiated,37
+2021-08-19,Texas,initiated,38
 2021-08-19,Texas,completed,39
 2021-08-20,Texas,initiated,22
-2021-08-20,Texas,completed,62
-2021-08-21,Texas,initiated,4
-2021-08-21,Texas,completed,17
+2021-08-20,Texas,completed,64
+2021-08-21,Texas,initiated,11
+2021-08-21,Texas,completed,30
+2021-08-22,Texas,initiated,1
+2021-08-22,Texas,completed,9
 2020-12-16,Vernon,initiated,1
 2020-12-16,Vernon,completed,1
 2020-12-17,Vernon,initiated,1
@@ -48535,7 +48715,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-19,Vernon,completed,13
 2021-07-20,Vernon,initiated,13
 2021-07-20,Vernon,completed,8
-2021-07-21,Vernon,initiated,15
+2021-07-21,Vernon,initiated,14
 2021-07-21,Vernon,completed,3
 2021-07-22,Vernon,initiated,16
 2021-07-22,Vernon,completed,7
@@ -48597,7 +48777,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-20,Vernon,initiated,17
 2021-08-20,Vernon,completed,12
 2021-08-21,Vernon,initiated,6
-2021-08-21,Vernon,completed,13
+2021-08-21,Vernon,completed,14
+2021-08-22,Vernon,initiated,4
+2021-08-22,Vernon,completed,4
 2020-12-15,Warren,initiated,5
 2020-12-16,Warren,initiated,9
 2020-12-17,Warren,initiated,29
@@ -49051,7 +49233,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-11,Warren,completed,27
 2021-08-12,Warren,initiated,50
 2021-08-12,Warren,completed,40
-2021-08-13,Warren,initiated,67
+2021-08-13,Warren,initiated,68
 2021-08-13,Warren,completed,45
 2021-08-14,Warren,initiated,22
 2021-08-14,Warren,completed,17
@@ -49067,8 +49249,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Warren,completed,34
 2021-08-20,Warren,initiated,38
 2021-08-20,Warren,completed,48
-2021-08-21,Warren,initiated,8
-2021-08-21,Warren,completed,8
+2021-08-21,Warren,initiated,24
+2021-08-21,Warren,completed,25
+2021-08-22,Warren,initiated,2
+2021-08-22,Warren,completed,5
 2020-12-16,Washington,initiated,4
 2020-12-17,Washington,initiated,6
 2020-12-18,Washington,initiated,9
@@ -49525,12 +49709,14 @@ report_date,jurisdiction,value,vaccinations
 2021-08-17,Washington,completed,8
 2021-08-18,Washington,initiated,21
 2021-08-18,Washington,completed,15
-2021-08-19,Washington,initiated,36
-2021-08-19,Washington,completed,39
+2021-08-19,Washington,initiated,42
+2021-08-19,Washington,completed,45
 2021-08-20,Washington,initiated,18
 2021-08-20,Washington,completed,47
-2021-08-21,Washington,initiated,6
-2021-08-21,Washington,completed,12
+2021-08-21,Washington,initiated,11
+2021-08-21,Washington,completed,18
+2021-08-22,Washington,initiated,2
+2021-08-22,Washington,completed,2
 2020-12-15,Wayne,initiated,1
 2020-12-18,Wayne,initiated,1
 2020-12-21,Wayne,initiated,1
@@ -49960,8 +50146,9 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Wayne,completed,23
 2021-08-20,Wayne,initiated,17
 2021-08-20,Wayne,completed,24
-2021-08-21,Wayne,initiated,2
-2021-08-21,Wayne,completed,5
+2021-08-21,Wayne,initiated,6
+2021-08-21,Wayne,completed,8
+2021-08-22,Wayne,initiated,1
 2020-12-14,Webster,initiated,1
 2020-12-14,Webster,completed,1
 2020-12-15,Webster,initiated,1
@@ -50399,7 +50586,7 @@ report_date,jurisdiction,value,vaccinations
 2021-07-29,Webster,completed,60
 2021-07-30,Webster,initiated,86
 2021-07-30,Webster,completed,49
-2021-07-31,Webster,initiated,40
+2021-07-31,Webster,initiated,41
 2021-07-31,Webster,completed,24
 2021-08-01,Webster,initiated,19
 2021-08-01,Webster,completed,14
@@ -50441,8 +50628,10 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Webster,completed,80
 2021-08-20,Webster,initiated,56
 2021-08-20,Webster,completed,84
-2021-08-21,Webster,initiated,11
-2021-08-21,Webster,completed,14
+2021-08-21,Webster,initiated,18
+2021-08-21,Webster,completed,34
+2021-08-22,Webster,initiated,3
+2021-08-22,Webster,completed,8
 2020-12-17,Worth,initiated,1
 2020-12-22,Worth,initiated,3
 2020-12-27,Worth,initiated,1
@@ -50701,7 +50890,7 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Worth,initiated,1
 2021-08-20,Worth,initiated,4
 2021-08-20,Worth,completed,3
-2021-08-21,Worth,completed,1
+2021-08-21,Worth,completed,2
 2020-12-16,Wright,initiated,6
 2020-12-16,Wright,completed,4
 2020-12-17,Wright,initiated,1
@@ -51155,5 +51344,6 @@ report_date,jurisdiction,value,vaccinations
 2021-08-19,Wright,completed,50
 2021-08-20,Wright,initiated,24
 2021-08-20,Wright,completed,48
-2021-08-21,Wright,initiated,2
-2021-08-21,Wright,completed,14
+2021-08-21,Wright,initiated,5
+2021-08-21,Wright,completed,26
+2021-08-22,Wright,completed,9
