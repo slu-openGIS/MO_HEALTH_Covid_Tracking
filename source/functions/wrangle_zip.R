@@ -1,6 +1,9 @@
 
 process_zip <- function(county, dates){
   
+  # set rear version 
+  readr::local_edition(1)
+  
   # load zip data
   out <- purrr::map_df(unlist(dates), ~ wrangle_zip(date = .x, county = county))
   
