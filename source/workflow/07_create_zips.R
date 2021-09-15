@@ -30,12 +30,19 @@ metro_east <- st_read("https://raw.githubusercontent.com/slu-openGIS/STL_BOUNDAR
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # build county-level ZIP data for MO ####
+
+## get last Friday
+getlastdate <- function(day) {
+  dates <- seq((Sys.Date()-7), (Sys.Date()-1), by="days")
+  dates[wday(dates, label=T)==day]
+}
+
 ## Define Dates
 dates <- list(
   city_dates = c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
   county_dates = c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
-  franklin_dates = seq(as.Date("2020-03-23"), date-1, by="days"),
-  jeffco_dates = seq(as.Date("2020-07-23"), date, by="days"),
+  franklin_dates = seq(as.Date("2020-03-23"), getlastdate(day = "Fri"), by="days"),
+  jeffco_dates = seq(as.Date("2020-07-23"),  as.Date("2021-09-12"), by="days"),
   kc_dates = seq(as.Date("2020-12-14"), date, by="days"),
   lincoln_dates = seq(as.Date("2020-12-23"), date, by="days"),
   metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
@@ -43,6 +50,8 @@ dates <- list(
   warren_dates = seq(as.Date("2020-10-28"), as.Date("2021-07-15"), by="days"),
   wyandotte_dates = seq(as.Date("2021-01-17"), date, by="days")
 )
+
+rm(getlastdate)
 
 ## Process Individual Jurisdictions
 city_data <- process_zip(county = 510, dates = dates$city_dates)
