@@ -158,7 +158,7 @@ get_county_demos <- function(metric){
                                      names_to = "value", values_to = "deaths")
     mortality <- dplyr::mutate(mortality, value = dplyr::case_when(
       value == "white_deaths" ~ "White",
-      value == "black_or_african_american_death" ~ "Black"
+      value == "black_or_african_american_deaths" ~ "Black"
     ))
     
     ## create output
