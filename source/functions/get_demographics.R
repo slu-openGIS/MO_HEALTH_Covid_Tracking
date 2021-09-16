@@ -152,9 +152,9 @@ get_county_demos <- function(metric){
     out <- dplyr::left_join(out, morbidity, by = "value")
     
     ## tidy mortality data
-    mortality <- dplyr::select(mortality, white_deaths, black_or_african_american_death)
+    mortality <- dplyr::select(mortality, white_deaths, black_or_african_american_deaths)
     mortality <- tidyr::pivot_longer(mortality,
-                                     cols = c(white_deaths, black_or_african_american_death),
+                                     cols = c(white_deaths, black_or_african_american_deaths),
                                      names_to = "value", values_to = "deaths")
     mortality <- dplyr::mutate(mortality, value = dplyr::case_when(
       value == "white_deaths" ~ "White",
