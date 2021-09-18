@@ -209,10 +209,11 @@ get_zip_jefferson <- function(path){
   out <- get_esri(path = path)
   
   # tidy
-  out <- dplyr::select(out, ZIP, Active_Cas)
+  out <- dplyr::select(out, ZIP, Cumulative_Cases)
   out <- dplyr::rename(out, 
                        zip = ZIP,
-                       count = Active_Cas)
+                       count = Cumulative_Cases)
+  out <- dplyr::mutate(out, count = as.numeric(count))
   out <- dplyr::mutate(out, count = ifelse(count < 5, NA, count))
   out <- dplyr::arrange(out, zip)
   
