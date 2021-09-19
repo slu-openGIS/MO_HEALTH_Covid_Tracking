@@ -47,7 +47,7 @@ write_csv(stl_county_zips, paste0("data/source/stl_daily_zips/stl_county_", date
 # write_csv(warren_zips, paste0("data/source/stl_daily_zips/warren_", date, ".csv"))
 
 ## clean-up
-rm(warren_zips, lincoln_zips, jefferson_zips, stl_city_zips, stl_county_zips)
+rm(lincoln_zips, jefferson_zips, stl_city_zips, stl_county_zips) # warren_zips
 rm(get_zip_warren, get_zip_lincoln, get_zip_jefferson,
    get_zip_st_louis_city, get_zip_st_louis_county, get_zip_franklin)
 
