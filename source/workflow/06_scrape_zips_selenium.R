@@ -44,7 +44,7 @@ rm(st_charles_zips, il_zips)
 # platte_zips, jackson_zips
 
 rm(get_zip_il, get_zip_st_charles) 
-# get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_jackson
+rm(get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_jackson)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
