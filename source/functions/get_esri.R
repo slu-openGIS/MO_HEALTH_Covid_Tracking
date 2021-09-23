@@ -4,7 +4,7 @@ get_esri <- function(path){
   data <- httr::GET(path) 
   
   # extract
-  data <- httr::content(data) 
+  data <- httr::content(data, as = "text") 
   data <- jsonlite::fromJSON(data)
 
   out <- data[["features"]][["attributes"]]
