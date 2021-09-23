@@ -46,7 +46,7 @@ dates <- list(
   kc_dates = seq(as.Date("2020-12-14"), date, by="days"),
   lincoln_dates = seq(as.Date("2020-12-23"), date, by="days"),
   metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),
-  st_charles_dates = seq(as.Date("2020-07-14"), date, by="days"),
+  st_charles_dates = seq(as.Date("2020-07-14"), as.Date("2021-09-20"), by="days"),
   warren_dates = seq(as.Date("2020-10-28"), as.Date("2021-07-15"), by="days"),
   wyandotte_dates = seq(as.Date("2021-01-17"), date, by="days")
 )

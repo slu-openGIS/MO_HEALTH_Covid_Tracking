@@ -26,8 +26,8 @@ open_rsel(browser = browser_name)
 # Missouri ZIPs, St. Louis Area ####
 
 ## St. Charles County
-st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = FALSE)
-write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
+# st_charles_zips <- get_zip(state = "MO", county = "St. Charles", cut = FALSE)
+# # write_csv(st_charles_zips, paste0("data/source/stl_daily_zips/st_charles_", date, ".csv"))
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -40,8 +40,8 @@ write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 ## clean-up
-rm(st_charles_zips, il_zips) 
-# platte_zips, jackson_zips
+rm(il_zips) 
+# platte_zips, jackson_zips, st_charles_zips
 
 rm(get_zip_il, get_zip_st_charles) 
 rm(get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_jackson)
