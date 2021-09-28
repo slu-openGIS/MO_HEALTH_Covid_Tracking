@@ -1,7 +1,7 @@
 
 process_zip <- function(county, dates){
   
-  # set rear version 
+  # set readr version 
   readr::local_edition(1)
   
   # load zip data
@@ -78,6 +78,9 @@ process_zip <- function(county, dates){
 }
 
 wrangle_zip <- function(date, county){
+  
+  # set readr version 
+  readr::local_edition(1)
   
   # set county name
   if (county == 510){
@@ -156,6 +159,9 @@ wrangle_zip <- function(date, county){
 }
 
 build_pop_zip <- function(county){
+  
+  # set readr version 
+  readr::local_edition(1)
   
   # read population
   if (county == 510){

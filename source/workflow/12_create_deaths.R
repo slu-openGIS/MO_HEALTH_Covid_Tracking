@@ -1,4 +1,7 @@
 
+# set readr version 
+readr::local_edition(1)
+
 deaths_actual <- get_cases(state = "MO", metric = "deaths, actual")
 
 deaths_actual %>%

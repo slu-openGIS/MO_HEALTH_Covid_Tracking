@@ -1,6 +1,9 @@
 
 process_kc_zip <- function(dates, reduce = TRUE){
   
+  # set readr version 
+  readr::local_edition(1)
+  
   # load zip data
   out <- list(
     clay_data = purrr::map_df(unlist(dates$kc_dates), ~ wrangle_kc_zip(date = .x, county = "Clay")),
@@ -37,6 +40,9 @@ process_kc_zip <- function(dates, reduce = TRUE){
 }
 
 wrangle_kc_zip <- function(date, county){
+  
+  # set readr version 
+  readr::local_edition(1)
   
   # set state
   if (county %in% c("Clay", "Jackson", "Kansas City", "Platte")){
