@@ -42,7 +42,7 @@ dates <- list(
   city_dates = c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
   county_dates = c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
   franklin_dates = seq(as.Date("2020-03-23"), getlastdate(day = "Fri"), by="days"),
-  jeffco_dates = seq(as.Date("2020-07-23"),  date, by="days"),
+  jeffco_dates = seq(as.Date("2020-07-23"), as.Date("2021-09-17"), by="days"),
   kc_dates = seq(as.Date("2020-12-14"), date, by="days"),
   lincoln_dates = seq(as.Date("2020-12-23"), date, by="days"),
   metro_east_dates = seq(as.Date("2020-10-27"), date, by="days"),

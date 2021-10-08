@@ -27,8 +27,8 @@ rm(get_zip_clay, get_zip_kc)
 ## Franklin County
 
 ## Jefferson County
-jefferson_zips <- get_zip(state = "MO", county = "Jefferson")
-write_csv(jefferson_zips, paste0("data/source/stl_daily_zips/jefferson_", date, ".csv"))
+# jefferson_zips <- get_zip(state = "MO", county = "Jefferson")
+# write_csv(jefferson_zips, paste0("data/source/stl_daily_zips/jefferson_", date, ".csv"))
 
 ## Lincoln County
 lincoln_zips <- get_zip(state = "MO", county = "Lincoln")
@@ -47,7 +47,7 @@ write_csv(stl_county_zips, paste0("data/source/stl_daily_zips/stl_county_", date
 # write_csv(warren_zips, paste0("data/source/stl_daily_zips/warren_", date, ".csv"))
 
 ## clean-up
-rm(lincoln_zips, jefferson_zips, stl_city_zips, stl_county_zips) # warren_zips
+rm(lincoln_zips, stl_city_zips, stl_county_zips) # warren_zips jefferson_zips
 rm(get_zip_warren, get_zip_lincoln, get_zip_jefferson,
    get_zip_st_louis_city, get_zip_st_louis_county, get_zip_franklin)
 
