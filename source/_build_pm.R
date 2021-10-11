@@ -15,7 +15,6 @@
 downloads_path <- "/Users/chris/Downloads"
 
 ## store current Franklin County file name
-# franklin_path <- paste0(lubridate::month(Sys.Date()), " ", stringr::str_pad(lubridate::day(Sys.Date()), 2, pad = "0"), " 2020 Table.xlsx")
 franklin_path <- "Franklin County Data Rolling.xlsx"
 user <- "Chris"
 # user <- "Carter"
@@ -25,7 +24,7 @@ date <- Sys.Date()
 
 ## set browser
 # browser_name <- "firefox"
-browser_name <- "chrome"
+# browser_name <- "chrome"
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -49,11 +48,18 @@ if (q == FALSE){
 }
 
 ## confirm Docker started data
-q <- usethis::ui_yeah("Have you started the Docker daemon?")
+q <- usethis::ui_yeah("Have you downloaded the latest Illinois ZIP code data?")
 
 if (q == FALSE){
-  stop("Please start the Docker daemon before proceeding!")
+  stop("Please download the Illinois ZIP code data before proceeding!")
 }
+
+## confirm Docker started data
+# q <- usethis::ui_yeah("Have you started the Docker daemon?")
+
+# if (q == FALSE){
+#  stop("Please start the Docker daemon before proceeding!")
+#  }
 
 ## clean-up
 rm(q)
@@ -67,7 +73,7 @@ auto_update <- usethis::ui_yeah("Do you want to automatically update the remote 
 # docker image being used is - selenium/standalone-firefox
 # one update might be to use a more modern firefox version - I think this image is pretty old
 
-system("docker run -d -p 4445:4444 selenium/standalone-chrome")
+#  system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -98,15 +104,18 @@ source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
 source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
 source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date
-source("source/functions/rsel.R")             # open and close RSelenium
+# source("source/functions/rsel.R")             # open and close RSelenium
 source("source/functions/wrangle_zip.R")      # process zip code data (STL)
 source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
+
+rm(get_zip_il, get_zip_st_charles) 
+rm(get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_jackson)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # workflow ####
 
-source("source/workflow/06_scrape_zips_selenium.R")
+# source("source/workflow/06_scrape_zips_selenium.R")
 source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
 
@@ -137,8 +146,8 @@ rm(date, user)
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # clean-up docker environment ####
-system("docker stop $(docker ps -a -q)")
-system("docker rm $(docker ps -a -q)")
+#  system("docker stop $(docker ps -a -q)")
+# system("docker rm $(docker ps -a -q)")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 

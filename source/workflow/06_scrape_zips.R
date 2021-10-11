@@ -69,5 +69,18 @@ rm(get_zip_johnson, get_zip_wyandotte)
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
+# Illinois ZIPs ####
+
+il_zips <- read_csv(file = paste0(downloads_path, "/Illinois Data.csv")) %>%
+  clean_names() %>%
+  select(zip, total_cases) %>%
+  rename(count = total_cases)
+
+write_csv(il_zips, paste0("data/source/il_daily_zips/il_zips_", date, ".csv"))
+
+rm(il_zips)
+
+#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
+
 # final clean-up ####
 rm(get_zip)
