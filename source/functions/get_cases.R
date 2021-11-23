@@ -47,28 +47,26 @@ get_mo_deaths <- function(){
   ## tidy
   ### initial processing
   out <- dplyr::rename(out,
-                       date = Dod,
+                       date = `Date of Death`,
                        value = `Measure Names`,
                        count = `Measure Values`
   )
   
-  # out <- dplyr::rename(out, 
-  #                     date = Dod,
-  #                     count = `Confirmed Deaths`)
-  
-  out <- dplyr::select(out, date, value, count)
-  
-  # out <- dplyr::select(out, date, count)
-  
-  out <- dplyr::filter(out, is.na(date) == FALSE)
-  out <- dplyr::filter(out, date != "All")
-  
+  out <- dplyr::filter(out, date %in% c("All") == FALSE)
+  out <- dplyr::filter(out, value %in% c("Confirmed Deaths", "* Probable Deaths"))
+  out <- dplyr::mutate(out, value = ifelse(value == "* Probable Deaths", "Probable Deaths", "Confirmed Deaths"))
   out <- dplyr::mutate(out, date = lubridate::mdy(date))
-  out <- dplyr::filter(out, date > "2020-03-01")
-  out <- dplyr::arrange(out, date)
+  
+  #### calculate total deaths
+  totals <- out %>%
+    dplyr::group_by(date) %>%
+    dplyr::summarise(count = sum(count))
+  
+  totals <- dplyr::mutate(totals, value = "Total Deaths")
+  totals <- dplyr::select(totals, date, value, count)
   
   ### pad first week with 0 deaths
-  first_date <- dplyr::select(out, date)
+  first_date <- dplyr::select(totals, date)
   first_date <- dplyr::slice(first_date, 1)
   first_date <- dplyr::pull(first_date)
   
@@ -78,14 +76,16 @@ get_mo_deaths <- function(){
   extra_dates <- dplyr::mutate(extra_dates, count = 0)
   
   ### combine data
-  out <- dplyr::bind_rows(extra_dates, out)
+  totals <- dplyr::bind_rows(extra_dates, totals)
   
   ### finish tidying
-  out <- dplyr::mutate(out, value = "Deaths, Actual")
+  totals <- dplyr::mutate(totals, avg = zoo::rollmean(count, k = 7, align = "right", fill = NA))
   
-  out <- dplyr::mutate(out, avg = zoo::rollmean(count, k = 7, align = "right", fill = NA))
+  totals <- dplyr::filter(totals, date >= first_date)
   
-  out <- dplyr::filter(out, date >= first_date)
+  ## combine output
+  out <- dplyr::bind_rows(out, totals)
+  out <- dplyr::arrange(out, date, value)
   
   ## return output
   return(out)
