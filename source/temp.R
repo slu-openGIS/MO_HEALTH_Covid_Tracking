@@ -69,8 +69,8 @@ region <- region_meso %>%
 rm(region_meso, region_pop, metro_counties)
 
 
-stl_hospital <- read_csv("data/metro/stl_hospital.csv") %>%
-  filter(report_date == "2021-11-17" | report_date == "2021-11-24") %>%
-  select(report_date, in_pt_avg, icu_avg, vent_avg)
+# stl_hospital <- read_csv("data/metro/stl_hospital.csv") %>%
+#  filter(report_date == "2021-11-17" | report_date == "2021-11-24") %>%
+#  select(report_date, in_pt_avg, icu_avg, vent_avg)
 
 
