@@ -124,7 +124,7 @@ if (hospital_update == TRUE){
 }
 
 source("source/workflow/12_create_deaths.R")
-source("source/workflow/15_create_demographics.R")
+# source("source/workflow/15_create_demographics.R")
 source("source/workflow/16_create_vaccines.R")  
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
