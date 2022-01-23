@@ -2689,7 +2689,8 @@ date,value,count,avg
 2022-01-20,Probable Deaths,0,NA
 2022-01-20,Total Deaths,1,4.285714285714286
 2022-01-20,Reported Deaths,28,36.142857142857146
-2022-01-21,Confirmed Deaths,0,NA
+2022-01-21,Confirmed Deaths,1,NA
 2022-01-21,Probable Deaths,0,NA
-2022-01-21,Total Deaths,0,2.857142857142857
+2022-01-21,Total Deaths,1,3
 2022-01-21,Reported Deaths,221,63.57142857142857
+2022-01-22,Reported Deaths,8,61.57142857142857
