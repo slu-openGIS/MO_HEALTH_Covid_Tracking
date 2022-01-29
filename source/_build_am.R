@@ -67,6 +67,7 @@ source("source/workflow/02_create_state_msa.R")
 source("source/workflow/03_add_rates.R")
 source("source/workflow/04_create_spatial.R")
 source("source/workflow/05_create_regions.R")
+source("source/workflow/18_create_hhs_state.R")
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 

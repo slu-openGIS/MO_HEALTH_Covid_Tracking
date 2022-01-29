@@ -42,6 +42,16 @@ get_last_update <- function(source){
     ## return output
     return(x)
     
+  } else if (source == "HHS State"){
+    
+    ## HHS hospitalization data
+    ## return api last update value
+    x <- rjson::fromJSON(file = "https://beta.healthdata.gov/api/views/metadata/v1/g62h-syeh")
+    x <- as.Date(x$updatedAt)
+    
+    ## return output
+    return(x)
+    
   }
   
 }
