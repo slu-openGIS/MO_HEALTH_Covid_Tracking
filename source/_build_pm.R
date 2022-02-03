@@ -11,31 +11,12 @@
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # values ####
-
 downloads_path <- "/Users/chris/Downloads"
-
-## store current Franklin County file name
-franklin_path <- "Franklin County Data Rolling.xlsx"
-user <- "Chris"
-# user <- "Carter"
-
-## store date value
 date <- Sys.Date()
-
-## set browser
-# browser_name <- "firefox"
-# browser_name <- "chrome"
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
 # qa promts ####
-
-## confirm Franklin County data
-q <- usethis::ui_yeah("Have you added the latest Franklin County ZIP code data to Downloads?")
-
-# if (q == FALSE){
-#  stop("Please update the filename before proceeding!")
-# }
 
 ## confirm St. Louis Pandemic Task Force data
 hospital_update <- usethis::ui_yeah("Have you manually updated the Pandemic Task Force data from the latest slides?")
@@ -54,26 +35,11 @@ if (q == FALSE){
   stop("Please download the Illinois ZIP code data before proceeding!")
 }
 
-## confirm Docker started data
-# q <- usethis::ui_yeah("Have you started the Docker daemon?")
-
-# if (q == FALSE){
-#  stop("Please start the Docker daemon before proceeding!")
-#  }
-
 ## clean-up
 rm(q)
 
 ## confirm auto update data
 auto_update <- usethis::ui_yeah("Do you want to automatically update the remote GitHub repo?")
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
-# start docker ####
-# docker image being used is - selenium/standalone-firefox
-# one update might be to use a more modern firefox version - I think this image is pretty old
-
-#  system("docker run -d -p 4445:4444 selenium/standalone-chrome")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
@@ -100,11 +66,9 @@ library(zoo)            # rolling means
 source("source/functions/get_cases.R")        # scrape case/death data (MO)
 source("source/functions/get_demographics.R") # scrape demographic data (MO)
 source("source/functions/get_esri.R")         # scrape ESRI dashboards (generic)
-# source("source/functions/get_mo_vacc.R")      # scrape vaccine data (MO / STL)
 source("source/functions/get_tableau.R")      # scrape Tableau dashboards (generic)
 source("source/functions/get_zip.R")          # scrape zip code data (MO / IL / KS)
 source("source/functions/historic_expand.R")  # create empty data for zips by date
-# source("source/functions/rsel.R")             # open and close RSelenium
 source("source/functions/wrangle_zip.R")      # process zip code data (STL)
 source("source/functions/wrangle_kc_zip.R")   # process zip code data (KC)
 
@@ -115,7 +79,6 @@ rm(get_zip_platte, get_zip_platte_bi, get_zip_platte_html, get_zip_jackson)
 
 # workflow ####
 
-# source("source/workflow/06_scrape_zips_selenium.R")
 source("source/workflow/06_scrape_zips.R")
 source("source/workflow/07_create_zips.R")
 
@@ -142,12 +105,6 @@ if (auto_update == TRUE){
 
 # clean-up R environment ####
 rm(date, user)
-
-#===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
-
-# clean-up docker environment ####
-#  system("docker stop $(docker ps -a -q)")
-# system("docker rm $(docker ps -a -q)")
 
 #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===# #===#
 
