@@ -60,4 +60,4 @@ rm(race_gender, city_race_gender, covid_race_gender)
 # clean-up
 rm(get_demographics, get_city_demos, get_county_demos, get_city_scrape,
    get_case_totals, get_cases, get_esri, get_state_data_scrape, get_state_demos,
-   get_state_demos_scrape, get_state_race, mo_covid_race, race, state_race)
+   get_state_demos_scrape, get_state_race) # mo_covid_race, race, state_race
