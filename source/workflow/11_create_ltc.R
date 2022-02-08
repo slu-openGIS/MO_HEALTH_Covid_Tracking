@@ -1,15 +1,79 @@
 # pull and process long term care / nursing home data
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
+print("Please enter 'Dataset Version Identifier' from the following URL:")
+print("https://data.cms.gov/covid-19/covid-19-nursing-home-data/api-docs")
+uuid <- readline(prompt="Dataset Version Identifier: ")
 
 # load data ####
 ## facility master list
+# These are the libraries I used to run my data.
+# I've commented them out to reduce redundancy but if an error occurs you can see what is necessary. 
+#library(splusTimeDate)
+#library("jsonlite")
+#library(tidyverse)
+#library(selectr)
+#library(httr)
+#library(sf)
+#library(janitor)
+
 master_list <- st_read("data/source/ltc/mo_xl_ltc_facilities.geojson") %>%
   mutate(p_id = as.character(p_id))
 
-## covid data
-covid <- read_csv(file = paste0(downloads_path, "/COVID-19 Nursing Home Data.csv")) %>%
+## Long term care API queries.
+write_ltc_data <- function(id) {
+  pages <- list()
+  more <- TRUE
+  #many of these need to be reset in function
+  i <- 0
+  p <- 0
+  a <- 1
+  #state specification can be done here
+  state <- c("MO", "IL", "KS", "OK")
+  #migrate to function, allow for parallelization, parallelize across states? sort dataframe afterwards
+  while(more){
+    url <- paste("https://data.cms.gov/data-api/v1/dataset/", uuid, 
+               "/data?filter[provider_state]=", state[a], "&size=2000&offset=", 
+               i*2000, sep = '')
+    mydata <- fromJSON(url)
+    message("Retrieving page ", i, " from ", state[a])
+    message("Nursing homes sampled: ", nrow(mydata))
+    message(url)
+    i <- i + 1
+    p <- p + 1
+    pages[[p+1]] <- mydata
+    if (nrow(mydata) < 2000) {
+      a <- a + 1
+      message("New state ", state[a])
+      i <- 0
+      if (length(state) < a) {
+        more <- FALSE 
+      }
+    }
+  }
+  covid <- rbind_pages(pages)
+  covid <- as.data.frame(covid)
+  write.csv(covid, paste0(downloads_path, "/COVID-19 Nursing Home Data.csv"), row.names=FALSE)
+}
+
+# time handling 
+library(V8)
+# Check date of file vs api update date
+file_date <- as.Date(strtrim(file.info("COVID-19 Nursing Home Data.csv")$ctime, 10))
+url <- "https://data.cms.gov/covid-19/covid-19-nursing-home-data/api-docs"
+# create session
+page <- rvest::session(url)
+# pull session update date
+update_date <- as.Date(substring(page$response$headers$`last-modified`, first = 6, last = 16), "%d %B %Y")
+week_diff <- as.integer(difftime(update_date, file_date, units = 'weeks'))
+print(paste0("Difference between last file write and data update is ", toString(week_diff), " weeks"))
+if (week_diff > 1) {
+  write_ltc_data(uuid)
+}
+
+covid <- read_csv(file = paste0(downloads_path, "/COVID-19 Nursing Home Data.csv")) %>% 
   clean_names()
+
 
 ## county data
 county <- read_csv(file = "data/county/county_full.csv")
@@ -24,8 +88,8 @@ mo_xl <- st_read("data/county/daily_snapshot_mo_xl.geojson") %>%
 ## subset only to focal providers
 covid <- filter(covid, federal_provider_number %in% master_list$p_id)
 
-## tidy
-covid %>%
+## Column selection and naming.
+covid <- covid %>%
   select(week_ending, federal_provider_number,
          submitted_data:total_number_of_occupied_beds, 
          total_resident_confirmed_covid_19_cases_per_1_000_residents,
@@ -56,8 +120,8 @@ covid %>%
     s_suspect = staff_total_suspected_covid_19,
     s_new_deaths_covid = staff_weekly_covid_19_deaths,
     s_deaths_covid = staff_total_covid_19_deaths
-  ) %>%
-  mutate(report_date = mdy(report_date)) %>%
+  )  %>%  
+  mutate(report_date = mdy(timeDate(as.character(as.Date(report_date)), in.format = "%Y-%m-%d"))) %>%  
   arrange(p_id, report_date) -> covid
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
