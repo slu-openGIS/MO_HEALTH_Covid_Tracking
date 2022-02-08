@@ -59,15 +59,15 @@ write_ltc_data <- function(id) {
 # time handling 
 library(V8)
 # Check date of file vs api update date
-file_date <- as.Date(strtrim(file.info("COVID-19 Nursing Home Data.csv")$ctime, 10))
+file_date <- as.Date(strtrim(file.info(paste0(downloads_path, "/COVID-19 Nursing Home Data.csv"))$mtime, 10))
 url <- "https://data.cms.gov/covid-19/covid-19-nursing-home-data/api-docs"
 # create session
 page <- rvest::session(url)
 # pull session update date
 update_date <- as.Date(substring(page$response$headers$`last-modified`, first = 6, last = 16), "%d %B %Y")
-week_diff <- as.integer(difftime(update_date, file_date, units = 'weeks'))
+week_diff <- as.double(difftime(update_date, file_date, units = 'weeks'))
 print(paste0("Difference between last file write and data update is ", toString(week_diff), " weeks"))
-if (week_diff > 1) {
+if (week_diff > 1.0) {
   write_ltc_data(uuid)
 }
 
