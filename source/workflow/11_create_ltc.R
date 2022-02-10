@@ -65,9 +65,9 @@ url <- "https://data.cms.gov/covid-19/covid-19-nursing-home-data/api-docs"
 page <- rvest::session(url)
 # pull session update date
 update_date <- as.Date(substring(page$response$headers$`last-modified`, first = 6, last = 16), "%d %B %Y")
-week_diff <- as.double(difftime(update_date, file_date, units = 'weeks'))
+week_diff <- abs(as.double(difftime(update_date, file_date, units = 'weeks')))
 print(paste0("Difference between last file write and data update is ", toString(week_diff), " weeks"))
-if (week_diff > 1.0) {
+if (week_diff > 1.0 | is.na(week_diff) == T) {
   write_ltc_data(uuid)
 }
 
