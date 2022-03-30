@@ -39,7 +39,7 @@ getlastdate <- function(day) {
 
 ## Define Dates
 dates <- list(
-  city_dates = c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
+  city_dates = c(seq(as.Date("2020-04-01"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), as.Date("2022-02-22"), by="days")),
   county_dates = c(seq(as.Date("2020-04-06"), as.Date("2020-05-18"), by="days"), seq(as.Date("2020-05-20"), date, by="days")),
   franklin_dates = seq(as.Date("2020-03-23"), getlastdate(day = "Fri"), by="days"),
   jeffco_dates = seq(as.Date("2020-07-23"), as.Date("2021-09-17"), by="days"),
