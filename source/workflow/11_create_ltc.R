@@ -1,79 +1,62 @@
 # pull and process long term care / nursing home data
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
-print("Please enter 'Dataset Version Identifier' from the following URL:")
-print("https://data.cms.gov/covid-19/covid-19-nursing-home-data/api-docs")
-uuid <- readline(prompt="Dataset Version Identifier: ")
 
 # load data ####
 ## facility master list
 # These are the libraries I used to run my data.
 # I've commented them out to reduce redundancy but if an error occurs you can see what is necessary. 
-#library(splusTimeDate)
-#library("jsonlite")
+#library(jsonlite)
 #library(tidyverse)
-#library(selectr)
-#library(httr)
-#library(sf)
 #library(janitor)
+#library(lubridate)
+#downloads_path <- "."
 
 master_list <- st_read("data/source/ltc/mo_xl_ltc_facilities.geojson") %>%
   mutate(p_id = as.character(p_id))
 
-## Long term care API queries.
-write_ltc_data <- function(id) {
+get_ltc_data <- function(st, uuid) {
   pages <- list()
-  more <- TRUE
-  #many of these need to be reset in function
+  more <- T
   i <- 0
-  p <- 0
-  a <- 1
-  #state specification can be done here
-  state <- c("MO", "IL", "KS", "OK")
-  #migrate to function, allow for parallelization, parallelize across states? sort dataframe afterwards
   while(more){
     url <- paste("https://data.cms.gov/data-api/v1/dataset/", uuid, 
-               "/data?filter[provider_state]=", state[a], "&size=2000&offset=", 
-               i*2000, sep = '')
-    mydata <- fromJSON(url)
-    message("Retrieving page ", i, " from ", state[a])
-    message("Nursing homes sampled: ", nrow(mydata))
-    message(url)
+                 "/data?filter[provider_state]=", st, "&size=1500&offset=", 
+                 i*1500, sep = '')
+    mydata <- jsonlite::fromJSON(url)
+    pages[[i+1]] <- mydata
     i <- i + 1
-    p <- p + 1
-    pages[[p+1]] <- mydata
-    if (nrow(mydata) < 2000) {
-      a <- a + 1
-      message("New state ", state[a])
+    if (nrow(mydata) < 1500) {
+      more <- F
       i <- 0
-      if (length(state) < a) {
-        more <- FALSE 
-      }
     }
   }
-  covid <- rbind_pages(pages)
-  covid <- as.data.frame(covid)
-  write.csv(covid, paste0(downloads_path, "/COVID-19 Nursing Home Data.csv"), row.names=FALSE)
+  return(as.data.frame(jsonlite::rbind_pages(pages)))
 }
 
-# time handling 
-library(V8)
-# Check date of file vs api update date
-file_date <- as.Date(strtrim(file.info(paste0(downloads_path, "/COVID-19 Nursing Home Data.csv"))$mtime, 10))
-url <- "https://data.cms.gov/covid-19/covid-19-nursing-home-data/api-docs"
-# create session
-page <- rvest::session(url)
-# pull session update date
-update_date <- as.Date(substring(page$response$headers$`last-modified`, first = 6, last = 16), "%d %B %Y")
-week_diff <- abs(as.double(difftime(update_date, file_date, units = 'weeks')))
-print(paste0("Difference between last file write and data update is ", toString(week_diff), " weeks"))
-if (week_diff > 1.0 | is.na(week_diff) == T) {
-  write_ltc_data(uuid)
+concat_ltc_data <- function(uuid) {
+  x1 <- get_ltc_data("MO", uuid)
+  x2 <- get_ltc_data("IL", uuid)
+  x3 <- get_ltc_data("KS", uuid)
+  x4 <- get_ltc_data("OK", uuid)
+  x5 <- rbind(x1, x2, x3, x4)
+  write.csv(x5, paste0(downloads_path, "/COVID-19 Nursing Home Data.csv"), row.names=FALSE)
 }
+
+pull_data <- function() {
+  uuid <- colnames(read.csv(url("https://data.cms.gov/data-api/v1/slug?path=%2Fcovid-19%2Fcovid-19-nursing-home-data"))[17])
+  uuid <- gsub("uuid.", "", uuid, fixed=TRUE)
+  uuid <- gsub(".", "-", uuid, fixed=TRUE)
+  if (file.exists(paste0(downloads_path, "/old_uuid.rds"))) {
+    if (uuid != readRDS(file = paste0(downloads_path, "/old_uuid.rds"))) {concat_ltc_data(uuid)}
+  } else {concat_ltc_data(uuid)}
+  saveRDS(uuid, file = paste0(downloads_path, "/old_uuid.rds"))
+}
+
+system.time(pull_data())
 
 covid <- read_csv(file = paste0(downloads_path, "/COVID-19 Nursing Home Data.csv")) %>% 
-  clean_names()
-
+  janitor::clean_names()
 
 ## county data
 county <- read_csv(file = "data/county/county_full.csv")
@@ -89,7 +72,8 @@ mo_xl <- st_read("data/county/daily_snapshot_mo_xl.geojson") %>%
 covid <- filter(covid, federal_provider_number %in% master_list$p_id)
 
 ## Column selection and naming.
-covid <- covid %>%
+#covid <- 
+covid %>%
   select(week_ending, federal_provider_number,
          submitted_data:total_number_of_occupied_beds, 
          total_resident_confirmed_covid_19_cases_per_1_000_residents,
@@ -104,8 +88,8 @@ covid <- covid %>%
     r_admit = residents_total_admissions_covid_19,
     r_new_confirm = residents_weekly_confirmed_covid_19,
     r_confirm = residents_total_confirmed_covid_19,
-    r_new_suspect = residents_weekly_suspected_covid_19,
-    r_suspect = residents_total_suspected_covid_19,
+    #r_new_suspect = residents_weekly_suspected_covid_19,
+    #r_suspect = residents_total_suspected_covid_19,
     r_new_deaths_all = residents_weekly_all_deaths,
     r_deaths_all = residents_total_all_deaths,
     r_new_deaths_covid = residents_weekly_covid_19_deaths,
@@ -116,13 +100,14 @@ covid <- covid %>%
     r_deaths_rate = total_resident_covid_19_deaths_per_1_000_residents,
     s_new_confirm = staff_weekly_confirmed_covid_19,
     s_confirm = staff_total_confirmed_covid_19,
-    s_new_suspect = staff_weekly_suspected_covid_19,
-    s_suspect = staff_total_suspected_covid_19,
+    #s_new_suspect = staff_weekly_suspected_covid_19,
+    #s_suspect = staff_total_suspected_covid_19,
     s_new_deaths_covid = staff_weekly_covid_19_deaths,
     s_deaths_covid = staff_total_covid_19_deaths
   )  %>%  
-  mutate(report_date = mdy(timeDate(as.character(as.Date(report_date)), in.format = "%Y-%m-%d"))) %>%  
+  mutate(report_date = lubridate::mdy(splusTimeDate::timeDate(as.character(report_date)))) %>%  
   arrange(p_id, report_date) -> covid
+
 
 # ==== # === # === # === # === # === # === # === # === # === # === # === # === #
 
@@ -132,16 +117,22 @@ covid %>%
   group_by(p_id) %>%
   arrange(report_date) %>%
   filter(row_number() == n()) %>%
-  select(report_date, p_id, r_confirm, r_suspect, r_deaths_covid, 
-         s_confirm, s_suspect, s_deaths_covid)-> covid_latest_week
+  select(report_date, p_id, r_confirm, r_deaths_covid, 
+         s_confirm, s_deaths_covid) -> covid_latest_week
+  #select(report_date, p_id, r_confirm, r_suspect, r_deaths_covid, 
+  #       s_confirm, s_suspect, s_deaths_covid)-> covid_latest_week
+
 
 ## latest report
 covid %>%
   group_by(p_id) %>%
   arrange(report_date) %>%
   filter(row_number() %in% c(n()-1, n())) %>%
-  select(p_id, r_new_confirm, r_new_suspect, r_new_deaths_covid,
-         s_new_confirm, s_new_suspect, s_new_deaths_covid) -> covid_last_two
+  select(p_id, r_new_confirm, r_new_deaths_covid,
+         s_new_confirm, s_new_deaths_covid) -> covid_last_two
+  #select(p_id, r_new_confirm, r_new_suspect, r_new_deaths_covid,
+  #       s_new_confirm, s_new_suspect, s_new_deaths_covid) -> covid_last_two
+
 
 ## clean-up
 rm(covid)
@@ -154,10 +145,10 @@ covid_last_two %>%
   group_by(p_id) %>%
   summarise(
     r_new_confirm = sum(r_new_confirm, na.rm = TRUE), 
-    r_new_suspect = sum(r_new_suspect, na.rm = TRUE), 
+    #r_new_suspect = sum(r_new_suspect, na.rm = TRUE), 
     r_new_deaths_covid = sum(r_new_deaths_covid, na.rm = TRUE),
     s_new_confirm = sum(s_new_confirm, na.rm = TRUE), 
-    s_new_suspect = sum(s_new_suspect, na.rm = TRUE), 
+    #s_new_suspect = sum(s_new_suspect, na.rm = TRUE), 
     s_new_deaths_covid = sum(s_new_deaths_covid, na.rm = TRUE)
   ) -> covid_last_two
 
@@ -175,13 +166,13 @@ covid_latest_week %>%
   mutate(
     cases_all = r_confirm + s_confirm,
     new_cases_all = r_new_confirm + s_new_confirm,
-    suspected_cases_all = r_suspect + s_suspect,
+    #suspected_cases_all = r_suspect + s_suspect,
     deaths_all = r_deaths_covid + s_deaths_covid,
     new_deaths_all = r_new_deaths_covid + s_new_deaths_covid
   ) %>%
   select(report_date, p_id, cases_all, r_confirm, s_confirm, 
          new_cases_all, r_new_confirm, s_new_confirm, 
-         suspected_cases_all, r_suspect, s_suspect,
+         #suspected_cases_all, r_suspect, s_suspect,
          deaths_all, r_deaths_covid, s_deaths_covid,
          new_deaths_all, r_new_deaths_covid, s_new_deaths_covid) %>%
   rename(
